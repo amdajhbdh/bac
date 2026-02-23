@@ -10,23 +10,27 @@
 ## Agent Behaviors
 
 ### YouTube Daemon
+
 - Search open topics from `config/topics.yaml`
 - Download educational content via yt-dlp
 - Extract audio for offline study
 - Store in `resources/youtube/`
 
 ### Web Crawler Daemon
+
 - Scrape Mauritanian education sites: minedu.mr, bacmr.net
 - Download PDFs to `resources/web/`
 - Run every 12 hours via systemd timer
 
 ### OCR Agent (Handwritten)
+
 - Use Tesseract (free, Arabic + French support)
 - Never use paid APIs (Google Vision requires billing)
 - Store OCR'd text in database
 - Location: `resources/handwritten/`
 
 ### Database Agent
+
 - Local PostgreSQL + pgvector only
 - No cloud services requiring credit card
 - Export/import via jj for sync between devices
@@ -36,6 +40,7 @@
 All nlm commands MUST be used:
 
 ### Notebook Management
+
 ```bash
 nlm notebook create "BAC 2026 Master"     # Create master notebook
 nlm notebook list                         # List all notebooks
@@ -46,6 +51,7 @@ nlm notebook delete <id>                 # Delete
 ```
 
 ### Source Management
+
 ```bash
 nlm source add <notebook-id> <file>     # Add PDF/image/audio
 nlm source list <notebook-id>           # List sources
@@ -56,6 +62,7 @@ nlm source sync                         # Sync Drive sources
 ```
 
 ### Content Generation (USE ALL!)
+
 ```bash
 # Audio Overview (Podcast)
 nlm audio create <notebook-id>                    # Generate podcast
@@ -91,6 +98,7 @@ nlm slides create <notebook-id>
 ```
 
 ### Research & Discovery
+
 ```bash
 nlm research start <query>              # Start research
 nlm research start <query> --mode deep  # Deep research
@@ -99,6 +107,7 @@ nlm research import                      # Import results
 ```
 
 ### Export & Sharing
+
 ```bash
 nlm export gdocs <notebook-id>         # Export to Google Docs
 nlm export sheets <notebook-id>         # Export to Sheets
@@ -107,6 +116,7 @@ nlm download <notebook-id>              # Download all artifacts
 ```
 
 ### Chat Configuration
+
 ```bash
 nlm chat configure                      # Configure AI behavior
 nlm chat start <notebook-id>            # Interactive chat
@@ -115,10 +125,12 @@ nlm chat start <notebook-id>            # Interactive chat
 ## Topic Search
 
 Open topics stored in `config/topics.yaml`:
+
 - User can add: `bac config add-topic "new topic"`
 - Topics auto-discover new content
 
 Default topics:
+
 - BAC mathématiques Terminale
 - BAC physics derivatives integrals
 - Terminale C chimie organique
@@ -135,6 +147,7 @@ Default topics:
 ## Visualization
 
 Use only free tools:
+
 - manim-web (npm) - Math animations
 - mermaid-cli (npm) - Diagrams
 - katex (npm) - LaTeX rendering
@@ -145,6 +158,7 @@ NO paid services (Google Cloud Vision requires billing)
 ## History Management (jj)
 
 All changes tracked via jj:
+
 ```bash
 jj init                                  # Initialize
 jj commit -m "Add new PDF"               # Save changes
@@ -157,6 +171,7 @@ jj git import                            # Import from git
 ## Progress Tracking
 
 All progress in `progress.md`:
+
 - Daily log entries
 - Checkbox completion
 - Notes section
