@@ -1,0 +1,46 @@
+# BAC YouTube Search Topics
+# User can add more via: bac config add-topic "new topic"
+
+YOUTUBE_TOPICS:
+  # Mathematics
+  - "baccalauréat mathématiques Terminale"
+  - "dérivées intégrales exercices"
+  - "nombres complexes bac"
+  - "matrices algèbre linéaire"
+  - "arithmétique bac"
+  - "limites continuité bac"
+  
+  # Physics
+  - "physique Terminale C"
+  - "mécanique newton bac"
+  - "électromagnétisme"
+  - "optique physique"
+  - "champ électrique"
+  - "induction magnétique"
+  
+  # Chemistry
+  - "chimie organique Terminale"
+  - "alcools bac"
+  - "cinétique chimique"
+  - "équilibre chimique"
+  
+  # Biology/SVT
+  - "SVT Terminale"
+  - "génétique biologie bac"
+  - "physiologie végétale"
+  - "système nerveux"
+  - "hormones"
+  
+  # French
+  - "français bac"
+  - "dissertation français"
+  
+  # General
+  - "BAC 2025 2026"
+  - "révision baccalauréat"
+  - "examens bac"
+  
+  # International
+  - "IB mathematics"
+  - "A-Level Physics"
+  - "French Baccalaureate"
