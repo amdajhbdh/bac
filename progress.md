@@ -4,8 +4,8 @@
 
 ### Phase 1: Foundation
 - [x] Create AGENTS.md (rules)
-- [ ] Create docs/ structure
-- [ ] Initialize jj repository
+- [x] Create docs/ structure
+- [x] Initialize jj repository
 - [ ] Setup PostgreSQL + pgvector
 
 ### Phase 2: Core Tools
@@ -59,4 +59,8 @@
 - Using jj for version control
 - All 70+ PDFs located in db/pdfs/
 - NLM already authenticated with 3 existing notebooks
+- Created docs/: README.md, SETUP.md, ARCHITECTURE.md, AGENTS.md, DAEMONS.md, API.md, SYNC.md
+- Created config/topics.yaml with 35+ search topics
+- Created sql/schema.sql with full database schema
+- jj repository initialized with all files committed
 
