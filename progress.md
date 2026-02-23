@@ -12,8 +12,8 @@
 - [ ] Install aichat
 - [ ] Install yt-dlp
 - [ ] Install texlive
-- [ ] Install Node.js tools (npm)
-- [ ] Install playwright
+- [x] Install Node.js tools (katex, playwright installed)
+- [x] Install playwright
 
 ### Phase 3: Database
 - [ ] Create PostgreSQL database
@@ -31,8 +31,8 @@
 
 ### Phase 5: Agents
 - [ ] Build Rust PDF processor
-- [ ] Create Nushell CLI (bac.nu)
-- [ ] Create daemon scripts
+- [x] Create Nushell CLI (bac.nu)
+- [x] Create daemon scripts
 - [ ] Configure systemd timers
 
 ### Phase 6: Visualization
@@ -41,7 +41,7 @@
 - [ ] Setup katex
 
 ### Phase 7: Resources
-- [ ] Create directory structure
+- [x] Create directory structure
 - [ ] Setup YouTube downloader
 - [ ] Setup web crawler
 - [ ] Setup OCR pipeline
@@ -51,6 +51,16 @@
 ### Day 1 - 2026-02-23
 - Created AGENTS.md with all rules and NLM features
 - Started planning documentation
+
+### Day 2 - 2026-02-23
+- Created bac.nu main CLI
+- Created daemon scripts:
+  - daemons/youtube-daemon.nu
+  - daemons/webcrawler-daemon.nu
+  - daemons/nlm-research-daemon.nu
+  - daemons/audio-daemon.nu
+- Installed npm packages: katex, playwright
+- Created full directory structure
 
 ## Notes
 
