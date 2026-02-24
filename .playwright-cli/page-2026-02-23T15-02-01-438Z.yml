@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - paragraph [ref=e6]:
+      - strong [ref=e7]: الموقع في حلة جديدة قريبا...
+    - generic [ref=e8]:
+      - banner:
+        - text:    
+        - generic [ref=e9]:
+          - link "موقع الطالب الموريتاني موقع الطالب الموريتاني" [ref=e12] [cursor=pointer]:
+            - /url: https://rimbac.com/
+            - img "موقع الطالب الموريتاني" [ref=e14]
+            - heading "موقع الطالب الموريتاني" [level=1] [ref=e15]
+          - list [ref=e17]:
+            - listitem [ref=e18]:
+              - link "القائمة" [ref=e19] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e21]: القائمة
+        - text:   
+      - generic [ref=e24]:
+        - generic [ref=e26]:
+          - generic [ref=e28]:
+            - link "ساهم برأيك" [ref=e32] [cursor=pointer]:
+              - /url: https://rimbac.com/%d8%a7%d8%b3%d8%aa%d8%b7%d9%84%d8%a7%d8%b9-%d8%b1%d8%a3%d9%8a/
+              - generic [ref=e33]:
+                - img [ref=e35]
+                - generic [ref=e37]: ساهم برأيك
+            - link "المرحلة الابتدائية" [ref=e41] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e43]: المرحلة الابتدائية
+            - generic [ref=e45]:
+              - generic [ref=e47]:
+                - link "السنة الأولى ابتدائي" [ref=e51] [cursor=pointer]:
+                  - /url: https://rimbac.com/%d8%a7%d9%84%d8%b7%d8%a7%d9%84%d8%a8-%d8%a7%d9%84%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a/%d9%82%d8%b3%d9%85-%d8%a7%d9%84%d8%b3%d9%86%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%89-%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9/
+                  - generic [ref=e53]: السنة الأولى ابتدائي
+                - link "السنة الثانية ابتدائي" [ref=e57] [cursor=pointer]:
+                  - /url: https://rimbac.com/%d8%a7%d9%84%d8%b7%d8%a7%d9%84%d8%a8-%d8%a7%d9%84%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a/%d9%82%d8%b3%d9%85-%d8%a7%d9%84%d8%b3%d9%86%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%8a%d8%a9-%d8%a5%d8%a8%d8%aa%d8%af%d8%a7%d8%a6%d9%8a%d8%a9/
+                  - generic [ref=e59]: السنة الثانية ابتدائي
+                - link "السنة الثالثة ابتدائي" [ref=e63] [cursor=pointer]:
+                  - /url: https://rimbac.com/%d8%a7%d9%84%d8%b7%d8%a7%d9%84%d8%a8-%d8%a7%d9%84%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a/%d9%82%d8%b3%d9%85-%d8%a7%d9%84%d8%b3%d9%86%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%84%d8%ab%d8%a9-%d8%a5%d8%a8%d8%aa%d8%af%d8%a7%d8%a6%d9%8a%d8%a9/
+                  - generic [ref=e65]: السنة الثالثة ابتدائي
+              - generic [ref=e67]:
+                - link "السنة الرابعة ابتدائي" [ref=e71] [cursor=pointer]:
+                  - /url: https://rimbac.com/%d9%82%d8%b3%d9%85-%d8%a7%d9%84%d8%b3%d9%86%d8%a9-%d8%a7%d9%84%d8%b1%d8%a7%d8%a8%d8%b9%d8%a9-%d8%a5%d8%a8%d8%aa%d8%af%d8%a7%d8%a6%d9%8a%d8%a9/
+                  - generic [ref=e73]: السنة الرابعة ابتدائي
+                - link "السنة الخامسة ابتدائي" [ref=e77] [cursor=pointer]:
+                  - /url: https://rimbac.com/%d8%a7%d9%84%d8%b7%d8%a7%d9%84%d8%a8-%d8%a7%d9%84%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a/%d9%82%d8%b3%d9%85-%d8%a7%d9%84%d8%b3%d9%86%d8%a9-%d8%a7%d9%84%d8%ae%d8%a7%d9%85%d8%b3%d8%a9-%d8%a5%d8%a8%d8%aa%d8%af%d8%a7%d8%a6%d9%8a%d8%a9/
+                  - generic [ref=e79]: السنة الخامسة ابتدائي
+                - link "السنة السادسة ابتدائي" [ref=e83] [cursor=pointer]:
+                  - /url: https://rimbac.com/%d8%a7%d9%84%d8%b7%d8%a7%d9%84%d8%a8-%d8%a7%d9%84%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a/%d9%82%d8%b3%d9%85-%d8%a7%d9%84%d8%b3%d9%86%d8%a9-%d8%a7%d9%84%d8%b3%d8%a7%d8%af%d8%b3%d8%a9-%d8%a5%d8%a8%d8%aa%d8%af%d8%a7%d8%a6%d9%8a%d8%a9/
+                  - generic [ref=e85]: السنة السادسة ابتدائي
+          - generic [ref=e91]:
+            - link "المرحلة الإعدادية" [ref=e95] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e97]: المرحلة الإعدادية
+            - link "السنة الأولى إعدادي" [ref=e101] [cursor=pointer]:
+              - /url: https://rimbac.com/%d9%83%d8%aa%d8%a8-%d8%a7%d9%84%d9%85%d9%86%d9%87%d8%ac-%d8%a7%d9%84%d8%ac%d8%af%d9%8a%d8%af-%d8%a7%d9%84%d8%b3%d9%86%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%89-%d8%a5%d8%b9%d8%af%d8%a7%d8%af%d9%8a/
+              - generic [ref=e103]: السنة الأولى إعدادي
+            - link "السنة الثانية إعدادي" [ref=e107] [cursor=pointer]:
+              - /url: https://rimbac.com/%d8%a7%d9%84%d9%83%d8%aa%d8%a8-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d9%8a%d8%a9-%d9%84%d9%84%d8%b3%d9%86%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%8a%d8%a9-%d8%a5%d8%b9%d8%af%d8%a7%d8%af%d9%8a%d8%a9-3/
+              - generic [ref=e109]: السنة الثانية إعدادي
+            - link "السنة الثالثة إعدادي" [ref=e113] [cursor=pointer]:
+              - /url: https://rimbac.com/%d8%a7%d9%84%d8%ad%d9%8f%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d8%a7%d9%81%d8%aa%d8%b1%d8%a7%d8%b6%d9%8a%d8%a9-5/
+              - generic [ref=e115]: السنة الثالثة إعدادي
+            - link "السنة الرابعة إعدادي" [ref=e119] [cursor=pointer]:
+              - /url: https://rimbac.com/%d8%a7%d9%84%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a%d8%a9/%d8%a7%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1-%d9%84%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a9-%d8%af%d8%ae%d9%88%d9%84-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%88%d9%8a%d8%a9-%d8%a7%d8%a8%d8%b1%d9%8a%d9%81%d9%87/
+              - generic [ref=e121]: السنة الرابعة إعدادي
+          - generic [ref=e127]:
+            - link "المرحلة الثانوية" [ref=e131] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e133]: المرحلة الثانوية
+            - link "شعبة الآداب الأصلية" [ref=e137] [cursor=pointer]:
+              - /url: https://rimbac.com/%d8%a7%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1-%d9%84%d9%84%d8%a8%d9%83%d9%84%d9%88%d8%b1%d9%8a%d8%a7/%d8%a7%d9%84%d8%aa%d8%ad%d8%b6%d9%8a%d8%b1-%d9%84%d9%84%d8%a8%d9%83%d9%84%d9%88%d8%b1%d9%8a%d8%a7-%d8%b4%d8%b9%d8%a8%d8%a9-%d8%a7%d9%84%d8%a2%d8%af%d8%a7%d8%a8-%d8%a7%d9%84%d8%a3%d8%b5%d9%84%d9%8a/
+              - generic [ref=e139]: شعبة الآداب الأصلية
+            - link "شعبة الآداب العصرية" [ref=e143] [cursor=pointer]:
+              - /url: https://rimbac.com/%d8%a7%d9%84%d9%83%d8%aa%d8%a8-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d9%8a%d8%a9-%d9%84%d8%b4%d8%b9%d8%a8%d8%a9-%d8%a7%d9%84%d8%a2%d8%af%d8%a7%d8%a8-%d8%a7%d9%84%d8%b9%d8%b5%d8%b1%d9%8a%d8%a9/
+              - generic [ref=e145]: شعبة الآداب العصرية
+            - link "شعبة العلوم الطبيعية" [ref=e149] [cursor=pointer]:
+              - /url: https://rimbac.com/%d8%a7%d9%84%d9%83%d8%aa%d8%a8%d8%a9-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d9%8a%d8%a9-%d9%84%d8%b4%d8%b9%d8%a8%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%88%d9%85-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a%d8%b9%d9%8a/
+              - generic [ref=e151]: شعبة العلوم الطبيعية
+            - link "شعبة الرياضيات" [ref=e155] [cursor=pointer]:
+              - /url: https://rimbac.com/%d9%83%d8%aa%d8%a8-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%88%d9%8a%d8%a9-%d8%b4%d8%b9%d8%a8%d8%a9-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a%d8%a7%d8%aa/
+              - generic [ref=e157]: شعبة الرياضيات
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - link "المرحلة الجامعية" [ref=e164] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e166]: المرحلة الجامعية
+            - generic [ref=e168]:
+              - link "الجامعات و المعاهد" [ref=e172] [cursor=pointer]:
+                - /url: https://rimbac.com/category/%d8%ac%d8%a7%d9%85%d8%b9%d8%a7%d8%aa-%d9%88%d9%85%d8%b9%d8%a7%d9%87%d8%af-%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a%d8%a7/
+                - generic [ref=e173]:
+                  - img [ref=e175]
+                  - generic [ref=e177]: الجامعات و المعاهد
+              - link "المنح الدراسية" [ref=e181] [cursor=pointer]:
+                - /url: https://rimbac.com/category/%d9%85%d9%86%d8%ad-%d8%af%d8%b1%d8%a7%d8%b3%d9%8a%d8%a9/
+                - generic [ref=e182]:
+                  - img [ref=e184]
+                  - generic [ref=e186]: المنح الدراسية
+              - link "حقيبة الطالب المسلم" [ref=e190] [cursor=pointer]:
+                - /url: https://rimbac.com/%d8%ad%d9%82%d9%8a%d8%a8%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d9%84%d9%85/
+                - generic [ref=e191]:
+                  - img [ref=e193]
+                  - generic [ref=e195]: حقيبة الطالب المسلم
+          - generic [ref=e196]:
+            - link "المسابقات" [ref=e200] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e202]: المسابقات
+            - generic [ref=e204]:
+              - link "مسابقات التعليم" [ref=e208] [cursor=pointer]:
+                - /url: https://rimbac.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a%d8%a7/
+                - generic [ref=e209]:
+                  - img [ref=e211]
+                  - generic [ref=e213]: مسابقات التعليم
+              - link "مسابقات التوظيف" [ref=e217] [cursor=pointer]:
+                - /url: https://rimbac.com/%d9%85%d8%b3%d8%a7%d8%a8%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%88%d8%b8%d9%8a%d9%81/
+                - generic [ref=e218]:
+                  - img [ref=e220]
+                  - generic [ref=e222]: مسابقات التوظيف
+              - link "مواقع ضرورية" [ref=e226] [cursor=pointer]:
+                - /url: https://rimbac.com/%d9%85%d9%88%d8%a7%d9%82%d8%b9-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a%d8%a9/
+                - generic [ref=e227]:
+                  - img [ref=e229]
+                  - generic [ref=e259]: مواقع ضرورية
+      - contentinfo [ref=e262]:
+        - generic [ref=e266]:
+          - generic [ref=e269]:
+            - link "الصفحة الرئيسية" [ref=e271] [cursor=pointer]:
+              - /url: https://rimbac.com/
+              - mark [ref=e272]: الصفحة الرئيسية
+            - link "الإبلاغ عن خطأ" [ref=e274] [cursor=pointer]:
+              - /url: https://rimbac.com/%d8%b5%d9%81%d8%ad%d8%a9-%d8%a7%d9%84%d8%a5%d8%a8%d9%84%d8%a7%d8%ba-%d8%b9%d9%86-%d8%a7%d9%84%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1/
+              - mark [ref=e275]: الإبلاغ عن خطأ
+          - generic [ref=e278]:
+            - heading [level=2]
+        - generic [ref=e283]: © حقوق النشر 2026، جميع الحقوق محفوظة | موقع الطالب الموريتاني
+      - link " زر الذهاب إلى الأعلى" [ref=e284] [cursor=pointer]:
+        - /url: "#go-to-tie-body"
+        - generic [ref=e285]: 
+        - generic [ref=e286]: زر الذهاب إلى الأعلى
+  - generic [ref=e287]:
+    - link "ar العربية" [ref=e288] [cursor=pointer]:
+      - /url: "#"
+      - img "ar" [ref=e289]
+      - text: العربية
+    - link "fr Français" [ref=e290] [cursor=pointer]:
+      - /url: "#"
+      - img "fr" [ref=e291]
+      - text: Français
+  - link "StatCounter - Free Web Tracker and Counter" [ref=e293] [cursor=pointer]:
+    - /url: https://www.statcounter.com/
+    - img "StatCounter - Free Web Tracker and Counter" [ref=e294]
+  - text:  
+  - generic [ref=e295]: mobile

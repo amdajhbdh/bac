@@ -1,0 +1,81 @@
+services:
+  garage:
+    image: dxflrs/garage:v1.3.1
+    container_name: bac-garage
+    ports:
+      - "3900:3900"  # S3 API
+      - "3901:3901"  # RPC
+      - "3902:3902"  # Web
+      - "3903:3903"  # Web
+    volumes:
+      - garage-data:/data
+      - ./config/garage.toml:/etc/garage.toml:ro
+    environment:
+      - RUST_LOG=info
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3900/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: bac-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+        reservations:
+          memory: 4G
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  api:
+    build:
+      context: ./src/api
+      dockerfile: Dockerfile
+    container_name: bac-api
+    ports:
+      - "8080:8080"
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - GARAGE_ENDPOINT=http://garage:3900
+      - OLLAMA_ENDPOINT=http://ollama:11434
+    depends_on:
+      database:
+        condition: service_healthy
+      garage:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # frontend:
+  #   build:
+  #     context: ./src/web
+  #   container_name: bac-web
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - API_URL=http://api:8080
+  #   depends_on:
+  #     - api
+  #   restart: unless-stopped
+
+volumes:
+  garage-data:
+  ollama-data:
+
+# Networks for service communication
+networks:
+  default:
+    name: bac-network

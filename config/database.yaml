@@ -1,0 +1,40 @@
+# BAC Unified - Database Configuration
+# Neon PostgreSQL + pgvector
+
+database:
+  # Neon connection (use environment variable in production)
+  url: "postgresql://neondb_owner:npg_ubkCLmerS03Z@ep-fragrant-violet-ai2ew4vx-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require"
+  
+  # Connection pool settings
+  max_connections: 10
+  idle_timeout: 30000
+  
+  # Neon-specific
+  pooler_mode: "transaction"
+
+# AI Configuration
+ai:
+  # Ollama
+  ollama_endpoint: "http://localhost:11434"
+  model: "llama3.2:3b"
+  temperature: 0.3
+  max_tokens: 1024
+
+# Storage Configuration
+storage:
+  # Garage S3-compatible
+  endpoint: "http://localhost:3900"
+  region: "us-east-1"
+  access_key: "garage_test_key"
+  secret_key: "garage_test_secret"
+  bucket: "bac-unified"
+  
+  # Local fallback
+  local_dir: "./data/storage"
+
+# Feature flags
+features:
+  predictions: true
+  animations: true
+  gamification: true
+  leaderboard: true

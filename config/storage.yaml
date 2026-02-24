@@ -1,0 +1,11 @@
+# Storage Configuration
+storage:
+  # Garage S3-compatible
+  endpoint: "http://localhost:3900"
+  region: "us-east-1"
+  access_key: "GKd001902bdf51fcdbeaf4d4a5"
+  secret_key: "e92117c54a666734d6809f75251c09862bffe6ed610754f2e6e31732267e80b5"
+  bucket: "new-bucket"
+  
+  # Local fallback
+  data_dir: "./data/storage"

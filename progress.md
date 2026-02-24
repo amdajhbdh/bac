@@ -1,52 +1,113 @@
-# BAC Hyper-Swarm Progress
+# BAC Unified - National Exam Preparation System
 
-<!--toc:start-->
-- [BAC Hyper-Swarm Progress](#bac-hyper-swarm-progress)
-  - [Implementation Status](#implementation-status)
-    - [Phase 1: Foundation](#phase-1-foundation)
-    - [Phase 2: Core Tools](#phase-2-core-tools)
-    - [Phase 3: Database](#phase-3-database)
-    - [Phase 4: NotebookLM Integration](#phase-4-notebooklm-integration)
-    - [Phase 5: Agents](#phase-5-agents)
-    - [Phase 6: Visualization](#phase-6-visualization)
-    - [Phase 7: Resources](#phase-7-resources)
-  - [Daily Log](#daily-log)
-    - [Day 1 - 2026-02-23](#day-1-2026-02-23)
-    - [Day 2 - 2026-02-23](#day-2-2026-02-23)
-    - [Day 3 - 2026-02-23](#day-3-2026-02-23)
-    - [Day 4 - 2026-02-23](#day-4-2026-02-23)
-    - [Day 5 - 2026-02-23](#day-5-2026-02-23)
-    - [Day 6 - 2026-02-23](#day-6-2026-02-23)
-    - [Day 7 - 2026-02-23 (Final Integration)](#day-7-2026-02-23-final-integration)
-    - [Day 8 - 2026-02-23 (System Completion)](#day-8-2026-02-23-system-completion)
-  - [Final Architecture](#final-architecture)
-  - [CLI Commands](#cli-commands)
-  - [Notes](#notes)
-  - [Completion Status](#completion-status)
-<!--toc:end-->
+## Project Transformation
+
+**IMPORTANT:** This project has evolved from a personal study assistant to a **national unified exam preparation system** for Mauritania's BAC C students.
+
+### New Vision
+- **Country-wide** unified question bank
+- **Multi-modal input**: images, PDFs, URLs, handwritten notes
+- **AI-powered solver**: with step-by-step solutions and animations
+- **Question prediction**: based on historical patterns
+- **Noon animations**: Rust-based animation engine (faster than manim)
+- **Ministry of Education** owned and managed
+- **Full audit trail** with blockchain
+
+---
 
 ## Implementation Status
 
-### Phase 1: Foundation
-
+### Phase 1: Foundation (COMPLETED)
 - [x] Create AGENTS.md (rules)
 - [x] Create docs/ structure
 - [x] Initialize jj repository
 - [x] Setup PostgreSQL + pgvector
+- [x] Clone noon animation engine
 
-### Phase 2: Core Tools
+### Phase 2: API Development (IN PROGRESS)
+- [x] Create Go API server structure
+- [x] Setup authentication service
+- [x] Create solver service with Ollama integration
+- [x] Create submission service (OCR pipeline)
+- [x] Create prediction service
 
-- [x] Install aichat
-- [x] Install yt-dlp
-- [x] Install texlive
-- [x] Install Node.js tools (katex, playwright installed)
-- [x] Install playwright
+### Phase 3: Animation System (NEXT)
+- [ ] Setup noon examples for math
+- [ ] Create AI-to-Noon code generator
+- [ ] Build video rendering pipeline
 
-### Phase 3: Database
+### Phase 4: Database
+- [ ] Create unified questions schema
+- [ ] Setup user management
+- [ ] Setup predictions storage
+- [ ] Setup MinIO storage
 
-- [x] Create PostgreSQL database
-- [x] Setup pgvector extension
-- [x] Create schema (documents, chunks, concepts, questions)
+### Phase 5: CLI Enhancement
+- [ ] Add solve command with animation
+- [ ] Add submit command
+- [ ] Add predict command
+- [ ] Add leaderboard
+
+---
+
+## Project Structure
+
+```
+bac/
+├── src/
+│   ├── api/              # Go API server
+│   │   ├── main.go
+│   │   └── internal/
+│   │       ├── handlers/
+│   │       ├── services/
+│   │       └── models/
+│   ├── noon/             # Animation engine (cloned)
+│   └── python/           # Python services
+├── bac.nu               # CLI entry point
+├── daemons/            # Background services
+├── docs/               # Documentation
+│   └── BAC-UNIFIED-PLAN.md  # Full plan
+└── config/             # Configuration
+```
+
+---
+
+## CLI Commands (Updated)
+
+```bash
+# Solve with animation
+bac solve "∫x²dx" --animate
+bac solve image.jpg
+
+# Submit content
+bac submit image.jpg --subject physics
+bac submit pdf exam.pdf
+
+# Predictions (PUBLIC)
+bac predict --subject math
+bac predict --year 2027
+
+# Progress
+bac stats
+bac leaderboard
+```
+
+---
+
+## Completion Status
+
+**System Phase:** Foundation + API Structure Complete
+**Next:** Animation System + Database + CLI
+
+---
+
+## Notes
+
+- Using noon (https://github.com/yongkyuns/noon) for animations
+- MinIO for local S3-compatible storage
+- Go API with JWT auth
+- PostgreSQL + pgvector for database
+- Fine-tuned Ollama models for solving
 
 ### Phase 4: NotebookLM Integration
 
