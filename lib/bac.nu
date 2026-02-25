@@ -1,9 +1,4 @@
-# ============================================================================
-# BAC UNIFIED - Complete CLI Module
-# Unified Nushell CLI for all services
-# ============================================================================
 
-# Load configuration
 export def load-config [] {
     let config = {
         # Database (Neon cloud)
@@ -28,9 +23,6 @@ export def load-config [] {
     $config
 }
 
-# ============================================================================
-# DATABASE MODULE
-# ============================================================================
 
 export def db-query [sql: string] {
     let config = (load-config)
@@ -97,10 +89,6 @@ export def db-get-stats [] {
     $result
 }
 
-# ============================================================================
-# AI MODULE
-# ============================================================================
-
 export def ai-solve [problem: string] {
     let config = (load-config)
     let endpoint = $config.ollama_endpoint
@@ -134,10 +122,6 @@ export def ai-detect-type [problem: string, subject: string] {
     
     "math"
 }
-
-# ============================================================================
-# STORAGE MODULE
-# ============================================================================
 
 export def storage-upload [file: string, name: string] {
     let config = (load-config)

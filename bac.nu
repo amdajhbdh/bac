@@ -91,7 +91,7 @@ def cmd-solve [args: list] {
         print "%(char-esc)[1;32mSolution:%(char-reset)"
         print $result.solution
         print ""
-        print $"%(char-esc)[1;33m✓ Solved by: ($result.solver)%(char-reset)"
+        print $"✓ Solved by: ($result.solver)"
         
         # Save to database
         (save-to-database $problem $result.solution $subject)
