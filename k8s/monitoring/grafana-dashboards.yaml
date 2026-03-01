@@ -1,0 +1,320 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grafana-dashboards
+  labels:
+    app: grafana
+data:
+  bac-api-dashboard.json: |
+    {
+      "dashboard": {
+        "title": "BAC API Dashboard",
+        "tags": ["bac", "api"],
+        "timezone": "browser",
+        "panels": [
+          {
+            "title": "Request Rate",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+            "targets": [
+              {
+                "expr": "sum(rate(http_requests_total[5m])) by (method, status)",
+                "legendFormat": "{{method}} - {{status}}"
+              }
+            ]
+          },
+          {
+            "title": "Latency (P95)",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0},
+            "targets": [
+              {
+                "expr": "histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le))",
+                "legendFormat": "P95 Latency"
+              }
+            ]
+          },
+          {
+            "title": "Error Rate",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8},
+            "targets": [
+              {
+                "expr": "sum(rate(http_requests_total{status=~\"5..\"}[5m])) / sum(rate(http_requests_total[5m]))",
+                "legendFormat": "Error Rate"
+              }
+            ]
+          },
+          {
+            "title": "Active Connections",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8},
+            "targets": [
+              {
+                "expr": "sum(http_connections_active)",
+                "legendFormat": "Active Connections"
+              }
+            ]
+          },
+          {
+            "title": "Cache Hit Rate",
+            "type": "gauge",
+            "gridPos": {"h": 8, "w": 8, "x": 0, "y": 16},
+            "targets": [
+              {
+                "expr": "rate(cache_hits_total[5m]) / (rate(cache_hits_total[5m]) + rate(cache_misses_total[5m]))",
+                "legendFormat": "Hit Rate"
+              }
+            ]
+          },
+          {
+            "title": "Memory Usage",
+            "type": "gauge",
+            "gridPos": {"h": 8, "w": 8, "x": 8, "y": 16},
+            "targets": [
+              {
+                "expr": "container_memory_usage_bytes{pod=~\"bac-api-.*\"} / container_spec_memory_limit_bytes{pod=~\"bac-api-.*\"}",
+                "legendFormat": "Memory"
+              }
+            ]
+          },
+          {
+            "title": "CPU Usage",
+            "type": "gauge",
+            "gridPos": {"h": 8, "w": 8, "x": 16, "y": 16},
+            "targets": [
+              {
+                "expr": "sum(rate(container_cpu_usage_seconds_total{pod=~\"bac-api-.*\"}[5m])) / sum(container_spec_cpu_quota{pod=~\"bac-api-.*\"}/container_spec_cpu_period{pod=~\"bac-api-.*\"})",
+                "legendFormat": "CPU"
+              }
+            ]
+          }
+        ],
+        "refresh": "10s",
+        "time": {
+          "from": "now-1h",
+          "to": "now"
+        }
+      }
+    }
+
+  bac-agent-dashboard.json: |
+    {
+      "dashboard": {
+        "title": "BAC Agent Dashboard",
+        "tags": ["bac", "agent"],
+        "timezone": "browser",
+        "panels": [
+          {
+            "title": "Active Tasks",
+            "type": "stat",
+            "gridPos": {"h": 6, "w": 8, "x": 0, "y": 0},
+            "targets": [
+              {
+                "expr": "agent_tasks_active",
+                "legendFormat": "Active"
+              }
+            ]
+          },
+          {
+            "title": "Tasks Completed",
+            "type": "graph",
+            "gridPos": {"h": 6, "w": 8, "x": 8, "y": 0},
+            "targets": [
+              {
+                "expr": "rate(agent_tasks_completed_total[5m])",
+                "legendFormat": "Completed/sec"
+              }
+            ]
+          },
+          {
+            "title": "Task Failures",
+            "type": "graph",
+            "gridPos": {"h": 6, "w": 8, "x": 16, "y": 0},
+            "targets": [
+              {
+                "expr": "rate(agent_tasks_failed_total[5m])",
+                "legendFormat": "Failed/sec"
+              }
+            ]
+          },
+          {
+            "title": "Memory Usage by Pod",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 0, "y": 6},
+            "targets": [
+              {
+                "expr": "container_memory_usage_bytes{pod=~\"bac-agent-.*\"}",
+                "legendFormat": "{{pod}}"
+              }
+            ]
+          },
+          {
+            "title": "CPU Usage by Pod",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 12, "y": 6},
+            "targets": [
+              {
+                "expr": "sum(rate(container_cpu_usage_seconds_total{pod=~\"bac-agent-.*\"}[5m])) by (pod)",
+                "legendFormat": "{{pod}}"
+              }
+            ]
+          }
+        ],
+        "refresh": "10s",
+        "time": {
+          "from": "now-1h",
+          "to": "now"
+        }
+      }
+    }
+
+  ollama-dashboard.json: |
+    {
+      "dashboard": {
+        "title": "Ollama Dashboard",
+        "tags": ["bac", "ollama", "ai"],
+        "timezone": "browser",
+        "panels": [
+          {
+            "title": "Request Rate",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+            "targets": [
+              {
+                "expr": "rate(ollama_requests_total[5m])",
+                "legendFormat": "Requests/sec"
+              }
+            ]
+          },
+          {
+            "title": "Inference Latency",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0},
+            "targets": [
+              {
+                "expr": "histogram_quantile(0.50, sum(rate(ollama_request_duration_seconds_bucket[5m])) by (le))",
+                "legendFormat": "P50"
+              },
+              {
+                "expr": "histogram_quantile(0.95, sum(rate(ollama_request_duration_seconds_bucket[5m])) by (le))",
+                "legendFormat": "P95"
+              }
+            ]
+          },
+          {
+            "title": "Model Load Time",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8},
+            "targets": [
+              {
+                "expr": "ollama_model_load_duration_seconds",
+                "legendFormat": "Load Time"
+              }
+            ]
+          },
+          {
+            "title": "Active Requests",
+            "type": "stat",
+            "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8},
+            "targets": [
+              {
+                "expr": "ollama_requests_active",
+                "legendFormat": "Active"
+              }
+            ]
+          },
+          {
+            "title": "GPU Usage",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 0, "y": 16},
+            "targets": [
+              {
+                "expr": "gpu_utilization_percentage",
+                "legendFormat": "GPU %"
+              }
+            ]
+          },
+          {
+            "title": "Memory Usage",
+            "type": "graph",
+            "gridPos": {"h": 8, "w": 12, "x": 12, "y": 16},
+            "targets": [
+              {
+                "expr": "gpu_memory_used_bytes / gpu_memory_total_bytes * 100",
+                "legendFormat": "Memory %"
+              }
+            ]
+          }
+        ],
+        "refresh": "10s",
+        "time": {
+          "from": "now-1h",
+          "to": "now"
+        }
+      }
+    }
+
+  infrastructure-dashboard.json: |
+    {
+      "dashboard": {
+        "title": "Infrastructure Overview",
+        "tags": ["bac", "infrastructure"],
+        "timezone": "browser",
+        "panels": [
+          {
+            "title": "Cluster CPU Usage",
+            "type": "gauge",
+            "gridPos": {"h": 8, "w": 8, "x": 0, "y": 0},
+            "targets": [
+              {
+                "expr": "sum(rate(container_cpu_usage_seconds_total[5m])) / sum(container_spec_cpu_quota/container_spec_cpu_period) * 100",
+                "legendFormat": "CPU %"
+              }
+            ]
+          },
+          {
+            "title": "Cluster Memory Usage",
+            "type": "gauge",
+            "gridPos": {"h": 8, "w": 8, "x": 8, "y": 0},
+            "targets": [
+              {
+                "expr": "sum(container_memory_usage_bytes) / sum(container_spec_memory_limit_bytes) * 100",
+                "legendFormat": "Memory %"
+              }
+            ]
+          },
+          {
+            "title": "Pod Count",
+            "type": "stat",
+            "gridPos": {"h": 8, "w": 8, "x": 16, "y": 0},
+            "targets": [
+              {
+                "expr": "count(kube_pod_info)",
+                "legendFormat": "Pods"
+              }
+            ]
+          },
+          {
+            "title": "Node Resources",
+            "type": "table",
+            "gridPos": {"h": 12, "w": 24, "x": 0, "y": 8},
+            "targets": [
+              {
+                "expr": "kube_node_status_allocatable{resource='cpu'}",
+                "legendFormat": "CPU Cores"
+              },
+              {
+                "expr": "kube_node_status_allocatable{resource='memory'}",
+                "legendFormat": "Memory"
+              }
+            ]
+          }
+        ],
+        "refresh": "30s",
+        "time": {
+          "from": "now-6h",
+          "to": "now"
+        }
+      }
+    }

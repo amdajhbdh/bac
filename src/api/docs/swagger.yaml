@@ -1,0 +1,291 @@
+basePath: /api/v1
+host: localhost:8080
+info:
+  contact:
+    email: support@bac-unified.mr
+    name: BAC Unified Team
+    url: https://bac-unified.mr
+  description: AI-powered exam preparation platform for Mauritania's BAC C students
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: BAC Unified API
+  version: "1.0"
+paths:
+  /leaderboard:
+    get:
+      consumes:
+      - application/json
+      description: Get rankings of top students
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Get leaderboard
+      tags:
+      - public
+  /practice/{session}/end:
+    post:
+      consumes:
+      - application/json
+      description: End a practice session and get score
+      parameters:
+      - description: Session ID
+        in: path
+        name: session
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: End practice session
+      tags:
+      - practice
+  /practice/answer:
+    post:
+      consumes:
+      - application/json
+      description: Submit an answer during practice
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Submit answer
+      tags:
+      - practice
+  /practice/start:
+    post:
+      consumes:
+      - application/json
+      description: Begin a new practice session
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Start practice session
+      tags:
+      - practice
+  /questions:
+    get:
+      consumes:
+      - application/json
+      description: Get a paginated list of questions
+      parameters:
+      - description: Page number
+        in: query
+        name: page
+        type: integer
+      - description: Items per page
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: List all questions
+      tags:
+      - questions
+    post:
+      consumes:
+      - application/json
+      description: Add a new question to the database
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Create a new question
+      tags:
+      - questions
+  /questions/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Remove a question from the database
+      parameters:
+      - description: Question ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Delete a question
+      tags:
+      - questions
+    get:
+      consumes:
+      - application/json
+      description: Get details of a specific question
+      parameters:
+      - description: Question ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Get a question by ID
+      tags:
+      - questions
+    put:
+      consumes:
+      - application/json
+      description: Update an existing question
+      parameters:
+      - description: Question ID
+        in: path
+        name: id
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Update a question
+      tags:
+      - questions
+  /subjects:
+    get:
+      consumes:
+      - application/json
+      description: Get all available subjects
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: List subjects
+      tags:
+      - public
+  /user/badges:
+    get:
+      consumes:
+      - application/json
+      description: Get all badges earned by the user
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Get user badges
+      tags:
+      - user
+  /user/me:
+    get:
+      consumes:
+      - application/json
+      description: Get the current user's profile information
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Get user profile
+      tags:
+      - user
+    put:
+      consumes:
+      - application/json
+      description: Update the current user's profile
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Update user profile
+      tags:
+      - user
+  /user/progress:
+    get:
+      consumes:
+      - application/json
+      description: Get learning progress statistics
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Get user progress
+      tags:
+      - user
+  /user/stats:
+    get:
+      consumes:
+      - application/json
+      description: Get detailed user statistics
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Get user statistics
+      tags:
+      - user
+securityDefinitions:
+  BearerAuth:
+    description: Type "Bearer" followed by a space and JWT token.
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

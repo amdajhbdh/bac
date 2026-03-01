@@ -1,0 +1,39 @@
+services:
+  - name: bac-api
+    type: web
+    region: virginia
+    buildCommand: cd src/api && go build -o bac-api .
+    startCommand: ./bac-api
+    envVars:
+      - key: PORT
+        value: "8080"
+    env:
+      - key: NEON_DB_URL
+        value: ${NEON_DB_URL}
+      - key: TURSO_DB_URL
+        value: ${TURSO_DB_URL}
+      - key: REDIS_URL
+        value: ${REDIS_URL}
+      - key: JWT_SECRET
+        value: ${JWT_SECRET}
+      - key: OLLAMA_URL
+        value: ${OLLAMA_URL}
+    repo: https://github.com/bac-unified/bac
+    branch: main
+
+  - name: bac-agent
+    type: web
+    region: virginia
+    buildCommand: cd src/agent && go build -o agent .
+    startCommand: ./agent worker
+    env:
+      - key: NEON_DB_URL
+        value: ${NEON_DB_URL}
+      - key: TURSO_DB_URL
+        value: ${TURSO_DB_URL}
+      - key: REDIS_URL
+        value: ${REDIS_URL}
+      - key: OLLAMA_URL
+        value: ${OLLAMA_URL}
+    repo: https://github.com/bac-unified/bac
+    branch: main

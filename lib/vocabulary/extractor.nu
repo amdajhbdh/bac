@@ -1,18 +1,10 @@
-# ============================================================================
-# FRENCH VOCABULARY EXTRACTOR
-# Extracts French words from BAC exam PDFs for Arabic translation
-# ============================================================================
-
-# ============================================================================
-# MAIN VOCABULARY EXTRACTOR
-# ============================================================================
 
 export def extract-vocabulary [
-    --source: string = "pdfs"  # pdfs, database, text
-    --subject: string = ""      # math, pc, svt, chimie
-    --min-frequency: int = 2   # minimum occurrences
+    --source: string = "pdfs"  
+    --subject: string = ""    
+    --min-frequency: int = 2   
 ] {
-    print "%(char-esc)[1;36m📚 Extracting French Vocabulary...%(char-reset)"
+    print " Extracting French Vocabulary...%(char-reset)"
     
     let words = match $source {
         "pdfs" => (extract-from-pdfs $subject $min-frequency)

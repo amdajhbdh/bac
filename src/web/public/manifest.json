@@ -1,0 +1,119 @@
+{
+  "name": "BAC Unified",
+  "short_name": "BAC",
+  "description": "National AI-powered exam preparation system for Mauritania's BAC C students",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "fr",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "BAC Unified Dashboard"
+    },
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "BAC Unified Mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Solve Problem",
+      "short_name": "Solve",
+      "description": "Solve a math or physics problem",
+      "url": "/solve",
+      "icons": [
+        {
+          "src": "/icons/solve.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Practice",
+      "short_name": "Practice",
+      "description": "Start a practice session",
+      "url": "/practice",
+      "icons": [
+        {
+          "src": "/icons/practice.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Predictions",
+      "short_name": "Predict",
+      "description": "View exam predictions",
+      "url": "/predictions",
+      "icons": [
+        {
+          "src": "/icons/predict.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

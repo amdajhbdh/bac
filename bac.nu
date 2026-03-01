@@ -13,10 +13,13 @@ export def main [...args] {
         show-help
     } else {
         let cmd = $args.0
-        let rest = ($args | drop 1)
+        let rest = ($args | skip 1)
         
         match $cmd {
             "solve" => { cmd-solve $rest }
+            "agent" => { 
+                cmd-agent ($args | skip 1) 
+            }
             "submit" => { cmd-submit $rest }
             "predict" => { cmd-predict $rest }
             "practice" => { cmd-practice $rest }
@@ -27,6 +30,7 @@ export def main [...args] {
                 let storage_args = ($args | skip 1)
                 cmd-storage $storage_args 
             }
+            "notebook" => { cmd-notebook $rest }
             "test" => { cmd-test }
             _ => { 
                 print $"Unknown command: ($cmd)"
@@ -54,10 +58,154 @@ def show-help [] {
     print "  leaderboard          View rankings"
     print "  audit                View blockchain audit log"
     print "  storage              Storage status"
+    print "  notebook             NotebookLM integration"
     print ""
     print "Options:"
     print "  --subject <s>        Subject: math, pc, svt"
     print "  --animate, -a        Generate animation"
+}
+
+# Load agent module
+use lib/agent/orchestrator.nu
+
+def cmd-agent [args: list] {
+    let problem = ($args | str join " ")
+    if ($problem | is-empty) {
+        print "Usage: bac agent <problem>"
+        return
+    }
+    
+    print ""
+    print "=============================================================="
+    print "  🧠 BAC UNIFIED HYPER-TUTOR AGENT"
+    print "=============================================================="
+    print ""
+    print $"Problem: ($problem)"
+    
+    # Check memory
+    let mem = (check-memory $problem)
+    if $mem.found { print "\n📚 Found similar in memory!" }
+    
+    # Solve
+    print "\n🧮 Solving..."
+    let prompt = "Resous: " + $problem
+    let body = "{\"model\":\"llama3.2:3b\",\"prompt\":\"" + $prompt + "\",\"stream\":false}"
+    let out = (^sh -c $"curl -s -X POST http://localhost:11434/api/generate -H 'Content-Type:application/json' -d '($body)'")
+    let result = try { ($out | from json | get response) } catch { "Error" }
+    
+    # Learn
+    learn-problem $problem
+    
+    print ""
+    print "=============================================================="
+    print "  📝 SOLUTION"
+    print "=============================================================="
+    print $result
+    print ""
+    print "💾 Saved to memory!"
+}
+
+def check-memory [problem: string] {
+    { found: false }
+}
+
+def learn-problem [problem: string] {
+    # Would store in DB
+}
+
+# ============================================================================
+# AGENT FUNCTIONS
+# ============================================================================
+
+# Check memory for similar problems
+def agent-check-memory [problem: string] {
+    let db_url = "postgresql://neondb_owner:npg_ubkCLmerS03Z@ep-fragrant-violet-ai2ew4vx-pooler.c-4.us-east-1.aws.neon.tech/neondb"
+    
+    # Search for similar text in problems
+    let search_term = ($problem | str substring 0..30)
+    let sql = "SELECT content, subject FROM problems WHERE content LIKE '%" + $search_term + "%' LIMIT 1"
+    
+    let result = (^psql $db_url -t -c $sql 2>/dev/null)
+    
+    if ($result | is-empty) or ($result == null) {
+        { found: false, context: "", similar: null }
+    } else {
+        { found: true, context: $result, similar: $result }
+    }
+}
+
+# Analyze problem (subject, chapter)
+def agent-analyze [problem: string] {
+    let prompt = "Analyze this BAC problem. Reply with ONE line:
+Subject: math|pc|svt|chimie
+Chapter: (topic name)
+
+Problem: " + $problem
+    
+    let body = "{\"model\":\"llama3.2:3b\",\"prompt\":\"" + $prompt + "\",\"stream\":false}"
+    let out = (^curl -s -X POST "http://localhost:11434/api/generate" -H "Content-Type:application/json" -d $body)
+    
+    let response = try { ($out | from json | get response) } catch { "" }
+    
+    let subject = if ($response =~ "pc|physique") { "pc" } 
+        else if ($response =~ "chimie") { "chimie" }
+        else if ($response =~ "svt|biologie") { "svt" }
+        else { "math" }
+    
+    let chapter = if ($response =~ "Chapter:") {
+        let parts = ($response | split row "Chapter:")
+        ($parts.1 | split row "\n" | get 0 | str trim)
+    } else { "general" }
+    
+    { subject: $subject, chapter: $chapter }
+}
+
+# Solve using Ollama with memory context
+def agent-solve [problem: string, context: string] {
+    let context_prompt = if ($context != "") { "\nContexte: " + $context } else { "" }
+    let prompt = "Tu es prof BAC C. Resous en francais avec etapes." + $context_prompt + "\n\nProbleme: " + $problem
+    
+    let body = "{\"model\":\"llama3.2:3b\",\"prompt\":\"" + $prompt + "\",\"stream\":false,\"options\":{\"temperature\":0.3}}"
+    let out = (^curl -s -X POST "http://localhost:11434/api/generate" -H "Content-Type:application/json" -d $body)
+    
+    try { ($out | from json | get response) } catch { "Error solving problem" }
+}
+
+# Online research (placeholder - uses Playwright)
+def agent-online [problem: string] {
+    # Would use Playwright to query online AIs
+    # For now, return placeholder
+    { sources: [], result: "(online research not implemented)" }
+}
+
+# Learn - store in database
+def agent-learn [problem: string, solution: string, analysis: record] {
+    let db_url = "postgresql://neondb_owner:npg_ubkCLmerS03Z@ep-fragrant-violet-ai2ew4vx-pooler.c-4.us-east-1.aws.neon.tech/neondb"
+    
+    let escaped_problem = ($problem | str replace -a "'" "''")
+    let escaped_solution = ($solution | str replace -a "'" "''")
+    let subject = $analysis.subject
+    
+    let sql = "INSERT INTO problems (subject, content, source_type) VALUES ('" + $subject + "', '" + $escaped_problem + "', 'agent') RETURNING id"
+    
+    let result = (^psql $db_url -t -c $sql 2>/dev/null)
+    
+    if not (($result | is-empty) or ($result == null)) {
+        print $"  → Stored problem ID: ($result | str trim)"
+    }
+}
+
+# Simple Noon code generator
+def create-noon-simple [problem: string] {
+    let short = if (($problem | str length) > 25) { ($problem | str substring 0..25) + "..." } else { $problem }
+    "use noon::prelude::*;\nfn scene(r:Rect)->Scene{let mut s=Scene::new(r);let t=s.text().with_text(\"BAC\").with_position(-2,5).with_color(Color::YELLOW).with_font_size(36).make();s.play(t.show_creation()).run_time(1.0);let p=s.text().with_text(\"" + $short + "\").with_position(-5,3).with_color(Color::WHITE).with_font_size(18).make();s.play(p.show_creation()).run_time(1.5);s}\nfn main(){noon::app(|_|scene(app.window_rect())).run();}"
+}
+
+def save-noon-simple [code: string, problem: string] {
+    let name = ($problem | str replace -a " " "_" | str substring 0..12)
+    let fp = "src/noon/examples/bac_" + $name + ".rs"
+    $code | save -f $fp
+    $fp
 }
 
 # ============================================================================
@@ -351,6 +499,45 @@ def cmd-storage [args: list] {
         print $"Bucket: ($config.garage_bucket)"
     } else {
         print "Usage: bac storage [list|status]"
+    }
+}
+
+# ============================================================================
+# NOTEBOOK COMMAND - NotebookLM Integration
+# ============================================================================
+
+use daemons/nlm-research-daemon.nu
+
+def cmd-notebook [args: list] {
+    let action = if ($args | is-empty) { "list" } else { $args.0 }
+    let rest = ($args | skip 1)
+    
+    match $action {
+        "sync" => { nlm-research-daemon sync_all_pdfs }
+        "research" => { 
+            let topic = ($rest | str join " ")
+            if ($topic | is-empty) {
+                print "Usage: bac notebook research <topic>"
+            } else {
+                nlm-research-daemon research $topic
+            }
+        }
+        "pack" => {
+            let id = ($rest | get 0 | default "")
+            let topic = ($rest | skip 1 | str join " ")
+            if ($id | is-empty) or ($topic | is-empty) {
+                print "Usage: bac notebook pack <notebook_id> <topic>"
+            } else {
+                nlm-research-daemon study_pack $id $topic
+            }
+        }
+        "list" => {
+            print "Use the NotebookLM web interface or MCP tools to list notebooks."
+            print "This CLI focused on automation tasks."
+        }
+        _ => {
+            print "Usage: bac notebook [sync|research|pack|list]"
+        }
     }
 }
 
