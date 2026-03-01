@@ -1,7 +1,7 @@
 services:
   - name: bac-api
     type: web
-    region: virginia
+    region: oregon
     buildCommand: cd src/api && go build -o bac-api .
     startCommand: ./bac-api
     envVars:
@@ -18,12 +18,12 @@ services:
         value: ${JWT_SECRET}
       - key: OLLAMA_URL
         value: ${OLLAMA_URL}
-    repo: https://github.com/bac-unified/bac
-    branch: main
+    repo: https://github.com/amdajhbdh/bac
+    branch: first_bm
 
   - name: bac-agent
     type: web
-    region: virginia
+    region: oregon
     buildCommand: cd src/agent && go build -o agent .
     startCommand: ./agent worker
     env:
@@ -35,5 +35,5 @@ services:
         value: ${REDIS_URL}
       - key: OLLAMA_URL
         value: ${OLLAMA_URL}
-    repo: https://github.com/bac-unified/bac
-    branch: main
+    repo: https://github.com/amdajhbdh/bac
+    branch: first_bm
