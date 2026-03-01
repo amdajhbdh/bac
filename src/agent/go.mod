@@ -56,3 +56,7 @@ require (
 	golang.org/x/sync v0.16.0 // indirect
 	golang.org/x/text v0.27.0 // indirect
 )
+
+replace github.com/bac-unified/agent => ../agent
+
+replace github.com/bac-unified/api => ../api
