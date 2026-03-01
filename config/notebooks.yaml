@@ -1,0 +1,53 @@
+notebooks:
+  math:
+    id: "16b01950-5766-4353-8bed-c7f67966cb6b"
+    name: "BAC Math"
+    topics:
+      - algebra
+      - calculus
+      - geometry
+      - trigonometry
+
+  pc:
+    id: "16b01950-5766-4353-8bed-c7f67966cb6b"
+    name: "BAC Physique-Chimie"
+    topics:
+      - mechanics
+      - optics
+      - thermodynamics
+      - electricity
+      - chemistry
+
+  svt:
+    id: "16b01950-5766-4353-8bed-c7f67966cb6b"
+    name: "BAC SVT"
+    topics:
+      - cell
+      - genetics
+      - ecology
+      - evolution
+
+  philosophy:
+    id: "16b01950-5766-4353-8bed-c7f67966cb6b"
+    name: "BAC Philosophie"
+    topics:
+      - ethics
+      - metaphysics
+      - epistemology
+
+cache:
+  default_ttl_seconds: 86400
+  max_entries: 10000
+  garage_bucket: "nlm-cache"
+  cleanup_interval_hours: 24
+
+garage:
+  endpoint: "http://localhost:3900"
+  access_key: "GKd001902bdf51fcdbeaf4d4a5"
+  secret_key: "e92117c54a666734d6809f75251c09862bffe6ed610754f2e6e31732267e80b5"
+
+rate_limiting:
+  query_cooldown_seconds: 2
+  source_cooldown_seconds: 2
+  audio_cooldown_seconds: 5
+  research_cooldown_seconds: 5

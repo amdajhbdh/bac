@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bac-config
+data:
+  garage-endpoint: "http://garage:3900"
+  elasticsearch-url: "http://elasticsearch:9200"
+  redis-url: "redis://redis:6379"
+  log-level: "info"
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: bac-secrets
+type: Opaque
+stringData:
+  neon-db-url: ""
+  turso-db-url: ""
+  garage-access-key: ""
+  garage-secret-key: ""
+  jwt-secret: ""
+  elasticsearch-password: ""

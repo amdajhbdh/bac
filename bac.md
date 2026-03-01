@@ -1,4 +1,5 @@
 <!--toc:start-->
+
 - [Conversation continuation and title generation guidelines](#conversation-continuation-and-title-generation-guidelines)
   - [Assistant (Plan · minimax-m2.5-free · 17.6s)](#assistant-plan-minimax-m25-free-176s)
   - [Assistant (Plan · minimax-m2.5-free · 19.3s)](#assistant-plan-minimax-m25-free-193s)
@@ -212,7 +213,7 @@
   - [Assistant (Build · minimax-m2.5-free · 38.5s)](#assistant-build-minimax-m25-free-385s)
   - [Assistant (Build · minimax-m2.5-free)](#assistant-build-minimax-m25-free)
   - [User](#user-12)
-<!--toc:end-->
+  <!--toc:end-->
 
 # Conversation continuation and title generation guidelines
 
@@ -459,52 +460,52 @@ No files found
 
 **Output:**
 
-```
+````
 <path>/home/med/Documents/bac/AGENTS.md</path>
 <type>file</type>
 <content>1: # BAC Hyper-Swarm Agents Rules
-2: 
+2:
 3: ## Core Principles
-4: 
+4:
 5: 1. **Local First** - Always prioritize local processing (Ollama) before cloud
 6: 2. **Privacy** - No data leaves user's control
 7: 3. **Offline Capable** - Core functionality works without internet
 8: 4. **NLM Maximization** - Exploit ALL NotebookLM features
-9: 
+9:
 10: ## Agent Behaviors
-11: 
+11:
 12: ### YouTube Daemon
-13: 
+13:
 14: - Search open topics from `config/topics.yaml`
 15: - Download educational content via yt-dlp
 16: - Extract audio for offline study
 17: - Store in `resources/youtube/`
-18: 
+18:
 19: ### Web Crawler Daemon
-20: 
+20:
 21: - Scrape Mauritanian education sites: minedu.mr, bacmr.net
 22: - Download PDFs to `resources/web/`
 23: - Run every 12 hours via systemd timer
-24: 
+24:
 25: ### OCR Agent (Handwritten)
-26: 
+26:
 27: - Use Tesseract (free, Arabic + French support)
 28: - Never use paid APIs (Google Vision requires billing)
 29: - Store OCR'd text in database
 30: - Location: `resources/handwritten/`
-31: 
+31:
 32: ### Database Agent
-33: 
+33:
 34: - Local PostgreSQL + pgvector only
 35: - No cloud services requiring credit card
 36: - Export/import via jj for sync between devices
-37: 
+37:
 38: ## NotebookLM (nlm) - FULL FEATURE EXPLOITATION
-39: 
+39:
 40: All nlm commands MUST be used:
-41: 
+41:
 42: ### Notebook Management
-43: 
+43:
 44: ```bash
 45: nlm notebook create "BAC 2026 Master"     # Create master notebook
 46: nlm notebook list                         # List all notebooks
@@ -513,9 +514,9 @@ No files found
 49: nlm notebook rename <id> <new-name>     # Rename
 50: nlm notebook delete <id>                 # Delete
 51: ```
-52: 
+52:
 53: ### Source Management
-54: 
+54:
 55: ```bash
 56: nlm source add <notebook-id> <file>     # Add PDF/image/audio
 57: nlm source list <notebook-id>           # List sources
@@ -524,105 +525,105 @@ No files found
 60: nlm source delete <notebook-id> <id>    # Remove source
 61: nlm source sync                         # Sync Drive sources
 62: ```
-63: 
+63:
 64: ### Content Generation (USE ALL!)
-65: 
+65:
 66: ```bash
 67: # Audio Overview (Podcast)
 68: nlm audio create <notebook-id>                    # Generate podcast
 69: nlm audio create <notebook-id> --topic "dérivées" # Topic-specific
 70: nlm download audio <notebook-id>                  # Download MP3
-71: 
+71:
 72: # Quiz Generation
 73: nlm quiz create <notebook-id>                     # Auto-generate quiz
 74: nlm quiz create <notebook-id> --topic "intégrales"
-75: 
+75:
 76: # Flashcards
 77: nlm flashcards create <notebook-id>
 78: nlm flashcards create <notebook-id> --topic "chemistry"
-79: 
+79:
 80: # Mind Maps
 81: nlm mindmap create <notebook-id>
 82: nlm mindmap create <notebook-id> --topic "biology"
-83: 
+83:
 84: # Video Overview
 85: nlm video create <notebook-id>
-86: 
+86:
 87: # Infographics
 88: nlm infographic create <notebook-id>
-89: 
+89:
 90: # Reports
 91: nlm report create <notebook-id>
-92: 
+92:
 93: # Data Tables
 94: nlm data-table create <notebook-id>
-95: 
+95:
 96: # Slide Decks
 97: nlm slides create <notebook-id>
 98: ```
-99: 
+99:
 100: ### Research & Discovery
-101: 
+101:
 102: ```bash
 103: nlm research start <query>              # Start research
 104: nlm research start <query> --mode deep  # Deep research
 105: nlm research status                      # Check progress
 106: nlm research import                      # Import results
 107: ```
-108: 
+108:
 109: ### Export & Sharing
-110: 
+110:
 111: ```bash
 112: nlm export gdocs <notebook-id>         # Export to Google Docs
 113: nlm export sheets <notebook-id>         # Export to Sheets
 114: nlm share <notebook-id>                 # Share notebook
 115: nlm download <notebook-id>              # Download all artifacts
 116: ```
-117: 
+117:
 118: ### Chat Configuration
-119: 
+119:
 120: ```bash
 121: nlm chat configure                      # Configure AI behavior
 122: nlm chat start <notebook-id>            # Interactive chat
 123: ```
-124: 
+124:
 125: ## Topic Search
-126: 
+126:
 127: Open topics stored in `config/topics.yaml`:
-128: 
+128:
 129: - User can add: `bac config add-topic "new topic"`
 130: - Topics auto-discover new content
-131: 
+131:
 132: Default topics:
-133: 
+133:
 134: - BAC mathématiques Terminale
 135: - BAC physics derivatives integrals
 136: - Terminale C chimie organique
 137: - SVT Terminale biology
 138: - BAC français dissertation
-139: 
+139:
 140: ## Database Rules
-141: 
+141:
 142: 1. **Primary**: Local PostgreSQL + pgvector
 143: 2. **No Neon/Cloud DB** - requires credit card
 144: 3. **Sync**: Export to SQL file, import on other devices
 145: 4. **Backup**: Daily via jj commit
-146: 
+146:
 147: ## Visualization
-148: 
+148:
 149: Use only free tools:
-150: 
+150:
 151: - manim-web (npm) - Math animations
 152: - mermaid-cli (npm) - Diagrams
 153: - katex (npm) - LaTeX rendering
 154: - Tesseract - OCR (Arabic + French)
-155: 
+155:
 156: NO paid services (Google Cloud Vision requires billing)
-157: 
+157:
 158: ## History Management (jj)
-159: 
+159:
 160: All changes tracked via jj:
-161: 
+161:
 162: ```bash
 163: jj init                                  # Initialize
 164: jj commit -m "Add new PDF"               # Save changes
@@ -631,24 +632,24 @@ No files found
 167: jj git export                            # Export to git
 168: jj git import                            # Import from git
 169: ```
-170: 
+170:
 171: ## Progress Tracking
-172: 
+172:
 173: All progress in `progress.md`:
-174: 
+174:
 175: - Daily log entries
 176: - Checkbox completion
 177: - Notes section
-178: 
+178:
 179: ## Error Handling
-180: 
+180:
 181: 1. NLM unavailable → Use local Ollama
 182: 2. Internet down → Work offline, sync later
 183: 3. Database error → Check PostgreSQL status
 184: 4. OCR fails → Try different image preprocessing
-185: 
+185:
 186: ## Implementation Priority
-187: 
+187:
 188: 1. Create AGENTS.md ✓
 189: 2. Create progress.md
 190: 3. Create docs/
@@ -658,15 +659,15 @@ No files found
 194: 7. Create NLM notebook
 195: 8. Ingest PDFs
 196: 9. Start daemons
-197: 
+197:
 198: ---
-199: 
+199:
 200: *Last Updated: 2026-02-23*
 201: *Version: 1.0*
 
 (End of file - total 201 lines)
 </content>
-```
+````
 
 **Tool: read**
 
@@ -680,46 +681,46 @@ No files found
 
 **Output:**
 
-```
+````
 <path>/home/med/Documents/bac/docs/AGENTS.md</path>
 <type>file</type>
 <content>1: # BAC Hyper-Swarm Agents Rules
-2: 
+2:
 3: ## Core Principles
-4: 
+4:
 5: 1. **Local First** - Always prioritize local processing (Ollama) before cloud
 6: 2. **Privacy** - No data leaves user's control
 7: 3. **Offline Capable** - Core functionality works without internet
 8: 4. **NLM Maximization** - Exploit ALL NotebookLM features
-9: 
+9:
 10: ## Agent Behaviors
-11: 
+11:
 12: ### YouTube Daemon
 13: - Search open topics from `config/topics.yaml`
 14: - Download educational content via yt-dlp
 15: - Extract audio for offline study
 16: - Store in `resources/youtube/`
-17: 
+17:
 18: ### Web Crawler Daemon
 19: - Scrape Mauritanian education sites: minedu.mr, bacmr.net
 20: - Download PDFs to `resources/web/`
 21: - Run every 12 hours via systemd timer
-22: 
+22:
 23: ### OCR Agent (Handwritten)
 24: - Use Tesseract (free, Arabic + French support)
 25: - Never use paid APIs (Google Vision requires billing)
 26: - Store OCR'd text in database
 27: - Location: `resources/handwritten/`
-28: 
+28:
 29: ### Database Agent
 30: - Local PostgreSQL + pgvector only
 31: - No cloud services requiring credit card
 32: - Export/import via jj for sync between devices
-33: 
+33:
 34: ## NotebookLM (nlm) - FULL FEATURE EXPLOITATION
-35: 
+35:
 36: All nlm commands MUST be used:
-37: 
+37:
 38: ### Notebook Management
 39: ```bash
 40: nlm notebook create "BAC 2026 Master"     # Create master notebook
@@ -729,7 +730,7 @@ No files found
 44: nlm notebook rename <id> <new-name>     # Rename
 45: nlm notebook delete <id>                 # Delete
 46: ```
-47: 
+47:
 48: ### Source Management
 49: ```bash
 50: nlm source add <notebook-id> <file>     # Add PDF/image/audio
@@ -739,42 +740,42 @@ No files found
 54: nlm source delete <notebook-id> <id>    # Remove source
 55: nlm source sync                         # Sync Drive sources
 56: ```
-57: 
+57:
 58: ### Content Generation (USE ALL!)
 59: ```bash
 60: # Audio Overview (Podcast)
 61: nlm audio create <notebook-id>                    # Generate podcast
 62: nlm audio create <notebook-id> --topic "dérivées" # Topic-specific
 63: nlm download audio <notebook-id>                  # Download MP3
-64: 
+64:
 65: # Quiz Generation
 66: nlm quiz create <notebook-id>                     # Auto-generate quiz
 67: nlm quiz create <notebook-id> --topic "intégrales"
-68: 
+68:
 69: # Flashcards
 70: nlm flashcards create <notebook-id>
 71: nlm flashcards create <notebook-id> --topic "chemistry"
-72: 
+72:
 73: # Mind Maps
 74: nlm mindmap create <notebook-id>
 75: nlm mindmap create <notebook-id> --topic "biology"
-76: 
+76:
 77: # Video Overview
 78: nlm video create <notebook-id>
-79: 
+79:
 80: # Infographics
 81: nlm infographic create <notebook-id>
-82: 
+82:
 83: # Reports
 84: nlm report create <notebook-id>
-85: 
+85:
 86: # Data Tables
 87: nlm data-table create <notebook-id>
-88: 
+88:
 89: # Slide Decks
 90: nlm slides create <notebook-id>
 91: ```
-92: 
+92:
 93: ### Research & Discovery
 94: ```bash
 95: nlm research start <query>              # Start research
@@ -782,7 +783,7 @@ No files found
 97: nlm research status                      # Check progress
 98: nlm research import                      # Import results
 99: ```
-100: 
+100:
 101: ### Export & Sharing
 102: ```bash
 103: nlm export gdocs <notebook-id>         # Export to Google Docs
@@ -790,45 +791,45 @@ No files found
 105: nlm share <notebook-id>                 # Share notebook
 106: nlm download <notebook-id>              # Download all artifacts
 107: ```
-108: 
+108:
 109: ### Chat Configuration
 110: ```bash
 111: nlm chat configure                      # Configure AI behavior
 112: nlm chat start <notebook-id>            # Interactive chat
 113: ```
-114: 
+114:
 115: ## Topic Search
-116: 
+116:
 117: Open topics stored in `config/topics.yaml`:
 118: - User can add: `bac config add-topic "new topic"`
 119: - Topics auto-discover new content
-120: 
+120:
 121: Default topics:
 122: - BAC mathématiques Terminale
 123: - BAC physics derivatives integrals
 124: - Terminale C chimie organique
 125: - SVT Terminale biology
 126: - BAC français dissertation
-127: 
+127:
 128: ## Database Rules
-129: 
+129:
 130: 1. **Primary**: Local PostgreSQL + pgvector
 131: 2. **No Neon/Cloud DB** - requires credit card
 132: 3. **Sync**: Export to SQL file, import on other devices
 133: 4. **Backup**: Daily via jj commit
-134: 
+134:
 135: ## Visualization
-136: 
+136:
 137: Use only free tools:
 138: - manim-web (npm) - Math animations
 139: - mermaid-cli (npm) - Diagrams
 140: - katex (npm) - LaTeX rendering
 141: - Tesseract - OCR (Arabic + French)
-142: 
+142:
 143: NO paid services (Google Cloud Vision requires billing)
-144: 
+144:
 145: ## History Management (jj)
-146: 
+146:
 147: All changes tracked via jj:
 148: ```bash
 149: jj init                                  # Initialize
@@ -838,23 +839,23 @@ No files found
 153: jj git export                            # Export to git
 154: jj git import                            # Import from git
 155: ```
-156: 
+156:
 157: ## Progress Tracking
-158: 
+158:
 159: All progress in `progress.md`:
 160: - Daily log entries
 161: - Checkbox completion
 162: - Notes section
-163: 
+163:
 164: ## Error Handling
-165: 
+165:
 166: 1. NLM unavailable → Use local Ollama
 167: 2. Internet down → Work offline, sync later
 168: 3. Database error → Check PostgreSQL status
 169: 4. OCR fails → Try different image preprocessing
-170: 
+170:
 171: ## Implementation Priority
-172: 
+172:
 173: 1. Create AGENTS.md ✓
 174: 2. Create progress.md
 175: 3. Create docs/
@@ -864,15 +865,15 @@ No files found
 179: 7. Create NLM notebook
 180: 8. Ingest PDFs
 181: 9. Start daemons
-182: 
+182:
 183: ---
-184: 
+184:
 185: *Last Updated: 2026-02-23*
 186: *Version: 1.0*
 
 (End of file - total 186 lines)
 </content>
-```
+````
 
 **Tool: read**
 
@@ -891,7 +892,7 @@ No files found
 <type>file</type>
 <content>1: #!/usr/bin/env nu
 2: # BAC Hyper-Swarm 2026 - Main CLI
-3: 
+3:
 4: # Show help
 5: def main [--help|-h] {
 6:     print $"%(char-esc)[1;36m🦅 BAC Hyper-Swarm 2026%(char-reset)"
@@ -914,7 +915,7 @@ No files found
 23:     print "  bac nlm create-notebook 'BAC 2026'"
 24:     print "  bac config list-topics"
 25: }
-26: 
+26:
 27: # Database commands
 28: export def "bac db" [...args] {
 29:     if ($args | is-empty) {
@@ -930,7 +931,7 @@ No files found
 39:         }
 40:     }
 41: }
-42: 
+42:
 43: # Ingest commands
 44: export def "bac ingest" [...args] {
 45:     if ($args | is-empty) {
@@ -938,7 +939,7 @@ No files found
 47:         print "       bac ingest-all"
 48:     } else {
 49:         match ($args.0) {
-50:             "all" => { 
+50:             "all" => {
 51:                 print "Ingesting all PDFs..."
 52:                 for pdf in (ls db/pdfs/*.pdf) {
 53:                     print $"  Processing: ($pdf.name)"
@@ -948,7 +949,7 @@ No files found
 57:         }
 58:     }
 59: }
-60: 
+60:
 61: # Query commands
 62: export def "bac ask" [...args] {
 63:     if ($args | is-empty) {
@@ -960,7 +961,7 @@ No files found
 69:         print "Use: aichat --rag db/pdfs '$question'"
 70:     }
 71: }
-72: 
+72:
 73: # NLM commands
 74: export def "bac nlm" [...args] {
 75:     if ($args | is-empty) {
@@ -978,35 +979,35 @@ No files found
 87:     } else {
 88:         match ($args.0) {
 89:             "list" => { nlm notebook list }
-90:             "create-notebook" => { 
+90:             "create-notebook" => {
 91:                 let name = ($args | drop 1 | str join " ")
-92:                 nlm notebook create $name 
+92:                 nlm notebook create $name
 93:             }
-94:             "audio" => { 
+94:             "audio" => {
 95:                 let id = ($args | drop 1 | get 0)
-96:                 nlm audio create $id 
+96:                 nlm audio create $id
 97:             }
-98:             "quiz" => { 
+98:             "quiz" => {
 99:                 let id = ($args | drop 1 | get 0)
-100:                 nlm quiz create $id 
+100:                 nlm quiz create $id
 101:             }
-102:             "flashcards" => { 
+102:             "flashcards" => {
 103:                 let id = ($args | drop 1 | get 0)
-104:                 nlm flashcards create $id 
+104:                 nlm flashcards create $id
 105:             }
-106:             "mindmap" => { 
+106:             "mindmap" => {
 107:                 let id = ($args | drop 1 | get 0)
-108:                 nlm mindmap create $id 
+108:                 nlm mindmap create $id
 109:             }
-110:             "research" => { 
+110:             "research" => {
 111:                 let query = ($args | drop 1 | str join " ")
-112:                 nlm research start $query 
+112:                 nlm research start $query
 113:             }
 114:             _ => { print $"Unknown command: ($args.0)" }
 115:         }
 116:     }
 117: }
-118: 
+118:
 119: # Daemon commands
 120: export def "bac daemon" [...args] {
 121:     if ($args | is-empty) {
@@ -1027,7 +1028,7 @@ No files found
 136:         }
 137:     }
 138: }
-139: 
+139:
 140: # Visualization commands
 141: export def "bac viz" [...args] {
 142:     if ($args | is-empty) {
@@ -1046,7 +1047,7 @@ No files found
 155:         }
 156:     }
 157: }
-158: 
+158:
 159: # Config commands
 160: export def "bac config" [...args] {
 161:     if ($args | is-empty) {
@@ -1058,15 +1059,15 @@ No files found
 167:         print "  remove-topic <t> - Remove topic"
 168:     } else {
 169:         match ($args.0) {
-170:             "list-topics" => { 
+170:             "list-topics" => {
 171:                 print "YouTube Search Topics:"
 172:                 cat config/topics.yaml
 173:             }
-174:             "add-topic" => { 
+174:             "add-topic" => {
 175:                 let topic = ($args | drop 1 | str join " ")
 176:                 print $"Adding topic: ($topic)"
 177:             }
-178:             "remove-topic" => { 
+178:             "remove-topic" => {
 179:                 let topic = ($args | drop 1 | str join " ")
 180:                 print $"Removing topic: ($topic)"
 181:             }
@@ -1074,7 +1075,7 @@ No files found
 183:         }
 184:     }
 185: }
-186: 
+186:
 187: # OCR commands
 188: export def "bac ocr" [...args] {
 189:     if ($args | is-empty) {
@@ -1131,50 +1132,50 @@ No files found
 
 **Output:**
 
-```
+````
 <path>/home/med/Documents/bac/docs/README.md</path>
 <type>file</type>
 <content>1: # BAC Hyper-Swarm 2026 🎓
-2: 
+2:
 3: A self-evolving hyper-agentic swarm system for BAC C exam preparation - **SYSTEM COMPLETE** 🚀
-4: 
+4:
 5: ## 🌟 Key Features
-6: 
+6:
 7: - **Hybrid AI Processing**: Local (Ollama) + Cloud (kimi, glm, minimax)
 8: - **Full NotebookLM Integration**: Audio, quiz, flashcards, mindmaps, infographics
 9: - **Multilingual Support**: Arabic, French, English
 10: - **Automated Learning**: YouTube, web crawling, research daemons
 11: - **Privacy Focused**: Local-first with optional cloud features
 12: - **Complete Toolchain**: OCR, PDF processing, visualization, database
-13: 
+13:
 14: ## ⚡ Quick Start
-15: 
+15:
 16: ```bash
 17: # Initialize system
 18: bac db init
 19: bac daemon status
-20: 
+20:
 21: # Process content
 22: bac process -f document.pdf
 23: bac ocr handwriting.jpg
-24: 
+24:
 25: # Study with AI
 26: bac solve -f problems.pdf -s mathematics
 27: bac analyze -t "BAC mathematiques Terminale"
 28: bac quiz -t "integrals"
 29: bac flashcards -t "chemistry"
-30: 
+30:
 31: # Content creation
 32: bac audio -t "physics"
 33: bac query "Explain Newton's laws"
-34: 
+34:
 35: # Check progress
 36: bac stats
 37: bac db status
 38: ```
-39: 
+39:
 40: ## 🔧 Core Components
-41: 
+41:
 42: | Component | Technology | Purpose |
 43: |-----------|------------|---------|
 44: | **CLI** | Nushell (`bac.nu`) | Main interface |
@@ -1184,9 +1185,9 @@ No files found
 48: | **AI Models** | Ollama + Cloud APIs | Intelligence layer |
 49: | **Visualization** | manim-web, katex, mermaid | Math & diagrams |
 50: | **Daemons** | systemd timers | Automation |
-51: 
+51:
 52: ## 📚 Documentation
-53: 
+53:
 54: - 📖 `docs/COMPLETE.md` - Full system documentation
 55: - ⚙️ `docs/SETUP.md` - Installation guide
 56: - 🏗️ `docs/ARCHITECTURE.md` - System design
@@ -1195,11 +1196,11 @@ No files found
 59: - 📡 `docs/API.md` - CLI commands reference
 60: - 🔁 `docs/SYNC.md` - Multi-device synchronization
 61: - 💡 `docs/IDEAS.md` - Future enhancements
-62: 
+62:
 63: ## 🚀 Commands
-64: 
+64:
 65: See `docs/API.md` for complete CLI reference.
-66: 
+66:
 67: ```bash
 68: # Main commands
 69: bac solve      # AI problem solving
@@ -1212,9 +1213,9 @@ No files found
 76: bac ocr        # Handwriting recognition
 77: bac viz        # Visualizations
 78: ```
-79: 
+79:
 80: ## ✅ Status: SYSTEM COMPLETE (2026-02-23)
-81: 
+81:
 82: All 9 implementation phases completed:
 83: 1. Foundation (✓)
 84: 2. Core Tools (✓)
@@ -1225,12 +1226,12 @@ No files found
 89: 7. Resources (✓)
 90: 8. Testing (✓)
 91: 9. Documentation (✓)
-92: 
+92:
 93: Ready for BAC 2026 exam preparation! 🎯
 
 (End of file - total 93 lines)
 </content>
-```
+````
 
 ---
 
@@ -1253,38 +1254,38 @@ No files found
 <type>file</type>
 <content>1: # YouTube Daemon - Search and download educational content
 2: # Run: nu daemons/youtube-daemon.nu
-3: 
+3:
 4: let resources-dir = "resources/youtube"
 5: let topics-file = "config/topics.yaml"
-6: 
+6:
 7: # Ensure directories exist
 8: mkdir $resources-dir
-9: 
+9:
 10: # Get topics from config
 11: let topics = (open $topics_file | grep -oP "^  - .*" | each { |line| $line | str replace -r "^  - " "" })
-12: 
+12:
 13: print "🦅 YouTube Daemon Starting..."
 14: print $"Found (($topics | length)) topics to search"
 15: print ""
-16: 
+16:
 17: # Search and download function
 18: export def search-topic [topic: string, max-results: int = 5] {
 19:     print $"Searching: ($topic)"
-20:     
+20:
 21:     let safe-topic = ($topic | str replace " " "+")
-22:     
+22:
 23:     # Use yt-dlp to search and get info
 24:     let cmd = $"yt-dlp --match-filter \"duration<1800\" --max-downloads ($max-results) -x --audio-format mp3 -o '($resources-dir)/%(title)s.%(ext)s' \"ytsearch50:($topic) bac\""
-25:     
+25:
 26:     print $"  Command: ($cmd)"
 27:     print ""
 28: }
-29: 
+29:
 30: # Main loop
 31: for topic in $topics {
 32:     search-topic $topic 3
 33: }
-34: 
+34:
 35: print "🦅 YouTube Daemon Complete!"
 
 (End of file - total 35 lines)
@@ -1365,12 +1366,12 @@ yes
 
 **Input:**
 
-```json
+````json
 {
   "content": "# BAC Hyper-Swarm - Developer Guide\n\nThis file provides guidelines for AI agents working on the BAC Hyper-Swarm project.\n\n## Project Overview\n\n- **Primary Language**: Nushell (.nu scripts)\n- **CLI Entry Point**: `bac.nu`\n- **Daemons**: `daemons/*.nu`\n- **Config**: `config/`, `sql/`\n\n## Build & Run Commands\n\n```bash\n# Run the main CLI\nnu bac.nu\nnu bac.nu --help\n\n# Make executable and run\nchmod +x bac.nu\n./bac.nu\n\n# Validate Nushell syntax\nnu --validate bac.nu\nnu --validate daemons/youtube-daemon.nu\n\n# Check all .nu files syntax\nfor f in (glob **/*.nu) { nu --validate $f }\n\n# Run a specific daemon\nnu daemons/youtube-daemon.nu\nnu daemons/webcrawler-daemon.nu\nnu daemons/nlm-research-daemon.nu\nnu daemons/audio-daemon.nu\n\n# Run with debugging\nNU_LOG_LEVEL=DEBUG nu bac.nu\n\n# Run a single command\nnu -c 'use bac.nu; bac db status'\n```\n\n## Test Commands\n\n```bash\n# Test CLI startup\nnu bac.nu\n\n# Test specific subcommand\nnu -c 'use bac.nu; bac db init'\nnu -c 'use bac.nu; bac config list-topics'\n\n# Test daemon syntax\nfor f in (ls daemons/*.nu) { nu --validate $f.name }\n```\n\n## Code Style Guidelines (Nushell)\n\n### Naming Conventions\n\n- **Files**: `kebab-case` (e.g., `youtube-daemon.nu`)\n- **Commands/Functions**: `snake_case` (e.g., `bac db init`)\n- **Variables**: `snake_case` (e.g., `let resources_dir = \"resources\"`)\n- **Constants**: `SCREAMING_SNAKE_CASE` (e.g., `let MAX_RESULTS = 50`)\n\n### Function Definitions\n\n```nushell\n# Basic function with type annotations\ndef greet [name: string] {\n    print $\"Hello, ($name)!\"\n}\n\n# Function with optional parameter\ndef greet [name: string = \"World\"] {\n    print $\"Hello, ($name)!\"\n}\n\n# Export function (module)\nexport def \"bac db\" [...args] {\n    # ...\n}\n```\n\n### Error Handling\n\n```nushell\n# Use try/catch for error handling\ntry {\n    let data = open \"file.json\" | from json\n    print $data\n} catch {\n    print $\"Error: ($in)\"\n}\n\n# Validate inputs early\ndef process [input: string] {\n    if ($input | is-empty) {\n        error make { msg: \"Input cannot be empty\" }\n    }\n    # ...\n}\n```\n\n### Importing Modules\n\n```nushell\n# Import entire module\nuse bac.nu\n\n# Import specific command\nuse bac.nu [bac db]\n\n# Import with alias\nuse bac.nu as bac_cli\n```\n\n### Formatting Rules\n\n- **Indentation**: 4 spaces\n- **Line Length**: Max 100 characters\n- **Spacing**: Space after comma, around operators\n- **Comments**: Use `#` for single-line comments\n\n```nushell\n# Good\ndef calculate [x: int, y: int] {\n    let sum = $x + $y\n    print $\"Sum: ($sum)\"\n}\n\n# Avoid\ndef calculate [x:int,y:int] { let sum=$x+$y; print $\"Sum:($sum)\" }\n```\n\n### String Usage\n\n- Use `$\"string ($variable)\"` for string interpolation\n- Use triple quotes for multiline strings\n- Use single quotes for literal strings\n\n```nushell\nlet name = \"Alice\"\nprint $\"Hello, ($name)!\"\n\nlet multiline = '''\nThis is\na multiline\nstring\n'''\n```\n\n### List/Table Operations\n\n```nushell\n# List comprehension\nlet squares = (1..10 | each { |x| $x * $x })\n\n# Table filter\nlet results = ($data | where score > 50)\n\n# Map\nlet names = ($users | get name)\n```\n\n## File Organization\n\n```\nbac/\n├── bac.nu              # Main CLI entry point\n├── daemons/            # Background services\n│   ├── youtube-daemon.nu\n│   ├── webcrawler-daemon.nu\n│   └── nlm-research-daemon.nu\n├── config/            # Configuration files\n│   └── topics.yaml\n├── sql/                # Database schemas\n│   └── schema.sql\n├── docs/               # Documentation\n└── resources/          # Downloaded content\n    ├── youtube/\n    ├── web/\n    └── handwritten/\n```\n\n## Adding New Commands\n\n1. Add function to `bac.nu` with `export def`:\n```nushell\nexport def \"bac newcommand\" [arg: string] {\n    print $\"Processing: ($arg)\"\n}\n```\n\n2. Update help text in `main` function\n\n3. Add to docs/API.md\n\n## Common Patterns\n\n### Subcommand Pattern\n```nushell\nexport def \"bac db\" [...args] {\n    match ($args.0) {\n        \"init\" => { print \"Initializing...\" }\n        \"status\" => { print \"Checking status...\" }\n        _ => { print $\"Unknown: ($args.0)\" }\n    }\n}\n```\n\n### File Existence Check\n```nushell\nif not ($path | path exists) {\n    mkdir $path\n}\n```\n\n### External Command Execution\n```nushell\n# With output capture\nlet result = (^yt-dlp --version)\n\n# Simple execution\n^nu --version\n```\n\n## Existing Agent Rules\n\nThis project also follows rules in `docs/AGENTS.md` for:\n- YouTube daemon behavior\n- Web crawler behavior\n- OCR agent behavior\n- NotebookLM integration\n- Database management\n\n## Version Control\n\n- Use **jj** (not git directly) for version control\n- See `progress.md` for implementation history\n- Commit regularly with descriptive messages\n\n---\n\n*Last Updated: 2026-02-23*\n",
   "filePath": "/home/med/Documents/bac/AGENTS.md"
 }
-```
+````
 
 **Output:**
 
@@ -1386,12 +1387,12 @@ Wrote file successfully.
 
 **Input:**
 
-```json
+````json
 {
   "content": "# BAC Hyper-Swarm 2026\n\n## What is This?\n\n**BAC Hyper-Swarm** is a smart study assistant designed specifically for students preparing for the **BAC C exam** (Terminale C in Mauritania). It uses artificial intelligence to help you learn faster and more effectively.\n\nThink of it as having a personal tutor that:\n- Finds educational videos and articles for you\n- Creates practice quizzes from your study materials\n- Explains difficult concepts in simple terms\n- Helps you track your progress\n- Works in Arabic, French, and English\n\n---\n\n## What Can It Do?\n\n### 📚 Smart Study\n- **Ask questions** - Get instant answers to any topic\n- **Generate quizzes** - Practice with auto-created tests\n- **Flashcards** - Review key concepts quickly\n- **Audio summaries** - Listen to study materials on the go\n\n### 🔍 Find Content\n- **YouTube videos** - Automatically download educational videos\n- **Web articles** - Fetch relevant articles from education sites\n- **PDFs** - Process and analyze your documents\n\n### 📝 Handwriting Help\n- **OCR** - Convert handwritten notes to digital text\n- **Save notes** - Store for later review\n\n### 📊 Track Progress\n- **Study stats** - See how much you've studied\n- **Weak areas** - Identify topics that need more practice\n\n---\n\n## How to Use (3 Simple Steps)\n\n### Step 1: Open Terminal\nOpen your terminal/command prompt and navigate to the BAC folder:\n```bash\ncd /path/to/bac\n```\n\n### Step 2: Run Commands\nHere are the most common commands:\n\n| What you want to do | Command |\n|---------------------|---------|\n| Ask a question | `bac ask \"what is a derivative\"` |\n| Create a quiz | `bac quiz -t mathematics` |\n| Study flashcards | `bac flashcards -t physics` |\n| Listen to audio | `bac audio -t chemistry` |\n| Check progress | `bac stats` |\n| List topics | `bac config list-topics` |\n\n### Step 3: Learn!\nThat's it! The system will help you study using AI.\n\n---\n\n## Need Help?\n\n- **List all commands**: Run `bac.nu` without arguments\n- **Get help**: `bac.nu --help`\n- **Database status**: `bac db status`\n- **Check daemons**: `bac daemon status`\n\n---\n\n## Example Workflows\n\n### Morning Study Session\n```bash\n# 1. Review your flashcards\nbac flashcards -t mathematics\n\n# 2. Test yourself with a quiz\nbac quiz -t \"integrals\"\n\n# 3. Listen to a summary while getting ready\nbac audio -t physics\n```\n\n### After Class\n```bash\n# 1. Ask questions about what you learned\nbac ask \"explain photosynthesis\"\n\n# 2. Check your weak areas\nbac stats\n\n# 3. Add a new topic you're studying\nbac config add-topic \"cell biology\"\n```\n\n---\n\n## Requirements\n\n- **Nushell** - The command shell this program runs in\n- **Internet connection** - For searching content and AI features\n- **NotebookLM account** - For advanced AI features (optional)\n\n---\n\n## Troubleshooting\n\n**Command not found?**\nMake sure you're in the correct folder and Nushell is installed.\n\n**Need help with a specific command?**\nJust type the command without arguments to see usage instructions.\n\n**Questions not answering?**\nCheck your internet connection and try again.\n\n---\n\n## What's Inside?\n\n- `bac.nu` - The main program\n- `daemons/` - Background services that run automatically\n- `config/` - Your settings and topics\n- `resources/` - Downloaded videos, articles, and notes\n- `docs/` - More detailed documentation\n\n---\n\n**Status**: ✅ System Complete - Ready for BAC 2026!\n\nGood luck with your exams! 🎓\n",
   "filePath": "/home/med/Documents/bac/README.md"
 }
-```
+````
 
 **Output:**
 
@@ -1462,52 +1463,52 @@ explain me the core idea of the proj no langs utils just pure idea to check if i
 
 **Output:**
 
-```
+````
 <path>/home/med/Documents/bac/docs/COMPLETE.md</path>
 <type>file</type>
 <content>1: # BAC Hyper-Swarm 2026 - Complete Documentation
-2: 
+2:
 3: ## 🎓 Overview
-4: 
+4:
 5: A self-evolving hyper-agentic swarm system for BAC C (Mauritania) exam preparation using local-first AI with full NotebookLM integration - **SYSTEM COMPLETE** ✅
-6: 
+6:
 7: ## 🌟 Key Features
-8: 
+8:
 9: - **Hybrid AI Processing**: Local (Ollama) + Cloud (kimi, glm, minimax)
 10: - **Full NotebookLM Integration**: Audio, quiz, flashcards, mindmaps, infographics
 11: - **Multilingual Support**: Arabic, French, English
 12: - **Automated Learning**: YouTube, web crawling, research daemons
 13: - **Privacy Focused**: Local-first with optional cloud features
 14: - **Complete Toolchain**: OCR, PDF processing, visualization, database
-15: 
+15:
 16: ## ⚡ Quick Start
-17: 
+17:
 18: ```bash
 19: # Initialize system
 20: bac db init
 21: bac daemon status
-22: 
+22:
 23: # Process content
 24: bac process -f document.pdf
 25: bac ocr handwriting.jpg
-26: 
+26:
 27: # Study with AI
 28: bac solve -f problems.pdf -s mathematics
 29: bac analyze -t "BAC mathematiques Terminale"
 30: bac quiz -t "integrals"
 31: bac flashcards -t "chemistry"
-32: 
+32:
 33: # Content creation
 34: bac audio -t "physics"
 35: bac query "Explain Newton's laws"
-36: 
+36:
 37: # Check progress
 38: bac stats
 39: bac db status
 40: ```
-41: 
+41:
 42: ## 🔧 Core Components
-43: 
+43:
 44: | Component | Technology | Purpose |
 45: |-----------|------------|---------|
 46: | **CLI** | Nushell (`bac.nu`) | Main interface |
@@ -1517,41 +1518,41 @@ explain me the core idea of the proj no langs utils just pure idea to check if i
 50: | **AI Models** | Ollama + Cloud APIs | Intelligence layer |
 51: | **Visualization** | manim-web, katex, mermaid | Math & diagrams |
 52: | **Daemons** | systemd timers | Automation |
-53: 
+53:
 54: ## 🛠 Installation
-55: 
+55:
 56: ### Prerequisites
-57: 
+57:
 58: ```bash
 59: # Core tools
 60: pacman -S postgresql tesseract ffmpeg python
-61: 
+61:
 62: # Node.js tools
 63: npm install -g katex mermaid-cli manim-web
-64: 
+64:
 65: # Rust toolchain
 66: cargo install pdf-extract
-67: 
+67:
 68: # AI tools
 69: pacman -S aichat
 70: pip install yt-dlp
 71: ```
-72: 
+72:
 73: ### Database Setup
-74: 
+74:
 75: ```bash
 76: # Initialize PostgreSQL
 77: sudo su - postgres -c "initdb -D /var/lib/postgres/data"
 78: sudo su - postgres -c "pg_ctl -D /var/lib/postgres/data -l /var/lib/postgres/logfile start"
 79: sudo su - postgres -c "createuser -s med && createdb bac"
 80: sudo su - postgres -c "psql -d bac -c \"CREATE EXTENSION IF NOT EXISTS vector;\""
-81: 
+81:
 82: # Apply schema
 83: psql -U med -d bac -f sql/schema.sql
 84: ```
-85: 
+85:
 86: ### Enable Daemons
-87: 
+87:
 88: ```bash
 89: mkdir -p ~/.config/systemd/user
 90: cp etc/*.service ~/.config/systemd/user/
@@ -1563,41 +1564,41 @@ explain me the core idea of the proj no langs utils just pure idea to check if i
 96: systemctl --user enable --now bac-audio.timer
 97: systemctl --user enable --now bac-backup.timer
 98: ```
-99: 
+99:
 100: ## 📚 Usage
-101: 
+101:
 102: ### CLI Commands
-103: 
+103:
 104: ```bash
 105: # Check status
 106: nlm login --check
 107: ollama list
 108: psql -U med -d bac -c "SELECT * FROM documents;"
-109: 
+109:
 110: # PDF Processing
 111: ./src/rust/media-processor/target/release/media-processor extract input.pdf -o output.txt
 112: ./src/rust/media-processor/target/release/media-processor batch db/pdfs/ -o output/
-113: 
+113:
 114: # NotebookLM
 115: nlm notebook create "BAC 2026 Master"
 116: nlm source add <id> db/pdfs/*.pdf
 117: nlm quiz create <id>
 118: nlm flashcards create <id>
 119: nlm audio create <id>
-120: 
+120:
 121: # YouTube Download
 122: nu daemons/youtube-daemon.nu
-123: 
+123:
 124: # Database Backup
 125: pg_dump -U med bac > db/exports/bac_$(date +%Y%m%d).sql
-126: 
+126:
 127: # Version Control
 128: jj commit -m "Add new PDFs"
 129: jj log
 130: ```
-131: 
+131:
 132: ## 🏗 Architecture
-133: 
+133:
 134: ```
 135: bac.nu (Nushell CLI)
 136:     │
@@ -1621,9 +1622,9 @@ explain me the core idea of the proj no langs utils just pure idea to check if i
 154:         ├── nlm-research-daemon
 155:         └── audio-daemon
 156: ```
-157: 
+157:
 158: ## 📁 Project Structure
-159: 
+159:
 160: ```
 161: bac/
 162: ├── bac.nu                 # Main CLI
@@ -1654,11 +1655,11 @@ explain me the core idea of the proj no langs utils just pure idea to check if i
 187: ├── docs/                  # Documentation
 188: └── progress.md           # Implementation tracking
 189: ```
-190: 
+190:
 191: ## 🗃 Database Schema
-192: 
+192:
 193: ### Tables
-194: 
+194:
 195: - **documents**: Source PDFs with metadata
 196: - **chunks**: RAG-ready text chunks with vectors
 197: - **concepts**: Extracted concepts with formulas
@@ -1667,54 +1668,54 @@ explain me the core idea of the proj no langs utils just pure idea to check if i
 200: - **handwritten**: OCR'd student notes
 201: - **nlm_notebooks**: NotebookLM tracking
 202: - **sync_log**: Export/import history
-203: 
+203:
 204: ## ⚙ Configuration
-205: 
+205:
 206: ### Topics
-207: 
+207:
 208: Edit `config/topics.yaml` to add search topics:
-209: 
+209:
 210: ```yaml
 211: YOUTUBE_TOPICS:
 212:   - "baccalauréat mathématiques Terminale"
 213:   - "physique Terminale C"
 214:   # Add more...
 215: ```
-216: 
+216:
 217: ## 🆘 Troubleshooting
-218: 
+218:
 219: ### PostgreSQL won't start
-220: 
+220:
 221: ```bash
 222: sudo mkdir -p /run/postgresql
 223: sudo chown postgres:postgres /run/postgresql
 224: sudo su - postgres -c "pg_ctl -D /var/lib/postgres/data -l /var/lib/postgres/logfile start"
 225: ```
-226: 
+226:
 227: ### NLM not authenticated
-228: 
+228:
 229: ```bash
 230: nlm login
 231: ```
-232: 
+232:
 233: ### Ollama not running
-234: 
+234:
 235: ```bash
 236: ollama serve
 237: ollama pull llama3.2:3b
 238: ```
-239: 
+239:
 240: ## 🤝 Contributing
-241: 
+241:
 242: 1. Make changes
 243: 2. Update progress.md
 244: 3. Commit: `jj commit -m "Description"`
 245: 4. Create checkpoint: `jj bookmark add v1.0`
-246: 
+246:
 247: ## 📄 License
-248: 
+248:
 249: MIT
-250: 
+250:
 251: ---
 252: *Generated: 2026-02-23*
 253: *Version: 1.0*
@@ -1722,7 +1723,7 @@ explain me the core idea of the proj no langs utils just pure idea to check if i
 
 (End of file - total 254 lines)
 </content>
-```
+````
 
 ---
 
@@ -1971,171 +1972,171 @@ yes with that our models must get the behavior of examen and when they are given
 <path>/home/med/Documents/bac/docs/IDEAS.md</path>
 <type>file</type>
 <content>1: # BAC Hyper-Swarm - Innovation Ideas
-2: 
+2:
 3: ## 📦 Inside-the-Box Ideas (Incremental Improvements)
-4: 
+4:
 5: ### 1. Enhanced PDF Processing
 6: - **Multi-language OCR**: Add support for Arabic diacritics detection
 7: - **Equation Extraction**: Parse LaTeX/math from PDFs using python libraries
 8: - **Table Detection**: Extract data tables as CSV/JSON
 9: - **Diagram Recognition**: Identify and label geometric figures
-10: 
+10:
 11: ### 2. Smarter Search
 12: - **Fuzzy Matching**: Use pgvector for semantic search across chunks
 13: - **Topic Clustering**: Auto-group questions by topic using k-means
 14: - **Cross-reference**: Link related concepts across documents
 15: - **Year-based Filtering**: Quick filter by exam year (2002-2024)
-16: 
+16:
 17: ### 3. Improved NotebookLM Usage
 18: - **Auto-rotate Notebooks**: Split into subject-specific notebooks
 19: - **Smart Quizzes**: Generate difficulty-calibrated questions
 20: - **Spaced Repetition**: Track which flashcards need review
 21: - **Audio Speed Control**: Variable speed playback for podcasts
-22: 
+22:
 23: ### 4. Better Daemons
 24: - **Smart Scheduling**: ML-based prediction of best download times
 25: - **Deduplication**: Avoid downloading duplicate content
 26: - **Priority Queue**: Prioritize high-demand topics
 27: - **Bandwidth Throttling**: Prevent network congestion
-28: 
+28:
 29: ### 5. Database Enhancements
 30: - **Full-text Search**: Elasticsearch-like ranking
 31: - **Auto-tagging**: LLM-powered subject/chapter tagging
 32: - **Progress Tracking**: Student study analytics
 33: - **Question Bank**: Categorized question repository
-34: 
+34:
 35: ### 6. Visualization Improvements
 36: - **Interactive Diagrams**: Click-to-explore concept maps
 37: - **Step-by-step Solutions**: Animated math problem solving
 38: - **3D Molecules**: Chemistry structure visualization
 39: - **Physics Simulations**: Interactive force/field diagrams
-40: 
+40:
 41: ### 7. Study Features
 42: - **Study Planner**: AI-generated study schedule
 43: - **Weakness Detection**: Identify topics needing attention
 44: - **Mock Exams**: Timed practice tests
 45: - **Progress Badges**: Gamification elements
-46: 
+46:
 47: ### 8. CLI Enhancements
 48: - **Interactive Mode**: Menu-driven navigation
 49: - **Tab Completion**: For all commands
 50: - **History**: Command history with search
 51: - **Shortcuts**: Aliases for common commands
-52: 
+52:
 53: ### 9. Mobile Companion
 54: - **PWA**: Progressive web app for mobile
 55: - **Offline Sync**: Download for offline study
 56: - **Push Notifications**: Reminder for study sessions
-57: 
+57:
 58: ### 10. Export Options
 59: - **Anki Decks**: Export flashcards to Anki
 60: - **PDF Compilation**: Merge into study guides
 61: - **Print Formats**: A4/Letter paper layouts
-62: 
+62:
 63: ---
-64: 
+64:
 65: ## 🚀 Out-of-the-Box Ideas (Revolutionary Features)
-66: 
+66:
 67: ### 1. AI Study Buddy
 68: - **Conversational Tutor**: Voice-enabled Q&A using local TTS/STT
 69: - **Socratic Method**: Guide students to answers via questions
 70: - **Emotional Support**: Detect frustration, offer encouragement
 71: - **Learning Style Adaptation**: Adjust explanations for visual/auditory learners
-72: 
+72:
 73: ### 2. Peer Learning Network
 74: - **Anonymous Matching**: Connect students studying same topics
 75: - **Shared Notes**: Collaborative note-taking
 76: - **Study Groups**: Create/join virtual study rooms
 77: - **Leaderboards**: Friendly competition
-78: 
+78:
 79: ### 3. Predictive Analytics
 80: - **Exam Prediction**: ML model predicting likely exam questions
 81: - **Trend Analysis**: Identify hot topics from past papers
 82: - **Difficulty Calibration**: Predict question difficulty distribution
 83: - **Success Probability**: Estimate pass likelihood
-84: 
+84:
 85: ### 4. Immersive Learning
 86: - **VR Study Rooms**: Virtual environment for focused study
 87: - **AR Diagrams**: Overlay 3D models on physical paper
 88: - **Haptic Feedback**: Tactile learning for chemistry/physics
-89: 
+89:
 90: ### 5. Universal Translator
 91: - **Real-time Translation**: French/Arabic/English during study
 92: - **Dialect Support**: Handle Mauritanian Arabic variants
 93: - **Voice Translation**: Spoken language conversion
-94: 
+94:
 95: ### 6. Blockchain Credentials
 96: - **Verified Certificates**: Blockchain-backed completion certs
 97: - **Skill Badges**: NFT-style achievement badges
 98: - **Transcript Verification**: Immutable study record
-99: 
+99:
 100: ### 7. Quantum-ready Encryption
 101: - **Post-quantum Security**: Prepare for future threats
 102: - **Zero-knowledge Proofs**: Verify knowledge without revealing answers
-103: 
+103:
 104: ### 8. Biofeedback Integration
 105: - **Focus Tracking**: Camera-based attention monitoring
 106: - **Stress Detection**: Heart rate variability analysis
 107: - **Optimal Timing**: AI determines best study times based on biometrics
-108: 
+108:
 109: ### 9. Holographic Notes
 110: - **3D Note Stacking**: Organize concepts in 3D space
 111: - **Spatial Memory**: Leverage spatial cognition for retention
-112: 
+112:
 113: ### 10. Collective Intelligence
 114: - **Swarm Learning**: Federated learning across student devices
 115: - **Knowledge Graph**: Dynamic concept map built by all users
 116: - **Emergent Topics**: AI discovers hidden connections
-117: 
+117:
 118: ---
-119: 
+119:
 120: ## 🌌 Crazy Ideas (Blue Sky)
-121: 
+121:
 122: ### 1. Time Machine Learning
 123: - **Past Exam Synthesis**: Generate "new" questions from patterns
 124: - **Future Trend Prediction**: Predict exam topics 5 years out
-125: 
+125:
 126: ### 2. Consciousness Upload
 127: - **AI Twin**: Train model on student's thinking patterns
 128: - **Afterlife Learning**: Continue studying posthumously
-129: 
+129:
 130: ### 3. Multiverse Study
 131: - **Parallel Universe Sync**: Coordinate with alternate-reality students
 132: - **Probability Optimization**: Collapse quantum possibilities for best outcomes
-133: 
+133:
 134: ### 4. Biological Integration
 135: - **Neural Implants**: Direct knowledge injection (far future)
 136: - **DNA Storage**: Encode notes in synthetic DNA
 137: - **Photosynthesis Learning**: Subconscious study during sleep
-138: 
+138:
 139: ### 5. Physics-defying Storage
 140: - **Holographic Universe**: Store entire library in few atoms
 141: - **Dark Matter Backup**: Off-site backup in cosmic scale
-142: 
+142:
 143: ---
-144: 
+144:
 145: ## 📋 Priority Recommendations
-146: 
+146:
 147: ### Near-term (This Month)
 148: 1. Auto-tagging with LLM
 149: 2. Anki export
 150: 3. Interactive CLI mode
 151: 4. Mobile PWA
-152: 
+152:
 153: ### Mid-term (This Quarter)
 154: 1. AI Study Buddy with voice
 155: 2. Peer matching network
 156: 3. Predictive exam questions
 157: 4. Spaced repetition system
-158: 
+158:
 159: ### Long-term (This Year)
 160: 1. VR study environment
 161: 2. Collective knowledge graph
 162: 3. Blockchain credentials
 163: 4. Biofeedback integration
-164: 
+164:
 165: ---
-166: 
+166:
 167: *Generated: 2026-02-23*
 168: *Version: 1.0*
 169: *Status: SYSTEM COMPLETE* ✅
@@ -2165,7 +2166,7 @@ yes with that our models must get the behavior of examen and when they are given
 <type>file</type>
 <content>1: #!/usr/bin/env nu
 2: # BAC Hyper-Swarm 2026 - Main CLI
-3: 
+3:
 4: # Show help
 5: def main [--help|-h] {
 6:     print $"%(char-esc)[1;36m🦅 BAC Hyper-Swarm 2026%(char-reset)"
@@ -2188,7 +2189,7 @@ yes with that our models must get the behavior of examen and when they are given
 23:     print "  bac nlm create-notebook 'BAC 2026'"
 24:     print "  bac config list-topics"
 25: }
-26: 
+26:
 27: # Database commands
 28: export def "bac db" [...args] {
 29:     if ($args | is-empty) {
@@ -2204,7 +2205,7 @@ yes with that our models must get the behavior of examen and when they are given
 39:         }
 40:     }
 41: }
-42: 
+42:
 43: # Ingest commands
 44: export def "bac ingest" [...args] {
 45:     if ($args | is-empty) {
@@ -2212,7 +2213,7 @@ yes with that our models must get the behavior of examen and when they are given
 47:         print "       bac ingest-all"
 48:     } else {
 49:         match ($args.0) {
-50:             "all" => { 
+50:             "all" => {
 51:                 print "Ingesting all PDFs..."
 52:                 for pdf in (ls db/pdfs/*.pdf) {
 53:                     print $"  Processing: ($pdf.name)"
@@ -2222,7 +2223,7 @@ yes with that our models must get the behavior of examen and when they are given
 57:         }
 58:     }
 59: }
-60: 
+60:
 61: # Query commands
 62: export def "bac ask" [...args] {
 63:     if ($args | is-empty) {
@@ -2234,7 +2235,7 @@ yes with that our models must get the behavior of examen and when they are given
 69:         print "Use: aichat --rag db/pdfs '$question'"
 70:     }
 71: }
-72: 
+72:
 73: # NLM commands
 74: export def "bac nlm" [...args] {
 75:     if ($args | is-empty) {
@@ -2252,35 +2253,35 @@ yes with that our models must get the behavior of examen and when they are given
 87:     } else {
 88:         match ($args.0) {
 89:             "list" => { nlm notebook list }
-90:             "create-notebook" => { 
+90:             "create-notebook" => {
 91:                 let name = ($args | drop 1 | str join " ")
-92:                 nlm notebook create $name 
+92:                 nlm notebook create $name
 93:             }
-94:             "audio" => { 
+94:             "audio" => {
 95:                 let id = ($args | drop 1 | get 0)
-96:                 nlm audio create $id 
+96:                 nlm audio create $id
 97:             }
-98:             "quiz" => { 
+98:             "quiz" => {
 99:                 let id = ($args | drop 1 | get 0)
-100:                 nlm quiz create $id 
+100:                 nlm quiz create $id
 101:             }
-102:             "flashcards" => { 
+102:             "flashcards" => {
 103:                 let id = ($args | drop 1 | get 0)
-104:                 nlm flashcards create $id 
+104:                 nlm flashcards create $id
 105:             }
-106:             "mindmap" => { 
+106:             "mindmap" => {
 107:                 let id = ($args | drop 1 | get 0)
-108:                 nlm mindmap create $id 
+108:                 nlm mindmap create $id
 109:             }
-110:             "research" => { 
+110:             "research" => {
 111:                 let query = ($args | drop 1 | str join " ")
-112:                 nlm research start $query 
+112:                 nlm research start $query
 113:             }
 114:             _ => { print $"Unknown command: ($args.0)" }
 115:         }
 116:     }
 117: }
-118: 
+118:
 119: # Daemon commands
 120: export def "bac daemon" [...args] {
 121:     if ($args | is-empty) {
@@ -2301,7 +2302,7 @@ yes with that our models must get the behavior of examen and when they are given
 136:         }
 137:     }
 138: }
-139: 
+139:
 140: # Visualization commands
 141: export def "bac viz" [...args] {
 142:     if ($args | is-empty) {
@@ -2320,7 +2321,7 @@ yes with that our models must get the behavior of examen and when they are given
 155:         }
 156:     }
 157: }
-158: 
+158:
 159: # Config commands
 160: export def "bac config" [...args] {
 161:     if ($args | is-empty) {
@@ -2332,15 +2333,15 @@ yes with that our models must get the behavior of examen and when they are given
 167:         print "  remove-topic <t> - Remove topic"
 168:     } else {
 169:         match ($args.0) {
-170:             "list-topics" => { 
+170:             "list-topics" => {
 171:                 print "YouTube Search Topics:"
 172:                 cat config/topics.yaml
 173:             }
-174:             "add-topic" => { 
+174:             "add-topic" => {
 175:                 let topic = ($args | drop 1 | str join " ")
 176:                 print $"Adding topic: ($topic)"
 177:             }
-178:             "remove-topic" => { 
+178:             "remove-topic" => {
 179:                 let topic = ($args | drop 1 | str join " ")
 180:                 print $"Removing topic: ($topic)"
 181:             }
@@ -2348,7 +2349,7 @@ yes with that our models must get the behavior of examen and when they are given
 183:         }
 184:     }
 185: }
-186: 
+186:
 187: # OCR commands
 188: export def "bac ocr" [...args] {
 189:     if ($args | is-empty) {
@@ -2385,11 +2386,11 @@ yes with that our models must get the behavior of examen and when they are given
 <type>file</type>
 <content>1: -- BAC Hyper-Swarm Database Schema
 2: -- PostgreSQL + pgvector
-3: 
+3:
 4: -- Enable extensions
 5: CREATE EXTENSION IF NOT EXISTS vector;
 6: CREATE EXTENSION IF NOT EXISTS pg_trgm;
-7: 
+7:
 8: -- Documents table
 9: CREATE TABLE documents (
 10:     id SERIAL PRIMARY KEY,
@@ -2402,7 +2403,7 @@ yes with that our models must get the behavior of examen and when they are given
 17:     metadata JSONB DEFAULT '{}',
 18:     created_at TIMESTAMP DEFAULT NOW()
 19: );
-20: 
+20:
 21: -- Chunks table (for RAG)
 22: CREATE TABLE chunks (
 23:     id SERIAL PRIMARY KEY,
@@ -2412,7 +2413,7 @@ yes with that our models must get the behavior of examen and when they are given
 27:     chunk_vector vector(768),
 28:     created_at TIMESTAMP DEFAULT NOW()
 29: );
-30: 
+30:
 31: -- Concepts table
 32: CREATE TABLE concepts (
 33:     id SERIAL PRIMARY KEY,
@@ -2422,7 +2423,7 @@ yes with that our models must get the behavior of examen and when they are given
 37:     related_chunks INTEGER[],
 38:     difficulty INTEGER DEFAULT 1
 39: );
-40: 
+40:
 41: -- Questions table
 42: CREATE TABLE questions (
 43:     id SERIAL PRIMARY KEY,
@@ -2434,7 +2435,7 @@ yes with that our models must get the behavior of examen and when they are given
 49:     difficulty INTEGER,
 50:     created_at TIMESTAMP DEFAULT NOW()
 51: );
-52: 
+52:
 53: -- Resources table (downloaded content)
 54: CREATE TABLE resources (
 55:     id SERIAL PRIMARY KEY,
@@ -2445,7 +2446,7 @@ yes with that our models must get the behavior of examen and when they are given
 60:     topic TEXT,
 61:     downloaded_at TIMESTAMP DEFAULT NOW()
 62: );
-63: 
+63:
 64: -- Handwritten OCR table
 65: CREATE TABLE handwritten (
 66:     id SERIAL PRIMARY KEY,
@@ -2455,7 +2456,7 @@ yes with that our models must get the behavior of examen and when they are given
 70:     topic TEXT,
 71:     created_at TIMESTAMP DEFAULT NOW()
 72: );
-73: 
+73:
 74: -- NLM Notebooks table
 75: CREATE TABLE nlm_notebooks (
 76:     id SERIAL PRIMARY KEY,
@@ -2464,7 +2465,7 @@ yes with that our models must get the behavior of examen and when they are given
 79:     source_count INTEGER DEFAULT 0,
 80:     created_at TIMESTAMP DEFAULT NOW()
 81: );
-82: 
+82:
 83: -- Sync tracking
 84: CREATE TABLE sync_log (
 85:     id SERIAL PRIMARY KEY,
@@ -2473,7 +2474,7 @@ yes with that our models must get the behavior of examen and when they are given
 88:     record_id INTEGER,
 89:     synced_at TIMESTAMP DEFAULT NOW()
 90: );
-91: 
+91:
 92: -- Indexes
 93: CREATE INDEX idx_chunks_vector ON chunks USING ivfflat (chunk_vector vector_cosine_ops);
 94: CREATE INDEX idx_chunks_text ON chunks USING gin (chunk_text gin_trgm_ops);
@@ -2548,15 +2549,15 @@ Now I have a complete picture. Let me create a comprehensive plan based on your 
 
 ### 2.1 Multi-Modal Input System
 
-| Method | Technology | Use Case |
-|--------|------------|----------|
+| Method           | Technology             | Use Case                                        |
+| ---------------- | ---------------------- | ----------------------------------------------- |
 | **Image Upload** | Tesseract OCR, EasyOCR | Handwritten exercises, photos of textbook pages |
-| **Google Lens** | Playwright + Lens API | Scan problems from any surface |
-| **PDF Upload** | PyMuPDF, pdfplumber | Batch submission of exercises |
-| **URL Scraping** | Custom crawler | Mauritanian education sites |
-| **YouTube** | yt-dlp | Educational video analysis |
-| **Telegram Bot** | Bot API | Quick submissions via phone |
-| **Web Form** | PWA | Manual entry |
+| **Google Lens**  | Playwright + Lens API  | Scan problems from any surface                  |
+| **PDF Upload**   | PyMuPDF, pdfplumber    | Batch submission of exercises                   |
+| **URL Scraping** | Custom crawler         | Mauritanian education sites                     |
+| **YouTube**      | yt-dlp                 | Educational video analysis                      |
+| **Telegram Bot** | Bot API                | Quick submissions via phone                     |
+| **Web Form**     | PWA                    | Manual entry                                    |
 
 ### 2.2 Submission Validation
 
@@ -2645,7 +2646,7 @@ Train/fine-tune models to:
 **Prompt Template for Solver:**
 
 ```
-You are an expert BAC examiner. 
+You are an expert BAC examiner.
 Given a question, provide:
 1. Step-by-step solution
 2. All possible answer choices
@@ -2670,18 +2671,18 @@ Format your response in JSON.
 ### 5.1 Flow
 
 ```
-User Input → OCR/Parse → LaTeX Convert → AI Solve → 
+User Input → OCR/Parse → LaTeX Convert → AI Solve →
 → Generate Steps → Create Manim → Store + Return
 ```
 
 ### 5.2 Capabilities by Subject
 
-| Subject | Capabilities |
-|---------|-------------|
-| **Math** | Equations, integrals, derivatives, geometry proofs, matrices |
-| **Physics** | Force calculations, circuits, optics, mechanics |
-| **Chemistry** | Reactions, stoichiometry, organic chemistry |
-| **SVT** | Diagrams, processes, definitions |
+| Subject       | Capabilities                                                 |
+| ------------- | ------------------------------------------------------------ |
+| **Math**      | Equations, integrals, derivatives, geometry proofs, matrices |
+| **Physics**   | Force calculations, circuits, optics, mechanics              |
+| **Chemistry** | Reactions, stoichiometry, organic chemistry                  |
+| **SVT**       | Diagrams, processes, definitions                             |
 
 ### 5.3 Output Formats
 
@@ -2704,10 +2705,10 @@ class DerivativeGraph(Scene):
         # Plot function
         axes = Axes(x_range=[-3,3], y_range=[-5,10])
         graph = axes.plot(lambda x: x**2)
-        
+
         # Show derivative
         deriv = axes.plot(lambda x: 2*x, color=RED)
-        
+
         self.play(Create(graph))
         self.play(Create(deriv))
 ```
@@ -2802,32 +2803,32 @@ bac practice --difficulty hard
 
 ## 9. Technology Stack
 
-| Component | Technology |
-|-----------|------------|
-| **Backend** | Go / Python (FastAPI) |
-| **Database** | PostgreSQL + pgvector |
-| **AI/LLM** | Ollama (local) + API fallback |
-| **OCR** | Tesseract, EasyOCR, PaddleOCR |
-| **Math** | SymPy, Wolfram API |
-| **Video** | Manim (Python) |
-| **Frontend** | React + PWA |
-| **Bot** | Telegram Bot API |
-| **Auth** | JWT + OAuth |
-| **Storage** | S3 / Local + CDN |
+| Component    | Technology                    |
+| ------------ | ----------------------------- |
+| **Backend**  | Go / Python (FastAPI)         |
+| **Database** | PostgreSQL + pgvector         |
+| **AI/LLM**   | Ollama (local) + API fallback |
+| **OCR**      | Tesseract, EasyOCR, PaddleOCR |
+| **Math**     | SymPy, Wolfram API            |
+| **Video**    | Manim (Python)                |
+| **Frontend** | React + PWA                   |
+| **Bot**      | Telegram Bot API              |
+| **Auth**     | JWT + OAuth                   |
+| **Storage**  | S3 / Local + CDN              |
 
 ---
 
 ## 10. Key Differences from Current System
 
-| Aspect | Current (Personal) | New (Unified) |
-|--------|------------------|---------------|
-| **Database** | Single user | Multi-tenant with auth |
-| **Input** | Manual PDF upload | Multi-modal (image, camera, URL) |
-| **Solver** | Basic Q&A | Exam-aware with steps + Manim |
-| **Prediction** | None | ML-based question prediction |
-| **Users** | 1 user | Nation-wide students |
-| **Contributions** | None | Crowdsourced question bank |
-| **Visuals** | Static | Animated Manim videos |
+| Aspect            | Current (Personal) | New (Unified)                    |
+| ----------------- | ------------------ | -------------------------------- |
+| **Database**      | Single user        | Multi-tenant with auth           |
+| **Input**         | Manual PDF upload  | Multi-modal (image, camera, URL) |
+| **Solver**        | Basic Q&A          | Exam-aware with steps + Manim    |
+| **Prediction**    | None               | ML-based question prediction     |
+| **Users**         | 1 user             | Nation-wide students             |
+| **Contributions** | None               | Crowdsourced question bank       |
+| **Visuals**       | Static             | Animated Manim videos            |
 
 ---
 
@@ -2887,8 +2888,7 @@ How should students earn rewards for submitting questions/exercises?
 Where will the system be hosted?
 
 - Ministry servers (on-premise)
-- Cloud (AWS, GCP, etc.)
--混合 (some on-prem, some cloud)
+- Cloud (AWS, GCP, etc.) -混合 (some on-prem, some cloud)
 
 ---
 
@@ -2958,14 +2958,14 @@ Perfect! Now I have all the details. Let me present the finalized plan:
 
 ### Basic Info
 
-| Item | Value |
-|------|-------|
-| **Owner** | Ministry of Education (Mauritania) |
-| **Interface** | CLI first, then web/mobile |
-| **Predictions** | Public for all students |
-| **Timeline** | 1 year (full system) |
-| **Storage** | Local MinIO |
-| **Incentives** | Points + Badges + Leaderboards |
+| Item            | Value                              |
+| --------------- | ---------------------------------- |
+| **Owner**       | Ministry of Education (Mauritania) |
+| **Interface**   | CLI first, then web/mobile         |
+| **Predictions** | Public for all students            |
+| **Timeline**    | 1 year (full system)               |
+| **Storage**     | Local MinIO                        |
+| **Incentives**  | Points + Badges + Leaderboards     |
 
 ---
 
@@ -3011,75 +3011,75 @@ Perfect! Now I have all the details. Let me present the finalized plan:
 
 ### Phase 1: Foundation (Months 1-2)
 
-| Week | Task |
-|------|------|
-| 1-2 | Setup infrastructure (MinIO, PostgreSQL) |
-| 3-4 | Design unified database schema |
-| 5-6 | Build authentication system |
-| 7-8 | Create core API (Go/FastAPI) |
+| Week | Task                                     |
+| ---- | ---------------------------------------- |
+| 1-2  | Setup infrastructure (MinIO, PostgreSQL) |
+| 3-4  | Design unified database schema           |
+| 5-6  | Build authentication system              |
+| 7-8  | Create core API (Go/FastAPI)             |
 
 ### Phase 2: Input System (Months 2-3)
 
-| Week | Task |
-|------|------|
-| 9-10 | Multi-OCR pipeline (Tesseract, EasyOCR) |
-| 11-12 | PDF parser with LaTeX extraction |
-| 13-14 | Image preprocessing pipeline |
+| Week  | Task                                    |
+| ----- | --------------------------------------- |
+| 9-10  | Multi-OCR pipeline (Tesseract, EasyOCR) |
+| 11-12 | PDF parser with LaTeX extraction        |
+| 13-14 | Image preprocessing pipeline            |
 
 ### Phase 3: Solver Engine (Months 3-5)
 
-| Week | Task |
-|------|------|
-| 15-16 | LLM integration for solving |
+| Week  | Task                            |
+| ----- | ------------------------------- |
+| 15-16 | LLM integration for solving     |
 | 17-18 | Step-by-step solution generator |
-| 19-20 | Multi-answer generator |
+| 19-20 | Multi-answer generator          |
 
 ### Phase 4: Manim Visualization (Months 5-6)
 
-| Week | Task |
-|------|------|
-| 21-22 | Manim integration for math |
+| Week  | Task                             |
+| ----- | -------------------------------- |
+| 21-22 | Manim integration for math       |
 | 23-24 | Physics/chemistry visualizations |
 
 ### Phase 5: Prediction System (Months 6-7)
 
-| Week | Task |
-|------|------|
+| Week  | Task                                    |
+| ----- | --------------------------------------- |
 | 25-26 | Import historical questions (20+ years) |
-| 27-28 | ML pattern analysis |
+| 27-28 | ML pattern analysis                     |
 
 ### Phase 6: User Features (Months 7-9)
 
-| Week | Task |
-|------|------|
-| 29-30 | Progress tracking |
+| Week  | Task                 |
+| ----- | -------------------- |
+| 29-30 | Progress tracking    |
 | 31-32 | Points/badges system |
-| 33-36 | Leaderboards |
+| 33-36 | Leaderboards         |
 
 ### Phase 7: Testing & Launch (Months 9-12)
 
-| Week | Task |
-|------|------|
+| Week  | Task                      |
+| ----- | ------------------------- |
 | 37-40 | Beta testing with schools |
-| 41-44 | Ministry approval |
-| 45-48 | Public launch |
+| 41-44 | Ministry approval         |
+| 45-48 | Public launch             |
 
 ---
 
 ## Technology Stack
 
-| Component | Technology |
-|-----------|------------|
-| **API Server** | Go (Gin) or Python FastAPI |
-| **Database** | PostgreSQL + pgvector |
-| **Object Storage** | MinIO (local S3-compatible) |
-| **AI/LLM** | Ollama (local) + Cloud fallback |
-| **OCR** | Tesseract, EasyOCR |
-| **Math Engine** | SymPy |
-| **Visualization** | Manim |
-| **CLI** | Nushell |
-| **Auth** | JWT |
-| **Deployment** | Docker + Kubernetes |
+| Component          | Technology                      |
+| ------------------ | ------------------------------- |
+| **API Server**     | Go (Gin) or Python FastAPI      |
+| **Database**       | PostgreSQL + pgvector           |
+| **Object Storage** | MinIO (local S3-compatible)     |
+| **AI/LLM**         | Ollama (local) + Cloud fallback |
+| **OCR**            | Tesseract, EasyOCR              |
+| **Math Engine**    | SymPy                           |
+| **Visualization**  | Manim                           |
+| **CLI**            | Nushell                         |
+| **Auth**           | JWT                             |
+| **Deployment**     | Docker + Kubernetes             |
 
 ---
 
@@ -3119,12 +3119,12 @@ bac quiz --topic limits
 
 ### Points
 
-| Action | Points |
-|--------|--------|
-| Submit question | +10 |
-| Submit with image | +20 |
-| Question verified | +50 |
-| Daily practice | +5 |
+| Action            | Points |
+| ----------------- | ------ |
+| Submit question   | +10    |
+| Submit with image | +20    |
+| Question verified | +50    |
+| Daily practice    | +5     |
 
 ### Badges
 
@@ -3162,12 +3162,12 @@ bac-unified/
 
 ## Budget Estimate
 
-| Item | Type | Cost |
-|------|------|------|
-| Server (2x) | Hardware | ~$5,000 |
-| MinIO Storage | 10TB HDD | ~$300 |
-| Internet | 100Mbps | ~$100/mo |
-| Development | Personnel | Ministry-funded |
+| Item          | Type      | Cost            |
+| ------------- | --------- | --------------- |
+| Server (2x)   | Hardware  | ~$5,000         |
+| MinIO Storage | 10TB HDD  | ~$300           |
+| Internet      | 100Mbps   | ~$100/mo        |
+| Development   | Personnel | Ministry-funded |
 
 ---
 
@@ -3271,17 +3271,17 @@ Now I have all the details. Let me create a comprehensive advanced plan:
 
 ## 1. Executive Summary
 
-| Aspect | Specification |
-|--------|---------------|
-| **Project Name** | BAC Unified - المنظومة الوطنية للباكالوريا |
-| **Owner** | Ministry of Education, Islamic Republic of Mauritania |
-| **Timeline** | 12 months (4 quarters) |
-| **Target Users** | 50,000+ BAC C students annually |
-| **Infrastructure** | On-premise Ministry servers + MinIO |
-| **AI Approach** | Fine-tuned local models + cloud fallback |
-| **Security** | AES-256 encryption + Blockchain audit trail |
-| **Offline** | Partial - core features offline, advanced online |
-| **Incentives** | Points + Badges + Leaderboards |
+| Aspect             | Specification                                         |
+| ------------------ | ----------------------------------------------------- |
+| **Project Name**   | BAC Unified - المنظومة الوطنية للباكالوريا            |
+| **Owner**          | Ministry of Education, Islamic Republic of Mauritania |
+| **Timeline**       | 12 months (4 quarters)                                |
+| **Target Users**   | 50,000+ BAC C students annually                       |
+| **Infrastructure** | On-premise Ministry servers + MinIO                   |
+| **AI Approach**    | Fine-tuned local models + cloud fallback              |
+| **Security**       | AES-256 encryption + Blockchain audit trail           |
+| **Offline**        | Partial - core features offline, advanced online      |
+| **Incentives**     | Points + Badges + Leaderboards                        |
 
 ---
 
@@ -3507,30 +3507,30 @@ CREATE TABLE users (
     username TEXT UNIQUE NOT NULL,
     email TEXT UNIQUE,
     password_hash TEXT NOT NULL,
-    
+
     -- Profile
     full_name TEXT,
     school TEXT,
     region TEXT,
     role USER_ROLE DEFAULT 'student',
-    
+
     -- Gamification
     points INTEGER DEFAULT 0,
     level INTEGER DEFAULT 1,
     streak_days INTEGER DEFAULT 0,
     last_active TIMESTAMP,
-    
+
     -- Preferences
     preferred_language TEXT DEFAULT 'fr', -- fr, ar, en
     preferred_subjects TEXT[],
     offline_enabled BOOLEAN DEFAULT FALSE,
-    
+
     -- Security
     mfa_enabled BOOLEAN DEFAULT FALSE,
     two_factor_secret TEXT,
     last_login TIMESTAMP,
     login_ip INET,
-    
+
     -- Timestamps
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW(),
@@ -3569,62 +3569,62 @@ CREATE TABLE subjects (
 
 CREATE TABLE questions (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    
+
     -- Submission info
     submitted_by UUID REFERENCES users(id),
     source_type TEXT NOT NULL, -- 'image', 'pdf', 'url', 'manual', 'historical'
     original_file UUID, -- Reference to MinIO object
-    
+
     -- Content
     question_text TEXT,
     question_image BYTEA,
     question_latex TEXT,
     question_pdf BYTEA,
-    
+
     -- Metadata
     subject_id INTEGER REFERENCES subjects(id),
     chapter_id INTEGER,
     topic_tags TEXT[],
     difficulty INTEGER CHECK (difficulty BETWEEN 1 AND 5),
     question_type TEXT, -- 'multiple_choice', 'true_false', 'short_answer', 'proof', 'calculation'
-    
+
     -- Solution
     solution_text TEXT,
     solution_latex TEXT,
     solution_steps JSONB, -- [{step: "...", explanation: "..."}]
     correct_answer TEXT,
     answer_options JSONB, -- {A: "...", B: "...", C: "...", D: "..."}
-    
+
     -- Source
     source_exam TEXT, -- 'Bac 2024', 'Série Lycée X'
     source_year INTEGER,
     source_school TEXT,
-    
+
     -- Validation
     verified_by UUID REFERENCES users(id),
     verified_at TIMESTAMP,
     verification_status TEXT DEFAULT 'pending', -- 'pending', 'approved', 'rejected'
     rejection_reason TEXT,
-    
+
     -- Statistics
     submission_count INTEGER DEFAULT 0,
     correct_count INTEGER DEFAULT 0,
     view_count INTEGER DEFAULT 0,
-    
+
     -- AI Analysis
     ai_difficulty FLOAT,
     ai_concepts JSONB,
     ai_tags JSONB,
     embedding vector(1536),
-    
+
     -- Blockchain
     content_hash TEXT NOT NULL,
     blockchain_tx TEXT,
-    
+
     -- Timestamps
     created_at TIMESTAMP DEFAULT NOW(),
     updated_at TIMESTAMP DEFAULT NOW(),
-    
+
     -- Constraints
     UNIQUE(content_hash)
 );
@@ -3647,27 +3647,27 @@ CREATE TABLE question_versions (
 CREATE TABLE manim_videos (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     question_id UUID REFERENCES questions(id) ON DELETE CASCADE,
-    
+
     -- Video metadata
     title TEXT,
     animation_type TEXT, -- 'graph', 'geometry', 'physics', 'chemistry'
     duration_seconds INTEGER,
     file_size_mb FLOAT,
-    
+
     -- Storage
     video_url TEXT,
     thumbnail_url TEXT,
     local_path TEXT,
-    
+
     -- Generation
     generation_prompt TEXT,
     generation_status TEXT DEFAULT 'pending', -- 'pending', 'rendering', 'completed', 'failed'
     rendered_at TIMESTAMP,
-    
+
     -- Stats
     views INTEGER DEFAULT 0,
     rating FLOAT,
-    
+
     created_at TIMESTAMP DEFAULT NOW()
 );
 
@@ -3677,30 +3677,30 @@ CREATE TABLE manim_videos (
 
 CREATE TABLE predictions (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    
+
     -- Prediction context
     subject_id INTEGER REFERENCES subjects(id),
     chapter_id INTEGER,
     exam_year INTEGER NOT NULL,
     exam_session TEXT, -- 'principal', 'controle'
-    
+
     -- Predicted content
     predicted_topics JSONB NOT NULL,
     predicted_questions JSONB, -- [{question_preview, probability, confidence}]
     confidence_score FLOAT,
-    
+
     -- Analysis
     based_on_patterns JSONB, -- {frequency: [...], trends: [...], correlations: [...]}
     historical_data_years JSONB,
-    
+
     -- Status
     status TEXT DEFAULT 'draft', -- 'draft', 'published', 'confirmed', 'expired'
     published_at TIMESTAMP,
-    
+
     -- Results
     actual_questions JSONB, -- Filled after exam
     accuracy_score FLOAT,
-    
+
     created_at TIMESTAMP DEFAULT NOW()
 );
 
@@ -3712,43 +3712,43 @@ CREATE TABLE user_progress (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id UUID REFERENCES users(id) ON DELETE CASCADE,
     question_id UUID REFERENCES questions(id) ON DELETE CASCADE,
-    
+
     -- Attempt
     attempt_number INTEGER NOT NULL,
     user_answer TEXT,
     is_correct BOOLEAN,
     time_taken_seconds INTEGER,
-    
+
     -- Hints used
     hints_used INTEGER DEFAULT 0,
     solution_viewed BOOLEAN DEFAULT FALSE,
-    
+
     -- AI feedback
     ai_feedback TEXT,
     weak_concepts TEXT[],
-    
+
     created_at TIMESTAMP DEFAULT NOW(),
-    
+
     UNIQUE(user_id, question_id, attempt_number)
 );
 
 CREATE TABLE study_sessions (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     user_id UUID REFERENCES users(id) ON DELETE CASCADE,
-    
+
     session_type TEXT, -- 'practice', 'mock_exam', 'review', 'prediction'
     subject_id INTEGER REFERENCES subjects(id),
-    
+
     -- Time
     started_at TIMESTAMP NOT NULL,
     ended_at TIMESTAMP,
     duration_minutes INTEGER,
-    
+
     -- Results
     questions_attempted INTEGER,
     questions_correct INTEGER,
     score_percentage FLOAT,
-    
+
     created_at TIMESTAMP DEFAULT NOW()
 );
 
@@ -3780,10 +3780,10 @@ CREATE TABLE leaderboard (
     period TEXT NOT NULL, -- 'daily', 'weekly', 'monthly', 'all_time'
     subject_id INTEGER REFERENCES subjects(id),
     school_id TEXT,
-    
+
     rankings JSONB NOT NULL, -- [{rank, user_id, username, points, streak}]
     updated_at TIMESTAMP DEFAULT NOW(),
-    
+
     UNIQUE(period, subject_id, school_id)
 );
 
@@ -3804,24 +3804,24 @@ CREATE TABLE point_transactions (
 
 CREATE TABLE storage_objects (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    
+
     bucket TEXT NOT NULL,
     object_key TEXT NOT NULL,
     filename TEXT,
     content_type TEXT,
     file_size BIGINT,
     checksum TEXT, -- SHA-256
-    
+
     -- Metadata
     uploaded_by UUID REFERENCES users(id),
     is_public BOOLEAN DEFAULT FALSE,
-    
+
     -- Lifecycle
     storage_class TEXT DEFAULT 'STANDARD',
     expires_at TIMESTAMP,
-    
+
     created_at TIMESTAMP DEFAULT NOW(),
-    
+
     UNIQUE(bucket, object_key)
 );
 
@@ -3831,26 +3831,26 @@ CREATE TABLE storage_objects (
 
 CREATE TABLE audit_log (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    
+
     -- Transaction
     transaction_hash TEXT UNIQUE NOT NULL,
     previous_hash TEXT NOT NULL,
     block_number BIGINT,
-    
+
     -- Action
     action TEXT NOT NULL, -- 'create', 'update', 'delete', 'verify'
     table_name TEXT NOT NULL,
     record_id UUID NOT NULL,
-    
+
     -- Data
     changes JSONB,
     metadata JSONB,
-    
+
     -- Actor
     user_id UUID REFERENCES users(id),
     ip_address INET,
     user_agent TEXT,
-    
+
     created_at TIMESTAMP DEFAULT NOW()
 );
 
@@ -3860,24 +3860,24 @@ CREATE TABLE audit_log (
 
 CREATE TABLE analytics_events (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    
+
     event_type TEXT NOT NULL,
     user_id UUID REFERENCES users(id),
-    
+
     -- Context
     subject_id INTEGER REFERENCES subjects(id),
     question_id UUID REFERENCES questions(id),
-    
+
     -- Data
     properties JSONB,
     session_id UUID,
-    
+
     created_at TIMESTAMP DEFAULT NOW()
 );
 
 -- Materialized view for analytics
 CREATE MATERIALIZED VIEW daily_stats AS
-SELECT 
+SELECT
     DATE(created_at) as date,
     COUNT(DISTINCT user_id) as active_users,
     COUNT(*) as total_events,
@@ -3891,16 +3891,16 @@ GROUP BY DATE(created_at);
 -- =============================================================================
 
 -- Vector similarity search
-CREATE INDEX idx_questions_embedding ON questions 
-    USING ivfflat (embedding vector_cosine_ops) 
+CREATE INDEX idx_questions_embedding ON questions
+    USING ivfflat (embedding vector_cosine_ops)
     WITH (lists = 100);
 
 -- Full-text search
-CREATE INDEX idx_questions_text ON questions 
+CREATE INDEX idx_questions_text ON questions
     USING gin (to_tsvector('french', question_text));
 
 -- Trigram search for fuzzy matching
-CREATE INDEX idx_questions_trgm ON questions 
+CREATE INDEX idx_questions_trgm ON questions
     USING gin (question_text gin_trgm_ops);
 
 -- Performance indexes
@@ -4124,27 +4124,27 @@ TRAINING_STEPS = [
 class DerivativeSolution(Scene):
     def construct(self):
         # Problem: Calculate derivative of f(x) = x² + 2x
-        
+
         # Step 1: Show function
         func = MathTex(r"f(x) = x^2 + 2x")
         self.play(Write(func))
         self.wait()
-        
+
         # Step 2: Apply derivative rule
         deriv_rule = MathTex(r"f'(x) = \frac{d}{dx}(x^2) + \frac{d}{dx}(2x)")
         self.play(Transform(func, deriv_rule))
         self.wait()
-        
+
         # Step 3: Calculate each term
         result = MathTex(r"f'(x) = 2x + 2")
         self.play(Transform(func, result))
         self.wait()
-        
+
         # Step 4: Graph visualization
         axes = Axes(x_range=[-3, 3], y_range=[-1, 10])
         graph = axes.plot(lambda x: x**2 + 2*x, color=BLUE)
         deriv_graph = axes.plot(lambda x: 2*x + 2, color=RED)
-        
+
         self.play(Create(axes))
         self.play(Create(graph))
         self.play(Create(deriv_graph))
@@ -4335,31 +4335,31 @@ PHASE 7                                                                         
 
 ### 8.2 Detailed Milestones
 
-| Month | Week | Milestone | Deliverable |
-|-------|------|-----------|-------------|
-| 1 | 1-2 | Infrastructure Setup | Servers, MinIO, PostgreSQL installed |
-| 1 | 3-4 | Database Design | Complete schema implemented |
-| 1 | 5-6 | Auth System | JWT + RBAC working |
-| 1 | 7-8 | API Core | CRUD endpoints ready |
-| 2 | 9-10 | OCR Pipeline | Tesseract + EasyOCR working |
-| 2 | 11-12 | PDF Parser | Text + LaTeX extraction |
-| 2 | 13-14 | Image Processing | Preprocessing pipeline |
-| 3 | 15-16 | Ollama Setup | Base models running |
-| 3 | 17-18 | Solver Prompt | Exam-aware prompts |
-| 3 | 19-20 | Multi-answer | Generate A,B,C,D options |
-| 4 | 21-22 | Math Manim | Graph animations |
-| 4 | 23-24 | Physics/Chem | Science animations |
-| 5 | 25-26 | Historical Data | 20+ years imported |
-| 5 | 27-28 | ML Pipeline | Pattern analysis working |
-| 6 | 29-30 | Progress Tracking | User stats |
-| 6 | 31-32 | Points System | Gamification v1 |
-| 7 | 33-34 | Badges + Levels | Rewards system |
-| 7 | 35-36 | Leaderboards | School rankings |
-| 8 | 37-38 | Beta Testing | 5 schools pilot |
-| 8 | 39-40 | Bug Fixes | Issues resolved |
-| 9 | 41-42 | Ministry Review | Approval process |
-| 9 | 43-44 | Training | Admin + teacher training |
-| 10 | 45-48 | Public Launch | Full release |
+| Month | Week  | Milestone            | Deliverable                          |
+| ----- | ----- | -------------------- | ------------------------------------ |
+| 1     | 1-2   | Infrastructure Setup | Servers, MinIO, PostgreSQL installed |
+| 1     | 3-4   | Database Design      | Complete schema implemented          |
+| 1     | 5-6   | Auth System          | JWT + RBAC working                   |
+| 1     | 7-8   | API Core             | CRUD endpoints ready                 |
+| 2     | 9-10  | OCR Pipeline         | Tesseract + EasyOCR working          |
+| 2     | 11-12 | PDF Parser           | Text + LaTeX extraction              |
+| 2     | 13-14 | Image Processing     | Preprocessing pipeline               |
+| 3     | 15-16 | Ollama Setup         | Base models running                  |
+| 3     | 17-18 | Solver Prompt        | Exam-aware prompts                   |
+| 3     | 19-20 | Multi-answer         | Generate A,B,C,D options             |
+| 4     | 21-22 | Math Manim           | Graph animations                     |
+| 4     | 23-24 | Physics/Chem         | Science animations                   |
+| 5     | 25-26 | Historical Data      | 20+ years imported                   |
+| 5     | 27-28 | ML Pipeline          | Pattern analysis working             |
+| 6     | 29-30 | Progress Tracking    | User stats                           |
+| 6     | 31-32 | Points System        | Gamification v1                      |
+| 7     | 33-34 | Badges + Levels      | Rewards system                       |
+| 7     | 35-36 | Leaderboards         | School rankings                      |
+| 8     | 37-38 | Beta Testing         | 5 schools pilot                      |
+| 8     | 39-40 | Bug Fixes            | Issues resolved                      |
+| 9     | 41-42 | Ministry Review      | Approval process                     |
+| 9     | 43-44 | Training             | Admin + teacher training             |
+| 10    | 45-48 | Public Launch        | Full release                         |
 
 ---
 
@@ -4511,16 +4511,16 @@ PHASE 7                                                                         
 
 ### 10.2 Hardware Requirements
 
-| Component | Specification | Quantity | Purpose |
-|-----------|---------------|----------|---------|
-| **API Servers** | 16 cores, 32GB RAM, SSD | 3 | Handle API requests |
-| **ML Servers** | 64 cores, 256GB RAM, 4x GPU A100 | 2 | Ollama + fine-tuning |
-| **Database** | 32 cores, 128GB RAM, 2TB NVMe | 2 | PostgreSQL primary + replica |
-| **Cache** | 8 cores, 16GB RAM | 3 | Redis cluster |
-| **Storage** | 64TB HDD, 10GbE | 4 | MinIO cluster |
-| **Blockchain** | 8 cores, 16GB RAM | 3 | Hyperledger Fabric |
-| **Network** | 10GbE switch | 1 | Internal network |
-| **Load Balancer** | HAProxy cluster | 2 | Traffic distribution |
+| Component         | Specification                    | Quantity | Purpose                      |
+| ----------------- | -------------------------------- | -------- | ---------------------------- |
+| **API Servers**   | 16 cores, 32GB RAM, SSD          | 3        | Handle API requests          |
+| **ML Servers**    | 64 cores, 256GB RAM, 4x GPU A100 | 2        | Ollama + fine-tuning         |
+| **Database**      | 32 cores, 128GB RAM, 2TB NVMe    | 2        | PostgreSQL primary + replica |
+| **Cache**         | 8 cores, 16GB RAM                | 3        | Redis cluster                |
+| **Storage**       | 64TB HDD, 10GbE                  | 4        | MinIO cluster                |
+| **Blockchain**    | 8 cores, 16GB RAM                | 3        | Hyperledger Fabric           |
+| **Network**       | 10GbE switch                     | 1        | Internal network             |
+| **Load Balancer** | HAProxy cluster                  | 2        | Traffic distribution         |
 
 ---
 
@@ -4528,41 +4528,41 @@ PHASE 7                                                                         
 
 ### 11.1 Initial Investment
 
-| Item | Cost (MRO) | Cost (USD) |
-|------|------------|------------|
-| **Hardware** | | |
-| Servers (8x) | 4,000,000 | $10,000 |
-| Network equipment | 500,000 | $1,250 |
-| UPS + Power | 300,000 | $750 |
-| **Software** | | |
-| Licenses (if needed) | 200,000 | $500 |
-| **Development** | | |
-| Team (12 months) | 12,000,000 | $30,000 |
-| Training | 500,000 | $1,250 |
-| **Contingency (15%)** | 2,625,000 | $6,562 |
-| **TOTAL** | **20,125,000** | **$50,312** |
+| Item                  | Cost (MRO)     | Cost (USD)  |
+| --------------------- | -------------- | ----------- |
+| **Hardware**          |                |             |
+| Servers (8x)          | 4,000,000      | $10,000     |
+| Network equipment     | 500,000        | $1,250      |
+| UPS + Power           | 300,000        | $750        |
+| **Software**          |                |             |
+| Licenses (if needed)  | 200,000        | $500        |
+| **Development**       |                |             |
+| Team (12 months)      | 12,000,000     | $30,000     |
+| Training              | 500,000        | $1,250      |
+| **Contingency (15%)** | 2,625,000      | $6,562      |
+| **TOTAL**             | **20,125,000** | **$50,312** |
 
 ### 11.2 Annual Operating Cost
 
-| Item | Cost (MRO/year) | Cost (USD/year) |
-|------|-----------------|-----------------|
-| Internet (100Mbps) | 240,000 | $600 |
-| Maintenance | 1,000,000 | $2,500 |
-| Electricity | 300,000 | $750 |
-| **TOTAL** | **1,540,000** | **$3,850/year** |
+| Item               | Cost (MRO/year) | Cost (USD/year) |
+| ------------------ | --------------- | --------------- |
+| Internet (100Mbps) | 240,000         | $600            |
+| Maintenance        | 1,000,000       | $2,500          |
+| Electricity        | 300,000         | $750            |
+| **TOTAL**          | **1,540,000**   | **$3,850/year** |
 
 ---
 
 ## 12. Risk Management
 
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| Low participation | Medium | High | Ministry endorsement, school requirements |
-| Model accuracy | Medium | Medium | Continuous fine-tuning, teacher validation |
-| Server overload | Low | High | Auto-scaling, CDN |
-| Data loss | Low | Critical | Daily backups, redundancy |
-| Security breach | Low | Critical | Encryption, audit logs, penetration testing |
-| Offline usage issues | Medium | Medium | Robust sync, clear offline indicators |
+| Risk                 | Likelihood | Impact   | Mitigation                                  |
+| -------------------- | ---------- | -------- | ------------------------------------------- |
+| Low participation    | Medium     | High     | Ministry endorsement, school requirements   |
+| Model accuracy       | Medium     | Medium   | Continuous fine-tuning, teacher validation  |
+| Server overload      | Low        | High     | Auto-scaling, CDN                           |
+| Data loss            | Low        | Critical | Daily backups, redundancy                   |
+| Security breach      | Low        | Critical | Encryption, audit logs, penetration testing |
+| Offline usage issues | Medium     | Medium   | Robust sync, clear offline indicators       |
 
 ---
 
@@ -4570,16 +4570,16 @@ PHASE 7                                                                         
 
 ### 13.1 KPIs
 
-| Metric | Year 1 Target |
-|--------|---------------|
-| Total Students | 50,000+ |
-| Active Users (monthly) | 30,000+ |
-| Questions in Bank | 100,000+ |
-| Questions Solved | 500,000+ |
-| Predictions Published | 200+ |
-| Average Accuracy | 75%+ |
-| User Satisfaction | 4.0/5.0 |
-| System Uptime | 99.5% |
+| Metric                 | Year 1 Target |
+| ---------------------- | ------------- |
+| Total Students         | 50,000+       |
+| Active Users (monthly) | 30,000+       |
+| Questions in Bank      | 100,000+      |
+| Questions Solved       | 500,000+      |
+| Predictions Published  | 200+          |
+| Average Accuracy       | 75%+          |
+| User Satisfaction      | 4.0/5.0       |
+| System Uptime          | 99.5%         |
 
 ---
 
@@ -4609,9 +4609,9 @@ the sent media must be identified by the llms for manim let's use <https://githu
 **Output:**
 
 ```
-                     GitHub - yongkyuns/noon: Animation engine inspired by manim, written in Rust                                             
+                     GitHub - yongkyuns/noon: Animation engine inspired by manim, written in Rust
 
-[Skip to content](#start-of-content)   
+[Skip to content](#start-of-content)
 
 ## Navigation Menu
 
@@ -4623,193 +4623,193 @@ Toggle navigation
 
 Appearance settings
 
-  
+
 
 -   Platform
-    
+
     -   AI CODE CREATION
-        
+
         -   [
-            
+
             GitHub CopilotWrite better code with AI
-            
+
             ](https://github.com/features/copilot)
         -   [
-            
+
             GitHub SparkBuild and deploy intelligent apps
-            
+
             ](https://github.com/features/spark)
         -   [
-            
+
             GitHub ModelsManage and compare prompts
-            
+
             ](https://github.com/features/models)
         -   [
-            
+
             MCP RegistryNewIntegrate external tools
-            
+
             ](https://github.com/mcp)
-        
+
     -   DEVELOPER WORKFLOWS
-        
+
         -   [
-            
+
             ActionsAutomate any workflow
-            
+
             ](https://github.com/features/actions)
         -   [
-            
+
             CodespacesInstant dev environments
-            
+
             ](https://github.com/features/codespaces)
         -   [
-            
+
             IssuesPlan and track work
-            
+
             ](https://github.com/features/issues)
         -   [
-            
+
             Code ReviewManage code changes
-            
+
             ](https://github.com/features/code-review)
-        
+
     -   APPLICATION SECURITY
-        
+
         -   [
-            
+
             GitHub Advanced SecurityFind and fix vulnerabilities
-            
+
             ](https://github.com/security/advanced-security)
         -   [
-            
+
             Code securitySecure your code as you build
-            
+
             ](https://github.com/security/advanced-security/code-security)
         -   [
-            
+
             Secret protectionStop leaks before they start
-            
+
             ](https://github.com/security/advanced-security/secret-protection)
-        
+
     -   EXPLORE
-        
+
         -   [Why GitHub](https://github.com/why-github)
         -   [Documentation](https://docs.github.com)
         -   [Blog](https://github.blog)
         -   [Changelog](https://github.blog/changelog)
         -   [Marketplace](https://github.com/marketplace)
-        
-    
+
+
     [View all features](https://github.com/features)
-    
+
 -   Solutions
-    
+
     -   BY COMPANY SIZE
-        
+
         -   [Enterprises](https://github.com/enterprise)
         -   [Small and medium teams](https://github.com/team)
         -   [Startups](https://github.com/enterprise/startups)
         -   [Nonprofits](https://github.com/solutions/industry/nonprofits)
-        
+
     -   BY USE CASE
-        
+
         -   [App Modernization](https://github.com/solutions/use-case/app-modernization)
         -   [DevSecOps](https://github.com/solutions/use-case/devsecops)
         -   [DevOps](https://github.com/solutions/use-case/devops)
         -   [CI/CD](https://github.com/solutions/use-case/ci-cd)
         -   [View all use cases](https://github.com/solutions/use-case)
-        
+
     -   BY INDUSTRY
-        
+
         -   [Healthcare](https://github.com/solutions/industry/healthcare)
         -   [Financial services](https://github.com/solutions/industry/financial-services)
         -   [Manufacturing](https://github.com/solutions/industry/manufacturing)
         -   [Government](https://github.com/solutions/industry/government)
         -   [View all industries](https://github.com/solutions/industry)
-        
-    
+
+
     [View all solutions](https://github.com/solutions)
-    
+
 -   Resources
-    
+
     -   EXPLORE BY TOPIC
-        
+
         -   [AI](https://github.com/resources/articles?topic=ai)
         -   [Software Development](https://github.com/resources/articles?topic=software-development)
         -   [DevOps](https://github.com/resources/articles?topic=devops)
         -   [Security](https://github.com/resources/articles?topic=security)
         -   [View all topics](https://github.com/resources/articles)
-        
+
     -   EXPLORE BY TYPE
-        
+
         -   [Customer stories](https://github.com/customer-stories)
         -   [Events & webinars](https://github.com/resources/events)
         -   [Ebooks & reports](https://github.com/resources/whitepapers)
         -   [Business insights](https://github.com/solutions/executive-insights)
         -   [GitHub Skills](https://skills.github.com)
-        
+
     -   SUPPORT & SERVICES
-        
+
         -   [Documentation](https://docs.github.com)
         -   [Customer support](https://support.github.com)
         -   [Community forum](https://github.com/orgs/community/discussions)
         -   [Trust center](https://github.com/trust-center)
         -   [Partners](https://github.com/partners)
-        
-    
+
+
 -   Open Source
-    
+
     -   COMMUNITY
-        
+
         -   [
-            
+
             GitHub SponsorsFund open source developers
-            
+
             ](https://github.com/sponsors)
-        
+
     -   PROGRAMS
-        
+
         -   [Security Lab](https://securitylab.github.com)
         -   [Maintainer Community](https://maintainers.github.com)
         -   [Accelerator](https://github.com/accelerator)
         -   [Archive Program](https://archiveprogram.github.com)
-        
+
     -   REPOSITORIES
-        
+
         -   [Topics](https://github.com/topics)
         -   [Trending](https://github.com/trending)
         -   [Collections](https://github.com/collections)
-        
-    
+
+
 -   Enterprise
-    
+
     -   ENTERPRISE SOLUTIONS
-        
+
         -   [
-            
+
             Enterprise platformAI-powered developer platform
-            
+
             ](https://github.com/enterprise)
-        
+
     -   AVAILABLE ADD-ONS
-        
+
         -   [
-            
+
             GitHub Advanced SecurityEnterprise-grade security features
-            
+
             ](https://github.com/security/advanced-security)
         -   [
-            
+
             Copilot for BusinessEnterprise-grade AI features
-            
+
             ](https://github.com/features/copilot/copilot-business)
         -   [
-            
+
             Premium SupportEnterprise-grade 24/7 support
-            
+
             ](https://github.com/premium-support)
-        
-    
+
+
 -   [Pricing](https://github.com/pricing)
 
 Search or jump to...
@@ -4834,9 +4834,9 @@ Cancel Submit feedback
 
 ## Use saved searches to filter your results more quickly
 
-Name  
+Name
 
-Query 
+Query
 
 To see all available qualifiers, see our [documentation](https://docs.github.com/search-github/github-code-search/understanding-github-code-search-syntax).
 
@@ -4857,7 +4857,7 @@ You signed in with another tab or window. Reload to refresh your session. You si
 -   [Notifications](/login?return_to=%2Fyongkyuns%2Fnoon) You must be signed in to change notification settings
 -   [Fork 9](/login?return_to=%2Fyongkyuns%2Fnoon)
 -   [Star 122](/login?return_to=%2Fyongkyuns%2Fnoon)
-    
+
 
 Animation engine inspired by manim, written in Rust
 
@@ -4887,7 +4887,7 @@ Additional navigation options
 
 # yongkyuns/noon
 
-   
+
 
  master
 
@@ -5242,7 +5242,7 @@ No releases published
 
 ## [Packages 0](/users/yongkyuns/packages?repo_name=noon)
 
-No packages published  
+No packages published
 
 ### Uh oh!
 
@@ -5289,95 +5289,95 @@ Got it! **Noon** is a fast Rust-based animation library (much faster than Python
 
 **Output:**
 
-```
+````
 <path>/home/med/Documents/bac/AGENTS.md</path>
 <type>file</type>
 <content>1: # BAC Hyper-Swarm - Developer Guide
-2: 
+2:
 3: This file provides guidelines for AI agents working on the BAC Hyper-Swarm project.
-4: 
+4:
 5: ## Project Overview
-6: 
+6:
 7: - **Primary Language**: Nushell (.nu scripts)
 8: - **CLI Entry Point**: `bac.nu`
 9: - **Daemons**: `daemons/*.nu`
 10: - **Config**: `config/`, `sql/`
-11: 
+11:
 12: ## Build & Run Commands
-13: 
+13:
 14: ```bash
 15: # Run the main CLI
 16: nu bac.nu
 17: nu bac.nu --help
-18: 
+18:
 19: # Make executable and run
 20: chmod +x bac.nu
 21: ./bac.nu
-22: 
+22:
 23: # Validate Nushell syntax
 24: nu --validate bac.nu
 25: nu --validate daemons/youtube-daemon.nu
-26: 
+26:
 27: # Check all .nu files syntax
 28: for f in (glob **/*.nu) { nu --validate $f }
-29: 
+29:
 30: # Run a specific daemon
 31: nu daemons/youtube-daemon.nu
 32: nu daemons/webcrawler-daemon.nu
 33: nu daemons/nlm-research-daemon.nu
 34: nu daemons/audio-daemon.nu
-35: 
+35:
 36: # Run with debugging
 37: NU_LOG_LEVEL=DEBUG nu bac.nu
-38: 
+38:
 39: # Run a single command
 40: nu -c 'use bac.nu; bac db status'
 41: ```
-42: 
+42:
 43: ## Test Commands
-44: 
+44:
 45: ```bash
 46: # Test CLI startup
 47: nu bac.nu
-48: 
+48:
 49: # Test specific subcommand
 50: nu -c 'use bac.nu; bac db init'
 51: nu -c 'use bac.nu; bac config list-topics'
-52: 
+52:
 53: # Test daemon syntax
 54: for f in (ls daemons/*.nu) { nu --validate $f.name }
 55: ```
-56: 
+56:
 57: ## Code Style Guidelines (Nushell)
-58: 
+58:
 59: ### Naming Conventions
-60: 
+60:
 61: - **Files**: `kebab-case` (e.g., `youtube-daemon.nu`)
 62: - **Commands/Functions**: `snake_case` (e.g., `bac db init`)
 63: - **Variables**: `snake_case` (e.g., `let resources_dir = "resources"`)
 64: - **Constants**: `SCREAMING_SNAKE_CASE` (e.g., `let MAX_RESULTS = 50`)
-65: 
+65:
 66: ### Function Definitions
-67: 
+67:
 68: ```nushell
 69: # Basic function with type annotations
 70: def greet [name: string] {
 71:     print $"Hello, ($name)!"
 72: }
-73: 
+73:
 74: # Function with optional parameter
 75: def greet [name: string = "World"] {
 76:     print $"Hello, ($name)!"
 77: }
-78: 
+78:
 79: # Export function (module)
 80: export def "bac db" [...args] {
 81:     # ...
 82: }
 83: ```
-84: 
+84:
 85: ### Error Handling
-86: 
+86:
 87: ```nushell
 88: # Use try/catch for error handling
 89: try {
@@ -5386,7 +5386,7 @@ Got it! **Noon** is a fast Rust-based animation library (much faster than Python
 92: } catch {
 93:     print $"Error: ($in)"
 94: }
-95: 
+95:
 96: # Validate inputs early
 97: def process [input: string] {
 98:     if ($input | is-empty) {
@@ -5395,70 +5395,70 @@ Got it! **Noon** is a fast Rust-based animation library (much faster than Python
 101:     # ...
 102: }
 103: ```
-104: 
+104:
 105: ### Importing Modules
-106: 
+106:
 107: ```nushell
 108: # Import entire module
 109: use bac.nu
-110: 
+110:
 111: # Import specific command
 112: use bac.nu [bac db]
-113: 
+113:
 114: # Import with alias
 115: use bac.nu as bac_cli
 116: ```
-117: 
+117:
 118: ### Formatting Rules
-119: 
+119:
 120: - **Indentation**: 4 spaces
 121: - **Line Length**: Max 100 characters
 122: - **Spacing**: Space after comma, around operators
 123: - **Comments**: Use `#` for single-line comments
-124: 
+124:
 125: ```nushell
 126: # Good
 127: def calculate [x: int, y: int] {
 128:     let sum = $x + $y
 129:     print $"Sum: ($sum)"
 130: }
-131: 
+131:
 132: # Avoid
 133: def calculate [x:int,y:int] { let sum=$x+$y; print $"Sum:($sum)" }
 134: ```
-135: 
+135:
 136: ### String Usage
-137: 
+137:
 138: - Use `$"string ($variable)"` for string interpolation
 139: - Use triple quotes for multiline strings
 140: - Use single quotes for literal strings
-141: 
+141:
 142: ```nushell
 143: let name = "Alice"
 144: print $"Hello, ($name)!"
-145: 
+145:
 146: let multiline = '''
 147: This is
 148: a multiline
 149: string
 150: '''
 151: ```
-152: 
+152:
 153: ### List/Table Operations
-154: 
+154:
 155: ```nushell
 156: # List comprehension
 157: let squares = (1..10 | each { |x| $x * $x })
-158: 
+158:
 159: # Table filter
 160: let results = ($data | where score > 50)
-161: 
+161:
 162: # Map
 163: let names = ($users | get name)
 164: ```
-165: 
+165:
 166: ## File Organization
-167: 
+167:
 168: ```
 169: bac/
 170: ├── bac.nu              # Main CLI entry point
@@ -5476,22 +5476,22 @@ Got it! **Noon** is a fast Rust-based animation library (much faster than Python
 182:     ├── web/
 183:     └── handwritten/
 184: ```
-185: 
+185:
 186: ## Adding New Commands
-187: 
+187:
 188: 1. Add function to `bac.nu` with `export def`:
 189: ```nushell
 190: export def "bac newcommand" [arg: string] {
 191:     print $"Processing: ($arg)"
 192: }
 193: ```
-194: 
+194:
 195: 2. Update help text in `main` function
-196: 
+196:
 197: 3. Add to docs/API.md
-198: 
+198:
 199: ## Common Patterns
-200: 
+200:
 201: ### Subcommand Pattern
 202: ```nushell
 203: export def "bac db" [...args] {
@@ -5502,45 +5502,45 @@ Got it! **Noon** is a fast Rust-based animation library (much faster than Python
 208:     }
 209: }
 210: ```
-211: 
+211:
 212: ### File Existence Check
 213: ```nushell
 214: if not ($path | path exists) {
 215:     mkdir $path
 216: }
 217: ```
-218: 
+218:
 219: ### External Command Execution
 220: ```nushell
 221: # With output capture
 222: let result = (^yt-dlp --version)
-223: 
+223:
 224: # Simple execution
 225: ^nu --version
 226: ```
-227: 
+227:
 228: ## Existing Agent Rules
-229: 
+229:
 230: This project also follows rules in `docs/AGENTS.md` for:
 231: - YouTube daemon behavior
 232: - Web crawler behavior
 233: - OCR agent behavior
 234: - NotebookLM integration
 235: - Database management
-236: 
+236:
 237: ## Version Control
-238: 
+238:
 239: - Use **jj** (not git directly) for version control
 240: - See `progress.md` for implementation history
 241: - Commit regularly with descriptive messages
-242: 
+242:
 243: ---
-244: 
+244:
 245: *Last Updated: 2026-02-23*
 
 (End of file - total 245 lines)
 </content>
-```
+````
 
 ---
 
@@ -5550,13 +5550,13 @@ Got it! **Noon** is a fast Rust-based animation library (much faster than Python
 
 **Input:**
 
-```json
+````json
 {
   "filePath": "/home/med/Documents/bac/AGENTS.md",
   "newString": "# BAC Unified - Developer Guide\n\nThis file provides guidelines for AI agents working on the BAC Unified project.\n\n## Project Vision\n\n**BAC Unified** is a national exam preparation system for Mauritania's BAC C students:\n- Country-wide unified question bank\n- Multi-modal input (images, PDFs, URLs)\n- AI-powered exercise solver with step-by-step solutions\n- Question prediction based on historical patterns\n- Animation visualizations using **noon** (Rust-based, faster than manim)\n- Full audit trail with blockchain\n\n## Project Overview\n\n- **Primary Languages**: Nushell (CLI), Rust (Noon animations), Go/Python (API)\n- **CLI Entry Point**: `bac.nu`\n- **Animation Engine**: noon (https://github.com/yongkyuns/noon)\n- **Database**: PostgreSQL + pgvector\n- **Storage**: MinIO (local S3)\n\n## Build & Run Commands\n\n```bash\n# Run the main CLI\nnu bac.nu\nnu bac.nu --help\n\n# Validate Nushell syntax\nnu --validate bac.nu\n\n# Run Noon animations\ncd src/noon && cargo build --release\ncargo run --release --example math_graph\n\n# Run Python services\ncd src/api && python -m uvicorn main:app --reload\n\n# Database\npsql -U postgres -d bac_unified -f sql/schema.sql\n\n# Run all tests\ncargo test --manifest-path src/noon/Cargo.toml\n```\n\n## Architecture\n\n```\nUser Input → OCR/Parse → AI Analysis → Solver → Noon Animation → Storage\n                                    ↓\n                            Question Bank (PostgreSQL)\n                                    ↓\n                            Prediction Engine\n```\n\n## Media-to-Animation Pipeline (Noon)\n\n1. **Input**: Image/PDF/Text of exercise\n2. **OCR**: Extract problem text (Tesseract, EasyOCR)\n3. **AI Analysis**: Identify math concepts, diagram elements\n4. **Solver**: Generate step-by-step solution\n5. **Noon Animation**: Create animation from solution\n   - Graph plotting\n   - Geometry animations\n   - Physics simulations\n   - Formula reveals\n\n## Code Style Guidelines\n\n### Nushell (CLI)\n- Files: `kebab-case`\n- Commands: `snake_case`\n- Indent: 4 spaces\n- Max line: 100 chars\n\n### Rust (Noon)\n- Follow Rust standard conventions\n- Use `cargo fmt`\n- Add doc comments for public functions\n\n### Python (API)\n- Follow PEP 8\n- Use type hints\n- Use `black` formatter\n\n## Version Control\n\n- Use **jj** for version control\n- Commit regularly with descriptive messages\n- Update `progress.md` with changes\n\n---\n\n*Last Updated: 2026-02-23*",
   "oldString": "# BAC Hyper-Swarm - Developer Guide\n\nThis file provides guidelines for AI agents working on the BAC Hyper-Swarm project.\n\n## Project Overview\n\n- **Primary Language**: Nushell (.nu scripts)\n- **CLI Entry Point**: `bac.nu`\n- **Daemons**: `daemons/*.nu`\n- **Config**: `config/`, `sql/`\n\n## Build & Run Commands\n\n```bash\n# Run the main CLI\nnu bac.nu\nnu bac.nu --help\n\n# Make executable and run\nchmod +x bac.nu\n./bac.nu\n\n# Validate Nushell syntax\nnu --validate bac.nu\nnu --validate daemons/youtube-daemon.nu\n\n# Check all .nu files syntax\nfor f in (glob **/*.nu) { nu --validate $f }\n\n# Run a specific daemon\nnu daemons/youtube-daemon.nu\nnu daemons/webcrawler-daemon.nu\nnu daemons/nlm-research-daemon.nu\nnu daemons/audio-daemon.nu\n\n# Run with debugging\nNU_LOG_LEVEL=DEBUG nu bac.nu\n\n# Run a single command\nnu -c 'use bac.nu; bac db status'\n```\n\n## Test Commands\n\n```bash\n# Test CLI startup\nnu bac.nu\n\n# Test specific subcommand\nnu -c 'use bac.nu; bac db init'\nnu -c 'use bac.nu; bac config list-topics'\n\n# Test daemon syntax\nfor f in (ls daemons/*.nu) { nu --validate $f.name }\n```\n\n## Code Style Guidelines (Nushell)\n\n### Naming Conventions\n\n- **Files**: `kebab-case` (e.g., `youtube-daemon.nu`)\n- **Commands/Functions**: `snake_case` (e.g., `bac db init`)\n- **Variables**: `snake_case` (e.g., `let resources_dir = \"resources\"`)\n- **Constants**: `SCREAMING_SNAKE_CASE` (e.g., `let MAX_RESULTS = 50`)\n\n### Function Definitions\n\n```nushell\n# Basic function with type annotations\ndef greet [name: string] {\n    print $\"Hello, ($name)!\"\n}\n\n# Function with optional parameter\ndef greet [name: string = \"World\"] {\n    print $\"Hello, ($name)!\"\n}\n\n# Export function (module)\nexport def \"bac db\" [...args] {\n    # ...\n}\n```\n\n### Error Handling\n\n```nushell\n# Use try/catch for error handling\ntry {\n    let data = open \"file.json\" | from json\n    print $data\n} catch {\n    print $\"Error: ($in)\"\n}\n\n# Validate inputs early\ndef process [input: string] {\n    if ($input | is-empty) {\n        error make { msg: \"Input cannot be empty\" }\n    }\n    # ...\n}\n```\n\n### Importing Modules\n\n```nushell\n# Import entire module\nuse bac.nu\n\n# Import specific command\nuse bac.nu [bac db]\n\n# Import with alias\nuse bac.nu as bac_cli\n```\n\n### Formatting Rules\n\n- **Indentation**: 4 spaces\n- **Line Length**: Max 100 characters\n- **Spacing**: Space after comma, around operators\n- **Comments**: Use `#` for single-line comments\n\n```nushell\n# Good\ndef calculate [x: int, y: int] {\n    let sum = $x + $y\n    print $\"Sum: ($sum)\"\n}\n\n# Avoid\ndef calculate [x:int,y:int] { let sum=$x+$y; print $\"Sum:($sum)\" }\n```\n\n### String Usage\n\n- Use `$\"string ($variable)\"` for string interpolation\n- Use triple quotes for multiline strings\n- Use single quotes for literal strings\n\n```nushell\nlet name = \"Alice\"\nprint $\"Hello, ($name)!\"\n\nlet multiline = '''\nThis is\na multiline\nstring\n'''\n```\n\n### List/Table Operations\n\n```nushell\n# List comprehension\nlet squares = (1..10 | each { |x| $x * $x })\n\n# Table filter\nlet results = ($data | where score > 50)\n\n# Map\nlet names = ($users | get name)\n```\n\n## File Organization\n\n```\nbac/\n├── bac.nu              # Main CLI entry point\n├── daemons/            # Background services\n│   ├── youtube-daemon.nu\n│   ├── webcrawler-daemon.nu\n│   └── nlm-research-daemon.nu\n├── config/            # Configuration files\n│   └── topics.yaml\n├── sql/                # Database schemas\n│   └── schema.sql\n├── docs/               # Documentation\n└── resources/          # Downloaded content\n    ├── youtube/\n    ├── web/\n    └── handwritten/\n```\n\n## Adding New Commands\n\n1. Add function to `bac.nu` with `export def`:\n```nushell\nexport def \"bac newcommand\" [arg: string] {\n    print $\"Processing: ($arg)\"\n}\n```\n\n2. Update help text in `main` function\n\n3. Add to docs/API.md\n\n## Common Patterns\n\n### Subcommand Pattern\n```nushell\nexport def \"bac db\" [...args] {\n    match ($args.0) {\n        \"init\" => { print \"Initializing...\" }\n        \"status\" => { print \"Checking status...\" }\n        _ => { print $\"Unknown: ($args.0)\" }\n    }\n}\n```\n\n### File Existence Check\n```nushell\nif not ($path | path exists) {\n    mkdir $path\n}\n```\n\n### External Command Execution\n```nushell\n# With output capture\nlet result = (^yt-dlp --version)\n\n# Simple execution\n^nu --version\n```\n\n## Existing Agent Rules\n\nThis project also follows rules in `docs/AGENTS.md` for:\n- YouTube daemon behavior\n- Web crawler behavior\n- OCR agent behavior\n- NotebookLM integration\n- Database management\n\n## Version Control\n\n- Use **jj** (not git directly) for version control\n- See `progress.md` for implementation history\n- Commit regularly with descriptive messages\n\n---\n\n*Last Updated: 2026-02-23*"
 }
-```
+````
 
 **Output:**
 
@@ -5572,12 +5572,12 @@ Edit applied successfully.
 
 **Input:**
 
-```json
+````json
 {
   "content": "# BAC Unified - National Exam Preparation System\n\n## Complete Technical Blueprint v2.1\n\n---\n\n## Executive Summary\n\n| Aspect | Specification |\n|--------|---------------|\n| **Project Name** | BAC Unified - المنظومة الوطنية للباكالوريا |\n| **Owner** | Ministry of Education, Islamic Republic of Mauritania |\n| **Timeline** | 12 months (4 quarters) |\n| **Target Users** | 50,000+ BAC C students annually |\n| **Infrastructure** | On-premise Ministry servers + MinIO |\n| **AI Approach** | Fine-tuned local models + cloud fallback |\n| **Security** | AES-256 encryption + Blockchain audit trail |\n| **Offline** | Partial - core features offline, advanced online |\n| **Incentives** | Points + Badges + Leaderboards |\n| **Animation Engine** | **Noon** (Rust-based, faster than manim) |\n\n---\n\n## System Architecture\n\n```\n┌─────────────────────────────────────────────────────────────────────────────────┐\n│                              USER INTERFACES                                     │\n├─────────────────────┬─────────────────────┬─────────────────────────────────────┤\n│      CLI (Nu)       │   Web PWA (React)   │        Telegram Bot                │\n└──────────┬──────────┴──────────┬──────────┴──────────────┬──────────────────────┘\n           │                      │                        │\n           └──────────────────────┼────────────────────────┘\n                                  │\n                    ┌─────────────▼─────────────┐\n                    │      API GATEWAY (Go)     │\n                    │  • JWT Auth               │\n                    │  • Rate Limiting          │\n                    │  • Request Caching        │\n                    │  • Load Balancing         │\n                    │  • SSL/TLS Termination    │\n                    └─────────────┬─────────────┘\n                                  │\n         ┌────────────────────────┼────────────────────────┐\n         │                        │                        │\n         ▼                        ▼                        ▼\n┌─────────────────┐   ┌─────────────────┐   ┌─────────────────┐\n│  SUBMISSION     │   │   SOLVER        │   │  PREDICTION     │\n│   MICROSERVICE  │   │   MICROSERVICE  │   │  MICROSERVICE   │\n│                 │   │                 │   │                 │\n│ • OCR           │   │ • LLM Engine   │   │ • ML Pipeline   │\n│ • PDF Parser    │   │ • Step Solver  │   │ • Pattern Miner │\n│ • Image Process │   │ • Noon Gen     │   │ • Risk Analyzer │\n│ • LaTeX Conv   │   │ • Answer Gen   │   │ • Trend Detector│\n└────────┬────────┘   └────────┬────────┘   └────────┬────────┘\n         │                     │                     │\n         └─────────────────────┼─────────────────────┘\n                               │\n              ┌────────────────┼────────────────┐\n              │                │                │\n              ▼                ▼                ▼\n       ┌────────────┐   ┌───────────┐   ┌───────────┐\n       │ PostgreSQL │   │  MinIO    │   │  Redis    │\n       │ +pgvector │   │ (S3 API)  │   │ (Cache)   │\n       └────────────┘   └───────────┘   └───────────┘\n              │\n              ▼\n       ┌────────────┐\n       │  Blockchain│\n       │  (Audit)   │\n       └────────────┘\n```\n\n---\n\n## Media-to-Noon Animation Pipeline\n\nThe core innovation: **AI analyzes submitted media and generates Noon animations automatically**\n\n### 2.1 Input Processing Flow\n\n```\n┌─────────────────────────────────────────────────────────────────────────────┐\n│                    MEDIA-TO-ANIMATION PIPELINE                               │\n├─────────────────────────────────────────────────────────────────────────────┤\n│                                                                             │\n│  USER SUBMISSION                                                            │\n│  ──────────────                                                             │\n│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐                    │\n│  │  Image   │  │   PDF    │  │   URL    │  │  Text    │                    │\n│  │(handwr.) │  │(exerc.)  │  │(video)   │  │(problem) │                    │\n│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘                    │\n│       │             │             │             │                             │\n│       └─────────────┼─────────────┼─────────────┘                             │\n│                     ▼                                                       │\n│  ┌─────────────────────────────────────────────────────────────────────┐   │\n│  │                    OCR LAYER (Multi-Strategy)                       │   │\n│  │                                                                      │   │\n│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐            │   │\n│  │  │  Tesseract   │  │   EasyOCR    │  │  PaddleOCR  │            │   │\n│  │  │  (Primary)   │  │  (Fallback)  │  │ (Advanced)  │            │   │\n│  │  │              │  │              │  │              │            │   │\n│  │  │ + Arabic    │  │ + Math       │  │ + Tables    │            │   │\n│  │  │ + French    │  │   detection  │  │              │            │   │\n│  │  └──────────────┘  └──────────────┘  └──────────────┘            │   │\n│  └─────────────────────────────────────────────────────────────────────┘   │\n│                     │                                                       │\n│                     ▼                                                       │\n│  ┌─────────────────────────────────────────────────────────────────────┐   │\n│  │                    AI ANALYSIS LAYER                                  │   │\n│  │                                                                      │   │\n│  │  ┌──────────────────────────────────────────────────────────────┐  │   │\n│  │  │                    QUESTION UNDERSTANDING                       │  │   │\n│  │  │                                                               │  │   │\n│  │  │  Input: \"Solve: ∫(x² + 2x)dx from 0 to 2\"                     │  │   │\n│  │  │                                                               │  │   │\n│  │  │  Output:                                                      │  │   │\n│  │  │  {                                                            │  │   │\n│  │  │    \"subject\": \"mathematics\",                                 │  │   │\n│  │  │    \"topic\": \"integrals\",                                     │  │   │\n│  │  │    \"type\": \"calculation\",                                    │  │   │\n│  │  │    \"difficulty\": 3,                                          │  │   │\n│  │  │    \"concepts\": [\"antiderivative\", \"definite integral\"],     │  │   │\n│  │  │    \"visual_elements\": [\"graph\", \"area_shading\"],            │  │   │\n│  │  │    \"solution_steps\": [                                        │  │   │\n│  │  │      \"expand: x² + 2x\",                                      │  │   │\n│  │  │      \"antiderivative: x³/3 + x²\",                            │  │   │\n│  │  │      \"apply bounds: F(2) - F(0)\",                            │  │   │\n│  │  │      \"calculate: 8/3 + 4 - 0\"                                 │  │   │\n│  │  │    ]                                                          │  │   │\n│  │  │  }                                                            │  │   │\n│  │  └──────────────────────────────────────────────────────────────┘  │   │\n│  │                                                                      │   │\n│  └─────────────────────────────────────────────────────────────────────┘   │\n│                     │                                                       │\n│                     ▼                                                       │\n│  ┌─────────────────────────────────────────────────────────────────────┐   │\n│  │                    SOLVER ENGINE                                     │   │\n│  │                                                                      │   │\n│  │  ┌───────────────────────┐  ┌───────────────────────┐              │   │\n│  │  │    LOCAL OLLAMA       │  │   CLOUD FALLBACK     │              │   │\n│  │  │  (Fine-tuned BAC)     │  │  (kimi/glm/minimax)  │              │   │\n│  │  └───────────────────────┘  └───────────────────────┘              │   │\n│  │                                                                      │   │\n│  │  Output: Step-by-step solution + all possible answers              │   │\n│  └─────────────────────────────────────────────────────────────────────┘   │\n│                     │                                                       │\n│                     ▼                                                       │\n│  ┌─────────────────────────────────────────────────────────────────────┐   │\n│  │                    NOON ANIMATION GENERATOR                          │   │\n│  │                                                                      │   │\n│  │  ┌──────────────────────────────────────────────────────────────┐  │   │\n│  │  │              AI-GENERATED NOON CODE                            │  │   │\n│  │  │                                                               │  │   │\n│  │  │  // Auto-generated from solution steps                        │  │   │\n│  │  │  fn scene(win_rect: Rect) -> Scene {                         │  │   │\n│  │  │      let mut scene = Scene::new(win_rect);                  │  │   │\n│  │  │                                                               │  │   │\n│  │  │      // Step 1: Draw axes                                     │  │   │\n│  │  │      let axes = scene.axes().with_range(-1, 3).make();      │  │   │\n│  │  │      scene.play(axes.show_creation()).run_time(1.0);        │  │   │\n│  │  │                                                               │  │   │\n│  │  │      // Step 2: Plot function                                 │  │   │\n│  │  │      let graph = axes.plot(|x| x*x + 2.0*x).make();         │  │   │\n│  │  │      scene.play(graph.show_creation()).run_time(1.5);       │  │   │\n│  │  │                                                               │  │   │\n│  │  │      // Step 3: Shade area under curve                       │  │   │\n│  │  │      let area = axes.fill_between(graph, 0.0, 2.0);          │  │   │\n│  │  │      scene.play(area.fade_in()).run_time(1.0);               │  │   │\n│  │  │                                                               │  │   │\n│  │  │      // Step 4: Show calculation                              │  │   │\n│  │  │      let text = scene.text(\"∫ = 20/3\").make();              │  │   │\n│  │  │      scene.play(text.show_creation()).run_time(1.0);        │  │   │\n│  │  │  }                                                            │  │   │\n│  │  └──────────────────────────────────────────────────────────────┘  │   │\n│  │                                                                      │   │\n│  └─────────────────────────────────────────────────────────────────────┘   │\n│                     │                                                       │\n│                     ▼                                                       │\n│  ┌─────────────────────────────────────────────────────────────────────┐   │\n│  │                    OUTPUT                                             │   │\n│  │                                                                      │   │\n│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐             │   │\n│  │  │   MP4 Video  │  │  Thumbnail   │  │   Metadata   │             │   │\n│  │  │  (Animation) │  │   (Preview)  │  │   (JSON)     │             │   │\n│  │  └──────────────┘  └──────────────┘  └──────────────┘             │   │\n│  │                                                                      │   │\n│  └─────────────────────────────────────────────────────────────────────┘   │\n└─────────────────────────────────────────────────────────────────────────────┘\n```\n\n### 2.2 Noon Animation Types\n\n```\n┌─────────────────────────────────────────────────────────────────────────────┐\n│                    NOON ANIMATION TYPES BY SUBJECT                          │\n├─────────────────────────────────────────────────────────────────────────────┤\n│                                                                             │\n│  ┌─────────────────────────────────────────────────────────────────────┐   │\n│  │                    MATHEMATICS                                        │   │\n│  │                                                                      │   │\n│  │  Graph Animations              Geometry Animations                   │   │\n│  │  ─────────────────            ──────────────────                    │   │\n│  │  • Function plotting          • Triangle constructions              │   │\n│  │  • Curve transformations     • Circle theorems                     │   │\n│  │  • Area under curves         • Geometric proofs                    │   │\n│  │  • 3D surfaces               • Transformations                     │   │\n│  │                                                                      │   │\n│  │  Calculus                    Algebra                               │   │\n│  │  ────────                    ────────                               │   │\n│  • Derivative visualization    • Matrix operations                     │   │\n│  • Integral approximation      • Vector operations                     │   │\n│  • Limit processes             • Complex numbers                       │   │\n│  • Series convergence          • Polynomial roots                      │   │\n│  │                                                                      │   │\n│  └─────────────────────────────────────────────────────────────────────┘   │\n│                                                                             │\n│  ┌─────────────────────────────────────────────────────────────────────┐   │\n│  │                    PHYSICS                                            │   │\n│  │                                                                      │   │\n│  │  Mechanics                   Electricity                             │   │\n│  │  ──────────                 ──────────                               │   │\n│  │  • Projectile motion        • Circuit diagrams                      │   │\n│  │  • Pendulum oscillation    • Resistor networks                     │   │\n│  │  • Spring oscillations     • Capacitor charge/discharge             │   │\n│  • Collisions                 • Electromagnetic induction              │   │\n│  • Circular motion            • Wave propagation                      │   │\n│  │                                                                      │   │\n│  │  Optics                     Thermodynamics                          │   │\n│  │  ──────                    ────────────                             │   │\n│  │  • Ray diagrams            • Heat transfer                         │   │\n│  • Lens combinations          • Gas processes                          │   │\n│  • Interference patterns      • Entropy visualization                  │   │\n│  │                                                                      │   │\n│  └─────────────────────────────────────────────────────────────────────┘   │\n│                                                                             │\n│  ┌─────────────────────────────────────────────────────────────────────┐   │\n│  │                    CHEMISTRY                                          │   │\n│  │                                                                      │   │\n│  │  Organic Chemistry          Reactions                                │   │\n│  │  ───────────────           ─────────                                │   │\n│  │  • Molecular structures    • Reaction mechanisms                    │   │\n│  │  • Isomer transformations  • Bond breaking/forming                  │   │\n│  │  • Reaction pathways       • Equilibrium shifts                     │   │\n│  │                                                                      │   │\n│  │  Structure                  Kinetics                                 │   │\n│  │  ────────                  ────────                                 │   │\n│  │  • Electron orbitals       • Collision theory                       │   │\n│  │  • Crystal structures      • Rate curves                           │   │\n│  │  • Chemical bonds           • Activation energy                      │   │\n│  │                                                                      │   │\n│  └─────────────────────────────────────────────────────────────────────┘   │\n└─────────────────────────────────────────────────────────────────────────────┘\n```\n\n---\n\n## Implementation Phases (12 Months)\n\n### Phase 1: Foundation (Months 1-2)\n- [ ] Infrastructure setup (MinIO, PostgreSQL)\n- [ ] Database schema design\n- [ ] Authentication system\n- [ ] Core API development\n- [ ] Clone and setup noon repository\n\n### Phase 2: Input System (Months 2-3)\n- [ ] Multi-OCR pipeline\n- [ ] PDF parser with LaTeX extraction\n- [ ] Image preprocessing\n- [ ] AI question analyzer\n\n### Phase 3: Solver Engine (Months 3-5)\n- [ ] LLM integration\n- [ ] Step-by-step solution generator\n- [ ] Multi-answer generator\n- [ ] Solution validation\n\n### Phase 4: Noon Animation (Months 5-6)\n- [ ] Install noon from https://github.com/yongkyuns/noon\n- [ ] AI-to-Noon code generator\n- [ ] Math animations\n- [ ] Physics/chemistry animations\n\n### Phase 5: Prediction System (Months 6-7)\n- [ ] Historical data import\n- [ ] ML pattern analysis\n- [ ] Prediction API\n\n### Phase 6: User Features (Months 7-9)\n- [ ] Progress tracking\n- [ ] Points/badges system\n- [ ] Leaderboards\n- [ ] Gamification\n\n### Phase 7: Testing & Launch (Months 9-12)\n- [ ] Beta testing\n- [ ] Ministry approval\n- [ ] Public launch\n\n---\n\n## Technology Stack\n\n| Component | Technology |\n|-----------|------------|\n| **API Server** | Go (Gin) |\n| **Database** | PostgreSQL + pgvector |\n| **Storage** | MinIO (local S3) |\n| **AI/LLM** | Ollama (local) + Cloud fallback |\n| **OCR** | Tesseract, EasyOCR, PaddleOCR |\n| **Animation** | **Noon** (Rust) |\n| **CLI** | Nushell |\n| **Auth** | JWT |\n| **Blockchain** | Hyperledger Fabric |\n| **Deployment** | Docker + Kubernetes |\n\n---\n\n## CLI Commands (Year 1)\n\n```bash\n# Submit content\nbac submit image.jpg --subject physics\nbac submit pdf exercises.pdf --chapter \"optics\"\nbac submit url https://bacmr.net/exam2024\n\n# Solve with animation\nbac solve \"∫(x² + 2x)dx from 0 to 2\"\nbac solve image.jpg --animate\n\n# Practice\nbac practice --subject math --difficulty hard\nbac practice --chapter integrals\n\n# Predictions (PUBLIC)\nbac predict --subject math\nbac predict --year 2027\n\n# Progress & Rewards\nbac stats\nbac leaderboard\nbac badges\n```\n\n---\n\n## Documentation Standards\n\nAll AI actions must be documented:\n\n1. **API Logs**: Every request logged with timestamp, user, action\n2. **Solution Audit**: All solver outputs stored with version\n3. **Animation Metadata**: JSON with generation parameters\n4. **User Actions**: Progress, submissions, verifications\n5. **Blockchain Trail**: Immutable audit log for all changes\n\n---\n\n## Success Metrics\n\n| Metric | Year 1 Target |\n|--------|---------------|\n| Total Students | 50,000+ |\n| Active Users | 30,000+ |\n| Questions Bank | 100,000+ |\n| Questions Solved | 500,000+ |\n| Animations Generated | 100,000+ |\n| Predictions Published | 200+ |\n| Average Accuracy | 75%+ |\n| System Uptime | 99.5% |\n\n---\n\n*Generated: 2026-02-23*\n*Version: 2.1*\n*Status: PLANNING*\n",
   "filePath": "/home/med/Documents/bac/docs/BAC-UNIFIED-PLAN.md"
 }
-```
+````
 
 **Output:**
 
@@ -5716,7 +5716,7 @@ drwxr-xr-x 1 med med   26 Feb 23 16:37 .vscode
 3:  "noon",
 4:  "examples",
 5: ]
-6: 
+6:
 7: # Required for wgpu v0.10 feature resolution.
 8: resolver = "2"
 
@@ -6270,14 +6270,14 @@ ERROR [189:2] declared and not used: prompt
 <path>/home/med/Documents/bac/src/api/internal/services/submission.go</path>
 <type>file</type>
 <content>120:  text := s.extractPDFText(filePath)
-121: 
+121:
 122:  // Extract images if any
 123:  images := s.extractPDFImages(filePath)
-124: 
+124:
 125:  // Save result
 126:  s.saveJobResult(jobID, text, "completed")
 127: }
-128: 
+128:
 129: func (s *SubmissionService) extractPDFText(pdfPath string) string {
 130:  cmd := exec.Command("pdftotext", pdfPath, "-")
 131:  output, err := cmd.Output()
@@ -6286,16 +6286,16 @@ ERROR [189:2] declared and not used: prompt
 134:  }
 135:  return strings.TrimSpace(string(output))
 136: }
-137: 
+137:
 138: func (s *SubmissionService) extractPDFImages(pdfPath string) []string {
 139:  // Use pdfimages to extract images
 140:  return []string{}
 141: }
-142: 
+142:
 143: func (s *SubmissionService) processURL(jobID, url, subject string) {
 144:  // Scrape content from URL
 145:  text := s.scrapeURL(url)
-146: 
+146:
 147:  // Save result
 148:  s.saveJobResult(jobID, text, "completed")
 149: }
@@ -6358,7 +6358,7 @@ ERROR [189:2] declared and not used: prompt
 183:   OCRText: ocrText,
 184:  }, nil
 185: }
-186: 
+186:
 187: func (s *SubmissionService) AnalyzeWithAI(text, subject string) (map[string]interface{}, error) {
 188:  // Send to AI for analysis
 189:  prompt := fmt.Sprintf(`Analyze this question and extract:
@@ -6368,9 +6368,9 @@ ERROR [189:2] declared and not used: prompt
 193: 4. Question type
 194: 5. Difficulty estimate (1-5)
 195: 6. Key concepts
-196: 
+196:
 197: Text: %s
-198: 
+198:
 199: Format as JSON.`, text)
 
 (Showing lines 180-199 of 213. Use offset=200 to continue.)
@@ -6712,16 +6712,16 @@ ERROR [4:2] could not import bac-unified/api/internal/services (no required modu
 <path>/home/med/Documents/bac/src/api/go.mod</path>
 <type>file</type>
 <content>1: module bac-unified
-2: 
+2:
 3: go 1.25.0
-4: 
+4:
 5: require (
 6:  github.com/gin-gonic/gin v1.11.0
 7:  github.com/golang-jwt/jwt/v5 v5.3.1
 8:  github.com/google/uuid v1.6.0
 9:  golang.org/x/crypto v0.40.0
 10: )
-11: 
+11:
 12: require (
 13:  github.com/bytedance/sonic v1.14.0 // indirect
 14:  github.com/bytedance/sonic/loader v0.3.0 // indirect
@@ -6966,15 +6966,15 @@ ERROR [26:11] undefined: uuid
 <path>/home/med/Documents/bac/src/api/internal/handlers/prediction.go</path>
 <type>file</type>
 <content>15: }
-16: 
+16:
 17: func (h *PredictionHandler) ListPredictions(c *gin.Context) {
 18:  subjectID := c.Query("subject_id")
 19:  examYear := c.Query("exam_year")
-20: 
+20:
 21:  // Simplified - would query database
 22:  c.JSON(200, gin.H{"predictions": []interface{}{}})
 23: }
-24: 
+24:
 25: func (h *PredictionHandler) GetPrediction(c *gin.Context) {
 26:  id, _ := uuid.Parse(c.Param("id"))
 27:  prediction, err := h.predictionService.GetPrediction(id)
@@ -6984,11 +6984,11 @@ ERROR [26:11] undefined: uuid
 31:  }
 32:  c.JSON(200, prediction)
 33: }
-34: 
+34:
 35: func (h *PredictionHandler) GetBySubject(c *gin.Context) {
 36:  subjectID := 1 // Would parse from param
 37:  examYear := 2027
-38: 
+38:
 39:  predictions, err := h.predictionService.GetBySubject(subjectID, examYear)
 40:  if err != nil {
 41:   c.JSON(500, gin.H{"error": err.Error()})
@@ -7054,30 +7054,30 @@ ERROR [91:29] method PredictionHandler.GetLatest already declared at /home/med/D
 <path>/home/med/Documents/bac/src/api/internal/handlers/prediction.go</path>
 <type>file</type>
 <content>1: package handlers
-2: 
+2:
 3: import (
 4:  "github.com/bac-unified/api/internal/services"
-5: 
+5:
 6:  "github.com/gin-gonic/gin"
 7:  "github.com/google/uuid"
 8: )
-9: 
+9:
 10: type PredictionHandler struct {
 11:  predictionService *services.PredictionService
 12: }
-13: 
+13:
 14: func NewPredictionHandler(predictionService *services.PredictionService) *PredictionHandler {
 15:  return &PredictionHandler{predictionService: predictionService}
 16: }
-17: 
+17:
 18: func (h *PredictionHandler) ListPredictions(c *gin.Context) {
 19:  _ = c.Query("subject_id")
 20:  _ = c.Query("exam_year")
-21: 
+21:
 22:  // Simplified - would query database
 23:  c.JSON(200, gin.H{"predictions": []interface{}{}})
 24: }
-25: 
+25:
 26: func (h *PredictionHandler) GetPrediction(c *gin.Context) {
 27:  id, _ := uuid.Parse(c.Param("id"))
 28:  prediction, err := h.predictionService.GetPrediction(id)
@@ -7087,11 +7087,11 @@ ERROR [91:29] method PredictionHandler.GetLatest already declared at /home/med/D
 32:  }
 33:  c.JSON(200, prediction)
 34: }
-35: 
+35:
 36: func (h *PredictionHandler) GetBySubject(c *gin.Context) {
 37:  subjectID := 1 // Would parse from param
 38:  examYear := 2027
-39: 
+39:
 40:  predictions, err := h.predictionService.GetBySubject(subjectID, examYear)
 41:  if err != nil {
 42:   c.JSON(500, gin.H{"error": err.Error()})
@@ -7099,7 +7099,7 @@ ERROR [91:29] method PredictionHandler.GetLatest already declared at /home/med/D
 44:  }
 45:  c.JSON(200, predictions)
 46: }
-47: 
+47:
 48: func (h *PredictionHandler) GetLatest(c *gin.Context) {
 49:  predictions, err := h.predictionService.GetLatest()
 50:  if err != nil {
@@ -7108,19 +7108,19 @@ ERROR [91:29] method PredictionHandler.GetLatest already declared at /home/med/D
 53:  }
 54:  c.JSON(200, predictions)
 55: }
-56: 
+56:
 57: func NewPredictionHandler(predictionService *services.PredictionService) *PredictionHandler {
 58:  return &PredictionHandler{predictionService: predictionService}
 59: }
-60: 
+60:
 61: func (h *PredictionHandler) ListPredictions(c *gin.Context) {
 62:  subjectID := c.Query("subject_id")
 63:  examYear := c.Query("exam_year")
-64: 
+64:
 65:  // Simplified - would query database
 66:  c.JSON(200, gin.H{"predictions": []interface{}{}})
 67: }
-68: 
+68:
 69: func (h *PredictionHandler) GetPrediction(c *gin.Context) {
 70:  id, _ := uuid.Parse(c.Param("id"))
 71:  prediction, err := h.predictionService.GetPrediction(id)
@@ -7130,11 +7130,11 @@ ERROR [91:29] method PredictionHandler.GetLatest already declared at /home/med/D
 75:  }
 76:  c.JSON(200, prediction)
 77: }
-78: 
+78:
 79: func (h *PredictionHandler) GetBySubject(c *gin.Context) {
 80:  subjectID := 1 // Would parse from param
 81:  examYear := 2027
-82: 
+82:
 83:  predictions, err := h.predictionService.GetBySubject(subjectID, examYear)
 84:  if err != nil {
 85:   c.JSON(500, gin.H{"error": err.Error()})
@@ -7142,7 +7142,7 @@ ERROR [91:29] method PredictionHandler.GetLatest already declared at /home/med/D
 87:  }
 88:  c.JSON(200, predictions)
 89: }
-90: 
+90:
 91: func (h *PredictionHandler) GetLatest(c *gin.Context) {
 92:  predictions, err := h.predictionService.GetLatest()
 93:  if err != nil {
@@ -7213,7 +7213,7 @@ Wrote file successfully.
 <path>/home/med/Documents/bac/progress.md</path>
 <type>file</type>
 <content>1: # BAC Hyper-Swarm Progress
-2: 
+2:
 3: <!--toc:start-->
 4: - [BAC Hyper-Swarm Progress](#bac-hyper-swarm-progress)
 5:   - [Implementation Status](#implementation-status)
@@ -7238,30 +7238,30 @@ Wrote file successfully.
 24:   - [Notes](#notes)
 25:   - [Completion Status](#completion-status)
 26: <!--toc:end-->
-27: 
+27:
 28: ## Implementation Status
-29: 
+29:
 30: ### Phase 1: Foundation
-31: 
+31:
 32: - [x] Create AGENTS.md (rules)
 33: - [x] Create docs/ structure
 34: - [x] Initialize jj repository
 35: - [x] Setup PostgreSQL + pgvector
-36: 
+36:
 37: ### Phase 2: Core Tools
-38: 
+38:
 39: - [x] Install aichat
 40: - [x] Install yt-dlp
 41: - [x] Install texlive
 42: - [x] Install Node.js tools (katex, playwright installed)
 43: - [x] Install playwright
-44: 
+44:
 45: ### Phase 3: Database
-46: 
+46:
 47: - [x] Create PostgreSQL database
 48: - [x] Setup pgvector extension
 49: - [x] Create schema (documents, chunks, concepts, questions)
-50: 
+50:
 
 (Showing lines 1-50 of 231. Use offset=51 to continue.)
 </content>
@@ -7275,13 +7275,13 @@ Wrote file successfully.
 
 **Input:**
 
-```json
+````json
 {
   "filePath": "/home/med/Documents/bac/progress.md",
   "newString": "# BAC Unified - National Exam Preparation System\n\n## Project Transformation\n\n**IMPORTANT:** This project has evolved from a personal study assistant to a **national unified exam preparation system** for Mauritania's BAC C students.\n\n### New Vision\n- **Country-wide** unified question bank\n- **Multi-modal input**: images, PDFs, URLs, handwritten notes\n- **AI-powered solver**: with step-by-step solutions and animations\n- **Question prediction**: based on historical patterns\n- **Noon animations**: Rust-based animation engine (faster than manim)\n- **Ministry of Education** owned and managed\n- **Full audit trail** with blockchain\n\n---\n\n## Implementation Status\n\n### Phase 1: Foundation (COMPLETED)\n- [x] Create AGENTS.md (rules)\n- [x] Create docs/ structure\n- [x] Initialize jj repository\n- [x] Setup PostgreSQL + pgvector\n- [x] Clone noon animation engine\n\n### Phase 2: API Development (IN PROGRESS)\n- [x] Create Go API server structure\n- [x] Setup authentication service\n- [x] Create solver service with Ollama integration\n- [x] Create submission service (OCR pipeline)\n- [x] Create prediction service\n\n### Phase 3: Animation System (NEXT)\n- [ ] Setup noon examples for math\n- [ ] Create AI-to-Noon code generator\n- [ ] Build video rendering pipeline\n\n### Phase 4: Database\n- [ ] Create unified questions schema\n- [ ] Setup user management\n- [ ] Setup predictions storage\n- [ ] Setup MinIO storage\n\n### Phase 5: CLI Enhancement\n- [ ] Add solve command with animation\n- [ ] Add submit command\n- [ ] Add predict command\n- [ ] Add leaderboard\n\n---\n\n## Project Structure\n\n```\nbac/\n├── src/\n│   ├── api/              # Go API server\n│   │   ├── main.go\n│   │   └── internal/\n│   │       ├── handlers/\n│   │       ├── services/\n│   │       └── models/\n│   ├── noon/             # Animation engine (cloned)\n│   └── python/           # Python services\n├── bac.nu               # CLI entry point\n├── daemons/            # Background services\n├── docs/               # Documentation\n│   └── BAC-UNIFIED-PLAN.md  # Full plan\n└── config/             # Configuration\n```\n\n---\n\n## CLI Commands (Updated)\n\n```bash\n# Solve with animation\nbac solve \"∫x²dx\" --animate\nbac solve image.jpg\n\n# Submit content\nbac submit image.jpg --subject physics\nbac submit pdf exam.pdf\n\n# Predictions (PUBLIC)\nbac predict --subject math\nbac predict --year 2027\n\n# Progress\nbac stats\nbac leaderboard\n```\n\n---\n\n## Completion Status\n\n**System Phase:** Foundation + API Structure Complete\n**Next:** Animation System + Database + CLI\n\n---\n\n## Notes\n\n- Using noon (https://github.com/yongkyuns/noon) for animations\n- MinIO for local S3-compatible storage\n- Go API with JWT auth\n- PostgreSQL + pgvector for database\n- Fine-tuned Ollama models for solving",
   "oldString": "# BAC Hyper-Swarm Progress\n\n<!--toc:start-->\n- [BAC Hyper-Swarm Progress](#bac-hyper-swarm-progress)\n  - [Implementation Status](#implementation-status)\n    - [Phase 1: Foundation](#phase-1-foundation)\n    - [Phase 2: Core Tools](#phase-2-core-tools)\n    - [Phase 3: Database](#phase-3-database)\n    - [Phase 4: NotebookLM Integration](#phase-4-notebooklm-integration)\n    - [Phase 5: Agents](#phase-5-agents)\n    - [Phase 6: Visualization](#phase-6-visualization)\n    - [Phase 7: Resources](#phase-7-resources)\n  - [Daily Log](#daily-log)\n    - [Day 1 - 2026-02-23](#day-1-2026-02-23)\n    - [Day 2 - 2026-02-23](#day-2-2026-02-23)\n    - [Day 3 - 2026-02-23](#day-3-2026-02-23)\n    - [Day 4 - 2026-02-23](#day-4-2026-02-23)\n    - [Day 5 - 2026-02-23](#day-5-2026-02-23)\n    - [Day 6 - 2026-02-23](#day-6-2026-02-23)\n    - [Day 7 - 2026-02-23 (Final Integration)](#day-7-2026-02-23-final-integration)\n    - [Day 8 - 2026-02-23 (System Completion)](#day-8-2026-02-23-system-completion)\n  - [Final Architecture](#final-architecture)\n  - [CLI Commands](#cli-commands)\n  - [Notes](#notes)\n  - [Completion Status](#completion-status)\n<!--toc:end-->\n\n## Implementation Status\n\n### Phase 1: Foundation\n\n- [x] Create AGENTS.md (rules)\n- [x] Create docs/ structure\n- [x] Initialize jj repository\n- [x] Setup PostgreSQL + pgvector\n\n### Phase 2: Core Tools\n\n- [x] Install aichat\n- [x] Install yt-dlp\n- [x] Install texlive\n- [x] Install Node.js tools (katex, playwright installed)\n- [x] Install playwright\n\n### Phase 3: Database\n\n- [x] Create PostgreSQL database\n- [x] Setup pgvector extension\n- [x] Create schema (documents, chunks, concepts, questions)"
 }
-```
+````
 
 **Output:**
 
@@ -7410,50 +7410,50 @@ Let me create a working example:
 <path>/home/med/Documents/bac/src/noon/examples/hello_world.rs</path>
 <type>file</type>
 <content>1: use noon::prelude::*;
-2: 
+2:
 3: fn scene(win_rect: Rect) -> Scene {
 4:     let mut scene = Scene::new(win_rect);
-5: 
+5:
 6:     let rect = scene
 7:         .rectangle()
 8:         .with_position(2.0, 0.0)
 9:         .with_color(Color::random())
 10:         .make();
-11: 
+11:
 12:     let circle = scene
 13:         .circle()
 14:         .with_position(-2.0, 0.0)
 15:         .with_color(Color::random())
 16:         .make();
-17: 
+17:
 18:     scene.wait();
 19:     scene.play(rect.show_creation()).run_time(1.5);
 20:     scene.play(circle.show_creation()).run_time(1.5);
 21:     scene.play(circle.morph(rect)).run_time(1.5);
-22: 
+22:
 23:     scene
 24: }
-25: 
+25:
 26: fn main() {
 27:     noon::app(model).update(update).view(view).run();
 28: }
-29: 
+29:
 30: fn model<'a>(app: &App) -> Scene {
 31:     app.new_window()
 32:         .size(1920, 1080)
 33:         .view(view)
 34:         .build()
 35:         .unwrap();
-36: 
+36:
 37:     let scene = scene(app.window_rect());
 38:     scene
 39: }
-40: 
+40:
 41: fn update(app: &App, scene: &mut Scene, _update: Update) {
 42:     scene.update(app.time, app.window_rect());
 43:     println!("FPS = {}", app.fps());
 44: }
-45: 
+45:
 46: fn view(app: &App, scene: &Scene, frame: Frame) {
 47:     let draw = app.draw();
 48:     draw.background().color(BLACK);
@@ -7575,46 +7575,46 @@ fn scene(win_rect: Rect) -> Scene {
 <type>file</type>
 <content>1: // Auto-generated by BAC Unified
 2: // Problem: ∫(x² + 2x)dx from 0 to 2
-3: 
+3:
 4: use noon::prelude::*;
-5: 
+5:
 6: fn scene(win_rect: Rect) -> Scene {
 7:     let mut scene = Scene::new(win_rect);
-8: 
+8:
 9:     // Background
 10:     let bg = scene.rectangle()
 11:         .with_size(20.0, 15.0)
 12:         .with_color(Color::rgb(0.1, 0.1, 0.15))
 13:         .make();
 14:     scene.play(bg.fade_in()).run_time(0.5);
-15: 
+15:
 16:     // Coordinate Axes
 17:     let x_axis = scene.line()
 18:         .from(-6, 0.0)
 19:         .to(6, 0.0)
 20:         .with_color(Color::WHITE)
 21:         .make();
-22:     
+22:
 23:     let y_axis = scene.line()
 24:         .from(0.0, -6)
 25:         .to(0.0, 6)
 26:         .with_color(Color::WHITE)
 27:         .make();
-28:     
+28:
 29:     scene.play(x_axis.show_creation()).run_time(1.0);
 30:     scene.play(y_axis.show_creation()).run_time(1.0);
 31:     // Function points
 32:     let mut prev_point = None;
-33: 
+33:
 34:     for i in 0..100 {
 35:         let x = -5.0 + (i as f32 / 100.0 * 10.0);
 36:         let y = 1*x*x + 2*x + 0;
-37: 
+37:
 38:         let point = scene.dot()
 39:             .with_position(x, y)
 40:             .with_color(Color::CYAN)
 41:             .make();
-42:         
+42:
 43:         if let Some(prev) = prev_point {
 44:             let line = scene.line()
 45:                 .from_point(prev)
@@ -7625,33 +7625,33 @@ fn scene(win_rect: Rect) -> Scene {
 50:         }
 51:         prev_point = Some(point);
 52:     }
-53: 
+53:
 54:     // Shade area from x=0 to x=2
 55:     for i in 0..=50 {
 56:         let x = 0 + (i as f32 / 50.0) * (2 - 0);
 57:         let y = 1*x*x + 2*x + 0;
-58:         
+58:
 59:         let point = scene.dot()
 60:             .with_position(x, y)
 61:             .with_color(Color::CYAN.with_alpha(0.3))
 62:             .make();
 63:         scene.play(point.fade_in()).run_time(0.05);
 64:     }
-65: 
+65:
 66:     let text_861 = scene.text("∫ = 20/3")
 67:         .with_position(-3.0, -4.0)
 68:         .with_color(Color::RED)
 69:         .with_font_size(48.0)
 70:         .make();
 71:     scene.play(text_861.show_creation()).run_time(1.0);
-72: 
+72:
 73:     scene
 74: }
-75: 
+75:
 76: fn main() {
 77:     noon::app(model).update(update).view(view).run();
 78: }
-79: 
+79:
 80: fn model<'a>(app: &App) -> Scene {
 
 (Showing lines 1-80 of 99. Use offset=81 to continue.)
@@ -7689,11 +7689,11 @@ Now the system can visualize problems! Here's the complete flow:
 
 ### What I Created
 
-| File | Purpose |
-|------|---------|
-| `src/noon/examples/integration_example.rs` | Manual example showing axes, function plot, area shade |
-| `src/python/analyzer/noon_generator.py` | AI-to-Noon code generator (auto-generates from solution) |
-| `generated_animation.rs` | Sample auto-generated code |
+| File                                       | Purpose                                                  |
+| ------------------------------------------ | -------------------------------------------------------- |
+| `src/noon/examples/integration_example.rs` | Manual example showing axes, function plot, area shade   |
+| `src/python/analyzer/noon_generator.py`    | AI-to-Noon code generator (auto-generates from solution) |
+| `generated_animation.rs`                   | Sample auto-generated code                               |
 
 ### Example Output
 

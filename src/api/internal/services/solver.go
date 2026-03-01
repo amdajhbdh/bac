@@ -2,6 +2,7 @@ package services
 
 import (
 	"bytes"
+	"context"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -10,12 +11,23 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 type SolverService struct {
 	ollamaURL string
 	cloudURL  string
 	noonPath  string
+	db        *pgxpool.Pool
+}
+
+func NewSolverService(db *pgxpool.Pool) *SolverService {
+	return &SolverService{
+		ollamaURL: os.Getenv("OLLAMA_URL"),
+		cloudURL:  os.Getenv("CLOUD_API_URL"),
+		noonPath:  "../../src/noon",
+		db:        db,
+	}
 }
 
 type SolveRequest struct {
@@ -35,14 +47,6 @@ type SolveResponse struct {
 	Concepts       []string  `json:"concepts"`
 	Difficulty     int       `json:"difficulty"`
 	AnimationVideo string    `json:"animation_video,omitempty"`
-}
-
-func NewSolverService() *SolverService {
-	return &SolverService{
-		ollamaURL: os.Getenv("OLLAMA_URL"),
-		cloudURL:  os.Getenv("CLOUD_API_URL"),
-		noonPath:  "../../src/noon",
-	}
 }
 
 func (s *SolverService) Solve(req SolveRequest) (*SolveResponse, error) {
@@ -169,11 +173,65 @@ func main() {
 
 func (s *SolverService) GetSteps(id uuid.UUID) (*SolveResponse, error) {
 	// Fetch from cache/database
-	return nil, nil
+	if s.db == nil {
+		return nil, nil
+	}
+
+	ctx := context.Background()
+	var questionText, solutionText, solutionLatex, stepsJSON, conceptsJSON, answerOptionsJSON string
+	var difficulty int
+	var correctAnswer string
+
+	err := s.db.QueryRow(ctx, `
+		SELECT question_text, solution_text, solution_latex, solution_steps::text, 
+		       ai_concepts::text, difficulty, answer_options::text, correct_answer
+		FROM questions 
+		WHERE id = $1`, id).Scan(
+		&questionText, &solutionText, &solutionLatex, &stepsJSON, &conceptsJSON, &difficulty, &answerOptionsJSON, &correctAnswer)
+
+	if err != nil {
+		return nil, err
+	}
+
+	var steps []string
+	json.Unmarshal([]byte(stepsJSON), &steps)
+
+	var concepts []string
+	json.Unmarshal([]byte(conceptsJSON), &concepts)
+
+	var answerOptions []string
+	json.Unmarshal([]byte(answerOptionsJSON), &answerOptions)
+
+	return &SolveResponse{
+		ID:            id,
+		Question:      questionText,
+		Solution:      solutionText,
+		SolutionLatex: solutionLatex,
+		Steps:         steps,
+		Concepts:      concepts,
+		Difficulty:    difficulty,
+		AnswerOptions: answerOptions,
+		CorrectAnswer: correctAnswer,
+	}, nil
 }
 
 func (s *SolverService) GetAnimation(id uuid.UUID) (string, error) {
-	return "", nil
+	if s.db == nil {
+		return "", nil
+	}
+
+	ctx := context.Background()
+	var videoPath string
+	err := s.db.QueryRow(ctx, `
+		SELECT video_path FROM animations 
+		WHERE question_id = $1 
+		ORDER BY created_at DESC LIMIT 1`, id).Scan(&videoPath)
+
+	if err != nil {
+		return "", err
+	}
+
+	return videoPath, nil
 }
 
 // SolveWithImage processes an image question
