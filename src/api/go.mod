@@ -62,3 +62,6 @@ require (
 	golang.org/x/tools v0.42.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 )
+
+replace github.com/bac-unified/agent => ../agent
+replace github.com/bac-unified/api => ../api
