@@ -24,8 +24,11 @@ services:
   - name: bac-agent
     type: web
     region: oregon
-    buildCommand: cd src/agent && go build -o agent .
-    startCommand: ./agent worker
+    buildCommand: cd src/agent && go build -o agent ./cmd/main.go
+    startCommand: ./agent -server
+    envVars:
+      - key: PORT
+        value: "8081"
     env:
       - key: NEON_DB_URL
         value: ${NEON_DB_URL}
