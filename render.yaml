@@ -7,17 +7,16 @@ services:
     envVars:
       - key: PORT
         value: "8080"
-    env:
       - key: NEON_DB_URL
-        value: ${NEON_DB_URL}
-      - key: TURSO_DB_URL
-        value: ${TURSO_DB_URL}
-      - key: REDIS_URL
-        value: ${REDIS_URL}
+        value: "postgresql://neondb_owner:npg_ubkCLmerS03Z@ep-fragrant-violet-ai2ew4vx-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require"
       - key: JWT_SECRET
-        value: ${JWT_SECRET}
+        value: "bac-unified-jwt-secret-2026-change-in-production"
       - key: OLLAMA_URL
-        value: ${OLLAMA_URL}
+        value: "https://bac-api.amdajhbdh.workers.dev"
+      - key: TURSO_DB_URL
+        value: ""
+      - key: REDIS_URL
+        value: ""
     repo: https://github.com/amdajhbdh/bac
     branch: first_bm
 
@@ -29,14 +28,13 @@ services:
     envVars:
       - key: PORT
         value: "8081"
-    env:
       - key: NEON_DB_URL
-        value: ${NEON_DB_URL}
-      - key: TURSO_DB_URL
-        value: ${TURSO_DB_URL}
-      - key: REDIS_URL
-        value: ${REDIS_URL}
+        value: "postgresql://neondb_owner:npg_ubkCLmerS03Z@ep-fragrant-violet-ai2ew4vx-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require"
       - key: OLLAMA_URL
-        value: ${OLLAMA_URL}
+        value: "https://bac-api.amdajhbdh.workers.dev"
+      - key: TURSO_DB_URL
+        value: ""
+      - key: REDIS_URL
+        value: ""
     repo: https://github.com/amdajhbdh/bac
     branch: first_bm

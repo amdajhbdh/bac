@@ -1,7 +1,10 @@
+import gleam/int
 import gleam/io
 import lustre
 import lustre/attribute.{class, placeholder, value}
-import lustre/element.{button, div, h1, h2, h3, input, p, text}
+import lustre/effect.{type Effect}
+import lustre/element.{text}
+import lustre/element/html
 import lustre/event.{on_click, on_input}
 
 pub type Model {
@@ -15,8 +18,11 @@ pub type Msg {
   Submit
 }
 
-pub fn init() -> Model {
-  Model(count: 0, problem: "")
+pub fn init(
+  model: Model,
+  effect: effect.Effect(Msg),
+) -> #(Model, effect.Effect(Msg)) {
+  #(Model(count: 0, problem: ""), effect.none())
 }
 
 pub fn update(model: Model, msg: Msg) -> #(Model, Nil) {
@@ -29,16 +35,16 @@ pub fn update(model: Model, msg: Msg) -> #(Model, Nil) {
 }
 
 pub fn view(model: Model) -> element.Element(Msg) {
-  div([class("container")], [
-    h1([], [text("BAC Unifié")]),
-    p([], [text("Compteur: " <> int.to_string(model.count))]),
-    div([class("buttons")], [
-      button([on_click(Decrement)], [text("-")]),
-      button([on_click(Increment)], [text("+")]),
+  html.div([class("container")], [
+    html.h1([], [text("BAC Unifié")]),
+    html.span([], [text("Compteur: " <> int.to_string(model.count))]),
+    html.div([class("buttons")], [
+      html.button([on_click(Decrement)], [text("-")]),
+      html.button([on_click(Increment)], [text("+")]),
     ]),
-    p([], [text("Problème: " <> model.problem)]),
-    input([value(model.problem), on_input(UpdateProblem)]),
-    button([on_click(Submit)], [text("Soumettre")]),
+    html.span([], [text("Problème: " <> model.problem)]),
+    html.input([value(model.problem), on_input(UpdateProblem)]),
+    html.button([on_click(Submit)], [text("Soumettre")]),
   ])
 }
 
