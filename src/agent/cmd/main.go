@@ -3,7 +3,9 @@ package main
 import (
 	"context"
 	"flag"
+	"fmt"
 	"log/slog"
+	"net/http"
 	"os"
 	"strings"
 
@@ -23,10 +25,26 @@ func main() {
 	// Parse flags
 	animate := flag.Bool("animate", false, "Generate animation")
 	forceOnline := flag.Bool("online", false, "Force online auto-solve")
+	serverMode := flag.Bool("server", false, "Run as HTTP server")
+	port := flag.String("port", "8081", "Server port")
 	flag.Parse()
 
+	// Server mode
+	if *serverMode {
+		slog.Info("starting agent server", "port", *port)
+		http.HandleFunc("/solve", handleSolve)
+		http.HandleFunc("/health", handleHealth)
+		err := http.ListenAndServe(":"+*port, nil)
+		if err != nil {
+			slog.Error("server error", "error", err)
+			os.Exit(1)
+		}
+		return
+	}
+
+	// CLI mode
 	if flag.NArg() < 1 {
-		logger.Error("no problem provided", "usage", "bac-agent [-animate] <problem>")
+		logger.Error("no problem provided", "usage", "bac-agent [-animate] [-server] [-port 8081] <problem>")
 		os.Exit(1)
 	}
 
@@ -147,4 +165,34 @@ func main() {
 	}
 
 	slog.Info("agent completed", "result", out)
+}
+
+func handleSolve(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodPost {
+		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	problem := r.FormValue("problem")
+	if problem == "" {
+		http.Error(w, "problem required", http.StatusBadRequest)
+		return
+	}
+
+	ctx := context.Background()
+	slog.Info("solving problem via HTTP", "problem", problem)
+
+	memoryResult := memory.Lookup(ctx, problem, 3)
+	solveResult, err := solver.Solve(ctx, problem, memoryResult.Context)
+	if err != nil {
+		slog.Error("solver failed", "error", err)
+		solveResult = solver.FallbackSolve(problem)
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	fmt.Fprintf(w, `{"problem": "%s", "solution": "%s", "confidence": %f}`, problem, solveResult.Solution, solveResult.Confidence)
+}
+
+func handleHealth(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "OK")
 }
