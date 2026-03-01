@@ -123,8 +123,38 @@ Question: %s`, question)
 }
 
 func (s *SolverService) solveWithCloud(req SolveRequest) (*SolveResponse, error) {
-	// Placeholder for cloud API fallback
-	return nil, fmt.Errorf("cloud solver not implemented")
+	// Use Cloudflare Worker as cloud fallback
+	cloudURL := s.cloudURL
+	if cloudURL == "" {
+		cloudURL = "https://bac-api.amdajhbdh.workers.dev"
+	}
+
+	body, _ := json.Marshal(map[string]string{
+		"problem": req.Question,
+	})
+
+	resp, err := http.Post(cloudURL+"/solve", "application/json", bytes.NewBuffer(body))
+	if err != nil {
+		return nil, fmt.Errorf("cloud solver failed: %w", err)
+	}
+	defer resp.Body.Close()
+
+	var result map[string]interface{}
+	if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
+		return nil, fmt.Errorf("failed to parse cloud response: %w", err)
+	}
+
+	solution, ok := result["solution"].(string)
+	if !ok {
+		return nil, fmt.Errorf("no solution in cloud response")
+	}
+
+	return &SolveResponse{
+		ID:         uuid.New(),
+		Question:   req.Question,
+		Solution:   solution,
+		Difficulty: 3,
+	}, nil
 }
 
 func (s *SolverService) generateNoonAnimation(steps []string) (string, error) {
