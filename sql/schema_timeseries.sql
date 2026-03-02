@@ -1,18 +1,18 @@
 -- ============================================================================
 -- BAC UNIFIED - TimescaleDB, Sessions, and RAG Extensions
--- Version: 1.0
+-- Version: 1.1
 -- ============================================================================
 
--- Enable TimescaleDB
-CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE;
+-- Enable TimescaleDB (already enabled, but keeping for reference)
+-- CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE;
 
 -- ============================================================================
--- AI CHAT SESSIONS
+-- AI CHAT SESSIONS (aichat integration)
 -- ============================================================================
 
-CREATE TABLE ai_chat_sessions (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    user_id UUID REFERENCES users(id) ON DELETE SET NULL,
+CREATE TABLE IF NOT EXISTS ai_chat_sessions (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id INTEGER REFERENCES users(id) ON DELETE SET NULL,
     session_type TEXT NOT NULL DEFAULT 'general',
     provider TEXT NOT NULL DEFAULT 'ollama',
     model TEXT,
@@ -26,13 +26,13 @@ CREATE TABLE ai_chat_sessions (
     ended_at TIMESTAMP WITH TIME ZONE
 );
 
-CREATE INDEX idx_sessions_user ON ai_chat_sessions(user_id);
-CREATE INDEX idx_sessions_active ON ai_chat_sessions(is_active, last_message_at);
-CREATE INDEX idx_sessions_type ON ai_chat_sessions(session_type);
+CREATE INDEX IF NOT EXISTS idx_sessions_user ON ai_chat_sessions(user_id);
+CREATE INDEX IF NOT EXISTS idx_sessions_active ON ai_chat_sessions(is_active, last_message_at);
+CREATE INDEX IF NOT EXISTS idx_sessions_type ON ai_chat_sessions(session_type);
 
 -- AI Chat Messages
-CREATE TABLE ai_chat_messages (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+CREATE TABLE IF NOT EXISTS ai_chat_messages (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     session_id UUID REFERENCES ai_chat_sessions(id) ON DELETE CASCADE,
     role TEXT NOT NULL,
     content TEXT NOT NULL,
@@ -42,20 +42,20 @@ CREATE TABLE ai_chat_messages (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
-CREATE INDEX idx_messages_session ON ai_chat_messages(session_id, created_at);
+CREATE INDEX IF NOT EXISTS idx_messages_session ON ai_chat_messages(session_id, created_at);
 
 -- ============================================================================
--- RAG KNOWLEDGE BASE
+-- RAG KNOWLEDGE BASE (for aichat --rag)
 -- ============================================================================
 
-CREATE TABLE rag_documents (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+CREATE TABLE IF NOT EXISTS rag_documents (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     title TEXT NOT NULL,
     content TEXT NOT NULL,
     source_type TEXT,
     source_url TEXT,
-    subject_id INTEGER REFERENCES subjects(id),
-    chapter_id INTEGER REFERENCES chapters(id),
+    subject_id INTEGER REFERENCES subjects(id) ON DELETE SET NULL,
+    chapter_id INTEGER REFERENCES chapters(id) ON DELETE SET NULL,
     embedding vector(1536),
     metadata JSONB DEFAULT '{}',
     chunk_count INTEGER DEFAULT 1,
@@ -63,12 +63,12 @@ CREATE TABLE rag_documents (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
-CREATE INDEX idx_rag_embedding ON rag_documents USING ivfflat (embedding vector_cosine_ops) WITH (lists = 100);
-CREATE INDEX idx_rag_subject ON rag_documents(subject_id, chapter_id);
+CREATE INDEX IF NOT EXISTS idx_rag_embedding ON rag_documents USING ivfflat (embedding vector_cosine_ops) WITH (lists = 100);
+CREATE INDEX IF NOT EXISTS idx_rag_subject ON rag_documents(subject_id, chapter_id);
 
 -- RAG Document Chunks
-CREATE TABLE rag_chunks (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+CREATE TABLE IF NOT EXISTS rag_chunks (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     document_id UUID REFERENCES rag_documents(id) ON DELETE CASCADE,
     chunk_index INTEGER NOT NULL,
     content TEXT NOT NULL,
@@ -77,20 +77,20 @@ CREATE TABLE rag_chunks (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
-CREATE INDEX idx_chunks_embedding ON rag_chunks USING ivfflat (embedding vector_cosine_ops) WITH (lists = 100);
-CREATE INDEX idx_chunks_document ON rag_chunks(document_id);
+CREATE INDEX IF NOT EXISTS idx_chunks_embedding ON rag_chunks USING ivfflat (embedding vector_cosine_ops) WITH (lists = 100);
+CREATE INDEX IF NOT EXISTS idx_chunks_document ON rag_chunks(document_id);
 
 -- ============================================================================
 -- TIMESERIES: ANALYTICS EVENTS (Hypertable)
 -- ============================================================================
 
-CREATE TABLE analytics_events (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+CREATE TABLE IF NOT EXISTS analytics_events (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     event_type TEXT NOT NULL,
-    user_id UUID REFERENCES users(id) ON DELETE SET NULL,
+    user_id INTEGER REFERENCES users(id) ON DELETE SET NULL,
     session_id UUID REFERENCES ai_chat_sessions(id) ON DELETE SET NULL,
     subject_id INTEGER REFERENCES subjects(id) ON DELETE SET NULL,
-    question_id UUID REFERENCES questions(id) ON DELETE SET NULL,
+    question_id INTEGER REFERENCES questions(id) ON DELETE SET NULL,
     properties JSONB DEFAULT '{}',
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -99,19 +99,19 @@ SELECT create_hypertable('analytics_events', 'created_at',
     chunk_time_interval => INTERVAL '1 day',
     if_not_exists => TRUE);
 
-CREATE INDEX idx_analytics_events_type ON analytics_events(event_type, created_at DESC);
-CREATE INDEX idx_analytics_events_user ON analytics_events(user_id, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_analytics_events_type ON analytics_events(event_type, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_analytics_events_user ON analytics_events(user_id, created_at DESC);
 
 -- ============================================================================
 -- USER ACTIVITY TIMELINE (Hypertable)
 -- ============================================================================
 
-CREATE TABLE user_activity_timeline (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    user_id UUID REFERENCES users(id) ON DELETE CASCADE,
+CREATE TABLE IF NOT EXISTS user_activity_timeline (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
     activity_type TEXT NOT NULL,
     subject_id INTEGER REFERENCES subjects(id) ON DELETE SET NULL,
-    question_id UUID REFERENCES questions(id) ON DELETE SET NULL,
+    question_id INTEGER REFERENCES questions(id) ON DELETE SET NULL,
     points_earned INTEGER DEFAULT 0,
     metadata JSONB DEFAULT '{}',
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
@@ -121,28 +121,28 @@ SELECT create_hypertable('user_activity_timeline', 'created_at',
     chunk_time_interval => INTERVAL '1 day',
     if_not_exists => TRUE);
 
-CREATE INDEX idx_activity_user ON user_activity_timeline(user_id, created_at DESC);
-CREATE INDEX idx_activity_type ON user_activity_timeline(activity_type, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_activity_user ON user_activity_timeline(user_id, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_activity_type ON user_activity_timeline(activity_type, created_at DESC);
 
 -- ============================================================================
 -- CACHE TABLE FOR PERFORMANCE
 -- ============================================================================
 
-CREATE TABLE api_cache (
+CREATE TABLE IF NOT EXISTS api_cache (
     key TEXT PRIMARY KEY,
     value JSONB NOT NULL,
     expires_at TIMESTAMP WITH TIME ZONE,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
-CREATE INDEX idx_cache_expires ON api_cache(expires_at) WHERE expires_at IS NOT NULL;
+CREATE INDEX IF NOT EXISTS idx_cache_expires ON api_cache(expires_at) WHERE expires_at IS NOT NULL;
 
 -- ============================================================================
 -- BACKGROUND JOBS QUEUE
 -- ============================================================================
 
-CREATE TABLE background_jobs (
-    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+CREATE TABLE IF NOT EXISTS background_jobs (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     job_type TEXT NOT NULL,
     payload JSONB DEFAULT '{}',
     status TEXT NOT NULL DEFAULT 'pending',
@@ -156,8 +156,8 @@ CREATE TABLE background_jobs (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
 
-CREATE INDEX idx_jobs_status ON background_jobs(status, scheduled_at);
-CREATE INDEX idx_jobs_type ON background_jobs(job_type);
+CREATE INDEX IF NOT EXISTS idx_jobs_status ON background_jobs(status, scheduled_at);
+CREATE INDEX IF NOT EXISTS idx_jobs_type ON background_jobs(job_type);
 
 -- ============================================================================
 -- CONTINUOUS AGGREGATES FOR REAL-TIME ANALYTICS

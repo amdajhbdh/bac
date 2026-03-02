@@ -107,9 +107,9 @@ func main() {
 			onlineProvider = onlineRes.Provider
 		}
 
-		// Also try NLM research
+		// Also try NLM research with caching
 		slog.Info("stage: nlm-research")
-		nlmResult := nlm.Research(ctx, problem)
+		nlmResult := nlm.ResearchWithCache(ctx, problem)
 		if nlmResult.Success {
 			slog.Info("NLM research complete", "notebook", nlmResult.NotebookID, "result_len", len(nlmResult.Results))
 		}

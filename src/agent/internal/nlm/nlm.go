@@ -24,6 +24,13 @@ type NotebookInfo struct {
 
 var defaultNotebookID = "16b01950-5766-4353-8bed-c7f67966cb6b"
 
+func init() {
+	// Initialize cache on startup
+	if err := InitCache(); err != nil {
+		slog.Default().Warn("NLM cache initialization failed, using direct queries", "error", err)
+	}
+}
+
 func GetNotebooks(ctx context.Context) ([]NotebookInfo, error) {
 	slog.Info("fetching NLM notebooks")
 
@@ -79,21 +86,33 @@ func Query(ctx context.Context, notebookID, question string) ResearchResult {
 func Research(ctx context.Context, problem string) ResearchResult {
 	slog.Info("NLM research started", "problem", problem)
 
-	// Try to find relevant notebooks
-	notebooks, err := GetNotebooks(ctx)
-	if err != nil || len(notebooks) == 0 {
-		slog.Warn("no notebooks found, using default")
-		return Query(ctx, defaultNotebookID, problem)
-	}
+	// Use router to determine best notebook based on subject
+	route := ExtractRoute(problem)
+	notebookID := route.NotebookID
 
-	// Query the first available notebook
-	notebookID := notebooks[0].ID
 	if notebookID == "" {
 		notebookID = defaultNotebookID
 	}
 
-	slog.Info("using notebook", "id", notebookID, "title", notebooks[0].Title)
+	slog.Info("routed query", "subject", route.Subject, "topics", route.Topics, "notebook", notebookID)
+
+	// Query the routed notebook
 	return Query(ctx, notebookID, problem)
+}
+
+// ResearchWithCache performs research with intelligent caching
+// This is the recommended function for production use
+func ResearchWithCache(ctx context.Context, problem string) ResearchResult {
+	slog.Info("NLM research with cache", "problem", problem)
+
+	result := QueryCachedWithFallback(ctx, problem)
+
+	return ResearchResult{
+		NotebookID: result.NotebookID,
+		Results:    result.Results,
+		Success:    result.Success,
+		Error:      result.Error,
+	}
 }
 
 func CreateNotebook(ctx context.Context, title string) (string, error) {

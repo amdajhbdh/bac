@@ -1,134 +1,144 @@
-# BAC Hyper-Swarm 2026
+# BAC Unified - BAC Exam Preparation Platform
 
-## What is This?
+## Overview
 
-**BAC Hyper-Swarm** is a smart study assistant designed specifically for students preparing for the **BAC C exam** (Terminale C in Mauritania). It uses artificial intelligence to help you learn faster and more effectively.
+| Component | Language | Path |
+|-----------|----------|------|
+| Agent CLI | **Go** | `src/agent/` |
+| REST API | Go (Gin) | `src/api/` |
+| Animations | Rust (Noon) | `src/noon/` |
+| Daemons | Nushell | `daemons/` |
+| CLI Orchestration | Nushell | `lib/bac.nu` |
+| Cloudflare Worker | TypeScript | `src/cloudflare-worker/` |
+| Cloudflare Pages | HTML/JS | `src/cloudflare-pages/` |
 
-Think of it as having a personal tutor that:
-- Finds educational videos and articles for you
-- Creates practice quizzes from your study materials
-- Explains difficult concepts in simple terms
-- Helps you track your progress
-- Works in Arabic, French, and English
+## Architecture
 
----
+```
+Nushell CLI (lib/bac.nu)
+    └── Go Agent CLI (src/agent/cmd/main.go)
+            ├── solver/       Ollama → Cloud APIs → NLM → Online research
+            ├── memory/       pgvector similarity search (RAG)
+            ├── nlm/          NotebookLM + Turso cache
+            ├── ocr/          Tesseract + Surya
+            ├── search/       Hybrid: Elasticsearch + pgvector
+            ├── animation/    Noon DSL code generation
+            ├── bundle/       WRAPX + ARX
+            ├── db/           sqlc PostgreSQL queries
+            └── cache/        Redis
 
-## What Can It Do?
-
-### 📚 Smart Study
-- **Ask questions** - Get instant answers to any topic
-- **Generate quizzes** - Practice with auto-created tests
-- **Flashcards** - Review key concepts quickly
-- **Audio summaries** - Listen to study materials on the go
-
-### 🔍 Find Content
-- **YouTube videos** - Automatically download educational videos
-- **Web articles** - Fetch relevant articles from education sites
-- **PDFs** - Process and analyze your documents
-
-### 📝 Handwriting Help
-- **OCR** - Convert handwritten notes to digital text
-- **Save notes** - Store for later review
-
-### 📊 Track Progress
-- **Study stats** - See how much you've studied
-- **Weak areas** - Identify topics that need more practice
-
----
-
-## How to Use (3 Simple Steps)
-
-### Step 1: Open Terminal
-Open your terminal/command prompt and navigate to the BAC folder:
-```bash
-cd /path/to/bac
+Database: PostgreSQL + pgvector | Turso (SQLite) | Redis
 ```
 
-### Step 2: Run Commands
-Here are the most common commands:
+## AI Inference Priority
 
-| What you want to do | Command |
-|---------------------|---------|
-| Ask a question | `bac ask "what is a derivative"` |
-| Create a quiz | `bac quiz -t mathematics` |
-| Study flashcards | `bac flashcards -t physics` |
-| Listen to audio | `bac audio -t chemistry` |
-| Check progress | `bac stats` |
-| List topics | `bac config list-topics` |
+1. Ollama (llama3.2:3b, local, fast)
+2. Cloud APIs (kimi/deepseek/minimax)
+3. NLM CLI/MCP (NotebookLM with caching)
 
-### Step 3: Learn!
-That's it! The system will help you study using AI.
+## Quick Start
 
----
-
-## Need Help?
-
-- **List all commands**: Run `bac.nu` without arguments
-- **Get help**: `bac.nu --help`
-- **Database status**: `bac db status`
-- **Check daemons**: `bac daemon status`
-
----
-
-## Example Workflows
-
-### Morning Study Session
 ```bash
-# 1. Review your flashcards
-bac flashcards -t mathematics
+# Install dependencies
+just install
 
-# 2. Test yourself with a quiz
-bac quiz -t "integrals"
+# Build everything
+just quick-build
 
-# 3. Listen to a summary while getting ready
-bac audio -t physics
+# Start services
+just services-up
+
+# Run tests
+just test
+
+# Start development
+just dev
 ```
 
-### After Class
+## Commands
+
+Run `just --list` to see all available tasks:
+
 ```bash
-# 1. Ask questions about what you learned
-bac ask "explain photosynthesis"
-
-# 2. Check your weak areas
-bac stats
-
-# 3. Add a new topic you're studying
-bac config add-topic "cell biology"
+just build          # Build agent binary
+just build-tools    # Build CLI tools
+just quick-build    # Build with checks
+just test           # Run tests
+just test-race      # Run with race detector
+just fmt            # Format code
+just vet            # Run go vet
+just services-up    # Start postgres/redis
+just services-down   # Stop services
+just dev            # Start dev server
+just api            # Start REST API
+just server         # Start agent server
+just health         # Health check
+just load-data      # Load sample data
+just db-shell       # PostgreSQL shell
+just redis-shell    # Redis shell
+just clean          # Clean build artifacts
+just deploy         # Deploy to production
+just fix            # Auto-fix build issues
 ```
 
+## Development
+
+```bash
+# Go (Agent)
+cd src/agent
+go build -o bin/Agent ./cmd/main.go
+./bin/Agent -h
+
+# Go (REST API)
+cd src/api
+go run main.go
+
+# Rust (Noon)
+cd src/noon
+cargo build --release
+```
+
+## Testing
+
+```bash
+cd src/agent
+
+# All tests
+go test ./...
+
+# Single test
+go test -v -run TestSolve ./internal/solver/
+
+# With coverage
+go test -cover ./...
+
+# Benchmark
+go test -bench=BenchmarkMemoryLookup ./internal/memory/
+```
+
+## Database
+
+- **Main DB**: PostgreSQL + pgvector (schema: `sql/schema.sql`)
+- **NLM cache**: Turso (SQLite) at `src/agent/internal/nlm/cache/`
+- **Hot cache**: Redis
+
+Use **sqlc** for all queries - run `sqlc generate` after schema changes.
+
+## Mandatory Rules
+
+- **VCS**: Use **jj (Jujutsu)** - `jj new`, `jj commit`, `jj push`
+- **Storage**: Garage S3 or MinIO only
+- **OCR**: Tesseract + Surya only (no paid APIs)
+- **Auth**: JWT + bcrypt, env vars for secrets
+- **Search**: Hybrid = Elasticsearch + pgvector
+
+## Code Style
+
+- Use `log/slog` for logging
+- Group imports: stdlib, external, internal
+- Wrap errors with context
+- Env vars for all config
+
 ---
 
-## Requirements
-
-- **Nushell** - The command shell this program runs in
-- **Internet connection** - For searching content and AI features
-- **NotebookLM account** - For advanced AI features (optional)
-
----
-
-## Troubleshooting
-
-**Command not found?**
-Make sure you're in the correct folder and Nushell is installed.
-
-**Need help with a specific command?**
-Just type the command without arguments to see usage instructions.
-
-**Questions not answering?**
-Check your internet connection and try again.
-
----
-
-## What's Inside?
-
-- `bac.nu` - The main program
-- `daemons/` - Background services that run automatically
-- `config/` - Your settings and topics
-- `resources/` - Downloaded videos, articles, and notes
-- `docs/` - More detailed documentation
-
----
-
-**Status**: ✅ System Complete - Ready for BAC 2026!
-
-Good luck with your exams! 🎓
+**Built with ❤️ for Mauritanian BAC students**

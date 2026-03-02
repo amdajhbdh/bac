@@ -18,29 +18,54 @@ type Route struct {
 
 var subjectKeywords = map[string][]string{
 	"math": {
+		// French
 		"équation", "fonction", "dérivée", "intégrale", "limite",
 		"polynôme", "factorisation", "x²", "sqrt", "racine",
 		"calcul", "algèbre", "géométrie", "trigonométrie",
 		"matrice", "vecteur", "probabilité", "statistique",
 		"dériver", "intégrer", "résoudre", "factoriser",
+		// Arabic (transliterated)
+		"معادلة", "دالة", "مشتقة", "تكامل", "نهاية",
+		" многоугольник", "جبر", "هندسة", "مثلثات",
+		// English
+		"equation", "function", "derivative", "integral", "limit",
+		"polynomial", "factor", "matrix", "vector", "probability",
 	},
 	"pc": {
+		// French
 		"physique", "mécanique", "électrique", "optique",
 		"thermodynamique", "chimie", "molécule", "atome",
 		"force", "vitesse", "accélération", "tension", "courant",
 		"chaleur", "température", "pression", "volume",
 		"onde", "lumière", "son", "électronique",
+		// Arabic (transliterated)
+		"فيزياء", "كهرباء", "ميكانيك", "بصريات",
+		// English
+		"physics", "mechanics", "electric", "optics", "thermodynamics",
+		"force", "velocity", "acceleration", "energy",
 	},
 	"svt": {
+		// French
 		"biologie", "cellule", "ADN", "génétique",
 		"écologie", "évolution", "organisme", "photosynthèse",
 		"respiration", "mitose", "méiose", "protéine",
 		"enzyme", "gène", "chromosome", "mutation",
+		// Arabic (transliterated)
+		"أحياء", "خلية", "وراثة", "بيئة",
+		// English
+		"biology", "cell", "DNA", "genetics", "ecology",
+		"evolution", "photosynthesis", "mitosis",
 	},
 	"philosophie": {
+		// French
 		"philosophie", "morale", "éthique", "existence",
 		"liberté", "justice", "vérité", "connaissance",
 		"conscience", "pensée", "être", "devenir",
+		// Arabic (transliterated)
+		"فلسفة", "أخلاق", "حرية", "عدالة",
+		// English
+		"philosophy", "ethics", "morality", "existence",
+		"freedom", "justice", "truth", "knowledge",
 	},
 }
 

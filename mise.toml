@@ -6,7 +6,6 @@ rust = "1.85"
 podman = "latest"
 
 [env]
-GOROOT = { source = ".envrc" }
 
 [tasks]
 install-go = "go install golang.org/dl/go1.25@latest && go1.25 download"
