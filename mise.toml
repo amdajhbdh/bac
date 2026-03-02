@@ -1,0 +1,15 @@
+[tools]
+go = "1.25"
+node = "22"
+python = "3.11"
+rust = "1.85"
+podman = "latest"
+
+[env]
+GOROOT = { source = ".envrc" }
+
+[tasks]
+install-go = "go install golang.org/dl/go1.25@latest && go1.25 download"
+install-node = "corepack enable && yarn install"
+install-rust = "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y"
+install-all = "just install-go && just install-node && just install-rust"
