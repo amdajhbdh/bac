@@ -1,0 +1,28 @@
+topics:
+  - name: ocr-input
+    partitions: 8
+    replication: 3
+    retention: 24h
+    compression: gzip
+    
+  - name: ocr-output
+    partitions: 8
+    replication: 3
+    
+  - name: solver-input
+    partitions: 8
+    replication: 3
+    
+  - name: solver-output
+    partitions: 8
+    replication: 3
+    
+  - name: storage-input
+    partitions: 4
+    replication: 3
+
+fluvio:
+  broker: "localhost:30088"
+  tls: false
+  sc_timeout: 30s
+  spu_timeout: 30s

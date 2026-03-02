@@ -147,6 +147,33 @@ func (ns NullVerificationStatus) Value() (driver.Value, error) {
 	return string(ns.VerificationStatus), nil
 }
 
+type AiChatMessage struct {
+	ID         pgtype.UUID        `json:"id"`
+	SessionID  pgtype.UUID        `json:"session_id"`
+	Role       string             `json:"role"`
+	Content    string             `json:"content"`
+	TokenCount pgtype.Int4        `json:"token_count"`
+	Model      pgtype.Text        `json:"model"`
+	Metadata   []byte             `json:"metadata"`
+	CreatedAt  pgtype.Timestamptz `json:"created_at"`
+}
+
+type AiChatSession struct {
+	ID            pgtype.UUID        `json:"id"`
+	UserID        pgtype.Int4        `json:"user_id"`
+	SessionType   string             `json:"session_type"`
+	Provider      string             `json:"provider"`
+	Model         pgtype.Text        `json:"model"`
+	Title         pgtype.Text        `json:"title"`
+	Context       []byte             `json:"context"`
+	MessageCount  pgtype.Int4        `json:"message_count"`
+	TokenCount    pgtype.Int4        `json:"token_count"`
+	IsActive      pgtype.Bool        `json:"is_active"`
+	LastMessageAt pgtype.Timestamptz `json:"last_message_at"`
+	CreatedAt     pgtype.Timestamptz `json:"created_at"`
+	EndedAt       pgtype.Timestamptz `json:"ended_at"`
+}
+
 type AnalyticsEvent struct {
 	ID         pgtype.UUID      `json:"id"`
 	EventType  string           `json:"event_type"`
@@ -176,6 +203,13 @@ type Animation struct {
 	CreatedAt        pgtype.Timestamp `json:"created_at"`
 }
 
+type ApiCache struct {
+	Key       string             `json:"key"`
+	Value     []byte             `json:"value"`
+	ExpiresAt pgtype.Timestamptz `json:"expires_at"`
+	CreatedAt pgtype.Timestamptz `json:"created_at"`
+}
+
 type AuditLog struct {
 	ID              pgtype.UUID      `json:"id"`
 	TransactionHash string           `json:"transaction_hash"`
@@ -190,6 +224,21 @@ type AuditLog struct {
 	IpAddress       *netip.Addr      `json:"ip_address"`
 	UserAgent       pgtype.Text      `json:"user_agent"`
 	CreatedAt       pgtype.Timestamp `json:"created_at"`
+}
+
+type BackgroundJob struct {
+	ID          pgtype.UUID        `json:"id"`
+	JobType     string             `json:"job_type"`
+	Payload     []byte             `json:"payload"`
+	Status      string             `json:"status"`
+	Priority    pgtype.Int4        `json:"priority"`
+	Attempts    pgtype.Int4        `json:"attempts"`
+	MaxAttempts pgtype.Int4        `json:"max_attempts"`
+	LastError   pgtype.Text        `json:"last_error"`
+	ScheduledAt pgtype.Timestamptz `json:"scheduled_at"`
+	StartedAt   pgtype.Timestamptz `json:"started_at"`
+	CompletedAt pgtype.Timestamptz `json:"completed_at"`
+	CreatedAt   pgtype.Timestamptz `json:"created_at"`
 }
 
 type Badge struct {
@@ -219,6 +268,34 @@ type DailyStat struct {
 	QuestionsAttempted int64       `json:"questions_attempted"`
 	Submissions        int64       `json:"submissions"`
 	CorrectAnswers     int64       `json:"correct_answers"`
+}
+
+type DailySubjectPopularity struct {
+	Day              interface{} `json:"day"`
+	SubjectID        pgtype.Int4 `json:"subject_id"`
+	QuestionAttempts int64       `json:"question_attempts"`
+	UniqueUsers      int64       `json:"unique_users"`
+}
+
+type HourlyActiveUser struct {
+	Hour        interface{} `json:"hour"`
+	ActiveUsers int64       `json:"active_users"`
+	TotalEvents int64       `json:"total_events"`
+}
+
+type KnowledgeBase struct {
+	ID         pgtype.UUID      `json:"id"`
+	Title      string           `json:"title"`
+	Content    string           `json:"content"`
+	Metadata   []byte           `json:"metadata"`
+	Subject    pgtype.Text      `json:"subject"`
+	Category   pgtype.Text      `json:"category"`
+	SourceType pgtype.Text      `json:"source_type"`
+	SourcePath pgtype.Text      `json:"source_path"`
+	Embedding  pgvector.Vector  `json:"embedding"`
+	Summary    pgtype.Text      `json:"summary"`
+	CreatedAt  pgtype.Timestamp `json:"created_at"`
+	UpdatedAt  pgtype.Timestamp `json:"updated_at"`
 }
 
 type Leaderboard struct {
@@ -318,6 +395,31 @@ type QuestionsForPractice struct {
 	CreatedAt    pgtype.Timestamp `json:"created_at"`
 }
 
+type RagChunk struct {
+	ID         pgtype.UUID        `json:"id"`
+	DocumentID pgtype.UUID        `json:"document_id"`
+	ChunkIndex int32              `json:"chunk_index"`
+	Content    string             `json:"content"`
+	Embedding  pgvector.Vector    `json:"embedding"`
+	Metadata   []byte             `json:"metadata"`
+	CreatedAt  pgtype.Timestamptz `json:"created_at"`
+}
+
+type RagDocument struct {
+	ID         pgtype.UUID        `json:"id"`
+	Title      string             `json:"title"`
+	Content    string             `json:"content"`
+	SourceType pgtype.Text        `json:"source_type"`
+	SourceUrl  pgtype.Text        `json:"source_url"`
+	SubjectID  pgtype.Int4        `json:"subject_id"`
+	ChapterID  pgtype.Int4        `json:"chapter_id"`
+	Embedding  pgvector.Vector    `json:"embedding"`
+	Metadata   []byte             `json:"metadata"`
+	ChunkCount pgtype.Int4        `json:"chunk_count"`
+	IndexedAt  pgtype.Timestamptz `json:"indexed_at"`
+	CreatedAt  pgtype.Timestamptz `json:"created_at"`
+}
+
 type StorageObject struct {
 	ID           pgtype.UUID      `json:"id"`
 	Bucket       string           `json:"bucket"`
@@ -390,6 +492,17 @@ type User struct {
 	IsActive          pgtype.Bool      `json:"is_active"`
 	CreatedAt         pgtype.Timestamp `json:"created_at"`
 	UpdatedAt         pgtype.Timestamp `json:"updated_at"`
+}
+
+type UserActivityTimeline struct {
+	ID           pgtype.UUID        `json:"id"`
+	UserID       pgtype.Int4        `json:"user_id"`
+	ActivityType string             `json:"activity_type"`
+	SubjectID    pgtype.Int4        `json:"subject_id"`
+	QuestionID   pgtype.Int4        `json:"question_id"`
+	PointsEarned pgtype.Int4        `json:"points_earned"`
+	Metadata     []byte             `json:"metadata"`
+	CreatedAt    pgtype.Timestamptz `json:"created_at"`
 }
 
 type UserBadge struct {

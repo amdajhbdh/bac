@@ -81,22 +81,18 @@ func LookupWithFilters(ctx context.Context, problem string, topK int, subject, c
 		return fallbackLookup(ctx, problem, topK)
 	}
 
-	fetchLimit := int64(topK * 3)
-	allResults, err := queries.GetSimilarQuestions(ctx, db.GetSimilarQuestionsParams{
-		Limit:   fetchLimit,
-		Column2: pgvector.NewVector(embedding),
-	})
+	allResults, err := queries.GetSimilarQuestionsVec(ctx, pgvector.NewVector(embedding))
 	if err != nil {
 		slog.Warn("vector search failed, using fallback", "error", err)
 		return fallbackLookup(ctx, problem, topK)
 	}
 
-	var results []db.GetSimilarQuestionsRow
+	var results []db.GetSimilarQuestionsVecRow
 	for _, r := range allResults {
 		if len(results) >= topK {
 			break
 		}
-		if (subject == "" || matchesSubject(r, subject)) && (chapter == "" || matchesChapter(r, chapter)) {
+		if (subject == "" || matchesSubjectString(r, subject)) && (chapter == "" || matchesChapterString(r, chapter)) {
 			results = append(results, r)
 		}
 	}
@@ -109,9 +105,8 @@ func LookupWithFilters(ctx context.Context, problem string, topK int, subject, c
 	similar := make([]SimilarProblem, len(results))
 	for i, r := range results {
 		similar[i] = SimilarProblem{
-			Question:   r.QuestionText,
-			Solution:   r.SolutionText.String,
-			Similarity: r.Similarity,
+			Question: r.QuestionText,
+			Solution: r.SolutionText.String,
 		}
 	}
 
@@ -127,11 +122,11 @@ func LookupWithFilters(ctx context.Context, problem string, topK int, subject, c
 	}
 }
 
-func matchesSubject(r db.GetSimilarQuestionsRow, subject string) bool {
+func matchesSubjectString(r db.GetSimilarQuestionsVecRow, subject string) bool {
 	return true
 }
 
-func matchesChapter(r db.GetSimilarQuestionsRow, chapter string) bool {
+func matchesChapterString(r db.GetSimilarQuestionsVecRow, chapter string) bool {
 	return true
 }
 
@@ -265,7 +260,7 @@ func fallbackLookup(ctx context.Context, problem string, topK int) LookupResult 
 
 	params := db.SearchQuestionsByTextParams{
 		QuestionText: "%" + problem + "%",
-		Limit:        int64(topK),
+		Column2:      int32(topK),
 	}
 
 	results, err := queries.SearchQuestionsByText(ctx, params)
