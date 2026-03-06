@@ -10,27 +10,7 @@
 | Daemons | Nushell | `daemons/` |
 | CLI Orchestration | Nushell | `lib/bac.nu` |
 | Cloudflare Worker | TypeScript | `src/cloudflare-worker/` |
-| Cloudflare Pages | HTML/JS | `src/cloudflare-pages/`
-- | Agent CLI | **Go** | `src/agent/` |
-- | REST API | Go (Gin) | `src/api/` |
-- | Animations | Rust (Noon) | `src/noon/` |
-- | Daemons | Nushell | `daemons/` |
-- | CLI Orchestration | Nushell | `lib/bac.nu` |
-- | Cloudflare Worker | TypeScript | `src/cloudflare-worker/` |
-- | Cloudflare Pages | HTML/JS | `src/cloudflare-pages/` |
-+# BAC Unified - Agent Instructions
-+
-+## Project Overview
-+
-+| Component | Language | Path |
-+|-----------|----------|------|
-+| Agent CLI | **Go** | `src/agent/` |
-+| REST API | Go (Gin) | `src/api/` |
-+| Animations | Rust (Noon) | `src/noon/` |
-+| Daemons | Nushell | `daemons/` |
-+| CLI Orchestration | Nushell | `lib/bac.nu` |
-+| Cloudflare Worker | TypeScript | `src/cloudflare-worker/` |
-+| Cloudflare Pages | HTML/JS | `src/cloudflare-pages/` |
+| Cloudflare Pages | HTML/JS | `src/cloudflare-pages/` |
  
  The `src/api` module imports `src/agent` via a `replace` directive in `go.mod`. Both modules are `github.com/bac-unified/agent` and `github.com/bac-unified/api` respectively, using Go 1.25.
  
@@ -78,51 +58,29 @@
  1. Check `openspec/changes/full-bac-unified/tasks.md` for current task status — update `- [ ]` → `- [x]` on completion
  2. Read `doc/rfc/*.md` for architecture decisions
  3. Read `doc/OPEN_SOURCE_PROJECTS.md` for the allowed tool list
-  
-- ## Build Commands
-- 
-- ### Go (Agent & API)
-- 
-- ```bash
-- cd src/agent
-- 
-- # Build binary
-- go build -o bin/Agent ./cmd/main.go
-- 
-- # Build for different platforms
-- GOOS=linux GOARCH=amd64 go build -o bin/Agent-linux ./cmd/main.go
-- GOOS=darwin GOARCH=amd64 go build -o bin/Agent-darwin ./cmd/main.go
-- 
-- # Run with flags
-- ./bin/Agent -animate "problem"     # Generate animation
-- ./bin/Agent -image photo.jpg       # OCR from image
-- ./bin/Agent -pdf exam.pdf          # OCR from PDF
-- ./bin/Agent -analyze resource      # Full analysis
-- ./bin/Agent -online                # Force online auto-solve
-- ```
-- 
-+## Build Commands
-+ 
-+### Go (Agent & API)
-+
-+```bash
-+cd src/agent
-+
-+# Build binary
-+go build -o bin/Agent ./cmd/main.go
-+
-+# Build for different platforms
-+GOOS=linux GOARCH=amd64 go build -o bin/Agent-linux ./cmd/main.go
-+GOOS=darwin GOARCH=amd64 go build -o bin/Agent-darwin ./cmd/main.go
-+
-+# Run with flags
-+./bin/Agent -animate "problem"     # Generate animation
-+./bin/Agent -image photo.jpg       # OCR from image
-+./bin/Agent -pdf exam.pdf          # OCR from PDF
-+./bin/Agent -analyze resource      # Full analysis
-+./bin/Agent -online                # Force online auto-solve
-+```
-+
+ 
+## Build Commands
+
+### Go (Agent & API)
+
+```bash
+cd src/agent
+
+# Build binary
+go build -o bin/Agent ./cmd/main.go
+
+# Build for different platforms
+GOOS=linux GOARCH=amd64 go build -o bin/Agent-linux ./cmd/main.go
+GOOS=darwin GOARCH=amd64 go build -o bin/Agent-darwin ./cmd/main.go
+
+# Run with flags
+./bin/Agent -animate "problem"     # Generate animation
+./bin/Agent -image photo.jpg       # OCR from image
+./bin/Agent -pdf exam.pdf          # OCR from PDF
+./bin/Agent -analyze resource      # Full analysis
+./bin/Agent -online                # Force online auto-solve
+```
+
  ### Go (REST API)
  
  ```bash
@@ -131,82 +89,82 @@
  # Swagger docs available at /swagger/*any
  ```
   
-- ### Rust (Noon)
-- 
-- ```bash
-- cd src/noon
-- cargo build --release
-- cargo test
-- cargo check
-- cargo fmt
-- cargo clippy -- -D warnings
-- ```
-- 
-- ## Testing
-- 
-- ```bash
-- cd src/agent
-- 
-- # All tests
-- go test ./...
-- 
-- # Single test (most common)
-- go test -v -run TestSolve ./internal/solver/
-- 
-- # With coverage
-- go test -cover ./...
-- 
-- # With race detector
-- go test -race ./...
-- 
-- # Benchmark
-- go test -bench=BenchmarkMemoryLookup ./internal/memory/
-- ```
-- 
-- ### Test Naming
-- 
-- - Test files: `*_test.go`
-- - Unit tests: `TestFunctionName`
-- - Benchmarks: `BenchmarkFunctionName`
-- 
-+### Rust (Noon)
-+
-+```bash
-+cd src/noon
-+cargo build --release
-+cargo test
-+cargo check
-+cargo fmt
-+cargo clippy -- -D warnings
-+```
-+ 
-+## Testing
-+
-+```bash
-+cd src/agent
-+
-+# All tests
-+go test ./...
-+
-+# Single test (most common)
-+go test -v -run TestSolve ./internal/solver/
-+
-+# With coverage
-+go test -cover ./...
-+
-+# With race detector
-+go test -race ./...
-+
-+# Benchmark
-+go test -bench=BenchmarkMemoryLookup ./internal/memory/
-+```
-+
-+### Test Naming
-+
-+- Test files: `*_test.go`
-+- Unit tests: `TestFunctionName`
-+- Benchmarks: `BenchmarkFunctionName`
-+
+### Rust (Noon)
+
+```bash
+cd src/noon
+cargo build --release
+cargo test
+cargo check
+cargo fmt
+cargo clippy -- -D warnings
+```
+
+## Testing
+
+```bash
+cd src/agent
+
+# All tests
+go test ./...
+
+# Single test (most common)
+go test -v -run TestSolve ./internal/solver/
+
+# With coverage
+go test -cover ./...
+
+# With race detector
+go test -race ./...
+
+# Benchmark
+go test -bench=BenchmarkMemoryLookup ./internal/memory/
+```
+
+### Test Naming
+
+- Test files: `*_test.go`
+- Unit tests: `TestFunctionName`
+- Benchmarks: `BenchmarkFunctionName`
+
+### Rust (Noon)
+
+```bash
+cd src/noon
+cargo build --release
+cargo test
+cargo check
+cargo fmt
+cargo clippy -- -D warnings
+```
+ 
+## Testing
+
+```bash
+cd src/agent
+
+# All tests
+go test ./...
+
+# Single test (most common)
+go test -v -run TestSolve ./internal/solver/
+
+# With coverage
+go test -cover ./...
+
+# With race detector
+go test -race ./...
+
+# Benchmark
+go test -bench=BenchmarkMemoryLookup ./internal/memory/
+```
+
+### Test Naming
+
+Test files: `*_test.go`
+Unit tests: `TestFunctionName`
+Benchmarks: `BenchmarkFunctionName`
+
  ## Database
  
  - **Main DB**: PostgreSQL + pgvector. Schema: `sql/schema.sql`
@@ -264,176 +222,175 @@
  
  ## Code Style
   
-- ### Logging: Use `log/slog`
-- 
-- ```go
-- import "log/slog"
-- 
-- logger := slog.New(slog.NewJSONHandler(os.Stdout, nil))
-- slog.Info("starting server", "port", 8080)
-- slog.Error("failed to connect", "err", err)
-- 
-- // NEVER use: fmt.Println, print()
-- ```
-- 
-- ### Imports: Group stdlib, external, internal
-- 
-- ```go
-- import (
--     // Standard library
--     "context"
--     "encoding/json"
--     "log/slog"
--     "os"
--     "time"
-- 
--     // External packages
--     "github.com/gin-gonic/gin"
--     "github.com/google/uuid"
-- 
--     // Internal packages
--     "github.com/bac-unified/agent/internal/memory"
--     "github.com/bac-unified/agent/internal/solver"
-- )
-- ```
-- 
-- ### Error Handling: Wrap with context
-- 
-- ```go
-- if err != nil {
--     return nil, fmt.Errorf("solve with ollama: %w", err)
-- }
-- 
-- if errors.Is(err, context.DeadlineExceeded) {
--     return nil, fmt.Errorf("timeout: %w", err)
-- }
-- ```
-- 
-- ### Naming Conventions
-- 
-- ```go
-- // Exported: PascalCase
-- func Solve(ctx context.Context, problem string) (*SolveResult, error)
-- 
-- // Unexported: camelCase
-- func memoryLookup(ctx context.Context, text string) []Similar
-- 
-- // Constants: PascalCase exported, camelCase unexported
-- const DefaultTimeout = 30 * time.Second
-- const maxRetries = 3
-- ```
-- 
-- ### Config: Environment variables only
-- 
-- ```go
-- dbURL := os.Getenv("NEON_DB_URL")
-- if dbURL == "" {
--     dbURL = "postgres://localhost/bac"
-- }
-- // NEVER hardcode credentials or URLs
-- ```
-- 
-- ## Code Review Checklist
-- 
-- - [ ] Check `openspec/changes/full-bac-unified/tasks.md` before and after
-- - [ ] Tests pass (`go test ./...`)
-- - [ ] Code formatted (`go fmt`)
-- - [ ] No vet warnings (`go vet`)
-- - [ ] Race clean (`go test -race`)
-- - [ ] Logging uses `slog`
-- - [ ] Errors wrapped
-- - [ ] Env vars for config
-- - [ ] `sqlc generate` run if schema changed
-- - [ ] VCS: `jj commit` not `git commit`
-- - [ ] Check openspec/changes/full-bac-unified/tasks.md before working
-- 
-- ---
-- 
-- *Last Updated: 2026-03-01*
-+### Logging: Use `log/slog`
-+
-+```go
-+import "log/slog"
-+
-+logger := slog.New(slog.NewJSONHandler(os.Stdout, nil))
-+slog.Info("starting server", "port", 8080)
-+slog.Error("failed to connect", "err", err)
-+
-+// NEVER use: fmt.Println, print()
-+```
-+ 
-+### Imports: Group stdlib, external, internal
-+
-+```go
-+import (
-+    // Standard library
-+    "context"
-+    "encoding/json"
-+    "log/slog"
-+    "os"
-+    "time"
-+
-+    // External packages
-+    "github.com/gin-gonic/gin"
-+    "github.com/google/uuid"
-+
-+    // Internal packages
-+    "github.com/bac-unified/agent/internal/memory"
-+    "github.com/bac-unified/agent/internal/solver"
-+)
-+```
-+ 
-+### Error Handling: Wrap with context
-+
-+```go
-+if err != nil {
-+    return nil, fmt.Errorf("solve with ollama: %w", err)
-+}
-+
-+if errors.Is(err, context.DeadlineExceeded) {
-+    return nil, fmt.Errorf("timeout: %w", err)
-+}
-+```
-+ 
-+### Naming Conventions
-+
-+```go
-+// Exported: PascalCase
-+func Solve(ctx context.Context, problem string) (*SolveResult, error)
-+
-+// Unexported: camelCase
-+func memoryLookup(ctx context.Context, text string) []Similar
-+
-+// Constants: PascalCase exported, camelCase unexported
-+const DefaultTimeout = 30 * time.Second
-+const maxRetries = 3
-+```
-+ 
-+### Config: Environment variables only
-+
-+```go
-+dbURL := os.Getenv("NEON_DB_URL")
-+if dbURL == "" {
-+    dbURL = "postgres://localhost/bac"
-+}
-+// NEVER hardcode credentials or URLs
-+```
-+ 
-+## Code Review Checklist
-+
-+- [ ] Check `openspec/changes/full-bac-unified/tasks.md` before and after
-+- [ ] Tests pass (`go test ./...`)
-+- [ ] Code formatted (`go fmt`)
-+- [ ] No vet warnings (`go vet`)
-+- [ ] Race clean (`go test -race`)
-+- [ ] Logging uses `slog`
-+- [ ] Errors wrapped
-+- [ ] Env vars for config
-+- [ ] `sqlc generate` run if schema changed
-+- [ ] VCS: `jj commit` not `git commit`
-+- [ ] Check openspec/changes/full-bac-unified/tasks.md before working
-+ 
-+---
-+
-+*Last Updated: 2026-03-01*
->>>>>>> conflict 1 of 1 ends
+### Logging: Use `log/slog`
+
+```go
+import "log/slog"
+
+logger := slog.New(slog.NewJSONHandler(os.Stdout, nil))
+slog.Info("starting server", "port", 8080)
+slog.Error("failed to connect", "err", err)
+
+// NEVER use: fmt.Println, print()
+```
+
+### Imports: Group stdlib, external, internal
+
+```go
+import (
+    // Standard library
+    "context"
+    "encoding/json"
+    "log/slog"
+    "os"
+    "time"
+
+    // External packages
+    "github.com/gin-gonic/gin"
+    "github.com/google/uuid"
+
+    // Internal packages
+    "github.com/bac-unified/agent/internal/memory"
+    "github.com/bac-unified/agent/internal/solver"
+)
+```
+
+### Error Handling: Wrap with context
+
+```go
+if err != nil {
+    return nil, fmt.Errorf("solve with ollama: %w", err)
+}
+
+if errors.Is(err, context.DeadlineExceeded) {
+    return nil, fmt.Errorf("timeout: %w", err)
+}
+```
+
+### Naming Conventions
+
+```go
+// Exported: PascalCase
+func Solve(ctx context.Context, problem string) (*SolveResult, error)
+
+// Unexported: camelCase
+func memoryLookup(ctx context.Context, text string) []Similar
+
+// Constants: PascalCase exported, camelCase unexported
+const DefaultTimeout = 30 * time.Second
+const maxRetries = 3
+```
+
+### Config: Environment variables only
+
+```go
+dbURL := os.Getenv("NEON_DB_URL")
+if dbURL == "" {
+    dbURL = "postgres://localhost/bac"
+}
+// NEVER hardcode credentials or URLs
+```
+
+## Code Review Checklist
+
+- [ ] Check `openspec/changes/full-bac-unified/tasks.md` before and after
+- [ ] Tests pass (`go test ./...`)
+- [ ] Code formatted (`go fmt`)
+- [ ] No vet warnings (`go vet`)
+- [ ] Race clean (`go test -race`)
+- [ ] Logging uses `slog`
+- [ ] Errors wrapped
+- [ ] Env vars for config
+- [ ] `sqlc generate` run if schema changed
+- [ ] VCS: `jj commit` not `git commit`
+- [ ] Check openspec/changes/full-bac-unified/tasks.md before working
+
+---
+
+*Last Updated: 2026-03-01*
+### Logging: Use `log/slog`
+
+```go
+import "log/slog"
+
+logger := slog.New(slog.NewJSONHandler(os.Stdout, nil))
+slog.Info("starting server", "port", 8080)
+slog.Error("failed to connect", "err", err)
+
+// NEVER use: fmt.Println, print()
+```
+ 
+### Imports: Group stdlib, external, internal
+
+```go
+import (
+    // Standard library
+    "context"
+    "encoding/json"
+    "log/slog"
+    "os"
+    "time"
+
+    // External packages
+    "github.com/gin-gonic/gin"
+    "github.com/google/uuid"
+
+    // Internal packages
+    "github.com/bac-unified/agent/internal/memory"
+    "github.com/bac-unified/agent/internal/solver"
+)
+```
+ 
+### Error Handling: Wrap with context
+
+```go
+if err != nil {
+    return nil, fmt.Errorf("solve with ollama: %w", err)
+}
+
+if errors.Is(err, context.DeadlineExceeded) {
+    return nil, fmt.Errorf("timeout: %w", err)
+}
+```
+ 
+### Naming Conventions
+
+```go
+// Exported: PascalCase
+func Solve(ctx context.Context, problem string) (*SolveResult, error)
+
+// Unexported: camelCase
+func memoryLookup(ctx context.Context, text string) []Similar
+
+// Constants: PascalCase exported, camelCase unexported
+const DefaultTimeout = 30 * time.Second
+const maxRetries = 3
+```
+ 
+### Config: Environment variables only
+
+```go
+dbURL := os.Getenv("NEON_DB_URL")
+if dbURL == "" {
+    dbURL = "postgres://localhost/bac"
+}
+// NEVER hardcode credentials or URLs
+```
+ 
+## Code Review Checklist
+
+[ ] Check `openspec/changes/full-bac-unified/tasks.md` before and after
+[ ] Tests pass (`go test ./...`)
+[ ] Code formatted (`go fmt`)
+[ ] No vet warnings (`go vet`)
+[ ] Race clean (`go test -race`)
+[ ] Logging uses `slog`
+[ ] Errors wrapped
+[ ] Env vars for config
+[ ] `sqlc generate` run if schema changed
+[ ] VCS: `jj commit` not `git commit`
+[ ] Check openspec/changes/full-bac-unified/tasks.md before working
+
+---
+
+*Last Updated: 2026-03-06*
