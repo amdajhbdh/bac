@@ -161,23 +161,21 @@ func NewS3Client(config Config) (*S3Client, error) {
 }
 
 func (c *S3Client) Upload(ctx context.Context, key string, data []byte, contentType string) (string, error) {
-	slog.Info("uploading to S3-compatible storage", "key", key, "size", len(data))
-
-	// Use existing storage if available
-	// This is a placeholder - actual implementation would use minio-go or aws-sdk
-	_ = contentType
-
-	return c.GetURL(key), nil
+	slog.Info("uploading to Garage S3", "key", key, "size", len(data), "bucket", c.bucket)
+	
+	// Delegate to internal/nlm/cache/storage.go which has full S3 implementation
+	// This avoids code duplication and uses the battle-tested storage layer
+	return c.GetURL(key), fmt.Errorf("use internal/nlm/cache.Storage for actual S3 operations")
 }
 
 func (c *S3Client) Download(ctx context.Context, key string) ([]byte, error) {
-	slog.Info("downloading from S3", "key", key)
-	return nil, fmt.Errorf("not implemented - use storage package")
+	slog.Info("downloading from Garage S3", "key", key)
+	return nil, fmt.Errorf("use internal/nlm/cache.Storage for actual S3 operations")
 }
 
 func (c *S3Client) Delete(ctx context.Context, key string) error {
-	slog.Info("deleting from S3", "key", key)
-	return nil
+	slog.Info("deleting from Garage S3", "key", key)
+	return fmt.Errorf("use internal/nlm/cache.Storage for actual S3 operations")
 }
 
 func (c *S3Client) GetURL(key string) string {

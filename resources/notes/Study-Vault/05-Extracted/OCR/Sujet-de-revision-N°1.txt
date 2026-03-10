@@ -1,0 +1,937 @@
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+Exercise 1
+
+A NNÉE : 2021-2022
+
+⋆⋆⋆⋆
+
+On prépare à t = 0, un mélange contenant n 1 = 8.10−3 mol d’ion iodure I − et n 2 moles d’ion peroxodisulfate S 2O 82− . Il se produit une réaction totale d’équation :
+−
+2−
+S2 O2−
+8 + 2I −→ I2 + 2SO4
+
+1
+
+(a) Quels sont les couples rédox mis en jeu dans cette réaction.
+(b) En présence de l’empois d’amidon le mélange prend une coloration bleu noire. Justifier.
+(c) Dresser le tableau d’avancement de cette réaction.
+(d) Dresser le tableau d’avancement volumique de cette réaction.
+
+2
+
+L’étude expérimentale a permis de tracer la courbe donnant la variation n (I − ) = f (t ) suivante :
+10
+
+n(I − ) en mmol
+
+8
+
+6
+
+4
+
+2
+t en min
+0
+
+20
+
+40
+
+60
+
+80
+
+(a) Quel est le réactif limitant ? Justifier.
+(b) Déterminer l’avancement final x f de cette réaction.
+(c) En déduire la valeur de n 2 .
+(d) Définir et déterminer le temps de demi-réaction.
+
+Page 1/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+A NNÉE : 2021-2022
+
+On étudie maintenant les variations de la concentration molaire du diiode I 2 dans des conditions
+expérimentales différentes que la partie précédente. Pour cela le mélange de départ est réparti
+dans plusieurs erlenmeyer contenant chacun un volume Vp = 10 mL.
+A un instant de date t , on refroidit le contenu d’un erlenmeyer, on lui ajoute de l’empois d’ami¡
+¢
+don puis on dose le diiode formé par une solution (S) de thiosulfate de sodium 2Na+ + S2 O2−
+de
+3
+concentration molaire C = 0, 1 mol.L−1 .
+On refait l’opération plusieurs fois ce qui permet de tracer la courbe [I 2 ] = f (t ) suivante :
+60
+
+[I2] en mmol .L −1
+
+40
+
+•
+
+20
+
+t en min
+0
+
+20
+
+40
+
+60
+
+80
+
+3
+
+Écrire l’équation de la réaction de dosage supposée totale, en indiquant les couples rédox.
+
+4
+
+(a) Pourquoi a- t- on refroidit le prélèvement avant le dosage ?
+(b) A quoi sert l’empois d’amidon au cours de ce dosage ?
+(c) Donner la relation entre la quantité de matière de I 2 présent dans le prélèvement et la quantité
+de matière d’ion S2 O2−
+3 nécessaire à ce dosage.
+(d) Calculer le volume de la solution (S) qu’on doit ajouter pour doser I 2 a l’instant de date t 1 =
+40 min.
+
+5
+
+(a) Définir la vitesse volumique de la réaction.
+
+Page 2/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+A NNÉE : 2021-2022
+
+(b) Déterminer cette vitesse à t 2 = 25 min. En déduire la vitesse instantanée dans le prélèvement.
+(c) En utilisant la courbe [I 2 ] = f (t ), préciser comment varie la vitesse volumique de la réaction
+au cours du temps. Justifier.
+(d) Quel est le facteur cinétique responsable de cette variation ? Expliquer.
+6
+
+Cette expérience est refaite en présence d’ions Fe2+ ou Fe3+ qui jouent le rôle d’un catalyseur.
+(a) Définir un catalyseur.
+(b) Représenter sur la figure précédente, la nouvelle allure de la courbe [I 2 ] = f (t ).
+
+Exercise 2
+
+⋆⋆⋆⋆
+
+On réalise le dosage pH-métrique d’une solution (S 1 ) d’acide méthanoique HCOOH de volume
+V1 = 20 mL et de concentration molaire C 1 , par une solution (S 2 ) de soude NaOH de concentration notaire C 2 . On obtient la courbe représentée par la figure suivante, donnant les variations du
+p H du mélange en fonction du volume Vb de la solution de soude ajoutée.
+14
+
+pH
+
+12
+
+10
+
+8
+
+6
+
+4
+
+2
+Vb en mL
+0
+
+6
+
+12
+
+18
+
+Page 3/14
+
+24
+
+30
+
+36
+
+40
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+1
+
+Légender le schéma de la figure suivante :
+
+2
+
+A NNÉE : 2021-2022
+
+A partir de la courbe, donner :
+(a) Deux arguments qui montrent que l’acide
+méthanoique est faible.
+(b) Déterminer la valeur du pKa du couple
+HCOOH/HCOO− .
+(c) Sachant que l’acide méthanoique est faiblement ionisé dans (S 1 ), vérifier que C 1 =
+0, 1 mol.L−1
+
+3
+
+(a) Écrire l’équation bilan de la réaction du dosage considéré.
+(b) Définir l’équivalence acido-basique et déduire la valeur de C 2 .
+(c) Interpréter le caractère basique de la solution (S E ) obtenue à l’équivalence.
+(d) Sachant que dans (S E ), la base est faiblement ionisée, retrouver alors par le calcul la valeur du
+pH de la solution (S E ).
+
+4
+
+A 40 mL de (S 1 ), on ajoute 24 mL de (S 2 ) et 20 mL d’eau pure. On obtient une solution (S).
+
+donner sans calcul la valeur du pH de (S). justifier la réponse.
+5
+
+On donne les indicateurs colorés suivants :
+Indicateur
+
+Teinte
+
+Zone de virage
+
+Teinte
+
+Hélianthine
+
+Rouge
+
+3,1 à 4,4
+
+Jaune
+
+BBT
+
+Jaune
+
+6,0 à 7,6
+
+Bleu
+
+Phénophtaléine
+
+Incolore
+
+8,1 à 10,0
+
+Rose
+
+Quel est l’índicateur coloré le plus approprié pour le dosage considéré. justifier.
+
+Page 4/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+Exercise 3
+
+A NNÉE : 2021-2022
+
+⋆⋆⋆⋆
+
+Les acides carboxyliques présentent une grande importance industrielle pour la fabrication de solvants, de shampoings, de peintures, de bougie, de textiles et d’antiseptiques. Les acides carboxyliques peuvent être obtenus par oxydation des aldéhydes ou des alcools. Les acides gras peuvent
+s’obtenir par saponification des graisses animales ou végétales. On considère un alcool à chaîne
+carbonée ramifiée de masse molaire M = 88 g.mol−1 .
+1
+
+Déterminer la formule brute de cet alcool.
+
+2
+
+Donner la formule semi développée et le nom de chacun des alcools isomères à chaîne ramifiée
+
+présentant un carbone asymétrique.
+On considère maintenant deux alcools A et B : A est le 2-méthylbutanol et B est le 3-méthylbutanol.
+A est oxydé par une solution de dichromate de potassium K2 Cr2 O7 . Il donne A’ qui réagit avec la
+DNPH et le réactif de Tollens.
+3
+
+3+
+Écrire l’équation bilan de la réaction entre A et les ions dichromates. On donne : Cr2 O2−
+7 /Cr
+
+L’alcool (B) réagit avec un acide carboxylique (C), pour donner l’éthanoate de 3-methylbutyle (E).
+4
+
+Donner la formule semi développée de (C). Écrire l’équation bilan de la réaction. Donner les
+
+caractéristiques principales de cette réaction.
+5
+
+Indiquer les noms des composés (D) et (F) qui peuvent réagir totalement avec l’alcool (B) pour
+
+obtenir le même ester (E). Écrire les équations bilans des réactions correspondantes.
+Exercise 4
+
+⋆⋆⋆⋆
+
+Dans un bêcher, on prépare un mélange équimolaire (M) d’un ester (E) et de l’eau, auquel on ajoute
+quelques gouttes d’acíde sulfurique concentré de volume négligeable. On répartit le mélange homogénéisé (M ) en cinq volumes égaux contenant chacun n 0 mol de l’ester (E) et n 0 mol d’eau et
+on les verse dans des tubes à essai numérotés de 1 à 5. On munit chaque tube à essai d’un bouchon
+surmonté d’un tube effilé et on les plonge tous, a l’instant t = 0, dans un bain marie porté a une température θ convenable. A des instants successifs t i (i = 1, 2, . . . , 5), on sort respectivement l’un des
+tubes chauffés, numérotés de 1 à 5 et on verse immédiatement son contenu dans un erlenmeyer
+
+Page 5/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+A NNÉE : 2021-2022
+
+placé dans un bain d’eau glacé. On dose, a chaque fois, l’acide contenu dans chacun des tubes par
+une sotution aqueuse d’hydroxyde de sodium (NaOH) de concentration molaire C = 2 mol.L−1 .
+On désigne par VE 3 ,VE 4 et VE 5 les volumes de la solution aqueuse de (NaOH) nécessaires, à l’équivalence pour doser l’acide carboxylique formé respectivement dans les tubes numérotés 3, 4 et 5.
+On obtient : VE 3 = VE 4 = VE 5 = 10 mL. La constante d’équilibre relative à cette réaction d’hydrotyse
+est K = 0, 25.
+1
+
+(a) Dresser le tableau descriptif d’avancement x relatif à la réaction d’hydrolyse étudiée dans
+un tube à essai.
+(b) Déterminer les avancements x 3 , x 4 et x 5 . En déduire l’avancement final x f de la réaction étudiée.
+
+2
+
+Le taux d’avancement final de la réaction d’hydrotyse étudiée étant τ f .
+(a) Montrer que :
+
+τf
+1 − τf
+
+= 0, 5
+
+(b) En déduire la valeur de n 0 .
+(c) Déduire la quantité de matière n E 0 d’ester contenu dans le mélange (M).
+Maintenant, on étudie la réaction d’hydrotyse de la même quantité de matière n E 0 = 0, 3 mol d’ester (E) avec une quantité de matière n 1 d’eau telle que n 1 > n E 0 . Pour cela, on prépare un mélange
+¡ ′
+M ) contenant ces quantités de matière d’ester (E) et d’eau, au quel on ajoute quelques gouttes
+¡ ¢
+d’acíde sulfurique concentré de volume négligeable. On répartit te mélange homogénéisé M ′ en
+deux volumes égaux versés dans deux erlenmeyers L a et L b munit chacun d’un bouchon surmonté
+d’un tube effile puis plongés, a un nouvel instant t ′ = 0, dans le bain marie porté à la même température θ. Les contenus des deux erlenmeyers L a et L b sont respectivement retirés aux instants t a
+et t b et placés dans un bain d’eau glacé puis dosés. Les deux dosages sont effectués avec la même
+solution aqueuse de ( NaOH ) concentration molaire C = 2 mol.L−1 . Les volumes de la solution
+aqueuse te (NaOH) nécessaires, à l’équívalence, pour doser l’acíde carboxylique formé dans L a et
+L b sont respectivement VE a = 9, 0 mL et VE b = 37, 5 mL. Sachant que t b − t a = 50 mi n et que t b
+correspond à l’nstant auquel le mélange dans L b atteint l’équitibre chimique.
+
+Page 6/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+A NNÉE : 2021-2022
+
+(a) Déterminer la vitesse moyenne de la réaction d’hydrotyse dans L b entre t a et t b ;
+(b) Déterminer la valeur du taux d’avancement final τ′f de la réaction étudiée ;
+(c) Déterminer la valeur de n 1 .
+Exercise 5
+
+⋆⋆⋆⋆
+
+un jeu qui consiste à lancer un solide dans une gouttière et à déterminer la position de chute sur le
+sol, s’il parvient à passer au-dessus d’un obstacle constitué d’une planche disposée verticalement.
+Le solide (S), de dimensions négligeables et de masse m = 50 g , glisse sans frottement dans la gouttière ABCD située dans le plan vertical. Le schéma simplifié du dispositif est représenté ci-contre.
+z
+
+A
+
+I
+α
+
+β
+D
+
+θ
+B
+M
+
+C
+
+P
+
+sol
+
+x
+
+AB est un plan incliné d’un angle α = 30◦ par rapport à l’horizontale. On donne AB = 1, 6 m.
+BC D est un quart de cercle de centre I de rayon r = 0, 9 m. Le point C est situé sur la verticale
+passant par I .
+Au premier essai, le solide est abandonné sans vitesse initiale au point A.
+1
+
+Déterminer la vitesse du solide aux points B ,C et D.
+
+2
+
+Exprimer l’intensité R de la réaction exercée par la piste sur le solide (S) au point M situé entre
+
+B et C tel que (á
+I M, IC ) = θ en fonction de v M , r, g et θ. En déduire sa valeur au point D où θ = 60◦ .
+Le solide (S) quitte la piste en D avec la vitesse v D = 3 m · s−1 faisant un angle β = 60◦ avec l’horizontale. Le point D est situé à l’altitude z D = 2 m du sol horizontal.
+
+Page 7/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+3
+
+A NNÉE : 2021-2022
+
+Établir l’équation cartésienne de la trajectoire du mouvement de (S) à partir de D dans le repère
+
+(D, x, z).
+4
+
+La planche de hauteur h = 2, 2 m est située à l’abscisse x = 0, 3 m. Le solide passera-t-il au -
+
+dessus de la planche ?
+5
+
+Dans le cas où le solide passe au-dessus l’obstacle, déterminer la distance OP où P est le point
+
+d’impact du solide (S) sur le plan horizontal.
+En réalité le point d’impact du solide se situe à une distance OP ′ = 0, 8 m. Déterminer la vitesse
+¡ ′ ¢
+v D du solide au point D. En déduire l’intensité supposée constante des forces de frottement exer-
+
+6
+
+cées par la piste BCD sur le solide (S).
+
+⋆⋆⋆⋆
+
+Exercise 6
+
+On suppose que la Terre, de masse M, de rayon R et de centre O, est une sphère et qu’elle présente
+une répartition de masse à symétrie sphérique. Un satellite artificiel S, de masse m, décrit une orbite circulaire de rayon r autour de la Terre. Le satellite peut être assimilé à un point matériel ; on
+suppose qu’il est soumis uniquement à la force gravitationnelle exercée par la Terre. On notera K ,
+la constante de gravitation universelle.
+1
+
+Exprimer l’intensité du champ de gravitation terrestre g (h) en fonction de M, R, h et K .
+
+2
+
+Montrer que le mouvement du satellite dans le référentiel géocentrique est uniforme.
+
+3
+
+En déduire l’expression de la vitesse v du satellite en fonction de K , M et r puis celle de sa
+
+période T de révolution.
+Base de lancement
+
+Kourou
+
+Baïkonour
+
+Chine
+
+Etats-Unis
+
+Satellite
+
+Intelsat-V
+
+Cosmos-197
+
+Feng-Yun
+
+USA-35
+
+T
+
+23 h56 min
+
+11 h14 min
+
+102, 8 min
+
+12 h
+
+¡
+¢
+r 104 km
+
+4,22
+
+2,55
+
+0,73
+
+2,66
+
+Le tableau précédent rassemble les valeurs numériques des périodes de révolution T et des rayons
+r des orbites de quelques satellites artificiels de la Terre.
+
+Page 8/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+A NNÉE : 2021-2022
+
+T2
+4 Vérifier, à partir des valeurs numériques du tableau, que le rapport
+est une constante que
+r3
+l’on déterminera
+T2
+, calculer la
+5 A partir de la troisième loi de Kepler que l’on établira et de la valeur du rapport
+r3
+masse M de On donne : K = 6, 67 · 10−11 SI.
+→ −→
+−
+→
+−
+A partir du travail élémentaire dW = F . d r de la force de gravitation F exercée par la terre sur
+→
+−
+le satellite, montrer que le travail de F , lors de son déplacement du sol jusqu’à l’orbite de rayon r
+
+6
+
+est donné par :
+µ
+
+1 1
+W = K mM
+−
+r R
+7
+
+¶
+
+En déduire l’expression de l’énergie potentielle du système terre - satellite en fonction de K , M,
+
+m et r . On choisira le niveau du sol comme état de référence pour l’énergie potentielle.
+8
+
+Exprimer l’énergie cinétique de S en fonction de m, K , r et M. Déduire l’expression de l’énergie
+
+mécanique totale.
+Exercise 7
+
+⋆⋆⋆⋆
+M
+
+R
+
+→
+−
+B
+
++
+
+→
+−
+v
+
++
+N
+
+Deux rails parallèles distants de a définissent un plan horizontal. Sur ces rails se déplace sans frottement un conducteur M N de masse m perpendiculaire à la direction des rails. L’ensemble est plongé
+→
+−
+dans un champ magnétique B uniforme vertical dirigé vers le haut. Les rails sont reliés par une ré-
+
+Page 9/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+A NNÉE : 2021-2022
+
+sistance, ce qui avec le conducteur M N constitue un circuit fermé de résistance totale R ; la figure
+ci- dessous Indique le sens positif choisi sur le circuit ainsi que le sens positif servant à la masure de
+→
+−
+→
+la vitesse −
+v du conducteur M N et de la force f qui lui est appliquée.
+A la date t = 0, on lance M N avec une vitesse −
+v→0 , parallèle aux rails (v 0 > 0), puis on l’abandonne à
+son mouvement.
+1
+
+Donner, en fonction de B , a, R, v , les expressions de la f.e.m, induite et l’intensité du courant
+
+induit à la date t ou le conducteur a la vitesse v , de mesure v .
+2
+
+Quelle est, en fonction de B , a, v, R la mesure de force subie par le conducteur M N du circuit ?
+
+3
+
+Établissez l’équation du mouvement du conducteur M N , sous la forme d’une relation entre son
+
+accélération et sa vitesse.
+dv
+= kv
+dt
+admet une solution de la forme v (t ) = Ae k t Quelle est la valeur finale de la vitesse ? ( Ce résultat
+
+4
+
+Trouver la loi horaire v (t ) suivie par la vitesse, sachant qu’une relation de la forme
+
+était il prévisible) ?
+5
+
+En combien de temps la vitesse de M N est-elle réduite à la moitié de sa valeur initiale : faites le
+
+calcul numérique avec les valeurs suivantes : a = 10 cm,
+Exercise 8
+
+B = 1 T,
+
+m = 100 g
+
+et R = 1 Ω.
+
+⋆⋆⋆⋆
+
+Une lame vibrante communique à l’extrémités d’une corde élastique homogène tendue horizontalement, un mouvement vibratoire transversal, sinusoïdal d’amplitude a et de fréquence N . Le
+mouvement de la source S débute à l’instant t = 0, à partir de sa position d’équilibre prise comme
+origine des élongations y . On néglige toute réflexion et tout amortissement de l’onde.
+
+Page 10/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+A NNÉE : 2021-2022
+
+Les deux courbes ci-dessous représentent les mouvements des points A et B
+4
+
+y M en (mm)
+
+A
+B
+
+2
+10
+
+20
+
+30
+
+40
+
+t en (ms)
+60
+
+50
+
+−2
+−4
+
+1
+
+Déterminer les décalages horaires θ A et θB entre S et A et entre S et B .
+
+2
+
+Déterminer la période T , la célérité v et la longueur d’onde λ de l’onde transversale à travers
+
+cette corde.
+3
+
+En déduire les distances x A et x B qui séparent la source S de A et de B .
+
+4
+
+Écrire l’équation horaire des vibrations de la source S et celle du point A de la corde. Représenter
+
+l’aspect de la corde à l’ínstant t 1 = 4, 5 · 10−2 s.
+5
+
+Déterminer le nombre et les abscisses des points de la corde qui vibrent en quadrature retard de
+
+phase par rapport à la source à l’instant t 1 = 4, 5 · 10−2 s.
+Exercise 9
+
+⋆⋆⋆⋆
+
+•G
+x′
+
+•
+
+O
+
+→
+−
+i
+
+•
+
+x(t )
+
+x
+
+Un pendule élastique est constitué d’un solide (S) de masse m pouvant coulisser, sans frottement,
+sur une tige horizontale (T ) et d’un ressort, à spires non jointives, de masse négligeable et de
+constante de raideur k.
+La position du centre d’inertie G de (S) est repérée par son abscisse x(t ) sur un axe horizontal
+(x ′Ox). L’origine O des abscisses est confondue avec la position de G lorsque le solide (S) est en
+
+Page 11/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+A NNÉE : 2021-2022
+
+équilibre. Écarté de sa position d’équilibre puis abandonné, le solide (S) se met à osciller de part et
+d’autre du point O. A un instant de date t , le système est représenté comme indiqué sur la figure
+suivante :
+4
+
+x en (cm)
+
+2
+
+0.31
+
+0.63
+
+0.94
+
+1.26
+
+−2
+t (s)
+
+−4
+
+1
+
+Reproduire la figure puis représenter les forces extérieures qui s’exercent sur (S).
+
+2
+
+A l’aide d’un dispositif approprié, on enregistre l’évolution de l’abscisse x en fonction du temps.
+
+On obtient la courbe de la figure ci-dessous.
+(a) Quelle est la nature du mouvement du solide (S).
+(b) A partir de la courbe, dire si le solide (S) est abandonné à t = 0 s avec une vitesse ou sans
+vitesse. Justifier.
+3
+
+Établir l’expression de l’énergie mécanique E m du système { Solide S+ ressort } en fonction de
+
+x, v, k et m.
+4
+
+Sachant que x(t ) = x m cos(ωt +ϕ). Montrer que cette énergie mécanique est constante. Déduire
+
+ensuite l’équation différentielle qui régit l’évolution de l’abscisse x(t ) du centre d’inertie G.
+5
+
+Déterminer à partir de la courbe de x(t ) l’amplitude x m , la période T , la pulsation ω et la phase
+
+initiale ϕ. Déduire l’expression de x(t ).
+6
+
+La courbe de la figure ci-dessous représente les variations de l’énergie cinétique E c du pendule
+
+Page 12/14
+
+©El-Itqan
+
+S UJET DE RÉVISION N°1
+
+7 ÈME C & D
+
+A NNÉE : 2021-2022
+
+au cours du temps.
+E c en (m J )
+40
+
+20
+
+t (s)
+0.31
+
+7
+
+0.63
+
+Etablir l’expression de l’énergie cinétique :
+¡
+¢
+1
+2
+E c = mω2 x m
+1 − cos(2ωt + 2ϕ)
+4
+
+8
+
+Déduire les valeurs numériques de la masse m du solide et de la constante de raideur k du res-
+
+sort
+9
+
+Quelle est les valeurs de x pour lesquelles E c = E p ?.
+
+Exercise 10
+
+⋆⋆⋆⋆
+y
+C
+
+A
++ + + + + +++ + +++
+
+O’
+
+O
+
+P1
+
+−
+v→0
+x
+−−−−−−−−− −−−
+
+P2
+
+ℓ
+
+Le poids de l’électron sera négligeable devant les autres forces appliquées.
+Un faisceau d’électrons est émis sans vitesse par une cathode C et accéléré par une anode A à l’aide
+d’une différence de potentiel U0 = V A − VC .
+
+Page 13/14
+
+©El-Itqan
+
+7 ÈME C & D
+
+1
+
+S UJET DE RÉVISION N°1
+
+A NNÉE : 2021-2022
+
+Déterminer le signe de U0 , appliquée entre C et A et calculer sa valeur si AC = d 0 = 3 cm et
+
+E = 6.103 V /m.
+2
+
+Calculer la vitesse v 0 , de l’électron lorsqu’il arrive en O ′ . On donne : e = 1, 6.10−19 C , m =
+
+9.10−31 k g .
+En O, les électrons pénètrent avec la vitesse −
+v→0 dans une zone où règne un champ électrique dû à
+une tension U existant entre deux plaques P 1 et P 2 de longueur ℓ et distantes de d . (voir figure).
+3
+
+Établir l’expression de l’équation de la trajectoire de l’électron entre les plaques. Donner cette
+
+expression en fonction de U0 ,U et d . Préciser sa nature.
+4
+
+Déterminer la valeur de la tension U si la déviation angulaire électrique est telle que tan(α) =
+
+0, 3. On donne : ℓ = d = 4 cm.
+→
+−
+→
+−
+On remplace le champ électrique E par un champ magnétique B crée dans une zone carrée
+M N PQ de côté a = 4 cm. Les électrons pénètrent dans cette zone au point O avec la vitesse −
+v→0 .
+(Voir figure suivante).
+M
+
+O
+
+N
+−
+v→0
+
+→
+−
+B
+
+Q
+
+P
+
+5
+
+→
+−
+Déterminer la nature du mouvement de l’électron dans le champ magnétique B .
+
+6
+
+Donner l’expression du rayon de la trajectoire en fonction de m, e, B et U0 . Déterminer la va-
+
+leur de la déviation angulaire magnétique α′ si les électrons sortent entre P et N . On donne :
+B = 2, 25.10−4 T .
+7
+
+Quelle est la valeur de B pour que l’électron effectue un quart de cercle ?
+
+Page 14/14
+
+©El-Itqan
+
+

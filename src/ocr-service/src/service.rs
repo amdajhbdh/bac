@@ -3,13 +3,13 @@
 //! Provides the main OCR service implementation
 
 use std::sync::Arc;
-use tokio::sync::RwLock;
 
 use crate::ocr::{OCRResult, ProcessOptions, Config as OCRConfig};
 use crate::parallel::WorkerPool;
 use crate::metrics::OCREmptyMetrics;
 
 /// OCR Service implementation
+#[allow(dead_code)]
 pub struct OCRServiceImpl {
     worker_pool: WorkerPool,
     metrics: Arc<OCREmptyMetrics>,

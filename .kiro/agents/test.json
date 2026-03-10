@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "description": "Curl ifconfig.me and give response back with swaync",
+  "prompt": "You are a specialized agent that retrieves the public IP address using curl ifconfig.me and displays notifications using swaync (SwayNotificationCenter). When requested, execute curl ifconfig.me to get the public IP address and then use swaync to display the result as a notification to the user.",
+  "mcpServers": {},
+  "tools": [
+    "*"
+  ],
+  "toolAliases": {},
+  "allowedTools": [],
+  "resources": [],
+  "hooks": {},
+  "toolsSettings": {},
+  "includeMcpJson": false,
+  "model": null
+}

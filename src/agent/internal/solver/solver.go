@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"log/slog"
 	"net/http"
+	"os"
 	"strings"
 	"time"
 )
@@ -407,8 +408,86 @@ func FallbackSolve(problem string) *SolveResult {
 }
 
 func GetAvailableModels() []ModelInfo {
-	if len(availableModels) == 0 {
-		refreshModels()
-	}
 	return availableModels
+}
+
+type AnimationResult struct {
+	JobID    string `json:"job_id"`
+	Status   string `json:"status"`
+	VideoURL string `json:"video_url,omitempty"`
+	Error    string `json:"error,omitempty"`
+}
+
+func SolveWithAnimation(ctx context.Context, problem, memoryContext string) (*SolveResult, *AnimationResult, error) {
+	slog.Info("solve with animation", "problem", problem)
+
+	solveResult, err := Solve(ctx, problem, memoryContext)
+	if err != nil {
+		slog.Error("solve failed", "error", err)
+		return solveResult, &AnimationResult{Error: err.Error()}, err
+	}
+
+	gatewayURL := os.Getenv("GATEWAY_URL")
+	if gatewayURL == "" {
+		gatewayURL = "http://127.0.0.1:8080"
+	}
+
+	manimCode := generateManimCodeForProblem(problem, solveResult.Solution)
+
+	animReq := map[string]interface{}{
+		"code":    manimCode,
+		"quality": "low",
+	}
+
+	reqBody, err := json.Marshal(animReq)
+	if err != nil {
+		slog.Error("failed to marshal animation request", "error", err)
+		return solveResult, &AnimationResult{Error: err.Error()}, err
+	}
+
+	animResp, err := httpClient.Post(
+		gatewayURL+"/animation",
+		"application/json",
+		bytes.NewBuffer(reqBody),
+	)
+	if err != nil {
+		slog.Error("animation request failed", "error", err)
+		return solveResult, &AnimationResult{Error: err.Error()}, err
+	}
+	defer animResp.Body.Close()
+
+	var animResult AnimationResult
+	if err := json.NewDecoder(animResp.Body).Decode(&animResult); err != nil {
+		slog.Error("failed to decode animation response", "error", err)
+		return solveResult, &AnimationResult{Error: err.Error()}, err
+	}
+
+	slog.Info("solve with animation complete",
+		"solution", solveResult.Solution,
+		"job_id", animResult.JobID)
+
+	return solveResult, &animResult, nil
+}
+
+func generateManimCodeForProblem(problem, solution string) string {
+	var buf strings.Builder
+	buf.WriteString("from manim import *\n\n")
+	buf.WriteString("class Solution(Scene):\n")
+	buf.WriteString("    def construct(self):\n")
+	buf.WriteString("        title = Title(r\"" + strings.ReplaceAll(problem, "\"", "\\\"") + "\")\n")
+	buf.WriteString("        self.add(title)\n")
+	buf.WriteString("        self.wait()\n\n")
+
+	lines := strings.Split(solution, "\n")
+	for i, line := range lines {
+		if strings.TrimSpace(line) == "" {
+			continue
+		}
+		buf.WriteString(fmt.Sprintf("        step%d = MathTex(r\"%s\")\n", i, strings.ReplaceAll(line, "\"", "\\\"")))
+		buf.WriteString(fmt.Sprintf("        step%d.shift(DOWN * %d)\n", i, i))
+		buf.WriteString(fmt.Sprintf("        self.play(Write(step%d))\n", i))
+		buf.WriteString("        self.wait()\n")
+	}
+
+	return buf.String()
 }

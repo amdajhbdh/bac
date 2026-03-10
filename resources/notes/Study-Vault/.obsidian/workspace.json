@@ -1,0 +1,274 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7261caa1181b72c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91a17b4432f5f393",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05-Extracted/INDEX.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "INDEX"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4e9907f30f406519",
+    "type": "split",
+    "children": [
+      {
+        "id": "009000705c2abfe4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45701824cc999d6f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4d516f02ead9bebe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#help",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "da47a6b0fe6565e1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "ef9a8585359e8c8d",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
+          },
+          {
+            "id": "3b0e28625b352c3d",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "278ce2edc61e95f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef59914f0edce0fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "476000c0cce1bdf7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chemistry/Kinetics/Kinetics - Reaction Rates.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Kinetics - Reaction Rates"
+            }
+          },
+          {
+            "id": "80749cdc3e6acee4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chemistry/Solutions/Solutions - Concentration.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Solutions - Concentration"
+            }
+          },
+          {
+            "id": "a174d17f9a012057",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "67faf3d1823a8e41",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "083a2659948129e8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "05-Extracted/INDEX.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of INDEX"
+            }
+          },
+          {
+            "id": "3e6db449d5196787",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "homepage:Open homepage": false,
+      "omnisearch:Omnisearch": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "obsidian-importer:Open Importer": false,
+      "companion:Toggle completion": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "91a17b4432f5f393",
+  "lastOpenFiles": [
+    "goose-x86_64-unknown-linux-gnu.tar.bz2",
+    "tar_error.log",
+    "DEEP-DIVE-ALL-TOPICS.md",
+    "QUICK-REFERENCE.md",
+    "QUICK-START-TODAY.md",
+    "04-Exams/BAC-2002-2012/BAC-Index.md",
+    "RESEARCH-ANALYSIS-PLAN.md",
+    "2026-03-10.md",
+    "05-Extracted/INDEX.md",
+    "00-Meta/DEEP-DIVE-INDEX.md",
+    "COMPREHENSIVE-STUDY-GUIDE.md",
+    "EXAM-QUESTION-BANK.html",
+    "EXAM-QUESTION-BANK.md",
+    "exam-question-generator.js",
+    "DEEP-DIVE-ALL-TOPICS.html",
+    "deep-dive-generator.js",
+    "03-Resources/INDEX.md",
+    "05-Extracted/Resources/Physics/الفيزياء-كتاب-المغنى-للأستاذ-لبات-_-Ch1-Donner lexpression vectorielle de la force gravita.md",
+    "07-Assets/PDFs/كتاب-الرياضيات-للسنة-السابعة-علمية-D-C.pdf",
+    "07-Assets/PDFs/كتاب-الرياضيات-للسنة-السابعة-علمية-D-C-1.pdf",
+    "07-Assets/PDFs/الفيزياء-كتاب-المغنى-للأستاذ-لبات-_.pdf",
+    "07-Assets/PDFs/collections-des-exrcices-chimie-7D.pdf",
+    "07-Assets/PDFs/Sujet-de-revision-N°1.pdf",
+    "05-Extracted/Resources/Physics/الفيزياء-كتاب-المغنى-للأستاذ-لبات-_-Ch6-Expression de T en fonction de V et r  T        av.md",
+    "06-Daily/Progress-Dashboard.md",
+    "Untitled.md",
+    "QUICK-COMMANDS.md",
+    "00-Meta/CLEANUP-REPORT.md",
+    "04-Exams/INDEX.md",
+    "02-Practice/INDEX.md",
+    "01-Concepts/INDEX.md",
+    "00-Meta/Archive/COMBINED-TASK-ARCHIVE.md",
+    "00-Meta/MOCs/Physics MOC.md",
+    "00-Meta/INDEX.md",
+    "00-Meta/Archive/VAULT-SUMMARY.md",
+    "00-Meta/Archive/TEXTBOOK-INTEGRATION-COMPLETE.md",
+    "Animations/media/Tex/f27c00bbc70542aa_.svg",
+    "Animations/media/Tex/ba60e57d084ca759_.svg",
+    "Animations/media/texts/58ba6a101c9970d3_.svg",
+    "Animations/media/Tex/79f1156cc1f5337a_.svg",
+    "Animations/media/Tex/229a23370fbbb893_.svg",
+    "Animations/media/texts/25119a03d3dad242_.svg",
+    "Animations/media/texts/3d1aa923ef3ea264_.svg",
+    "Animations/media/texts/d74411f85a2ca0d5_.svg",
+    "Animations/media/texts/205ae85ed2ff03ea_.svg",
+    "Animations/media/texts/b02a716e4fbd4810_.svg"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "provider": "ollama",
+  "model": "deepseek-v3.1:671b-cloud",
+  "enable_by_default": true,
+  "keybind": "Tab",
+  "delay_ms": 2000,
+  "stream": true,
+  "accept": {
+    "splitter_regex": " ",
+    "display_splitter_regex": "[.?!:;]",
+    "completion_completeness_regex": ".*(?!p{L})[^d]$",
+    "min_accept_length": 4,
+    "min_display_length": 50,
+    "retrigger_threshold": 48
+  },
+  "provider_settings": {},
+  "presets": [],
+  "fallback": null
+}

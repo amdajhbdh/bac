@@ -23,7 +23,7 @@ pub enum OCRError {
     PDFError(String),
 }
 
-pub type OCRResult<T> = Result<T, OCRError>;
+pub type OCRErrorResult<T> = Result<T, OCRError>;
 
 /// Supported OCR engines
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]

@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/OrganicChemistry/2257293077_2490420313_223132457.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/OrganicChemistry/2135761390_465769182_2213834951.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/OrganicChemistry/2135761390_739687540_2976943063.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/OrganicChemistry/2135761390_2688965532_2315505633.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/OrganicChemistry/2135761390_3523062023_1387990083.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/OrganicChemistry/2135761390_2872842549_1404298357.mp4'

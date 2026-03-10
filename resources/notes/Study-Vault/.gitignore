@@ -1,0 +1,15 @@
+# Large PDFs (sync via Croc instead)
+07-Assets/PDFs/*.pdf
+
+# Large plugin files
+.obsidian/plugins/*/main.js
+.obsidian/themes/*/theme.css
+.obsidian/icons/*.zip
+
+# Database (rebuild on each machine)
+.vault-index.db
+*.db
+
+# Temporary files
+*.tmp
+.DS_Store

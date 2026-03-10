@@ -10,6 +10,7 @@ use tokio::sync::mpsc;
 use crate::ocr::{OCRError, OCRResult, ProcessOptions};
 
 /// Worker pool for parallel OCR processing
+#[allow(dead_code)]
 pub struct WorkerPool {
     workers: usize,
     queue: Arc<flume::Sender<WorkItem>>,
@@ -34,7 +35,10 @@ impl WorkerPool {
             });
         }
 
-        Self { workers, queue: tx }
+        Self {
+            workers,
+            queue: Arc::new(tx),
+        }
     }
 
     fn worker_loop(rx: flume::Receiver<WorkItem>) {
@@ -45,7 +49,7 @@ impl WorkerPool {
         }
     }
 
-    fn process_single(data: &[u8], options: &ProcessOptions) -> Result<OCRResult, OCRError> {
+    fn process_single(_data: &[u8], _options: &ProcessOptions) -> Result<OCRResult, OCRError> {
         let start = Instant::now();
 
         // Placeholder: actual OCR processing would happen here

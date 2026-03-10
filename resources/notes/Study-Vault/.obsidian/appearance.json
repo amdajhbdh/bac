@@ -1,0 +1,12 @@
+{
+  "theme": "system",
+  "accentColor": "#5cf2f5",
+  "cssTheme": "Baseline",
+  "enabledCssSnippets": [
+    "Colored Sidebar Items",
+    "modern-theme",
+    "vault-styling"
+  ],
+  "nativeMenus": true,
+  "baseFontSize": 20
+}

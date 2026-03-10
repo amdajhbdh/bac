@@ -2,7 +2,6 @@
 //!
 //! Provides Prometheus metrics for the OCR service
 
-use metrics::{counter, gauge, histogram};
 use std::sync::atomic::{AtomicU64, Ordering};
 
 /// OCR service metrics
@@ -33,25 +32,21 @@ impl OCREmptyMetrics {
 
     pub fn record_request(&self) {
         self.requests_total.fetch_add(1, Ordering::Relaxed);
-        counter!("ocr_requests_total").increment(1);
     }
 
     pub fn record_error(&self) {
         self.errors_total.fetch_add(1, Ordering::Relaxed);
-        counter!("ocr_errors_total").increment(1);
     }
 
     pub fn record_duration(&self, ms: u64) {
         self.processing_duration_sum
             .fetch_add(ms, Ordering::Relaxed);
-        histogram!("ocr_processing_duration_ms").record(ms as f64);
     }
 
     pub fn record_batch(&self, size: usize) {
         self.batch_sizes_sum
             .fetch_add(size as u64, Ordering::Relaxed);
         self.batch_count.fetch_add(1, Ordering::Relaxed);
-        gauge!("ocr_batch_size").set(size as f64);
     }
 
     pub fn get_requests_total(&self) -> u64 {
@@ -110,6 +105,8 @@ mod tests {
     fn test_avg_duration() {
         let metrics = OCREmptyMetrics::new();
 
+        metrics.record_request();
+        metrics.record_request();
         metrics.record_duration(100);
         metrics.record_duration(200);
 

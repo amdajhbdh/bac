@@ -1,0 +1,21 @@
+{
+  "projects": [
+    {
+      "id": "bac-prep",
+      "name": "BAC Preparation 2026",
+      "path": "00-Meta/Projects",
+      "views": [
+        {
+          "id": "table",
+          "name": "All Topics",
+          "type": "table"
+        },
+        {
+          "id": "board",
+          "name": "By Status",
+          "type": "board"
+        }
+      ]
+    }
+  ]
+}

@@ -143,6 +143,94 @@ deploy:
 list:
     @just --list
 
+# ===========================================
+# VAULT SYNC TASKS (jj)
+# ===========================================
+
+# Sync vault to GitHub using jj
+sync-vault:
+    #!/usr/bin/env bash
+    set -e
+    VAULT_PATH="${VAULT_PATH:-/home/med/Documents/bac/resources/notes/Study-Vault}"
+    REPO="${GITHUB_REPO:-mednou/study-vault}"
+    
+    cd "$VAULT_PATH"
+    
+    # Initialize jj repo if needed
+    if [ ! -d ".jj" ]; then
+        jj init
+        jj config set --user user.email "vault@sync.local"
+        jj config set --user user.name "Vault Sync"
+    fi
+    
+    # Check for changes
+    jj diff --summary | grep -q . && CHANGES=1 || CHANGES=0
+    
+    if [ "$CHANGES" = "1" ]; then
+        jj describe -r @ -m "Vault sync $(date '+%Y-%m-%d %H:%M')"
+        jj new -m "Vault update $(date '+%Y-%m-%d')"
+        jj git push --all origin 2>/dev/null || jj git push --all 2>/dev/null || echo "Push skipped"
+    else
+        echo "No changes to sync"
+    fi
+
+# Show vault status
+vault-status:
+    #!/usr/bin/env bash
+    VAULT_PATH="${VAULT_PATH:-/home/med/Documents/bac/resources/notes/Study-Vault}"
+    cd "$VAULT_PATH"
+    echo "=== Vault Status (jj) ==="
+    jj log --limit 3 -r @ 2>/dev/null || jj log --limit 3 2>/dev/null || echo "No jj history"
+    echo ""
+    echo "=== File Count ==="
+    find . -type f -name "*.md" 2>/dev/null | wc -l | xargs echo "Markdown files:"
+
+# ===========================================
+# DEPLOYMENT TASKS
+# ===========================================
+
+# Deploy to Render
+deploy-render:
+    @echo "Deploying to Render..."
+    @echo "Use: render blueprint create deploy/render/render.yaml"
+    @render services list -o json 2>/dev/null | jq '.[] | select(.type=="web") | {name, url}' || echo "Check Render Dashboard"
+
+# Deploy OpenClaw to KiloClaw (hosted)
+deploy-kiloclaw:
+    @echo "=== KiloClaw Setup ==="
+    @echo "1. Go to https://kilo.ai and sign in"
+    @echo "2. Click Claw in the sidebar"
+    @echo "3. Click Create Instance"
+    @echo "4. Select model and configure Telegram"
+    @echo "5. Click Create & Provision"
+    @echo ""
+    @echo "Your KiloClaw will be ready in seconds!"
+    @echo "No Render deployment needed - KiloClaw is hosted!"
+
+# Deploy Cloudflare Workers
+deploy-cf:
+    @echo "Deploying Cloudflare Workers..."
+    wrangler deploy --config .kiro/agents/coordinator/wrangler.toml 2>/dev/null || echo "Configure wrangler first"
+    wrangler deploy --config .kiro/deploy/research-agent/wrangler.toml 2>/dev/null || echo "Configure wrangler first"
+
+# Deploy vault API to Cloudflare Workers
+deploy-vault-worker:
+    #!/usr/bin/env bash
+    set -e
+    echo "Deploying vault-api to Cloudflare Workers..."
+    cd .kiro/deploy/vault-worker
+    wrangler deploy
+
+# Full sync and deploy
+sync-deploy: sync-vault deploy-render deploy-cf deploy-vault-worker
+    @echo "Sync and deploy complete!"
+
+# Health check all services
+health-all:
+    @echo "Checking services..."
+    @curl -sf https://vault-api.onrender.com/health && echo "✓ Vault API" || echo "✗ Vault API"
+    @curl -sf https://bac-agent.onrender.com/health && echo "✓ BAC Agent" || echo "✗ BAC Agent"
+
 # Default task
 default: quick-build
 
@@ -235,10 +323,6 @@ fix-build:
 # Deploy to production
 deploy-prod:
     ./scripts/deploy-production.sh
-
-# Deploy script
-deploy:
-    ./scripts/deploy.sh
 
 # ===========================================
 # TEST TASKS
@@ -335,3 +419,82 @@ mise-status:
     else \
         echo "mise not installed"; \
     fi
+
+# ===========================================
+# OCR SERVICE TASKS
+# ===========================================
+
+# Build OCR service
+ocr-build:
+    cd src/ocr-service && cargo build
+
+# Run OCR service tests
+ocr-test:
+    cd src/ocr-service && cargo test
+
+# Start OCR service
+ocr-start:
+    cd src/ocr-service && cargo run --bin ocr-service
+
+# Generate OCR test data
+ocr-gen-test-data:
+    python3 openspec/changes/bac-ocr-service-requirements/generate_test_data.py
+
+# Run OCR integration tests
+ocr-test-integration:
+    @echo "Testing OCR service endpoints..."
+    @curl -s http://127.0.0.1:3000/health | jq -e '.status == "healthy"' && echo "✓ Service healthy"
+    @curl -s -X POST http://127.0.0.1:3000/ocr -F "file=@openspec/changes/bac-ocr-service-requirements/test_data/basic_english.png" | jq -e '.success == true' && echo "✓ English OCR"
+    @curl -s -X POST http://127.0.0.1:3000/ocr -F "file=@openspec/changes/bac-ocr-service-requirements/test_data/basic_french.png" | jq -e '.success == true' && echo "✓ French OCR"
+    @curl -s -X POST http://127.0.0.1:3000/pdf -F "file=@openspec/changes/bac-ocr-service-requirements/test_data/multipage_test.pdf" | jq -e '.success == true' && echo "✓ PDF OCR"
+    @echo "All OCR tests passed!"
+
+# Test OCR with specific image
+ocr-test-image FILE:
+    curl -s -X POST http://127.0.0.1:3000/ocr -F "file={{ FILE }}" | jq .
+
+# Test OCR with PDF
+ocr-test-pdf FILE:
+    curl -s -X POST http://127.0.0.1:3000/pdf -F "file={{ FILE }}" | jq .
+
+# Test OCR with Arabic PDF
+ocr-test-arabic FILE:
+    curl -s -X POST http://127.0.0.1:3000/pdf -F "file={{ FILE }}" | jq '.data.text' | head -c 200
+
+# Process all PDFs in db/pdfs/
+ocr-process-pdfs:
+    @echo "Processing all PDFs in db/pdfs/..."
+    @mkdir -p db/pdfs/processed
+    @for f in db/pdfs/*.pdf; do \
+        filename=$$(basename "$$f"); \
+        echo "Processing: $$filename"; \
+        curl -s -X POST http://127.0.0.1:3000/pdf -F "file=@$$f" > "db/pdfs/processed/$$filename.json" || echo "Failed: $$filename"; \
+    done
+    @echo "Done! Output in db/pdfs/processed/"
+
+# ===========================================
+# ANIMATION TASKS
+# ===========================================
+
+# Build gateway with animation
+gateway-build:
+    cd src/gateway && cargo build
+
+# Run gateway tests
+gateway-test:
+    cd src/gateway && cargo test
+
+# Start gateway
+gateway-start:
+    cd src/gateway && cargo run
+
+# Check Manim availability
+manim-check:
+    @podman images | grep manim && echo "Manim available!" || echo "Manim not found"
+
+# Test Manim with sample
+manim-test:
+    @echo "Testing Manim..."
+    @mkdir -p /tmp/manim_test
+    @echo 'from manim import *\nclass Test(Scene):\n    def construct(self):\n        self.play(Write(Text("Hello BAC!")))' > /tmp/manim_test/test.py
+    @podman run --rm -v /tmp/manim_test:/workspace docker.io/manimcommunity/manim:latest manim test.py -ql || echo "Manim test failed"

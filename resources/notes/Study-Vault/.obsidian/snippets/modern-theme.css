@@ -1,0 +1,55 @@
+:root {
+  --hue: 264;
+  --hue-secondary: calc(var(--hue) + 180);
+  --chroma: 0.05;
+  --chroma-bg: calc(var(--chroma) * 0.5);
+  --chroma-text: min(var(--chroma), 0.1);
+  --chroma-action: max(var(--chroma), 0.1);
+  --chroma-alert: max(var(--chroma), 0.05);
+  --bg-dark: oklch(0.1 var(--chroma-bg) var(--hue));
+  --bg: oklch(0.15 var(--chroma-bg) var(--hue));
+  --bg-light: oklch(0.2 var(--chroma-bg) var(--hue));
+  --text: oklch(0.96 var(--chroma-text) var(--hue));
+  --text-muted: oklch(0.76 var(--chroma-text) var(--hue));
+  --primary: oklch(0.76 var(--chroma-action) var(--hue));
+  --secondary: oklch(0.76 var(--chroma-action) var(--hue-secondary));
+}
+
+.theme-light {
+  --bg-dark: oklch(0.92 var(--chroma-bg) var(--hue));
+  --bg: oklch(0.96 var(--chroma-bg) var(--hue));
+  --bg-light: oklch(1 var(--chroma-bg) var(--hue));
+  --text: oklch(0.15 var(--chroma) var(--hue));
+  --text-muted: oklch(0.4 var(--chroma) var(--hue));
+  --primary: oklch(0.4 var(--chroma-action) var(--hue));
+  --secondary: oklch(0.4 var(--chroma-action) var(--hue-secondary));
+}
+
+body {
+  --background-primary: var(--bg-dark);
+  --background-secondary: var(--bg);
+  --text-normal: var(--text);
+  --text-muted: var(--text-muted);
+  --interactive-accent: var(--primary);
+}
+
+.markdown-preview-view h1, .cm-header-1 {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.markdown-preview-view h2, .cm-header-2 {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+button {
+  background: var(--bg-light);
+  color: var(--text);
+  border-radius: 0.5rem;
+}
+
+a { color: var(--primary); }
+a:hover { color: var(--secondary); }

@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/generate_all_animations/480p15/partial_movie_files/ImmuneResponse/1584795214_3964396320_223132457.mp4'
+file 'file:/manim/media/videos/generate_all_animations/480p15/partial_movie_files/ImmuneResponse/4072820271_3374270761_3528158562.mp4'
+file 'file:/manim/media/videos/generate_all_animations/480p15/partial_movie_files/ImmuneResponse/4072820271_2688965532_1279727011.mp4'
+file 'file:/manim/media/videos/generate_all_animations/480p15/partial_movie_files/ImmuneResponse/4072820271_2572644055_4277606295.mp4'
+file 'file:/manim/media/videos/generate_all_animations/480p15/partial_movie_files/ImmuneResponse/4072820271_522931971_3478615616.mp4'
+file 'file:/manim/media/videos/generate_all_animations/480p15/partial_movie_files/ImmuneResponse/4072820271_3706805950_2182154434.mp4'
+file 'file:/manim/media/videos/generate_all_animations/480p15/partial_movie_files/ImmuneResponse/4072820271_2872842549_1208860067.mp4'

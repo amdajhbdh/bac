@@ -89,6 +89,10 @@
 - [x] 3.3.4 Add LaTeX detection
 - [x] 3.3.5 Handle handwritten text
 - [x] 3.3.6 Add Google Lens OCR (Cloud Vision)
+- [x] 3.3.7 Create OCR service HURL requirements (100+ requirements)
+- [x] 3.3.8 Add human test scenarios (25+ tests)
+- [x] 3.3.9 Generate synthetic test data (math, scientific, tables)
+- [x] 3.3.10 Add multi-layer fallback testing
 
 ### 3.4 Document Processing
 - [x] 3.4.1 Integrate pdfcpu
@@ -154,6 +158,13 @@
 - [x] 5.3.3 Implement validation
 - [x] 5.3.4 Add quality scoring
 
+### 5.4 RAG Integration (Gateway)
+- [x] 5.4.1 Connect RAG to PostgreSQL/Neon
+- [x] 5.4.2 Implement Ollama embedding generation
+- [x] 5.4.3 Add hybrid search (text + vector)
+- [x] 5.4.4 Add range search (distance threshold)
+- [x] 5.4.5 Add question insertion with auto-embedding
+
 ## Phase 6: AI Solver (Q4 2026)
 
 ### 6.1 Solver Service
@@ -167,6 +178,11 @@
 - [x] 6.2.2 Create AI-to-Noon generator
 - [x] 6.2.3 Implement video export
 - [x] 6.2.4 Add animation caching
+- [x] 6.2.5 Add Manim bridge via Podman (src/gateway/src/animation/)
+- [x] 6.2.6 Create animation queue and job management
+- [x] 6.2.7 Add animation API endpoints to gateway
+- [x] 6.2.8 Implement SolveWithAnimation integration (solver.go)
+- [x] 6.2.9 Create animation bridge (animation_bridge.go)
 
 ### 6.3 Multi-Provider Fallback
 - [x] 6.3.1 Implement Ollama → NLM fallback

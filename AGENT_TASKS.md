@@ -30,20 +30,28 @@ Multi-instance coordination for AI coding agents.
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
 | G-001 | Create AGENT_TASKS.md | ✅ Done | This file |
-| G-002 | Create Rust gateway structure | ✅ Done | src/gateway/ exists |
+| G-002 | Create Rust gateway structure | ✅ Done | src/gateway/ created |
 | G-003 | Implement RAG chat modes | ✅ Done | Query/Chat/Agent/Auto |
 | G-004 | Implement animation queue | ✅ Done | queue.rs + bridge.rs |
 | G-005 | Fix Manim podman permissions | ✅ Done | --user flag + dirs |
-| G-006 | Connect OCR client to gateway | ⏳ Pending | Needs OCR HTTP endpoint |
-| G-007 | Create HTTP endpoints | ⏳ Pending | /ocr, /chat, /animate |
+| G-006 | Connect OCR client to gateway | ✅ Done | HTTP client added |
+| G-007 | Create HTTP endpoints | ✅ Done | /ocr, /health |
+| G-008 | Add gateway integration tests | ✅ Done | 4 tests added |
+| G-009 | Fix ChatMode test failures | ✅ Done | Word boundary matching |
+| G-010 | Create ecosystem plan docs | ✅ Done | .opencode/plans/ |
+| G-011 | Add Go gateway tests | ✅ Done | 4 tests in agent/ |
+| G-012 | Phase 5: RAG→PostgreSQL | ✅ Done | sqlx + pgvector queries |
+| G-013 | Add embedding generation (Ollama) | ✅ Done | generate_embedding() |
+| G-014 | Add hybrid/range search queries | ✅ Done | hybrid_search, range_search |
 
 ### kiro (Agent CLI - Go)
 
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
-| A-001 | Connect to OCR service | ⏳ Pending | gRPC/HTTP client |
-| A-002 | Enhance solver with animations | ⏳ Pending | Link to gateway |
-| A-003 | Update daemons for new services | ⏳ Pending | Nushell scripts |
+| A-001 | Connect to OCR service | ✅ Done | HTTP client ready |
+| A-002 | Add Gateway client tests | ✅ Done | 4 integration tests |
+| A-003 | Enhance solver with animations | ✅ Done | SolveWithAnimation + tests |
+| A-004 | Update daemons for new services | ⏳ Pending | Nushell scripts |
 
 ### kilocode (OCR Service - Rust)
 
@@ -52,8 +60,8 @@ Multi-instance coordination for AI coding agents.
 | O-001 | Create pipeline.rs | ✅ Done | Tesseract fallback |
 | O-002 | Add Surya OCR integration | ✅ Done | Python subprocess |
 | O-003 | Add PDF processing | ✅ Done | pdftoppm + multi-page |
-| O-004 | Create HTTP server | ⏳ Pending | Axum endpoints |
-| O-005 | Add French/Arabic models | ⏳ Pending | Language support |
+| O-004 | Create HTTP server | ✅ Done | Axum endpoints |
+| O-005 | Add French/Arabic models | ✅ Done | Language support added |
 
 ---
 
@@ -102,9 +110,11 @@ Multi-instance coordination for AI coding agents.
 
 ## Issues / Blockers
 
-- [ ] OCR service needs HTTP endpoint before gateway can connect
-- [ ] Surya requires Python environment setup
-- [ ] Need test images for OCR validation
+- [x] OCR service needs HTTP endpoint before gateway can connect (Done)
+- [x] Surya requires Python environment setup (Workaround: fallback to Tesseract)
+- [x] Need test images for OCR validation (Use db/pdfs/)
+- [ ] LSP errors in src/agent/internal/cache/ - need fixing
+- [ ] ocr-service reqwest blocking - need fixing
 
 ---
 

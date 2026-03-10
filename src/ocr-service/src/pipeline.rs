@@ -1,7 +1,7 @@
 //! Multi-layer OCR Pipeline
 //!
 //! Implements fallback chain: Tesseract → Surya → Google Lens
-//! With PDF multi-page support
+//! With PDF multi-page support and image preprocessing
 
 use std::time::Instant;
 
@@ -38,11 +38,118 @@ pub enum PipelineError {
 
 pub type Result<T> = std::result::Result<T, PipelineError>;
 
+/// Image preprocessing for better OCR results
+pub struct ImagePreprocessor {
+    denoise: bool,
+    contrast_enhance: bool,
+}
+
+impl ImagePreprocessor {
+    pub fn new(denoise: bool, contrast_enhance: bool) -> Self {
+        Self {
+            denoise,
+            contrast_enhance,
+        }
+    }
+
+    pub fn preprocess(&self, image_data: &[u8]) -> Result<Vec<u8>> {
+        if !self.denoise && !self.contrast_enhance {
+            return Ok(image_data.to_vec());
+        }
+
+        let temp_dir = std::env::temp_dir();
+        let input_path = temp_dir.join(format!("input_{}.png", uuid::Uuid::new_v4()));
+        let output_path = temp_dir.join(format!("output_{}.png", uuid::Uuid::new_v4()));
+
+        std::fs::write(&input_path, image_data)
+            .map_err(|e| PipelineError::ImageError(format!("Write error: {}", e)))?;
+
+        let input_str = input_path.to_string_lossy().to_string();
+        let output_str = output_path.to_string_lossy().to_string();
+
+        let result = self.run_preprocessing(&input_str, &output_str);
+
+        let _ = std::fs::remove_file(&input_path);
+
+        match result {
+            Ok(_) => {
+                let output = std::fs::read(&output_path)
+                    .map_err(|e| PipelineError::ImageError(format!("Read error: {}", e)))?;
+                let _ = std::fs::remove_file(&output_path);
+                Ok(output)
+            }
+            Err(e) => {
+                let _ = std::fs::remove_file(&output_path);
+                Ok(image_data.to_vec())
+            }
+        }
+    }
+
+    fn run_preprocessing(&self, input: &str, output: &str) -> Result<()> {
+        let mut cmd = std::process::Command::new("python3");
+        
+        let code = format!(r#"
+import sys
+from PIL import Image, ImageEnhance, ImageFilter
+import numpy as np
+
+try:
+    img = Image.open(r"{}")
+    
+    # Convert to grayscale if needed
+    if img.mode != 'L':
+        img = img.convert('L')
+    
+    # Denoise - apply multiple times for better results
+    if {}:
+        for _ in range(2):
+            img = img.filter(ImageFilter.MedianFilter(size=3))
+    
+    # Contrast enhancement - stronger for scanned docs
+    if {}:
+        enhancer = ImageEnhance.Contrast(img)
+        img = enhancer.enhance(2.0)
+        # Also apply brightness
+        enhancer = ImageEnhance.Brightness(img)
+        img = enhancer.enhance(1.1)
+        # Sharpen for text
+        img = img.filter(ImageFilter.SHARPEN)
+    
+    # Apply binarization (convert to pure black/white)
+    # This helps with noisy scanned documents
+    img_array = np.array(img)
+    threshold = np.mean(img_array)
+    img_array = ((img_array > threshold) * 255).astype(np.uint8)
+    img = Image.fromarray(img_array)
+    
+    img.save(r"{}")
+    print("OK")
+except Exception as e:
+    print(f"ERROR: {{e}}", file=sys.stderr)
+    sys.exit(1)
+"#, input, self.denoise, self.contrast_enhance, output);
+
+        cmd.arg("-c").arg(code);
+
+        let output = cmd.output()
+            .map_err(|e| PipelineError::ImageError(format!("Process error: {}", e)))?;
+
+        if output.status.success() {
+            Ok(())
+        } else {
+            Err(PipelineError::ImageError(
+                String::from_utf8_lossy(&output.stderr).to_string()
+            ))
+        }
+    }
+}
+
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 pub enum OCREngine {
     Tesseract,
     Surya,
-    GoogleLens,
+    GoogleVision,
+    OCRSpace,
 }
 
 impl std::fmt::Display for OCREngine {
@@ -50,7 +157,8 @@ impl std::fmt::Display for OCREngine {
         match self {
             OCREngine::Tesseract => write!(f, "tesseract"),
             OCREngine::Surya => write!(f, "surya"),
-            OCREngine::GoogleLens => write!(f, "google-lens"),
+            OCREngine::GoogleVision => write!(f, "google-vision"),
+            OCREngine::OCRSpace => write!(f, "ocrspace"),
         }
     }
 }
@@ -92,19 +200,27 @@ pub struct PipelineConfig {
     pub max_attempts: usize,
     pub engine_timeout_secs: u64,
     pub workers: usize,
+    pub language: String,
+    pub preprocess: bool,
+    pub denoise: bool,
+    pub contrast_enhance: bool,
 }
 
 impl Default for PipelineConfig {
     fn default() -> Self {
         Self {
             tesseract_enabled: true,
-            surya_enabled: true,
-            googlelens_enabled: false,
+            surya_enabled: false,  // Disabled by default (needs Python setup)
+            googlelens_enabled: true,  // OCR.space fallback
             tesseract_threshold: 0.7,
             surya_threshold: 0.85,
             max_attempts: 3,
             engine_timeout_secs: 30,
             workers: num_cpus::get(),
+            language: "fra+ara+eng".to_string(),
+            preprocess: true,
+            denoise: true,
+            contrast_enhance: true,
         }
     }
 }
@@ -129,8 +245,19 @@ impl OCRPipeline {
         let start = Instant::now();
         let mut attempts = Vec::new();
         
+        // Apply preprocessing if enabled
+        let processed_data = if self.config.preprocess {
+            let preprocessor = ImagePreprocessor::new(
+                self.config.denoise,
+                self.config.contrast_enhance,
+            );
+            preprocessor.preprocess(image_data)?
+        } else {
+            image_data.to_vec()
+        };
+        
         if self.config.tesseract_enabled {
-            let attempt = self.process_tesseract(image_data).await;
+            let attempt = self.process_tesseract(&processed_data).await;
             attempts.push(EngineAttempt {
                 engine: OCREngine::Tesseract,
                 success: attempt.is_ok(),
@@ -175,6 +302,49 @@ impl OCRPipeline {
             }
         }
         
+        // Try OCR.space as fallback (free online OCR)
+        if self.config.googlelens_enabled {
+            // Try OCR.space first (free, no API key needed)
+            let attempt = self.process_ocrspace(&processed_data).await;
+            attempts.push(EngineAttempt {
+                engine: OCREngine::OCRSpace,
+                success: attempt.is_ok(),
+                confidence: attempt.as_ref().map(|r| r.confidence).unwrap_or(0.0),
+                error: attempt.as_ref().err().map(|e| e.to_string()),
+                processing_time_ms: attempt.as_ref().map(|r| r.processing_time_ms).unwrap_or(0),
+            });
+            
+            if let Ok(result) = attempt {
+                return Ok(PipelineResult {
+                    text: result.text,
+                    confidence: result.confidence,
+                    engine: OCREngine::OCRSpace,
+                    processing_time_ms: start.elapsed().as_millis() as i64,
+                    attempts,
+                });
+            }
+            
+            // Try Google Vision if API key is available
+            let attempt = self.process_google_vision(&processed_data).await;
+            attempts.push(EngineAttempt {
+                engine: OCREngine::GoogleVision,
+                success: attempt.is_ok(),
+                confidence: attempt.as_ref().map(|r| r.confidence).unwrap_or(0.0),
+                error: attempt.as_ref().err().map(|e| e.to_string()),
+                processing_time_ms: attempt.as_ref().map(|r| r.processing_time_ms).unwrap_or(0),
+            });
+            
+            if let Ok(result) = attempt {
+                return Ok(PipelineResult {
+                    text: result.text,
+                    confidence: result.confidence,
+                    engine: OCREngine::GoogleVision,
+                    processing_time_ms: start.elapsed().as_millis() as i64,
+                    attempts,
+                });
+            }
+        }
+        
         let errors: Vec<String> = attempts.iter()
             .filter_map(|a| a.error.clone())
             .collect();
@@ -191,24 +361,33 @@ impl OCRPipeline {
             .map_err(|e| PipelineError::TesseractError(format!("Write error: {}", e)))?;
         
         let path_str = temp_path.to_string_lossy().to_string();
+        let language = self.config.language.clone();
         
         let result = tokio::task::spawn_blocking(move || {
+            // Try different PSM modes for better OCR
+            // PSM 3 = Fully automatic page segmentation, but no OSD
+            // PSM 6 = Assume a single uniform block of text
             let output = std::process::Command::new("tesseract")
                 .arg(&path_str)
                 .arg("stdout")
                 .arg("-l")
-                .arg("eng+fra")
+                .arg(&language)
                 .arg("--psm")
-                .arg("6")
+                .arg("3")
+                .arg("--oem")
+                .arg("3")  // LSTM only mode
                 .output();
             
             let _ = std::fs::remove_file(&path_str);
             
             match output {
                 Ok(out) if out.status.success() => {
+                    let text = String::from_utf8_lossy(&out.stdout).to_string();
+                    // Estimate confidence based on text quality
+                    let confidence = if text.len() > 10 { 0.75 } else { 0.5 };
                     Ok(OCREngineResult {
-                        text: String::from_utf8_lossy(&out.stdout).to_string(),
-                        confidence: 0.85,
+                        text,
+                        confidence,
                         processing_time_ms: start.elapsed().as_millis() as i64,
                     })
                 }
@@ -283,6 +462,138 @@ except Exception as e:
                 Err(e) => Err(PipelineError::SuryaError(e.to_string())),
             }
         }).await.map_err(|e| PipelineError::SuryaError(e.to_string()))??;
+        
+        Ok(result)
+    }
+    
+    /// Process using OCR.space API (free online OCR)
+    async fn process_ocrspace(&self, image_data: &[u8]) -> Result<OCREngineResult> {
+        let start = Instant::now();
+        let data = image_data.to_vec();
+        
+        let result = tokio::task::spawn_blocking(move || {
+            let client = reqwest::blocking::Client::new();
+            
+            let part = reqwest::blocking::multipart::Part::bytes(data)
+                .file_name("image.png")
+                .mime_str("image/png")
+                .map_err(|e| PipelineError::NetworkError(e.to_string()))?;
+            
+            let form = reqwest::blocking::multipart::Form::new()
+                .part("file", part)
+                .text("apikey", "helloworld")
+                .text("language", "auto")
+                .text("isOverlayRequired", "false")
+                .text("detectOrientation", "true")
+                .text("scale", "true")
+                .text("OCREngine", "2");
+            
+            let response = client
+                .post("https://api.ocr.space/parse/image")
+                .multipart(form)
+                .send();
+            
+            match response {
+                Ok(resp) if resp.status().is_success() => {
+                    let json: serde_json::Value = resp.json()
+                        .map_err(|e| PipelineError::NetworkError(e.to_string()))?;
+                    
+                    if let Some(results) = json["ParsedResults"].as_array() {
+                        if !results.is_empty() {
+                            let text = results[0]["ParsedText"]
+                                .as_str()
+                                .unwrap_or("")
+                                .to_string();
+                            let conf = results[0]["TextOverlay"]
+                                .as_array()
+                                .map(|arr| arr.len() as f64 / 100.0)
+                                .unwrap_or(0.8);
+                            
+                            return Ok(OCREngineResult {
+                                text,
+                                confidence: conf.min(0.95),
+                                processing_time_ms: start.elapsed().as_millis() as i64,
+                            });
+                        }
+                    }
+                    
+                    Err(PipelineError::NetworkError("No results from OCR.space".to_string()))
+                }
+                Ok(resp) => Err(PipelineError::NetworkError(
+                    format!("OCR.space error: {}", resp.status())
+                )),
+                Err(e) => Err(PipelineError::NetworkError(e.to_string())),
+            }
+        }).await.map_err(|e| PipelineError::NetworkError(e.to_string()))??;
+        
+        Ok(result)
+    }
+    
+    /// Process using Google Cloud Vision API
+    async fn process_google_vision(&self, image_data: &[u8]) -> Result<OCREngineResult> {
+        let start = Instant::now();
+        
+        // Check multiple env vars for API key
+        let api_key = std::env::var("VISION_API_KEY")
+            .or_else(|_| std::env::var("GOOGLE_VISION_API_KEY"))
+            .unwrap_or_else(|_| "".to_string());
+        
+        if api_key.is_empty() {
+            return Err(PipelineError::GoogleLensError("VISION_API_KEY not set".to_string()));
+        }
+        
+        let data = image_data.to_vec();
+        let result = tokio::task::spawn_blocking(move || {
+            use base64::Engine;
+            let base64_image = base64::engine::general_purpose::STANDARD.encode(&data);
+            
+            let client = reqwest::blocking::Client::new();
+            
+            let body = serde_json::json!({
+                "requests": [{
+                    "image": {
+                        "content": base64_image
+                    },
+                    "features": [{
+                        "type": "TEXT_DETECTION",
+                        "maxResults": 10
+                    }],
+                    "imageContext": {
+                        "languageHints": ["ar", "fr", "en"]
+                    }
+                }]
+            });
+            
+            let response = client
+                .post(&format!(
+                    "https://vision.googleapis.com/v1/images:annotate?key={}",
+                    api_key
+                ))
+                .header("Content-Type", "application/json")
+                .json(&body)
+                .send();
+            
+            match response {
+                Ok(resp) if resp.status().is_success() => {
+                    let json: serde_json::Value = resp.json()
+                        .map_err(|e| PipelineError::NetworkError(e.to_string()))?;
+                    
+                    if let Some(text) = json["responses"][0]["textAnnotations"][0]["description"].as_str() {
+                        return Ok(OCREngineResult {
+                            text: text.to_string(),
+                            confidence: 0.90,
+                            processing_time_ms: start.elapsed().as_millis() as i64,
+                        });
+                    }
+                    
+                    Err(PipelineError::GoogleLensError("No text found".to_string()))
+                }
+                Ok(resp) => Err(PipelineError::GoogleLensError(
+                    format!("Google Vision error: {}", resp.status())
+                )),
+                Err(e) => Err(PipelineError::NetworkError(e.to_string())),
+            }
+        }).await.map_err(|e| PipelineError::NetworkError(e.to_string()))??;
         
         Ok(result)
     }
@@ -431,6 +742,7 @@ mod tests {
     fn test_config_defaults() {
         let config = PipelineConfig::default();
         assert!(config.tesseract_enabled);
-        assert!(config.surya_enabled);
+        assert!(!config.surya_enabled);  // Disabled by default (needs Python setup)
+        assert!(config.googlelens_enabled);  // OCR.space fallback enabled
     }
 }

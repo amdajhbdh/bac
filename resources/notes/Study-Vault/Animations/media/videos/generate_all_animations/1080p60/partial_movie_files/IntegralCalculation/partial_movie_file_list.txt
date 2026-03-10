@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/IntegralCalculation/2257293077_1030327470_223132457.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/IntegralCalculation/2135761390_3190468608_2594497005.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/IntegralCalculation/2135761390_2497162614_155269945.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/IntegralCalculation/2135761390_1994542312_1713870298.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/IntegralCalculation/2135761390_1375890134_1024043651.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/IntegralCalculation/2135761390_2872842549_1417245621.mp4'

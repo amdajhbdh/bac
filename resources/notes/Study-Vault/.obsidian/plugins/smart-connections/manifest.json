@@ -1,0 +1,9 @@
+{
+  "id": "smart-connections",
+  "name": "Smart Connections",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Find connections in your notes using AI embeddings",
+  "author": "Brian Petro",
+  "isDesktopOnly": false
+}
