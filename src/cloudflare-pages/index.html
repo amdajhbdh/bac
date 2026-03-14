@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAC Unified - Préparation au BAC C</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); shadow: 0 12px 24px rgba(0,0,0,0.15); }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Header -->
+    <nav class="gradient-bg text-white py-4 px-6 shadow-lg">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold flex items-center gap-2">
+                <span class="text-3xl">📚</span> BAC Unified
+            </h1>
+            <div class="flex gap-4">
+                <button onclick="showSection('home')" class="hover:text-blue-200">Accueil</button>
+                <button onclick="showSection('practice')" class="hover:text-blue-200">Pratique</button>
+                <button onclick="showSection('leaderboard')" class="hover:text-blue-200">Classement</button>
+                <button onclick="showSection('solve')" class="bg-yellow-500 hover:bg-yellow-600 px-4 py-2 rounded-lg font-semibold">Résoudre</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="max-w-6xl mx-auto p-6">
+        
+        <!-- Home Section -->
+        <section id="home" class="space-y-8">
+            <div class="text-center py-12">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Préparez-vous au BAC C</h2>
+                <p class="text-xl text-gray-600 mb-8">Résolvez des exercices, recevez des explications IA, et améliorez vos chances de réussite!</p>
+                <button onclick="showSection('solve')" class="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 rounded-xl shadow-lg">
+                    Commencer maintenant
+                </button>
+            </div>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover">
+                    <div class="text-3xl font-bold text-blue-600" id="stat-questions">-</div>
+                    <div class="text-gray-600">Questions disponibles</div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover">
+                    <div class="text-3xl font-bold text-green-600" id="stat-users">-</div>
+                    <div class="text-gray-600">Étudiants enregistrés</div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md card-hover">
+                    <div class="text-3xl font-bold text-yellow-600" id="stat-predictions">-</div>
+                    <div class="text-gray-600">Prédictions d'examen</div>
+                </div>
+            </div>
+
+            <!-- Recent Questions -->
+            <div class="bg-white rounded-xl shadow-md p-6">
+                <h3 class="text-xl font-semibold mb-4">Questions récentes</h3>
+                <div id="recent-questions" class="space-y-3">
+                    <p class="text-gray-500">Chargement...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Solve Section -->
+        <section id="solve" class="hidden">
+            <div class="max-w-2xl mx-auto">
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <h2 class="text-2xl font-bold mb-6">Résoudre un exercice</h2>
+                    
+                    <textarea id="problem-input" rows="3" placeholder="Entrez votre exercice de maths, physique ou chimie..." 
+                        class="w-full p-4 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-lg"></textarea>
+                    
+                    <button onclick="solveProblem()" id="solve-btn" class="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-lg mt-4 font-semibold">
+                        Résoudre avec l'IA
+                    </button>
+
+                    <div id="solution-output" class="hidden mt-6 p-6 bg-gray-50 rounded-lg">
+                        <h3 class="font-semibold text-lg mb-3">Solution:</h3>
+                        <div id="solution-text" class="text-gray-700 whitespace-pre-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Practice Section -->
+        <section id="practice" class="hidden">
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-2xl font-bold">Questions de pratique</h2>
+                    <select id="difficulty-filter" onchange="loadPracticeQuestions()" class="p-2 border rounded-lg">
+                        <option value="">Toutes difficultés</option>
+                        <option value="1">Facile</option>
+                        <option value="2">Moyen</option>
+                        <option value="3">Difficile</option>
+                    </select>
+                </div>
+                
+                <div id="practice-questions" class="space-y-4">
+                    <p class="text-gray-500">Chargement...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leaderboard Section -->
+        <section id="leaderboard" class="hidden">
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <h2 class="text-2xl font-bold mb-6">Classement des étudiants</h2>
+                <table class="w-full">
+                    <thead>
+                        <tr class="border-b-2 border-gray-200">
+                            <th class="py-3 text-left">Rang</th>
+                            <th class="py-3 text-left">Nom</th>
+                            <th class="py-3 text-right">Points</th>
+                            <th class="py-3 text-right">Exercices</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-table">
+                        <tr><td colspan="4" class="py-4 text-center text-gray-500">Chargement...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>BAC Unified - Projet éducatif pour la Mauritanie</p>
+            <p class="text-gray-400 text-sm mt-2">Propulsé par Cloudflare Workers AI</p>
+        </div>
+    </footer>
+
+    <script>
+        const API = 'https://bac-api.amdajhbdh.workers.dev';
+
+        // Navigation
+        function showSection(id) {
+            document.querySelectorAll('section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+            if (id === 'home') loadHomeData();
+            if (id === 'practice') loadPracticeQuestions();
+            if (id === 'leaderboard') loadLeaderboard();
+        }
+
+        // Load Home Data
+        async function loadHomeData() {
+            try {
+                const [questionsRes, usersRes] = await Promise.all([
+                    fetch(`${API}/questions`),
+                    fetch(`${API}/leaderboard`)
+                ]);
+                const questionsData = await questionsRes.json();
+                const usersData = await usersRes.json();
+                
+                document.getElementById('stat-questions').textContent = questionsData.questions?.length || 0;
+                document.getElementById('stat-users').textContent = usersData.leaderboard?.length || 0;
+
+                const recentDiv = document.getElementById('recent-questions');
+                if (questionsData.questions?.length > 0) {
+                    recentDiv.innerHTML = questionsData.questions.slice(0, 5).map(q => `
+                        <div class="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
+                            <span>${q.question_text}</span>
+                            <span class="text-sm text-gray-500">Difficulté: ${q.difficulty}</span>
+                        </div>
+                    `).join('');
+                } else {
+                    recentDiv.innerHTML = '<p class="text-gray-500">Aucune question disponible</p>';
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        // Solve Problem
+        async function solveProblem() {
+            const problem = document.getElementById('problem-input').value;
+            if (!problem) return alert('Entrez un problème!');
+
+            const btn = document.getElementById('solve-btn');
+            btn.disabled = true;
+            btn.textContent = 'Résolution en cours...';
+
+            try {
+                const res = await fetch(`${API}/solve`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ problem })
+                });
+                const data = await res.json();
+                
+                document.getElementById('solution-text').textContent = data.solution;
+                document.getElementById('solution-output').classList.remove('hidden');
+            } catch (e) {
+                alert('Erreur: ' + e.message);
+            }
+
+            btn.disabled = false;
+            btn.textContent = 'Résoudre avec l\'IA';
+        }
+
+        // Load Practice Questions
+        async function loadPracticeQuestions() {
+            const difficulty = document.getElementById('difficulty-filter').value;
+            let url = `${API}/practice/questions?limit=10`;
+            if (difficulty) url += `&difficulty=${difficulty}`;
+
+            try {
+                const res = await fetch(url);
+                const data = await res.json();
+                const container = document.getElementById('practice-questions');
+                
+                if (data.questions?.length > 0) {
+                    container.innerHTML = data.questions.map(q => `
+                        <div class="p-4 border rounded-lg hover:shadow-md transition">
+                            <div class="flex justify-between items-start">
+                                <div class="flex-1">
+                                    <p class="font-medium">${q.question_text}</p>
+                                    <p class="text-sm text-gray-500 mt-1">Difficulté: ${q.difficulty}/3</p>
+                                </div>
+                                <button onclick="showAnswer(this, '${q.id}')" class="ml-4 bg-blue-100 hover:bg-blue-200 text-blue-600 px-4 py-2 rounded-lg text-sm">
+                                    Voir solution
+                                </button>
+                            </div>
+                        </div>
+                    `).join('');
+                } else {
+                    container.innerHTML = '<p class="text-gray-500">Aucune question disponible</p>';
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        // Show Answer (placeholder - in real app would fetch from API)
+        function showAnswer(btn, questionId) {
+            alert('Connectez-vous pour voir les solutions complètes!');
+        }
+
+        // Load Leaderboard
+        async function loadLeaderboard() {
+            try {
+                const res = await fetch(`${API}/leaderboard`);
+                const data = await res.json();
+                const tbody = document.getElementById('leaderboard-table');
+                
+                if (data.leaderboard?.length > 0) {
+                    tbody.innerHTML = data.leaderboard.map((user, i) => `
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3 font-semibold ${i < 3 ? 'text-yellow-600' : ''}">#${i + 1}</td>
+                            <td class="py-3">${user.name}</td>
+                            <td class="py-3 text-right font-bold text-blue-600">${user.points}</td>
+                            <td class="py-3 text-right text-gray-500">${user.total_attempted || 0}</td>
+                        </tr>
+                    `).join('');
+                } else {
+                    tbody.innerHTML = '<tr><td colspan="4" class="py-4 text-center text-gray-500">Aucun utilisateur</td></tr>';
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        // Init
+        loadHomeData();
+    </script>
+</body>
+</html>

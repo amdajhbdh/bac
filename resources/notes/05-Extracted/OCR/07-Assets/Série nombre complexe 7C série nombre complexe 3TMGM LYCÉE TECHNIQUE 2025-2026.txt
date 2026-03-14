@@ -1,0 +1,748 @@
+            ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION | & i i
+               PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Jreas
+      Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 5481 3 A0 Ll
+
+                4 0
+
+               erie N 01 : Nombres Complexes  o
+
+
+Exercice : 01 Série N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+Déterminer le conjugué de chacun des nombres :
+
+   = 2, =-34+5i+2);z,=(-3+2D)(1-1);2z3 1+i‘/_§;z4—(\/§ i)2;15—3+?—i
+                                                                   il                   2Fi 2
+                                                               G
+
+
+Exercice : 02           série N°01 Nombres complexe RIM-Math -2025-2026 ~                        3TMGM-7C
+Mettre sous forme algébrique chacun des nombres complexes suivants :          <
+
+
+
+
+                     ,‘1)2—(2+3n)2, 9—“‘
+                                      —i S=0 :zj"—(1+-)4(1—n)2°.zu— —V3
+    N NN
+                                         1           +             1-i
+
+
+
+           12 :*f%fl 213 =(‘ V
+                K
+                              Z+iv z+ ) ;Z 14 = (co sO + i§i
+                                                           5
+                                                            n@ )(cos 6 — isi
+                                                                       2. )
+                                                                             nB
+                                                                              .
+                                                                                )   5
+    A                            cosB—isin® _                  [
+                   b
+                           " 216% Coso rising © ( c os ; Z1 g = (€0s 0 — isi n@ )
+                         No mb res co m pl ex e: RIM -Math -2 02 5- 20 26 N eo ) 3TM GM-7C
+Exercice : 03 Série N°01
+   I Déte%miner le module, un argument, la forme(tri @ométrique et la forme exponentiefie?‘je chacun des
+           nombres complexes suivants b
+                                                                                            o
+
+                                                                                            «)
+                    2
+                  Zy       _ .   2025 _ =—2026 .
+             25«223'26_21 127 =2 ' Z
+   2. Mettre z; et z, sous forme algébriqye et en fiulre les valeurs exactes de :
+            cos,.(j12 ) , sin ( = ) , COS (12) et sm(lz). (‘ ;
+           N    A1m\ | .    11m) |     5T         "   51       -y
+
+
+
+
+Exercice : 04 $érie N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+Donner une forme trigonométrique et une¥férme exppnentlelle de chaque nombre.
+
+
+   v z;=-834iV3;2, = B -B8i;z3 = 7+7'3z4-—7 7i; zs—(1+1\/_)wy
+           :       g —V3+i .                                 P
+   v oze=(VB41)(V3-i)ltg = 2= 2ie'%; 29 = —3€'3 ;210 = —5ie’s;
+                                                      5    5
+
+
+
+
+   v o2y = A+ 09 2= faemt)? B g 2 (293 - 20)° (1 + 1V3)°
+                          <4                 (V3-i)
+   vV Z14 =                      215, = 1+ itan (Z’;) = sin0 + icoso;
+   v 27 =                        0/, 213 = —cosO — is
+                    /                                              4
+
+
+Exercice : 05           série N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+                    & £                  «) o
+  1. Monprengquey l#e'* = 2 cos (E) ez
+  2. Montref que : Yxn
+                     _, Cxke
+                           nika
+                             = 2"n
+                                 cosn(E)
+                                      (&ez
+                                         Ina
+  3. Emdéduire les sommes:
+             V' S=XR-o Cx cos(ka)
+             Y C=Xk-o Cx sin(ka)
+
+
+     Réalisé par Prof : Moustapha Salek M'baba WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                               Page 1[10
+          ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION g"”‘ padall %‘J-“
+             PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Jreladls
+     Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 548 5 4
+
+Exercice : 06         Série N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+    1. Montrer que: Sin(zzzl) + sin (2371'1) + sin (2271[1) + -+ sin (22001101 ) = lcotanm
+    2. Soit x un réel de lintervalle ]0; 2n[. Onpose Vn € IN*;C, = ¥I_,coskx etS, = X}_, sinkx
+
+              v Montrer que C,             Sin(%) etS, = W
+
+
+
+Exercice : 07         Série N°01 Nombres complexes RIM-Math -2025-202 TMGM-7
+
+A laide des formules d’Euler et de Moivre linéariser : (3                          ~         y "
+
+    = cos’; sin*x; cos3x; sin3x; cosxsinx et cos*xsin3x L                                          -
+Exercice : 08 $érie N°01 Nombres compleiggs, RIM-Math -2 -. - ;\ \                                        3TMGM-7C
+Déterminer suivapt_ les valeurs de 0 de lintervalle ]—‘—"' g[ le module et unfargument e\(—efiluel de chacun des
+nombres complexes suivants :
+
+
+    vz =tz                =e¥-1;z25=i+e9 24 —i etZz=,1 —'itan®
+
+                      Série N°01 Nombres complexeg, RIM-Math -2025-2026 TMGM-7
+                ant les valeurs de 0 (0 € [0; 2m), le mog:]ule etun argument de chaque nomblr
+           - '       .      .   .     _             €           N .        .     .      1+cos6+isin®’ _ 1+itan@®
+    v Lz _:c?‘;se +i(1 +sin@); z, =1+ cosO + lslflfl 2&3_ 14 sin@ —icosO ; z, Trcoso Gl 25 = 1oiene
+
+Exercice : 10‘ d      Série N°01 Nombres complexe‘\
+
+       1. xDélermlner l'ensemble de points M(z) tel le complexe :Z = :Sfllt réel.
+        2. Qetermlner l'ensemble de points'M(z) tel qug le complexe: Z = : - soit |mag|na|re fiur
+             Q                                       Co
+
+Exercice : 11 rl $érie N°01 Nombres complexe: RIM-Math -2025-2026 3TMGM-7C
+
+   1. Montret QUe Z= (2025 — 2026i)29%7 + (2025+ 20261)%°%7 est un réel.
+   2. Montrer! que Z= (2024 — 2025i)2025¢ (2024 + 20251)2025 est un imaginaire pur
+
+Exercice:12 (' Série N°01 Nontbres complexes __RIM-Math -2025-2026                                        3TMGM-7C
+
+Déterminer et representer les ensembles de points M(z) tels que :                      ARL
+                                                           A
+
+
+    v Mer1@|z—1,+31|_2 Mer2=>|z—z+1|_3 MET; & [Z—2—i| = |z— 1+ 3il.
+    v MeTy & |(LAFS 2l = 11+ Dz -4 <l Me Ts & [ 757 = 2 etMe Ty & [755 =
+
+Exercice : 13 { Série N°01 Nombres complex‘es )                   RIM-Math -2025-2026 3TMGM-7C
+
+Déterminer et repné%en}er l'ensemble des points M(z) tels que :
+
+    v MgT; & arg (Hz_l) =§ [2m]; MeT, & arg (l”z_') =’Z—' [w] ; MET; & arg ('“?') =§ [m];
+                         z—1                                   z—1                           z—1
+
+
+    v MeTpe arg(z—1+21)=3 [2n] ; MeTs & arg(i—1+2i)=—§ [n];
+                                                                           2
+    v WMETe e arg(z—2+1)% = [Zn] et MET; & arg (z+2 131) = g [2m].
+
+
+
+     Réalisé par Prof : Moustapha Salek M'baba WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                          Page 2 |10
+            ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION | & i i
+                PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Ry
+       Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 58158 :
+
+Exercice : 14           Série N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+Résoudre dans C les équations suivantes :
+
+      = Z2-iZ +5+5i=0; Z2—(3+20DZ +5+i = 0;
+      " §Z24+(1-50)Z —-1+4i=0; Z2+21-20i=0
+
+Exercice : 15           $érie N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+Résoudre dans C les équations suivantes :
+
+
+          N (Ew ): A+ D2 °— 2(m+ 1)z — (-1 +1 )( 2'+ 1 ) =0a vec m €I R. _                         )
+          2) (En):Z*-mA+iDZ-im®>= 0        avec p
+          3) (Epn):Z?—(2m+2+DZ+2m? + (5 + 5D
+
+Exercice : 16 Série N°01 Nombres complex T~                         RIM-Math -2925-2924‘ \                      3TMGM-7C
+Résoudre dans Czle‘s équations suivantes :
+
+              D (Ea) i72 +65|n(a)Z ~i=0 avee a € [0;
+              2) (Ea) — (2 +1)(cos(a) + sin(a) )ZA)2i + 3sin(a)cos(@) = 0 avee « = [0 2.
+              3) (E) :       — (4 + 4i)sin(a)Z + 815111(0@,;— 0 avee ac [0 2n]
+
+               )        1222 — 2(1 + isin(@))Z + isin(Z&) = 9 avee (e ]0 ;12—'[. \O
+             i) (E) : (1+tan ( )) 7% (+4itan (g))‘ 3 't: 0/ avec o € ]0;'2—‘[. <
+              é);"(Eu) i 2(1 — cos(a))Z? — 2sin(a)Z + 1_1—- ,()3 avee o€ [0;4n[e
+              D (B¢ 2 (e + 2¢)z + 2¢ = 0 -qee a0,                                                        4
+
+Exercice : I% - "; Série N°01 Nombres complex( RIM-Math -2025-2026 \                                            3TMGM-7C
+Onpose: Z ) 4i.                          <,;
+      1. Détenfm er |Z| et Arg(2). K
+      2. Déterfiqi@gr les racines cinquiémes de Z.                                                   <
+
+Exercice : 18                                                       RIM-Math -2025-2026 ..                      3TMGM-7C
+ 1     Mettre (1 — 21)'l sous formenalgebrique.
+ 2.    Déterminer leSracines/fUatriemes dans C du nombre complexe a= —7+24i.
+
+Exercice : 19 $é p N°01. Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+Le plan complexe est mumfiun repére orthonormé (G
+      Pour tout nombre complexe z on pose : P(z) = 23 —(4-2)z*+ (4 —6i)z— 4 + 8i.
+      1.1. Calculeg’P(— 2i) et’déterminer deux nombres complexes a et b tels que pour tout z de C:
+               vVOR@) =4z +20)(z* +az +b);
+      1.2. Résotidre dans l'ensemble des nombres complexes les solutions de l'équation P(z) = 0;
+      Soient'A ; Bet C les images des solutions de 'équation P(z) = 0 avec |z,] < |zg| < |zc|-
+      2.1. Placeryles points A;BetC.
+      2.2, Caleuler l'affixe du point G barycentre du systéme {(0; 3); (A; —4); (B; 1); (C; 2)}. Vérifie que A est le
+          bafycentre du systéeme {(0; 5); (B; —5); (G; 2)};
+      2.3. Determiner et représenter l'ensemble I" des points M d'affixe z tels que 21l soit imaginaire ur;
+                                                                                    zZ+2i 9 p
+      Pour tout point M du plan on pose :@(M) = 3M0? —4MA? + MB*+2MC? et on note I} 'ensemble des points M tels
+      que @(M) = k ol k est un réel.
+       Réalisé par Prof : Moustapha Salek M'baba WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                          Page 3|10
+              ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION A palal) Ay
+                 PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Ry
+        Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 58158 :
+
+    3.1. Discuter suivant les valeurs de k la nature de [ .
+    3.2. Déterminer et construire I';4.
+
+Exercice : 20             Série N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+Le plan complexe est muni d'un repére orthonormé (O; §; V).Pour tout nombre complexe z on poSe*
+
+                v P@@)=z3+@B+i)z*+(8-2i)z—6+18i.
+
+
+
+   ~woN e
+            Calculer P(1-i).
+            Déterminer deux nombres a et b tels que pour tout z de C : P(z) = (z — 1 + i) (z%#az +\b)
+            En déduire l'ensemble des solutions de lequatmn P(z)=0                             )
+            Soit A, B et C les points d'affixes respectivest"z, =1—1i,zg = -1+ 31;et Zd( = —3 31
+            4.1. Placer les points A, B, C et | avec |1=B*C pgis déterminer la nature du tnangle ABC ;
+            4.2. Déterminer la nature du triangle ABC ; _
+            4.3. Déterminer l'affixe du point G barycentre.du systéme {(A; 2); (B; —1); (C“l’fi
+            4.4. Déterminer et construire 'ensemble des-points M du plan dans les cas sui(‘an*ts
+                I :2MA? —MB*® + MC* = 0 et A : 2MA* —MB*— MC* =0
+            4.5. Etudle la position relative de I et A.
+
+
+Exercice: 21 , .          Série N°01 Nombres compleie RIM-Math -2025-2026 -~ ~                              3TMGM-7C
+
+Le plan est rapporte a un ron direct (0 ;1;7). Soit f une appllcatlon du plandans lui-méme qui a tout point M(z) associe
+le point M’ (z);PDnner dans chacun des nombres suivants la nattirede f et préciser les elementq caractéristiques :
+
+
+v 7                     . Z=—24243i ; 2= z —4+i (—1+1)z—1—l; Z=—2z-i;
+
+v z'=z-1k2|1'z'=3z-1+|; Z'=
+           | ( 2 2 ) E.:. ‘3—l+—1 Z+i; z'-,,—}-— i)z                                                )
+Exercice : 22— série N°01 Nombres complexe‘h RIM-Math -2025-2026 -                                          3TMGM-7C
+               73                                                   %                              P
+Soit f lappllcation du plan dans lui-méme qui a tout AtsM(x ; y) associe le point M'(x’ ;y)). Donner dans chacun des
+cas suivants l'expressmn complexe de f et en ga natu;e et préciser ses éléments caracterlsthfiés
+       %                                                  ) =~
+                                                             =
+
+
+
+
+       ‘/                                                 3 |
+       v                                           2        —
+       v x’:x,-#fet y =y-1;                                 a
+                                                            (@]
+
+
+Exercice : 23 ~_$érie N°0, Nombres complexés) Bac 2018~ ,Sc z                                                3TMGM-7C
+                          PA                                175)]
+
+Le plan complexe est mun| d'unirepere orthonormé (0;; V). Pour tout nombre complexe z on pose:
+        v P(z) =234 (74 31)2% + (12 + 15i)z — 4 — 18i.
+    1. Calculer P(2)t déterminer les nombres a et b tels que Vz €C: P(z) = (z — 2)(z% + az + b).
+            En déduire l'ensemble des solutions de l'équation : P(z) = 0
+   w N
+            On considére lesypoints A, B et D images des solutions de I'équation P(z) = 0 tels que :
+            Im(z,)& Im(zg) < Im(zp). Placer les points A, B et D et déterminer la nature du triangle ABD.
+            Déterminef le barycentre du systéme {(A;9); (B; —6), (C; 2)}, ou C est symétrique de A par rapport a (BD).
+            Détefmineriet' construire 'ensemble I'y des points M du plan tels que : 9MAZ-6MBZ+2MC? = —10.
+
+    No o
+            Déterminer et construire 'ensemble T', des points M du plan tels que : 4sMA%-6MB?+2MC?=—10.
+            Déterminer et construire 'ensemble I'; des points M du plan tels que :
+                                           .   (9MA 6MB + 2MC)(MA — MB + MC)=10
+    8%, Soit S° = id et vn € IN, STM*! = SoSTM ou S est la similitude directe qui transforme A en B et B et D.
+        8.1)Déterminer la nature et les éléments caractéristiques de S2018
+            8.2. Justifier que $2029°"*° est une homothétie de rapport négatif.
+
+       Réalisé par Prof : Moustapha Salek M'baba WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                            Page 4 |10
+               ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION | & i i
+                  PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Ry
+         Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 58158 :
+
+Exercice : 24             $érie N°01 Nombres complexes Bac 2020~ SN                                            3TMGM-7C
+
+Le plan complexe est muni d’'un repére orthonormé (0; U; V). Pour tout nombre complexe z on pose :
+         v P@@)=z3+1-21)z? - (5+3i)z+4 - 8i.
+    1. Calculer P(-i) et en déduire 'ensemble des solutions de l'équation P(z) = 0.
+    2. Onnote A, B et C les images des solutions de I'équation P(z) = 0 tels que |zg| < |z,] < |Z¢|-
+       2.1. Placer les points A, B et C puis déterminer la nature du triangle ABC.
+       2.2. Soit G le barycentre du systeme{(A; 9); (B; —2); (C; 6)}. Vérifier que z; = 2i puis plager Ge
+       2.3. Déterminer et construire 'ensemble E des points M du plan tels que : 9MA? — 2MB? F6MC? =195.
+       2.4. Déterminer et construire 'ensemble F des points M du plan tels que : 3MA%#SMB%+ 2MC? =65.
+    3. Soit f la transformation d'écriture complexe :z’ = mz + (2 — 2m)i ou m est un nombre complexe.
+       3.1. Résoudre l'équation z' = z (discuter suivant les valeurs de m).
+       3.2. Déterminer la valeur de m pour que f(B) = A, puis caractériser f dans ce cas.
+Exercice : 25             Série N°01 Nombres complexés’) Bac 2026’-‘}_,‘6 3TMGM-7C
+
+Le plan complexe est muni d'un repére orthonormé (O; ; V). Pour tout nombre complexe z on pose :
+              v P(2)=2z®— (3vV3 + 7i)z% + (-8 + 12iV3)z + 12V3 — 4i.
+    1. Calculer P(2i) puis résoudre l'équation P(z) = 0. Soit A, B et C les,images.des solutions de cette équation
+             avec : Im(zg)< Im(z,)< Im(z).
+             Placer les points A, B et C et préciser la nature du triangle ABC?
+             Montrer que O est le barycentre du systeme{(A; 1); (B; 2);£C; —~1)J.
+             Déterminer la nature du triangle OAB et celle du quadrilatere AOCB.
+             Déterminer et construire 'ensemble I; des points M dd planttels que MAZ + 2MB% — MC2 = —8.
+             Déterminer et construire l'ensemble T, des points M¢u,plan tels que MA? — 2MB? + MC? =8.
+   NoosrwN   Déterminer et construire 'ensemble I3 des points,M du plan'tels que
+                                         = (MA +2MB - MC)(MA'% 2MB + MC) = —16.
+    8. Déterminer l'écriture complexe de la similitudé"directe S de centre A qui transforme B et C.
+    9. Préciser le rapport et une mesure de l'angle de,S.
+    10. Soit D l'image de C par S, montrer que l'affiXéide Diest z;, = 10i.
+    1. Déterminer l'affixe du point E tel que S(E),= 0.                                             .
+Exercice : 26, série N°01 Nombres comple;’@s" RIM-Math -2025-2026 N                                            3TMGM-7C
+
+Soit 8 € [0; m[. On considére dans C le polynome.: P(Z) = 2z3 + 2(1 — e1%)z? — (2 —isin0)e'®z + isin O e ; ou z est
+un nombre complexe
+1. Vérifier que P (—1)= 0.
+2. Déterminer les nombres a, b et ¢ tels ques¥z €C : P(z) = (z + 1)(az? + bz + c) puis résoudre 'équation P(z) = 0
+                                                                                     elf+1 atizs = elf—1
+3. Le plan complexe est muni d’'uh repére orthonormé (0; U; V). On pose : Z; =
+                                                                                       2      2772
+      On considére les points M, ANB, Mnet M, d'affixes respectives: e®, 1,-1, z; et z,
+         a) Déterminer, lorsqe déerijt [0; [, le lieu géométrique de M, et M,
+             a) Montrer que le4rianglesMAB est un triangle rectangle en M.
+             b) Montrer que €s dreites (AB) et (M; M,) sont paralléles.
+4. Soit lhomothétie deicentre M et rapport k=2 et r la rotation de centre M et d’angle —;. On pose : r(A) = C.
+             a) Montrergue : h(M{) = A et h(M,) = B.
+                                                                                                         i0
+
+             b) Montrér queyles points M ,B et C sont alignes, puis en déduire que le nombre Z= i(l:;a) est réel
+
+Exercice : 27 / $érie N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+                           4
+
+Soit m un garamétre complexe non nul et F,, : P 5P : M(Z) »> M'(Z') tel que : Z' = m3Z + (1 + m + m?).
+
+    1. @Béterminer les valeurs de m pour quelles F,, est une translation dont on donnera la valeur.
+
+    2. Onfsuppose que:m=¢e®oll 0<O< Z?"
+                                                                                                         )
+                 = Montrer dans ce cas que F,, admet un point invariant unique d’affixe : = z _1(9) e'(f_f).
+                                                                                                sin( >
+                                                                                                    2
+
+
+
+
+        Réalisé par Prof : Moustapha Salek M'baba WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                          Page 5 |10
+                 ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION A palal) Ay
+                   PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Ry
+     Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 58158 :
+
+        Déterminer les valeurs de m pour quelles F,, est une rotation d’angle g Caractériser F,, dans chague ‘€as.
+    4. Onpose:m=x+iy.
+        4.1. Déterminer une relation entre x et y pour que m? soit un réel.
+        4.2. En déduire 'ensemble des points M d’affixe m pour quelles F,, est une homothétie.
+        4.3. Caractériser cette homothétie dans les deux cas suivants : m= 1 + iv3 et m= —1 +43
+
+Exercice : 28               $érie N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+
+
+                                                             s = 2+ 12, P                                                Jo:]
+                                                                      — elf
+
+Soit (Z,) la suite de nombres complexes définie par: { <                           vnelN ou x est uniséel de lintervalle [0;Z
+
+
+1. Ecrire sous forme trigonométrique le terme z;.
+2. Soit (a,) la suite numérique définie par : VnelN :.a,)= arg(Z,)[2n] et a, € ]0 ‘; )
+   2.1. Montrer que la suite («,) est une suite geomélrique de raison q-—
+                                                              —
+
+
+
+   22.En dedUIrZefll expression de a; en fonction de n.
+3. Soit (V) la suite définie par VneIN: V, =z, — Z
+   kAN Exprlmgr Vv,,fl en fonction de V. Que peut-on              déduire.
+   3.2. Montref que vnelN : |z,| = Sinx      X
+                                          singg
+
+
+   3.3. Montrer que VnelN : z, —zg = |Zg| + |Z4] +                +|zn—1|
+                   2]                             .           0\              w 1         1        1.                1
+   3.4.En ded re que pour toutnde IN"ona: cotan(un‘) cotar(x) = s + sin(zil) s Sin( ey —Si“(z..x-l)
+Exercice : 29; $érie N°01 Nombres complexes 1 RIM=Math -2025-2026 3TMGM-7C
+
+  L Dans lé plan complexe rapporte a repére ortho orrgé (03W; ¥) supposé direct.
+        On cbn5|dere les points A et B d'affixes respegtives i'et,-i.
+       A tout pomt M(Z) on associe par l'application ’f.}a pomt M'(Z") tel que : Z'= 1+7Z  Z+iZZ
+
+
+       1. \Determlner les points invariants par4.
+                  Moqtrer que les points A ; M et M’ sont & |9nes
+                 Mantrer que pour tout polnt M d'affixe ZE‘F \{ i};ona: arg(Z) == (MO MB)[Zn
+
+
+
+       Noap wN
+                  Donner la construction du paint M'lmage fle ME Ciopy (M # O et M # B).
+                  Montrgr que pour tout Z# i , on a_JZ' — F |Z' —i| & Me C,q)
+                  Dedulre que si M€ Cg,y alors M'=Ax M |
+ II. SoitM un‘pélnt d'affixe Z="ei8{0 € ]— ;—'[ et M’,- £(M)
+       1. Montrer que 7' = —(cose) ¥ 1(1 + sme). 3 3
+       2. Résoudre Qans c l'equatlon (Ee) —(1+ie®)Z+i+e®=0 ;
+        3. On note Z, €tZ, 188 solutions de (Eg) avec Z, est la solution non imaginaire de U'équation.
+                  3.1 Ecrire. ?solutlon Z, sous forme exponentielle.
+                  3.2, Déterfainerl'ensemble (Eq) des points My(Z;) quand 8 décrit ]— —[
+                  3.3. £ 'SoitN le point d'affixe cos®. Montrer que OMNM' est un losange.
+
+Exercice : 30 o $érie N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+                        "4   A
+
+L       Soit'mun para'métre complexe (E,,) et 'équation d'inconnue Z :                  Z? — (im+ m)Z + im xm = 0
+                 1. Résoudre l'équation (Ep,).
+                 2. "%€omment choisi m pour que (E,,) admette une racine double ?
+                 BmSoient A ;M’et M" les points d'affixes respectives 1+i ; Z' et Z".
+                 4. Montrer que : 2 est imaginaire pur. En déduire que : (0A) L (M'M").
+                 5. Montrer que : AM'=AM". En déduire que (0OA) est la médiatrice de [M'M"] siM' = M"".
+
+
+
+     Réalisé par Prof : Moustapha Salek M'baba WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                             Page 6 |10
+              ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION | A s fuie
+                 PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Ry
+         Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 58158 :
+
+                                                 PP
+I           Soit l'application définie par : f,,            tel que : Z'=imZ+m.
+                                              M(Z) » M'(Z")
+                1. Déterminer m pour que f,, soit une translation.
+                2. Déterminer m pour que f,, soit une rotation.
+                3. Déterminer m pour que f,, soit une homothétie.
+
+Exercice : 31             Série N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+        1. Ecrire sous forme exponentielle les racines sixiemes de 1.
+                                                                       6
+        2. Calculer (1 +i)® et montrer que : Z® = —8i signifie ( f_l) =1, a                     & '_
+        3. En déduire les racines sixiémes de -8i. v                    {                        »
+        4. Pour ZEC,onpose:P(Z) = 7%+ (1 +i)Z* + 2123 +(-2+42)Z2% - 4Z - 4= 4
+           4.1. Vérifier que: P(Z)(Z—1—1) = Z® + 8i. ¢                       ’
+           4.2. Résoudre l'équation (E) : P(Z) = 0. =                          p
+            4.3. Mettre P(vZ) sous forme algebrlque e’ déduwe que :[|P(V2) | 4V4 £ Zi\/i’*
+            4.4, Jus;lfgsr légalité : P(Z) = ( \/_exz Z- F) X oo d ( —\[2e1z 12)
+                                                              11m                 23n d
+
+
+
+                   oy, L (Tm in \175'n . (19w . (28w _ V2+V2
+            4.5. En quU|re que: sm(lz) X sm( 2 ) in (; X sin ( 2 ) X sm(1z ) =" ‘
+
+Exercice:32, Série N°01 Nombres complexes. RIM-Math -2025-2026 3TMGM-7C
+                                                          [a e
+                  od                                      4\
+                  AN
+
+
+
+1. On considére dans C le polynome P(z)= z3 + (2 — i)z + (m? + 1 22i)z — i(m? + 1), ol m est un paramétre
+        complexe.
+        1.1. Vérifier que zy = i est un zéro de polynéme P.
+        1.2. Déterminer les complexes a et b tels que P(z)\= (2—i)(z% + az + b).
+        1.3. Résoudre dans C de l'équation P(z) =0
+2. Dans le plan complexe, muni d’'un repére orthonormal (0; T; ¥),
+      2.1. Déterminer l'ensemble des points M) tels que deux au mois des solutions de l'équation P(z) = 0 aient
+           un méme module.
+            2.2.0npose :z; =im —1; z, = —imé 1 et omsuppose que : m= e® tel que t < 0 < 32—".Ecrire z, et z; sous
+          forme trigonométrique.
+3. On considére les points M (z,) ; M, (Z;) et,M(m).Déterminer 'ensemble des points M(m) tels que :M, M, et M,
+        soient alignes.
+4. On suppose que : mm+Re(m) # 0.soit r lastransformation qui associe au point N(z) le point N'(z') tel que :
+             v z'=iz-1
+                 4.1. Montrer que r estluneotation et déterminer son centre Q et son angle a.
+                    4.2. Montrer que : :1_: est imaginaire pur si et seulement si : mm+Im(m) = 0.
+                                       N
+
+
+
+
+                    4.3. Déduirell'ensemble des points M(m) tels que:M;;M;;MetQ soient cocycliques.
+Exercice : 33 $éFil N°01 Nombres complexe& RIM-Math -2025-2026 3TMGM-7C
+                                                          [
+
+
+Le plan complexe est murlfinun Fepére orthonormé (@ ; V).
+
+On considére la stfite (o) de nombres réels définie : par o = E et pour tout entier naturel n, a,,y = a, + %". On
+désigne par Mle point du cercle de centre O et de rayon 1tel que (fi; O—M,l)
+                      il   A
+
+         Placerfe8)points' M, pour 0<n <8.
+         On note z; Uaffixe de M,, . Ecrire z, sous forme Exponentielle.
+         Montrerique pour tout entier n, les points M,, et M, , sont diamétralement opposés .
+ prwn    Mentrergue pour tout entier n, les points M, et M, ,,, sont confondus.
+                                                 2im
+
+
+ B
+         Montrer que pour tout entier n, z,,,=e" 3 z,;
+         En deduire que pour tout entier n, le triangle M, M, ,,M, . est équilatéral.
+
+
+
+         Réalisé par Prof : Moustapha Salek M'baba WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                          Page 7 |10
+           ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION | & i i
+                 PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Ry
+     Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 58158 :
+
+Exercice : 34          Série N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+On considére dans le plan orienté, un parallélogramme ABCD et les triangles ADM, BAP et CNA rectangles isacgles
+respectivement en A, B et C et directs.
+
+
+1. Faire une figure.
+2. Ondésigne par a, b, c, d, m, n et p les affixes respectives des points A, B,C, D, M, NetP;
+    a) Exprimer d, m, n et p en fonctionde a, b etc;
+
+    b) Montrer que p — ¢ = i(m — b). En déduire que { (BM) L (CP)
+                                                            BM = CP
+
+
+    c) Montrer aussi que p — ¢ = i(m — b).En déduire'\gue {       BN = CM                             2
+                                                            (BN) L (CM) ~N - |
+    d) Montrer que les droites (AM), (BN) et (CP) so 1t-concourantes.
+                                                          c©
+
+3. Soit K le milieu de [AN], d’affixes k et L celui de [AP};&'affixe L
+          a) Montrer que:m —k = —i(b —k) etque:jnf—l =i(c-1).
+          b) Donner la nature de chacun des triangles BKM et CLM.
+                   &                                       4]
+
+Exercice :35 -                                                                                             3TMGM-7C
+
+
+           2mi
+
+Soitw =e7 g}T:w+mz+m‘.
+
+
+ 2. Quel ess tle signe de Im(a))                                e
+ 3. Montre“r,ciu’.le.cos( )+cos( )+cos( )z ({ rs(n3(7)+sm(7)+sm(7)—z
+                            2m                    8m\ -1            2    .    (4m .    (8T V7
+
+
+
+
+Exercice : 36          Série N°01 Nombres complex.g‘ ““RIM-Math -2025-2026 3TMGM-7C
+             e
+
+Pour tout z'de.C on pose: P(z) = 1+z+ 2% + 23§ z* 5«'+z“
+                 7))                             4        Wy
+1. Montrer qlle pour tout z# 1 on a: P(z) = zz ey
+2. Determlne ‘es racines septiemes de l'unlte (@]
+3. Endéduiredes solutions dans C de I'gquation P(z)= 0.
+4. Montrerqqupurtoutz de Cona:P(z)= (z —écos( )z+1)(z —2cos( )z+1)~( —2cos( )z+1)
+                                                  1       =                                      i
+5. Montrer que P(z) =0 « { Y=z ”                                                                  y
+                      A           @ +ui-—2Zu-1=0"Y &~
+6. En déduire quéc:*c;os (27") cos( ) et cos ( 7) sox}?jes racines de l'équation E :              —-2x—-1=0.
+7. Onpose:w= e'ZTH ei{pour tout z de’C on pose : f(z            P(2) = @-w)(z-w)(z-w)Ez-wh(z-wd)(z-w)
+        7.1. Montrer que(z) est'un polynéme nul . Pos)
+        7.2. En déduire “@Ew)(1 — w?) (1 — w3)(1- uw‘*)(l wi)1-wé) =7
+        7.3. Montrerfque : sin (;) X sin (27 ) X sin (37:)%:sm ( = ) X sin (57 ) X sin (67") =2
+                                                                                             7
+
+
+
+
+Exercice : 37 » $érie N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+                    y . »
+                        "       ,8         L1               ’ .          —-
+Le plan compleXe estrapporté a un repere orthonormé direct (0; u; V).
+
+
+Donner l'expression analytique puis l'expression complexe de chacune des transformations :
+
+
+    .   Syi'La symétrie orthogonale par rapport a l'axe des abscisses.
+    v I's, %La symétrie orthogonale par rapport a l'axe des ordonnées.
+    ¥_ s,:Lasymétrie orthogonale par rapport a la premiére bissectrice (A :y = x).
+    v s, : La symétrie orthogonale par rapport a la deuxiéme bissectrice (A’ :y = -x).
+     Réalisé par Prof : Moustapha Salek M'baba | WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                          Page 8 |10
+          ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION | & i i
+             PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Ry
+     Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 58158 :
+
+Exercice : 38        $érie N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+Le complexe est muni d’'un repére orthonormé (0; U; V),
+
+
+Pour tout nombre complexe z on pose : P(z)=z3 — (4 + 8i)z% + (—14 + 24i)z + 32 + 4i.
+
+
+   1. Calculer P(2i) et déterminer deux nombres a et b tels que pour tout z de C : P(z) = (z 2i)(z* # az + b)
+   2. .Endéduire l'ensemble des solutions de l'équation P(z) = 0. On note z,; z, et z; ses solltions avec
+              [ z1] < |zp] <|zsl.
+   3. Soient A, B et C les points d'affixes respectlves Zq; Z, et z.                              2
+       v Déterminer l'affixe de G barycentre du systeme {(0;5); (A;=7), (G D} Placer A, B, C et G sur la figure.
+   4. Pour tout nombre complexe z on pose : Q(z)-z’y(4+6|)z 2+16i.0n not@l‘ l‘ensemble‘des points M d'affixe z
+       tels que Q(z) soit imaginaire pur (ou nul).
+           4.1. En posant z = x + iy, donner une équation cartésienne de I et montrenqae T est une conique de
+               centre G
+          4.2 P\réciser les sommets et U'excentricite de I' puis la construige dans L& l% e précédent.
+Exercice : 39 () $érie N°01 Nombres complexes’ Bac 2017 SN                                                      3TMGM-7C
+Le complexe es muni d’un repére orthonormé (0;T; V)
+
+   1. Soitauniréel, .
+       1.1 Resoudre dans 'ensemble des nombres complexes Péquation d'inconnue z :
+         v (,Q1+1)z -2(@+1Dz—-(-1+i)@%+1)=0. !
+             oit f et g des transformations données pa leur§rexpressions complexes, f :z—Z’             z et g:z-z"=z—i.
+               éterminer la nature et les éléments caractgshques de chacune des transfor              ,tn:ons fetg.
+   2.          sreste de l'exercice, on considére les points|l, M et M, d'affixes respectives z4 =11-i,z; =1—iaet
+       Z; ::TaA—lou a=e'®, ae]0; 2n| .                 & <  -
+                                                                                                  Vo
+       21. Montrer que le triangle IM;M, est rectang?en |, isocele et direct. C
+       2.2aPreC|ser les lieux géométriques des pon}}}ffil et M, lorsque a décrit ]0; Ti[. Représ hter ces lieux dans
+            un- repere orthonormé. N                                                              N
+       23. E{mre z, et z, sous forme exponenhelleqour a appartient a lintervalle ]0 [
+   3.             point d'affixe z3 = isinx + ia etG lf;gsobarycentre des points My, M; et M
+                              1+cosa | . —142sifia
+                 gr que zZg =
+                            +1i puis rgfé[_itrer que, pour a€]0; «[, le point G a                  irtient a une ellipse I
+
+
+
+
+Le plan complexe est n:1uni d'ungrepére orthonormé (0; 4; V). Pour tout nombre complexe z on pose
+         v P(2) =z3 (1 H41)2? — (9 —i)z— 6 + 18i.
+   1. Calculer P(3i),et'déterminer les nombres a et b tels que Vz €C: P(z) = (z — 3i)(z? + az + b).
+   2. En déduire fensemble'des solutions de l'équation P(z) = 0.
+   3. On considére leswpoints A, B et C images des solutions de I'équation P(z) = 0 tels que : |z¢| < |zg| < |z,]-
+         v Placeples points A, B et C et déterminer la nature du triangle ABC.
+   4. Soit A’ ='bar{(4; —5); (B; 6); (C; 12)}.Vérifier que l'affixe de A’est z,» = —3 + i. Placer A".
+   5. Onfconsidére lellipse [ de sommets A, A’ et B.
+       a) Déterminer le centre | et Uexcentricité de I".
+       b)wDéterminer une équation cartésienne de I dans le repére (0; U; V).
+       €)/ Preciser lintersection de I' avec 'axe (Ox).
+       d) ) Déterminer les foyers et les directrices de I puis construire I'.
+
+
+
+
+     Réalisé par Prof : Moustapha Salek M'baba WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                       Page 9|10
+           ECOLE D’ENSEIGNEMENT TECHNIQUE DE FORMATION | & i i
+              PROFESSIONNELLE INDUSTRIEL DE NOUAKCHOTT Ry
+     Série e 01 : Nombres Complexes 2025-2026 3TMGM-7C PROF : MOUSTAPHA SALEK M'BABA 58158 :
+
+Exercice : 41            Série N°01 Nombres complexes RIM-Math -2025-2026 3TMGM-7C
+
+
+1. Le plan complexe est muni d'un repére orthonormé (0; U; V). Pour tout nombre complexe z on pose :
+    = P(z) =22 - (5+ 7i)z% + (—6 + 26i)z + 24 — 24i ou z est un nombre complexe.
+    a) Vérifier que P(2)=0
+    b) Déterminer les nombres a et b tels que vz €C: P(z) = (z — 2)(z? + az + b) puis résoudre UéGuation :
+         P(z) = 0.
+2. On considére les points A, B et C images des solutions de l'équation P(z) = 0 tels que |z,[\<Yz8] < |zc|-
+ a) Placer les points A, B et C puis montrer que les points 0 ;A ;B et C sont cocycliques.
+ b) Calculer laffixe du point G isobarycentre de A et B
+ c) Trouver les réels «, ; a, et oy tels que G barycentre du systeme {(0; a,); (A; &z, (C; a3)}
+ d) Déterminer et représenter l'ensemble T des points M d'affixe z telle que arg(z = 4#).+ arg(z — 2) = 12—'[11'].
+
+
+3. Pour tout M du plan on pose :@(M) = 5M0? — 3MA? + 4MC? et I, 'ensemble dgswpoints M tels que : @(M) = k
+    ou k est un recel.
+        a) Discuter, suivant les valeurs de K, la nature de T.
+        b) Reconnaitre et construire Ty,
+
+4. Soit f l'application qui a tout point M(x;y) d’affixe z associe le point M'(x%y’) d'affixe z' tel que : Z' = 324—_2 etTle
+    cercle d'équation: (x—1)?2+(y—-2)2=5
+   a) Ecrire x’ ety’ en fonction x et y.
+   b) Donner une équation cartésienne de 'ensemble T’ imagefdu.cercle T par l'application f.
+   ¢ Montrer que T’ est une ellipse dont on déterminera le centre, les sommets et l'excentricité puis construire T
+      et T
+Exercice : 42" série N°01 Nombres complexes: S RIM-Math -2025-2026                                               3TMGM-7C
+                                                            )
+
+
+             ==                                           Q@ -\
+1. SoitP(z)=2z3 — (2 +4i)z? + (-2 + 8i)z + 4 — 12i,0u z EC;
+   1.1. Calculer P(1-i) puis déterminer les complexes a‘et b tels que P(z) = (z—1 +i)(z% + az + b).
+   1.2. En déduire les solutions de I'équation P(2) = 0) On notera z, , z, et z; les solutions de cette équation avec
+        121] < 2| < |23l
+2. Dans le plan complexe P, muni d’un repéré orthonermal R = (0;T; V), on considére les points A, B et C d’affixes
+    respectives z; , z, et z; .
+    2.1. Placer les points A, B et C, tracergle trianglé puis déterminer sa nature.
+    2.2. On consideére lellipse E, de foyers Aset € dont B est un sommet. Soit Q le centre de E;.
+            a) Déterminer les coordonnées de£) dans le repére R.
+            b) Que représente le pgint B’ le symétrique de B par rapport a Q. Déterminer alors les coordonnées de
+                B’ dans le repére R
+3. Onposeu’ = gfiA etv = gnB et'on munit le plan P du repére orthonormal R’ = (; 1;}).
+    3.1. Déterminer l'équatioft réduite'de l'ellipse E, dans le repére R'.
+    3.2. Déterminer une éguation cartésienne de l'ellipse E, dans le repére R. Donner les coordonnées des sommets
+         principaux et lesféquations des directrices dans le repére R.
+4. On se place dans lé'repére Ret on considére la rotation r de centre | qui améne le point D(\/g; 1) au point A. Soit
+    E, lellipse de centre | donf D est un foyer et G(O; 1+ \/E) est un sommet.
+    4.1. Détermingfr l'équation réduite de lellipse E, dans le repére R.
+    4.2. DonnerA'expression complexe de r.
+    4.3. Soit E{'iméage de E, par r. Déterminer une équation cartésienne de E; . Que peut-on dire a propos de
+        lellipse E;%
+
+
+
+
+                                  RIM-MATH -2025-2026- 3TMGM-7C
+
+
+
+
+     Réalisé par Prof : Moustapha Salek M'baba WhatsApp 00222-33 91 96 22 Module 1: RIM-Math-2025- 2026
+
+                                                         Page 10 |10
+

@@ -1,0 +1,60 @@
+{
+  "mcpServers": {
+    "vault": {
+      "command": "python3",
+      "args": ["/home/med/Documents/bac/resources/notes/vault-mcp-server.py"],
+      "env": {
+        "VAULT_PATH": "/home/med/Documents/bac/resources/notes"
+      }
+    },
+    "sympy": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with", "sympy-mcp",
+        "mcp"
+      ]
+    },
+    "math-learning": {
+      "command": "uvx",
+      "args": ["math-mcp-learning-server"]
+    },
+    "jupyter": {
+      "command": "python3",
+      "args": [
+        "-m", "jupyter_mcp"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/home/med/Documents/bac/resources/notes"
+      ]
+    },
+    "manim": {
+      "command": "python3",
+      "args": [
+        "-m", "manim_mcp"
+      ],
+      "env": {
+        "MANIM_DIR": "/home/med/Documents/bac/resources/notes/Animations"
+      }
+    }
+  },
+  "agents": {
+    "kilo": {
+      "description": "Terminal scripting, Python utilities, code execution",
+      "mcp": ["vault", "filesystem"]
+    },
+    "opencode": {
+      "description": "Multi-LLM switching (Claude + DeepSeek)",
+      "mcp": ["vault", "jupyter"]
+    },
+    "kiro": {
+      "description": "Spec-driven research chains",
+      "mcp": ["vault", "sympy", "math-learning"]
+    }
+  }
+}

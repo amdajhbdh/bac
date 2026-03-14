@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ProjectileMotionDetailed/2257293077_632330751_223132457.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ProjectileMotionDetailed/2135761390_1221248707_4073111568.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ProjectileMotionDetailed/2135761390_1909101209_2491953354.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ProjectileMotionDetailed/2135761390_1370643830_1538681001.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ProjectileMotionDetailed/2135761390_4164771500_3470484731.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ProjectileMotionDetailed/2135761390_2872842549_2466828109.mp4'

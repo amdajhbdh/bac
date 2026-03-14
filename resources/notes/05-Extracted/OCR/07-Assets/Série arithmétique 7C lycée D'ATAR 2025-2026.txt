@@ -1,0 +1,282 @@
+Serie sur I’Athématique dans Z 7c mep saLem
+Exercice 1
+1) Défermmer les chiffres x et y pour que le nombre n = 43x57y soit divisible par 15 et 2.
+2)En base9,ptrouver tous les couples (X,y) pour lesquels le nombre 7x6y4 est divisible par 7 et par 8. (on
+porra uhllger le systeme décimal comme systéme intermédiaire).
+Exercice2 — A\
+Résoudre da.fls Zles 'fleux équations suivantes :
+
+Exercice 3
+a) 3x = 5[7]} b)6x = 5[9] ©)35x = 7[4]; d)22x =33[5]; e)x>+x=6[13]; f)x2—3x+4
+
+
+1) Trouver,sulvant les, vfileurs de I’entier naturel n, le reste de la division euclidienne de 5" p.
+                                                                                                i\?
+                                                                                                     f\(/é
+2) Trouver la reste &e la dlvns;gn euclidienne de 20212920 par 7.
+3) Soit X = 201120+1 % 20{42m41,
+a) Montrer que tout entier naturelm, X est divisible par 7.
+b) Montrer que tout entier na,tnrel nyX est divisible par 25. (b
+¢) X est-il divisible par 175 ? Jusfifier )                                                 c‘)
+1) Montrer que pour tout n € Z (Sn3 f) A +2)=(m+2)A38. \QJ&
+Exercice4
+
+
+
+2) Déterminer toutes les valeurs possibles de PG(ID((Sn3 —-n),(n+ e&b
+3) Déterminer les entiers n € Z vérifiant PGCD((Sn —n),(n +
+1) On considére ’équation (E) : 8x + 5y = 14 eu x et y S| t               tiers relatifs.
+a) Donner une solution particuliére de (E).              .
+b) Résoudre I’équation de (E).
+                                                               Q
+                                                                                                      N=8a+1
+2) Soit N un entier naturel tels qu’il un couple (a, !       ombres entiers naturels vérifiant : {
+a) Montrer que le couple (a, —b) est une solqu\ ~_ J .                                                N =5b+2’
+
+
+b) Quelle est le reste de la division de N {“n                     4 3
+3)a) Résoudre ’équation (E) : 8x + 5y"= ;o0u xety s,ggxff'd‘es“éntiers relatifs.
+b) Au VIIIéme siécle, un groupe composé d’hommes et de femmes dépensé 100 piéces de monnaies dans une
+auberge. Les hommes ont dépensé 8'piéces et les femmes ont depensg 5 plecgs chacune. Combien pourrait —il
+
+
+ExerciceS Y                                                              4 )
+y’avoir d’hommes et de femm groupe.
+
+
+
+On consideére la suite (xfi iers naturels définies Vn € N par xy = 14 et Xy qn= 5%, — 6.
+1. Calculer xl,x et
+2.a) Montrer qu@fi\l Xnt2 = Xpl4].
+3.a) Par % ¢, montrer que Vn € N, 2x, = 52 + 3 et déduire que 2x, = 8(100),
+b) En déduir €N, xz;, = 2[4] et X341 = 0[4].
+
+
+b) Deter deux derniers chiffres de I’écriture décimal de x,, suivant les valears de n.
+Exercice6                                                                                     )
+Soit x et y des entiers relatifs. On pose f(x,y) = 2x — 3y.                                       M
+1. a) Calculer (5, 3).                                                                            A
+b) En déduire les solutions dans Z> de équation 2x — 3y = 1.                                      N
+2) Pour tout entier naturel n on pose X,, = f(5",3TM).
+a) Trouver, suivant les valeurs de n, le reste de la division euclidienne de X, par 7.
+b) Montrer que : X5915 — 5 est divisible par 7.
+Exercice8
+
+
+ Lycée d’Atar Chapitre3° série d’Arithmétique classe 7°C 2025-2026 Prof : Med Salem Page 1
+On considére I’équation (E): 5x — 3y = 17, ou x et y sont des entiers relatifs .
+1. @) Justifier que I’équation (E) admet des solutions entiéres et vérifier que le couple (4, 1) est une solution
+Pacticuliere de (E).
+b) Détecminer I’ensemble des solutions de (E).
+2)"Soit, (x ¥) une solution de (E).
+a) Montrer/que si x est un diviseur de y, alors x est un divisuer de 17.
+
+b) Soit' m umentier relatif. Trouver les valeurs de m telles que le quotient4+3m
+                                                                             51 Soit un entier relatif.
+Exercice9
+1) On considére équation (E) ; ou x et y sont des entiers relatifs. 25x — 49y = 5.
+a) Déterminer le pqu de 49 et 25 a ’aide de I’algorithme d’Euclide et en déduire que I’équation g@t des
+b) Vérifier que le couple (10 5) est solution particuliére de I’équation (E). Résoudre (E). %
+solutions entiérest”
+
+
+c) Montrer qu’il existé,un ‘unique entier p compris entre 1960 est 2018 tel que : 25p = 5[
+2.a) Justifier que si (x, ) estune solution de (E) alors 5x = 1[7] ety = 0[5].
+b) Montrer que 5x = 1[7] i et séulement si x = 3[7].                                      (52%
+3.a) Soit x un entier relatif. Quell& sontles restes de x2 dans la division euclidienne
+
+
+Exercicel0 X
+ b) Existe-il un couple (x,y) d*entiers relatifs tels que (x2; y2) soit solution d
+                                                                               %
+ On considére les équations dont les inconnues sont des entiers (E): 35 \ 1 et (F) : x35 = 2[97].
+ 1.a) En appliquant le teste de primalité vérifei‘ que 97 est un n mb@s
+ b) Montrer que le couple (11;4) est solutlon de l’equatlon (E). h
+ ¢) Résoudre dans Z? Péquation (E). )                             Q/
+ 2) Soit x une solution de I’équation (F).                 y
+ a) Prouver que les nombres x et 97 sont premier esitre #u
+ b) Montrer que x% = 1[97] puis que x = 211[97 2
+ 3) Soit n un entier. Montrer que sin = 21| ]%n est solution de (F).
+ 4) Montrer que les solutions de (F) sont les% =11 H 97lg; k e Z.
+ Exercicell Bac2024                                            '
+ On considére ’équation (E): 104 Q7y 78 d’inconnuJé couple (x y), X et y étant des entiers.
+ 1. a) Justifier que I’équation (E) admet\des solutions.
+
+
+
+
+ a)b) Déterminer
+      Montrer quealeet b‘%\c
+                       co h&&re ptensolbase
+                                       ution10.de (E).
+ b) Vérifier que le couple (3, 2)       lution de (E) puis résoudre (E){" ,
+ 2. Soit p un entier nature 1ab1b en base 6 et Taabb0 ‘en, bxse 4.
+
+
+
+
+ 3. Soit (x,y) u nes e (E). Montrer que x = 3[17] puis en déduire que xz"’*‘* +1=0[17].
+ Exercicel2 Ba 1
+ A.1. Détermi este de la division euclidienne du nombre 2021 par11. s
+
+
+ 3. Justili’:er\fi nombre 20212020 — 20211960 est divisible par 11.
+ 2. Déterminér.suivant les valeurs de ’entier naturel n, le reste de la division eucllchenue dg 2021" par 11
+
+
+ B. Soit N un entier naturel s’écrivant XyXy dans le systéme décimal.
+ 1. Montrer que N est un multiple de 101.                                                      P <
+ 2. Déterminer y pour que N soit un multiple de 5.                                                   a
+ 3. Déterminer x et y pour que N soit un multiple de 20 et préciser N dans ce cas.
+
+ C. Soit la matrice M (5 1}'1) ou X et y sont deux entiers strictement compris entre 0 et 10 .
+                        X
+
+
+
+ 1. Montrer que M est inversible et déterminer sa matrice inverse M‘l, en fonction de x et de y.
+ 2. Déterminer les valeurs possibles de x et y telles que le déterminant de M soit égal a 1.
+ Exercicel3
+
+ Lycée d’Atar Chapitre3° série d’Arithmétique classe 7°C 2025-2026 Prof : Med Salem Page 2
+ 1°. Soit dans Z x Z I’équation (E) : 8x + 5y = 1. Résoudre I’équation (E)
+                                                    N =1[8]
+ ~25; Snit N un entier vérifiant le systéme (S) {
+   \                                                N = 2[5]'
+ a) Montrer que N est une solution du systéme (S) si et seulement si N = 17[40] .
+ by Viérifie que 9417 est une solution du systéme (S).
+ ¢) En déduire que Pentier (9417)2012 — 1 est divisible par 40.
+ 3°. Seif dans Z x Z I’équation (E') : 8x + 25y = 1.
+ a) Vérifier quefe'couple (—3, 1) est une solution particuliére de (E') et résoudre ’équation (E')
+ b) En dédqiré Tensemble de solution de I’équation (F): 8x + 25y = 5.
+
+ d) Déterminer Pefisemble de solutions de I’equation (F) sachant que d = 5. '\(/Q
+ c) Soitd = XAy ou (x ,Y) est une solution de I’équation (F). Donner les valeurs possible de d.
+
+
+ Exercicel4 A                 \
+ 1° On considére l’équafibn (E) ; ou x ety sont des entiers relatifs. 13x — 15y = 5.
+ a) Déterminer P’entiet naturel p tel que le couple (p + 1; p) soit solution de (E). %
+ b) Résoudre ’équation (E),                                                                  fb
+ 2° Dans cette question on s& prgpo’se determmer I’ensemble S des entiers relatifs I{JS ue {N = 10[15]
+  a) Soit N un élément de S. Démontrer qu’il existe un couple d’entiers (x; )@\;ue N=13x+5=
+ 15y + 10. ou (x;y) est une solution de (E).                                 ’\2’
+ b) En déduire que N € S si et seulement SiN= 70[195]. 80;6
+ ¢) Déterminer le plus petit A de S quif€stsupérieur ou égal‘a 2
+ d) Soit n entier naturel non nul. Suppqsons «uele nomb la question précédente, s’écrit
+ COVID dans un systéme de base n, ou lefettre.C, C                      représentant des chiffres distincts de
+ ce systéme. Justifier que n ne peut étre, nigupg e                 ni inférieur a 5 puis déterminer n et
+ préciser I’écriture de A dans ce systéme.
+Exercice 15                                           ®         X
+On considére le systéme (S): { % = _91[23] Q N
+                                  =     9[19
+1. Vérifier que 2023 est solution de (S Q                       .        >
+2. Montrer que t est solution de (S) équivaut a t = 23x — 1 = 19y + 9;0u le couple (x, y) est solution de
+Péquation (E) : 23x — 19y = 10. \                                      v,
+3. Vérifier que le couple (50, lution de (E) puis en déduirefles solutions de (E).
+4. Montrer que le systémg‘ équivalent a t = 275[437] =
+5.a) Montrer que si t estsolufion de (S) alors t'® = 1[437] et t” = 137[437].
+b) En déduire le reste, d ivision euclidienne, de 20232023 par 437.
+Exercice 16(O1 ades Nationales 2018
+1° Résoudre Qg I’équation (E) : 3x — 2y = 1.                                        NS
+2°.a)M tr& , pour tout entier n, le couple (14n + 3,21n + 4) est solution de'(E) TM
+b) En déduire,que Vn € N les deux nombres 14n + 3 et 21n + 4 sont premier entréeux’
+3°.a) Soitd = pgcd(21n + 4,2n + 1) . Justifier qued = 1 oud = 13.                        )
+b) Montrer qued = 13 © n = 6[13]
+4°) Pour tout entier naturel n > 2, on note A = 21n? — 17n — 4 et B = 28n® — 8n% — 17n 3,
+a) Montrer que les deux nombres A et B sont divisible par n — 1.
+b) Déterminer, suivant les valeurs de n, le pgcd(A; B).
+Exercice 17 SC 2020
+
+Dans Cet exercice n est un entier naturel supérieur ou égal a 2.
+1° Montrer que n et 2n — 1 sont premier entre eux.
+
+
+ Lycée d’Atar Chapitre3° série d’Arithmétique classe 7°C 2025-2026 Prof : Med Salem Page 3
+2°Onposea=n—2,b=2n—-1etd = PGCD(a,b).
+        uler b — 2a et en déduire les valeurs possibles de d.
+ )      trer que a et b sont multiples de 3 si et seulement si n + 1 et multiple de 3.
+     i        n3 4+ n% — 6n et q = 2n? + 5n — 3.Jjustifier que p et q sont divisibles par n + 3.
+
+
+
+                  e)S et n sont premiers entre eux.
+                     ions 3°a) et 3°b) que S est égal a d.
+                  PGCD(p, q) en fonction de n.
+4° Déterminer le P q) pour n = 2020.                                                                (Q
+Exercice 18Bac 2019                                                                              (\,
+1. On considére da          quation (E) : 7x — 5y = 1.
+a. Justifier que le co             st une solution de (E) puis résoudre (E).               t
+
+b. Montrer que si (X,y) est 1on de(E) , alors X =3[5]
+                                                      v
+                                                      )
+                                                                                          O A = 4[5]
+2. Dans cette question on se p               éterminer ’ensemble S des entiers relatifs que(, _ 3[7]
+
+a) Soit A un élément de S. Démontrer qu’il existe un couple d’entiers (x,y) I@ =7x+3=5y+4ou(xy)
+est une solution de (E).                                                   \
+
+
+Déterminer n puis en déduire I’écriture decimale *écriture %pt qu’il a partaient a S.
+b) En déduire que A € S si et seulem
+¢) Soit n et a deux entiers naturels (0 <             un entler qui $2éc base de n, sous la forme 374a.
+
+
+Exercice 19
+1) On considére ’équation (E) ; ou x et y sont d; i             clatifs. 2017x +41y =1.
+a) Vérifier que 2017 est un nombre premier puis montre ‘ que l’équation (E) admet des solutions entiers.
+b) Vérifier que le couple (—5; 246) est une solution u)          J
+
+
+Pour la suite de I’exercice on rappel e qu’un entier a
+                                                   est l’ vérse de b modulo 2017 siab = 1[2017].
+2)a) Montrer
+     Soient a etqueb :deuxsiabent=ie0[2017]
+                                     rs relatial%
+                                               fs. (d
+c) Déduire qu’il existe un unique entier y mf                .7 6 tel que : 41y = 1[2017].
+                                                             a2
+
+
+
+                                                    =0[2017] oub .     [2017
+
+b) Déduire que : sia? = 1[2017]       rs (      1[2017] oua =
+¢) Quels sont donc les entiers % valle [1,4033] qui sont égaux a | inverses modulos 2017 ?
+                                                                               )
+
+
+Exercice 20
+
+1.a) Montrer que si 6° » alors 610 = 1[55]
+
+
+b) En ut%&v rithme d’Euclide, donner une solution de (E) puis en dédunrg &e de solution de (E).
+b) En déduire le reste d ivision euclidienne de 633 par 55.
+2) On considére d
+              Qil’equatlon (E)17x —40y =1
+a) Montrer qu             le de solution de (E) est non vide.
+
+
+c) Déterminer le'plus petit entier naturel x, tels que : 17 xo = 1[40]
+
+3) On considére dans Z2, le systé
+                         le syste        x'7 == a[s5]
+                                  me (S) X4     1[55] oua€N                               V
+
+
+
+
+b) Montrer que ’ensemble des solutions du systéme (S") {40 =16[55] = {51+ 55k} &P@
+a) Montrer que six € Z est solution de (S), alors x = a33[55]
+                                                                17 —
+
+
+                                                              [55]
+
+
+
+4%
+ Lycée d’Atar Chapitre3° série d’Arithmétique classe 7°C 2025-2026 Prof: Med Salem Page 4
+

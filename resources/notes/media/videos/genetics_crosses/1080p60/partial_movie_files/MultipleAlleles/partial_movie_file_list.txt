@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/834906505_2239217547_3217026109.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/2844486279_4079250704_2146462303.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/2844486279_4247231909_451944313.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/2844486279_4079250704_3143601341.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/2844486279_4269103975_1540328114.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/2844486279_4079250704_4189980512.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/2844486279_2402285414_1416744221.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/2844486279_4079250704_4153225467.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/2844486279_3332299889_1574830772.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/MultipleAlleles/2844486279_4277570474_2365704190.mp4'

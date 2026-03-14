@@ -1,0 +1,581 @@
+Annale de Physique Terminale C                                 Champ de pesanteur chaambane92@gmail.com
+
+Rappels sur le Champ de Pesanteur a,=0 Uy = VpCOsa
+                                                                    ilay=-g,7|v =—9gt+Vosina et
+                                                                         a, = 0      v, = 0
+
+                                                                          x = (v cos )t
+Un projectile de masse m est lancé a partir d’un point O            OM| y= —%gtz + (vosina)t
+verticalement vers le haut avec une vitesse ¥, a I’instant t=0.          z=0
+
+                                                                    Comme z = 0, alors le mouvement est plan et a.eu lieu dans le
+
+                                                                    plan (Ox, 0y)
+Le projectile est soumis a son poids P
+Condition initiale :
+                                                                                                  x = (v, COS At
+    Vox =p—— -
+             )
+                                                                                                    1
+7 Voy =1y ,OMg | °                                                                         y= —Egl.‘2 + (vysin a)t
+                Yo =0
+
+TCl:P=md=>mi=md >d=4
+                                                                                                              3
+                                                                    soit x = (vycosa)t = t=
+                                                                                                            V.COS @
+
+
+Dans la base (0x,0z)                                                                                    g
+                                                                                            e                 A
+                                                                                     y=
+                                                                                              Zvozcoszax +xtana
+                                                     x=0
+       a, =0               V=0
+   i            =9                    = 0M            1
+      a, =-—g          v, =—gt+v,                y = —=gt*+ vt
+                                                      2
+                                                                    La portée est I’abscisse du point d’impact D d’ordonnée y=0.
+D’ou les lois horaires du mouvements sont :
+
+                            v=gt+v,
+                                                                                g          y                          2vy%cos?a
+                                1 2
+                           y=—5gt°+ v,                               y=—575 5 X txtana=0=x=————Xtana
+                                2                                       2vy2cos?a
+
+                                                                             2v5cos?a sina 2v,icosacosa 2vy%sin2a
+                                                                     =   x =               X            =               =
+
+Si v, est initialement dirigé vers le haut, le mouvement est                        g        cosa                     g           g
+
+
+d’abord uniformément décéléré. Au point maximal v = 0, ensuite                         21,2 sin 2a
+                                                                     Dol = x =
+le mouvement est rectiligne uniformément accéléré vers le bas.                                g
+
+
+
+                                                                    La fleche est la hauteur maximale atteinte par le projectile.
+Au point maximal, v = 0 = v(t) = —gt + v, = 0
+                                                                    Au sommet de la trajectoire : v, = 0.
+                   v                1 (vp\? (7 2%
+     soittma,c:g‘):zmx:—ig(—o) +vo(—°)— .
+                                      T 29                                                     )                      vesina
+                                         9           9 ) 4                  vy = —gt+vpsina =0 = tpe = Og
+                                                          v,
+     La hauteur maximale est : H, . = Zpax = ZL                                        1
+                                                               -            Ymaz = =% Gbmax” + (Vo SIN lingx
+                                                                                            1 (yysinay? .                   vy sina
+    Cas ol %, non paralléle a .                                             :>ymax=—ig( ) + (v sina).
+Un projectile de masse m est lancé dans le champ de pesanteur g                             p—
+                                                                                           vo’sin‘a
+
+avec une vitesse initiale de lancement . Ce vecteur fait avec               = Vax= 29
+
+I’horizontale un angle a, appelé angle de tir.
+
+
+         ¥
+
+
+
+
+              7        n
+   =                   9
+
+   Rl   0
+                                o/
+                           Vox = Vo COS            X =0
+
+- Condition initiale) 7, | Yoy = VoSiN@ OM, |y, =0
+                           Vo, =0                  zp=0
+
+Le projectile-est soumis a son poids P= mg
+T.CIl:mg=md = d=g
+
+
+
+
+chaambane92 @gmail.com                                                                                                          Page 26
+Mécanique                                                                                  Cours sur le champ de pesanteur uniforme
+Annale de Physique Terminale C                                  Champ de pesanteur                           chaambane92@gmail.com
+
+Exercices sur le champ de pesanteur                                     4. Arrivée en D, la bille M, quitte la piste avec la vitesse
+
+                                                                            précédente et tombe en chute libre.
+
+Une bille de masse m=50g est                                            a)) Etablir I’équation cartésienne de la trajectoire de la bille M,
+
+abandonnée sans vitesse initiale                                            dans le repere (o, 1, j ).
+
+au point A d’une gouttiére. En C,                                        b)) Calculer la distance OE.
+
+elle heurte une autre bille M’ de                                      EXERCICE 03                             A
+masse m’=200g .                                                         Une gouttiere ABC sert de
+
+1. Juste apres le choc supposé parfaitement élastique, la               parcours a un mobile supposé
+
+
+ vitesse de la bille M’ est v’=1,6m.s"". En admettant que les           ponctuel, de masse m=100g.
+
+ vitesses sont colinéaires avant et apres le choc, calculer :           Le mouvement a lieu dans un
+
+
+   a)) la vitesse v, de la bille M juste avant le choc ;                plan vertical.
+
+                                                                        1. Sa partie curviligne AB est un-arc de cercle parfaitement
+   b)) la vitesse v de M juste apres le choc.
+
+2. Apres le choc, la bille M’ quitte la gouttiere.                        lisse (04,0B) = %rud ;7 =0A=0B=1m.
+ a)) Quelle est la nature du mouvement ultérieur de M’ ?                  Le mobile est lancé en'A avec une vitesse v, = 5m.sTM*
+ b)) Ecrire I’équation cartésienne de sa trajectoire dans un              verticale dirigé vers le'bas et glisse sur la portion AB.
+
+     repere d’axe orthonormé (CT(, cY).                                 a)) Etablir I’expression littérale de la vitesse v, du mobile
+
+ ¢)) Calculer la distance verticale du point C au point d’impact K          en un point M tel. que (fi,m): 6, en fonction de v,
+     de la bille M’ sur le sol horizontale situé a h=80m de C.              g, ret 6. Calculer numériquement vy, en B.
+
+EXERCICE 02                                                              b)) Etablir "expression littérale de la réaction R de la piste
+
+Dans tout le probleme, on                                                   sur le mobile en M en fonction de m, g, 6, ret v,.
+
+néglige les frottements et                                                  Calculer numériquement R en B.
+
+onprend g=10m s7                                                        2. La portion BC rectiligne et horizontale est rugueuse.
+
+Un pendule simple est
+                                                                          Les frottements peuvent étre assimilés a une force f
+constitué par une bille
+                                                                          unique, constante, opposée au mouvement d’intensité f.
+ponctuelle M;de masse
+                                                                          Sachant que le mobile arrive en C avec une vitesse
+my = 200 g suspendue about d’un fil inextensible de masse
+                                                                           Ve = 5m.sTM. On donne BC=3m.
+négligeable et longueur 1=0,9 m.
+                                                                         a)) Calculer littéralement puis numériquement f.
+1. On écarte le pendule d’un angle o par rapport a sa. position
+                                                                         b)) Calculer I’accélération du mobile et en déduire la nature
+  d’équilibre et on le lache sans vitesse initial.
+                                                                            de son mouvement.
+ La vitesse de la bille M, lors de son passage & la position
+                                                                         c)) Déterminer le temps mis par le mobile pour traverser BC.
+ d’équilibre est v = 3m.sTM*. Calculer la valeur de I’angle .
+                                                                          d)) Enoncer « le théoréme de I’énergie mécanique ».
+2. Lors de son passage a la position d’équilibre; a’ bille M,
+                                                                             Calculer I’énergie mécanique du systeme {mobile ; Terre} en
+ heurte, au cours d’un choc parfaitement élastique, une
+                                                                             B et en C. Conclure.
+ autre bille ponctuelle M, immobile demasse m, = 100 g.
+                                                                        3. En C, le mobile quitte la piste avec sa vitesse V.
+ La vitesse de la bille M, juste apres le choc, est 5m.sTM1 .
+                                                                         a)) Etablir, dans le repere (fify), I’équation de sa trajectoire.
+ Calculer la vitesse de la bille'M, juste apres le choc en
+                                                                         b)) Calculer la distance CD ou D est le point d’impact du mobile.
+ appliquant la conservation/de la“ quantité de mouvement.
+                                                                         c)) Calculer la durée du saut et en déduire la vitesse vp.
+3. La bille M, est propulsée.avec la'vitesse v, sur une piste
+                                                                         d)) Calculer I’énergie mécanique du systeme {mobile ;Terre}
+ qui comporte trois patties : Une partie horizontale AB,
+                                                                               en D. Conclure.
+ Une certaine courbe BC, et Un arc de cercle CD, de rayon r et
+                                                                       EXERCICE 04                                                     o
+ de centre O. Lespoints Q, A, B et E se trouvent dans un méme
+                                                                        On se propose d’étudier la
+ plan horizontal.
+                                                                        trajectoire du centre d’inertie G
+a)) Exprimer, en fonction de m,, g, 1, p e tvc,, I'intensité de la
+                                                                        d’un ballon de football. Le ballon
+    réaction de'la.piste sur la bille M, au point I.
+                                                                        quitte, a t=0s, le pied d’un tireur o¥-"a"--
+b)) La bille M, arrive au point D avec une vitesse horizontale de
+                                                                        de « coup franc » direct avec une vitesse U, situé dans le plan
+    valeur vp = 1 m.sTM'. Calculer la valeur de r.
+                                                                        vertical (O, 7, l?) et fait un angle a, = 60° avec I’axe Oz.
+chaambane92 @gmail.com                                                                                                                Page 27
+Mécanique                                                                                 Exercices sur le champ de pesanteur uniforme
+Annale de Physique Terminale C                                   Champ de pesanteur                              chaambane92@gmail.com
+
+A cet instant le centre d’inertie G est au point O.                                                                             y
+                                                                                                                 figure2 g .
+1. a)) Montrer que le mouvement est plan.
+
+      Préciser le plan du mouvement.
+
+  b)) Etablir I’équation cartésienne de la trajectoire en fonction
+
+      de vy, g, et a,. En déduire la nature du mouvement de G.
+
+2. Le tir est en fait arrété par le haut du « mur » dressé par
+
+  I’équipe adverse. Le mur est situé a une distance d = 6,0m
+
+  du tireur. Sa hauteur h = 1,95m.                                       Dans tout I’exercice, on négligera les frottements de Iair et on
+
+  a)) Calculer la vitesse initiale v, du ballon.                         prendra g=9,8m.s TM.
+  b)) Déterminer le temps mis par celui-ci pour atteindre le mur.        Deux fusées A et B doivent étreliées simultanément a partir de
+
+ ¢)) Etablir en fonction de g, h et v, I’expression de la vitesse v;     deux points O et P situés au sol et distants de d = 30m. Ces
+
+   de G en haut du mur. Calculer sa valeur numérique.                    fusées vont exploser a la date t ='4s, apres leur lancement.
+
+d)) La vitesse v fait un angle ; avec I’axe Oz.                          L’une B est située de P avec unéwitesse Uy verticale, ’autre A est
+
+    Exprimer sina,/sina, en fonction de g, h et v,.                      tirée de O avec une vitesse ¥, inclinée de a par rapport &
+
+   Donner sa valeur numérique. En déduire la valeur de a; .              I’horizontale et situé dans.un plan vertical passant par P.
+
+                                                                                                         1                 1
+3. Si le tir n’était pas contré, a quelle distance D du tireur           On donne : vy = 5L,4m.sTM" et vy = 50m.sTM".
+
+  tomberait le ballon.                                                   1. a)) Montrer que le vecteur accélération est le méme pour
+
+                                                                              les deux fusées.
+
+Un solide S, assimilable a un point matériel de masse m = 0,5kg,           b)) Donner les lois horaires x(t), y(t) ainsi que 1’équation
+
+est lancé du point A avec une vitesse v, = 2m.sTM L.                           cartésienne de trajectoire dans la base (Ox,0y) de chaque
+
+Le solide S est soumis 2 une force constante F horizontale                     fusée. Préciser la nature de leur trajectoire.
+
+s’exercant qu’entre A et B.Les frottements de la piste sont              2:a)).Déterminer I’inclinaison a de la vitesse U, de A pour
+
+équivalents a une force opposée a la vitesse et d’intensité f = 1N            que I’explosion ait lieu a la verticale de P.
+
+1. a)) Déterminer I’accélération de S sur la piste AB et les lois          b)) Quelle est la distance qui sépare les deux fusées au moment
+
+      horaires de son mouvement.                                               de I’explosion?
+
+  b)) Calculer la vitesse de S au point B. En déduire alors                 c)) Les barrieres de sécurité pour les spectateurs sont installées
+
+      la durée t,p et I’énergie mécanique Eg de S en B.                  de facon a respecter la distance 100m des points de lancement O.
+
+2. Le solide aborde maintenant de trongon BO incliné.d’uniangle          Ces spectateurs sont-ils en sécurités lors de la retombée de la fusée
+
+    a = 30° par rapport a 1’horizontale.                                 en cas de non explosion en altitude?
+
+
+  1 atteint le point O avec vitesse v, = 2m.s7t.
+                                                                                                     y
+  L’intensité de la force de frottement est f = 1N.
+
+ a)) Calculer la longueur L = BO de la piste.                                                                Vi \B
+ b)) Calculer I’énergie mécanique E;, de S en O.                                                 OIN* P                         X
+                                                                                         <—>100m 30m 100m
+3. Le solide quitte la piste au point Q.avec la vitesse V.
+
+  Les frottements de I’air sont négligeables (figurel).
+
+ a)) Déterminer les lois horaires du mouvement dans ( Ox, Oy).
+                                                                         Dans ce probléme on prendra g= 10 m.s 2.
+    En déduire I’équation de la trajectoire.
+                                                                         Tous les calculs seront effectués a 10~ 2pres.
+ b)) Calculer la distance OC, C étant le point d’impact.
+
+    Quelle est la durée du saut ?
+
+ ¢)) Calculer I’énergie mécanique E du systeme au point C.
+                                                                                                             b
+    Enoncer le « théoréeme de I’énergie mécanique ».                               4
+4. Le solide quitte la piste au point O avec une vitesse v,
+                                                                                    s 3“                     D
+  précédente (figure2).
+
+a)) Déterminer I’équation de la trajectoire de S dans (O’x, O’y).
+                                                                                                 G%
+b)) Calculer la distance O’C ou C est le point d’impact de S.                           Sol              o
+
+     Données : F= 5N ; AB=1m ; g=9,8m.s 2.
+
+chaambane92 @gmail.com                                                                                                              Page 28
+Mécanique                                                                                Exercices sur le champ de pesanteur uniforme
+Annale de Physique Terminale C                                   Champ de pesanteur                           chaambane92@gmail.com
+
+Un solide (S) de masse m = 50 g, de dimension négligeable,               sol, sachant que le sol horizontal
+
+peut glisser sur une piste ABCD située dans un plan vertical :           se trouve a une distance
+
+- AB est la ligne de plus grande pente d’un plan incliné d’un            r = 0,5m du point B.
+
+angle @ = 30° par rapport a I’horizontale ; AB = 1,6 m.                  c)) En déduire la distance CQ et
+
+
+BCD est le quart d’un cercle de centre I et de rayon R = 0,9m ;          la vitesse de la bille lorsqu’elle
+
+                                                                         touche le sol horizontal en Q.
+C est situé sur la verticale passant par L.
+
+1. On néglige les frottements. (S) part du point A sans vitesse.
+                                                                         Dans I’exercice on négligera les frottements .
+ a)) Calculer sa vitesse en B, en C et en D.
+
+                                                                         Un solide S de masse m=200g glisse surla ligne de plus grande
+ b)) Calculer Iintensité de la force N exercée par la piste sur
+                                                                         pente d’un plan incliné d’un angle & = 60° par rapport a
+    (S)enCetenD.
+                                                                         I’horizontal.
+ ¢)) Donner les caractéristiques de v, de (S) au point D.
+                                                                         1. S part de A sans vitesse initiale.et arrive en B avec une
+2. On néglige la résistance de I’air. A partir du point D, (S)
+                                                                            vitesse vg. On donne AB = L= 1,5m.
+  tombe dans le vide avec la vitesse U, précédente.
+                                                                         a)) Déterminer la valeur numérique de vp ;
+  Le point C est situ€ a la hauteur h = 1,55 m du sol.
+                                                                         b)) Calculer I’accélération de S sur la piste AB et en déduire
+ a)) Donner I’équation cartésienne de la trajectoire du mouvement
+                                                                             la nature de’son.mouyement.
+    de (S) a partir du point D, dans le repere (O ; x, z).
+                                                                         c)) Donner les lois horaires du correspondant et en déduire
+ b)) Jusqu’a quelle hauteur H au-dessus du sol horizontal
+                                                                             la durée du trajet AB.
+     monte le solide (S) ?
+                                                                         2. Au pt B, le plan se raccorde tangentiellement avec une
+  ¢)) Calculer la distance OP ou P est le point d’impact de
+                                                                           piste circulaire (BCO) de rayon r=Im.
+      (S) sur le sol horizontal.
+                                                                           a)) Exprimer la vitesse V en un point M quelconque, en
+3. Dans cette question, la piste exerce au mouvement de (S) une
+                                                                               fonctionder, 6,a, g et vg.
+  force de frottement f , parallele et de sens contraire a sa vitesse
+                                                                           b)) En déduire les vitesses v et v , a son passage par les
+  a chaque instant, et d’intensité constante le long de ABCD.
+                                                                               points C et O.
+  Partant de A sans vitesse, (S) s’arréte en D.
+                                                                           ¢)) Donner I’expression de la force F exercée sur la piste
+ a)) Calculer le travail Wf de la force de frottements entre A etD.
+                                                                               BO en M en fonctionde m, 1, 6, a, g et vg.
+  b)) En déduire I’intensité de la force f .
+                                                                               Calculer sa valeur numérique aux points C et O.
+EXERCICE 08                                                              3. Le solide S quitte la piste en O avec la vitesse v,.
+Une bille de masse m = 50g se déplace sans frottement dans un
+                                                                             a)) Etablir dans le repere (O,x, y) I’équation cartésienne
+plan vertical suivant une piste circulaire ABC de'rayon r = 0,5m.
+                                                                                 de la trajectoire.
+Un systeme de guidage permet de maintenir en.contact permanant
+                                                                             b)) Déterminer I’altitude maximale atteinte par le solide
+avec la piste. On donne a = 30° et o prendra: g=10m.sTM2.
+                                                                                S en son mouvement.
+1. La bille lancée avec une vitesse U, au point A, arrive en C
+                                                                             ¢)) A quelle distance de I’origine O, le solide S va-t-il de
+  avec une vitesse v, =3,75m.sTM" .
+                                                                                 nouveau rencontrer ’axe Ox ?
+a)) Calculer v,.
+
+b)) Avec quelle vitesse Vy la bille passe-t-elle au point B.
+
+¢)) Calculer la réaction Ry qu’exerce la piste sur la bille en B.
+
+2. On suppose que les frottements entre A et C sont équivalents a
+
+  une force unique F parallele et de sens contraire au vecteur
+ vitesse de la bille. Sachantque la bille part en A avec la méme
+
+ vitesse v, calculée précédemment, calculer la vitesse v de la
+
+ bille en C sachant que F = 0,1N.                                        Une bille (B;) de masse m; = 200g est assimilable a un point
+3. On néglige:a nouveau les frottements et la bille quitte la piste en   matériel peut glisser sur une piste ABC situé dans un plan vertical.
+
+  au point-C.avec la vitesse précédente v .                              Piste AB : ligne de la plus grande pente d'un plan de longueur
+
+  a)) Donner I’équation de la trajectoire de la bille dans (Cx,Cy).      2,5m incliné d'un angle o = 30° avec l'horizontal.
+  b)) Déterminer les coordonnées du point Q ou la bille touche le
+                                                                         Piste BC = 2r : ligne dans le plan horizontal (H) qui se
+
+
+chaambane92 @gmail.com                                                                                                              Page 29
+Mécanique                                                                                 Exercices sur le champ de pesanteur uniforme
+Annale de Physique Terminale C                                   Champ de pesanteur                            chaambane92@gmail.com
+
+trouve a une hauteur A = 1,20m du sol.                                   Calculer la distance AB sachant que le point matériel est soumis a
+
+Le point est C extrémité d'un fil vertical de longueur [.                une force de frottement f, d’intensitéf = 1072N.
+L'autre extrémité du fil est fixée au point O toujours sur la            2. On néglige les frottements dur la partie circulaire BC.
+
+verticale contenant C. Le plan horizontal (H) est parfaitement             Calculer la vitesse V- de (S) au point C.
+
+raccordé en B au plan incliné.                                           3. (S) quitte la piste en C avec cette vitessev.
+
+ 1. (B,) part du point A sans vitesse initiale, déterminer la             a)) Etablir I’équation de la trajectoire de S dans:(Ox,Oy).
+
+    vitesse v de la bille au point C                                      b)) Déterminer les coordonnées du point.D ou le‘solide
+
+2. Au point C, se trouve une autre bille (B,) de masse                        touche le sol.
+
+  m,=300g, initialement au repos. (B,) est suspendue au
+
+  point C. Le systeme {(B,) + fil} constitue donc un
+
+  pendule simple. La vitesse de la bille (B,) juste apres le
+
+  choc est v, = 4m.sTM. Le choc est parfaitement
+
+   élastique. Calculer la vitesse de (B,) juste apres le choc.
+
+3. Lorsque (B,) arrive en D avec une vitesse v, = 3,5m.s~ let
+
+    telle que (7(,':07) = 0 = 45°, le fil reste tendu et se casse.       Au cours d'une compétition de basketball au Palais des Sports de
+
+                                                                         Treichville, un-basketteur A, tire en direction du panier constitué
+ a)) Etablir 1'équation cartésienne de la trajectoire y = f(x) de
+                                                                         par un simple cercle métallique, dont le plan horizontal est situé a
+      (B,) dans le repere (m,Ty).
+                                                                         H = 3,05m du sol. Lorsque le ballon est lancé par le joueur A :
+b)) Déterminer la distance EE' ot E' est le point d'impact
+                                                                         le centre G'du ballon est 2 h= 2,00 m du sol ; la distance séparant
+   de (B,) au sol.
+                                                                         les verticales passant par le centre C du panier et G est d=7,10m ;
+4. En réalité les frottements sur la piste AC sont équivalents
+                                                                         sa vitesse v, fait un angle a = 45° avec I'horizontale.
+    a une force f: %171, poids de (B)).
+                                                                         Lepanier est marqué ou réussi lorsque le centre du ballon passe
+  a)) Calculer la vitesse de la bille (B;) aux points B et C.
+                                                                         par le centre du panier. On néglige l'action de l'air sur le ballon.
+  b)) Etudier le mouvement de (B,) sur la piste AC et donner les
+                                                                         Données : g =9.80 m.s” Masse du ballon : m = 0,60 kg ;
+      lois horaires correspondantes.
+                                                                         1. Montrer que 1'équation de la trajectoire de G dans le
+  c)) En déduire la durée totale mise par la bille (B;) pour
+                                                                           repere (Ox ,Oy) est: y = —%xz +x+2
+      atteindre le point C.                                                                                o
+
+
+                                                                         2. Calculer la valeur de v, pour que le panier soit réussi.
+  d)) En supposant que le choc entre (B)) et (B,) est parfaitement
+                                                                         3. Dans la suite de I'exercice, on prendra v, = 9,03m.s 1.
+      mou, calculer la vitesse du systéme S = {B; 4 B,} juste
+
+     apres le choc. Déduire la hauteur maximalesatteinte par S en
+                                                                           a)) Etablir et calculer la durée nécessaire au ballon pour
+
+                                                                               parvenir au centre du panier.
+     son mouvement et I’angle correspondant:
+                                                                           b)) En utilisant le théoréeme de 1'énergie cinétique, calculer la
+
+                                                                               valeur de la vitesse du ballon lorsque le panier est marqué.
+
+                                                                           ¢)) Un joueur B de I'équipe adverse, situé a 0,90 m du joueur
+
+                                                                               A, entre celui-ci et le panier, tente maintenant d'empécher le
+
+                                                                               tir en levant verticalement les bras.
+
+                                                                               La hauteur atteinte par B est 2,70 m.
+
+                                                                            Si le ballon part avec la méme vitesse que précédemment,
+
+                                                                            le panier sera-t-il marqué ?
+
+
+Un solide (S) assimilable:a un point matériel de masse m = 50g
+
+est en mouvement sur une piste constituée d’une partie rectiligne
+
+AB inclinée d’un angle @ = 60° par rapport a I’horizontale et
+
+d’une partiecirculaire BC de centre I et de rayonr = 0,5m.
+
+On donne.8 = m/4rad.
+
+1. Le solide'S‘est lance du point A une vitesse v,=6m.sTM".
+
+  Ilarrive au point B avec une vitesse nulle.
+
+
+
+chaambane92 @gmail.com                                                                                                                Page 30
+Mécanique                                                                                 Exercices sur le champ de pesanteur uniforme
+Annale de Physique Terminale C                                 Champ de pesanteur                               chaambane92@gmail.com
+
+                                                                         2. Le fil si écarté d’un angle de 60° par rapport a la verticale.
+
+Au cours d’un championnat, un                                            La masse m est lancé avec une énergie cinétique de 0,028] et
+
+athléte remporte I’épreuve du                                            arrive a la position correspondante a I’angle 6,5 Brax > 00)-
+
+lancement de poids avec un jet de                                         a)) Calculer cet angle d’écartement maximal 6y;,,.
+
+x; = 19,43m. Le poids a une                                               b)) A ce moment le fil se casse.
+
+masse m=7,35kg.                                                           Donner I’équation horaire de m apres la rapture.
+
+La trajectoire part de A a une hauteur h = 1,80m au-dessus du sol.       (On demande juste une application littéraire).
+
+Le vecteur vitesse U, fait un angle @ = 45° avec I’horizontale.          Données : m=2kg, g=9,8m.s7%; hy = 1,60m;
+On assimile le projectile a un solide ponctuel.                            vy =2m.sTM1; a = 30°.
+1. Etablir I’équation cartésienne de la trajectoire en fonction
+                                                                                                 1
+  de h, tana et g.
+
+2. Déterminer la norme de v, en fonction de h, a, g et x;.
+
+3. Calculer la hauteur maximale h,,,, atteinte par le projectile et
+
+  les coordonnées du vecteur vitesse au sommet de la trajectoire.                     u*                    M
+4. Déterminer la norme du vecteur vitesse du projectile au point C.                                  1h
+                                                                                       E             i Plan
+EXERCICE 14                                                                                               orizontal
+                                                                                                 vy
+Un pendule simple est formé par un fil inextensible de longueur
+
+| = 1m portant une masse m = 100g. On néglige tous les
+
+frottements et on prendra ; g = 10m.s2.
+
+A/ Une bille de masse m = 100g assimilable a un point matériel
+
+est reliée a un point fixe I par I’intermédiaire d’un fil inextensible
+
+de longueur [ = 1m et de masse négligeable. Le fil est écarté de sa
+
+position d’équilibre d’un angle 8,=60°. La bille est lancée vers le
+
+bas avec un vecteur vitesse U, perpendiculaire a (IA).
+
+ 1. Calculer la vitesse v, de la bille quand elle passe a la
+
+    position d’équilibre. AN :v; = 4m.sTM %
+
+ 2. Pour une position quelconque de M de la bille sur la‘trajectoire
+
+   circulaire, repéré par I’angle 6, établir les expressions
+
+ a)) De la vitesse v de la bille en fonction de vy, g,1, 6, et-6;.
+
+b)) De la tension T du fil en fonction de m, v1,9,1,0, et.0,,
+
+3. A partir de I’expression de la tension du fil, déterminer la
+
+  valeur minimale de la vitesse v; pour que labille fasse un
+
+ tour complet, le fil reste tendu au cours du mouvement.
+
+B/. Le pendule est lancé du point A avectine yites
+
+    v; = 6,25m.s7*, le fil casse awpassage a la verticale &
+
+  un instant pris comme origine des dates.
+
+1. Calculer la vitesse de la bille quand elle passe en O.
+
+2. Déterminer dans le repére ((Ox, Oy) I’équation de la trajectoire
+
+  de la bille apres la rupture du fil.
+
+3. La bille touche un plan situé a h = 1m au-dessous de O,
+
+  en point C. Déterminer.|’abscisse de C.
+
+C/. Le systeme est maintenant utilisé comme un pendule conique.
+
+ 1. a)) Si la vitesse de rotation est N=1,5Hz , trouver la
+
+        tension.du fil et le demi angle au sommet 1.
+
+   b))'Sila demi angle au sommet est 6,=60°.
+
+       Trouver la vitesse de rotation N en tr /s.
+
+
+chaambane92 @gmail.com                                                                                                             Page 31
+Mécanique                                                                                Exercices sur le champ de pesanteur uniforme
+

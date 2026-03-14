@@ -1,0 +1,523 @@
+   7C Islah Erraid                                                                 2025-2026
+
+                    Exercices sur les nombres complexes (C R)
+                                                                             *
+
+ Exercice01 : Soit U I'ensemble des nombres complexes de module let U =U-{1} .
+
+ Soit P le plan complexe muni d'un repére orthonormé directe d'origine O.
+
+
+ 1) Montrer que quel que soit u € U ; le point M d'affixe z=1-u appartient au cercle.de centre A
+ d'affixe 1 et de rayon r=1.
+
+
+ 2) Montrer que quel que soit ue U:le point N d'affixe z'=1i—“ appartient & la médiatrice de [0A]
+
+ 3) Soit B le point d'affixe b (b#0).Montrer que quel que soit u € u le point.Q d'affixe b(1-u)=z"
+ appartient au cercle de centre B passant par O.
+
+
+ ExerciceO2: Soit (C) le cercle de centre A(1,0), de rayon 1-Pour.tout point M distinct de O
+ du cercle (C), on considére le point M', symétrique de M par rapporta (x'Ox).
+
+
+ 1) Expliquer pourquoi |'affixe z du point M peut se mettre sous la forme z=1+e° ,
+ ©e]-mn,mx).
+
+
+
+ 2) Déterminer |'affixe z' de M'. 3) Calculer le quotient en fonction de 0.
+                                                      z'-1
+
+ 4) Déduisez-en les points M de (C) pour les quels :
+
+
+ a) AM' et OM sont colinéaires. b) AM' et OM sont orthogonaux.
+
+                            2"
+ Exercice03 : Soitz=¢ 7 . On poseq.=Z+z" +z*.
+
+ 1. Caleuler o+ etao.
+
+                              27 47 8t V7                         2n 47 8n 1
+ 2. En déduire que :    sin— +sin— +sin— = et que €OS— +COS— +COS— =—
+                           7     7     7 2           7     7     7
+
+
+ Exercice04 :1) Résoudre-dans C I'équation : 4z%> — 23 ez +e?® =0; 0 €[0x.]
+
+2) Mettre les solutions/sous forme exponentielle.
+
+3) On munit le plan complexe d'un repére orthonormé direct (0;u V) .
+
+
+ on désigne par Mj ; M, les points d'affixes z; = (c+l) e, z, = (‘/_4 ’) elf
+      s .                        .    .   g            3+ i             3-i\ i
+
+
+
+a) Montrer que M, et M, appartiennent & un méme cercle dont on précisera le centre et le rayon .
+
+
+b) Montrer que jul F5 B
+                zy
+                      1+iV3
+
+                        2
+
+
+
+
+         I8 7C                       Nombres complexes Prof : Brahim/Sid’
+            Ahmed
+c) En déduire que O MM, est un triangle équilatéral.
+
+
+4) a) Montrer que( u; M;M,) = 6 —g [2m].
+b) Déterminer 6 pour que la droite (M;M,) soit paralléle & la droite d'équation y = —x
+
+                                                 1+i       .
+5) Résoudre dans C I'équation : 4z* — Zfi(% z22+i=0
+
+ Exercice05 : On considére le polynsme : P(z)= (i—1)z3+(11-5i)z% —(43+i)z+9+37i
+
+     1) Calculer P(i) puis Résoudre I'équation P(z)=0
+        Dans le plan rapporté a un repére orthonormé (0 ,u,v ) ,on désigne par_A :B ;C ;A' et
+        I les points d'affixes respectives i, 5-2i, 3+4i,—iet 1
+     2)a) Placer Les points sur une figure
+        b)Soit r le quart de tour direct de centre I ,reconnaitre les images de A
+        et B par r et en déduire que les segments [AB] et [CA'] sont perpendiculaires
+        et de méme longueur
+     3)Pour tout z+i on pose : z'=—22*3
+                    ;             i —iz—4430
+                                               et soit f I'application quita-tout point M d'affixe z
+                                   z—i
+
+        associe le point M' d'affixe z'.
+    a) Montrer que : OM' =% et que (u,0M")=-7 + (MA,.MC.) [27]
+     b) Déterminer I'ensemble des points M'lorsque M décrit'la médiatrice [AC]
+     c)Déterminer I'ensemble des points M lorsque M’ décrit la droite (0 ,u )
+    4)a) Calculer le produit (z'+i)(z—i) et en déduire. que :A'M'xAM=3V2 et que:
+          G A°M" ) +(i ,4M) =% [2n]
+    b) Déterminer une mesure de (i,AC) et préciser I'image de la droite (AC) privée de A par f.
+
+  c)Déterminer aussi I'image de la droite (AI) privée de A par f.
+
+   d) Reconnditre I'image du cercle de centre A et passant par C.
+
+ Exercice06 : Soit 6¢[0, 7] et ( Ey) I'équation dans C définie par :
+
+                  (1-i)z®> — 2(cos@+sin@)z+1+i=0
+
+ 1°) On note z; et z, les solutions de ( E;) avec Im(z;) >0 pour tout O¢€[0,m]
+
+
+  a) Sans calculer z; et z, “vérifier que z, = o Et trouver alors une relation entre les
+                                                      1
+
+ modules et les arguments de z; et 2z,
+
+  b) Résoudre I'équation’( Ej )
+
+  c)Ecrire z, et z, “sous forme exponentielle Calculer 6 pour que z; = 2,
+
+ 2°) Le plan complexe est rapporté & un repére orthonormé (O ; U ;U ) . On noteM; et M, les
+ images des solutions z; et z, de ( Eg)
+
+
+ a) Déterminer les lieux (C;) de M, et ( C,) deM,
+
+  b)Vérifier que (Cy) et (C;) sont symétriques par rapport a la droite A:y =x.
+
+
+
+
+        2 s                        Nombres complexes Prof : Brahim/Sid’
+            Ahmed
+3°)a) Déterminer la valeur de 6 pour la quelle M, est limage de M, par la rotation de centre O
+et d'angleZ” puis construire M, et M, dans ce cas .
+
+b) Calculer z;   2012 4z
+                            22012 dans ce cas
+
+Exercice07 :
+
+  1. Soit P(z) =2’ —diz’ -6z + di o0 z est un nombre complexe.
+  a) Caleuler P(2i) puis résoudre dans C 'équation P(z)=0.
+  On no ter a z,, z, et z, les sol utio ns de cet te équ ation ave c Re (z, )> Re (z, )> Re (z,) . V n
+  b) Ecrire sous forme exponenticlle chacun des trois complexes z,, z, et Z;. ()D
+
+                                              ol ) - i-H( ‘)
+  ¢) En déduire les solutions de I'équation (lz+             - 65—'@
+                                                          z+i z+i
+                                                                     4: =
+                                                                       Ov
+  2. Dans le plan complexe muni d'un repére orthonormé direct (0 eA. B,C
+  et D les points d'affixes respectives z, =2,,2, =2, 2. =2, el 2, =                        . Z, et z, sont
+  ceux définis au-dessus).
+  a) Préciser les affixes des points A, B et C puis déterminer la na                         ngle ABC.
+  b) Déterminer I'écriture complexe de la similitude directe S de @ telle que
+  S(B)=C
+
+  3. Soit (M) Ia suite des points définie par M, =B & Vne IC\), =S(M,).
+  a) Montrer que ¥n e N, le triangle AM_M__, est rectangle isogéle direct en M, .
+  b) Montrer que Vi &1 les points A, M et M, sont et que My, €(AD)
+
+
+
+Exercice08 :
+
+ Le plan complexe est muni d’un repére orthonorm LUy
+
+ 1) a- Soit a un nombre réel, résoudre dans I’ens de nombres complexes I’équation d’inconnue z :
+        (1+i)z2 —2(a+1)z— (-1+i)@’ + D= o
+                                                ar rs expressions complexes f:z—>z'=1-iz et
+  g:zrz"=z-i. Determmerlanlture* "2 nents caractéristiques de chacune des transformations f
+ b- Soient f et g les transformations donn s
+
+
+ etg.                                   L 4
+
+
+
+
+ 2) a- Montrer que le triangle IM l2 gle en I, isocéle et direct.
+ Dans le reste de I'exercice on conside >     ints I, M, et M, d’affixes respectives z, =1—i, z,=1-ia
+
+ et z,=a—i ol a=e", ae .2
+
+
+ b- Préciser les lieux géomemq hacun des points M, et M, lors que o décrit Iintervalle 0,
+
+ c- Ecrire z, et z, sous fo lle pour o. appartenant a I'interv: alle]() :I:
+ 3) Soit M, le point d 1sma+ ia et soit G I'isobarycentre des points M,, M, et M,
+                  (—
+ a- Veérifier que z,
+                     1 + 2sino) puis montrer que, ponrae}),n[, le point G appartient a
+ une ellipse I’ d t on nera une equanon.
+ b- Préciser |   ets et I'excentricité de I' puis la construire dans le repére précédent.
+
+
+
+Exercice09 :Soit I'équation (E ) :z* = —16.
+
+1) a) Montrer que si Zo est une solution de (E ) alors (-20) est aussi solution cd (E ). b)
+Résoudre dans C ( E ) .On donnera les solutions sous forme exponentielle et cartésienne.
+
+
+
+
+        ey 7C                         Nombres complexes Prof : Brahim/Sid’
+            Ahmed
+                               V21
+2) a)On pose z= u—_'; ouu€ C—{1} . Exprimer u en fonction de z .
+
+    b) Résoudre I'équation :(v2u)* = —16(u— 1)*
+
+ExercicelO :
+
+                           ni d’un rep ere Orf hon orm e (U3, V). FOU r LOU L IIUI LDI S LUL LPI CAS & Uil oSk, -
+   Le plan complexe est mu
+  P(z)=2' ~(4+60)z* +(-6+16i)z +12—4i .
+  1.a) Calculer P(1+i).
+  b) Détermine r deu x nom bre s a et b tels que pou r tout nom bre com ple xe z on a:
+   P(z) = (z—1-i)(z* +az+h) .
+    ¢) Déterminer les solutions de I’équation P(z)=0.
+  2.2) Placer les points A, B et C im ages des sol uti on s de I’éq ua tio n P(z )=0 sachan t q
+   |z, )24 | €| 2¢ | Déterminer la nature du triangle ABC.
+  b) Montrer qu ’il exi ste une  uni que   sim ilitu de  dire cte s de cen tre A  qui  tran sfo rme C'e  n B.
+  ¢) Donner I’expression complexe de s. Déterminer le rapport et un angle de s:                                    que :
+  3} On considere la tran   sfo rm atio n f qui  4 tou t po  int  M d’affix e z ass oci e le M”  d’a ffix e z' tel
+   z'= Tz-fl . Pour tou t ent ier nature l m on pos e : f'= f et £" = s , On défi nit une suite de poi r
+   (M,) par My=C et M, =f"(M,).
+      a) Reconnaitre la transformation f et déterminer ses éléments caractéristiques.
+      b) Déterminer la nature du triangle AM M.
+      ¢) Calculer en fonction de n la somme : S, = MM, +MyMp +: M My, -
+      d) Calculer la limite lim S, et I'interpréter.
+                              Hpboo
+
+
+
+Exercicell :1°Exprimer les racines uk dans C'de I'équation : u’ = 1 en fonction des nombres
+                     2k
+             BRZTH ou ke{0;1;2;3;4;5;6}
+                                                                olf
+
+2°Soit 6 €]0;2m[ .écrire le nombre complexe sous la forme x+iy
+                                                               elf—1
+
+3) Résoudre dans C l'équation z7/= (z— 1)7
+
+Exercicel2 :1)Résoudre dans'C les deux équations d'inconnue z.
+
+          6=1                              z-2i\6 __
+  a) z                           bY ,         e =1
+
+
+2)Soit a un nombre complexe ‘et soit ( E ) I'équation : ) (ZIZ’:)G =a.        Z+4al
+
+
+
+On appelle A et B les points d'affixes respectives 2i et -2i et M le point d'affixe z .
+
+                                                                      MA
+ a))Mo
+  )) ntrer       z.vérifierI'équation
+       que si z.vérifier    I'é       ( E) alors ==
+                                                 : 2= = /|al.
+
+
+  b)Prouver que'si (E) a au moins une racine réelle alors |a| = 1.
+
+    c) En.conclure que si ( E ) a au moins une racine réelle alors toutes ces racines sont des
+réelles
+
+
+Exercicel3 :
+
+
+          a 7C                           Nombres complexes Prof : Brahim/Sid’
+            Ahmed
+ 1) Pour tout complexe z on pose P(z) = z° —2iz? — 2z +i
+ a) Montrer que P(2) = (2% —i3) — 2iz(z — i)
+ En déduire une racine imaginaire pure de P puis résoudre |'équation P(z) = 0
+ 2) soit Q(2) = z% — 2iz%e'® — 2ze'2% + je®3%
+ a) Montrer que Q(2z) = e3% x P(z x eTM*) , puis résoudreQ(z) = 0.
+ b) En déduire les solutions de I'équation z> — (1 + iV3)z? — (1 - iV3)z+1=0
+  (Déterminer d'abord la valeur de )
+ c) Ecrire les solutions sous forme exponentielle
+                                             g
+
+
+
+
+ 3) Pour tout # %i , on pose f(z) = zzz_jil'
+                                    ‘                      1
+ a) Montrer que si f(z) = €'? alors z =                        7 -
+                                                       2t9®
+ b) En déduire une écriture algébrique des solutions de I'équation.
+
+    (21+,-)3 _ (1 + i\/§)(22+i)2 _ (1 _ i\/g)(zui) +1=0.
+     2z—i                   2z—i                    2z—i
+
+
+
+Exercicel4
+
+  Exercice 1 (4 points)
+         Dans P'ensemble des nombres complexes, on considére i*équation (E) d'inconnue z:
+
+    z' ~2z+1-¢TM =0 ol est un parametre réel appartenant [0,2z].
+    1.a) Résoudre I’équation (E) et on note z, et z, ces deux solutions.                               (1pt)
+     b) Discuter suivant les valeurs du paramétre 6, le modulé-et un-argument de z, et de z,.          (0,5pt)
+    2. On considére le plan complexe muni d’un repére orthonormé (O;E,;) et soient M, et M, les
+    deux points d’affixes respectives z, et z,.                                                  )
+     a) Montrer que lorsque € décrit [0,21!{ alors fes pownts M, et M, décrivent un cercle I" de
+    centre A(1,0)dont on déterminera e rayon, ¢t que la'droite (MM, ) passe par un point fixe que
+    l'on déterminera.                                                                                  (1pt)
+
+     b) Représcnter M, et M, sur I, dans I¢'cas ol © = g                                               (0,5pt)
+    3. Pour tout entier naturel n tel que n= 2/ onconsidére I’équation(E, ) d'inconnue complexe z :
+    (z—1)" —eTM =0 ol 6 est un parametre réel appartenant a [0,2x].
+     a) Déterminer les nombres (z, )-solutions de 1’équation (E ).                                     (0,25pt)
+     b) Montrer que z, +z, +--+ 25 =R,                                                                1 (0,25pt)
+
+     ¢) Montrer que les points M, d’affixes z, appartiennent au cercle I".                             (0,25pt)
+     d) On pose S, =M M, +M M, +---+M_ _ M, . Calculer S en fonction de @ et n, puis
+    montrer que ..'_l.'f'. S, =2, interpréter cette limite.                                            (0,25pt)
+
+
+ Exercicel5:Dans Le plan complexe rapporté a' un repére orthonormé (0; i,V )..On donne
+A(—i)et B(i).Soit f I'application de P — {4} dans P —{B} , qui a tout point M(z) associe le
+
+ point M'(z") tel queTM: z'= izz:il
+   1) On suppose/que M+ AetM # B .
+
+       a){_Montrer que : (fiO—M) =2+ (MA,MB) [2m]
+       b)._En'déduire I'ensemble des points M(z)tel que z' soit un réel
+   2)-.Soit dans C l'équation (F) : (iz+1)3= (z+1i)3
+       a) Montrer que si z est une solution de (F) alors z est un reel .
+                                                                                               1+itga
+       b) Soit a € ]— g g[ Donner la forme exponentielle du nombre complexe                    i+tga °
+
+
+       BN 7C                        Nombres complexes Prof : Brahim/Sid’
+           Ahmed
+            En déduire les valeurs de « tels que tga est une solution de (F)
+
+  3) Soit 6 €10, 2 [.
+
+
+       a) Résoudre dans C I'équation 2% — 2iz + 2ie'® — % = 0.
+       b) On désigne parM, et M, les points d'affixes respectives Z; = e?® et Z, = 2i — "
+         i)          Montrer que M, et M, sont symétriques par rapport d'un point fixe quel'on
+                     précisera.
+         i)          Trouver I'ensemble décrit par M, et M, lorsque 6 varie.
+        iii) Montrer que M, MZZ = 8(1—sin@), Déduire la valeur de @ pour lequel la
+                     distance M; M, est minimale                                                 P
+Exercicel6 :
+Le plan complexe est muni d’un repére orthonormé(O,i;]) . Pour tout ’nomb,re complexe z on pose :
+P(z)=2"+(1-2i)2" - (5+3i)z+4-8i
+1° Calculer P(-i)et En déduire I’ensemble des solutions de I'équation®(z)=0.
+2°Onnote A, B et C les images des solutions de I'équation P(z) =0tels que|z,|<|z,|<|z.|.
+a) Placer les points A, B et C puis déterminer la nature du triangle ABC .
+b) Soit G le barycentre du systéme {(A;D),(B;—Z),(C;ti)} . Nérifier que z_ =2i puis placer G .
+¢) Déterminer et construire ’ensemble E des points M du plan tels que 9MA®’ — 2MB? + 6MC” =195
+d) Déterminer et construire I’ensemble F des points M du plan tels que 3MA” - SMB? + 2MC? = 65
+¢) Préciser la position relative entre les deux ensembles'E et F.
+3° Soit fla transformation d’écriture complexe z’ =mz#(2 ~ 2m)i 0l m est un nombre complexe.
+a) Résoudre I'équation z' = z (discuter suivant les valeurs de m).
+b) Déterminer la valeur de m pour que f(B)= A, puis caractériser f dans ce cas.
+
+Exercicel7 :
+  L. Soit m un nombre complexe non gt"Pour tout nombre complexe z, on note
+  P(z) =22’ ~(4-2i+2m)z’ +(m‘ + pmhfi *2- .\l)z (m+ 1)(m ~1i)
+ 1. Résoudre, duns C, I’ équn(hfi Zi’ 201 =14+ m)z+(m+1)(m-i)=0.
+ 2. Calculer P(1) et en dcdulrg!@ splutions, dans C, de I'équation P(z)=0
+ 11, Le plan complexe est mni@ un repére orthonormal direct (0;4,¥).
+ On considére les points, ?\, B,C, M, M, et M, d’affixes respectives
+
+  z, =lz,= lz‘.—l kz‘,,! m, 7, —l.‘—'gf—l)-‘;—tn"—) Zy, =2, = (_l—i)(:olm_).
+  1. Préciser les lrynfi“fninflons f et g telles que, pour tout me C°, (M) =M, et g(M) =M,
+ 2. Montrer qug’ ‘t,_y‘ ~iet en déduire que M, =R(M,) oit R est une rotation & préciser.
+ 3. On suppfic‘}dfil‘ns cette question, que M déerit le cercle de diamétre [AB] privé de O.
+  ") Délcnflitgr le lieu géométrique du point M, .
+
+  b) Ju.llfiw ch. si m#-inlors 2. —llflll puis en déduire que les points M, M, et M
+                                           %, ~m        +m
+
+
+  som»‘\,‘l’ig'nh.
+Exercicel8 :
+
+
+
+       (W 7C                         Nombres complexes Prof : Brahim/Sid’
+            Ahmed
+  1. Soit P(2) =2" —4iz* =6z + 4i o0 z est un nombre complexe.
+  ) Caleuler P(2i) puis résoudre dans C I'équation P(z)=0.
+  On notera z,, z, et z,laulutloud'ceeméquuoum Re(z,) > Re(z,)> NQ
+  b) Ecrire sous forme exponenticlle chacun des trois complexes z,, 7, et Z;. (\/
+
+  ¢) En déduire les solutions de I’équation (lz+i      ' ‘) -6‘—’1
+                                               ') -4!(z+i      z+i
+                                                                   -0-41-
+  2. Dans le plan complexe muni d'un repére orthonormé direct (O; i, vhu& B,C
+  et D les points d’affixes respectives z, =2,, 2, =2, 2. =Z, el Z,                                   z, et z, sont
+  ceux définis au-dessus).
+  a) Préciser les affixes des points A, B et C puis déterminer la                                 triangle ABC.
+  b) Déterminer I’écriture complexe de la similitude directe S d                                 A telle que
+  §(B)=C
+  3. Soit (M, ) la suite des points définie par M, =B & V                                     ot =S(M,).
+  a) Montrer que Vn e N, le triangle AM_M_, est                                               directen M, .
+  b) Montrer que Va & N; les points A, M, @M,                                            et que My, €(AD)
+Exercicel9bac 2006SC): -                                                                  -
+        On considére, dans I'ensemble des nombres comple tion suivante : (E )                        (u)“ (z+2i)"
+20 1 est un entier supérieur ou égal & 2,
+|.a) Déterminer et écrire sous forme trigonométrique | %s z, et z, de I'équation (E ) ou z, est la solution
+ielle que : Re(z,) < 0. (0.5p1
+
+
+ b) Posons: u = —i}z Montrer que : Vp !w +(u) Zcos( ) (ou u estle conjugué de u.) (4.5p1)
+
+                                             )-ZC"z" [ TJ
+ c) On considére I'application f définie de l              e des nombres complexe sur lui-méme par :
+
+
+
+
+Montd) Résoudre,
+        rer que: dansf(z) =l’c%klnwmb@)
+                                  + uz) %f]res compl(0.5epxes,i) 1'équationf(z) = 0.1, 5p1)
+   2. On considére dans \              mplexe muni d’un repére orthonormé direct (();I-l, ;) les deux points A(=2i) et
+   M(z) ol z est un no              plexe
+     a) Montrer que s% ution de (E, ) alors OM = AM .10, 5p1)
+                             t
+
+     b) En déduire fue towe solution de (E, ) peut s’écrire sous la forme a—i ol & est un réel. (4,5p0
+   3.a) Résoud@ nsemble des nombres complexes, I'équation (E. ).(0.5pn
+     b) MontreRgge lgs solutions de (E_) peuvent s’écrire sous la forme :
+
+
+        vz                                          4n
+                                   zZ, =-i+ tan(E - 5"—] onke {0, ) N = l},m.spu;
+
+
+
+
+             7C                        Nombres complexes Prof : Brahim/Sid’
+             Ahmed
+ Exercice20:
+
+ 1) Résoudre dans C I'équation (E) :z%>— (3+5i)z—2+9i=0.
+ 2) On considére le polyndme P(z) =z — (3 +7i)z2 - (12-15i))z=4i=18.
+ a) Montrer que toute solution de ( E) est une solution de I'équation P(z) = 0
+ b) Résoudre I'équation P(z) = 0.
+ 3) Dans le plan complexe ( 0,1,7), on considére les points A, B et C d'affixes respectives
+    2i , 2+i , 1+4i.
+ a) Déterminer la nature du triangle ABC.
+ b) Trouver I'affixe du point D tel que le triangle ABD soii rectangle isocéle en Bet direct.
+ ¢) Trouver I'affixe du point E tel que le triangle ABE soit équilatéral direct.
+
+   4) On considére la suite (Z,) définie par Z,= (1+ )" .
+
+        Dans chacun des cas suivants, déterminer I'ensemble des entiers naturels n tels que :
+
+ a) Z, est un imaginaire pur.                               b)Re(Z,) =
+ Im(Z,).
+
+
+
+
+Exercice?2l : Le plan complexe est rapporté a un repére.orthonormé( 0,1 ,%)
+
+1) Calculer |11__lzz+l| x|z+il ,(z#1)
+2) On considére le point A d'affixe 4 — 2i, Déterminer I'affixe du point B tel que OAB soit
+un triangle équilatéral direct.
+3) Soit D le point d'affixe 2i
+a) Déterminer et représenter I'ensemble ( E)des points M d'affixe z + 2i tels que
+                  Arg(z - 2i) = :—'[Zn].
+b) Déterminer et représenter |'ensemble ('F)des points M d'affixe z = 2i + 2eTM* ,ou x est un
+réel.
+
+                                                                 v     z-1
+4) A tout point M(z # —2) on associe le point M'(z") tel que z = i?
+
+   Déterminer représenter I'ensemble des pointsM d'affixe ztels que |z'| = k,k > 0.
+
+5) Soit zun nombre complexe de module 1 etz # 1,montrer que g est imaginaire pur.
+
+6) soit zun nombre complexe z * —i
+
+
+a) Montrer que Ifll  =1 < zest un réel. b) Montrer que Im(z) >0 <
+                                                                                   z—i
+                                                                                         =1,
+                1-iz                                                               z
+
+
+
+
+                                                             z+2i
+8) représenter I'ensemble des points M d'affixe ztels que € R;.
+                                                            (1=i)z-1
+
+
+
+9)a et b'deux nombres complexes, montrer que |a —b| = |1—ab| < |a|=1ou|b|=1.
+
+                                                             z+2i
+8) représenter I'ensemble des points M d'affixe ztels que € R;.
+                                                            (1=i)z-1
+
+
+
+9)aet b deux nombres complexes, montrer que |a —b| =|1—-ab| < |a|=1ou|b|=1.
+
+
+
+
+        kl 7C                     Nombres complexes Prof : Brahim/Sid’
+         Ahmed
+

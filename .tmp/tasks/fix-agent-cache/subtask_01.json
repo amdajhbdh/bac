@@ -1,0 +1,25 @@
+{
+  "id": "fix-agent-cache-01",
+  "seq": "01",
+  "title": "Fix usearch.go struct issues",
+  "status": "pending",
+  "depends_on": [],
+  "parallel": false,
+  "context_files": [".opencode/context/core/standards/code-quality.md"],
+  "reference_files": ["src/agent/internal/cache/usearch.go"],
+  "suggested_agent": "CoderAgent",
+  "agent_id": null,
+  "started_at": null,
+  "completed_at": null,
+  "completion_summary": null,
+  "acceptance_criteria": [
+    "Fix: cache.db should be cache.pg (line 107)",
+    "Fix: Remove or rename duplicate CacheStats struct (redis.go line 184)",
+    "Fix: Add Size/MaxSize/Dimension fields to CacheStats or fix Stats() method",
+    "Fix: Remove unused 'encoding/json' import",
+    "Agent builds successfully"
+  ],
+  "deliverables": ["src/agent/internal/cache/usearch.go (fixed)", "src/agent/internal/cache/redis.go (fixed if needed)"],
+  "bounded_context": "cache",
+  "module": "@bac/agent"
+}

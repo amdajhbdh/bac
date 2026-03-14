@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAC Deep Dive - All Topics</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+    .topic { background: white; margin: 20px 0; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .topic h2 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+    .section { margin: 15px 0; padding: 15px; background: #ecf0f1; border-left: 4px solid #3498db; }
+    .section h3 { margin-top: 0; color: #2c3e50; }
+    .fr { color: #e74c3c; font-style: italic; font-size: 0.9em; }
+    .questions { background: #fff3cd; padding: 15px; border-radius: 5px; margin-top: 15px; }
+    .questions h4 { color: #856404; }
+    .questions ol { margin: 10px 0; }
+    .questions li { margin: 5px 0; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <h1>BAC Examination - Complete Deep Dive</h1>
+  <p>All topics with French translations and potential exam questions</p>
+<div class="topic">
+      <h2>Complex Numbers <span class="fr">Nombres Complexes</span></h2><div class="section">
+        <h3>Definition & Representation <span class="fr">Définition et Représentation</span></h3>
+        <pre>
+## Definition
+A complex number z = a + bi where a, b ∈ ℝ and i² = -1
+
+## Représentation
+- Rectangular form: z = a + bi
+- Polar form: z = r(cos θ + i sin θ) = r·e^(iθ)
+- Exponential form: z = r·e^(iθ)
+
+## Key Properties
+- Modulus: |z| = √(a² + b²)
+- Argument: arg(z) = θ
+- Conjugate: z̄ = a - bi
+        </pre>
+      </div><div class="section">
+        <h3>Operations <span class="fr">Opérations</span></h3>
+        <pre>
+## Addition & Subtraction
+(a + bi) + (c + di) = (a+c) + (b+d)i
+
+## Multiplication
+(a + bi)(c + di) = (ac - bd) + (ad + bc)i
+
+## Division
+(a + bi)/(c + di) = [(a + bi)(c - di)]/[(c + di)(c - di)]
+
+## De Moivre's Theorem
+[r(cos θ + i sin θ)]^n = r^n(cos nθ + i sin nθ)
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Solve z² + 2z + 5 = 0</li><li>Find |z| and arg(z) for z = 1 + i√3</li><li>Express (1 + i)^8 in rectangular form</li><li>Find all cube roots of 8</li><li>Prove that |z₁z₂| = |z₁||z₂|</li><li>Solve z⁴ = -16</li><li>Find the locus of points where |z - 1| = |z + 1|</li><li>Express e^(iπ/4) in rectangular form</li></ol></div></div><div class="topic">
+      <h2>Integrals <span class="fr">Intégrales</span></h2><div class="section">
+        <h3>Fundamental Theorem <span class="fr">Théorème Fondamental</span></h3>
+        <pre>
+## Definition
+∫f(x)dx = F(x) + C where F'(x) = f(x)
+
+## Fundamental Theorem of Calculus
+∫ₐᵇ f(x)dx = F(b) - F(a)
+
+## Basic Integrals
+- ∫xⁿ dx = x^(n+1)/(n+1) + C (n ≠ -1)
+- ∫1/x dx = ln|x| + C
+- ∫eˣ dx = eˣ + C
+- ∫sin(x) dx = -cos(x) + C
+- ∫cos(x) dx = sin(x) + C
+        </pre>
+      </div><div class="section">
+        <h3>Integration Techniques <span class="fr">Techniques d'Intégration</span></h3>
+        <pre>
+## Substitution Method
+∫f(g(x))g'(x)dx = ∫f(u)du where u = g(x)
+
+## Integration by Parts
+∫u dv = uv - ∫v du
+
+## Partial Fractions
+For rational functions: decompose into simpler fractions
+
+## Trigonometric Substitution
+- For √(a² - x²): use x = a sin θ
+- For √(a² + x²): use x = a tan θ
+- For √(x² - a²): use x = a sec θ
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Calculate ∫₀¹ (3x² + 2x) dx</li><li>Find ∫ x·eˣ dx using integration by parts</li><li>Evaluate ∫ 1/(x² + 1) dx</li><li>Calculate ∫₀^(π/2) sin²(x) dx</li><li>Find ∫ (2x + 1)/(x² + x + 1) dx</li><li>Evaluate ∫ √(1 - x²) dx from -1 to 1</li><li>Calculate ∫ x/(x² + 4) dx</li><li>Find the area under y = e^(-x) from 0 to ∞</li></ol></div></div><div class="topic">
+      <h2>Matrices <span class="fr">Matrices</span></h2><div class="section">
+        <h3>Matrix Operations <span class="fr">Opérations Matricielles</span></h3>
+        <pre>
+## Basic Operations
+- Addition: (A + B)ᵢⱼ = Aᵢⱼ + Bᵢⱼ
+- Scalar multiplication: (kA)ᵢⱼ = k·Aᵢⱼ
+- Matrix multiplication: (AB)ᵢⱼ = Σₖ Aᵢₖ·Bₖⱼ
+
+## Properties
+- (AB)C = A(BC) (associative)
+- A(B + C) = AB + AC (distributive)
+- AB ≠ BA (not commutative)
+- (AB)ᵀ = BᵀAᵀ
+        </pre>
+      </div><div class="section">
+        <h3>Determinants & Inverses <span class="fr">Déterminants et Inverses</span></h3>
+        <pre>
+## 2×2 Matrix
+det(A) = ad - bc for A = [[a,b],[c,d]]
+A⁻¹ = (1/det(A)) × [[d,-b],[-c,a]]
+
+## 3×3 Matrix (Cofactor Expansion)
+det(A) = a₁₁(a₂₂a₃₃ - a₂₃a₃₂) - a₁₂(...) + a₁₃(...)
+
+## Properties
+- det(AB) = det(A)·det(B)
+- det(Aᵀ) = det(A)
+- A is invertible iff det(A) ≠ 0
+- AA⁻¹ = I
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Find the determinant of [[1,2,3],[4,5,6],[7,8,9]]</li><li>Calculate the inverse of [[2,1],[5,3]]</li><li>Solve the system using matrices: 2x + y = 5, x - y = 1</li><li>Find eigenvalues of [[3,1],[1,3]]</li><li>Prove that det(AB) = det(A)·det(B)</li><li>Find the rank of [[1,2,3],[2,4,6]]</li><li>Calculate [[1,2],[3,4]]³</li><li>Determine if [[1,0],[0,1]] is orthogonal</li></ol></div></div><div class="topic">
+      <h2>Number Theory <span class="fr">Théorie des Nombres</span></h2><div class="section">
+        <h3>Divisibility & Primes <span class="fr">Divisibilité et Nombres Premiers</span></h3>
+        <pre>
+## Divisibility
+a|b means ∃k ∈ ℤ: b = ka
+
+## Prime Numbers
+A prime p > 1 has only divisors 1 and p
+
+## Fundamental Theorem of Arithmetic
+Every integer > 1 is uniquely a product of primes
+
+## GCD & LCM
+- gcd(a,b): greatest common divisor
+- lcm(a,b): least common multiple
+- gcd(a,b) × lcm(a,b) = |a × b|
+        </pre>
+      </div><div class="section">
+        <h3>Modular Arithmetic <span class="fr">Arithmétique Modulaire</span></h3>
+        <pre>
+## Congruence
+a ≡ b (mod n) means n|(a - b)
+
+## Properties
+- If a ≡ b (mod n) and c ≡ d (mod n), then:
+  - a + c ≡ b + d (mod n)
+  - ac ≡ bd (mod n)
+
+## Fermat's Little Theorem
+If p is prime and gcd(a,p) = 1: a^(p-1) ≡ 1 (mod p)
+
+## Euler's Theorem
+If gcd(a,n) = 1: a^φ(n) ≡ 1 (mod n)
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Find gcd(48, 18) using Euclidean algorithm</li><li>Prove that if p is prime and p|ab, then p|a or p|b</li><li>Solve 3x ≡ 7 (mod 11)</li><li>Find the last digit of 7^100</li><li>Determine if 17 is prime using trial division</li><li>Find lcm(12, 18)</li><li>Prove that √2 is irrational</li><li>Find all solutions to x² ≡ 1 (mod 8)</li></ol></div></div><div class="topic">
+      <h2>Dynamics <span class="fr">Dynamique</span></h2><div class="section">
+        <h3>Newton's Laws <span class="fr">Lois de Newton</span></h3>
+        <pre>
+## First Law (Inertia)
+An object at rest stays at rest unless acted upon by force
+
+## Second Law
+F = ma (Force = mass × acceleration)
+
+## Third Law
+For every action, there's an equal and opposite reaction
+
+## Applications
+- Weight: W = mg
+- Friction: f = μN
+- Tension: T in strings/cables
+        </pre>
+      </div><div class="section">
+        <h3>Motion Analysis <span class="fr">Analyse du Mouvement</span></h3>
+        <pre>
+## Kinematics
+- v = v₀ + at
+- s = v₀t + ½at²
+- v² = v₀² + 2as
+
+## Energy
+- Kinetic: KE = ½mv²
+- Potential: PE = mgh
+- Work: W = F·s·cos(θ)
+
+## Momentum
+- p = mv
+- Impulse: J = FΔt = Δp
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>A 5 kg object accelerates at 2 m/s². Find the net force</li><li>Calculate the friction force on a 10 kg block on a 30° incline (μ = 0.2)</li><li>Find the velocity after 3 seconds if v₀ = 5 m/s and a = 2 m/s²</li><li>A ball is thrown upward at 20 m/s. Find max height</li><li>Two objects collide elastically. Find final velocities</li><li>Calculate work done by a 50 N force over 10 m</li><li>Find the tension in a rope supporting a 20 kg mass</li><li>Analyze motion on an inclined plane with friction</li></ol></div></div><div class="topic">
+      <h2>Electric Fields <span class="fr">Champs Électriques</span></h2><div class="section">
+        <h3>Electric Field Basics <span class="fr">Bases des Champs Électriques</span></h3>
+        <pre>
+## Definition
+E = F/q (Electric field = Force per unit charge)
+
+## Coulomb's Law
+F = k(q₁q₂)/r² where k = 8.99 × 10⁹ N·m²/C²
+
+## Electric Field of Point Charge
+E = kq/r²
+
+## Superposition Principle
+E_total = E₁ + E₂ + ... (vector sum)
+        </pre>
+      </div><div class="section">
+        <h3>Potential & Energy <span class="fr">Potentiel et Énergie</span></h3>
+        <pre>
+## Electric Potential
+V = W/q (Potential = Work per unit charge)
+
+## Potential of Point Charge
+V = kq/r
+
+## Potential Difference
+ΔV = V_B - V_A = -∫ₐᵇ E·dl
+
+## Electric Potential Energy
+U = qV = kq₁q₂/r
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Calculate the electric field at distance r from a charge q</li><li>Find the force between two charges: q₁ = 2 μC, q₂ = 3 μC, r = 0.5 m</li><li>Determine the potential at a point due to multiple charges</li><li>Calculate the work done moving a charge in an electric field</li><li>Find the electric field inside and outside a uniformly charged sphere</li><li>Analyze the motion of a charged particle in a uniform field</li><li>Calculate the capacitance of a parallel plate capacitor</li><li>Find the energy stored in an electric field</li></ol></div></div><div class="topic">
+      <h2>Circuits <span class="fr">Circuits</span></h2><div class="section">
+        <h3>Ohm's Law & Resistance <span class="fr">Loi d'Ohm et Résistance</span></h3>
+        <pre>
+## Ohm's Law
+V = IR (Voltage = Current × Resistance)
+
+## Resistance
+R = ρL/A where ρ is resistivity, L is length, A is area
+
+## Power
+P = VI = I²R = V²/R
+
+## Series & Parallel
+- Series: R_total = R₁ + R₂ + ...
+- Parallel: 1/R_total = 1/R₁ + 1/R₂ + ...
+        </pre>
+      </div><div class="section">
+        <h3>Kirchhoff's Laws <span class="fr">Lois de Kirchhoff</span></h3>
+        <pre>
+## Current Law (KCL)
+Sum of currents entering = Sum of currents leaving
+
+## Voltage Law (KVL)
+Sum of voltages around a closed loop = 0
+
+## Applications
+- Analyze complex circuits
+- Find unknown currents and voltages
+- Solve multi-loop circuits
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Find the current through a 10 Ω resistor with 5 V applied</li><li>Calculate total resistance of 3 resistors in series: 2Ω, 3Ω, 5Ω</li><li>Find equivalent resistance of 2Ω and 3Ω in parallel</li><li>Analyze a circuit with multiple loops using Kirchhoff's laws</li><li>Calculate power dissipated in a 100 Ω resistor with 2 A current</li><li>Find the current distribution in a parallel circuit</li><li>Determine the voltage across each resistor in a series circuit</li><li>Analyze a circuit with both series and parallel components</li></ol></div></div><div class="topic">
+      <h2>Solutions <span class="fr">Solutions</span></h2><div class="section">
+        <h3>Concentration & Molarity <span class="fr">Concentration et Molarité</span></h3>
+        <pre>
+## Molarity
+M = n/V (moles per liter)
+
+## Molality
+m = n/kg_solvent
+
+## Mass Percent
+% = (mass_solute / mass_solution) × 100
+
+## Dilution
+M₁V₁ = M₂V₂
+        </pre>
+      </div><div class="section">
+        <h3>Solubility & Saturation <span class="fr">Solubilité et Saturation</span></h3>
+        <pre>
+## Solubility
+Maximum amount of solute that dissolves in solvent
+
+## Saturation
+Solution contains maximum dissolved solute
+
+## Supersaturation
+Solution contains more solute than normally possible
+
+## Factors Affecting Solubility
+- Temperature
+- Pressure
+- Nature of solute and solvent
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Calculate molarity of 5 g NaCl in 250 mL solution</li><li>Dilute 100 mL of 2 M HCl to 500 mL. Find new concentration</li><li>Prepare 1 L of 0.5 M solution from solid solute</li><li>Calculate mass percent of solute in solution</li><li>Determine molality of a solution</li><li>Analyze solubility curves and predict crystallization</li><li>Calculate osmotic pressure of a solution</li><li>Determine colligative properties of solutions</li></ol></div></div><div class="topic">
+      <h2>Organic Chemistry <span class="fr">Chimie Organique</span></h2><div class="section">
+        <h3>Hydrocarbons <span class="fr">Hydrocarbures</span></h3>
+        <pre>
+## Alkanes (CₙH₂ₙ₊₂)
+- Saturated hydrocarbons
+- Single C-C bonds
+- Examples: CH₄, C₂H₆, C₃H₈
+
+## Alkenes (CₙH₂ₙ)
+- Unsaturated hydrocarbons
+- C=C double bonds
+- Examples: C₂H₄, C₃H₆
+
+## Alkynes (CₙH₂ₙ₋₂)
+- Triple C≡C bonds
+- Examples: C₂H₂, C₃H₄
+
+## Aromatic Compounds
+- Benzene ring (C₆H₆)
+- Resonance structures
+        </pre>
+      </div><div class="section">
+        <h3>Functional Groups <span class="fr">Groupes Fonctionnels</span></h3>
+        <pre>
+## Alcohols (-OH)
+- Primary, secondary, tertiary
+- Oxidation to aldehydes/ketones
+
+## Aldehydes & Ketones (C=O)
+- Aldehyde: -CHO
+- Ketone: -CO-
+
+## Carboxylic Acids (-COOH)
+- Acidic functional group
+- Esterification reactions
+
+## Esters (-COO-)
+- From carboxylic acids + alcohols
+- Hydrolysis reactions
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Name and draw the structure of pentane isomers</li><li>Write the equation for combustion of octane</li><li>Predict products of addition reaction with alkene</li><li>Distinguish between primary, secondary, tertiary alcohols</li><li>Write oxidation reactions of alcohols</li><li>Predict esterification products</li><li>Analyze substitution vs elimination reactions</li><li>Determine molecular formula from combustion data</li></ol></div></div><div class="topic">
+      <h2>Kinetics <span class="fr">Cinétique</span></h2><div class="section">
+        <h3>Reaction Rates <span class="fr">Vitesses de Réaction</span></h3>
+        <pre>
+## Rate Definition
+rate = -Δ[A]/Δt = Δ[B]/Δt
+
+## Rate Law
+rate = k[A]ᵐ[B]ⁿ where m, n are orders
+
+## Half-life
+t₁/₂ = time for [A] to reduce to half
+
+## First Order
+ln[A] = ln[A]₀ - kt
+t₁/₂ = 0.693/k
+
+## Second Order
+1/[A] = 1/[A]₀ + kt
+t₁/₂ = 1/(k[A]₀)
+        </pre>
+      </div><div class="section">
+        <h3>Activation Energy & Catalysts <span class="fr">Énergie d'Activation et Catalyseurs</span></h3>
+        <pre>
+## Arrhenius Equation
+k = Ae^(-Eₐ/RT)
+
+## Temperature Effect
+ln(k₂/k₁) = (Eₐ/R)(1/T₁ - 1/T₂)
+
+## Catalysts
+- Lower activation energy
+- Not consumed in reaction
+- Increase reaction rate
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Determine reaction order from experimental data</li><li>Calculate rate constant from half-life</li><li>Predict effect of temperature on reaction rate</li><li>Analyze catalyst mechanism</li><li>Calculate activation energy from Arrhenius equation</li><li>Determine rate law from initial rate data</li><li>Predict concentration after time t</li><li>Compare reaction rates at different conditions</li></ol></div></div><div class="topic">
+      <h2>Genetics <span class="fr">Génétique</span></h2><div class="section">
+        <h3>Mendel's Laws <span class="fr">Lois de Mendel</span></h3>
+        <pre>
+## First Law (Segregation)
+Alleles separate during gamete formation
+Each gamete receives one allele
+
+## Second Law (Independent Assortment)
+Alleles of different genes assort independently
+Applies to genes on different chromosomes
+
+## Punnett Square
+Tool for predicting offspring genotypes
+
+## Phenotypic Ratios
+- Monohybrid: 3:1 (dominant:recessive)
+- Dihybrid: 9:3:3:1
+        </pre>
+      </div><div class="section">
+        <h3>DNA & Replication <span class="fr">ADN et Réplication</span></h3>
+        <pre>
+## DNA Structure
+- Double helix
+- Base pairs: A-T, G-C
+- Sugar-phosphate backbone
+
+## Replication
+- Semi-conservative
+- DNA polymerase
+- Leading and lagging strands
+
+## Mutations
+- Point mutations
+- Insertions/deletions
+- Chromosomal aberrations
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Solve monohybrid cross problems</li><li>Solve dihybrid cross problems</li><li>Predict phenotypic ratios</li><li>Analyze pedigree charts</li><li>Determine genotypes from phenotypes</li><li>Explain DNA replication process</li><li>Identify types of mutations</li><li>Calculate genetic probabilities</li></ol></div></div><div class="topic">
+      <h2>Reproduction <span class="fr">Reproduction</span></h2><div class="section">
+        <h3>Human Reproductive System <span class="fr">Système Reproducteur Humain</span></h3>
+        <pre>
+## Male System
+- Testes: produce sperm
+- Epididymis: stores sperm
+- Prostate: produces seminal fluid
+
+## Female System
+- Ovaries: produce eggs
+- Fallopian tubes: transport egg
+- Uterus: site of implantation
+
+## Menstrual Cycle
+- Follicular phase
+- Ovulation
+- Luteal phase
+        </pre>
+      </div><div class="section">
+        <h3>Fertilization & Development <span class="fr">Fécondation et Développement</span></h3>
+        <pre>
+## Fertilization
+- Sperm meets egg
+- Zygote formation
+- Meiosis completion
+
+## Early Development
+- Cleavage
+- Blastula formation
+- Gastrulation
+
+## Embryonic Development
+- Organogenesis
+- Fetal development
+- Birth
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Describe the menstrual cycle phases</li><li>Explain fertilization process</li><li>Describe early embryonic development</li><li>Identify reproductive structures and functions</li><li>Explain hormonal control of reproduction</li><li>Describe fetal development stages</li><li>Analyze contraceptive methods</li><li>Explain pregnancy and childbirth</li></ol></div></div><div class="topic">
+      <h2>Nervous System <span class="fr">Système Nerveux</span></h2><div class="section">
+        <h3>Neurons & Synapses <span class="fr">Neurones et Synapses</span></h3>
+        <pre>
+## Neuron Structure
+- Soma (cell body)
+- Dendrites (receive signals)
+- Axon (transmit signals)
+
+## Action Potential
+- Resting potential: -70 mV
+- Depolarization
+- Repolarization
+- Hyperpolarization
+
+## Synaptic Transmission
+- Neurotransmitter release
+- Receptor binding
+- Signal propagation
+        </pre>
+      </div><div class="section">
+        <h3>Brain & Spinal Cord <span class="fr">Cerveau et Moelle Épinière</span></h3>
+        <pre>
+## Brain Regions
+- Cerebrum: consciousness, thought
+- Cerebellum: coordination, balance
+- Brainstem: vital functions
+
+## Spinal Cord
+- Transmits signals
+- Reflex arcs
+- Gray and white matter
+
+## Nervous System Organization
+- Central: brain and spinal cord
+- Peripheral: somatic and autonomic
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Describe neuron structure and function</li><li>Explain action potential generation</li><li>Describe synaptic transmission</li><li>Identify brain regions and functions</li><li>Explain reflex arc mechanism</li><li>Describe nervous system organization</li><li>Analyze neurotransmitter effects</li><li>Explain sensory and motor pathways</li></ol></div></div><div class="topic">
+      <h2>Geology <span class="fr">Géologie</span></h2><div class="section">
+        <h3>Plate Tectonics <span class="fr">Tectonique des Plaques</span></h3>
+        <pre>
+## Earth Structure
+- Crust: thin outer layer
+- Mantle: hot rock
+- Core: iron and nickel
+
+## Plate Boundaries
+- Divergent: plates separate
+- Convergent: plates collide
+- Transform: plates slide
+
+## Plate Movement
+- Driven by mantle convection
+- Seafloor spreading
+- Subduction zones
+        </pre>
+      </div><div class="section">
+        <h3>Earthquakes & Volcanoes <span class="fr">Tremblements de Terre et Volcans</span></h3>
+        <pre>
+## Earthquakes
+- Caused by plate movement
+- Seismic waves
+- Magnitude and intensity
+
+## Volcanoes
+- Magma eruption
+- Types: shield, cinder, composite
+- Hazards: lava, ash, gases
+
+## Rock Cycle
+- Igneous, sedimentary, metamorphic
+- Transformation processes
+        </pre>
+      </div><div class="questions">
+      <h4>Possible BAC Questions</h4>
+      <ol><li>Describe Earth's internal structure</li><li>Explain plate tectonic theory</li><li>Analyze plate boundary types</li><li>Describe earthquake mechanisms</li><li>Explain volcanic activity</li><li>Analyze rock cycle processes</li><li>Predict geological hazards</li><li>Interpret geological maps and data</li></ol></div></div></body></html>

@@ -1,0 +1,114 @@
+République Islamique de Mauritanie                                                      Séries : Sciences
+Ministère de l’Education et de la
+                                             BACCALAUREAT 2025                         Naturelles &TSGE
+Réforme du Système d’Enseignement                 Session Normale                      Coefficient : 6&4
+Direction des Examens et des Concours      Epreuve de MATHEMATIQUES                       Durée : 4h
+
+Exercice 1 (3 points)
+On dispose, à l’intérieur d’un carton, de 120 fleurs de deux types : parfumées et non
+parfumées. Certaines de ces fleurs sont blanches et les autres sont rouges. On sait que :
+            25% de fleurs sont parfumées
+            40% de fleurs parfumées sont rouges.
+            55% de fleurs sont de couleur blanche.
+On choisit, au hasard, une fleur et on suppose que toutes les fleurs ont la même probabilité
+d’être choisies. On considère les évènements suivants :
+       S : « La fleur choisie est parfumée » ;
+       R : « La fleur choisie est de couleur rouge » ;
+       B : « La fleur choisie est de couleur blanche ».
+Pour chacune des questions suivantes, une et une seule des réponses proposées est correcte.
+ N° Questions                           Réponse A Réponse B Réponse C
+ 1   La probabilité P(S) est                 0,25          0,025         0,4        0,5pt
+ 2   La probabilité PS (R) est                0,1           0,25         0,4        0,5pt
+ 3   La probabilité P(B) est                  0,4           0,55         0,6        0,5pt
+ 4   La probabilité P(B  S) est             0,15           0,55          0,6       0,5pt
+ 5   La probabilité P  B  S  est          0,25            0,4         0,55       0,5pt
+ 6    La probabilité P  S  R  est              0,1             0,4                 0,6           0,5pt
+
+ Recopier sur la feuille de réponse et compléter le     Question n°     1     2   3    4    5   6
+ tableau ci-contre en choisissant la bonne réponse.
+ Aucune justification n’est demandée.                   Réponse
+
+
+Exercice 2 (5 points)
+ 1. Pour tout nombre complexe z on pose : P(z)  z 3  (2  4i)z 2  (2  8i)z  4  12i
+ a) Calculer les racines carrées du nombre complexe 8  6i .                                               0,5pt
+ b) Résoudre, dans  , l’équation z 2  (3  i)z  4  0 .                                                  1 pt
+ c) Déterminer le nombre complexe z 0 tel que  z   , P(z)  (z  z 0 )(z 2  (3  i)z  4) .             0,5pt
+                                                                      
+ 2. Le plan complexe est rapporté à un repère orthonormé  O;u, v  .
+ Placer les points A, B et C d’affixes respectives z A  1  i , z B  2  2i et z C  1  3i              0,75pt
+                                                                 z  1  3i
+ 3. Pour tout nombre complexe z  1  i , on pose : f (z)                  .
+                                                                  z 1 i
+ a) Vérifier que f (z B )   i et en déduire la nature du triangle ABC.                 0,75pt
+ b) Déterminer et construire l’ensemble de points M d’affixe z tels que f (z) soit
+                                                                                         0,75pt
+ imaginaire pur
+ 4. Pour tout entier n    , on pose : z n  (z A )n et soit M n le point d’affixe z n
+ a) Déterminer les entiers n pour lesquels le point M n appartient à l’axe des abscisses 0,5pt
+ b) Montrer que le point M 2025 appartient à la droite  OA  .                                             0,25pt
+
+
+Baccalauréat 2025     Session Normale      Epreuve de Mathématiques         Séries SN & TSGE           1/2
+Exercice 3 (6 points)
+ Soit f la fonction définie sur  par : f (x)  (e x  x  2)e x .
+                                                                         
+ On note  sa courbe représentative dans un repère orthonormé (O; i , j) .
+                                                x 2
+ 1.a) Montrer que pour tout x   , f (x)  1  x .                                              0,5pt
+                                                  e
+                                         f (x)
+ b) Justifier que lim f (x)   et lim          , puis interpréter graphiquement             0,75pt
+                  x              x  x
+
+ c) Calculer lim f (x) et en déduire que la courbe  possède une asymptote
+              x                                                                               0,5pt
+ horizontale D.
+ 2. Montrer que x   , f (x)  (x  1)e x . Dresser le tableau de variation de f.            1 pt
+ 3. Soit h la restriction de f sur l’intervalle I   1,  .
+ a) Montrer que h est une bijection de I sur un intervalle J que l’on déterminera.               0,5pt
+ b) Dresser le tableau de variation de h 1 .                                                    0,5pt
+ 4.a) Montrer que l’équation f (x)  0 admet, sur  , deux solutions  et  avec
+                                                                                                 0,5pt
+    . Justifier que 1,1    1, 2
+ b) Construire D ,  et   , (   étant la courbe représentative de h 1 ).                    0,75pt
+                                                                                     1
+ 5.a) A l’aide d’une intégration par parties, calculer la valeur de l’intégrale  xe xdx . 0,5pt
+                                                                                     0
+ b) Calculer l’aire A du domaine délimité par la courbe  , l’asymptote horizontale
+                                                                                                 0,5pt
+ D et les deux droites d’équations respectives x  0 et x  1 .
+
+Exercice 4 (6 points)
+                                                                    x ln x
+ Soit f la fonction définie sur l’intervalle I  0,  par f (x)       , et soit (C) sa
+                                                                    2 2x
+                                                             
+ courbe représentative dans un repère orthonormé (O; i , j) .
+ 1. On considère la fonction g définie sur I par g(x)  x 2  1  ln x
+ a) Calculer g(x) pour tout x  I et étudier les variations de g.                               1pt
+ b) Calculer g(1) , puis en déduire le signe de g sur I .                                        0,75pt
+ 2.a) Calculer lim f (x) et lim f (x) .                                                         0,5pt
+                x 0          x 
+
+ b) Montrer que (C) admet deux asymptotes dont l’une est la droite  d’équation
+      x                                                                                          0,75pt
+ y  . Etudier la position relative de (C) et  .
+      2
+                                       g(x)
+ 3.a) Montrer que x  0 , f (x)           ( g étant la fonction définie à la question 1.).    0,5pt
+                                        2x 2
+ b) En déduire le signe de f  puis dresser le tableau de variation de la fonction f .           0,5pt
+ 4.a) Montrer que (C) admet une tangente T parallèle à  et en donner une équation.              0,5pt
+ b) Construire la courbe (C), l’asymptote  et la tangente T dans le même repère.                0,75pt
+ c) Discuter graphiquement, suivant les valeurs du paramètre réel m, le nombre de
+                                                                                                 0,25pt
+ solutions de l’équation ln x  2mx  0 .
+                                                                                   1
+ 5. Soit (u n ) la suite définie, pour tout entier naturel n non nul, par un  f   .
+                                                                                   n           0,5pt
+ Montrer que la suite (u n ) est croissante et calculer sa limite.
+                                                 Fin.
+
+Baccalauréat 2025      Session Normale     Epreuve de Mathématiques     Séries SN & TSGE        2/2
+

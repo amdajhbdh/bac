@@ -1,0 +1,4275 @@
+   Nombres
+| complexes
+
+
+
+
+  HEE O
+          Cours développés
+          Exercices divers
+          Corrigés détaillés
+          Problémes de synthese
+
+
+
+               Pr. Sidi MAJOR
+MATHEMATIQUES
+      Classesde7¢Cet D
+
+
+
+ Nombres complexes et Analyse
+
+          ¢ Cours développés
+
+          ¢ Exercices divers
+
+          ¢ Corrigeés détaillés
+
+
+
+
+        Pr. Sidi MAJOR
+Je voudrais, au terme de ce travail, remercier trés
+                                                vivement mon frére, mo‘;na"'::l:t:f
+ mon collégue le professeur Md Lemine Ould Hasnatt pour sa constante disp
+                                                                          o
+Ses remarques, ses conseils et son apport
+                                             technique et logistique sans lesq
+manuel ne pourrait voir le jour
+                               .
+
+
+
+
+Je ne peux également que profi
+                                     ter de cette occasion pour exp
+                                                                    rimer mon elr::: éz
+gratitude et mes sentiments de frate
+                                         mité & I'égard de mon jeune frére
+                                                                             Brahlté b
+Khalil Ould Md Abdallahi (dit
+                                  EI Khoulage) pour la constan
+                                                               ce de sa disponibilité,
+son aide et de I'affection
+                           qu'il me réserve,
+
+
+
+
+Mes vifs remerciements vont égalemen
+                                           t aux membres de ma petit
+                                                                   .
+                                                                    e famille .
+                                                                              : Tan’:teé
+                                                                                      a
+
+Md Vall, Toutou, France, Zein
+                                ebou et Mansoura pour m‘avoir
+                                                              constamment soute
+offert des conditions dom
+                          iciliaires de travail idéale
+                                                       s.
+                                 AVANT-PROPOS
+
+                             lettre du nouveau programmnse de
+Ce manuel est conforme a ladepu                                mathématiques des classes de
+7° D et 7° C, mis en vigueur     ls 2018, et aux orlentatio des curricula afférents. .
+Notre objectif premier est de mettre & la dispo sition des éldves et des professeurs un o ed.du
+travall & la fols agréable et utlleent   rs la clarté du cours, 1a précision et la cohérenc
+                                   & trave
+contenu, la rigueur du ralsonnem       et la variété des exercices proposés.
+                                                                          rubriques :
+Ce manuel est composé de six chapitres, et chaque chapitre comporte trois
+                                              Une attention particullére a été accordée ala
+                                              rédaction du cours en wvue de donner une
+                  Cours cohérence au contenu et de faire découvrir aux
+                                              éléves la genése des concepts étudiés.
+Pour faclliter la compréhension et la maitrise des concepts, chaque page du cours est mise en
+face A face avec une page d'exemples corrigés  et d’exercices d’application.
+
+                                              Le chapitre en bref dans une seule page. On y a
+                    ,                         récapitulé toutes les notions du chapitre jugées
+        Le chapitre en bref incontournables.
+
+
+
+                                    Des exercices progressifs et variés accompagnés
+                               Brgs de corrigés détaillés et soigneusement rédigés.
+         Exercices corriges Tout cela pour que I'éléve puisse s’approprier
+                                              aisément les capacités requises qui lul permettent
+in fine I'appréhension de la méthodologie générale de résolution des problémes.
+
+ Vous trouverez également dans ce manuel :
+
+                                         g Des codes QR parsément le manuel et vous font
+                                         v rediriger, aprés scannage, vers des vidéos
+                                              YouTube traitant les mémes sujets.
+
+
+
+
+ chaines YouTube ol vous trouverez des sujets du baccalauréat, des exercices corrigés, ... sous
+ format pdf et Word et des cours expliqués en vidéo.
+ Ces codes peuvent étre lus rapidement par un lecteur de codes QR installé sur votre téléphone
+ portable, votre smartphone ou votre tablette tactile.
+
+
+ Convaincu du blen fondé de la citation anonyme : « un livre a toujours deux auteurs : celul qui
+ I'a écrit et celui qui I'a lu », je ne peux terminer sans remercier ce deuxiéme auteur et lul
+ demander ensuite, avec toute la gratitude requise, de me faire parvenir ses remarques et
+ suggestions sur le numéro WhatsApp 00 222 20540461.
+
+
+                                                                               Pr. Sidi MAJOR
+                        COURS
+                        LE CHAPITRE EN BREF
+
+                        EXERCICES CORRIGES
+
+
+                        NUMERIQUES
+
+                        COURS                   62
+                        LE CHAPITRE EN BREF     74
+
+                        EXERCICES CORRIGES 75
+
+
+
+
+                        COURS                  92
+                        LE CHAPITRE EN BREF    96
+                        EXERCICES CORRIGES     97
+
+
+
+                   CTION EXPONE]
+
+                        COURS                 132
+                        LE CHAPITRE EN BREF   142
+                        EXERCICES CORRIGES 143
+
+
+
+
+                    COURS                     174
+                    LE CHAPITRE EN BREF       184
+                    EXERCICES CORRIGES 185
+
+
+
+
+                    COURS                     228
+                    LE CHAPITRE EN BREF       236
+                    EXERCICES CORRIGES 237
+
+
+PROBLEMES DE REVISION
+
+
+| DES CODES QR UTILES
+                                                  Jérome Cardan
+CHAPITRE                                            (1501-1576)
+
+
+
+            =
+                     “Les nombres complexes ont _de
+           ~ & nombreuses applications en dehors
+             g "des mathématiques :                                  _ v
+                       ées en électricité pour
+           2 E ® Utilisralise
+            A8 - géné         r la loi d’Ohm'a des
+           R             * courants alternatifs sinuso'l'daux.;
+            N ® Modéliser la forme des ailes
+           »E             d’avion ;                    g
+           _ E         Q‘Modéliser I'écoulement d’air
+                         autour des ailes d’avion pour
+             a            avoir une portance plus ’
+                 \        importante ;                         -
+            Q ». etc.
+
+                                                                                                                 tre
+           La genése des nombres complexes Les notiDnS du Chapi
+
+      C'’est dans le but de résoudre des équations                                                            -         ———
+      que les mathématiclens étaient contraints, a                                                                           ;
+      chaque fols que I'ensemble de ncher:'he o' NOtlon de nombres complexs
+      s'avére Insuffisant, d'étendre les ensembles
+      de nombres tout en conservant les régles de o_ Représentaflon géométrlque des Wlllll'“” .
+      calcul :
+      ¢ Dans N, Il est impossible d’exprimer I'ldée                                   Nt
+            de I'opposé par exemple x+2=0 n‘a pas 9' RePél'age POIalre : Module - argument»
+            de solution. On étend N vers Z;                                                                             23
+                                   | . Equations polynomiales dans €
+      + Dans I Z, 1l est parfols Impossible                                                                         X
+            d’exprimer I'ldée de la moitié par exemple |                                                    o       g
+            2x=1.0n étend Z vers D                         ' ©. Ecriture complexe des transformation
+       « Dans D, Il est parfols impossible d’exprimer I'idée du tiers par exemple 3x = 1 n‘a pas de solution. On &tend D vers Q;
+       « Dans Q, Il est impossible d’exprimer la mesure du cdté d'un carré d'aire 2 (car vZne                    -       'r.'m
+            peut pas s'écrire sous la forme a/b ol a, b sont dans Z, donc I'équation x* = 2R
+                                                                                           n'a pas
+                                                                                                ;  m
+                                                                                                   i:': i
+                                                                                                        T o
+            de solution dans Q). On étend Q vers
+       + Dans R, en vertu de la propriété « le carré de tout réel est positif », certaines équations, ¢ o]
+            comme »* =-1, n‘ont pas de solution. On étend R vers un nouvel ensemble C;                        .;“ " b 3
+       « Dans C, on imagine I'existence d’un nombre | tel que 1> = -1.                                        —ryh .,‘Ifl;‘.
+            C'est ainsl que, dans ¢, I'équation X* + 4X + 13 = 0 dont le discriminant est ;                   @;‘-'-ffl.“. A4
+                                                       A =b? - 4ac = -36 = 361* = (61                            T e
+            admet deux solutions : X, = %": =2-3l; X;= # ==2+3L                                                   el
+            L'ensemble C ne peut pas étre étendu & un ensemble plus vaste pulsque toute équation polynomiale dans Ca toutes
+            ses solutions dans C. On dit que C est « algébriquement clos », ce qui n'est pas le cas de R.
+  0 Notion de nombres complexes
+       a. Forme algébrique d'un nombre complexe
+
+    De
+    |mt|on LRI
+             f On admet U'existence d’un ensemble de nombres, noté C, appelé
+           ensemble des nombres complexes tels que :
+           ® L'ensemble R est contenu dans € (R c C) ;
+           @La multiplication et |"addition ont les mémes propriétés dans C que dans R ;
+           @flexistedans(:mnmnbreltelque ?=-1;
+           (® Pour tout nombre complexe z, il existe un unique couple (x; y) de nombres réels tel que :
+                                  z=x+1y, ol est le nombre vérifiant 1* = -1,
+
+    Exemples - Vocabulaire
+
+          §- L'écriture z = x + Ly est la forme algébrique (ou cartésienne) de z ;
+          iLe nombre réel x est la partie réelle de z, on note x = Re(z) ;
+          Le nombre réel y est la partie imaginaire de z, on note y = Im(z) ;
+          g- Dans l'écriture z=x +1y,siy=0alorsz=x e R;
+          i    Dans |"écriture z = x + 1y, sl x = 0 alors z = {y € R, dans ce cas z est dit imaginaire pur-
+          -    0 =0 x {, donc 0 est le seul nombre complexe & la fois réel et imaginaire pur.
+
+          i    3420€C; ReB+2) =3 IMB+20) =2                                  omormmocan s
+          i 2-{eC;
+             - .       Af —-Zet:lm
+                   Re(2-1i) ANy (z )D=
+                                    = 1l  ! :o"mplelln
+                                      -1; ! on dit Indifféremment @ no
+                                                       ou tout simplement .
+               4€C; Re(4) =4etIm(4)=0                                        0                           -_,
+
+        i Si€eC; Re(Si) =0etIm(5i)= 5                                  it            b T
+    Remarque Le mot « complexe » signifie ici « composé = puisque le nombre complexe x + iy est
+                  composé des nombres x, y et i.
+
+
+      b. Opérations dans C
+    ORIl                             Sofent z = x + iy, 2 = a + ib (x,y,a, b € R) deux nombres complexes
+          et a un nombre réel quelconque.
+
+          * (D Nombre complexenul: z=x+iy =0 & {;::E:L
+                                                    =X= 0
+                                                       ;w
+                                                          Re(z) = Re(z)
+          » (2 Egalité de deux nombres complexes : ' =z & m(z) = Im(2)
+          ¢ (3 Somme de deux nombres complexes :
+                              z+2' =(x+1y)+(a+ib)=(x+a)+i(y+b)
+          e (® Produit de deux nombres complexes :
+                                 2z’ = (x + ly)(a + tb) = (xa — yb) + i(xb + ya)
+          o (5 Multiplication par un nombre réel :
+                                          az = a(x + ly) = (ax) + i(ay)
+          o (® Inverse d’un nombre complexe non nul :
+                                               1      1 i X iy
+                                               Z x+ly B+y?
+         o (?) Quotient de deux nombres complexes (z' # 0) :
+                                          z_x+l_( +)x
+
+                                         Z a+ib it                a+ib
+
+
+   Démonstration du (6
+        ll suffit de multiplier le numérateur et le dénominateur de — par x = iy. En suite, on utilise
+
+        l’identite remarquable (x + iy)(x — iy) = x* - (iy)* = x* + y punsque i2=-1,
+
+
+
+r Chapitre 1 Nombres complexes
+ _— -f
+—
+
+
+
+                                 ue - Ut ilis er | régalité de deux                complexes
+Ut ilis er la fo rm e alg éb riq
+                    — —
+Exemples corrigés —  plexes suivants :
+                            forme algébrique les nombres com
+         a. z,=-5+ 7— (-2+ 3D b z,= (-5+70
+                                       1
+                                           (-2+3) & n=0- 20" !
+                3               - —5+
+                                            S Dyal
+         (b=
+                =
+         2. Soitz=x+lyavecx ety réels     etz =G + D)/ z-D ave cz |, Diem       ine€
+                                                                                        re onAcalcT,
+                                                                                     comm         ule )
+                                                                — On calcu le dans
+                ue de Z en fonctionde x et y.                                              lm )
+                                                                              [} m  lm
+                                                                                 5 F1 ),lm
+Solut
+     ion
+                                                 et L~t291 o ey
+                                                                                                        1
+
+
+          1. a o m b4 e (-2 +3) = S +7I 2 SRR291 —21
+                                                                             [}
+
+
+                                                     = =11  10—
+                                      43)=10-15- 141+ 21(? =L
+           L2=
+           b.       0)(-2 (
+                 (+7)
+               (-5
+              z=                    iF
+             ¢ z=(3-207=9-120+4
+                          1-9-12(-4
+                             + 12431=    12430T12
+                                    12431=        3
+                          3 4              17 17 17
+                                               —
+                           a+D 16-F
+                              =
+                                         16+1
+            d n=7=G-p                         —21 =-1s+131+z=—131;131=_“‘.
+                         3
+               _-5+l_(-5+t)(3-2()-=-—15+10l+314        13
+            e =3x + SIy,B+  2)B 2 9+
+                  =
+          2. Puisque z   on obtient :
+                                                    2= x+1+iy
+                                                       Tx+iy-1)
+                                           minateur de Z par x — i(y — 1), d’ol:
+             On multiplie le numérateur et le déno
+                  [x+1+iyllx-i0y— 1)] _(x+l)x—
+                                                l’y(y—1)+|’[xy-(x+l)(y-l)]
+             I=Grio-DiE-10‘+y      -DI 2+ (-1
+               x‘+y’+x-y+l(x—y+1)_x ’+x—y+ x-y+1
+             e O -17 =Tro-1F B+0-1
+             DoncZ = X +iY avec:
+                                            2+y’+x—y o _x-y+1
+                             X=Re@) ="y 5-17 ' Y'm(z)‘xu(y-l)"
+ST           1. Déterminer les réels x et y pour que l'on ait :
+                                               Q@I+Dx+(-1+dy=1+21
+          2. A quelle condition le nombre complexe z = x + 1 +i(—ix +x) + 31 - 3ix est-il
+             a. un réel?
+             b. un imaginaire pur ?
+
+
+
+           1. L’égalité s’écrit encore x —y + (2x + )i = 1+ 2i, ce qui équivaut a 2’;1’; =_12. d’ol :
+                                               x=1; y=0.
+           2.0naz=x+1+i(-ix+x)+3i-3ix=x+1-Pr+ix+3-3ix=(2x+1)+ (3 -2l
+             a. z réel équivaut a Im(z) = 0, ce qui équivaut a 3 — 2x = 0, soit x = 3/2.
+             b. z imaginaire pur équivaut a Re(z) = 0, ce qui équivaut a 2x + 1 =0, soit x = -1/2.
+
+ Applications
+                1. Mettre sous forme algébrique les nombres complexes suivants :
+                                                                  3+
+                 2, =30-5Q+50; 2,=(V3-0)3 =g Z=Q@-503+2)+3i-6
+           2. Déterminer la partie réelle et la partie imaginaire de Z = (z— 1 +{)/(z — 2i) avec
+           z=x +1iy, oli x, y sont des réels.
+
+ [ZX3ETT30F A Déterminer les réels x et y pour que L'on ait
+        | L G+2ix+2iy=3-k 2. @-Dx+@-30y€m; 3. 2+ (1+0y+2€R
+
+
+                                                                  Chapitre 1 Nombres complexes '
+   Ce gu'il' gmLf daxoi
+        c. La conjugaiso
+                                                                                                 n          g
+                       Soit z = x + iy un nombre complexe avec x, y des réels. g
+           | Le nombre complexe x — fy est appelé conjugué de z et noté z; ainsi Z = x — £y-
+
+
+
+            B3F0=3-2; “i+7=5{+7; 8=8; G =-3I
+
+                          Soit z et 2’ deux nombres complexes, et n un entier naturel :
+              ® z¥r=2+7
+              @ zxr=2x7
+              @TF=@"
+              ® O-2 ¢+o0
+              ® _17=3 z#0)
+              ® 2zz2=(x+iy)(x—1y) = x2 +y? ER,si z=x+
+                                                                   1y (x,y € R)
+              @T¥=z2
+
+      Démonstration
+            iSolentz=x+iyetz' =a+ib (avec x, ¥.a,b
+                                                   € R) deux nombres complexes.
+            i z+z= C+)+@+B)=G+a) +iy +b)
+                                                         = (x+a)—i(y+b),orona:
+            iZ+7=(x—iy)+(a—ib) = (x+a)-i(y+b),
+                                                              doncz+Z=2+7.
+            iOn procéde de méme pour démontr
+                                                   er les propriétés @, @, ®.
+            §La propriété (3 se fait grace a un raiso
+                                                     nnement par récurrence.
+
+                                 Soit z un nombre complexe :
+                                     ® z+2=2Re(z); @ z-z=219m(2)
+                                     ® zeRez=73; @ zeIR ©z=-z.
+
+     Démonstration
+           i@et @Soitz=x+iy (avecx,y € R) un nombre complexe. On a donc
+                                                                        Z = x — iy. D’'ol :
+           i                  z+Z=(x+iy) + (x — iy) = 2x = 2Re(2)
+           H                              z-Z=(x+iy)-(x—iy)= Zty 2iIm(z
+                                                                        )
+           @Onsaitquezen <= Im(z) =0,dol:z€R < Z
+           .On démontre de méme le (3
+
+
+
+          @ Ondonne z, = (3-4i)/(4 + 7i) et z, = (3 + 40)/(4 - 7i).
+          Jusnfier sans calculsque z, + 2, ER et z -z, € (R.
+          Solutlon
+          ,On remarque que z, = z;, d’ou :
+                          Z1+2=2,+7 =2Re(z,) ER et z, —z, = z, — 7; = 2i7m(z,) € iR.
+          @ Résoudre dans C ’équation d’inconnue z : 3(1 + i)z + iz = 1.
+         iSolution :
+         fOnposez x+iy (x,y €R);Donc z=x - iy.
+         ::A(ors I"équation s’écrit : 3(1 + i)(x +iy) + i(x — iy ) = 1, soit en écrivan
+                                                                                          t le 1er membre sous
+         s’fanne algébrique : (3x — 2y) + (4x + 3y)i = 1
+
+         -D ou le systéme : {z + ;;' X dont l'unique solution est (x; y) = (3/17; -4/17).
+        Donc la solution est le nombre complexe : z = E - —t
+
+
+
+BChapitre 1 Nombres complexes
+Utiliser le conjugué d’un nombre complexe
+
+Exemple corrigé
+            1. Résoudre dans C les équations d’inconnue z suivantes :
+          a. 3Z+1-(=7+3l.
+          b, 2z+iz=5-21
+          ¢. z?+2iz—1 =0 (reconnaitre une identité remarquable).
+          2. On considére le nombre complexe z = a + 21 avec a € R. Déterminer a dans les cas suivants :
+                                         a. z?€iR; b. z+aZeR.
+
+
+
+
+          1, a 32+1-i=7+31 & 3Z=7+3[-1+1=6+4i «=z=z+§| =,=z+’;.=z-§1_
+              b. Onpose z=x+Iy avecx, y réels. Ona:
+              2z412=5-2i=2(x+iy) +ix—iy)=5-2i= 2x+y)+(x+2y)i=5-2
+                          2x+y=5 y=5-2x y=5-2x _ (x=4
+                                   x+2y=-2"k+26-20=-2"3x=-12Fly=-3
+              Donc la solution est z = 4 — 31.
+
+              c. z2242iz-1=z2242iz+i?=(z+0)},dou:2?+2iz-1=0= (z+iP=0=z2=—I.
+
+          2. a. z2=(a+2i)?=a®+4ai —4 = a’ — 4 + 4ai. Comme a est un réel alors :
+                                             Re(z?) =a*—4; Im(z?) = 4a
+
+              Dou: z?€iR & Re(z?)=a*-4=0 < (a-2)(a+2)=0 e2a=-2oua=2
+
+              b. z+az=a+2i+a(a-2i)=a*+a+(2-2a)i.D'ou:
+
+                                       Re(z+ai)=a’+a; Im(z+az)=2-2a
+              etparsuite: z+aZ€ER @ Im(z+a)=0=22-2a=0=a=1
+
+
+Applications
+              1. Ecrirez = ::_’—: sous forme algébrique.
+          2. Onpose z = x +iy avec x, y réels,
+          Quelle relation doit lier x et y pour que le nombre Z = (z +i)(1 - iz) soit réel ?
+          3. zest un nombre complexe. On pose Z =zZ +iz—iZ+2.
+          Le nombre complexe Z est-il réel ?
+
+
+              Soit z un nombre complexe.
+           Préciser, dans chaque cas, si Z est réel ou imaginaire pur ou ni l'un ni l'autre :
+           1. Z=2+2-3i;
+
+           2 Z=z-2+5i;
+           3. Z=z1-2+1%;
+
+           v Z=2(z+i)+i(5i-2).
+
+
+EEEIE 1. 0n note z, = (2i + 1)/(i+2) et z; = (1 = 20)/(2 - 1).
+           a. Peut-on affirmer sans calcul que z, + 2, est réel et z, — z, imaginaire pur ?
+           b. Retrouver ces résultats par le calcul.
+           2. Résoudre dans C les systémes suivants :
+                                                        3z2+2'=2-5i,
+                                                    & lz-z'=-241'
+                                                         iz+2'=3-1
+                                                    . {1—3i1'=1+2('
+
+                                                                   Chapitre 1 Nombres complexes I
+                                      étfi qu e de s complexes
+                      résentation géom 2.9). Un tel plan est appTEelé plaSn compleye
+                      -
+   9 Raneespt rapporté & un repére onholynoavrme¢éd:x',yf“'¢?( sfl), )
+                                                                     on ssocke BE                      o
+      DLeéfiplnitiointnMA;metmunnpseleulxe, x=de x+c% des (xi7):
+                                                                    0;
+
+
+
+
+                po proquement, & tout pmmMdectwfd“"le mmb’é:
+                Réci du plan complexe, O assocle
+                (x;y)
+                melexeuniqmz=x+ty.
+                        e co m pl e xe z es t ap pe lé affi xe du po|::
+                      br
+                Le nom ctmfifl.etues!appllélep"u
+                deuve note 2,0 pour L'affixe du point
+                image de z. Onrl'affixeduvecteu‘rf’—fl._/' e |
+               et z5m pw
+                                                               e  z ; .   c ,       :
+                                               poura     ffl x
+              ?LepolntA(z;o)u                                                  a d -
+                                                                                   |
+                szointB(3;2)a)apw             raffl
+                                                ra  xe
+                                                    ffi 3
+                                                        x +
+                                                          232 1
+                                                             (; ;
+                                                                 _3
+                                                                   _  v
+                                                                      _ l
+                                                                        D p
+                                                                           :e R
+                                                                                 s
+              §LLeeppoo!nfntcw(0(-l;.3znppworau ffixe-uu; it istd | i‘
+              §
+                  po i n t (- 2:0) pour a ffe 2                  A                    ,
+              £ Le int F(-1; ~1) apour affie -1 gA
+              £ L po                                       -2(; E ERR
+                                                uraffixe T R 8
+              §L!D°'"!G-2(0) :-a po2ur)aaffipxeo2
+                                                                           1iAW : ;
+                                                   21
+              SLEDO"'!H(Z:
+          £ Le point 0(0;0) a pour affxe 0
+                                     B( z, ), Cl z) de s po ints du plan complexe (0; i, 9); ¥, W deux vecteurs
+                         Sofent Az),                              nt [4B], G le centre de gravité du triangle ABC.
+                                   l. Solent I le milieu du seg#me0, Alorsona:
+               du plan et k un réeB.b
+               et H = bar{(4,a),(      ), (C.c)) aveca+b+c
+              Ozg=2-u
+              @ m=ttia
+              @ ng=kzy
+                 Zu7n
+              ®z=
+              ©1‘=I‘+I,+lc
+                                                                                    1
+                                                                                         On calcule sur les amxu}
+                                                                                         comme on calcule sur les !
+                        18y
+                        o Al                                                        1
+                              3                                                     |
+                                                                                    1
+                        az, +bzg +c2¢                                               : coordonnées.
+              © 2=—275re
+                                   —
+                  2y = —————
+                                                                                    LY
+
+
+
+
+    Démonstration
+                                                                          les coordonnées des points A et B sont
+          ;@ On pose z, =x,+1y, et z3=1x5 +1yg. Alors
+          irespectivement (z,; y,) et (xg; ).
+              Dork le vecteur A5
+                                                    es (xp = %;
+                                    a pour coordonné(xg         ¥ - y,) et par suite son affixe est :
+          §
+                                                         -x)+ i(yg =
+                                                     5= Y1)
+         ;
+         :0r, on sait que:; (x5 - = (xgA                                   Dol le rés
+                                                                       7,. é
+                                                                 = 25 -i
+                                                       (x4 + Iy) r                    ultat
+                      que (xa = x4) + 10 = y4) +Iyg) =p
+                         dém ont r e nt de l a mé me ma ni é re en ut i l i s an t le
+                                                                                  t ]
+                                                                                      s coor d on t e®
+         g propriétés se
+         iToutes les autres pro
+          de vecteurs et/ou de points,
+
+
+
+
+10 Chapitre 1 Nombres complexes
+                                                                                   Co g’ fut savoir faire
+Calculer sur les affixes des points, des vecteurs
+Exemple corrigé
+           A. Soient, dans le plan complexe (0; i, %), les points K, L et M d'affixes respectives :
+                                                   3+20; 5i; 2-4L
+         1. Déterminer U'affixe du point N tel que MN = KL.
+         2. a. Déterminer ’affixe du milieu / de [LM].
+               b. Déterminer U'affixe du point G tel que 3KG = 2KT.
+         3. Déterminer U'affixe du point E tel que LKME soit un parallélogramme.
+         B. Soit z=x + iy (x,y € R) un complexe et Z = (z+3i)/(z+2) avec z # 2.
+         1. Montrer que Z s’écrit sous forme algébrique :
+                                                 x’+y’+2:+3y+ 3x+2y+6 :
+                                            STa+2r+y? | @H2P+y
+         2. Déterminer U'ensemble des points M d’affixe z pour lesquels Z est réel.
+
+         A. 1. Onsaitque: MN =KL & zyy =Zzy. D'autrepart,ona:
+                             sp=2,—2=51—-(3+2)=-3+5i-2i=-3+3i,
+                             z,w:z,v-z,,=z,,—(2—4i)=z,-—2+4l.
+               D'oli: MN=KL & zy—2+4i=-3+3i © zy=-3+3i+2-4i=-1-1i.
+               Donc ’affixe du point N est zy = —1 —i.
+               2. a.Ona:
+                                                     z 42y _Si+(2-4) 2+i__ 1
+                               I=L+M & z,=              et               )     =      —1+2L
+
+
+               b. Onsait que 3KG =2KI & zgz=2,; © 3z =2zg.
+               D’ol l’égalité : 3(z; — zx) = 2(z; — zx), Soit encore :
+                                                                1
+                                        32 = 22 +2¢ =2(1+ii)+(3+2i)= 5+3i
+               Enfin, on trouve : z; = (5+ 3i)/3=5/3 +i.
+               3. Lequadrilatére LKME est un parallélogramme si, et seulement si, LK = EM (attention a
+                   l'ordre des points). On a :
+                          IK=EM & zp=z © z3-2,=2,-2; & Z;=2,-2zZ+2
+                   Donc: zzg=(2—-4i)—(3+20)+5i=-1—i.
+         B. 1. Ona:
+                                  Z_x+iy+3l_x+(y+3)i_[x+(y+3)i][(x+2)—ty]
+
+                                    Tx+iy+2 (x+2)+iy (x+2)2 +y?
+                                    _X*+y*+2x+3y 3x+2y+6
+                      .                  TGty Taroresat
+               2. Z réel équivaut a Im(Z) = 0. Or Im(Z) = 0 équivau
+                                                                         ta:
+                                                       3x+2y+6 =0
+                                                       (x+2)2+yz
+                                 3x+2y+6_ i} 3x+2y+6=0 [jx+2y+6=0
+                              (x+2)+y? (x+2)+y*#0 (x:y) #
+                                                                                     (=2; 0)
+               Donc 'ensemble des points M(z) pour lesquels Z est
+                                                                  réel est la droite du plan d’équation
+               3x +2y + 6 = 0 privée du point A(-2; 0).
+
+Applications
+           Soient, dans le plan complexe (0; T, 7), les points
+                                                                    4, B, C et D d"affixes respectives :
+                                                 =3+i;-1-2i; 6; 4+3i.
+         1. Placer les points A,B,Ce
+                                    tD.
+         2. a. Déterminer les affixes des vecteurs 4B
+                                                       et DC.
+            b. Quelle est la nature du quadrilatére ABCD
+                                                           ?
+         3. Déterminer l'affixe du point E tel que
+                                                   CEBD soit un parallélogramme.
+         4. Que représente le point B pour le segm
+                                                    ent [4AE] ?
+
+
+
+
+                                                               Chapitre 1 Nomb
+                                                                                        res complex
+                                                                                                   es       i
+
+
+
+
+T                                                     e                             —
+ 9 ReSpécorag ®np‘
+               ;
+                   ,’l a jair es      ire
+
+           ord nees pomcomplae (0; ©9)
+                                                                  tout point M d'affixe z = x + iy avec
+
+
+      M Théoreme g peut éUe                                       - OM =\/Z'+Vz
+
+        :peé’El 'W un couple @€ pombres :
+                                                                                     2 4iY)
+                                                                  =
+
+
+
+
+                                                                         (z =
+                                                                  ,\ g M
+               x                 0
+
+
+
+
+                                                                                  rs le couple (r; 6) de
+                                                           r tout polnt M#0, alo
+
+
+                        re complexé (& module de z €t POt5 |2], ainst < |x + Y1 = Va2 +y2,
+                                            1=1+iy:
+                    nombu
+                               appe
+        . r-=0M=,/.'ox'’fl+)y[2zne]stest un argument de
+        par rapport 3                                               ainsi : arg(2) = (4,0M) (2x),
+
+        ore0ti=enmt qsu(fie ¢ jo|=0, 0 napasd argument.ume!nt principal de 2 et
+        On es(@,0M) € [0; 2] alors on parle d'arg                                 on note Arg(z).
+
+        Si6= m                                                                     : i
+                                                  lir e  \
+                                                        gr ap hi qu ement son ’
+         pou  r cha cun des P   O
+        i z, le module de z et un argument de Z © —
+                                ints su iva nt s,
+                                                    -   ;
+                                                  D e 4 —   :
+       i£affixe
+       { Ara= 2); a1 = 0A =2 ; 078 00 = .
+                                        (k o) = 0 027 ] [
+       o 1410 g = 08 =3 argCen) = (R0F) = e | 18e   0    n
+                                                      0)=7  (3n2] I 7 r }
+        i
+       {3 (2 = 20 2| = 0C     = 2: arg ( 2 0 =  (@.
+        £ (g = ~2+ 20); l2p] = 0D = 2VZ;zg)arg(= eo) = sl =1             05 7 | A
+       { E(zg = -2); losl = 0E = 2: arg(arg(ar)(LO= E)@o=7R) ( 2"1" |o
+       £ Flay = ~1-0; Il = OF = V2                           =" l2dl T[T §    |
+                                                        ) = ~7 [p
+                                                             n
+                                                                  2i 7]  !
+                                                                         |
+        (e, = -2 Izgl = 06 = 2; arg(zgarg)(zy)= (8.=06(8.0
+        H
+       !i                                              %
+                                                          H) = -5 [27
+                                                                     S  )
+                                                                          ~He-
+                                                                             |
+       { H(zg =220 |zl = OH = 27  ;
+                                            e non nul
+     b. Forme trigonométrique d’un com plex
+                 Soit z = x + ly avec x, y réels un nombre complexe non
+                                                                          nul et M son point image dans
+        le plan complexe (0; &, 7). On note 8 un argument de z.
+        Dans le triangle OHM rectangleen H,ona:                            r=0M = /z? +y*
+                               0H_ x               Re(z)
+                     s       =—=—=s=——
+                              M JZ+yp
+
+                               Hi y Im(z)
+
+       Donc z s"écrit :
+
+       L’écriture (1) est une forme trigonomégque dez.
+        ;                 z = |z](cosO + {sin @)
+
+
+       La forme (1) n'est pas unique pu
+                                    puisque un complexe non nul admet une infinité d’arggfll_ef_'_
+
+
+
+rChapltre 1 Nombres complexes
+Ecrire un nombre complexe sous forme trigonométrique
+                                                     b
+IM1.Eu1mmfometngmétflqmlembmwmp(mx,=—fi+N?-
+      2 t:mmfonnealgemummb recmmz,demduuntdwm(-x/w3
+      3. wuxnmmmd.       um.mmmmmfm
+      complexe : z, = V3 (cos +1sin]) ; 2= -2(cos§+1sing) 5 7 = 3("“’5‘"‘”’"‘("‘?) )'
+                                                                          M(z   )
+      4. Le point M de la figure ci-contre a pour affixe z. 5
+                     msau:i;le(E)despoi
+        roduire la fi et tracer :
+      ?epenve:tel'emble                     mdoml'afflxeargum           (z). e
+                                                            apmlarwmfly(-z
+      - en bleu ’ense   (F) des points dont I’affixe a pour   ent arg        ); 5
+                                                                 argument arg(@);
+      - en rouge 'ensemble (G) des points dont ("affixe a pourmodu
+      - en noir l'ensemble (C) des points dont l'affix e a pour        le |z| ;
+                                                   anblz des  point s dont  l'affixe z         ol &
+                                                                                                S
+
+
+      5. Dans le plan complexe,représemerl'ens
+                 1<lzl<3
+        q e'[ESarg(z)s;
+      P
+
+
+
+      1 zl=_‘[j+‘\[3-dm“:lzd___‘Efi=,/f,'.5il'onnoteaunar_v,umentdez‘,ona:
+
+                                       V3 L             2.       SREV3 T IVZ
+                               cosa=—‘/—€—=-fi=-7: sma=7_6-=i=7
+
+         D'oil a = 3n/4, et donc la forme trigonométrique de z, est : z, = V6 (cosT'+ ismT).
+                                                      .                            3      iy
+
+
+
+      2. Connaissant le module et un argument de ez,, on peut écrire une forme trigonométrique du
+                                                                                    .
+          nombre complexe z; : z; = 4 (cos (— E) +isin (—;)) =4(5- ;1) =2V3-2i
+                                                         w il T
+
+
+
+      3. Le nombre z; = fi(cos§+ isin%) est écrit sous la forme r(cosa + i sina) avec r > 0, donc il
+          est écrit sous forme trigonométrique : |z,| = V3, arg(z) = 3 [2al.
+                                        .   3                            n
+
+
+
+
+          Le nombre z, = -2 (cos'f+ isin%) n’est pas écrit sous forme trigonométrique ((—2) < 0).
+          Ona:z, = 2(—cos§- isin%) = 2(cos(§+ n) +(sm(%+n)) = 2(:055‘1+ |sm7)
+          Donc Iz;| = 2, arg(z;) = 5 [2n].
+          z3=3 (cosst"+ isin (— 5T")) n’est pas sous forme trigonométrique puisque 57" * -57". Mais on a
+          z3=3 (cos ST" + isin (- 5?")) =3 (cos (— i}) +isin (- sT")) puisque cos(—x) = cosx.
+      4. (E) est 'ensembles des points N tels que N = 0 et ON et
+      OM sont colinéaires de méme sens. C’est une demi-droite
+      ouverte d’origine 0. (F) est ’ensembles des points N tels que
+      N # 0 et ON et OM sont colinéaires de sens contraires. C’est la
+      demi-droite ouverte d’origine 0, symétrique de (E) par rapport
+      a 0. (G) est la demi-droite symétrique de (E) par rapport a
+      'axe (0x) des abscisses. (C) est le cercle de centre 0 passant
+      par le point M.
+
+      5. La double inégalité 1 < |z| < 3 se traduit par :
+                                1<0M<3
+      Donc le point M est situé dans la couronne de centre O et de
+      rayons 1 et 3 c’est-a-dire dans la région entre les deux cercles
+      €(0;1) et €(0;3).
+
+
+      D’autre part, la double inégalité Es arg (z) sf signifie que
+      Uinclinaison du vecteur OM par rapport a l|’horizontale
+      orientée (0; i) est entre m/4 et m/2 radians.
+
+      Donc la région cherchée est la zone hachurée en rouge, bords y
+      compris, car les inégalités sont au sens large.
+
+
+                                                            Chapitre 1 Nombres complexes
+
+
+
+
+T      T                           e          S             e —————
+              c. Propriétés sur les modules
+                      A, Pour tous nombres complexes z et 7, pour tout enter natureln, on a:
+                  @ laf? =17; @ lel=0=2=0 Q |-zl =17 = lzl;
+                   Dirl=1 o I=1/1; ® lzz| =12l x|71; © 1/z1=1/lzl; (z#0)
+                  gll‘lll-tfl/lfl wx0); O 7= @ lz+2|5 2l +2).
+                  B. mmm,{(g‘)afl(z,)duummplfle(o; g7),ona: AB=|z5~2z,|.
+
+
+                  ‘_o,,m“,“ya/::x’“y.vecx,y,!,y‘desréels.Les@,@,@et@sontévidentes_
+                  ®ona: 7' = (x +iy)(¢ +1y) = (xx' - yy) +i(xy’ +x'y) et donc :
+                   1] = Jar —yy) + @y + 290 = [ 4y ) 4 Y1) = P +y x X7 4y = 2] x ||
+                  ©®Siz#0alon V1=
+                  etdonc |1/ = J(x/(x’ + yl))' +(y/+ y’))' =GP +y)/(aF +y) = 1/Jx +y? = 1/la).
+                  @Siz#0alors: |2'2] = (2 x (1/2)] = |Z] x 11/z] = |Z] x (1/lz]) = |Z'|/z].
+                  La (® se démontre par récurence sur n, et la () se déduit par Interprétation géométrique de la
+
+b 8. AB= (x5 — 1) + 05 —12)* = |(xg = ) + 10y = y)l = |(xg +1y) = (ta + iya)l = |2 = 2.
+                  somme z +2'.
+
+
+           Remarque : z réel & |z| = valeur absolue de z.
+                     Le module est une extension a C de la notion de valeur absolue.
+
+              d. Propriétés sur les arguments
+                           A. Pour tous nombres complexes non nuls z et Z/, pour tout entier naturel n, on a :
+                  @ arg(®) = -arg(a) [2n]                          ©) arg(—ll) = +arg(z) [2n]
+
+                  (3 arg(zz') = arg(z) + arg(2) [2a] @ arg (‘z‘) =-arg(z) [21]
+
+                  ® argz*) =n x arg(z) [2n] © arg (;) =arg(z) - arg(z) [2n]
+                  @ 2€R =z=0 ou arg(z) =0 [] @12€IR =20 ou "g(z)=;["]
+                  B, Soit A(z,), B(zs), C(zc) et D(z,) sont 4 points, distincts 2 a 2, du plan complexe (0; i, V) :
+
+                  © (8.AB) = arg(ayg) = arglzy -2,) [2n) @ (AB,CD) = arg(;fi) =arg(2=6) (20
+                                                                                            5            Zp = ¢
+
+
+
+
+                  C. Nature des triangles
+
+
+                 () ABC rectangle Isoctle en A = k—_:‘
+                                                  o
+                                                       -= 4 (@) ABC équilatéral < [arg(z.Loh)_
+                                                                                          -14) )
+                                                                                                "
+
+                                                    B                                             Iz = 25| = |25 - sz
+
+
+                 A, (D et () sont des conséquences des symétries par rapport A l"axe (0x) et 4 U'origine 0.
+                 (@ On écrit z et 7 sous forme trigonométrique : z = r(cosa +isina) et z'=r'(cosa’ +isina’).
+                   22’ =r’((cosacosa’ - sinasina’) + i(sina cosa’ + cosa sina’)] = rr'[cos(a + a') +isin(a +a')]
+                 Comme rr’ > 0 alors a + o’ est un argument de zz', et par suite ; arg(zz') = arg(z)
+                                                                                                       +arg(z') [2n].
+                 ®0ona: '1= E(cosa —ising) = ;st(-a) +1sin(-a)], d'0l : arg(1/z) = - arg(z) [2n].
+                 chacun des points suivants, lire graphiquement son affixe z, le module
+                                                                                          de z et un argument de z :
+                 La () s"établit par récurrence sur n tandis que la ) se déduit de @et (.
+                 B. @ On sait qu'il existe un unique point M du plan tel que O = 4B, donc 235
+                                                                                                    = 25,
+                 Dans ce cas : (2,AE) = (1, 0M) = arg(z55) = arg(z5) [2n].
+                 @ (AB,D) = (AB,7) + (5,CD) = (1,CD) - (1,AB) = arg(zc5) - arg(zz5) = arg(zcg/255) (21
+                 C. Ces propriétés sont des conséquences directes de la propriété B, (2),
+
+
+
+       fcmpme 1 Nombres complexes
+    Manipuler les modules et les arguments
+
+    Exemple corrigé
+
+             A. 1. 0On considére z = -+ l— Déterminer la forme algébrique de z2°%*.
+            2. a. Déterminer une forme Mgommétrlque puis la forme algébrique de Z = (V3 —1)/(1 = D).
+               b. En déduire les valeurs exactes de cos(n/12) et sin(/12).
+            B. A tout nombre complexe z # ~2 — , on associe le complexe Z = (z— 4 - 20)/(z +2 +1).
+               Déterminer, géométriquement, le lieu des points M(z) tels que :
+               a |z|=1; 1Z| = ; (uniquement pour la 7° C)                            ...............
+                                                                                                               -]
+
+
+
+               b. Zréel; Z imaginaire pur. | Nombres complexes usuels E
+                                                                                      o                         )
+                                                                                      i      v                  .
+          A. 1. |z| =1 et arg(z) = m/3 car {sln(n/3) ar
+                                               cos(n/3) = 1/2
+                                                                                      :_—_:::\/.I- --'-/ ----- ;]
+                                                                                      '                3
+
+
+                 Or [229%1] = [72931 = 1 et arg(z%%") = 2021arg(z) = 2= = 673n+ T = —n+ = -1 [2].
+                 Donc une forme trigonométrique de z2°%* est cos(—m/3) +isin(—m/3), et par suite sa forme
+                 algébrique est 1/2 — (v3/2.
+                                    {'.'          -1l V2
+               2 a.0na:|[Vi-1|=2et|i—ll=vZ d'oulz =Ll 2o y7,
+                  D'autre part,ona: :E-:g
+                  arg(v3 - () = a tel que [ms(a) =V3/2 4onc q = -n/6; Jfifit{‘ ;ql!;t
+                                           sin(a) = -1/2
+
+                                           cos(8)A=-1/\/2-'
+                  arg(1 ~ i) = p tel que [sin(fi)   1/¥2 donc a = -n/4. Scan_me
+                  Donc arg(Z) = arg(V3 — i) —arg(1 - i) =a - f = -n/6 — (-n/4) = n/12.
+                  D’ol une forme trigonométrique de Z: Z = v2[cos(m/12) + i sin(n/12)]
+                  On a aussi :
+                                         e           (\/——l)(1+l) \/'+1 J’ 1
+                                           ~ l                              2 2
+                  b. En identifiant les deux parties réelles et imaginaires des deux écritures de Z, on obtient :
+                                                       J‘ 3+1                        J‘ 1
+                      :                \/_cos(lz) ;                     \/_sm(lz)
+                  D'ou finalement :
+                                               ny V6+V2 my V6-V2Z
+                                         os(53) == () =——
+           B. Soit A et B les points d’affixes respectives z, = =2 —1{,z; =4+2i;0naZ = (z —z3)/(z — z,).
+
+                  @ 1zl=1 o |""| =1 & MA=MB < M € (8) = med[AB]
+                  Donc le lieu de M est la médiatrice (4) du segment [AB].
+
+                      Qizl=12 = E|_1/z & MA=2MB
+                             3.         il     —            pel
+
+
+
+                                                           .            , (C = bar{(A,1),(B,2)
+                                                                                           }
+                   Donc le lieu de M est le cercle de diamétre [CD] ou D = bar{(A.-1), (B, 2))
+
+                  b.@ ZeER=Z=0ou arg(Z)=0[n] ®z=2 ou arg(::—::)=0[n]
+                                                              & M =B ou (MA,MB) = 0 [n]
+                   Le lieu de M est la droite (AB) privée du point A.
+                      QZeR=2Z= Oouarg(Z)-n/Z[n]mz-z,,ouarg”' =mn/2[n)
+                                                                  <M =B ou (M4, MB)—n/Z[n]
+                 Le lieu de M est le cercle de diamétre [AB] privé du point A.
+           Remarque : Ne confondez pas
+           @ Cercle de diamétre [4B] : son diamétre mesure AB et il passe par A et B;
+           (@ Cercle de diamétre AB : son diamétre mesure AB mais ne passe pas nécessairement par A et B.
+
+
+
+
+                                                                  Chapitre 1 Nombres complexe31
+
+
+
+L     e                      T                                    S      ——
+  Ce ‘P"‘[ faut cauol
+       e. Notation exponentielle d’'un complexe non nul
+           On sait que (cosa + i sina)(cosf + i sin f) = cos(a + f) + i sin(a + fB) pour tous réels a et .
+           Cette égalité ressemble fortement & I'égalité des puissances de méme base a® x af = a®*h,
+           Donc les arguments se « comportent » dans un produit de nombres complexes comme les
+           exposants dans Les puissances. Partant de cette ressemblance, on convient de poser :
+                                         Pour tout réel a, cosa + isina = el
+           La lettre « ¢ = renvoie & l'initiale du mot « exponentiation = mise en puissance =, et le « i »
+           pour rappeler qu'il s'agit d'un nombre complexe,
+
+   [STIETT Pour tout nombre réel a, on pose :
+       [                                 cosa+isina = e'®
+
+   [Exemples| B R                                                                1
+                                                                                                             S=
+             0                 =1
+
+
+
+
+           !‘7=cns;+lsin;=(. R                                                                 e o
+
+           e';' = ms;+lsin§= %+ li;ia
+   Conséquences : Pour tout réel a, [eld] =1 et arglel®) = a [27] et & = ¢,
+   m Pour tout nombre complexe non nul z d’argument @, on a:
+                                                           z=zle'"
+           Cette écriture est une forme exponentielle de z. Elle a I’avantage d'étre plus condensée et
+           permet de mémoriser plus facilement les propriétés des arguments.
+
+
+      f. Autres identités utiles _
+                    Ces identités sont utilisées pour les transformations d’expressions comme les formules
+           trigonométriques, la linéarisation, etc.
+
+           A. Identités & retenir :
+
+                          1-¢ = -2sin (;) e ela—elf = -2isin (fl ; a) e'(!;fl)
+                        4 146l =2cos(;) e7 ,ux+¢ll=z¢os(flz;“) g‘(—’E)
+                        Va,BER,          a i                          @4
+
+
+
+           B. Formules d’Euler :
+                                                                      e el
+                                                             cosa =       —
+
+                                              Va€R, el — g-la
+                                                             sina= T
+
+           €. Formule de Moivre :
+
+                                VYa€R,Vp €Z, (cosa + isina)? = cos(pa) + isin(pa)
+
+
+
+
+          A Ona:
+                                                       2
+
+                               1- el = o767 - (e'%) =- (e'% - ,-‘%) ¢'T= ~2isin (;) T
+          Les autres fdentités se démontrent de maniére analogue,
+          B. Elles se déduisent des égalités e'@ = cosa + Isina et e~!@ = cosa - i{sina.
+          C. En effet puisque sous forme exponentielle, on a bien ;
+                                             VaER,Yp €L ()P =elra
+        i C'est Justement La formule de Mofvre, il suffit de I"écrire sous forme trigonométrique.
+
+tChapltre 1 Nombres complexes
+    Utiliser la notation exponentielle d’'un complexe
+    Exemple corrigé
+    A.           1. Donner une forme exponentielle de chacun des nombres complexes suivants :
+                                                                                       —3+3i
+                              n=-2ie% 2,=(1-De% 2=—3% z,=
+                                                                                       3-0)e'T
+            2. On considére dans le plan complexe (0; i, ), le point A(z, = 2 - 20). Déterminer, sous forme
+            exponentielle, l'affixe z; du point B tel gue le triangle OAB soit équilatéral direct.
+            B. Linéariser l’expression A(x) = cos?2x.sin3x (Ecrire A(x) sans puissances).
+            C. Exprimer cos 3x et sin3x en fonction de cosx et sinx.
+
+                                                                                                                                 -
+
+            A 1 z= ~2iel5 = Ze"e'T'elT = 2¢(5%) = 26/(%). ! Siarg(z=x+1y) = a2 alors !
+                                           n          x
+                                                                            ______________________
+
+
+
+
+                                                   n x ! nbre z -z -_'1 E'
+                   z=01- |)e'E - fz'e_':ee = fie'( 0 :) =vZe'z E = x—iy | —x+iy | =x—
+                   7= —fie"'; = fie'“ee = \/ie‘("'?') =35 ¢
+                                                                  6T                     -a         n-a w+a
+                                                                                                                                        !
+                   e -fim" 5 fi(—ulfi)_:_ zliz:"/: =‘/§ex(3,1o:—, = fiel%
+                    T AT (T                       2eelT
+                2. Le triangle OAB est équilatéral direct si, et seulement si :
+                                                           S=toRes
+                                                           Z,-2Zp
+
+
+
+                D'ol, comme z, =0: zg =2, X e =02- 2():‘5 =2JZe el = z,/ig‘(—:fl =2/Ze 4
+            B. En utilisant les formules d’Euler, on peut écrire :            Le résultat de la linéarisation d’une
+
+                                          el2x 4 g-12x\? fpl3x _ o-i3x        expression de la forme cos”(ax)sin®(bx)
+
+                A(x) = cos?2x.sin3x = (
+                                               ) ()
+                        (eux 2+ e'“’)(e‘” — e-l.'u)
+                                                                             donne toujours une somme de cosinus si q
+                                                                             est pair ou bien une somme de sinus si q
+                                                                              est impair car, au dénominateur, on aura i9
+                                                                              etlon sait que:
+                                      8l                                            “= lou-—1si q estpair
+                        elx —glx 4 213 — 2e73% 4 g=lx _ o~17x = {l ou— 15l qest impair                                      cecmcc cc aned
+
+                                           81                              eeeeececccccccmceooee-- .
+                      . (eflx - e—l‘lx) e (el.x — 7-I ) + Z(E(k _e-ux)                              @.b._g:’l:!'i;-!@
+
+
+                                              8i                                                    5-'.:"" ' SREETY
+                      _ 2sin7x + 4isindy —2isinx 1               1. 1                                 ;‘        w3
+                      =             o               = Ism x +Esm x-;smx. hI:Ef-h"" 3 :{
+                                                                                                          Fy          o
+
+            C. Ils’agit ici de calculer (cosx + i sinx)? de deux maniéres :
+                                                                                                    O ¥y
+                Par la formule de Moivre, on a : (cosx + i sinx)® = cos 3x + i sin3x
+
+                Par la formule du binéme de Newton : [ (.onl=.'+!¢‘t+3-b‘+b‘—]
+
+                (cosx + i sinx)® = cos® x + 3i cos? xsin x — 3 cosx sin x — i sin® x
+
+                                 = (cos®x — 3cosx sin?x) + (3cos? x sinx — sin® x)i
+                En égalisant les parties réelles et les parties imaginaires, on obtient :
+
+                                                  [cos 3x =cos®x — 3 cos xsin® x
+                                                    sin3x =3 cos?xsinx —sin’x’
+
+    Applications
+               1. Ecrire sous forme exponentielle : z, = (V3 —iv3)'(—V3 +i)"; z, = 2i(i — 1)e-tn/s,
+            2. Linéariser l'expression A(x) = cos5x.sin?7x
+            3. En calculant (cos x + i sin x)? de deux maniéres, retrouver les formules de
+                                                                                                 duplication.
+
+
+
+                                                                    Chapitre 1 Nombres complexes
+                                                                                                                                             1
+
+
+
+T   e         B                                  T        —————
+        Equations polynomiales dans C
+    a. Les racines carrées d’un nombre complexe
+                                Soit D = A+ iB (avec A, B € R) un nombre complexe.
+                                                                                     tel que     :
+        On appelle racine carrée de D tout nombre complexe z = x + iy (avec x,y € R)
+                                                    2=D.
+
+         « iD= 0 alors il existe une seule racine carrée z =0.                                        s
+         o SiD = 0alors il existe deux racines carrées oppasées dont les parties réelles et les partie
+             imaginaires x et y sont solutions du systéme :
+                                               {x’ -y*=4
+                                                  2xy=8
+                                               1:+yz=fil_+_3—z
+
+   Démonstration - Exemple
+       is La démonstration est immédiate, elle s'appuie sur les deux égalités :
+                (x+B)P=x2-y +2ixy=A+iB et |x+iyl?=x?+y?=ID] = VAT +BZ.
+       io Déterminer les racines carrées du nombre complexe 8 - 6i :
+       i    Posonsz=x+iy(avecx,y €R). Ona:
+                                                        Q »*-y'=8
+                                  22=8-6i o {@ 2y=-6
+                                                        © x*+y?=82+62=10
+                                                                         Bo                           =
+            ©+6 = 2x* =18, soitx = +3                  1er que :
+           Six =3 alors 0 devient 6y = -6, soit y = -1. On aurait pu remarqu
+                                                                                                      !
+
+
+       Donc z, = 3~ est une racine carrée de 8 — 6i.                     1 8-61=9-1-2x3xl '
+                                                                                                      )
+
+
+
+       i                                                                 !        =3 4+2-2x3xl
+       i Six=-3alors @ devient —6y = -6, soity =1,                       !        =@-0'=(-3+0% !
+       i Donc z, = —3 + i est une racine carrée de 8 — 6i.               h                               ]
+
+           Donc les racines carrées de 8 - 6i sont z; =3 —ietz, = -3 +1i.
+
+  Remarque : L'écriture V8= 6i = 3 — i n'a pas de sens. En effet, si 'on considére que v=1 = i, nous
+                 aurons une contradiction flagrante :
+
+                                   “1=ixi=y=IxV=1={(-Dx(-)=Vi=1
+                Donc I'écriture vA sous-entend que A est un réel supérieur ou égal a 0.
+                Le nombre complexe 3 - { n’est pas la racine carrée de 8 — 6i mais, tout simplement,
+                une racine carrée du nombre complexe 8 — 6i (la racine carrée n’existe pas dans C).
+
+    b. Equations du 2TM degré dans C
+  R e =8 Soit I'équation () : az? + bz +c = 0, ol a, b et ¢ sont des complexes (a # 0).
+    On pose A = b% - 4ac et on désigne par & et - & les racines carrées dans C du discriminant A.
+
+        o SiA =0 alors (E) admet une solution double :
+                                                              b
+                                                   Zp= _fi'
+
+
+        s S1A# 0alors (E) admet deux solutions distinctes :
+                                     il                           s
+                                       20                         2 za
+
+  Démonstration
+        La démonstration est immédiate, il suffit d’écrire az? + bz + ¢ sous forme canonique :
+
+                                       az’+bz+c= (+b)2 8
+                                                  c=al(z+5-) - 75|
+
+
+
+
+fChapltre 1 Nombres complexes
+Résoudre des équations du 2TM et du 3*TM® degré dans C
+
+EXI=I 1. Résoudre dans C les équations d'inconnue z suivantes :
+           a. z24+4z+413=0; b. iz2-iz-3-1=0.
+           2. Montrer que l'équation (E) : 1z* + (2 — )z? — (5 + )z + 61 — 2 = 0 admet une solution
+           imaginaire pure. Résoudre (E) dans C. En déduire les solutions de I'équation :
+                                      F): —i+@2+D2*-(5-Dz-61-2=0.
+
+
+
+           1. a Ona:A=4?>-4x1x13=16-52=-36=36i> = (6i)?, on prend § = 6i.
+               Donc les solutions dans C sont :
+                                -b-8 -4-6i                         _Th+8 _—4+6i _
+                           a=m—=—g—=-2-3; n=——=—; 2 +31.
+
+               b. Ona:A=(-i)*-4xix(-3 —l)=—1-4+12(—-5+12L
+               Détermino
+                é       ns une racine carrée
+                                          S  dezA_
+                                                =  5+ 1       S .we
+                                                         na 'Onm
+                                                      2i.0N2:       e . ):
+                                                                   237
+                               T Y            | 5+120=9-4-2x3x2l ]
+               (x+iy)?=-5+12i & 2xy =12 '           =32+ (2P -2x3x21 !
+                               P4y =JF+122=13 1     =(3-20t=(-3+20° |
+                                              !                      ]
+               D’ou 2x2 = 8, soit x = +2.                                SRR                        IR
+
+               0On choisit x = 2 (il suffit de déterminer une seule racine de A).
+               Pour x = 2, on obtient 4y = 12, soit y = 3. Donc & = 2 + 3i est une racine carrée de A.
+               Donc I’équation admet deux solutions dans C:
+                              —b-5 i+(2+30) _-h+8 _i-(2+30)
+                         n=S—=——r—=2-1; n=—p i
+
+
+           2. Soit b un nombre réel
+               bi solution de (E) < i(ib)* + (2 —i)(ib)* — (S +i)(ib) + 6i—2 =0
+                                  = bP-2-Db*-(5i-1)b+6i—-2=0
+
+                                  @ -20+b-2)+ (P2
+                                                -Sb+6)i=0
+                                                      ie I -2b*+b-2=0
+                                                           2"+~
+               L'équation b? — 5b + 6 = 0 admet deux racines 2 et 3. Seule la racine 2 vérifie |'équation
+               b® — 2b2 + b — 2 = 0. Donc |’équation (E) admet une solution imaginaire pure égale a 2i.
+               Résolution de (E) : 2i est solution de (E) donc il existe 3 nombres a, b, ctelsquepourz€ C:
+                                  iZ2+(2-)z22-(5+i)z+6i—2=(z-2i)(az? + bz +¢)
+               On détermine les complexes a, b, c soit en identifiant les coefficients aprés avoir développé le
+               second membre soit en dressant un tableau d’"Hormer comme suit :                 E
+                                                                                                   Qfl.‘
+                                        i         2—-i =S5-1 6i —2 -:-'.?
+                         |2t            1          -2           2        —6i+2
+                                        i          —i         —3-1 0
+
+
+               Donc : 23 + (2= )22 — (5 + 1)z + 6i = 2 = (z— 2i) (i — 1z — 3 — ).                5""—'“‘
+               D’ou: zsolutionde (E) = (z—2i)(iz2-iz—3-i)=0&2z=2i ou iz2—iz—=3—i=0
+               Or 'équation iz? —iz— 3 —i = 0 a été déja résolue a la question 1. a., d’olr :
+               L’équation (E) admet dans C trois solutions : z, = 2i, 2z, =2—i, zz=-1+1.
+               Résolution de (F): On remarque que les coefficients de (F) sont les conjugués des
+               coefficients correspondants de l’équation (E), d'ou les solutions de (F) sont :
+
+                                             Z=-2, =2+i, F=—1-1.
+
+Applications
+Exercice 1. Résoudre dans C les équations suivantes : a. z2+2z+2=0; b. 22— (3+i{)z+8—i=0.
+           2. Montrer que 'équation (E) : z3 — (1 +i)z? + (2 — 3i)z + 16 — 2i = 0 admet une solution réelle.
+           Achever la résolution de (E). En déduire les solutions de I'équation :
+                                       (F):22-(1-0)22+(2+30)z+16+2i=0.
+
+
+                                                                Chapitre 1 Nombres complexes i
+       ¢. Les racines n'*TM*® d’'un nombre complexe
+           On sait que (2 + 0)* = [(2 + )’ = (3 + 41)? = =7 + 24i. On dit que le complexe 2 + i est une
+          racine 4*TM du nombre complexe —7 + 241. En général, pour a € Ca,et n > 2 donnés, les solutions
+           dans C de 'équation z” = a sont appelées les racines niémes de
+                    Soit a un nombre complexe et n un entier naturel supérieur ou égal 2.
+                                                                    Les racines n'*TM* de a
+
+            1"cas: a=0 1seuleracine:z=0
+            ITMcasia=1 n racines n"TM® distinctes :
+                                                                           LY Zn
+
+                                                                w,=en, kel[o,n-1]
+                                                                            n
+
+
+
+                                                  Les wy sont dits racines n“TM® de l'unité.
+            3TM cas:a# 1,0 d'argument 0 n racines N distinctes :
+                                                               = '{/me'(%‘kzn_.). k€ [0,n-1]
+
+           is Lecasa=0estévident.                                            Uniquement pour la 7° €
+           ie Ftudionsle 3*TM cas:a#1,0dargument 8 :
+           i On sait que a s'écrit exponentiellement : a = |ale'®. Alors, on a:
+
+                               Sasenas? [n.arg(z)=0+2k1\ (k€Z)
+           s                    n=
+                                                 Iz]" = |a|
+
+                                                 1zl = Vlal                        Izl = Vial
+                                       =              0 2kn =                               0 [2m
+                                             arg(z) St (keZ) arg(z) = ~ [T
+           i Donc le complexe a admet exactement n racines niémes :
+           4                           2 = ",“a|e'(?k7), k=0,12,..,n=1.
+                                                   9, . 2n
+
+
+
+            Si |a] = 1, on retrouve les racines niémes de 'unité.
+
+           : Racines cubiques de l'unité :
+           : Les racines cubiques de ['unité sont les complexes définis par :
+                                                       5, k=012
+           H                                             k2!
+           i                                     wy =                                               \/_
+
+                                                   V3                   dn 2m\? 1 3
+           é we=1 w‘=eiT=—E+l-z—-=|; mz=el3 =(e'3) =|1=-——I?.
+                      a1
+           iOna: P=1 1+4j+4=0.
+
+             Racines 4TM de I'unité :
+           i Les racines 4TM de l'unité sont les complexes définis par :
+           H                                 k: kn k
+           H                          wk=e'_:!=e’7=(e"ir') =i k=0,1,23.
+                                     wy=1; W, =1i; w; =-1; w3 =—i.                          )
+
+
+
+
+      Remarque : Si wy, = e'T" (k=0,1,2,..,n~ 1) sont les racines niémes de 'unité alors pour tout
+           H                 .
+
+
+
+
+                    entier k, w = (w,)*. On dit que w, génére les w.
+
+                      Soit a = re'® (avec r > 0) un nombre complexe non nul. On désigne par zy les racines
+            niémes de a et par wy les racines niémes de L'unité. Alors,ona:
+
+             ® nz-llk=E"’n=0
+             (@ Les points images des z, (ou des w,), dans le plan complexe (0; i, ¥), sont les sommets
+             d’un polygone régulier & n cdtés inscrit dans le cercle de centre O et de rayon 3/Ja[ (ou 1).
+             (@ Si z est une racine quelconque de a alors toutes les racines de a sont z X wy avec k variant
+             de0an-1.
+
+
+
+    . Chapitre 1 Nombres complexes
+
+k
+Déterminer les racines n'*TM* d'un complexe
+
+Exemple corrigé
+            1. Déterminer les racines 4TM du nombre complexe a = -8 — 8iv3.
+           2. Calculer (2 + 1)*. En déduire les racines cubiques de 2 + 11i.
+           3. a. Montrer que si z est une solution de I'équation (z + I)* = (z — I)* alors z est réel.
+                b. Résoudre dans C "équation : (z + i)* = (z— i)*.
+
+
+
+
+           b     Ona:|-8-8iy3|=8x[1+iy3|=8x2=16,et:
+
+                            arg(—8 — 8iv3) = arg[-8(1 + iV3)] = n + arg(1 + iV3) = n+;=—3! [2n).
+                                                                                                 4
+
+
+                 Donc les racines 4°TM* de —8 — 8iy3 sont :                                      o
+                 2 = Y166 =                  266D, k=0,1,2,3. PP e o)
+                 En faisant varier k, on trouve les quatre racines 4°TM :             ! %*)_— _,
+                 Z=2e5=1+1V3; 2,=2GD = —V3+i; Ifié_\fi ir
+                   @)
+                 =207 =1-V3; 2,=2¢'3"7) =V3-i
+                                                      &)                              OLE =:5eH
+                                                                                       Saiime
+                 Remarque :
+                 S1, dans cet exemple, la question était « Déterminer les racines 4°TM* du nombre a=—8-81V3
+                 sachant que z = V3 — | en est une - alors on utiliserait la demniére propriété (3 du cours et donc les
+                 racines cherchées s'en déduisent :
+
+                       zx1=(V3-1).1=V3-1; z2x(-1) = (V3-1).(-1)==V3 +i;
+                       1xl=(\/§—l).l=1+h/§; zx(-l):(fi—l).(—l):—l—lfi.
+                 Ona: 2+ =Q+i)P2Q+)=B+4)(2+i)=6-4+3i+8Bi=2+1li
+                 Donc 2 + i est une racine cubique de 2 + 11i, et par suite il suffit de multiplier 2 + i par
+                 toutes les racines cubiques de l'unité pour obtenir toutes les racines cubiques de 2 + 11i :
+                                                                                                             Vi
+                         2=1xQ2+0)=2+i; z,=]x@2+0); 2z =|1x(2+l).o(11=-:—+|73.
+                 a. zsolution & (z+i)*=(z-i)*
+                               = |z+il'*=[z-il*
+                               = |z+i]=|z-i|
+                               = MA =MB ol A(-i), B(i), M(z)
+                               = M(z) € med[AB] = (Ox), c’est-a-dire que z est réel.
+
+                 b. Pour z = i |’équation devient : (2i)? = 0. Donc z = 0 n »est pas une solution de L'équation.
+                 Donc on peut logiquement diviser par (z — i)* ; ainsi :
+
+                                                      ;          (z+1i)* +iy*
+                                        @+i)=@-i) = Gl e C__—i) =1
+                 D'oli : si z est une solution de (z +i)* = (z—i)* alors 1—*: est une racine 4°TM de l'unité.
+                                                                           -
+
+
+
+                 z+i                    z+i
+                 —=1=i=-i (impossible)y —=-1=2=0;
+                 z—-1                                     z—-1
+                  2+
+
+                 (5= =(-dz=1-i)=2=1 (==-i =S @+iz=-1-1)=2=-1.
+                                                                 z+i                .                    =
+
+
+
+                 Donc I"'équation (z+i)* = (z - i)* admet trois solutions a savoir : 0; 1 et (=1).
+
+Applications
+Exercice        1. a. Déterminer les racines cubiques des nombres complexes A=—-2+2iet B=1+i.
+
+                 b. En déduire les solutions dans C de I'équation 28 + (1 - 3i)z -4 = 0.
+           2,    a, Calculer (2 +i)*.
+                 b. En déduire les racines 4TM de —7 + 24i.
+                 c. Résoudre dans C |'équation (z + 1)* + (7 — 24i)(z—1)* = 0.
+
+
+                                                                   Chapitre 1 Nombres complexes .
+      Ecritures complexes des transformations
+              Le plan complexe est muni d’un repére orthonormé direct (0; &;,&;). M est un point
+                                                                                    mation du plan.
+      du plan ¢"affixe z et M’, point d'affixe Z, est I'image de M dans une transfor
+                                                            complexe
+            Transformaticns Définition géométrique Ecriture
+      } i)
+                  MM =1 z'=z2+4+a
+        S     :  ioM==- 2w =—  (2-®)
+                                                    =%
+                            T
+                                              M) 7'
+                      OM
+                       )
+      d'axe (0x)
+       Réflexion
+                   S    o n [(ETWoM’) = ~(z;0
+                                      = OM g
+                   Scon [(Efii) =n- (&0M) 2’ =-%
+       Réflexion d'axe (0y)
+
+
+                   H                             W = kKM 2’ —w=k(z—w)
+                                                                                          3
+                      M ’
+                                           n] 2’* —w = ez - w)
+                    a)x
+
+       Rotation aM = a                =aaf2M
+                  R g @ )a ) {(maMnM= k
+                  S(o(w)xa) {(mn_u‘) =a[2n] 2’ —w=ke(z - w)
+       Similitude directe
+
+
+
+      : On se limite dans cette démonstration au cas de la similitude directe.
+
+
+          it S(0, k a) la similitude directe de centre i(w), de rapport k et d'angle a.
+          it M(z) un point distinct de 0.
+
+            Si M(z) a pour transformé M'(z’) alors, on a :
+
+                                               M’ = kaM
+                                              [(mn—u‘) =af2n]
+          it en termes d’affixes :
+
+                                               |7 - 0] =kiz— |
+                                                   7 -w
+                                              arg (—) =al2n]
+                                                   YA
+
+
+
+
+                                                   [Z=w| _
+                                                   fr=wl=*
+                                                   7 -
+                                               arg(z_m) = af2n]
+
+        Donc le nombre complexe ';_—': a pour module k et pour argument a et donc :
+
+                                                  z-w
+
+       { ou encore 2’ - w = ke'"(z— ) (.
+        e SiM=0 alors M'= 0 et donc la relation () est vérifiée.
+
+       { Enfin, ona:
+                                     M=SM) & 2’ -w=keé(z-a).
+
+'   Chapitre 1 Nombres complexes
+                                                                              Ce gu' il faut. sauoir faire
+Déterminer I'écriture complexe d’une transformation
+
+Exemple corrigé
+
+         Le plan est muni d'un repére orthonormé direct (0; &, &;). Déterminer U'expression complexe de
+       chacune des transformations suivantes :
+        1. La translation T de vecteur 7(3 - 21)
+                                                 ;                    —
+        % La rotation R de centre A(~1+2i) et d'angle 3 ;
+
+        3. L’homothétie H de centre B(2 + i) et de rapport (-3) ;
+       4. Lescomposées HoR et ToH.
+
+
+
+        Soit M(z) un point du plan et M’(z)) son transformé dans la transformation considérée.
+        1. Expression complexe de T:
+
+                                             M(2) S Mz = z +3-2i)
+                                                                 M   g
+
+
+        2. Expression complexe de R :
+
+                                                 M(2) = M)
+            telque: z'—(-1+2i) = e'E(z — (—1+2i)) et donc tous calculs faits, on trouve :
+                                                      z’=lz+1+3L
+       3. Expression complexe de H :
+
+                                                 M(z) ro M'(z)
+            tel que: ' —(2+1) = =3(z— (2 +1)), ce qui donne enfin :
+                                                     2’ =-3z+8+4i.
+
+
+       4, Expression complexe de HeR:
+
+
+                             M(z)                            M,(z, = iz+ 1+ 3i)
+
+
+
+
+                                                             M(Z = -3z, + 8 + 4i)
+
+
+            Donc: z'=-3(iz+1+3i) +8+4i =-3iz+5-5i.
+
+            On établit de maniére analogue |'expression complexe de Te H.
+
+
+
+
+          Le plan est muni d’un repére orthonormé direct (O; &;, ;). Déterminer 'expression complexe
+        de chacune des transformations suivantes :
+        1. Latranslation T de vecteur G(-1 + 2i).
+        2. L'homothétie H de centre A(2i) et de rapport k = -2.
+        3. Larotation R de centre B(2 + i) et d’angle n/3.
+        4. Les composées ToR, ToHet RoH.
+
+
+
+
+                                                             Chapitre 1 Nombres complexes .
+                                     Chapitre 1 _ Nombres complexes
+
+                              e chapitre en bref
+
+                       pDéfinition                    0          Forme trigonométrique
+                                                                 Notation exponentielle
+lex&gmemmbhdenunbres,mlé C, appelé                    Les forme trigonométrique et forme exponentielle
+ensemble des nombres complexes tel que :
+@L'mmblelmcmtemdnmc(ncq;
+                                                      d'un nombre complexe z=x+1y+0 sont
+
+(@ La multiplication et 'addition ont les mémes
+                                                      respectivement :
+
+                                                              z=r(cos@ +isin@) et z=re'®
+pmprléfisd-ucudamll;
+@neflmmtmmflh’!lulul‘=—l;                             avec:r=|z|= /xZ+ y? et arg(z) =0 [2n] ou
+@mmmk‘mknl.nezdstemmiqm                                                                Re(z)
+mlple(x:y)&mddstflque:                                                                   [El]
+  z=x+ly, ol 1 est le nombre vérifiant i¥ = -1.                                        Im(z)
+x = Re(z) : partie réellede z ;                                                          [E]
+y = 3m(z) : partie imaginaire de z.                   Donc: e°=1,
+©On note (R I’ensembles des imaginaires purs (1y).    Ona:
+            [x=x+ly=0                                 lzx 2| = |z| x |2,      arg(zz’) = arg(z) + arg(z')[2n]
+                ryeR = ¥=y=0
+                                                      1z = |zI",              arg(zTM) = n x arg(z)[2n]
+
+             x+ly=x+1y {x:x’
+                                                       z'| 7|
+                                                                              arg(z')
+                                                                                  z,
+                                                                                      =arg(z') —arg(z)[2n]
+                                                       z| T’
+               xy.x.y €R y=y
+                                                      Formule de Moivre :
+                   Conjugaison                                (cos@ + isin@)" = cos(nd) + sin(no)
+Le conjugué du nombre complexe z = x + iy est le      Formules d’Euler :
+                                                                                    el® 4+ 10
+ complexe 7 = x — iy.
+                                                                           cosf =
+
+Pour tous complexes z et z’ et tout entiern > 0:
+
+
+                                                       siz=re' alors:
+               z+7 =2Re(z),          z -7 =2iIm(z),                  Z=re9,
+   ERe=TI=2        ZEIR 7=~z
+
+
+
+                                                        © Nombres complexes et géométrie
+              Module - argument
+
+
+Pour z = x + iy avec x,y € R, et M(z) dans le plan
+                                                        Solent A(24), B(zs), C(2c), D(zp) des points du plan
+                                                        complexe (0; U, V).
+ complexe (0; U,7) :
+ ¢ Le module de z est le nombre réel positif :
+                                                             ® z=7-"7
+                    lzZl=J/x* +y2 = oM
+ e Siz= 0alors un argument de z est tout nombre
+                                                             @ AB=|zg—14l
+    réel @ tel que :                                         @ (uAB)=arg(zs —za) [27]
+                       0 = (4, 0M) [2n].
+                                                             ® (BT) = arg(2=3) I2n
+                                                                                    Zp — Zc
+               r=0M = \/z% +y?                               ® @AB)N(CD) =      ER
+                                                                          Zg—Zp
+
+                                                             ® MBLED) = 2R           Zg—Za
+
+
+
+                                                             @ AABOrectangleenA < <A     cip
+                                                                                                2o —
+
+
+
+
+                                                                                  Zp —Zp
+
+                                                                                      Ze T _ o1
+                                                                 A(ABC) équilatéral < Zp —Zp
+                                      -------- cons                                            ceeae
+
+
+
+
+                                &Exercices corrigés
+
+
+On considére le nombre complexe :
+
+                                                  £   &       v   &
+
+1. Calculer a?,
+2. Déterminer le module et un argument de a?.
+3. En déduire les valeurs exactes des lignes trigonométriques cos(m/12) et sin(m/12), puis celles de
+   cos(11m/12) et sin(11m/12).
+
+
+
+
+1. Ona:
+
+
+
+                             =z+‘[3‘_z-\/§+21 b%n:'fin‘g
+                                                          2+V3)(2-V3
+                             2
+                                                         Vi
+                                                                         —_—           +
+
+                            2 2 r                   2    7                                 [
+2. On reconnait que :
+
+                                                    at= £+i iz
+                                                             252 i
+            Donc |a?| =1 et arg(a?) = E [2n].
+3. * |a?| =1, donc |a| =1car |a]* = |a?| =1 et |a| > 0.
+
+                        arg(a?) =% [2n] & arg(a®) = 'E'+ 2kmk €Z < 2arg(a) = %+ 2km, k€T
+   D’ol :
+                                                        .4
+                                                arg(a) =fi+ kmkezZ
+   Deux valeurs possibles pour arg(a) :
+   Pour k=0,0na:arg(a) =m/12; Pourk=1,0na: arg(a) = /12 + m.
+  Mais on sait que pour un nombre complexe non nul z d’argument 8, on a :
+                ® Re(z) et cos 6 sont de méme signe ;
+                ® Im(z) et sin@ sont de méme signe.
+
+   Donc l"argument qui convient est m/12 car Re(a) = —"2;"3 >0,Im(a) = —“'z"‘" > 0 au méme titre que
+   cos(m/12) et sin(m/12). Enfin, on a :
+
+                                  Ty Re(a) V2+vV3 ymy Im@) V2-43
+                                0( )=_=__. sm(_)=       __
+                                 S\ = Tl T                          124 wtna] a2
+  * On sait que :
+
+                                                   [cos(n -X)=-cosx
+                                                    sin(mr - x) = sinx
+    Dol :
+
+
+                                    c0s ()
+                                         12
+                                           = cos (- 12
+                                                    ) = —cos () = - X225,      29
+                                          S /11m) e          n My V2-43
+                                      sin (fi) =sin (H'fi) = sin (fi) = 2 \
+
+                                                                  Chapitre 1 Nombres complexes .
+   crire sous forme exponentielle les complexes suivants :
+                                         +30! (74 v2)"(3-30v3)"
+                                                   3
+
+
+            a=(-2+420(V3+31); b= (B-06
+                                  (-3+31v3)'
+
+
+ Dans presque tous les exercices sur les complexes, les nombres rencontrés sont générés a partir de trofs
+                                                                                          cceur leurs formes
+ nombres usuels & savoir V3 +1, 1+let 1+ iv3. Donc il est indispensable de connaitre partent, si l'on connait
+ exponentielles (1% tableau). D’autre part, les propriétés des arguments nous permetet de I'opposé de son
+ U'argument d'un complexe, d'en déduire les arguments de son conjugué, de son opposé
+ conjugué comme indiqué dans le deuxiéme tableau :
+                Nombres usuels Propriétés des arguments
+        Nombre | v3+i | 141 | 1+iV3 Nombre x+ly x =iy =x+ly | =x=1y
+     Module 2 V2 2
+        Fred | 203 | V2t | 269 ’                                    A|TB
+                                                             g oo BB-
+                                                  argument connu -                                +
+
+
+ Exemples de mise en pratique :
+         e Ona:
+
+            0= (24200434 30) = 2% (=1 + D xvEx (14 3) = 2v2e D) x 2036 = 23 ¥ x &8 = 4vGe T
+        e Onademéme:
+                                                  3          =              "    L1
+                        _08-0'a a0 [ V] gexatxeBxe 1 a
+                            (-3+33)° [3 x Zgl('-;)]‘ Fx2txe'T
+        « De méme, on peut écrire :
+
+            = (-VZ+1v2)"(3-33)" = V(-1 + 0 x 301 - ¥3)) "
+             =251 x 30 x (fi',l‘!)““ x (Ze"i’)m =2122x 320 x e‘(_l_iz)
+                                                                 306m_ 20
+
+
+
+
+             = 2172 x 310 x oI = 2122 x 30 x ellmr-me) - gua2 320 -5,
+
+
+ Dans le plan complexe (O; i, ¥), construire les points A, B, C et D d’affixes respectives :
+               n=-3426% zp=1-1426% zo=-2+143¢F; 2p =20+ 3¢~
+
+
+ On part de 0 vers le point a d'affixe (—3)
+ puis de a vers le point a, d'affixe (-3 +2 =
+ -1).
+
+
+ Ensuite, on fait tourer le point a, autour de
+ a d'un angle de m/4, on obtient ainsi le point
+ A(-3 4+ 2¢1),
+
+
+
+
+                                                                                                  1
+
+
+
+
+. Chapitre 1 Nombres complexes
+                              T a1(—2+i+3) f
+                                           |
+
+                              *         —
+
+
+
+                    |                      |
+                    et                     |       A )
+
+
+
+                                                                              | 7.b<1‘—"+==")
+                                                   e
+                                           |
+                                           |
+
+
+
+
+                     C(—3+i+3e“|)1 ‘
+
+ On part du point 0 vers le point a d’affixe —2 +1,      On part du point O vers le point a d'affixe 1 — i, puis du
+ puis du point a vers le point a, d'affixe (—2 + i +     point a vers le point a, d’affixe (1-i+2=3—1).
+ 3=1+1).
+                                                         Ensuite on fait toumer le point a, d’'un angle de m/4
+ Ensuite on fait tourner le point a, d’un angle de
+                                                         autour du point a.
+ —m/3 autour du point a.
+ Ainsi, on obtient le point C d'affixe -2+1(+
+                                                         Ainsi, on obtient le point B d’affixe 1 — i + 2e‘TM/4.
+ 3e5in/;
+
+
+ On construit le point a(2() et le point b(3).
+ On fait tourner le point b autour de 0 d’un
+ angle de (-m/3), on obtient le point
+ c(3e-'"3),
+ On a donc :
+
+                 0D = 0a + 0c
+                                                                                               =0a +0¢
+ Donc on construit D par la régle du                                                                              b(3)
+ parallélogramme.
+
+                                                                              —n/ D(2i +3e7')
+
+
+
+
+                                                                                            c(3e7Y)
+
+
+
+                 Les questions 1, 2, 3, 4, 5, 6 et 7 sont indépendantes les unes des autres.
+Dans tout l'exercice, le plan est supposé muni du repére orthonormé direct (0; U, ).
+
+1. Sachant que {arg(z)2|= = V2
+                          n/62n)’ écrire le nombre (1 + {) x eTM5 x 23 sous forme exponentielle.
+2. Déterminer les racines carrées du nombre complexe 21 - 201.
+3. Montrer que le triangle ABC est rectangle isocéle en A avec A(1 +1), B(2 + 31) et C(-1 + 21).
+4. Le point A(z, = 2 + 2[) étant donné, déterminer |affixe z; du point B tel que 0AB est un triangle
+
+                                                                   Chapitre 1 Nombres complexes .
+        équilatéral direct. En déduire les valeurs exactes de cos(7 w/12) et sin(7 x/12).
+     5, Deéterminer I'ensembie des points d'affixe 2 avec 2 # —4 + 3( tel que : Z = 2L € (R
+     6. Déterminer I'amsembie des paints d’affixe 2 telleque |z - 2(] = |z + 1 ~1|.
+                                                                                       réels.
+     7. On considéra I'équation 2z* — (1+ 502+ a+ bi = 0, 001 a et b sont deux nombrestion.
+      " a. Déterminer les réels a et b sachant que le nombre 2{ est une solution de I’équa
+        b. En déduire |a valeur de la deuxiéme solution,
+
+
+
+                                                                o                    g   n   T   5m
+                     ,rgl(x +10) ;.“5‘-:’]: arg(1 +l)+aru(' ‘1) + Jarg(z) = 7 (-§)+ 3z=l—z- 12n];
+                     | +xe Bzt =1 wilx|o| x12P = VIx 1% (VZ) =4
+                                                      "                          b
+
+
+
+
+        Donc une forme exponentielle de (1 + 1) x e ixzt est: .
+                                                  A+10)x T xz? = 4e'TT.
+     Z Les racines carrées de 21 - 201 :
+        Déterminons les nombres complexes x + Iy (x, y réels) tels que : (x +iy)* = 21 - 20i.
+        On sait que les réefs x et y sont tels que (x, y) est solution du systéme :
+                                                Or-y*=21
+                                                @ 2y=-20
+                                                 @ x*+y? =217 4201 =29
+        @D+@ = x*=125, soit x = 5.
+        Six=5alors@ = 10y = =20, soit y = -2.
+        Six=-5alors (2) => —10y = =20, soit y = 2.
+        Donc les racines carrées de 21 - 201 sont 5 — 2i et —5 + 2i.
+        Remarque :
+        On pourrait remarquer que 21 ~20i =25-4—-2x5x2i =5+ (21’ =2 x 5% 2i = (5= 2i)’.
+     3. Is'agit de vérifier que I'angle (AF, AC) est droit et que AB = AC :
+                                           2,-2, (=1420=(1+0) _=2+i _i(1+20)
+                                           Za-2z, @+3ID-(1+0) 1+20 1+2
+        Donc le triangle ABC est rectangle et isocéle en A.
+     4. On sait que le triangle 0AB est équilatéral direct si, et seulement si :
+
+                                                   2y =129 a2 1             Vi
+                                                            =ei=c+1 7
+                                                    =12             2
+        Ona:
+
+
+                     EL
+                      -
+                           T
+                     3=z 2z, 2 2
+                                 ,,=(%+1i;3-)x,=(%+1%(z+21)=(1+1m(1+i)
+                                                    3
+
+
+       Dol : zg = (1-v3) + (1+V3)i.
+       Déduction des valeurs exactes de cos(7m/12) et sin(7n/12) :
+;      On a: (i, 08) = (i, 04) + (0A, 0F), ot on sait que :
+
+                          (#,074) = arg(z,) = arg(2 + 2i) = arg(1 + ) = ; [2n], (fifi) = '31 [2n]
+       D'ou :
+                                                      —           n In
+                                                   (,08) = ;4»3: 3 21
+       C’est-a-dire :
+                                                                        n
+                                                           arg(zy) = 33 [2n]
+       Dautre part, on a: |z, | = |(1 +iv3)(1+ )] = |1 + iV3] x 11 +il = 2vZ
+      D'oli une forme trigonométrique de z, est :
+
+                                               2= Zfi(cos(% +isin (Z—:))
+    rChapltre 1 Nombres complexes
+  Par identification des parties réelles et imaginaires de z,,
+                                                                 on trouve :
+                                          7            Tn
+                                 2fi:os(fi =1-3; Zflsln(fi )- 1+V3
+  D’ou finalement :
+
+                              (7_ 1- \/- vZ-V6 ‘(711) l+\fl' fi+\/-
+                                 12)° 25          o = S )                 fbpy, iy
+  On sait que :
+
+                                        ZEAR=Z=Oouar;(Z)-;lnl-
+  On a donc :
+                   2z - 41              2z -4l                   2z - 4i           z2-2 n
+                  RSB T 31_°°"“(x+4—31)= +4-3n)=im
+  On considere les points A(—4 + 3i), B(2i) et M(z).
+  ® 2z - 4i e
+       Tre-31 2=2l=2, s M=8
+
+
+  l"l('+‘ 3‘) E["l‘”lfs(;:f::)=il"|‘=m-m)=f["’
+                          n                  -      n                          n
+
+
+
+  Donc ['ensemble cherché est le cercle de diamétre [AB] privé du point A.
+ L Ona: |z=2(l2|z4+1=1] & [z-2i2|z-(-1+1)]
+  On considére les points A(2(), B(~1 + () et M(z).
+   220121z = (=14 1) & |z, =2,] 2|z —2,] = AM = BM.                                                    ‘
+   L'ensemble cherché est le demi-plan fermé de frontiére la médiatrice du segment [AB] contenant le point B.
+7. On comsidére |'équation 2z? — (1 + 5()z + a + bi = 0, ou a et b sont deux nombres réels.
+  a. 1 2 est une solution de I'équation alors 2(21)* — (1 + 5()(2() + a + bi = 0 c’est-a-dire :
+                                    -8-2+10+a+ib=(a+2)+(b=-2)i=
+      Ce qui donne : [:f;:gwmcmen=—29tb=2.
+  b, Si 2’ est la 2TM solution alors on aura :
+                                                 a+ib =-2+2i
+                                           2xz' = 2 =T=_1+‘
+      Donc :
+                                                  rgsiilyl, 1,
+                                                 SOy 22
+
+
+1. On considére dans C I'équation (E) : 2% + (1 - 502 — 2(5+ )z + 81 = 0.
+
+  Vérifier que le nombre 21 est une solution de I’équation (E) puis résoudre (E) dans C.
+
+2 Dans le plan rapporté & un repére orthonormé direct (0; U, V), on donne les points A(z, = -1 + 2I),
+
+   B(zp = 21) et C(z¢ = 2 + ).
+
+   a, Placer les points A, BetC.
+
+   b. Déterminer la nature du triangle 0AC.
+
+   c. Déterminer |'affixe du point D tel que OBCD soit un parallélogramme.
+
+ . Pourtoutz#2+1(,onpose f(z)=(z+1-20)/(z-2 - 1).
+
+   a. Résoudre |'équation f(z) = . Retrouver le résultat de la question 2.b.
+
+   b. Déterminer I'ensemble I'; des points M d'affixe z telle que |f(z)| = 1.
+
+   c. Déterminer I'ensemble I'; des points M d’affixe z telle que f(z) est un réel positif.
+
+   d. Vérifierque 0 €Ty etque 0 € I';.
+
+ . Soit le nombre z, = z, — { et pour tout n > 1, on pose z, = (z,)" et W, = |z,|. On note M, l'image de z,.
+
+   a. Calculer W, en fonction de n, et donner une mesure de I'angle (TI',OM,, ).
+
+   b. Vérifier que Mzo,4 € (0; V) et Moy € (0; U).
+
+
+                                                                    Chapitre 1 Nombres complexes 1
+                       l eau d’ H ;
+                                  am er €n pos ant P(2 ) )
+                                                         = £ 1* ( 1-5();‘-2(5=
+                                                                  .               % Bé‘
+                                                                             +0)z+8L:
+
+ {. Util is ons un tab
+                                                       - 2‘3‘ 2 0=PQ2I)
+                                                                                      &
+                                           1 ~ 1+6
+                 2                    1                  s                       -
+
+                     une oLii
+                         s    on de 'équeatio n (E) et
+                                                 (,-Z  pou
+                                                      l)[z ’r tot comple
+                                                              +(1   u 2",xe4).
+                                                                   -30
+    Dong 21 est bien
+                         3                            "00z +(1-3)
+                                '_m[:,+(1_30,_4]=a e z=20                            14(1-30)z-4=0
+             ¥
+    Résountondelpé (g)uit':n;n(
+
+    Pourléqunflm=;x_(‘u=(l_3l)l+16=8'6(=3'+‘l'2)‘3x‘ @
+          )     fon 28 + 1-3|),_4=0,onl: *                                               ~i)?,doncd=3~1.
+
+
+    Lessnlutlonsdel’éqmnonx'+(l-3l)2"=°‘°""                          ;9;_3‘)2_+_(3_'—Q=1+L
+                        L=
+                             -1-30-6-0_ 742, =z=
+                                      2
+
+
+                                                                           —(1-30+@-0
+                                   -1-30-6=0_ 543 "1+t
+    Donc les solutions de I'équation () sont &
+                              =
+
+ 2 . Représentation ds points AG = -1+ 20, Bz = 20 €t (¢ = Al
+                  =2                          2                                      .
+
+
+
+                                                                       .
+     b. Nature du triangle 0AC :
+     Ona :      N
+        2+l)=_l —4
+               x,-z,,_z,_-l+2l_((
+               -1, I 2+l 2+l
+     Donc le triangle OAC est rectangle {socéle de sommet
+     ¢. Le quadrilatére OBCD est un parallélogramme si, et
+     0.
+
+
+     seulement si : 255 = 257, c'est-a-dire
+             l.=t,—,-5=z¢-x,=(2+l)-21=2-(.
+  . 2. Résolution de I'équation f(z) =1
+     =i — "x
+        z-2-1
+                      1-2i
+                                                                   =
+                                                                                     0
+              oz+1-2=iz-21+1 j
+              =(1-)z=0e=2=0 i
+     On retrouve ici (a propriété du triangle 0AC déja
+     établie car f(0) =i n’est autre que : JE]
+                                               (.                                                          h
+                           Zo 1:___
+                                                                                                           P
+                                                                           d
+                             =2
+
+
+   b. Ensemble I des points M d'affixe z telle que |f(2)| =1:
+              M@)ERL & f(9)l=1 & |:‘+_12-le =1 & |z-(-1+20)|=|z=(2+1)|
+                                       o |zy-zl=lm-2| & MA=MC
+              Donc I est la médiatrice segment [AC).
+                                      du
+   c. L'ensemble I des points M d'affixe z telle que f(2) est un réel positif :
+              M@ ER o f()=0 ou argf(n) =0l2n] e 2= -1+2f ou arg (22 =0 [2n]
+                                                                                             Zy =2
+
+                                                                                             "   o
+
+                        = M=Aou(MC,MA)=0[2n]
+              Donc I est la droite (AC) privée du segment semi-ouvert JAC).
+   d. Vérifionsque O E etque 0 €y
+              0 € I, puisque le triangle 0AC est isocéle de sommet O ;
+              0 ¢ I puisque 0 € (AC).
+ . Soit le nombre complexe z, = z, — [ et pour tout entier n > 1, on pose z, = (z,)" et W, = |z,|. On note M, le
+   point-image de z, :
+   a. Onaz,=z,—i=-1+2l-i{=-1+(,etdonc:
+                                          Wo =zl = 1(2)"] = lzol" = -1 + 4" = (v2)"
+      Par définition, ona:
+. Chapitre 1 Nombres complexes
+                                                                    (~1 + 1) =nxa rg
+                                                                                  1+ 0)(- %
+                                                                                       = 37 (2m)
+                (0.07;) = arglzn) = arg((z)") = n X arB(2) =" X arg
+                                         (0; 0):
+  b, Vérifions que My € (0; 7) et Maozo €a       :                             b iy
+      On
+                                   (0,00m) = ?_"_4——£= 3x 504w+ == [l
+                                                      2018                     3 _x
+
+
+
+      Donc My € (0; 7).
+      On a aussi :                                                              B,
+                                          Mo0) =—5— = 3x 5057 =0 [r]
+                                       e             3x2020m _
+                                      (0.0
+      Donc Moz € (0; ).
+
+
+
+On considére dans C ['équation E):2-(3-Dz+4=0les        .
+                            ation (E). On note z, et z;   solutions ol1 Im(z) > 0.
+1. a. Résoudre dans C I'équ                       .              A
+   b. Mettre z, et z; sous forme trigonométriq*ue
+                                                + (14 + 6Dz ~ "f b                   oM
+2. Soit dans C 'équation(E) : 32° + (-9 +Dz             ra $ aider de I'égalité : 1
+   s. Vérifier que z =21 est une solution de (. On pour[(3               4+6lliz;8
+                      32 +(-9+ 02+ (14 bet  + 60z -8l = :-9+l)x+1   z de C, on ait :
+   b. Déterminer les nombres complexes a, c tels que pour      tout
+                             32 + (-9 + )z + (14 + 60z -8l = (z- 20)(az* + bz +¢).
+   ¢. Résoudre alors I'équation(E).
+                                                              —1             +1), B(zy=2-20) et C(zc =3 0. Soit T
+3, Dans le plan complexe (0; ,7), on considére lespoints A(z,
+   le cercle circonscrit au triangle 0AC, on note 2, d'affixe w, le
+                                                                           centre de I et R son rayon.
+   a. Justifier les égalités sufvantes :                                                      _ o2
+                                                     21
+                                     (o-3)@+3  )¢
+                                              a+=)=Rr*; w-1-N@-1+D=Rk".
+                                            2t
+                      w@=R;                2\
+
+   b. Montrerquew+fi=; et w-E:?.Endédulre  wetlavaleurdurayonk.
+   ¢c. Lespoints E ;-}t) eu-'G+§l) appartiennent-llshr”mtifiervotre répon                 se.
+4, Soit D le point tel que le triangle 0BD soit équilatéral direct, et soit zpun’affix e de D.
+   a. En utilisant I'égalité (5,0D) = (i, 0B) + (OB, 0D), déterminer              argum    ent du nombre z,. En
+      déduire une forme trigonométrique de z,.
+   b. Justifier que ff = ¢'f. Déterminer z,, sous forme algébrique.
+   c. En déduire les valeurs exactes de cos (:—;) et de sin (%z'- I
+
+                                                       T ort .‘(,;17-7
+On considére dans C I'équation (E) : z2 - (3-i)z+4=0.
+1. a. Résolution de (E) :
+      OnaA=b2—4ac=(3-l')2-16=9—1-6i-16=—B-6i=(3i)’+11—2x3ixl =(3i-1)?
+      Donc & = 3i — 1, et les solutions de (E) sont (tenant compte de la condition Im(z,) > 0.)
+                               3-i)+@3i-1
+                            z,=( l)z(            -)-@i-
+                                      )=1+‘; zz=(3 )2(3l 1)
+                                                                                       =2-2i
+
+   b. Mettre z, et z, sous forme trigonométrique :
+      On a de toute évidence :
+
+                                    lzl=11+il=vZ |23l = |2 - 2i] = 2VZ
+                                     ang(z) =7 2] * arg(z;) = - [27)
+      D'oli :
+
+                             5= \/f(cos (;) +isin (;)) ;. n= Zfi(cos (—;) +isin (-;))
+2. On considére l"équation (E) : 3z° + (-9 +i)z? + (14 +6i)z—8i=0:
+   a. On sait que :
+
+                                                                         Chapitre 1 Nombres complexes 31
+                              3224 (-9+ 022 + (144 60)z-8i =[(32 -9 + 1)z + 14 + 6{}z —8i
+              :                         8.,
+          D'ol en remplagant z par 7o = ;i :
+
+                       3,0_9+[=ngl —9+l=-
+                        (3:,-9“):.,4»14+61=(31-9)xil +14+6i=-2—6|+14+6|=.
+                                                             2
+
+
+                                                                   2
+                          (32, =9 + Dz + 14 + 6ilzo —8i = 12 XEI—BI =8i—-8i=0
+           Donc z, =21 est bien solution de I'équation (E).
+           Remarque : il s'agit ici du tableau d’Horer disposé de maniére linéaire.
+       b. Factorisation de 3z* + (=9 + )% + (14 + 6()z - 8i:
+           D'aprés les calculs précédents, il ressort clairement que pour tout complexe z @
+           322 4 (<9 + )2 + (14 + 60z~ 8i = (:-51)(3z' +(@1=9)z + 1D
+                                                    2
+
+
+
+                                          = 3(:-%5)(:* —GB-0z+4) = Bz-2)(@* - B—-Dz+4)
+        €. Résolution de I'équation (£) :
+                    2E5g) = (Bz-2)(-(B-0z+4)=0 & 3z-2(=0 ou 2 -(3-Dz+4 = 0.
+           Tenant compte des résultats de la question 1. a., on déduit les solutions de (E):
+                                                        ;l; T+1:%2-2L
+                                                                                                    2
+     3. Dans le plan complexe (0; @, 7), on considére lespoints Az, = 1+ ), B(zp = 2 — 2i) et C(zc = 30). Soit ' le
+       cercle circonscrit au triangle 0AC, on note 0, d'affixe w, le centre de I' et R son rayon.
+       a. Justifions les égalités proposées :                                            W
+         Les points 0, A et C appartiennent a I'. On traduit ces                                        A
+         appartenances en termes de modules :
+
+
+         D 0€er = N0=R & NO?*=R?
+                   < wd=R?
+
+         @ A€l ® QA=R o QA?=R?
+                    o (w-1-)@-1+1)=R?                                                                                 -
+
+
+
+
+         ® Cer = aC=R = nC?*=R?
+                                               Ay 2y
+                                   = (o-3)(@+3)=x rl
+       b, Montrmsqmwi-a:saw-a::_‘;
+           Développons les relations (3) et (2) en tenant compte de I'égalité w@m = R? :
+                   2i 2                           2i 4                                   2i
+           @( 3)(m+3) R ub+g@-D)+5=R
+                                   = =-=R? = =0l @-00-0=3
+1
+
+             -=|lB+=)=R?  ® 4+ —(0           0@       ===
+
+           @ W-1-)@-1+))=R? & wo-(W+D)+i(W-D)+2=R*=0wd < 0+d=
+          Déduction de w et de la valeurde R :
+          On sait que :
+                                 — 4                     2
+                               0+w = 2Re(w), donc Re(w) =§
+
+                               w—fi:i—‘: 2iIm( w), donc Im(w) =§
+          D’ou finalement :
+
+                                               2 1                     22 M\ V5
+                                            wegtzh R=lal= (3) +() =7
+      c. Les points EG-E:’) et FG+ gl) appartiennent-ils a I'?
+          Onsaitque: M el < OM?=R?,
+
+
+
+
+    . Chapitre 1 Nombres complexes
+                  1%2¢% 1" 12 5 iBY 1 22 4 1y 1
+                     5 3) 35 (Js—) R ar=(3-3) +(5 3) 36 zzs o
+               Ve e ey st WL D (U0 B e :=(___ e
+      DoncE€retF gr.
+4. Soit D le point tel que le triangle OBD est équilaté
+                                                          ral direct.
+   Par définition du point D, on a :
+
+                           arg(zp) = (I,0D); |zl = 0D = 0B
+   a. (i,m=(fi.fi)+(fi,m=am(z,)+§= arg2—20)+5=—T+5=Z [2n])
+      D’ol :
+
+                                       arg(zo) =75 [2n); |zl = 0D = 0B =2VZ.
+      Donc :
+
+                                              zZp= 2\f_(cos(1z)+ lsm(lnz))
+   b. Puisque le triangle 0BD est équilatéral direct alors :
+
+                                                     o
+                                                     2p—29 2Zp
+
+       D'oli une forme algébrique de z, :
+
+
+                     2y =2y xeT = (2-20) x( +—()_(1-1)(1+N§)=(J§+1)+(J§—1)L
+   c. Valeurs exactes de cos c—) et de sin (5—-
+                                               2)
+       On a trouvé que :
+
+                                 z,,—va-(cos(lz)Hsln( )) (V3+1)+(V3-1)i
+       D'oli par identification des parties réelles et imaginaires :
+
+                                       Z\/_cos( ) V3+1; Zfisin(:—2)=vf3'—l.
+       Et enfin :
+
+                                   my V3+1 V642 Cymy V3-1 \/_ \/_
+                             COS(E)—7‘/—E——_4 # sm(fi) Z\/_ )
+       Or on sait que :
+                                                        Smien x
+
+                                                        7 7 12
+       et que:
+
+                                                    cos(%—x):s’n(x)
+                                                    sin (;— x) = cos(x)
+       dou:
+                                 Sm Ty _VE-VZ /5m my V6+vZ
+                             os(12)_'“(12) TP s‘“(Tz)= °5(Tz')= A
+
+ Dans le plan complexe P de repére orthonormé direct (0; u, v), on considére les points A , B , C et D
+ d’affixes respectives —21,4-2i,4 + 2iet1.
+ 1. Placer les points A, B, C et D sur une figure. Préciser la nature du triangle ABC.
+ 2. On désigne par f I'application de P\{A]} dans P qui a tout point M d'affixe z associe le point M’
+    d’affixe z’ définie par :
+                                                       z—-(4+20)
+
+                                                           z+2
+    a. Déterminer la forme cartésienne de z'.
+    b. Déterminer I’ensemble E, des points M d'affixe z tels que z' soit réel.
+    c¢. Déterminer |'ensemble E; des points M d'affixe z tels que z’ soit imaginaire pur.
+    d. Déterminer l'ensemble E, des points M d'affixe z tels que |z| = 1.
+ 3. a. Montrer que f est bijective de P\(4 ) dans P\{ D} et déterminer f-! .
+
+
+
+                                                                        Chapitre 1 Nombres complexes i
+                                                     z +2 0) = _ 4- 41, En déduire que                                  pour tout poy,
+                                        lm1n,0nne s
+                                                  L0
+                   w
+ h.Momrevm1 nelppoowloulpointn d affixe 7#1,0n8: = 42
+                                        -2      8
+
+  M daffixez # =2                                                      DM'x AM
+                                                             0     577) + (W) = 7 211
+                                                                                           5
+                                      I(M) =M &
+
+
+                                                               S     ) pa ss antiy
+                                                                                 pao
+                                                                                   r l y
+                                                                                       e  n
+                                                                                         po l g et de ve cte ur di r ec teu rw
+  : %:‘anl:rtrT(Wn'ln)r;=Il;’m(2: ]paetr [prdeivé\ae dudroipotein(dt 4.
+                     g du cercle (C) de
+  vérifi
+
+1. Nature du triangle ABC :                                ‘-=—l.
+                                     xc-x._(H»Zl)-(l-Zl) =i-4
+                                      TR e
+                                              en B.
+   Donc le triangle ABC est rectangle isocéle
+2. a. Forme cartésienne de 7'
+          '= ”M fi:fiy zg m (iefi) +( y— z) t_ l(x — 4) +( y- 2)l]x {x -(y+2)fl
+       Onm YE—rr T a0+ 0 +2)
+                                                                +x()’-2)-(1'4)0'+2)‘
+                                               x(x—4)+(y—2)(y+1)?           s
+                                               =Tt +2) T E
+                                                  xi4yt-dx-4 —4x+4y+8
+                                                =G rD PO+
+    b. Détermination de ’ensemble E; :                                                    B irtd
+                                       : :
+       Par définition de E,,ona
+                                    M(z)€E, & Z’€ER & Im(z") =0 fim-
+        Dol :
+                                                            —4x+4y+8=0 -~ [ y=x-2
+                                         M@ EE @ {2y (42220 & (1) * (0,-1).2)
+        Donc "ensemble E, est la droite d'équation y = x = 2 privée du point A(=2
+    c. Détermination de l'ensemble E; :
+        Par définition de E;, ona:
+                                                                           :             Pty -dx-4
+                                   ME)EE, @ Z'€R & Re()=0 & Wfll
+        D'oli :
+                                                    x4yt —dx-4=0 [(x—2)1+y7 =8=(2v2)
+                                 LIEGE E 4+ (y+20#0 (xy) # (0,-2)
+                                       €                       =
+
+
+           Donc I'ensemble E; est le cercle de centre 0(2,0) et de rayon 2vZ privé du point A(=21).
+    d. Détermination de |'ensemble E; :
+           Par définition de E;, ona:
+                                                     |z - (4+20)] M
+                  MZ)EE & |Z]=1                        PR =1 A_fi_l & CM=AM & M €med[AC).
+
+           Donc I'ensemble E, est la médiatrice du segment [AC).
+
+ 3. a. Pour montrer que f est bijective de P\(4 ) dans P\( D}, il suffit de montrer que I'équation f(z) = z'
+    d'inconnue z admet une unique solution dans C\(-2i) pour tout Z’ de C\(1]}.
+    Ona:
+                                                                                                          2z' +4+2i
+                         f@)=2e %=z'=’z-(4+2()=u’+2(z'=’ e T s
+                                   .     z-(4+2
+
+
+       Donc f est bijective de P\(4 ) dans P\( D), et sa bijection réciproque est l'application f~! définie par :
+
+.       Chapitre 1 Nombres complexes
+                                            fTM: P\{D} — PA)
+                                                        MG -          ar(r =it
+                                                                                    1-2
+
+   b. Pour tout z # -2{,0n a:
+                                            p_1=3=(+20 —4—4
+
+        e                                                 2           TR T
+      D'oli: (2 = 1)(z +2i) = —4 — 4i.
+      En traduisant I'égalité (2’ — 1)(z + 2i) = —4 — 4i en termes de module et d’argumen
+                                                                                         t, nous obtenons :
+                           12" = 11 x |z 4 2] = |4 — 4i|
+
+                           arg(z’' = 1) + ag(z + 2() = arg(—4 — 4i) [2n]
+
+      Soit : DM’ x AM =47 et (a, DM") + (4,4M) = ’7'[214.
+
+   c.Onsaitque: M(z) € (C) e AM =2yZ < DM'xAM =DM’ x2yZ=4J2Z < DM' =2
+   d.Ona:
+                                                                           5
+                    M@ €(d) = (7,4H) = '4-' (1l = (@.DM)+3="ln = (@5)=o0[x]
+      Comme D(1) € (0; i) alors I'image de la droite (d) est la droite (0; i) privée du paint D.
+
+
+
+
+Le plan est rapporté au repére orthonormal (0; %, ¥). Unité graphique 3 cm.
+A tout point M d'affixe z du plan, on associe le point M’d’affixe z’ par I’application f qui admet pour
+écriture complexe :
+                                                   .
+                                                       = (3+4D)z+52
+                                                             6
+1. On considére les points A, B, C d’affixes respectives z, = 1+ 2I,z, = 1etz. = 3l.
+  Déterminer les affixes des points A’, B’, C’' images respectives de A, B, C par f.
+  Placer les points 4, B, C, A", B', C'.
+2.0n pose z = x + ly (avec x et y réels). Déterminer la partie réelle et la partie imaginaire de z’ en
+   fonction de x et y.
+3. Montrer que l’ensemble des points M invariants par f est la droite (D) d'équation y = ;:.Tracer (D).
+   Quelle remarque peut-on faire ?
+4. Soit M un point quelconque du plan et M’ son image par f. Montrer que M’ appartient a (D).
+5. a. Montrer que, pour tout nombre complexe z:
+                                                 -2       zZ+Z 2-Z
+                                                  R           TR
+     En déduire que le nombre (z' — z)/z, est réel.
+  b. En déduire que, si M’ # M, les droites (0A) et (MM’) sont paralléles.
+6. Un point quelconque N étant donné, comment construire son image N'?
+  (on étudiera 2 cas suivant que N appartient ou non & (D)). Effectuer la construction sur la figure.
+
+
+
+
+1. Ona:
+                                                  (3+4i)(1+2i)+5(1-2i)
+                                                =                              =0
+                                                                 6
+
+                                                4 B +4i)(1)+501) ok 2
+                                           e                R L
+                                                . (3+4i)(3i) +5(-3i)
+                                            4 ='*6—-=—                         =1
+
+
+
+2. Partie réelle et partie imaginaire de 2’ :
+
+                                                                     Chapitre 1 Nombres complexes '
+ On sait que :
+                                                 ~ (3 +41)(x +ly) + 5(x —iy)
+                                        x' + 1y                 =
+                                                = (Bx—4y) + (4x - 2y)i
+                                                AR 6
+                                                _4&x-2%y 2x-y
+                                                T               3
+ Donc                                            Fren >
+                                              =SV y’=-u
+                                                                      3
+
+
+
+                                                                                                (D)
+
+
+                                                                    A                   “                  “
+
+                                                                                                           |
+
+
+
+
+                                                                i
+                 e               3 2                            1 2 3 4 5 =
+                                                                                                           |
+
+
+
+                                                       -1
+                                          2
+
+
+
+                                                       2
+
+
+
+
+                            D)                         -H
+
+
+
+
+3. Un point M est invariant par £ si et seulement si £(M) = M soit en termes d"affixes ' = z.
+                                                                          4x -2y
+                                                                    A
+                                          fM=Me=z=ze                  _Zx-y
+
+                                                                    A3
+     s           i         x=2y=0
+   D'ol: f(M)=M e 2x—4y=0
+
+   On remarque que les deux équations x— 2y = 0 et 2x— 4y =0 dusystéme sont équivalentes & la méme
+   équation y = %x. Donc I'ensemble des points invariants par f est la droite (D) d'équation y = %’L On
+   remarque que la droite (D) passe par les points A'= 0, B' et C'.
+4. Les coordonnées ¥’ et y' de M’ vérifient :
+
+                                                 X          3   2>(3
+
+                                                   2=y
+                                                 Vs
+
+   On remarque bien que y'=:x. Le point M’ appartient & la droite (D) car ses coordon
+                                                                                                      nes verifient
+   I"équation de (D).
+5. a, On a, pour tout zdans C;
+
+                         z'-z_wgfl-z_(-3+4i)z+5i_[(—3+4i)z+5i](1-21)
+      o                  T             1+a 6(+2) 6(+2)(1-2)
+        s
+
+      G                     (=3 +4)(1 - 2i) =5+ 10 = 5(1 + 2i) et 6(1 +2i)(1-2i) =30
+        ou:
+
+                 z’-z_5(l+2l)z+5(1-21)2_(1+2i)z+(l-2i)i_fl+2i(z-i)_z+i+iz—i
+                 T                30 5                      6         296 GG                          3
+. Chapitre 1 Nombres complexes
+         Déduction : On sait que z + Z est un réel et que z — Z est un imaginaire pur et donc i(z — Z) est réel et par
+         conséquent le nombre (z' — z)/z, est un réel car il est somme de deux réels.
+         Remargue : On pourrait voir que :
+
+                                      Z-z_(1+20)z+(1-20)7 _ 2Rel(1 +20)2] .
+                                       Z                 6
+      b. Si M # M’alors la droite (MM ')‘exlsle et donc z' # z et par conséquent le nombre complexe
+         (z' — 2)/z, est non nul et admet un argument.
+         On sait que :
+
+                                          arg(%2 ) = arg(—z;_‘—) = (OA,MM ’[211]
+                                               — XM g\ _ (= -
+
+
+         Comme (z' ~2)/z, est un réel non nul alors arg((z’ — 2)/z,) = 0 [n] et donc (OA,MM) =0 [n] et par
+         suite les vecteurs 04 et MM sont colinéaires.
+         Conclusion : les droites (04) et (MM") sont paralléles.
+6. En utilisant la question précédente, les droites (0A) et (NN”) sont paralléles pourvu que N’ # N.
+      En plus, on a montré & la question 4 que le point N’ appartient a la droite (D).
+      Si N appartient a la droite (D) alors le point N’ est confondu avec le point N.                              :
+      Si N n'appartient pas a la droite (D) alors le point N’ sera 'intersection de la droite (D) et de la paralléle
+      (D) a (0A) passant par le point N. Cette intersection existe puisque (D) coupant (0OA) coupe aussi sa
+      paralléle (D).
+
+
+
+
+Le plan est muni d'un repére orthonormal direct(0; 4, v) (unité graphique : 1 cm). Soient 4, B et I les
+points d'affixes respectives 1+ 1, 3 — I et 2. A tout point M d'affixe z, on associe le point M’ d'affixe 2’ telle
+que:
+
+                                                      7 =2 -4z
+      Faire une figure et compléter cette figure tout au long de l'exercice.
+S     Calculer les affixes de A’ et B’, images respectives des points A et B. Que remarque-t-on ?
+      Déterminer les points qui ont pour image le point d'affixe (-5).
+G b
+      a, Vérifier que pour tout nombre complexe z,on a: z'+ 4 = (z—2).
+      b. En déduire une relation entre |z’ + 4| et |z — 2| et, lorsque z =+ 2, une relation entre :
+                                             arg(z'+4) et arg(z- 2).
+      c. Que peut-on dire du point M’ lorsque M décrit le cercle (C) de centre I et de rayon 2?
+
+5. Soient E le point daffixe 2 + 2e'3, J le point d'affixe (=4) et E' I'image de E.
+      a. Construire le point E puis calculer la distance IE et une mesure en radians de l'angle (i IE).
+      b. Calculer la distance JE' et une mesure en radians de l'angle (i,]_E')
+      ¢. Construire & la régle et au compas le point E’ ; on laissera apparents les traits de construction.
+
+
+
+
+ 1. Voir la figure.
+
+2. 7y = ~4 -2i, 7z = —4 - 2i, les points A’ et B sont confondus.
+
+ 3. Il s’agit de déterminer z tel que z2 — 4z = -5.
+                                22 —42=-5 = 22 —42+5=0: A=16-20=—4 = (2i)?
+
+      Donc il existe deux solutions : z, =2 +i, z, =2 —i.
+
+4, a.0na: Z+4=2"-4z+4=(z-2)"
+      b. |z'+ 4] = (z - 2)*| = |z - 2%, arg(z'+ 4) = arg[(z— 2)?] = 2arg(z - 2).
+
+      c. Lorsque M décrit le cercle (C) de centre I et de rayon 2, alors |z — 2| = 2.
+          Comme |z'+ 4] =|z-2|* alors '+ 4| =22 =4.
+
+          Donc le point M* parcourt le cercle (C*) de centre J le point daffixe -4 et de rayon 4.
+
+
+                                                                     Chapitre 1 Nombres complexer.
+    S. & 18 = [24 268 - 2] = 2[ef] = 2 Donc £ est sur () et " est sur (C) et par suite JE'= 4.
+       b.Ona: (RIE) = arg(x' + 4) = 2arg(z - 2) = 2(&E) = T [2n).
+
+                 3                                              ’                                   |
+                                                                                                    ‘
+
+
+
+
+                                                                                                    |
+
+                                                                  T                        E            |
+
+
+
+                                                                  it
+                                                                        A2
+                                                                                               hS
+                                                                  ‘     !                           l
+                                         i                        TR
+                                                                 -5 +
+                                                                                         B¢         N
+                    o g                }
+                                ) S ———— 1                                                 i        x
+                                                                  |                        i
+                                                                                           H
+                                                                                           i
+                                                                  B     et     L L L U L) .B
+
+
+
+
+                              UNIQUEMENT POUR LA 7°C
+
+  Dans le plan complexe rapporté & un repére orthonormal direct (0, 1, ), on considére trofs points A, B
+  d'affixes respectives a, b et ¢ et H le point daffixe a + b+ c. On suppose, dans tout I'exercice, que |,
+  trois nombres a, b et c vérifient : Ja| = |b| = [c|. Le but de I'exercice est de montrer que H est e Poin
+  d'intersection des trofs hauteurs du triangle ABC.
+
+  1. a. Soit w = bc-bE. Exprimer W A I'aide de w. En déduire que w est un nombre imaginaire pur, oy nul,
+     b. Montrer & l'aide de la question a., que :
+                                                               b+c
+                                              b+)(b-T) et g—
+        sont des nombres imaginaires purs, ou nuls.
+  2 a. Exprimer, en fonction de a, de b et de c, les affixes des vecteurs AH et CB.
+     b. Utiliser les questions 2.a. et 1.b. pour montrer que la droite (AH) est la hauteur passant par A dy
+       triangle ABC.
+    c. Expliquer, sans calculs supplémentaires, pourquof H est le point d’intersection des trois haut;_-mml
+        triangle ABC.
+ 3. Placer les points A, B, C et H dans le plan dans le cas suivant ;
+                                  a=V3+l, b=-1+K3, c=—VZ-W2Z
+
+
+
+ 1. a. Le conjugué d'un produit étant le produit des conjugués, on obtient : W = bc — b€ = b — bc = —w.
+      Donc w est imaginaire pur, ou nul,
+
+   b. On a, en tenant compte de |b] = |c| et donc de bb = ¢, les égalités successives suivantes :
+                                 (b+c)(B~¢)=bb- bt +bc—cc=bc—cT=w.
+      Donc (b +c)(b ) , étant égal & un imaginaire pur, est imaginaire pur ou nul.
+      De méme, on peut écrire :
+
+' Chapitre 1 Nombres complexes
+                                     brc_m+9b-c) ®G+9)(®-7) w
+                                     b—c b-ofb-c) ®b-9b-7 b-c
+                                                                                     .           bec
+      Comme w est imaginaire pur et |b—c|?® est réel alars# est imaginaire pur et donc — est un
+      imaginaire pur.
+
+2. a. Le point H a pour affixe a + b + ¢, donc le vecteur AH a pour affixe a+ b+ c—a, soitb+c.
+     Le vecteur CB a pour affixe b —c.
+   b. En supposant b + ¢ = 0, on peut écrire :
+
+
+                                                 arg (25) = (@AM (20
+      Or, comme < est imaginaire pur non nul alors arg (<) = 3[n], et donc les vecteurs AH et CB sont
+                   b+
+
+
+
+      orthogonaux. Cela reste également vrai si b + ¢ = 0, A et H étant confondus dans ce cas.
+      Les vecteurs AH et CB étant orthogonaux ; le point H appartient a la hauteur, fssue de A, du triangle
+      ABC.
+                                                       L
+
+
+
+
+   c. En permutant les roles des sommets, et en utilisant le nombre complexe E, on montrerait que celui-ci
+
+   est imaginaire pur, ce qui assure l'orthogonalité des vecteurs BH et TA. Le point H appartient alors a la
+   hauteur issue de B du triangle ABC, et est ainsi ['orthocentre du triangle ABC.
+
+3. Pour placer les points A, B et C, on peut remarquer que :
+                                                               n                       n
+                     a=\/§+l=2e‘%, b=-1+iV3=2es, c=-VI-iVZ=2¢""7.
+
+
+   plan omplex est rapporté & un repére orthonormal (0; V).
+Déterminer I'ensemble des points M images des nombres complexes :
+                                                     1+t
+                                                 z
+                                                     T1+i+2t
+ol ¢ est un réel variant dans R.
+
+
+
+
+                                                                  Chapitre 1 Nombres complexes !
+                                                    \a retrouve rarement dans les grercices, dal il tal Plyg |
+                                                            ns qu
+                             est assez inhabituelle au se
+                                                                    on
+                                                                                            re, c'est-a-dir
+                                                                                                              e qu'il faut exp
+
+
+        o                     trouver (a formulaton qui pos est familire; g
+                                                                                                                              pjp,
+
+
+                                        (
+        inverser le probléme pour                                                  .
+                                                                     r la question :                             2
+                          serons
+        fonction de z et nou   s, alors, appel
+                                    Uensem  bleésdes
+                                                  & tra  ite
+                                                     points    : z our lesquels t est un réel =,
+                                                            M d'affixe
+                              « Déterminer l'e
+
+        Ona:
+                                                                teR=1+1+2t=0
+
+                                                                               14t
+
+                                                                         = THieat
+       Donc :
+
+                                                         agdit =t2z-1)=1-(1+1z
+                                                    R TYFYT;
+                                                                               1-(1+1)z
+                                                                         =t= —‘21 =
+
+
+                                                                                     g 1
+
+                (car z = L ne correspond & aucune valeur de t puisque 0 # 7 = 7i).
+                         2
+
+       Or, on sait que :
+
+                                           teR & Im(t) =0
+                                                     1
+                                                 =z (=D
+                                                    —(t-t)=0
+
+
+
+                                                     11-(1+1)z_1—(1-l)fl=0
+                                                 S 221 27-1
+
+                                                 a%[(i—z)—4lzi+(z+i)l]=0 avec z:i1
+                                                                                                 1
+                                                 & -y —2(x* +y}) +x=0 avec (xy) #
+                                                                                                (5'0)
+                                                                            1
+                                                 =xz+y2-;+%=0 avec (x,y) # (5.0)
+
+                                                            1\ 1) 1                              1
+                                                 ”(" 4) +("+4) g Ve () (z )
+                                                         o
+                                                                         =)   ==
+                                                                                             #(=.0
+
+
+
+
+    Donc ['ensemble des points M est
+                                               le cercle de centre le point (;',-f) et de
+                                                                                                 rayon g privé du point GO) (qui
+    est un point du cercle).
+
+
+
+
+   Pour n entier naturel supérieu
+                                           r ou égal & 3, on considere les
+                                                                                 nombres 5
+                               A=Q+CI+C8+ -, B=Cl+CA+C
+  1. En usant et en abusant
+                                                      l 4+, C=Cl+C3+C8+-
+                                        de la formule du bindme de
+                                                                                Newton et de 'égalité 1+)
+                                                                                                                     +)2=0 avec jle
+     nombre complexe défini
+                                       par| = e'xT', calculer les
+                                                                  trois       quantités :
+                                           A+B+C, A+JB+C
+                                                                               et A+PB+|C
+ 2. En déduire les vale
+                                urs deA,BetC,
+
+
+
+
+ 1. Il est clair que :
+
+                                         A+B+c=c,‘.'+c,',+c,{+~
+                                                                --+c               :.'=(1+1)"=2"
+   D’autre part :
+
+                     A+IB+J2C=CR+jck +j2c2 PG
+                                                                    HIC .+ Ch = (14 ) = ()" =
+   De méme :                                                                                                  (=)
+                                       A+J?B+jC=C+jC} +JCE
+                                                                              +7C +J2CA +jCS + -
+  Or on sait que:
+
+rChapitre 1 Nombres com
+                        ple                        xes
+N                          ARG . o v T F Ttk kim0
+
+
+                                         fr=1,      pei=y, preaop
+
+
+
+
+   D’ou:
+
+            A+FBH+IC= G4+ ()'C+ (AC + (F)'Ch+ (DSCE+ -+ (I'CE = (14 " = (D"
+2. D’apreés la premiére question, on peut dire que les nombres A, B et C sont solutions du systéme :
+
+
+
+
+                                          {A +B+iC= (D" @
+                                            A+B+C=2" (0]
+
+
+                                            A+PB+iC=C-D"" @
+   Ona:
+
+                  O+@+® =3A=2"+(-1)"" + (-1)"®, soit A=
+                                                                                       3
+                                                                              20 4+ (_l)n'znu + (_l)n,nn
+
+            O+ x@+ix® =38=2"+ (-1 + (-1)"}"*', soit B=
+                                                                                              3
+                                                                              LI (_l)n’znfl ¥ (—1)"]""
+
+            @+ x@+ x@ =3C=2"+ (=) 4 (-1)""*2, soit C=                                         3
+
+
+
+   (eTCICE
+
+
+
+Soit n un entier naturel tel que n > 1 et a et b deux nombres réels tels que b = 2kn.
+On pose :
+                                                                                   _   plnb
+
+                         5= Zsm(ukb) N stmm ; r=e~-(1 £)
+                                                    1-eb
+
+1. Déterminer Re(T) et Im(T)
+2. Montrerque T =C+IS.
+3. En déduire le calcul de C et S.
+
+
+
+
+1. Ona:
+
+                              s (1 = elnh) e e'"Th (e"% + eg) (aeb252) sin (!\2-)
+                                       15eb e'; (e"g‘ + e';’) sin b)
+
+                                      = fl?[cus (a - b—z—l) +isin (a + b—-z—l)]
+                                         .l
+
+
+
+                                         sin(3)
+   Et donc:
+
+
+                                                (M = sm(%) cos(a+b 7 )
+
+
+                                             Im(T) = = (2.) sin (a+ bT)
+                                                                                    :                      ‘
+2. Ona
+                      n-1                               n-1                                n-1         =
+
+              C+iS= z cos(a +kb) + iz sin(a+kb) = Z[COS(B +kb) +isin(a + kb)] = z e'Bekb). gla Z =
+                      k=0             k=0               k=0                                k=0         k=0
+   Or, on sait que:
+
+
+                                             Z( S
+                                                                          1—glnd
+
+
+
+
+                                                  k=0
+   d'ol:C+iS=T.
+3. Comme T = C+iS avec C et S des nombres réels alors on peut conclure que C = Re(T) et S = Im(T) et par
+   suite on obtient :
+
+
+
+
+                                                                 Chapitre 1 Nombres complexes -
+ 1. Soit w une racine n= de l'unité (n > 1), w # 1. Montrer l'égalité :
+                                                   e,         a1
+                                       1420 +3w’ +-+nw' o
+    Indication : simplifier la somme 1 +2x+ 3x* + -+ nx*"! en songeant & une dérivée « formelle ».
+ 2 En déduire la valeur des sommes :
+
+                               S,=1+zm(:—1 +3ms(:—:)+u-+ 17005(2127")
+                               Sx=2dn(:—7 +3$ln(:-—7 +-.-+11s|n(3:—7“)
+
+
+ 1. Pourtoutx=1,ona
+                                                                1-x
+                                          l+x+x‘+~«+x'=-1—x—
+         =                                                         -X
+    En dérivant chaque terme, on obtient, pour tout x # 1,
+                                                             1+nx"*' = (n+1)x"
+                                 1+Zx+3x'+~-~+nx"‘=—L(l_x%—)-
+   Soit w une racine nTMTM de I'unité distincte de 1. On sait que w” = 1 et wTM! = w, d'0l:
+
+                                                     l1+nw-(n+1) n(w=-1)_ -n
+                                  R glee 1=
+                         1420+ 30w? 4+ - + nuTM a=oy=U-ap= 1-0
+
+
+                                              m
+
+ L Enprenant, en particulier, n = 17 et w = ¢'7, on trouve :                   .
+                                            -17 -17 -17ie?'7 17 17i
+              1420430 + 4w =                       =                   =           =——- =
+                                           1-¢F -asn(f)ev 2sm(fy) 2 2un(p)
+   Donc :
+                                                                  17
+                          S,=k[l+2m+3w’+-«+nm"“]=—7
+                                                           17
+                          §$;=Im[1 420 + 30" + - +00"] = ~———==
+                                                                  2tn (77)
+
+Le plan complexe est rapporté & un repére orthonormé direct (0; 1, 7).
+
+On considére pour tout réel 0 € |0; ¥, Iéquation (Ey): 2!~ 2le®z- 4(1- et = 0.
+1. Résoudre I’équation (E,) dans C.
+
+2. On considére les points A, B et C d'affixes respectives 2e® , -2(1-1)e"® et 2ie".
+
+   a. Montrer que pour tout 8 € ]o; ;{, le point A appartient & un cercle que I'on précisera.
+   b. Montrer que 0ACB est un parallélogramme.
+      En déduire une construction du point B & partir de A.
+3. a. Déterminer en fonction de 0, le module et un argument de -2(1 - )e”.
+  b. Déterminer I'ensemble des points B lorsque 0 varle dans J0, 3.
+
+4, Soit I'équation (Ey) : (V2z-1)' = (-2 + 21)e"7
+  a. Déterminer les racines cubiques du nombre complexe (- 2 + 21)e"
+  b. Soit x € ]0; n[. Montrer |'équivalence suivante :
+
+
+
+r Chapitre 1 Nombres complexes
+                                      V2z—
+                                         =~ —\/_z"a 1=—(1+ lw((z))
+ c. En déduire les solutions de I’équation (E',).
+
+
+
+
+. Le discriminant est A= (~2ie®)” — 4(~4(1 - )e?®) = (12 - 16i)e?TM.
+ Déterminons un nombre complexe & tel que &% = A. Pour cela, on cherchera x et y réels tels que :
+
+                                                (x+iy)* = 12— 16i.
+
+                           xX-y*=12
+ Ce qui donne lesystéme : { 2xy==16 soitx=+4ety=TF2.
+                               X +y? =20
+ Donc 4 — 2i répond a la question. D'oll on peut prendre : 8 = (4 — 2i)e®®.
+ L'équation proposée admet donc deux racines :
+                             _2ie'®
+                                2ie — (4 — 2i)e!®
+                                      (; 2i)e e       o
+                                                A z¢=zm   — 2i)e®
+                                                        +(;   )e
+                                                                                        =e
+ On dispose des trois points A(2e'®), B(=2(1 - i)e'®) et C(2ie®).
+
+ a. On constate que 0A = |2¢®| = 2, donc A est sur le cercle de centre O et de rayon 2. Plus précisément, le
+     point A décrit le quart de cercle EF privé de ses deux extrémités E(2) et F(2i).
+ b. On a zz;=2e" et 2 =2ie" +2(1-i)e®=2¢" et donc OA=BC et par suite OACB est un
+     parallélogramme. On peut donc construire B comme le symétrique de A par rapport au milieu de [0C].
+
+ a.0na: |-2(1-De"| = 2vZ et arg(~2(1- De®) = —2+0 =T + o[2n].
+
+ b. On peut déduire de la question précédente que : 0B = 2vZ et (&; 0B) =+ 8[2n].
+     L'égalité OB = 2vZ Siwfle que le point B est situé sur le cercle de centre O et de rayon 2vZ. Tandis Que
+     Uégalité (t; OB) = -+ 8[2n] avec B & ]0 -[ montre que les mesures de l'angle (i; 0B) varient de ='a =
+     Donc le point B décnt le petit arc GR privé de ses extrémités G(z»/'e ~) et H(Zv/'e ~).
+ a. Racines cubiques de (=2 + 2i)e‘®
+
+     Ona |(-2 +2i)e"| = 2vZ et arg (-2 + 20e®) = n— 2+ 8= 2+ 8[2n]. Donc les racines cubiques du
+     nombre complexe (2 + 2i)e® sont les nombres complexes donnés par :
+                                                    9 2w
+                                        ty= V2 %) ek e {0,1,2).
+  b.Ona:
+                     f                                                 L
+                                     O P, OV s S S
+                                                    ¥ V21-€* V2 _jigin )e'i7
+
+
+  c. Résolution de (E'g) :
+                                                                       3
+
+                               (VZ2-1) = (-2 4 20)e = (‘fi‘l' ‘) = (-2+2)e®
+                                                           L                  k) ke
+  (On vérifiera que z = 0 n'est pas solution)
+  Donc d'apreés la question précédente, les solutions de |"équation (E') sont les nombres complexes :
+
+
+                 zk=T(
+                    L          K
+                       l+l.C0{t8(E+ g+ki))b              l nm[x_
+                                          , k€ (0,1,2) (enprg    0 2\1) !
+                                                              n;+§+k3
+
+
+                                                                 Chapitre 1 Nombres complexes .
+                                                                             + 2la = O,
+ Soita € C\ (1) et (E,) I'équation d’inconnue z: (a— Dzl = [2(a—1) + lajz
+                                                                (0; u, V).
+ On suppose que le plan est muni d’un repére orthonormé directz*—
+                                            (E)) s'éa rit: (1-D     [2-1)z+21=0.
+ |. Dans cette partie, on prend a = 1, Donc
+  1. Calculer (2 -31)%
+ 2. Résoudre (E,). On notera z, et 2, les solutions telle que Re(z,) < Re(z;).
+ 3. Donner un argument de z,.
+ 4. Montrer que z,%*** est un réel.
+ Il Dans cette partie, on prend a = ¢'* avec 6 € ]0; ;—[
+ 1. Montrer que a— 1= lmse-t ;)e'G_:),
+ 2. Vérifier que 2 est une solution de (E,) .
+ 3, Exprimer la 2° solution z' de (E,) en fonction de a.
+ 4. Donner la forme exponentielle de z°.
+ 5. Soit les deux points M'(2') et M"(l).
+    Déterminer la valeur de 6 € |o; ';'{ pour laquelle le triangle OM'M" est isocéle de sommet O.
+
+
+
+L (E):(-D22~[2-ifz+21=0
+ 1. (2-3)=~5-12
+ 2 A=(i-2)"-4x2ix(1-i)=3-4i-8i-8=-5-12 = (2-3I)? donc on peut prendre § = 2 - 3i et par
+    suite les solutions de (E,) sont :
+                       2-i-243 2 i+                    =i+l| s 1,,=2-|+2-3|= 442 _ o
+                         2(1-1) 2(1-1) /1 22                                 2(1-1) 2(1-1)
+    Comme Re(z') < Re(z") alors z, =:11+:-l et z;=2,
+ 3, arg(z)) = arg(3+31) = arg(~=1+1) = 7 [2n] car ; est un réel strictement positif,
+ 4. On sait que : z,2""* estun réel # 0 & arg(z,"'®) = 0 [n].
+
+    Or arg(z, ") = 2016 arg(z,) = 2016 x 7+ = 504 x 3n = 0 [n], d'oli z,*"'* est un nombre réel.
+I a=c®avecBe ;¥ et (E): (a—z - [2(a= 1) +lafz +2ia=0.
+ 1. Ona:
+
+
+                a-l=e®=i=e®-¢T=e"4eT= e'(;*"r) (e'(H) + e"(’_%)) =2cos (g— %)e'“'a
+                                                                          8                        1]
+
+
+
+
+ 2. En remplacant z par 2, on trouve 4(a—i)~-2[2(a~i)+ia]+2ia =0, donc 2 est bien une racine de
+    |'équation (E,).
+ 3, La 2" racine 7' est telle que :
+                                                  ¢ 2ia
+                                            22' === —soit 2'=—
+                                                  a a-i           a-i
+ 4, Ona;
+
+                            ,_ la e’ e'(e’;') 4 1 |(|2;_';)
+                            FERTE 0 i) 208 (C-D)
+   Comme 0 <8<2
+              alors5:2e'd
+                   <2 +2<28
+                          et donc cos(3+3)
+                                     2 4
+                                           > 0.
+   Donc la forme exponentielle de z' est bien :
+
+                                               PRI
+                                                  2 (0_1!
+                                                  cos 'z' T)
+5 Ona:
+   Le triangle OM'M" est fsocéle en 0 & OM' = OM" & [2/] = |2"|
+                                                 P 1 S                           o (8 Tl)_l
+
+                                                           2cos(g-—7AR 0 57/ 57
+' Chapitre 1 Nombres complexes
+   Comme t<2+2<% ona 2+43=1 et finalement 6 ==,
+
+
+
+
+Le plan complexe est rapporté & un repére orthonormé direct (0; i, v). Solent les points A, B et C d’affixes
+respectives 1, —1 et (. A tout point M d'affixe z, on associe le point M’ d'affixe 2’ tels que :
+                                                          z—1
+                                                        TS
+1. Montrer que si M€ €(0,1) \ (B} alors M’ € (0, 7).
+
+2. Soit 0 € |0, n[. On considére I'équation E : z?—2e®z+1=0.
+   a. Déterminer les racines carrées de e'® — 1 sous forme exponentielle.
+   b. Résoudre alors E dans C.
+3. Soit M, et M, les points d’affixes respectives :
+                                                                                      9
+                                   2, =e® 4 Zslnfle'(;"fl et z; =¢'" - \/Zslnfle'(l”;)
+                                                          L
+
+
+   a. Vérifier que Im(z,) # 0.
+   b. En déduire que les points A, B et M, ne sont pas alignés.
+   . Montrer que z',/z’; = —1. En déduire que les points A, B, M, et M, sont cocycliques.
+
+   d. Montrer que '’ - | = —2icos G + E) ¢'G*?). En déduire que M, appartient & un cercle fixe de centre C
+      dont on précisera le rayon.
+
+
+
+
+1. M(z) €C(0,1)\(B) > OM=1etM#B < |z| =letz# -1 e zxzZ=1letz= -1.
+   Dans ce cas, ona:
+
+
+
+
+   D’oli z' € iR et par suite M’ € (0, 7).
+2. a.0na:
+
+
+
+             ef-1= (e‘zg)l = e'g. e"g = (e'g = e"g) e’% = 2isin (;) e'; =(1+1)? ( sin (;) (e‘g)z
+                                                                                              2
+
+
+
+
+      Etdonc: e®-1= [(1 +1) [sin (g) e’%rcar 0< E < Zet donc sin(g) >0
+      Comme 1 + i = yZe'* alors on peut écrire :
+
+
+
+
+      et donc les racines carrées de e'® — 1, sous forme exponentielle, s'en déduisent :
+
+
+                              2sin (g) el(n%) et — 'Zsln (OE) e‘(!:_") = |2sin (;) e((hi_")
+   b. E: z* -2e"z+ 1 =0 et le discriminant est :
+
+                       A= 4eM0 — 4 = 4(e¥0 - 1) = [z,/Zsm(e)e iy ] [2,/2sm(e)e“)]
+                                                                 100!!
+
+
+
+
+       (On a remplacé 6 par 20 dans les résultats de la question précédente). Dol les solutions de E sont
+       données par :
+
+
+                       7= _—_2e'9 2 Zszln(B)e (1 ‘) =ell 4 ‘/Tn(fi)-e'(a?'fl et 77 =¢e®— Mel{%’fl
+                                   el        9%                          e                         .
+
+
+
+3. On donne les points M, et M, d'affixes respectives :
+
+                                z,=e®+ 2$|n8el(%'%) et z;=e 25m0e(1 g
+                                                                     Chapitre 1 Nombres complexes .
+                                                          —
+
+   a. Onllm(l.)=sm0+v'—_25m0 m.(! %) > 0 car pour tout 8 € 0, [ :
+      Onasind>0eti<i+i<i+] et donc sin (3 +3) > 0. En conclusion, on a : Im(z,) # 0-
+   b. Lawmkel!elM.MM»ul“zmwlndempmmsAezasm:snuéswrraxedes abscisses
+       tangis que le point M,, d'ordonnée Im(z,) # 0, ne se trouve pas sur cet axe.
+   C. Ona:
+
+                  z ;,E‘—ra, @-D@+D) _uu+zn-%-1_ 1+2-2-1 =
+                  Z
+                  L-1
+                    ;:Tr(11 +l)(l;-1) L1                               l4n-5-1 -1
+
+              car z,z, = 1 (produit des racines de E).
+       Deduction :
+                                          -1                    -1
+
+
+
+                                       L+                       Z,+1
+       Soit : arg H arg L‘"'] [n] et donc en termes d’angles orientés :
+       (BM;, AM,) = (BM .T,)[n]. Les points A et B et M, n'étant pas alignés, les points A, B, M, et M, sont
+       :ocycllmn
+   d Ona:
+
+
+              e*—i= -iie® + 1)= —lle'(";) + 1] ==l [e'(H + e"(;"")] e'(;‘;) = -2icos (g + ;)E'(H)
+       Déduction: Ona |z, -i|? = le" —-i+ Zsln(li)e'(;“ul)ll
+
+                                   = I—Zlcos(Z “) '(T") +J/2sin(0) e 3 :)|
+       et comme Ie' 7":)| =1alors:
+
+                                Iz, =12 = l-ll COS( )+ Y2sin(f) l = 2sin(B) +4 cos? (2
+                                                                                     0
+                                                                                       4)
+       En utilisant les relations trigonométriques :
+
+                                                       1+ cos(2x)             m
+                                          cos'(x) = ———, cos (x+ i) = —sin(x)
+       on peut conclure que :
+
+
+                                               Iz, - iI? = 2sin(6) + 4 z"( -
+                                                                        1-sin(6
+
+
+       Soit en termes de distance :
+
+       CM, = VZ et donc le point M, appartient au cercle de centre C et de rayon vZ.
+
+       Cette méme guestion autrement ;
+
+       Aprés avoir établi que : |z, — i|? = 2sin(8) + 4 cos‘(
+                                                                + E) » ON pose :
+
+                                      f(8) = 2sin(8) + 4 cos (r%) pour 6 € )0, (
+       La fonction f est dérivable sur ]O, [ et £ (8) = 2cos(@) ~2 x 4 x 2sin (2+ 2) cos (5 +7)
+
+       Donc f(8) = 2cos(8) - 2cos(8) = 0.
+       La fonction f étant dérivable sur J0,n] et de dérivée nulle sur cet intervalle alors f est une fonction
+      constante sur |0, .
+
+       D'ol : V8 € 0,mf,onaf(8) = f(;) = Zsin(i) + 4 cos? (‘;—+ ) Zsm( )+ 41:05’( ) 2
+
+      Soit : CM,” =2 et donc le point M, appartient au cercle de centre C et de rayon vZ.
+
+
+   {     [    L
+
+
+Soit a un nombre complexe imaginaire pur et n un entier tel que n 2 2, On considére |'équation
+
+                                           (E): (z+3)'-(a-7)"=0,
+
+rchapitre 1 Nombres complexes
+1. Soit (S) I’ensemble des solutions de (E).
+   a. Montrerque:z€(S)=z€R.
+   b. Résoudre dans C I'équation (E).
+2. On considére I'équation (F) : (z +1)" — e'%(z—I)® = 0 avec a # 2kn (k € Z).
+   a. Montrer que toute solution de (F) est réelle.
+
+   b. Résoudre dans C I'équation (F).
+3. Onpose: P(2) = (z+ )" ~e'(z—1)".
+   a. Déterminer le degré du polynéme P,
+   b. On pose : P(z) =a,z" +a,,2""' +a, ;2" 2 + .- + a,2 + a, . Déterminer a, en fonction de a.
+   c. Soit zy, 23, 23, -, Z, les solutions dans C de I’équation P(z) = 0. Etablir que :
+                                       p=a
+
+
+                                       l_[z, ST X2 Xy X X2y = (—1)':—'
+                                           =1
+   d. En déduire que :                 >
+                                                                               ¥
+
+                                               k=2pe1 2                            -
+
+                                     vpEN', l_[ :ol(a‘; :;) = (—1)!:-::(-2-)
+                                                k=0
+
+
+
+
+1. Soit (S) l'ensemble des solutions de (E)
+   a. Soit z une solution de (E) :
+         2ES)=(z+a)"=(a-2)";
+         z€(S)=lz+a|"=a-7Z";
+         z€(S)=z+3al=|z-a|;
+         2€(S) = (z+3)(Z+a) = (Z—a)(z—3) soit aprés développement :
+         2€(S)= a.z+azZ=0etcomme 3= -aalors on peut écrire :
+         2€(S)= az-azZ=0etdoncz€(S)= z=Z etenfin: z€(S)= z€ER.
+   b. Comme toute solution de |'équation (E) est réelle et que 3 = —a alors pour toute solution z de (E) on
+     peut poser z = x avec x € R et donc :
+                XEEB) S (x+3)"=(a-0)"= (x-a)"=(a-x)"
+                          = x—a)=(-1)"(x-a)"=(-1)"=1carx# a.
+      On envisage deux cas :
+      Cas 1: Si nest pairalors (S) =R
+      Cas 2: Si n est impair alors (S) = 0.
+2. On considére 'équation (F) : (z+ )" —e*(z—i)" = 0 avec a # 2kn (k € Z).
+  a. Soit z une solution de (F) et (S') 'ensemble des solutions de (F). Ona :
+      z€(S) & (z+0)"=e%Cz-i)"et doncz€ (S) = Iz +i|"=e| xJz— | ou encore :
+                                              2€(S)= |z+il=|z—1| car [e°|=1.
+      En considérant les points M(z), A(i) et B(—i), on peut réécrire la derniére implication en termes de
+      distance : z € () = BM =AM et donc le point M appartient & la médiatrice du segment [AB] qui n’est
+      autre que |"axe des abscisses et par suite z est un réel. Donc les solutions de (F) sont réelles.
+
+   b. z2€(S) e (z+i)'=ez—)" & ()" = e (car zest réel et donc z ).
+      D’ol les solutions z, de (F) sont telles que :
+                                           i     +1        a 2kn
+                                 7€ (S)e :"—I= el(" n ) avec k€ (0,1,2,..,n-1}
+                                                =
+
+
+
+
+      Tous calculs faits, nous obtenons :
+                                                        3 '(u 2k
+                                                       e | CALMILE B ¢
+                                                Z‘=
+
+
+
+
+      En posant 8, = :'." ?, on réécrit les solutions sous la forme :
+                                                           _l(e"'+1)
+                                                        T
+      Or, on sait que :
+
+                                                                     Chapitre 1 Nombres complexes .
+         e.‘“flmse),-?fl,\_x:nm(!’l)e'? €t par suite :
+
+                        _zlms(e-z‘)e'?= 11 lzk“)=cm(5+%')mckilo-n—“
+                     n= :mfl(%
+                                     ‘)’% un(%
+                                                     -)~!in
+
+
+
+  3. OnaP(z)=(z+ )" —e(z—1)"
+     l-:pr(;)h:mflwfir(z),mmweqmlemefficiemdez'estegaltl—z“sO:arkezq
+                                                                                    .
+
+
+         o = 2kn. Donc le degre du polyndme P(z) est égal a n.
+
+     b. Caicul de a, en fonction a: a, = P(0) = i"— e(=i)" = i"[1 — (=1)"e*].
+
+     € Siz, 2, 2, -, 2,0t les solutions dans C de |'équation P(z) = 0 alors le polyndme P(z) se factorise
+        comme sutt :P(z) = a,(z— 2,)(z2 — %) (2 - 2,)
+        En prenant z = 0 dans cette derniére expression de P(z), on trouve :              .
+
+                              P(0) = 3y(~2)(~23) (1) = 3,(-1)212; .7, = (=1)"ap l_[ u
+        Par identification, on obtient :
+
+
+                                                     nz.=(-l)‘:—:
+                                                     k=1
+     d Ona:
+
+                l..=1—e"’=-2|sin(;)e‘;
+                30 =1 (1)) = (P*(1 +€9) = 2(~1)%icos (£) eftn = 2p +1)
+        D'ou:
+
+
+
+                                           A f(_l)’l_m(;)n_'.‘i = (=1 ml(;)
+                                           3 2isin(3) e
+       On en deduit que :
+                                    2p+1
+
+
+
+                                    ” 7 =(-1)%»*" x (-1)"‘:01(;) = (-1)’:0!(%)
+                                     k=0
+
+       Comme z, = cm( """) alors :
+                          ap+2
+
+                                              2p+t
+
+
+
+
+                                              k=0
+
+
+
+
+ Soit 8 un nombre réel, Pour tout nombre compl
+                                                      exe z, on pose :
+                              P(z) =2° + (1 + 31e®)z% + [1 + (1 + 3e'))z + (31 - 3)e".
+ 1. Vérifier que le nombre z, = —3ie" est une solution
+                                                              de I'équation (E):P(z)=0.
+ 2 a. Déterminer deux nombres complexes a et b tels
+                                                              que:
+                                     VZEC, P(z) = (z+3Ie)(z* +az+b).
+   b. Soit 2, et 2, les deux solutions de 22 + az + b = 0. Déterminer
+                                                                      z; et z;.
+3.a. Ecrire 2,, 2, et 7, sous forme trigonométrique,
+  b. Onpose 6 =TM/, 0. Ecrire sous forme algébrique le nombre complexe :
+                                                     a=z+25 +17}.
+
+
+
+
+1. On vérifie facilement que z, = —3ie* est
+                                              une racine de P(z) c'est-a-dire que :P (-3ie®
+                                                                                           ) = 0.
+2 a. Déterminationde aetb :
+                                                                                                            ]
+
+
+' Chapitre 1 Nombres complexes
+
+
+
+                                                                                                            G
+      Comme P(-3ie'®) = 0 alors le polyndme P(z) est divisible par z+ 3ie”, autrement dit il existe deux
+      nombres complexes a et b tels que :
+
+                                          vz € ZP(2) = (z + 3ie"®)(z* +az + b).
+      Ainsi, on a: P(z) = z* + (a + 3ie'®)z? + (b + 3ie®a)z + 3ie®h.
+      Par identification des coefficients, on déduit que :
+
+                                                   a+3ie® = 1+ 3ie®
+                                               {b +3ie®a = 1+i(1+ 3¢")
+                                                    3ie'®h = (3i — 3)e®
+      Soit enfin : ['- 1l+|
+      Donc : vz € Z,P(z) = (z + 3ie®)(z* +z+ 1 + 0).
+   b. Détermination des deux autres solutions z, et z, de |’équation (E) :
+                    P)=0e (z+3ie®)(z? +2+1+1) =0=z+3ie® =0 ouz?+z+1+i=0
+      Résolvons l'équation (4): z2 4+z+1+i=0.
+      Le discriminant vaut A= 1-4(1 +i) = -3 —4i = 1—2(2i) + (2i)* = (1 - 2.
+      L'équation (4) admet les deux solutions :
+                                     —
+                                z,=—l#=-l+l et 7—,=_(z_=’L
+                                               (=2t   i)               -1+(1-2
+
+
+      Donc "équation (E) admet les trois solutions :
+
+                                          2,=-31e®, zZ=-1+1L z,=-i
+3. a. Mise sous forme trigonométrique des nombres z,, z, etz, :
+      Ona:
+
+                          7, ==—3ie!®
+                                -3ie'® =   37 ==(36/(5~0)
+                                       = 3e7Te®        ) ==    3m
+                                                          3[c (Z     can (3T
+                                                                 +6)+nsm(  +8)].g
+                          z,=-1+l=fi(—-‘/—i+l‘£)=w/2_e"4'=\/f(cos—+lsm
+                                                       2        n                    3
+
+                                         2 2                        4
+                                      an 3n 3n
+                          1,=—|=e'T=cosT+lsinTA
+   b. On pose 8 ="/ :
+      Ona:
+
+                         -z,+zl+z,-[32'1 m] [\/_e‘] +[e z]
+                        <1=3’eI 7 D+4fie'ltfl+e"2fl=359"'+4\/—e"7+e ';:
+                               VI V2
+                        a=35+4~/i(7-lT —i=247-5i
+
+
+1. Soit 8 un réel de l'intervalle [U'fl
+
+   a. Résoudre dans C I’équation (E) : z2 — 2i(cos 8)z — cos 20 = 0.
+
+   b. Discuter, suivant 8, le module et un argument des solutions z’ et 2" de |'équation (E).
+
+   c. On considére dans le plan complexe les points M’ et M" d’affixes respectives z’ et z".
+
+      Determiner les lieux des deux points M’ et M" quand 8 parcourt |'intervalle [0, ;]
+
+2. Donner les formes algébriques de z' et z" dans le cas particulier 8 = s‘—;
+
+
+
+
+1. a. Le discriminant de 'équation (E) est :
+
+                              Ag= (—2ic0s0)? — 4(—cos26) = —4 cos? 0 + 4 cos 20
+                                = —4¢os?0 + 4(cos? 8 — sin® 8) = =4 sin’ 8 = (2isin 6)*.
+
+                                                                  Chapitre 1 Nombres complexes ‘
+       Donc le nombre & = 2isin 8 est une racine carrée de A,.
+       L'équation admet deux solutions : 2'= I(cos® +sinB) et z° = i(cos® —sin 6).
+    b. (@ Calcul des modules de ' et 2" :
+                                        |21 = |i] % |cos @ + sin 8] = |cos© + sin 6]
+                                        |27 = |I] X |cos® ~ sin 8] = |cos 8 — sin 6]
+       @) Calcul des arguments :
+       Ona:
+
+              cos0 +sin6 = fi(gcnse +¥sln 9) = fi(cns;cose + snn;sms) = V2 cos (6 - ;)
+       et de la méme maniére :
+                              vZ V2 "
+              cosB —sinB = fi(TmsB —Tslne) = fi(cos;toso —sin n                  n
+                                                              Tslne) = ficus(e + T)
+              — Comme 8 € [0';'] alors e-;e [-;} et par suite : cos(e —E) > 0 et donc :
+                                                                       m
+                                                    |21 = ficos(s - ;)
+                                                      arg(z) = ;[Zn]
+              — D’autre part, on a également :
+              « s18e 03] alors 0+3 €[22 et donc cos(8+7) > 0. Par conséquent :
+                                                     -                 m
+                                                    12 = fims(e *T)
+                                                                 n
+                                                      arg(z) = E[z"]
+              e Si0 =; alors |z7] = 0, z” n'a pas d’argument.
+
+              e SiB€ EE{ alors ® +§€ ]%,H et donc cos(B +§) < 0. Par conséquent :
+
+                                                   121 = —VZ cos (9 + ;)
+                                                                  n
+                                                     arg(z) = -3 [2m
+
+
+       €. Les lieux des points M'(z") et M"(z")
+          Les égalités : z = i(cos® +sinB) et z = i(cos® — sin B) se transposent sur les vecteurs par :
+                                   OM' = (cos® +sin®)V et OM- = (cos@ — sin8)V
+          ol O est 'origine du repére et ¥ est le vecteur unitaire de I'axe des ordonnées.
+          Il reste a savoir dans quelles fourchettes de valeurs varient les quantités :
+                                              cos@+sin® et cos®—sin.
+         Pour cela, on pose pour tout 8 € [ofl :f(6) =cos®—sin® et g(B) =cosO+sinb.
+         Les fonctions f et g sont dérivables sur [0;} etona:
+                                    f(8) = —sin@—cos® et g(B)=—sinB+ cos6.
+         On remarque que :
+
+                                                                                          <osi [7.5 ]
+                                    £(8) = ~g(8) <0 et g(6) =(8) = VZcos(8 + '4-')              4’2
+                             m
+                    vee o,
+                                                                                          >0si [0.;]'
+                             2l
+
+
+
+
+         Donc on déduit que :
+            - La fonction f est strictement \ sur [0;] et donc (6) varie de r(g) =-1af0)=1.
+            —» La fonction g est strictement # sur [0,%]
+                                                     Py  et décroissante sur 2,7] et donc
+                                                                             12           g(8) varie de
+                                                                                                      g(0) =
+                                                                                                           =
+
+
+
+        Conclusion :
+
+
+
+
+.   Chapitre 1 Nombres complexes
+         Le point M’ décrit le segment [AB] avec A(—i) et B(i).              ¥
+         Le point M" décrit le segment [BC] avec B(i) et C(iv2). c
+
+                                                                            B
+
+
+
+
+                                                                                               x
+
+
+
+
+                                                                            A
+
+
+
+
+2. Formes algébriques de z’ et z” dans le cas ol 6 = =
+   On sait que :
+
+                      z' = I(cos® + sin®) = IVZ cos (9 + ;) et z"=i(cos@ —sin8) = i‘/fcos(e —:)
+                                                                                                   m
+
+
+
+   Si l'on pose 6 = "1', on obtfent :
+
+                         z—l‘/—“’s(lz 4) "/—“’s( ) "/_“’s( ) 'fi(_%)=_fi
+                          I\/_cns(———)—l\/—cos( ) l‘f—cus( )—lfi(‘/j) g
+
+
+Soit a un nombre réel. Pour tout nombre complexe z, on pose : P(z) = z® — 22% cos(3a) + 1.
+1. a. Résoudre dans C |’équation P(z) = 0.
+  b. Justifier que les solutions sont conjuguées deux a deux.
+2. Montrer que :
+                                                    2
+
+                                 vzeC, P(z)= n(z’-chos(a+%")+ 1).
+                                                   k=0
+
+3. En déduire que :
+
+                                  cos(3a) = 4 cosa x cos (a +23—“) X cos (u + 43—")
+
+
+1. a. Résolution de ’équation P(z) = 0 dans C :
+      On procéde par un changement d'inconnue en posant z* = t.
+            '
+      Donc |'équation P(z) e       o
+                           = 0 est équivalente        A
+                                               au systéme           ==t
+                                                          : {t‘ —2tcosBa) +1 =0
+      Le discriminant de l'équation t? — 2tcos(3a) + 1 = 0 vaut :
+                        A= (2 cos(3a))? - 4 = 4((cos(3a))? = 1) = —4 sin*(3a) = [2isin(3a)]?
+      Donc "équation t? — 2t cos(3a) + 1 = 0 admet les deux solutions :
+                          t’ = cos(3a) +1isin(3a) = e'®¥ et t"= cos(3a) —isin(3a) = 2.
+      L'équation P(z) = 0 est par conséquent équivalente a :
+                                              (P =e0® ou 2= el-30))
+
+                       o
+
+      soit : z=e*5) ou z=e*5) avecke {0.1,2).
+                                          e
+
+
+
+      Donc les solutions de 'équation P(z) = 0 sont :
+
+                                  a= e'(‘"z—’") et b= e'('“'_l'l) avec k€ {0,1,2).
+                                              k                 2%
+
+
+
+   b. L'équation P(z) = 0 étant a coefficients réels a ses solutions conjuguées deux a deux.
+      Plus précisément, on a :
+               =et=ga=hy a = e!(m{-') = el -                 e-i(-a 0 I a; = el(uo-r") e (-asZ9) =
+5 Factonsanon de P(z) sous la forme du produit de trois facteurs du second degré :
+
+                                                                    Chapitre 1 Nombres complexes‘
+   Le polynéme P(z), étant du 6TM degré, et a,, 35, a,, @y, 25, 3; ses six racines alors P(z) s’écrit :
+                                                                                    2
+
+
+                       Pa) = (21— 2)2 =T — a)E - D@ -                      -3 = [ e-aa-0.
+                                                                                  —
+
+
+   Or, on sait que :
+                                        (z-2)@-3) =2 — (@ + 3z + A :
+                                     o                    2!
+                                 a, +3, = 2Re(ay) = 1ms(a+—3k
+                                                                     ==
+                                                              !) et a,a, =lal*2 =1
+   d’ou U'égalité :
+
+                                     viec P(z)=fi(z'—21cns(m+£‘;-r)+ 1)
+                                                         k=0
+
+
+3. Déduction de |'égalité : cos(3a) = 4 cos a x cos (a + ’T') x cos (a + -')1)
+   Calculons P(i) sous deux formes @
+   Onad'unepart: P(i)=i*—2icos(3a) +1=—1+2icos(3a) +1=2i cos(3a);
+   D'autre part :
+
+                                   P() = n(i‘ - ZAms(a +%‘) + l)
+                                            2
+
+
+
+
+                                           =0
+
+
+
+                                   P(i) = fi (~2icos(a+ 331'))
+                                           =0
+
+
+                                    P(i) = Bicosnxxcus(u +ZT") xcos(n‘f%r)
+   Donc, on déduit que :
+
+                                       cos(3a) = 4cosa x cos(a+?“) x ces(u +
+                                                                     2
+
+
+
+
+Dans le plan complexe rapporté & un repére orthonormal (0,1, 7) on porte les points A, A’, B et B’ d’affixes
+respectives 1, -1, f et -i.
+                                                                                                        ives
+A tout point M d'affixe z, distinct de O, A, A’, Bet B’ on associe les points M, et M; d’affixes respect
+                                                                      s avec          :
+1, et 7, tels que les triangles BMM, et AM;M soient rectangles isocéle
+                                                                    ©
+
+                                            (M;B.M;M) = (M;M.M;A) =5
+ 1. a. Justifier les égalités :z—z, =1I(1—2,) et 1—2, =1z —22).
+   b. Vérifier que z, et z, peuvent s'écrire :
+                                         1+1                             1-1
+                                        1.=—;—(z+1) et Z,=——@@+D
+ 2. On se propose dans cette question de déterminer les points M pour lesquels le triangle OM; M, est
+   équilatéral.
+                                                                                                          que
+   a. Montrer que OM, =OM, < [z+1|=[z+Il. En déduire I’ensemble A des points M tels
+       OM, = OM; et tracer A sur la figure jointe.
+   b. Montrer que OM, = M,M, = |z + 1|? = 2(z|*. En déduire I'ensemble I' des points M tels que I'on ait
+       OM, = M, M, et tracer I sur la figure jointe.
+   c. En déduire les deux points M pour lesquels OM;M; est un triangle équilatéral et les placer sur la
+       figure.
+3. a. Quelle relation peut-on en écrire entre z, et z, si 0M; M; est un triangle équilatéral ?
+   b. Déduisez-en que z est alors solution des équations :
+                                e";‘(1 +0)= e';;(z +1) et e";(z +0= e";l(l +1)
+   c. Déduisez-en les affixes z des points M répondant & la question 2.
+
+
+
+
+52 Chapitre 1 Nombres complexes
+1. a. On sous-entend a travers les données que :                                         I                %
+       - La rotation de centre M, et d’angle m/2 transforme le point B en M, ce qui s’écrit entre les affixes :
+                                              z-2 =i(i—z) ;
+       —» La rotation de centre M, et d’angle r/2 transforme le point M en A, ce qui s"écrit entre les affixes :
+                                                   1-2,=i(z—12).
+   b. Ona:
+                                                                               1             1+i
+           z-7 =l(i-z)Sz2-z,=-1-iz, = (1-i)z, =z+1 7z =-1?l(1+1)=—2—(1+1)-
+       On établit de maniére tout a fait analogue que :
+
+                                                 ;= —z_-(z +1i).
+
+2. a. L'équivalence OM, = OM, = |z + 1| = [z +i|
+                                                               1+i             el
+                        oM, = OM, =]7.,-0|=Iz,-o|='—z—(z+l)l=IT(z+l)|
+                                         1+i               1-i                           :
+                                      =|—z—]x|z+1|=|Tlx|z+ilc=|z+ll=|1+l|
+                                       |1+| _|1-| _VZ
+                                     car 2 = 2 —Z.
+
+       L’ensemble A des points M tels que OM, = OM, est la médiatrice du segment [A'B’] avec A'(-1) et B'(—i).
+   b. L'équivalence OM, = MM, & |z + 1> = 2|z
+                                                      1+i                1+i          =1 Z
+                  OM, = M\M, & [z] =1z,—z,|«=| 3 (z+ 1)|=} 3 @+ -— (z+1)
+                                     V2 1
+                               fiTIz+1|=Elz+l+iz+i—z—l+il—ll=|z|=l‘l+1|’=2|Z|z~
+       Déterminationde I' : M€ I = OM, = M\M, & [z + 1> = 2|z)%
+
+       En posant z = x + iy avec x et y réels, on peut prolonger les équivalences :
+
+                  Mere z+1P =2z = x+ 1) +y? =23 +y) = x* +y’ -2x-1=0.
+
+       Onaaussi: X2 +y?=2x-1=0=x*-2x+1+y*=2= (x-11+y* =(mx=AM=fi
+       Donc I est le cercle de centre A et de rayon V2.
+
+   [   Le triangle OM, M, est équilatéral lorsque OM, = OM, et OM, = M, M, c’est-a-dire si le point M est a
+       Uintersection de I et de A.
+
+       Les ensembles I et A se coupent en deux points car [AB] est un rayon de I" et A est la mediatrice de
+
+       [AB]. Donc il existe donc deux points solutions.
+
+3. a. Sile triangle OM, M, est équilatéral alors, selon 'orientation du triangle, ona:
+                                                 n                   N
+
+                                          2, = €37, oubien z, =e 7z,
+
+                                                                   Chapitre 1 Nombres complexes i
+e
+
+
+
+
+       Soit de maniére condensée ©
+                                                    7= .“;;I_
+    b. Les deux égalités établies A la question 1.b :
+                                              (:+l) et z, nT!(z+1)
+                                                  41                1=
+                                      2, --z—
+                                           1
+
+
+       peuvent étre réécrites de la fagon sulvante @
+                                                                ~13 - 1
+                           Vi   T           '7 -(:-fl) et z; = . (1+|)=%(z+l).
+                       l,--T!‘(:«fl)   --!—;7
+
+
+
+
+       En remplagant , et 2, par ces valeurs dans l'égalité z, = ez, on obtient :
+                                                                     "
+
+
+
+
+                                     "                   "           (a2
+                                  e          o otd              _el
+                                  fi(”') e’!fi(zfl) 7                          (z+1)
+                                                z, les deux solutions :
+       Soit aprés simplification et isolation den      n           n       "
+                                            T —ieTM7 4 e T —1eTM7
+                                        e T R e
+
+
+ On considére le nombre complexe z =¢'® avec 6ER, z# -1 et z# 1.
+ 1. Déterminer, en fonction de 0, le module et un argument de chacun des nombres z + 1 et z — 1.
+ 2. On suppose que 0 = 2r/(1+ 2n) ol n € N°.
+   a. Montrer que :
+
+
+
+
+   b. En déduire que:
+
+
+   ¢. Prouver que :
+                                                         0      1
+                                                  |:os (i)l E 1+2n
+3. Onsupposeque: 0 <@ <m. Onpose:
+                                                         _2(z+ 1)
+
+                                                        '=@-1y¢
+   a. Montrer que :
+                                                           z+1
+                                                        WS e
+                                                    (z-1)
+      Puis détermine r, en fonction de @, le module et un argument de u.
+   b. On considére, dans le plan complexe, l'ensemble (I) des points M d'affixe u lorsque 6 décrit
+      I'intervalle ]0, n[. Ecrire 'équation cartésienne de (I') puis déterminer la nature de (I'). Construire la
+      courbe (I).
+
+
+
+
+1. Ona:
+
+                             z+l=e%41= e';(e';+ e"f) = 2cos (E ez
+                                                                    o           8\ o
+
+
+
+
+                        2-1=¢®-1= e';(e'; - e";) = 2isin (—) e'7 = 2sin (—) e'(rf)
+                                                                    B\ ¢               0 G
+
+                                                          2              2
+  Donc :
+                                                  G)
+                - S :os(;)>0 alors [ lz+ 1] =2cos
+                                              =;[2n]
+                                            arg(z+1)
+                                            lz+1] = -Zcos(g)
+                - Si cos (;) <0 alors
+                                           arg(z+1) = §+ n [2n]
+- Chapitre 1 Nombres complexes
+i                 - §1 sin(2) >0 alors {       lz=1| = z;m(;)
+                                             arg(z—1) =+ 5[2n]
+
+                  -+ St sin(2) <0 alors { t2=11 = ~2sin (%)
+                                             arg(z—1) = 2+ Z[2n)
+
+2. a. Onsait que :
+                                                             1- (_z)htl
+
+
+                                               ;( 2 AT  |-
+
+
+
+       Comme 2n + 1 est impair et que z = e'oas alors :
+                                                                    ne1
+                                     (=2)"*1 = —g2ne1 = _ (e ....
+                                                                           )   =-1
+       et par suite :
+
+
+
+
+    b. L'égalité précédente conduit a l'égalité des modules :
+                                                  n
+
+
+                                                 |Z(—z)'
+                                                  k=0
+       Or, on sait que |-z| = 1 et que :
+                                           n            n          2n
+
+
+                                          |Z(—z)“| < Zol—zl" = Z,, 1=2n+1
+
+       D’ou l'inégalité :
+
+                                                   fil <2n+1
+       Ce qui peut s'écrire également :
+
+
+                                                   lH'1|21+2n
+\
+                                                         )     o
+    ¢. On sait d'aprés la question 1 que :1+ z = 2 cos (;) e
+       Donc tenant compte de |'égalité le .| =1, on peut conclure que : |1 +12| =2 Icos (x)|
+       et par conséquent :
+                                            o). _2 i                      ey, _1
+                                      2
+                                          B2 2| STzt 3\2)| STz
+3. Onsupposeque 0<O<m.
+    a. Comme |z|=1,0na z= f et donc on peut transformer U de la fagon suivante:
+
+                                           S TG+ %(AH) 2+1
+                                              @-12" ( 1) T @z-1)?
+
+       En utilisant les égalités :
+                                                        AW                         8\ o
+                                          z+1=2cos§ e7 et z-1=2isin iel
+
+       On peut transformer également i :
+
+                              2cos (g—) e'g i 2cos (g—) e'; 1 cos (g) e-';- s (g) el("_:)
+                        u=
+                             (21si (g) el%)' " —4sim (g) .         25, (g) " 2sim (3)
+       et donc par conjugaison :
+
+
+
+
+                                                                        Chapitre 1 Nombres complexes .
+o        e                                          e
+
+
+
+
+                                 @s(3) ¢~9_ s (3) S ©s(3) (w)
+                            Zsm'(e) 2sin (2) Zsin’(z) o
+        Onssitque: 0<B<m — 0( <— eldml:cos(!)>o. d’ou :
+
+                                                              cns(g)
+                                                  lu] =
+                                                          2sin? (g)
+                                                arg(u) =m+ ; (2m]
+    b. Par définition, ona: (1) = [ M(u) tel que 6 € ]0,n[). On pose u = x + ly avec x et y des réels.
+
+                                            x=:'£)rcos(n+§)
+         ' égali = )
+        mlé@llté        i(m3
+                   u-:‘re 3/, on            )
+                                 peut tirer :  (1) avec® € 3Jo,n[
+                         n?(5)                        —E%sin (n + )
+        et comme : cos(n +3) = - cos (3) et sin (n+3)=-sin (2) alors on peut conclure que :
+                                             cos? (g)
+                                          x=-             B
+
+
+
+
+                                           =0
+                                                 o gz) avec B €]0,n[
+
+
+
+
+                                      .
+                                                 2sin (g) ;
+
+        On remarque que x et y sont liés par la relation : {y <0
+                                                               x<
+
+
+
+                                                               yi = —-x
+
+        et donc (I) est une partie de la parabole d'équation cartesienne yi= -—x
+
+
+
+
+                          /
+
+
+    {    14
+
+
+
+1. On considére dans C I'équation () : (z— 1)° = (z+1)°.
+    a. Montrer que si z est solution de (E) alors z est un fmaginaire pur.
+    b. Montrer que les solutions de |'équation (E) peuvent s'écrire sous la forme :
+                                                 n ki
+                                      l.!zn(z 5")
+                                    L==    ———    avec  k€ ).
+                                                     ke(1,2,3,4)
+
+2. On considére dans C |'équation (E) : 52* + 1022 +1=10.
+    a. Résoudre dans C |'équation (E').
+    b. Montrer que: (E) & (E).
+    ¢. En déduire les valeurs exactes de : tan(n/10) et tan(3m/10).
+
+
+
+
+1. Soit (S) I"ensemble des solutions de (E).
+    a. Ona:
+                                          2€(S) e (z2-1)°=@2z+1)°
+rchapltre 1 Nombres complexes
+                                                     =|z-1=|z+1]
+
+                                                     = AM=BM ouA(1)et B(-1)
+                                                     = M(z) € med[AB] = (y0y)
+                                                     = zest fmaginaire pur
+      Donc si z est solution de (E) alors z est un
+                                                     imaginaire pur.
+   b. Soit z, une solution de (E).
+      On dispose des équivalences suivan
+                                        tes :
+                                                                             ]
+
+                         AE(S)=(1.-1)’=(1.+1)*=(:+:) =1 (@r1€(s
+                                                                                     2%x
+                                        +1 Zin                                   e¢T +1
+                                 o2 =T, ke(1234) on= . kell214)
+                                                                                 es —-1
+
+                                               e
+                                 Sl                            R                 S AT - Y k€(1,23,4)
+                                           ZiE'T",sln(-lg-') m(k-.':!)
+                                     =z.=-l.cot(k?"), k€(1.2.3.4)='lu=—“““(;’?' LEH
+                                                                                    RLE                ,
+2. a. Résolution de |'équation (E') : 5z*+ 1022 +1 =0.
+      On pose z*17,1                            :
+                = Z. L' équation (E") est donc équivale      .
+                                                       nte a : {SZ‘
+                                                                             =2
+                                                                            ThozA =0
+      Le discriminant est A= 100 - 4 x 5 x 1 = 80.
+      Donc 'équation 522 + 10Z + 1 = 0 admet deux solution
+                                                                   s réelles :
+
+
+
+     Déterminons les deux racines carrées de Z, et Z:
+                                                                             2
+
+                                                                         5
+
+
+
+     Donc les deux racines carrées de Z, sont :
+
+
+                                     7, =i 1+¥ et z,=-i ’1+%—
+                                                           25
+      De la méme maniére, on détermine les racines carrées
+                                                                   de Z,:
+
+                                             ’ 25
+                                     Z3=1i I"T et z,=-i l-T
+                                                                                 5
+      Donc 'ensemble des solutions de I'équation (E) est
+                                                               :
+
+
+                           (SU={i‘I1+¥§,—ij1 +¥,iy’l-%§,—l‘ll-¥}
+  b. Soit z un nombre complexe. On a :
+
+     z solution de (') & (z-1)° = (z+1)°
+
+     (@=1°=(2+1)° @25 =52 + 102 — 1022 + 52~ 1 =25 + 52° + 102° + 1022 + 52+ 1
+                         ©10z' +2022+2=0
+
+                         & 52 +1022+1=0
+
+                         < z solution de (E)
+
+     Donc les deux équations (E) et (E') sont équivalentes.
+
+     Déductions :
+
+     On sait que :
+
+
+                              )= [-l. tan (i—;) —i.tan (1"—0) ,itan (i—g) ,itan (I—I:]-)]
+                                                                     Chapitre 1 Nombres complexes i
+     etque:
+                                                                     w _3m. n
+                               0    L]
+                                   n(—
+                               <ut“(10)=)< 3 lo car 0<“’<—-1 <i
+                                           __“)
+                                        (an(
+     En outre, comme (S) = (§) alors :
+
+                              Bn(%): l—z—‘sri et lzn(3—")= 1+.z%i
+
+                                                                      z:
+Soit p un entier naturel non nul et I'équation suivante d'inconnue                  p-1
+
+
+                    (5): prP=2""'+2""+~+z2+1 Cest—A—dire pz':Zz                      =0
+
+                                                              A1
+On rappelle que pour tous nombres complexes z4,23, .., Zs, ON
+                                  Z z.\ < led (Inégalité trlangulaire)
+                                                                                 on de module
+1. Dans cette question, on se demande si |'équation (E,) peut admettre une soluti
+                             =1 =1
+
+
+
+   strictement supérieur & 1. Soit z une solution (E,) de module r > 1.
+   a. Montrerque:pxrP’(r-1)srP-1
+   b. Soit f la fonction numérique définie sur [1, +oo[ par f(x) = pxP*! — (p+ 1)xP + 1.
+      Etudier les variations de f.
+   c. En déduire que I'on ne peut pas avoir f(r) < 0. Conclure,
+2. Soit e® une solution de (E,) de module 1, autre que 1.
+   a. Justifier I'égalité :
+                                                1(p+1)8 Slfl‘Pz-o)
+                                                e     N,
+
+                                                               0
+                                                         psin (1)
+   b. En déduire que p = —1. Conclure.
+
+
+
+
+1. Soit z une telle solution de module r > 1.
+   a. On a, en passant via les modules:
+                                                                   4 +r+1
+              plzPP = 2Pt + 2P 4tz 1| S 2P+ 2P 2 4+ o+ 2l + 1= + P2
+      Soit encore :
+
+                                 prPSrP P24 etrtl =':_—-11- carr#1
+      Commer —1 > 0, on peut déduire que : pxrP(r—1)< -1
+   b. La fonction f étant polynomiale, elle est dérivable sur [1, 4oof et :
+                               () =pp+ 1P (x-1) 2 0, VxE€ [1,+00[
+      Donc la fonction f est strictement croissante sur [1,+=[ avec f(1) =0 et lim,_,e f(x) = +co.
+   ¢. D'aprés la question 1.2.,00a: p XrP(r—1) S P —1 Cest-a-dire : prPti        —(p+ 1P +120
+      Donc : f(r) 2 0. D’autre part, f(r) #0 carr # 1 et par suite f(r) > 0.
+      Conclusion : Donc toute solution z de I'équation (E,) est de module inférieur ou égal a 1.
+2. a, Siz=e"(z 1) est une solution de (E;) alors :
+                                            1—¢® -leln(ng) e'J;fi sin (%e-) ewz_s
+                pe = ()" 4 (¢5) " 4 4e®4 1=
+                                            1= et -lein(g-) eg £ sin (g-) 7
+
+
+
+
+rChapItre 1 Nombres complexes
+   b. L'égalité :
+
+
+                                                    () o
+                                                        )
+                                                    psln(l)
+
+                    i(psr)
+      conduta e 3 € R c'est-a-direque:arg
+                                   e        4
+                                          (e”T"! =0/[n].
+      Ona:
+
+
+                               arg(el 75 = 0[] = 3k Ztel que 2 +1)8
+                                                                5 LI
+
+                                                                            2kn -6
+                                                     & 3keZtelquep=—p car® =0
+
+
+      Soit :
+
+
+                      P
+                       1(p+1)8 dn(—%eflm) (-1)*
+                              =ellm___(elu)n=(_1)l=—
+                                                                            =___=p=—l
+
+
+
+
+      Ce qui est absurde car p est un entier naturel.
+
+      On déduit de cette question que I'équation (E;) ne peut pas admette une solution, autre que 1, de
+
+      module 1. Donc toute solution de (E,) , autre que 1, est de module inférieur strictement a 1.
+
+
+
+   {{{a]d {5
+
+
+
+Dans une journée, combien de fois les aiguilles des heures et des minutes d’une horloge font un angle droit
+entre elles ?
+
+
+
+
+Assimilons le quadrant de I'horloge au cercle trigonométrique. Soit z, le nombre complexe représentant la
+petite aiguille (celle des heures) et z, celui représentant la grande aiguille (celle des minutes).
+Supposons, au départ, que z, = z, = 1 (les deux aiguilles a 12h).
+Comme la grande aiguille tourne 12 fois plus vite que la petite aiguille alors, on doit avoir a tout moment
+
+                                                      vt
+Les deux aiguilles font entre elles un angle droit si, elt seulement si :
+                                          z=z.e" ou z=z.e""2
+Ce qui signifie, en tenant compte de z, = 7,2 :
+                                        zlu = z,.e"'“ ou zlu = z,.e""".
+
+Comme |z,| = 1 alors z, # 0 et donc en simplifiant par z,, on obtient :
+                                           zln =el"2 oy zlu =gt
+
+Ce qui donne 22 solutions car chacune de ces deux équations admet 11 solutions distinctes.
+En conclusion :
+En une journée (soit 12 heures), les aiguilles de ’horloge font entre elles, 22 fois, un angle droit.
+
+
+
+
+SiT'on perus deux aiguilles d'un réveil, on obtient en général une position impossible sur une montre
+normale, Par exemple, la permutation obtenue en effectuant cette permutation & 4 h ne s’observe jamais.
+
+Combien de fois par jour cette permutation conduit-elle & une configuration observable sur une montre
+analogique ?
+
+
+
+
+                                                                     Chapitre 1 Nombres complexes '
+                                                               pa r l a pe ti t e ai gui l e ( c el le de s mi n ut es ) et 2z : e
+Sonoimt z,breleconommplbreexecorema                         té
+                                  plpreésxeenretéprpaésenr la grande,ai=gui2      l e   el=e1des1
+                                                                                       (c               heures). Pl 3 aa go ns
+                                                               i:tozurne douze fois plus vite que la‘Pefal‘S@e12(pBou)
+Aentod’autnrestsantet,rmpuesissi la pegrtite fait un anllegle p alors la grande fait un angle ég
+                           que,que lam         an  de  ai  g ui
+montutreien       sorte                              id
+
+                                                                                                                it
+                                                                                                             2s0iv 1    4 — z,.
+                                                                                                                   -zZ14y
+                                                          =2
+                                                                                              et “z l. =z3
+                                                                                                       =   2,
+alors :
+
+                                                                                   : z2 = z ;            z1
+                                                   ue le coupl e (z;,22) est telque quation 2z =
+                                                                                        = z   1 2
+   e peuerm|zut,ati= on1, do
+Unisq                               ble lornsqnul, alors z; €St donc solution de l’é t espaces a partir de 12" (midi).
+                          est pozssiest
+Pu                           nc
+                                  da ns
+                                        no
+                                        un   int erv all e de 12 he ure s, ré gu lié remen
+Ily a donc 143 solution         s
+
+
+
+
+60 Chapitre 1 Nombres complexes
+

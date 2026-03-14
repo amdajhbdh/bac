@@ -1,0 +1,102 @@
+          pe                ':'.              3       -,;l
+
+                                                Py &
+                            M
+
+
+ Lycée Excellence 3 et lycée ZEMZEM Classe 7C                                  Année : 2024-2025
+
+ Devolr efi Mathématiques ~ .Prof : SIDI AHMED NEWCHE et Moctar Cherif
+ Exercice1: '
+
+1) 1)seitzxZ l’équafilon E:3x—-8y =5 RésoudreE.
+
+2)Soitn,x ety trois erz;tlers tels que {: : g; :_ 3 . a)MontI:er que (x,y) est une
+solution de E .b)On considére le systéme (S): {: i :{g} ounestune I%trer
+que n est solution du'systéme (S) sl et seulement si n =23[24]
+
+ll) Onpose N = 4a? +1,;a6 N* 1)Soitp = 2 un diviseur premier positif de N
+
+                             \                                          1
+a)lustifier quep > 3 b)Montrerque: (2a)P~! = (—l)tz'
+2)Montrer que : (2a) N p = 1;puis en déduire que :                               [p]. 3)a) En utilisant
+ce qui précéde , montrer que : p =1[4]. b) Montr i                            n diviseur positifde N,
+alorsd = 1[4]
+
+M) A1) Etudier les restes de la division e                   icfengd par 7 de 2TM et 3", n un entier
+naturel ,        2) Résoudre dans N ,I’équation                   3* = 0[7]
+
+B)Déterminer I"entier naturel N = 2% x 3# sachant que la somme de ses diviseurs positifs
+est 42, tel que a, § deux gaturels
+
+
+Exercice 2 :
+
+On considére dans aftoR (E) : 2322 — (7 <iV3)z +2V3-2i=0
+
+1)a)Vérifier\O stine solution de E .b)Déterminerl'autre solution sous forme
+expone Le plan est rapporté a un rep'éflre orthonormé direct (0, %, V) ; soit Cun
+ce‘% et de rayon 1; P est un point de C d'affixe z, = e ouf €]-m;0[U
+10; =[ nstruire le point Q d’affixe zg = el®-9 . b)La tangente a C en Q coupe la
+droite (OP) au point M d’affixe zj. Montrer que z,. = %e“’ c) Construire le point N
+d’affixe zy. = % . d) Vérifier que les points M et N sont distincts
+
+
+3a) Mon tr e r q ue Z y; - Z y ; = % s i n( g ) ! G
+                                                  .
+
+                                                   P
+b) Montrer que z y . _ zg . = % £l0+ 9 )n
+
+
+
+
+c) Pour quelle valeur de ; le triangle MNQ est il rectangle en M
+Exercice 3 :
+
+Soient n un entier naturel non nul et f,, la fonction définie sur
+
+
+                          par{f"(x) = % six+0
+[0;1[ U]y +oof .                                          .A) 1) a) Montrer que [, est
+                                        fn(o) =0
+continue et dérivable 4 droite en 0 .b) Dresser le tableau de variation de f,, .2) On note
+C,, la courbe de'f,,. , Donner la position de C,, et C,,y Puistracer C; et C;
+
+
+
+
+1) g la fonction définie sur [1; +oo[ par g(x) = xInx .a) Montrer que g est bijective de
+[1; +oo[ sur [0; +oo[ .b) Vérifier que W, = g~1(vn) pu@iner lalimite de v, .
+
+2) a) Déterminer la limite de (#,,)" puis calculer la | %           u, — 1) .b) Montrer que
+lalimiteden(u, — 1) = -                           %
+                                                        m\,
+Exercice 4 :                                    \®
+                                                  Y]
+ A) Sou   o )—ue,,xeR. On note Cy
+     i tf(x                                           courbe de f ans un repére orthonormé
+
+(0,7;j) duplan. 1)a) Dresser le tableat de variation de f . b)Montrer que le point
+1(0; 21) est un centre de rie de Cy 2)a) Montrer que f est une bijection de R sur ]0; 1[
+.b)Expliciter f~1(x) pouw%[ c)Montrer que I'équation f(x) = x admet une
+Construire (y et Qfik‘#oit m un réel strictement supérieur a @ . On note 4, I'aire
+solution unique a et          € J0%1[ et vérifier quein(l+ e %) = —(a + lna) 3)
+
+
+de la partie Q par les droites d’équationsx = a;x =m,y =0 et Cr @)
+Calculer A,#b fér que limg, ;0 Ay =-(a + In@) B) Soitn € N* on pose
+           (t)dty 1)Vérifier que I; = a + In(2a).-2)a)Montrer que Vx €
+
+               L@ -f(®) 3V VREN" Ly = b= 2 (a" -3 blEn
+déduireqievYn=> 2,1, =a+ n(2a) + Zf(‘:{“li (ak - zi,‘) .4) a) Montrer que Yn € N*
+0<I, <3 . blEndéduirelim, oy puislimy .o TKTTI2 (0% - ) 5) Soit
+Sn=2Xk-11x; nE€N* a)MontrerqueVn € N*; Vvt >0: f(t) +F21) + 3 (x) +
+               - gt AP                  <                .     -       ca e ra (f&)+1
+  wtfi(t)=e 110 b) EndéduireYneEN* ,S,=1— e"%— N                                        dt.
+
+                                        n+l
+
+¢) Montrerque YnEN* 0 < f:%—dt < 2I,41 Endéduire
+            *———dt. d)Calculeralorslim,_ S,
+

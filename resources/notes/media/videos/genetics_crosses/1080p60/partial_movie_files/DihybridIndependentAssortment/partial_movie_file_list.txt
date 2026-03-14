@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/DihybridIndependentAssortment/834906505_3761299119_2889500601.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/DihybridIndependentAssortment/2844486279_3988383646_617244758.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/DihybridIndependentAssortment/2844486279_1165692197_1179972733.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/DihybridIndependentAssortment/2844486279_2433481779_3093532882.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/DihybridIndependentAssortment/2844486279_4277570474_454313084.mp4'

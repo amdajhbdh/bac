@@ -1,0 +1,24 @@
+{
+  "id": "security-hardening-01",
+  "seq": "01",
+  "title": "Remove hardcoded DB credentials from main.go",
+  "status": "pending",
+  "depends_on": [],
+  "parallel": false,
+  "context_files": [".opencode/context/core/standards/code-quality.md"],
+  "reference_files": ["src/api/main.go"],
+  "suggested_agent": "CoderAgent",
+  "agent_id": null,
+  "started_at": null,
+  "completed_at": null,
+  "completion_summary": null,
+  "acceptance_criteria": [
+    "No hardcoded database URL in main.go",
+    "DATABASE_URL and NEON_DB_URL required via env vars",
+    "Fail at startup if required env vars missing",
+    "Code compiles without errors"
+  ],
+  "deliverables": ["src/api/main.go (updated)", "src/api/.env.example"],
+  "bounded_context": "security",
+  "module": "@bac/api"
+}

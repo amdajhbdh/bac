@@ -1,0 +1,3292 @@
+    REPUBLIQUE ISLAMIQUE DE MAURITANIE
+         Honneur – Fraternité – Justice
+
+
+
+
+            Ministère de l’Education Nationale
+             Institut Pédagogique National
+
+
+
+
+ BAC D - Série Scientifiques
+
+  Annale BAC
+    Physique & Chimie
+
+
+2010 - 2020
+   BAC 2010
+Session Normale
+REPUBLIQUE ISLAMIQUE DE MAURITANIE                                Honneur Fraternité Justice
+Ministère de l’Enseignement Fondamental et Secondaire             Série : Sciences de la nature
+Direction des Examens et des Concours                             Durée : 4H Coefficient : 6
+Service des Examens
+
+
+                              Sciences physiques session normale 2010
+
+Exercice 1
+L’acide benzoïque : C6H5COOH est un monoacide faible peu soluble dans l’eau. C’est un solide
+blanc d’aspect soyeux. Conservateur alimentaire utilisé dans les boissons rafraîchissantes sans alcool.
+Le benzoate de sodium : C6H5COONa est un solide ionique blanc.
+La valeur du pKa à 25°C du couple C6H5COOH / C6H5COO- est 4,2
+1.1 Ecrire l’équation bilan de la réaction entre l’acide benzoïque et l’eau.
+1.2 Donner, l’expression de la constante d’acidité pour ce couple. Dans quel domaine de pH la forme
+acide du couple est majoritaire et dans quel domaine sa forme basique est majoritaire.
+Les représenter sur une échelle de pH.
+1.3 Sur l’étiquette d’une bouteille de soda, contenant le conservateur alimentaire précédent on note
+pH = 3,7. En déduire la valeur du rapport [C6H5COOH] / [C6H5COO-] dans cette boisson.
+ 2 On dispose de la verrerie suivante :
+- burettes graduées de 25mL ; 50 mL et 75 mL
+- béchers de 50mL ; 100mL ; 250mL
+- pipettes jaugées de 5 mL ; 10 mL et 20 mL
+- fioles jaugées de 50 mL; 100 mL et 200 mL.
+On se propose de préparer une solution S de benzoate de sodium de concentration C = 0,1mol.L-1 à
+partir d’une solution S0 de benzoate de sodium de concentration C0 = 0,25mol.L-1.
+Comment procéder pour préparer cette solution diluée S? Nommer la verrerie utilisée.
+3 On pèse une masse d’acide benzoïque que l’on introduit dans un bécher contenant de l’eau distillée.
+Après quelques minutes d’agitation, de petits grains restent en suspension. Une filtration permet
+d’obtenir une solution saturée en acide benzoïque de concentration CA. On introduit dans un becher
+VA = 10,0 mL de cette solution ; on y ajoute quelques gouttes de rouge de crésol (indicateur coloré)
+et on dose par une solution d’hydroxyde de sodium (soude) de concentration CB=10-2 mol.L-1.
+Le rouge de crésol change de couleur pour un volume de soude versé de 19,6 mL.
+3.1 Ecrire l'équation-bilan de la réaction de dosage
+3.2 Définir l’équivalence acido-basique et en déduire la concentration CA de la solution d’acide
+benzoïque.
+Exercice 2
+ On étudie la cinétique de la réaction d’estérification en préparant deux mélanges M1 et M2 contenant
+chacun une mole d’acide méthanoïque et une mole de propan-1-ol.
+Dans le mélange M2 on ajoute une faible quantité d’acide sulfurique concentré pour catalyser la
+réaction. Les mélanges M1 et M2 sont en suite portés à 60°C. Le tableau suivant indique, en fonction
+du temps, la quantité d’acide restante na que l’on a déterminé expérimentalement :
+                                             t(min)        5      10     20     30     40 50      60
+   Mélange M1en l’absence de H2SO4               na       0,84 0,74 0,64 0,58 0,54 0,52 0,50
+   Mélanges M2en présence de H2SO4               na       0,53 0,37 0,35 0,34 0,34 0,34 0,34
+1 Ecrire l’équation de cette réaction d’estérification et préciser ses caractéristiques.
+2 Calculer la quantité d’ester formée ne, dans chaque mélange et pour chaque valeur de t donné.
+3 Définir la vitesse moyenne de disparition de l’acide méthanoïque et la calculer entre les dates
+t1 = 5min et t2 = 10 min ; pour chaque mélange. Comparer ces deux vitesses.
+4 Donner la définition du catalyseur et en déduire son influence sur la vitesse.
+
+  SN                           Annales2005‐2014
+                                                                                                          57
+Exercice 3
+On dispose d’un appareil permettant de produire dans le vide les ions A X 2-
+                                               -
+de masse m = 5,81.10-26 kg et de charge q = 2e chacun.
+1 Les ions qui sortent d’un trou O1 sans vitesse initiale sont d’abord accélérés par une ddp
+U0= VA-VB appliquée entre les plaques A et B distantes de 10cm et
+arrivent au trou O2 avec la vitesse V0= 2.105 m/s.
+On néglige le poids des ions devant les autres forces.
+1.1 Sous quelle tension U0 l'ion a-t-il été accéléré entre les plaques A
+et B pour atteindre la vitesse V0?
+1.2 Vérifier que le poids de l'ion est négligeable devant la force
+électrique.
+1.3 Déterminer la nature du mouvement de l’ion entre les plaques A et
+B en calculant son accélération.
+2 Les ions pénètrent en suite avec la vitesse V0 faisant un angle α= 45° avec l'horizontale par
+un point O équidistant des armatures C et D d’un condensateur entre les quelles existe un champ
+électrique d’intensité E=84.103V/m. Le condensateur dont les armatures ont pour longueur 10 cm
+chacune et sont distantes de 5 cm, se trouve dans le vide (voir figure).
+2.1      Quelles doivent être les signes des armatures C et D pour que l'ion subisse une déviation vers
+le bas? Justifier votre réponse. Précisez le sens du champ électrique.
+2.2 Etudier le mouvement dans le condensateur et établir l’équation de sa trajectoire dans le repère
+(O ; x ; y).
+2.3 Déterminez les coordonnées du point de sortie du condensateur.
+2.4 Quel sera le mouvement de l'ion après sa sortie du condensateur?
+2.5 Vérifiez par le calcul que l'ion n'atteindra pas la plaque supérieure
+   On donne e=1,6.10-19C ; g=10m/s2.
+Exercice 4
+1 L’extrémité O d’une lame vibrante décrit un mouvement rectiligne sinusoïdal vertical de
+fréquence N=50Hz et d’amplitude a=0,5cm.
+1.1     Donner son équation horaire sachant que l’on prend t=0 quand la lame passe par la position
+d’élongation maximale positive.
+1.2 On éclaire la lame à l’aide d’éclairs très brefs, jaillissant à intervalles de temps égaux. Calculer
+    les fréquences des éclairs pour lesquelles la lame parait unique et immobile, sachant que les
+    fréquences des éclaires Ne sont telles que : 10Hz < Ne ≤ 50Hz.
+2       La lame vibrante est maintenant reliée à un fil où les vibrations se propagent à la célérité
+C=5m/s. On suppose qu’il n’y a pas de réflexion ni amortissement des ondes.
+2.1 Calculer la longueur d’onde λ.
+2.2 Etablir l’équation de la vibration d’un point M de la corde situé à la distance 22,5cm du point O.
+2.3 Quelle est l’état vibratoire du point M par rapport au point O ?
+2.4 Représenter l’aspect du fil pour t=0,05s.
+
+
+
+
+  SN                            Annales2005‐2014
+                                                                                                           58
+                                                       Solution
+Exercice 1
+1.1
+C6 H 5COOH + H 2O                      C6 H 5COO − + H 3O +
+1.2
+                         ⎡ H O + ⎤ . ⎡C H COO − ⎤
+                            3    ⎦ ⎣ 6 5
+                    Ka = ⎣                      ⎦
+                              ⎡⎣C6 H 5COOH ⎤⎦
+                       ⎡C H COO − ⎤
+                         6 5
+on a : pH = pKa + log ⎣           ⎦
+                      ⎡⎣C6 H 5COOH ⎤⎦
+ ⎡C H COO − ⎤
+ ⎣ 6 5      ⎦ = 10pH − pKa si pH                        pKa + 1, ⎡C6 H 5COO − ⎤ est majoritaire
+⎡⎣C6 H 5COOH ⎤⎦                                                  ⎣            ⎦
+si pH ≺ pKa − 1,alors ⎡⎣C6 H 5COOH ⎤⎦ est majoritaire
+
+
+
+
+1.3
+                    ⎡⎣ A− ⎤⎦   ⎡⎣ A− ⎤⎦
+     pH = pKa + log          ⇒          = 10 pH − pKa
+                    [ AH ] [ AH ]
+     ⇒
+         [ AH ] = 10 pKa− pH = 100,5 = 3,16
+         ⎡⎣ A− ⎤⎦
+2.soit V0 le volume prélevé de S0                         et V le volume de S on a :      C0 V0 = CV
+      V C0 0,25
+⇒       =  =     ⇒ V = 2,5V0
+      V0 C   0,1
+si V = 50mL on a V0 = 20mL
+A l’aide d’une pipette de 20mL on prélève V0 = 20mL de S puis on verse V0 dans la fiole jaugée de
+50mL. On complète avec l’eau pure jusqu’au trait de jauge. on agite pour homogénéiser.
+3.1 C 6 H 5 -COOH + OH - → C 6 H 5 -COO - + H 2O
+3.2 L’équivalence acido-basique est atteint lorsque : n A = n B ⇔ C A VA = C B VBE
+         CB VBE         10-2 .19.6.10−3
+CA =                =            −3
+                                        = 19.6.10−2 mol / L
+            VA                10
+Exercice 2
+1. L’équation-bilan de la réaction
+HCOOH + CH 3 − CH 2CH 2 − OH                   HCOO − CH 2 − CH 2 − CH 3 + H 2O
+Les caractéristiques de cette réaction sont :
+-athermique-lente-limité (réversible)
+2-
+  SN                                    Annales2005‐2014
+                                                                                                       59
+                           T(min)    5      10        20        30         40         50       60
+Mélange M1 en              na        0,84   0,74      0,64      0,58       0,54       0,52     0,50
+absence de H2SO4
+Mélange M2 en              nb        0,53   0,37      0,35      0,34       0,34       0,34     0,34
+présence de H2SO4
+Quantité d’ester           nest      0,16   0,26      0,36      0,42       0,46       0,48     0,50
+formée en M1
+Quantité d’ester           nest      0,47   0,63      0 ,65     0,66       0,66       0,66     0,66
+formée en M1
+3-Définition de Vm :C’est la valeur absolue du coefficient directeur de la droite qui passe par les
+points d’abscisses t1 = 5 min et t2 = 10 min
+-Calcul de Vm :
+                                C2 − C1          0, 74 − 0,84
+.Pour le mélange M1 : Vm1 = − (           ) = −(               ) = 2.10 −2 mol.min −1
+                                  t2 − t1            10 − 5
+                                C − C1           0, 37 − 0, 53
+.Pour le mélange M2 : Vm 2 = − ( 2        ) = −(               ) = 3, 2.10 −2 mol.min −1
+                                 t 2 − t1           10 − 5
+La comparaison montre que : Vm 2 Vm1
+4-Définition du catalyseur :Un catalyseur est une substance qui accélère une réaction chimique spontanée en
+se retrouvant inaltérée, du point de vue chimique, à la fin de la réaction.
+-Le catalyseur augmente la vitesse de la réaction
+Exercice 3
+1.1Calcul de U 0 :
+                      1                            mV 2
+∆EC = W F e ⇒           mV 2 − 0 = qU 0 soit U 0 =
+                      2                             2q
+                5,81.10−26.(2.105 ) 2
+A.N : U 0 =                   −19
+                                      = −3, 63.103V
+                 2.2.(−1, 6.10 )
+1.2Le poids des ions est : P = mg = 5,81.10−26.10 = 5,81.10−25 N
+                                       U0                            −3, 63.103
+La force électrique : Fe = qE = q.        A.N : Fe = 2. − 1,6.10−19.            = 11.62.10−15 N
+                                       d                              10.10−2
+La comparaison entre P et Fe montre que le poids est négligeable devant la force électrique
+1.3
+ ∑ F = F = ma
+            e
+
+                                                             Fe 11.62.10−15
+Pr ojection suivant O1X donne : Fe = ma ⇒ a =                  =            = 2.1011 ms −2
+                                                             m   5,81.10−26
+2-Pour que les ions subissent une déviation vers le bas il faut que
+l’armature C soit négative(-),le champ est dirigé de
+l’armature D vers l’armature C
+2.2
+∑ F = F = ma
+           e
+
+                                    0
+-Proj/ OX : 0 = ma x ⇒ ax =           =0    le mvt est r.u
+                                    m
+                                                                   ⎧ ax = 0             ⎧ ax = 0
+                                                                   ⎪                    ⎪
+- V0 x = V0 cos α , x0 = 0 les équation du mvt sur l’axe Ox sont : ⎨V0 x = V0 cos α A.N ⎨V0 x = 1, 4.105 ms −1
+                                                                   ⎪ x = V cos α t      ⎪
+                                                                                        ⎩ x = 1, 4.10 t
+                                                                                                      5
+                                                                   ⎩      0
+
+Proj/ Oy :
+
+
+
+
+  SN                                 Annales2005‐2014
+                                                                                                                 60
+                      − Fe − q .E
+− Fe = ma y ⇒ a y =        =         mvt r.u.v
+                       m       m
+             −2.1, 6.10−19.84.103
+A.N a y =                 −26
+                                  = −46.1010 ms −2
+                 5,81.10
+V0 y = V0 sin α y0 = 0 A.N : V0 y = 2.105.sin 45 = 1, 4.105 ms −1
+                                      ⎧a y = −46.1010 ms −2
+                                      ⎪⎪
+Les équations horaires sur l’axe Oy : ⎨Vy = −46.10 t + 1, 4.10
+                                                     10         5
+
+                                       ⎪
+                                       ⎪⎩ y = −23.10 t + 1, 4.10 t
+                                                    10 2        5
+
+
+L’équation de la trajectoire :
+⎧⎪ x = 1, 4.105 t         (1)
+ ⎨
+ ⎪⎩ y = −23.10 t + 1, 4.10 t (2)
+                10 2             5
+
+
+              x
+  de (1) t =         on remplace dans (2)
+             1, 4
+                      x                         x
+  y = −23.1010 (          5
+                            ) 2 + 1, 4.105 (         )
+                  1, 4.10                   1, 4.105
+y = −11, 7 x 2 + x
+Au point de sortie xS = = 10Cm ,l’ordonnée du point de sortie
+yS = −11, 7(10−1 )2 + 0,1
+yS = −0,117 + 0,1 = −0, 017m
+2.4 Après la sortie du condensateur le mvt devient r.u
+2.5 Calcul de ymax .
+Au sommet de la trajectoir
+                                   −V02y                  −(1, 4.105 ) 2
+0 − V = 2a y ymax ⇒ ymax =
+        2
+       0y                                   soit ymax =                  = 0, 02m
+                                    2a y                  2. − 46.1010
+                     d
+Comme ymax ≺
+                     2
+L’ion n’atteint pas la plaque supérieure
+Exercice 4
+    x = X mCos(ωt + ϕ )
+       V = −ω X m Sin(ωt + ϕ )
+              ⎧ xo = X mCosϕ = X m
+       à t = 0⎨                      ⇒ Cosϕ = 1 donc ϕ = o
+              ⎩Vo  = −ω X m Sinϕ = o
+       et x = X mCosωt = 5.10−3 Cos100π t
+1.1
+                                                                                    N
+       1.2 La lame parait immobile si N = KNe ⇒ Ne =
+                                                                                    K
+            N
+       10 ≺    ≤⇒ 1 ≤ K ≺ 5π
+            K
+       K ∈ {¨1;2;3;4 }
+
+       K                   1                  2                   3         4
+       Ne(Hz)              50                 25                  16,7      12,5
+  SN                                       Annales2005‐2014
+                                                                                        61
+                   C                  5
+      λ = CT =             A.N : λ =    = 0,1m
+                   N                 50
+      yM (t ) = y (t − θ )
+                                                         2π x
+2.1 yM (t ) = 5.10 Cos (100π t −
+                        −3
+                                                                )
+                                                          λ
+                                                           π
+                   = 5.10−3 Cos (100π t − )
+                                         2
+                                          π
+      2.3∆ϕ = ϕo − ϕ M =                           M et O sont en quadrature .
+                                          2
+2.4
+
+           −3                  2π x
+y = 5.10        cos(100π t −          )
+                                  λ
+                             −3               2π x
+si    t = 0, 05 s y = 5.10        cos(π −            )
+                                               λ
+
+La distance parcoure par l’onde à t=0,05s : d=5.0,005=0,25m ⇒ d=2,5λ
+
+Tableau de valeurs
+
+                   x                           0                    λ          λ        3λ               λ
+                                                                    4          2         4
+                   y                  −5.10
+                                              −3                        0   5.10
+                                                                                   −3        0   −5.10
+                                                                                                         −3
+
+
+
+
+     SN                                         Annales2005‐2014
+                                                                                                              62
+  BAC 2010
+Session Compl.
+REPUBLIQUE ISLAMIQUE DE MAURITANIE                                Honneur Fraternité Justice
+Ministère de l’Enseignement Fondamental et Secondaire             Série : Sciences de la nature
+Direction des Examens et des Concours                             Durée : 4H Coefficient : 6
+Service des Examens
+
+
+                           Sciences physiques session complementaire2010
+Exercice 1
+ 1 Donner les noms des composés suivants et préciser leurs fonctions :
+    (A) CH3-CH(CH3)-CHO ; (B) CH3-CH(CH3)-COOH ; (C) CH3-CH2-COCl
+         ; (D) CH3-CH(OH)-CH2CH3
+2 Parmi les molécules précédentes l’une est chirale; préciser laquelle. Justifier. Représenter les deux
+énantiomères correspondants.
+3 L’oxydation ménagée du composé D avec une solution de permanganate de
+potassium (MnO4− + K + ) conduit à un corps organique qui réagit positivement avec la DNPH mais
+ne réagit pas avec la liqueur de Fehling. Préciser le nom et la fonction du composé organique
+obtenu.
+4 On fait ajouter 40g du composé B sur un alcool primaire R − OH pour obtenir 39 g d’un composé
+organique F.
+4.1 Ecrire l’équation de cette réaction.
+4.2    Sachant que le rendement de la réaction est 66 %, donner la formule semi développée du
+composé F et son nom. En déduire la formule et le nom de l’alcool.
+   On donne : C=12g/mol; O=16g/mol; H=1g/mol
+Exercice 2
+On introduit 7,42g d’un acide carboxylique dans l’eau pour obtenir un litre de solution. On prélève
+30cm3 de cette solution que l’on neutralise progressivement par une solution de soude de
+concentration 0,10 mol/L (decimolaire). On note les résultats suivants :
+Vb(cm3) 0            5        10       13        22    24      28        29      31        34      36
+pH          2,4      3,4      3,6      3,7       4,0   4,3     5,0       5,5     10,9      11,4    11,5
+1.1 Tracer la courbe pH=f(Vb) en utilisant l’échelle :
+Sur l’axe des abscisse 1cm            2cm3
+Sur l’axe des ordonnées 1cm             1unité de pH
+1.2 En déduire le volume de base ajouté pour atteindre le point d’équivalence.
+2 Déterminer :
+2.1 La concentration de la solution d’acide.
+2.2 Si l’acide est fort ou faible.
+2.3 La formule semi-développée et le nom de l’acide.
+2.4 Le pKa de l’acide considéré.
+Exercice 3          On néglige les frottements
+Le hockey sur gazon est un sport olympique qui se pratique sur une
+pelouse naturelle ou synthétique, de dimensions quasi identiques à celles
+d'un terrain de football. Chaque joueur propulse la balle avec une crosse ;
+l'objectif étant de mettre la balle dans le but.
+Dans cet exercice, on étudie le mouvement de la balle de centre d'inertie
+G et de masse m=160g, dans le référentiel terrestre supposé galiléen.          Fig 1
+Cette étude peut être décomposée en deux phases.
+Les questions 1 et 2 sont indépendantes.
+1 Première phase
+Durant cette phase, on néglige tout frottement ainsi que le poids de la balle.
+La première phase est assimilée à un mouvement effectué sur le plan incliné schématisé par la figure
+1.Au point A, la balle est immobile. Entre les points A et B, elle reste en contact avec la crosse. La
+force F exercée par la crosse sur la balle, supposée constante, est représentée sur la fig 1.
+Le segment AB représentant la trajectoire de la balle est incliné d'un angle α =30° avec l'horizontale.
+  SN                            Annales2005‐2014
+                                                                                                          63
+1.1 Déterminer la nature du mouvement de la balle entre A et B .
+1.2 La force F s'exerce pendant une durée t = 0,1 s. La balle part du point A sans vitesse initiale et
+arrive en B avec une vitesse V B telle que VB =14 m.s-1. Calculer la valeur de l'accélération du centre
+d'inertie de la balle entre les points A et B.
+1.3 En utilisant les résultats obtenus en 1.2, calculer l'intensité de la force exercée sur la balle par la
+crosse. Comparer le poids avec cette force. L'hypothèse concernant le poids de la balle est-elle
+justifiée ? On donne l’intensité du champ de pesanteur : g = 9,8 m.s-2.
+2 Deuxième phase
+Dans cette phase, on néglige seulement la résistance de l'air.
+Au point B, la balle quitte la crosse à la date t = 0 avec le vecteur
+vitesse V B contenu dans le plan (xOy) ; c'est la deuxième phase du
+mouvement correspondant à la figure 2.On étudie le mouvement du
+centre d'inertie G de la balle dans le champ de pesanteur supposé
+uniforme. L'origine O des axes est située à la verticale du point B
+telle que OB = h = 0,40 m.                                                   Fig2
+2.1 Ecrire dans le repère (O ; x ; y) l’équation de la trajectoire du mouvement de la balle à partir du
+point B.
+2.2 Montrer que la valeur VS de la vitesse de la balle au sommet S de la trajectoire est VS = 12 m.s-1.
+3 La ligne de but est située à une distance d = 15 m du point O. La hauteur du but est L = 2,14 m.
+On néglige le diamètre de la balle devant la hauteur du but.
+3.1 Quelles conditions doivent satisfaire les coordonnées x et y du centre d’inertie G, pour que le but
+soit marqué ?
+3.2 Vérifier que ces conditions sont bien réalisées.
+Exercice 4
+On néglige le champ magnétique terrestre et on donne µ 0 = 4 π .10 − 7 S.I
+On considère une bobine de longueur = 50 cm comprenant N=1000 spires de
+rayon moyen r=1 cm.
+1 La bobine est traversée par un courant d’intensité I. L’intensité Bb du vecteur
+champ magnétique au centre de cette bobine est 10-2T.
+1-1 Calculer l’intensité du courant I.
+1-2 Indiquer par un schéma clair comment se placerait une aiguille aimantée au centre de la bobine en
+choisissant un sens de parcours du courant.
+2 Un aimant droit situé dans le plan horizontal est placé perpendiculairement à l’axe de la bobine
+horizontale, toujours traversée par le même courant.
+2.1 Reproduire le schéma en représentant au centre de la bobine les vecteurs champs magnétiques Ba
+(de valeur Ba= 1,5.10-2T) crée par l’aimant droit et Bb crée par la bobine. .
+2.2 Préciser l’angle α que fait l’aiguille avec sa postions initiale. Quelle est l’intensité Bt du champ
+résultant ?
+3/ La bobine est maintenant en circuit ouvert. Dans le champ magnétique supposé uniforme
+horizontal Ba , un dispositif approprié permet de faire tourner librement la bobine autour d’un axe
+vertical passant par son centre avec une vitesse angulaire constante ω = 4π rad / s .
+3.1 A l’ instant t=0, l’axe de la bobine et Ba sont parallèles. La normale aux spires étant orientée dans
+le sens de Ba , calculer le flux Φ 0 de la bobine.
+3.2 A une date t quelconque, la bobine a tourné de l’angle θ = ωt . Montrer que l’expression du
+flux Φ(t) à travers la bobine est Φ (t) = NBS cos ω t . Le calculer à la date t=0,25s.
+3-3 Montrer que la bobine est le siège d’une force électromotrice d’induction e(t). Calculer sa valeur
+maximale.
+
+
+
+
+  SN                             Annales2005‐2014
+                                                                                                              64
+                                                 Solution
+Exercice 1
+1-
+
+(A) :CH 3 -CH(CH 3 )-CHO 2-methylpropanal(aldéhyde)
+
+(B) :CH 3 -CH(CH 3 )-COOH Acide 2-methylpropanoique (acide carboxylique)
+
+(C) :CH3 -CH 2 -COl Chlorure de propanoyle(chlorure
+d’acide)
+
+(D) :CH 3 -CH(OH ) − CH 2 − CH 3 butan-2-ol(alcool)
+
+2-La molécule(D) est chirale car elle contient un carbone
+asymétrique
+
+3-Le composé obtenu par oxydation ménagé du composé D réagit avec la DNPH
+mais ne réagit pas avec la liqueur de Fehling :C’est un alcène CH 3 -CO − CH 2 − CH 3 buta none
+4- 1 Equation de la réaction : CH 3 -CH(CH 3 )-COOH + R-OH      CH 3 -CH(CH 3 )-COO-R+H 2 O
+4.2La masse molaire de B : M B =4.12++8+32=88g.mol-1
+                                  m    40
+D’autre part : mB = M B .nB ⇒ nB = B =    mol
+                                  M B 88
+                                                                     40
+                                                             66.
+                                  n                      66.nB       88 = 0,3mol
+Le rendement de la réaction : F .100 = 66 ⇒ nF =               =
+                                  nB                      100     100
+                                                     m      39
+La masse molaire de F : mF = nF .M F ⇒ M F = F =               = 130 g / mol
+                                                     nF 0, 3
+M F (C4 H 7 O2 − R ) = 4.12 + 7 + 32 + 12n + 2n + 1 = 88 + 14n
+                         130 − 88
+88 + 14n = 130 ⇒ n =               =3
+                           14
+La formule et le nom de F : CH 3 -CH(CH 3 )-COO-CH 2 -CH 2 -CH 3 2-methylpropanoate de propyle
+La formule et le nom de l’alcool : CH 3 -CH 2 -CH 2 − OH propan-1-ol
+Exercice 2
+
+1.1
+
+1.2De la courbe VBE = 30Cm3
+                                              C BVBE
+2-A l’équivalence : C AVA = CBVBE ⇒ C A =
+                                               VA
+           0,1.30.10−3
+AN : C A =             = 0,1mol / L
+             30.10−3
+2.2 L’acide est faible
+                                                                            mA    7, 42
+2.3La formule et le nom de l’acide : m A = M A .n A = M A .C AVA ⇒ M A =        =       = 74, 2 g .mol −1
+                                                                           C AVA 0,1.1
+M (Cn H 2 n O2 ) = 12n + 2n + 32 = 14n + 32
+                          74, 2 − 32
+14n + 32 = 74, 2 ⇒ n =               =3
+                              14
+
+  SN                              Annales2005‐2014
+                                                                                                            65
+L’acide est : CH 3 − CH 2 − COOH Acide propanoique
+2.4 Graphiquement PK a = 3,8
+Exercice 3
+
+1ére phase :
+
+                                                              F
+1.1 F = ma La projection suivant AB : F = ma ⇒ a =              = Cte
+                                                              m
+Le mouvement est r.u.v
+         ∆V 14
+1.2 a =      =   = 140ms −1
+         ∆t 0,1
+1.3La force exercée par la
+crosse : F = ma AN : a = 160.10 −3.140 = 22, 4 N
+Le poids de la balle : P = mg = 160.10−3.9,8 = 1,568 N
+L’hypothèse est bien justifiée car le poids est très inferieur à la force
+2eme phase :
+
+2.1 Etude du mvt de la balle : P = ma
+-Projection suivant OX :
+                  0
+0 = ma x ⇒ a = = 0 le mvt est r.u
+                  m
+V0 x = V0 cos 30° = 14 cos 30° = 12,12m / s , x0 = 0
+                                      ⎧ax = 0
+                                      ⎪
+Les équations horaires sur l’axe OX : ⎨Vx = Vox = 12,12m / s
+                                      ⎪ x = 12,12t
+                                      ⎩
+-Projection suivant Oy :
+− P = ma y = − mg
+a y = − g = Cte le mvt est r.u.v
+V0 y = V0 sin 30° = 14.0,5 = 7 m / s , y0 = 0, 4m
+Les équations horaires du mvt sur Oy
+⎧ a y = −9,8ms −2
+⎪
+⎨Vy = −9,8t + 7
+⎪ y = −4,9t 2 + 7t + 0, 4
+⎩
+L’équation de la trajectoire :
+⎧ x = 12,12t       (1)
+⎨
+⎩ y = −4,9t + 7t + 0, 4 (2)
+            2
+
+
+              x
+de (1) t =        on remplace dans (2)
+           12,12
+              x 2        x
+y = −4,9(        ) + 7(      ) + 0, 4
+           12,12       12,12
+y = −0, 033 x 2 + 0,58 x + 0, 4
+2.2Au sommet de la trajectoire la vitesse de la balle est :
+Vs = Vxs2 + V ys2 or Vys = 0 ⇒ Vs = Vxs    12m / s
+3-1 pour que le but soit marqué il faut que : x = 15m et y ≤ 2,14m
+3.2
+  SN                               Annales2005‐2014
+                                                                            66
+xi x = 15m ⇒ y = −0, 033(15)2 + 0,58.15 + 0, 4
+                                                       Cette condition est bien vérifiée.
+                  = −7, 425 + 9,1 = 1,575m
+Exercice 4
+                                                                                    N
+1.1Au centre de la bobine le champ magnétique est donné par : Bb = µ0                   I
+
+              Bb .           10−2.50.10−2
+Donc I =            AN : I =               = 3,98 A
+              N .µ0          4π .10−7.1000
+1-2
+
+
+
+
+2-1
+
+
+
+
+2.2
+        Ba 1,5.10−2
+- tgα =    =        = 1,5 ∴α = 56,3°
+        Bb   10−2
+Bt = ( Ba ) 2 + ( Bb ) 2 AN : Bt = (1,5.10−2 ) 2 + (10−2 ) 2 = 1,8.10−2 T
+3-.1 Calcul du flux :
+
+ϕ0 = NBa S cos θ
+AN : ϕ0 = 1000.1,5.10−2.π (10−2 ) 2 .1 = 4,71.10−3Wb
+
+3.2 si θ = ω t le flux devient : ϕ (t ) = NBa S cos ωt
+
+à t = 0, 25s ϕ (t ) = 1000.1,5.10 −2.π (10 −2 ) 2 cos(4.3,14.0, 25) = 4, 7.10−3Wb
+
+             dϕ
+3.3 e = −       = NBa Sω sin ωt      em = NBa Sω AN : em = 1000.1,5.10 −2.π (10 −2 ) 2 .4π = 59, 032.10 −3V
+             dt
+
+
+
+
+  SN                               Annales2005‐2014
+                                                                                                              67
+   BAC 2011
+Session Normale
+REPUBLIQUE ISLAMIQUE DE MAURITANIE                                            Honneur Fraternité Justice
+Ministère d’Etat à l’Education nationale à l’Enseignement
+Supérieur et à la Recherche Scientifique                                 Série : Sciences de la nature
+Direction des Examens et de l’Evaluation                                Durée : 4H Coefficient : 7
+Service des Examens
+
+
+
+                                    Sciences physiques session normale 2011
+Exercice 1
+L’éthanoate de butyle est un composé organique noté E.
+1 Donner la formule semi-développée de ce composé organique. Quel est le nom de sa fonction
+chimique?
+2 Le composé E est obtenu par une réaction entre un acide carboxylique A et un alcool B.
+2.1 Ecrire les formules semi-développées des composés A et B. Les nommer.
+2.2 Ecrire l'équation qui permet d'obtenir le composé E, à partir de A et de B.
+3 On introduit dans un ballon 0,5 mol de A, 0,5 mol de B et 2
+mL d'acide sulfurique.
+La température du chauffe-ballon est réglée à 65 °C.
+3.1 Quel est le nom de la réaction chimique réalisée entre A et
+B? Quelles sont ses caractéristiques ?
+3.2 On suit l'évolution temporelle de cette réaction, réalisée à
+volume constant, en déterminant, la quantité de matière n(E)
+formée.
+On obtient la courbe ci-contre:
+3.2.1 Définir la vitesse V(t) de formation du composé E. La calculer aux instants t1 =12 h et t2 = 25 h,
+on trouve V(tl) > V(t2). Quel est le facteur cinétique responsable de la variation de V(t) au cours du
+temps ?
+3.2.2 Calculer le rendement de la réaction entre A et B.
+3.2.3 La valeur numérique du rendement varie-t-elle (justifier les réponses)
+En doublant les quantités de matière initiales des deux réactifs ?
+En augmentant la quantité d'acide sulfurique ?
+4 Lors de la synthèse industrielle de l’éthanoate de butyle, on préfère utiliser un autre réactif
+organique A’ réagissant avec B. Quel est le nom de ce réactif A’? Pourquoi le préfère-t-on?
+Exercice 2
+On souhaite préparer une solution S1 aqueuse d’hydroxyde de potassium de concentration molaire
+volumique C1 à partir d’une solution S de concentration molaire C =1 mol/L.
+1. On dilue S pour obtenir la solution S1, 10 fois moins concentrée.
+1.1 Préciser le matériel et les produits nécessaires pour effectuer cette dilution dans les meilleures
+conditions de sécurité.
+1.2 Quelle est alors la concentration C1 de la solution S1.
+2 On prélève V1 =10ml de la solution S1, que l’on dose par une solution d’acide chlorhydrique de
+concentration C2 = 0,1mol/L, en présence du bleu de bromothymol. Le virage de cet indicateur coloré
+a lieu pour V2 = 10,2ml de solution d’acide versée.
+2.1 Faire un schéma du dispositif utilisé au cours du dosage en nommant la verrerie.
+2.2 Ecrire l’équation bilan de la réaction qui a lieu lors du dosage.
+2.3 Déduire de la mesure V2 la valeur de la concentration C1 de la solution S1.
+3. A partir de la solution S de concentration C, on prépare un volume V1 = 250mL de la solution S1
+d’hydroxyde de potassium dans une fiole jaugée à 250mL.
+Quel volume V de S doit-on utiliser ?
+
+
+
+
+  SN                              Annales2005‐2014
+                                                                                                           68
+Exercice 3
+Un solide S de masse m=500g, abandonné sans vitesse initiale, glisse sur un plan incliné d’un angle
+α =30° par rapport au plan horizontal. On suppose que le solide S est
+soumis à une force de frottement constante f parallèle à la trajectoire de
+son centre de gravité G. Dans l’exercice on prendra g=10m/s².
+1.1 Etablir l’expression de l’accélération a1 de son centre d’inertie G. En
+    déduire la nature du mouvement.
+1.2 Dans le repère (x’Ox), établir en fonction de a1, l’équation horaire du mouvement du centre
+    d’inertie G en prenant comme origine des dates l’instant où le solide S est lâché sans vitesse et
+    comme origine des abscisses la position O.
+1.3 Calculer la valeur de l’accélération a1 dans le cas où les frottements sont négligeables.
+2 Un dispositif expérimental approprié permet d’enregistrer les positions du centre de gravité G de
+    S à des instants régulièrement espacés de τ = 60ms. Les résultats expérimentaux ont permis
+    d’établir le tableau suivant :
+    xi(mm)          0              8,5            33,5          75             133             207,5
+    ti(s)           0              0,06           0,12          0,18           0,24            0,30
+2.1 Montrer que les distances parcourues pendant les mêmes intervalles de temps constituent une
+    suite arithmétique de raison r et en déduire la valeur a2 de l’accélération a 2 du mouvement.
+2.2 Au cours de cette expérience existe-t-il des frottements ? si oui calculer la valeur de f .
+3 Calculer la valeur de la vitesse à la date t=3s.
+4 Au point B le solide S quitte le plan AB situé à une hauteur h=2m du sol.
+4.1 Etablir les équations horaires x(t) et y(t) du mouvement de S dans le repère
+    (B ;x ;y). En déduire l’équation de la trajectoire. On prendra pour origine
+    des instants l’instant de passage par B et pour vitesse au point B :VB=1m/s.
+4.2 Trouver l’abscisse xP du point de chute P sur le sol.
+4.3 Trouver la valeur VP de la vitesse de S au point P.
+Exercice4
+ Les particules se propagent dans le vide et on néglige leur poids devant les autres
+forces.
+1 Des ions 24Mg2+ produits dans une chambre d’ionisation pénètrent sans vitesse dans
+un accélérateur constitué de deux plaques métalliques P et P’ entre lesquelles est            Fig
+appliquée une tension électrique réglable U=VP – VP’ (voir fig).
+1.1 Déterminer le signe de la tension U pour que les ions soient accélérées de P vers P’.
+1.2 Etablir l’expression de la vitesse de l’ion à son passage par le point O en fonction de m, e et U. la
+calculer.
+2 A la sortie de l’accélérateur les ions passent dans un champ magnétique B , perpendiculaire au plan
+de la figure, crée dans une zone carrée ABCD de coté a.
+Les ions pénètrent dans cette zone au point O milieu de AD.
+2.1 Déterminer le sens du champ magnétique B pour que les ions soient déviés vers le haut.
+2.2 Montrer que le mouvement, dans le champ magnétique, des ions est uniforme et circulaire.
+Déterminer l’expression du rayon de la trajectoire en fonction de e, U, B et m.
+Calculer sa valeur.
+2.3 Calculer la valeur de la déviation angulaire α .
+3 Calculer la valeur U’ de la tension pour que les ions sortent par le trou O’ après avoir décrit un
+quart de cercle de rayon AO=AO’.
+4 A quelle valeur U’’ faut-il régler la tension entre les plaques P et P’ pour faire sortir dans les
+mêmes conditions par la fente O’ des ions 23Mg2+ isotopes de 24Mg2+ .
+Données :a=5cm ; B=0,2T ; U= 5000V. e= 1,6.10-19C, mP=1,67.10-27kg.
+
+
+
+
+  SN                            Annales2005‐2014
+                                                                                                            69
+                                                Solution
+Exercice 1
+1-L’éthanoate de butyle : CH 3 − COO − CH 2 − CH 2 − CH 2 − CH 3 c’est un ester.
+2.1A : Acide éthanoïque : CH 3 − COOH
+B :Alcool : CH 3 − CH 2 − CH 2 − CH 2 − OH butan-1-Ol
+2.2L’équation-bilan de reaction:
+CH 3 − COOH + CH 3 − CH 2 − CH 2 − CH 2 − OH              CH 3 − COO − CH 2 − CH 2 − CH 2 − CH 3 + H 2O
+3.1La réaction réalisée est l’estérification de caractéristiques :
+-athermique-lente-réversible(limité).
+                                                           dn
+3.2.1La vitesse de formation est définie par : V (t ) = E
+                                                            dt
+Calcul de la vitesse à l’instant t1=12h.
+                    ⎧t1 = 0               ⎧t2 = 25h
+Graphiquement : ⎨                      et ⎨
+                    ⎩nE1 = 0, 08mol       ⎩nE 2 = 0,33mol
+              n −n          0,33 − 00, 08
+AN : V (t1 ) = E 2 E1 =                   = 10 −2 molh −1
+                t2 − t1        25 − 0
+                                              ⎧t1 = 0             ⎧t2 = 35
+Calcul de V à t2 = 25h Graphiquement : ⎨                       et ⎨
+                                              ⎩nE1 = 0, 2mol      ⎩nE 2 = 0,32mol
+               n −n        0,32 − 0, 2
+AN : V (t 2) = E 2 E1 =                = 0, 24.10−2 molh−1 donc V (t2 ) ≺ V (t1 )
+                 t2 − t1     35 − 0
+Le facteur cinétique responsable de cette diminution est :le nombre de moles initial des réactifs.
+                                             nE∞         0,33
+3.2.2 Le rendement de la réaction : ρ = 0 .100 =              .100 = 66%
+                                            nAlcoo       0,5
+3.2.3 En doublant les quantités de matière initiales des deux réactifs ou en augmentant la quantité
+d'acide sulfurique le rendement reste constant.
+4-Le réactif A’ doit être chlorure d’éthanoyle car cette réaction devient avec A’ : rapide et totale
+Exercice 2
+1.1 Le matériel et les produits nécessaires pour une dilution :
+Pipette – fiole jaugée de volume 250mL –eau distillée –solution mère-
+blouse- lunette-gands- masque
+                            C
+1.2La concentration C1 = = 0m1; ol / L
+                           10
+2.1Disposif du dosage :
+2.2 H 3O + + OH − → 2 H 2O
+                                             CV
+2.3 A l’équivalence : C1V1 = C2V2 ⇒ C1 = 2 2
+                                               V1
+           0,1.10, 2.10 −3
+AN : C1 =                  = 10, 2.10 −2 mol / L
+              10.10−3
+3.Au cours de la dilution ,le nombre de moles reste
+                             CV 0,1.250.10−3
+constant C1V1 = CV ⇒ C =           =             = 25.10 −3 mol / L
+                              C            1
+Exercice 3
+1.1 ∑ Fext = P + f + Rn = ma
+                                                       P sin α − f
+-Projection suivant x’ox : P sin α − f = ma1 ⇒ a1 =                = Cte le mvt est r.u.v
+                                                            m
+  SN                             Annales2005‐2014
+                                                                                                          70
+                                     ⎧t = 0
+                                     ⎪
+1.2 D’après les conditions initiales ⎨ x0 = 0 et les équations horaires sont :
+                                     ⎪V = 0
+                                     ⎩ 0
+     P sin α − f
+a1 =
+           m
+      P sin α − f
+V =(              )t
+           m
+     P sin α − f 2
+x=(               )t
+          2m
+1.2 Si les frottements sont négligeables
+    a = P sin α = mg sin α
+    AN : a = 10.0, 5 = 5ms −2
+    2.1Les distances parcourues sont :
+    d1 = 8.10−3 − 0 = 8.10−3 m ; d 2 = (33,5 − 8,5)10−3 = 25.10−3 m
+    d3 = (133 − 75)10−3 = 58.10−3 m ; d 4 = (207,5 − 133)10−3 = 74,5.10−3 m
+    La raison de la suite :
+    d 2 − d1 = 25.10 −3 − 8.10 −3 = 16, 5.10−3 m
+    d 3 − d 2 = 58.10−3 − 25.10−3 = 16, 5.10 −3 m
+    d 4 − d 3 = 74, 5.10 −3 − 58.10 −3 = 16, 5.10−3 m
+    Les distance constituent les termes d’une suite arithmétique de raison r = a1τ 2 = 16,5.10 −3
+                     −3        −3
+                                             −2
+    AN : a1 = 16,5.10
+                 τ2
+                      = (60.10
+                        16,5.10
+                               −3 2 = 4,58ms
+                                 )
+
+    2.2 a1 ≠ a donc il y a des frottements.
+    Calcul de f : f = P sin α − ma1 ⇒ f = m( g sin α − a1 ) AN : f = 0,5(10.0,5 − 4,58) = 0; 21N
+    3-La vitesse instantanée de la masse est donnée par :
+     V = 4,58t et t = 3τ AN : V = 4,58.3.60.10−3 = 0,82ms −2
+    4.1A partir de B le mouvement de la masse devient aérien
+    P = ma
+-Projection sur Bx :
+                  0                                              ⎧ ax = 0
+0 = ma x ⇒ a x = = 0 mvt r.u                                     ⎪
+                  m                les équations horaires sur Bx ⎨Vx = VB cos α
+VBx = VB cos α x0 = xB = 0                                       ⎪ x = V cos α t
+                                                                 ⎩      B
+
+Projection sur By :
+                                                                      ⎧
+                                                                      ⎪a y = g
+ mg = ma y ⇔ a y = g = Cte mvt r.u.v                                  ⎪⎪
+                                        les équations horaires sur By ⎨Vy = gt + VB sin α
+VBy = VB sin α yo = 0                                                  ⎪
+                                                                       ⎪ y = g t 2 + VB sin α t
+                                                                       ⎪⎩    2
+-L’équation de la trajectoire :
+⎧ x = VB cos α t (1)
+⎪                                           x
+⎨      g 2                   de (1) x =          on remplace dans (2)
+⎪⎩ y = 2 t + VB sin α t (2))            VB cos α
+
+                      gx 2                                 10 x 2     1             20 x 2   1
+On trouve : y =                + xtagα       AN : y =               +    x soit y =        +    x
+                  2VB2 cos 2 α                             2    3 2    3             3        3
+                                                        (1) ( )
+                                                               2
+  SN                                Annales2005‐2014
+                                                                                                    71
+                          20 x 2 1               20 x 2 1
+Au point P ,yp=2m :             +    x = 2 soit         +      x−2=0
+                            3     3                3        3
+      1          20         1 160
+∆ = ( ) 2 − 4. . − 2 = +            soit ∆ = 161
+                                              3 = 53, 7
+       3          3         3 3
+        1                                          1
+     −      − 53, 7                              −      + 53, 7
+x1 =     3           ≺ 0 rejetée ; x2 = xp =         3          = 0,55m
+            20                                          20
+         2.                                          2.
+             3                                           3
+4.3En appliquant la théorème de variation d’énergie cinétique entre B et P on trouve :
+                              2
+                 mVB2 mV p mVB2
+∆Ec = W P ⇔             −       −     = mgh
+                    2      2      2
+V p2 = VB2 + 2 gh soit Vp = VB2 + 2 gh
+AN : Vp = (1) 2 + 2.10.2 = 6, 4ms −1
+Exercice 4
+1.1Les ions sont positifs, pour les accélérés U PP ' doit être positif.( U PP ' = VP − VP ' 0 ).
+1.2 En appliquant le théorème de variation d’énergie cinétique entre P et P’ on trouve :
+               mV02                        4eU
+∆Ec = W Fe ⇔         − 0 = 2eU ⇒ V0 =
+                 2                          m
+AN :
+                   mV02                  4.1, 6.10−19.5000
+∆Ec = W Fe ⇔            − 0 = 2eU ⇒ V0 =               −27
+                                                           = 2,8.105 ms −1
+                    2                     24.1, 67.10
+2.1 B : rentrant
+2.2 ∑W Fex = Fm = ma
+-Projection suivant τ :
+             dv              dV
+0 = maτ = m , m ≠ 0 donc        = 0 ⇒ V = Cte mvt uniforme
+             dt              dt
+                                V2            V2           mV0
+-Projection sur n : Fm = man = m 0 ⇒ qVB = m 0 soit R =        mvt uniforme et circulaire
+                                 R             R           qB
+      mV0        m 4eU                         1 mU               1 24.1, 67.10−27.5000
+ R=          =                     soit R =                 R=                          −19
+                                                                                            = 17.7.10−2 m
+         qB 2eB             m                  B       e         0, 2           1, 6.10
+2.3
+           a          a                             5.10−2
+sin α = =                        AN : sin α =               −2
+                                                               = 0, 28 ⇒ α = 16, 26°
+           R 1 mU                                 17, 7.10
+                 B        e
+3.Si les ions sortent par O’
+                                                                   a
+                       '                                          ( ) 2 .B 2 .e
+     a 1 mU                    a         1 mU '
+R= =                      ⇒ ( )2 = 2 .               soit U ' = 2
+     2 B           e           2        B       e                     m
+                     2           −19           −2 2
+              (0, 2) .1, 6.10 .(2,5.10 )
+AN : U ' =                                           = 99,8V
+                         24.1, 67.10−27
+             a
+           ( ) 2 .B 2 .e
+             2                               (0, 2)2 .1, 6.10−19.(2,5.10−2 ) 2
+4. U  '' =                    AN    : U '' =                                      = 104,12V
+               m'                                     23.1, 67.10−27
+
+
+  SN                                  Annales2005‐2014
+                                                                                                            72
+  BAC 2011
+Session Compl.
+REPUBLIQUE ISLAMIQUE DE MAURITANIE                                 Honneur Fraternité Justice
+Ministère d’Etat à l’Education nationale à l’Enseignement
+Supérieur et à la Recherche Scientifique                           Série : Sciences de la nature
+Direction des Examens et de l’Evaluation                           Durée : 4H Coefficient : 7
+Service des Examens
+
+
+                        Sciences physiques session complémentaire 2011
+Exercice 1
+On fait réagir un ester E, de formule brute C6H12O2 sur l’eau et on obtient un composé A et un
+composé B.
+    • En présence de A seul, la solution de permanganate de potassium en milieu acide reste
+        violette.
+    • En présence de B seul, la solution de permanganate de potassium en milieu acide se décolore
+        et il apparaît dans le milieu un nouveau composé organique C.
+    • C donne un précipité jaune avec la 2,4-dinitrophénylhydrazine (DNPH) mais ne réagit pas
+        avec la liqueur de Fehling.
+1 Comment s’appelle la réaction de l’eau avec les esters ? Quelles sont ses caractéristiques ?
+2.1 Indiquer les fonctions chimiques de A, B et C. Justifier.
+2.2 On prépare une solution aqueuse de 3g de A. Cette solution est acide. Il faut y ajouter 100 mL
+de solution d’hydroxyde de sodium de concentration 0,5 mol/L pour obtenir l’équivalence acido-
+basique. En déduire la masse molaire moléculaire, la formule brute, la formule semi-développée et le
+nom de A.
+2.3 Donner la formule brute de B. Quelles sont les formules semi-développées et les noms des
+isomères ayant la même formule brute et la même fonction que B ? Quelle est alors la formule semi-
+développée et le nom de B ?
+2.4 Donner la formule semi-développée et le nom de E.
+2.5 Ecrire l’équation-bilan correspondant à l’hydrolyse de E.
+Données :                C : 12 g/mol O: 16 g/mol H: 1 g /mol
+Exercice 2
+Un élève désire montrer expérimentalement que le couple acide méthanoïque HCOOH-ion
+méthanoate HCOO- met en jeu un acide faible et une base faible. Il détermine la valeur du pKa de ce
+couple. Pour cela il mesure le pH de trois solutions aqueuses.
+1 Il dispose d’une solution aqueuse S d’acide méthanoïque de concentration 4.10-2mol/L.
+Le pH-mètre indique la valeur 2,6.
+1.1 Pourquoi cette mesure permet-elle d’affirmer que l’acide méthanoïque est un acide faible
+     dansl’eau ? Justifier.
+1.2 Ecrire l’équation-bilan de la réaction de l’acide méthanoïque avec l’eau.
+1.3 Calculer les concentrations des espèces chimiques présentes en solution et vérifier que pKa≈3,8.
+2 L’élève mesure ensuite le pH d’une solution aqueuse S’ de méthanoate de sodium, de
+     concentration 4.10-2mol/L. Il trouve 8,2.Le méthanoate de sodium NaHCOO est un corps pur
+     ionique dont les ions se dispersent totalement en solution.
+2.1 Pourquoi cette mesure permet-elle d’affirmer que l’ion méthanoate est une base faible dans
+     l’eau ? Justifier.
+2.2 L’élève ajoute à la solution S’ quelques gouttes d’une solution d’acide chlorhydrique de
+     concentration 1mol/L. Le pH vaut alors 5,2. Indiquer sans calcul sur une échelle de pH, quelle
+     est l’espèce majoritaire du couple étudié dans le mélange.
+3 Enfin l’élève mélange 20mL de la solution S et 20mL de la solution S’. La mesure au pH-mètre
+indique 3,8. Déterminer les quantités de matière d’acide méthanoïque initialement présent dans
+l’échantillon de S et d’ion méthanoate initialement présent dans l’échantillon de S’. En considérant
+que ces espèces n’ont subi qu’un effet de dilution lors du mélange ; déduire la valeur du pKa du
+couple considéré.
+
+
+  SN                           Annales2005‐2014
+                                                                                                       73
+Exercice 3
+  Un pendule élastique horizontal est constitué d’un ressort (R) à spires non jointives de raideur K =
+16N/m et d’un solide S de masse m=40g. Le pendule peut osciller librement sans amortissement ni
+frottement sur un banc horizontal.
+A l’instant t=0, on lance le solide S à partir de sa position
+d’équilibre O avec une vitesse V 0 de valeur V0 = 1,4m/s
+suivant l’axe X’X (voir fig1).                                                                      fig1
+ Le mouvement du solide est reporté au repère (O ; i ).
+1       Déterminer la nature du mouvement et calculer sa
+période.
+2       Trouver l’équation horaire du mouvement.
+3       Donner l’expression de l’énergie mécanique du système (ressort+solide) en fonction de m, k,
+x et V à un instant t quelconque.
+4       Au deuxième passage par la position d’équilibre S se détache du ressort, continue son
+mouvement et aborde en B une piste circulaire BC de rayon r = 10cm (fig2). Les frottements sont
+négligeables.
+4.1     Calculer la vitesse au point B.
+4.2     Déterminer l’expression de la vitesse du solide au point M et
+                                                                              Fig2
+calculer sa valeur pour θ = CO'M = 30° .
+4.3     Calculer la valeur de la réaction de la piste au point M. On donne : g=10m/s².
+Exercice 4
+Un dispositif interférentiel comporte deux sources lumineuses S1 et S2 ponctuelles émettant en
+concordance de phase une radiation monochromatique de longueur d’onde λ . La distance entre S1 et
+S2 est a=2mm.
+On place un écran E parallèle au plan formé par S1 et S2 à une distance D de ce dernier.
+1 Pour D=D1 l’interfrange du système d’interférences obtenu est i1=0,54mm. Lorsqu’on augmente D
+de 0,5m l’interfrange devient i2=0,72mm.
+1.1 Rappeler la définition de l’interfrange.
+1.2 Déduire des données la valeur de D1 et celle de λ .
+2 On fixe D à 2m ; les faisceaux issus de S1 et S2 ont chacun pour angle d’ouverture α =0,008rad
+    et les bords des faisceaux sont parallèles deux à deux.
+2.1 Représenter les faisceaux émis et hachurer le champ d’interférences. Déterminer la largeur l du
+    champ d’interférences.
+2.2 Déterminer le nombre de franges brillantes et celui de franges sombres sur l’écran.
+3 Quel est l’abscisse du milieu de la quatrième frange brillante comptée à partir de la frange
+    centrale d’ordre zéro.
+4 Les sources S1 et S2 émettent à présent en plus de la radiation précédente une autre radiation
+    λ’ = 0, 64 µm.
+    A quelle distance de la frange centrale observe-t-on la première coïncidence entre les milieux des
+    franges brillantes.
+
+                                                Solution
+    Exercice 1
+    1- la réaction entre l’ester et l’eau s’appelle : hydrolyse de l’ester
+    Les caractéristiques de l’hydrolyse : lente- athermique-réversible (limité)
+    2.1 A : est un acide carboxylique(ne réagit pas avec le permanganate de potassium)
+    B : Alcool(II)(par oxydation se transforme en cétone).
+    C : Cétone : réagit avec la DNPH mais pas avec le liqueur de Fehling
+    2.2A l’équivalence acido-basique :
+       nA = nB = CBVB = 100.10−3.0,5 = 5.10−2 mol
+
+
+
+  SN                            Annales2005‐2014
+                                                                                                           74
+    ⎧nA = 5.10−2 mol                             m     3
+    ⎨                    or mA = nA M A ⇒ M A = A =        = 60 g / mol
+    ⎩ mA = 3 g                                   nA 5.10−2
+                                           60 − 32
+    M (Cn H 2 n O2 ) = 14n + 32 = 60 ⇒ n =         =2
+                                             14
+    La formule brute de l’acide A : C2 H 4O2
+    Formule semi-développée : CH 3 − COOH acide éthanoïque
+    2.3 la formule brute de B: C4 H10O
+    Les isomères de B qui ont la même fonction :
+    1) CH 3 − CH 2 − CH 2 − CH 2OH bu tan − 1 − ol
+    2) CH 3 − CH (OH ) − CH 2 − CH 3 bu tan − 2 − ol
+    3) CH 3 − CH (CH 3 ) − CH 2OH 2 − methylpropan − 1 − ol
+
+
+
+
+    Le composé B : CH 3 − CH (OH ) − CH 2 − CH 3 bu tan − 2 − ol
+2.3 La formule et le nom de E :
+2.4 CH 3 − COO − CH (CH 3 ) − CH − CH 3 éthanoate de 1 − methyl propyle
+2.5 CH 3 − COO − CH (CH 3 ) − CH − CH 3 + H 2O   CH 3 − COOH + CH 3 − CH (OH ) − CH 2 − CH 3
+    Exercice 2
+    1.1 − log 4.10−2 = 1, 4 ≠ PH et par la suite que l’acide est faible.
+    1.2 HCOOH + H 2O           HCOO − + H 3O +
+    1.3Les espèces chimiques : HCOOH , H 2O , HCOO − , H 3O + , OH −
+    Calcul des concentrations : ⎡⎣ H 3O + ⎤⎦ = 10− PH = 2;510−3 mol / L ;
+      ⎡⎣OH − ⎤⎦ = 10PH −14 = 3,98.10−12 mol / L
+      électroneutralité
+      ⎡⎣ HCOO − ⎤⎦ + ⎡⎣OH − ⎤⎦ = ⎡⎣ H 3O + ⎤⎦ ⇒ ⎡⎣ HCOO − ⎤⎦ = − ⎡⎣OH − ⎤⎦ + ⎡⎣ H 3O + ⎤⎦
+       AN : ⎡⎣ HCOO − ⎤⎦ = 2;510−3 − 3,98.10−12 = 2;510−3 mol / L
+      Conservation de la matiére :
+      ⎡⎣ HCOO − ⎤⎦ + [ HCOOH ] = Ca ⇒ [ HCOOH ] = Ca − ⎡⎣ HCOO − ⎤⎦
+       AN : [ HCOOH ] = 4.10−2 − 2,510−3 = 37,5.10−3 mol / L
+           [ H 3O ]. ⎡⎣ HCOO − ⎤⎦ (2,510−3 )2
+      Ka =                       =            = 0,17.10−3
+                [ HCOOH ]          37,5.10 −3
+
+
+    PKa = − log 0,17.10−3 = 3,8
+    2.1Pour les raisons citées au question 1.1 PH ≠ − log Ca la base est faible
+    2.2
+
+
+
+
+    Dans cette solution l’espace majoritaire est l’ion HCOO −
+    3.
+    nHCOOH = CaVa = 20.10−3.4.10−2 = 8.10−3 mol
+      nHCOO− = CbVb = 20.10−3.4.10−2 = 8.10−3 mol
+    Après le mélange :
+ SN                                    Annales2005‐2014
+                                                                                               75
+                        n             8.10−3
+       [ HCOOH ] = HCOOH =                    = 2.10−2 mol / L
+                            VS        40.10−3
+                            8.10−3
+                        nHCOO−
+       ⎡⎣ HCOO − ⎤⎦ =             =
+                                  −3
+                                     = 2.10−2 mol / L
+                    VS     40.10
+    D’après la relation de Henderson
+                       ⎡ HCOO − ⎤⎦
+     PH = PKa + log ⎣
+                       [ HCOOH ]
+                                 2.10−2
+              = PKa + log               ⇒ PH = PKa = 3,8
+                                 2.10−2
+    Exercice 3
+    1. ∑W Fex = ma ⇔ P + R + T = ma
+    Projection x’x :
+                                                     K
+       0 + 0 + −T = ma ⇒ − Kx = ma soit a +            x = 0 c’est                                       une
+                                                     m
+                                                                                                          K
+    équation différentielle du second degré de solution x = X m cos(ωt + ϕ ) de pulsation ω =               et
+                                                                                                          m
+                                 m
+    de période T = 2π
+                                 K
+                            40.10−3
+    AN : T = 2π                     = 0,314 s
+                              16
+    2-L’équation horaire du mouvement :
+    -Calcul de Xm :Le système est conservatif
+                                            mVo2 KX m2            m
+       Em0 ( x = 0) = Em( x = X m ) ⇔           =      ⇒ X m = Vo
+                                             2    2               K
+                       40.10−3
+    AN : X m = 1, 4            = 0, 07m
+                         16
+    -Calcul de ϕ :D’après les conditions
+              ⎧t = 0
+              ⎪                ⎧ x = X m cos(ωt + ϕ )
+    initiales ⎨ x0 = 0      et ⎨
+              ⎪V = 1, 4m / s ⎩ x = −ω X m sin(ωt + ϕ )
+              ⎩ o
+    A t =
+     ⎧0 = Xm cos(ω.0 + ϕ )     ⎧cos ϕ = 0              π
+    0⎨                        ⇒⎨                 ∴ϕ = − rd
+     ⎩Vo = −ω Xm sin(ω.0 + ϕ ) ⎩−ω Xm sin(ϕ ) 0        2
+                                             π    π
+    L’équation horaire est : x = 7.10−2 cos( t − )
+                                            10    2
+                                        2      2
+                                    mV      Kx
+    3-L’énergie mécanique : Em =          +
+                                      2      2
+                                                                                π
+    4-La vitesse de passage par l’origine : Vmax = ±ω Xm = ±7.10−2.                  = ±7π .10−3 m / s
+                                                                                10
+4.1 Etude du mvt de S entre o et B :
+4.2 P + R n = ma
+                                                         0
+    Projection suivant OB : 0 + 0 = ma ⇒ a =               = 0 le mvt est r.u
+                                                         m
+    Vo = VB = 7π .10 −3 m / s
+  SN                                     Annales2005‐2014
+                                                                                                                 76
+      4.2Calcul de VM
+       ∆EC = W P + W R n
+       ECM − ECO = W P + W R n
+       mVM2 mVo2
+           −     = − mgh
+        2    2
+      VM = Vo2 − 2 gh            h = O ' B − O ' M ' = r (1 − sin θ )
+      VM = Vo2 − 2 gr (1 − sin θ )
+      4.3 P + R n = ma
+      Projection suivant la normale orientée vers le centre.
+      P + R n = ma
+                 π               VM2
+       − P cos( − θ ) + Rn = m
+                2                  2
+                     π          V 2
+       Rn = P cos( − θ ) + m M
+                     2           2
+                        m
+       Rn = P sin θ + ⎡⎣Vo2 − 2 gr (1 − sin θ ) ⎤⎦
+                         2
+                         V2
+       = mg sin θ + m 0 − mgr (1 − sin θ )
+                          2
+                            V02
+          = 2mg sin θ + m       − mgr
+                             2
+               ⎡            V2       ⎤
+           = m ⎢ 2 g sin θ + 0 − gr ⎥
+               ⎣             2       ⎦
+       AN : Rn = 40.10−3 ⎡⎣ 2.10.0,5 + 0,5(7π .10−3 )2 − 10.0,1⎤⎦ = 0,36 N
+Exercice 4
+1.1L’interfrange est la distance entre le milieu de deux franges successives et identiques
+     Dλ         ( D + 0,5)λ
+i1 = 1 et i2 = 1
+      a               a
+ i1 D1λ        a              D1
+    =     .             =
+ i2    a ( D1 + 0,5)λ ( D1 + 0,5)
+  i                                 i1
+( 1 ).( D1 + 0,5) = D1 ⇒ D1 =
+  i2                                   i
+                              2i2 (1 − 1 )
+                                       i2
+                     0,54.10−3
+AN : D1 =                              = 1,5m
+                         −3  0,54
+             2.0, 72.10 (1 −       )
+                             0, 72
+                       D1λ       ia         2.10−3.0,54.10−3
+Calcul de λ : i1 =         ⇒ λ = 1 AN : λ =                  = 0, 72.10−6 m
+                        a        D1                1,5
+2.1
+
+ 2 = tag ( α ) =            L’angle est petit :
+D−d        2     2( D − d )
+       α     α                   α
+tag ( ) = ⇒           = ⇒ = α ( D − d ) (1)
+     2   2  2( D − d ) 2
+
+  SN                                  Annales2005‐2014
+                                                                                             77
+                       a
+                    α     α a            a
+D’autre part tag ( ) = 2 ⇒ =     ⇒d =        (2) on remplace d par sa valeur dans (1 )
+                  2    d  2 2d          α
+           a
+ = α ( D − ) = α D − a AN : = 0,008.2-2.10-3 = 14.10−3 m
+          α
+2.2Nombre de franges brillantes : x = Ki donc −              ≤ Ki ≤
+                                                         2            2
+                                   −3               −3
+                        −14.10             14.10
+−        ≤K≤       AN :           −3
+                                     ≤K≤
+  2i        2i         2.0, 72.10        2.0, 72.10−3
+soit − 9, 7 ≤ K ≤ 9, 7 ⇒ −9 ≤ K ≤ 9
+Donc :K=--9,-8,-7……0,1,2,3…………9 il ya 19 franges brillants
+                                           i
+Nombre de franges sombres : x = (2 K + 1) donc :
+                                           2
+               i                1           1
+− ≤ (2 K + 1) ≤ ⇒ − − ≤ K ≤ − soit − 10, 2 ≤ K ≤ 9, 2
+  2            2 2         2i 2        2i 2
+⇒ −10 ≤ K ≤ 9
+K ∈ {¨−10, −9, −8,......., 0,1, 2,......,9}
+Il y a 20 franges sombres
+3 − x4 = Ki = 4i AN : x4 = 4.0, 72.10 −3 = 2,88.10 −3 m
+                                        K     i   λ
+4 Au coïncidences : K1i1 = K 2i2 soit 1 = 2 = 2
+                                        K 2 i1 λ1
+                      −3
+       K     0, 72.10      72
+ AN : 1 =             −3
+                         =    aprés simplification
+       K 2 0, 64.10        64
+ K1 9
+    =
+K2 8
+Le premier coïncidence a eu lieu entre la frange brillante N°9 de la radiation de longueur d’onde λ1
+avec la frange brillante N°8 de la radiation de longueur d’onde λ2 à l’abscisse x = K1i1 = K 2i2 de la
+frange centrale. AN : x = 9.0, 72.10−3 = 6, 48.10−3 m
+
+
+
+
+    SN                               Annales2005‐2014
+                                                                                                         78
+   BAC 2012
+Session Normale
+REPUBLIQUE ISLAMIQUE DE MAURITANIE                               Honneur Fraternité Justice
+Ministère de l’Enseignement Fondamental et Secondaire           Série : Sciences de la nature
+Direction des Examens et des Concours                           Durée : 4H Coefficient : 6
+Service des Examens
+
+
+                              Sciences physiques session normale 2012
+
+Exercice 1
+Lors de l’introduction de 0,02mol de magnésium dans 0,5L d’acide chlorhydrique à θ1 = 30°C, il se
+produit la réaction : Mg + 2H 3 0 + → Mg 2+ + H 2 + 2H 2 O
+1.Des mesures ont permis de tracer la courbe C de la
+figure ci-contre, qui représente la variation de la
+concentration des ions Mg2+ formés.
+    1.1 Définir la vitesse moyenne de formation des
+    ions Mg2 ; la calculer entre les instants t1 = 0,5min
+    et t2=4min.
+1.2 Définir la vitesse instantanée de formation des ions
+Mg2+ ; la calculer à la date t=2min et en déduire la
+vitesse de disparition des ions hydronium.
+1.3 A partir de la courbe déterminer la concentration
+finale des ions Mg2+ réactif en excès.
+1.4 En déduire la concentration initiale de l’acide chlorhydrique.
+1.5 Déterminer à la date t=4min les concentrations restantes de magnésium [Mg]r et d’ions
+hydronium ⎡⎣ H 3O ⎤⎦ r
+                 +
+
+
+2.On recommence l’expérience dans deux autres conditions expérimentales :
+-En diminuant la température qui dévient θ 2 =2O°C
+-En utilisant un catalyseur approprié à la température     θ3 = θ1 =3O°C.
+On trouve les courbes C1 et C2 ; attribuer à chaque expérience la courbe correspondante.
+
+Exercice 2
+Les courbes représentant pH = f(V) ont été obtenues en mesurant le pH au cours de l’addition
+progressive d’un volume V d’une solution d’acide chlorhydrique de
+concentration C= 0,01 moLL-1:
+- à 10 mL d’une solution aqueuse d’une base notée B1; courbe (1)
+- à 10 mL d’une solution aqueuse d’une base notée B2; courbe (2)
+1.1Qu’appelle-t-on une base forte ? Une base faible?
+1.2A partir de l’observation des deux courbes, montrer que
+l’une des bases est forte et que l’autre est faible. Les identifier, sans
+calcul, en précisant les raisons de votre choix.
+2.1Déterminer à partir des courbes le volume de la solution d’acide chlorhydrique ajouté au point
+d’équivalence pour chaque cas.
+2.2 Calculer les concentrations initiales C1 et C2 des deux solutions basiques B1 et B2.
+2.3 Justifier, pourquoi, au point d’équivalence E2 le pH n’est pas égal à 7.
+3 Dans le cas de la solution de base faible:
+3.1 Déterminer le pKa du couple acide-base correspondant à partir de la courbe.
+3.2 Quelles propriétés particulières possèdent le mélange à la demi-équivalence
+
+  SN                           Annales2005‐2014
+                                                                                                    79
+Exercice 3
+On suppose que les frottements sont négligeables.
+Une piste est formée deux parties rectilignes :
+-AB horizontale
+- BO incliné d’un angle α =60° par rapport à la verticale et de longueur L=3,6m.
+1 Un solide s ponctuel de masse m est lancé du point A avec une vitesse initiale VA .
+1.1    Déterminer la nature du mouvement du solide s sur AB.
+1.2Etudier le mouvement des sur la partie BO et donner l’expression de son accélération.
+1.3                                                                                                       C
+    alculer la valeur minimale que doit avoir VA pour que la vitesse de S s’annule en O.
+2 Le solide S arrive en O avec une vitesse V0 de module Vo=8m/s. Calculer VA.
+3 Arrivé en O, le solide quitte le plan incliné avec la vitesse V0
+3.1. Représenter le vecteur V0 puis établir dans le repère (o,i, j)
+l’équation de la trajectoire de S Conclure.
+3.2 Le solide S touche le sol au point I, sachant que le plan AB
+se trouve à une hauteur h=1,2m du Sol.
+Déterminer les coordonnées du point I dans le repère (o,i, j) .
+3.3 Quelle est la durée de cette chute.
+3.4 Déterminer les coordonnées du point s où la vitesse du solide est horizontale.
+Exercice 4
+Deux rails rectilignes et verticaux AB et CD très longues sont branchés aux bornes d’un générateur
+de force électromotrice E=5V. Une tige de cuivre homogène et de section constante de masse
+m=20g munie de deux crochets s’adapte sur les rails. La tige de longueur =10Cm , peut glisser sans
+frottement en restant perpendiculaire aux rails. Le contact électrique avec les rails est
+toujours assuré. Le circuit ainsi constitué est placé dans un champ magnétique B
+uniforme horizontal d’intensité B=0,4T qui est perpendiculaire au plan des rails comme
+le montre la figure 1 .Le phénomène d’induction est négligé.
+1 Préciser le sens du courant qui traverse la tige et calculer son intensité si la
+résistance totale du circuit est r=2 Ω .
+2 Déterminer les caractéristiques de la force électromagnétique qui s’exerce sur la tige.
+3 Montrer que dans ces conditions la tige ne peut pas être en équilibre.
+4 On inverse le sens du courant dans la tige sans changer les autres paramètres et on l’abandonne
+sans vitesse initiale.
+4.1 Déterminer la nature du mouvement de la tige.
+4.2 Calculer l’angle α dont il faut incliner les rails par rapport à
+l’horizontale pour que la tige soit en équilibre si le vecteur champ
+magnétique reste perpendiculaire aux rails comme le montre la figure2.
+5 Dans celte question le phénomène d’induction n’est plus négligé.
+On conserve le circuit précédemment incliné et on remplace le générateur
+par un fil conducteur sans changer la valeur de la résistance totale du circuit. La tige est abandonnée
+sans vitesse pour se déplacer de A vers B tout en restant perpendiculaire aux rails.
+5.1Déterminer l’expression de la f.e.m induite en fonction d e B , e t V à un instant t quelconque.
+5.2Déterminer l’expression de l’intensité du courant induit et préciser son sens
+
+
+
+
+  SN                            Annales2005‐2014
+                                                                                                          80
+                                                       Solution
+
+Exercice 1 :
+
+            ∆ ⎡⎣ Mg 2+ ⎤⎦
+1-1 vm =                    elle est égale à la valeur du coefficient directeur de la sécante à la courbe aux
+             ∆t
+instants considérés.
+
+     (2,5 − 0,5).10−2
+vm =                  = 5, 7.10−3 mol / l / mn
+         4 − 0,5
+
+          d ⎡⎣ Mg 2+ ⎤⎦
+1-2 v =               elle est égale à la valeur du coefficient directeur de la tangente à la courbe à
+              dt
+l’instant considéré. Soient A(0 ;1.10-2) et B(4 ;3.10-2) donc :
+     (3 − 1).10 −2
+v=                 = 7,5.10 −3 mol / l / mn
+         4−0
+
+                                                v ( H 3O + )
+D’après l’équation bilan : v ( Mg 2 + ) =                    ⇒ v ( H 3O + ) = 2.v( Mg 2 + )
+                                                     2
+
+ AN : v( H 3O + ) = 2.7,5.10−3 = 1,5.10−2 mol / l / mn
+
+                                                                                                   n0 ( Mg )
+1-3 ⎡⎣ Mg 2 + ⎤⎦ = 3.10 −2 mol / l ; Mg est le RL si [ Mg ]0            ⎡⎣ Mg 2+ ⎤⎦ or [ Mg ]0 =
+                                                                                   ∞
+                ∞                                                                                      vs
+
+                      0, 02
+AN : [ Mg ]0 =              = 4.10−2 mol / l    3.10−2 mol / l donc Mg est le R.E et H 3O + est le R.L.
+                       0, 4
+
+    ⎡⎣ H 3O + ⎤⎦     ⎡⎣ Mg 2+ ⎤⎦
+1-4              0
+                   =             ∞
+                                   ⇒ ⎡⎣ H 3O + ⎤⎦ = 2. ⎡⎣ Mg 2+ ⎤⎦ AN : ⎡⎣ H 3O + ⎤⎦ = 2.3.10 −2 = 6.10 −2 mol / l
+          2               1                      0                ∞                 0
+
+
+
+1-5 [ Mg ]r = ⎡⎣ Mg 2 + ⎤⎦ − [ Mg ]d or        [ Mg ]d = ⎡⎣ Mg 2+ ⎤⎦ et à t=4mn ⎡⎣ Mg 2+ ⎤⎦ = 2,5.10−2 mol / l
+                            0
+
+
+
+AN : [ Mg ]r = 4.10 −2 − 2, 5.10 −2 = 1, 5.10 −2 mol / l
+
+ ⎡⎣ H 3O + ⎤⎦ = ⎡⎣ H 3O + ⎤⎦ − ⎡⎣ H 3O + ⎤⎦ or ⎡⎣ H 3O + ⎤⎦ = 2. ⎡⎣ Mg 2 + ⎤⎦ or à t=4mn ⎡⎣ H 3O + ⎤⎦ = 5.10 −2 mol / l
+             r              0              d               d                                         d
+
+
+
+AN : ⎡⎣ H 3O + ⎤⎦ = 6.10 −2 − 5.10 −2 = 10 −2 mol / l
+                  r
+
+
+
+       θ 2 = 200 C → C1
+2-
+       θ3 = θ1 = 300 C + catalyseur → C2
+
+Exercice 2
+
+1-1 une base forte est toute espèce chimique qui réagit totalement avec l’eau en donnant OH −
+
+Une base faible est toute espèce qui ne réagit pas totalement avec l’eau en donnant OH −
+
+
+SN                                   Annales2005‐2014                                                                     81
+1-2 La courbe (1) correspond au dosage d’une base forte par un acide fort car elle présente un
+point d’inflexion à l’équivalence et le pH E = 7 .
+
+1-3 La courbe (2) correspond au dosage d’une base faible par un acide fort car elle présente deux
+points d’inflexions dont l’un à la demi-équivalence et l’autre à l’équivalence et le pH E ≺ 7 .
+
+2-1 Pour la courbe (1) vaeq1 = 8cm 3 ; Pour la courbe (2) vaeq 2 = 10cm 3
+
+                                                              cvaeq1               0, 01.8
+2-2 A l’équivalence : Pour B1 cvaeq1 = c1v1 ⇒ c1 =                     AN : c1 =           = 8.10−3 mol / l
+                                                                v1                   10
+
+                                     cvaeq 2               0, 01.10
+Pour B2 : cvaeq 2 = c2 v2 ⇒ c2 =               AN : c2 =            = 10−2 mol / l
+                                       v2                     10
+
+2-3 Au point d’équivalence E 2 le pH E ≺ 7 car il s’agit du dosage d’une base faible par un acide
+fort.
+
+3-1 graphiquement pka ≈ 9, 2
+
+3-2 Les propriétés du mélange à la demi-équivalence sont celles de la solution tampon :
+
+Le pH varie peu :         -après ajout de H 3O + -après ajout de OH − -après dilution
+
+Exercice 3 :
+
+1-1 ∑ F app = ma ⇒ P + R = ma (1) (1) AB : a = 0 ( mru )
+
+1-2 ∑ F app = ma ⇒ P + R = ma (1) (1) BO : − mg cos α = ma ⇒ a = − g cos α
+AN :
+
+ a = −10.0,5 = −5m.s −2
+
+1-3 − v A 2 = 2 aL ⇒ v A = 2 aL AN : v A = − 2.( − 5).3, 6 = 6 m.s −1
+
+2-1 v A = v0 2 − 2 aL AN : v A = 82 − 2.( −5).3, 6 = 10m.s −1
+
+3-1 ∑ F app = ma ⇒ P = ma (1) (1) ox : 0 = ma x ⇒ ax = 0 : mru d’équation
+
+ x = v0 x t + x0 ⇒ x = (v0 sin α t ) AN : x = 7t (2)
+ (1)
+     0y
+        : − mg = ma y ⇒ a y = − g : mruv d’équation
+    1
+ y = a y t 2 + v0 y t + y0 ⇒ y = −5t 2 + (v0 cos α t )
+    2
+ AN : y = −5t 2 + 4t
+
+            x                  x       x
+ de (2): t =  dans (3): y = −5( )2 + 4( ) donc :
+           7                   7       7
+ y = −0,1x + 0, 6 x (Nature parabole)
+          2
+
+
+
+3-2 I ( xI , yI ) or yI = − L cos α − h = −3, 6.0,5 − 1, 2 = −3m
+SN                                Annales2005‐2014                                                            82
+Or −3 = −0,1xI 2 + 0, 6 xI ⇒ −0,1xI 2 + 0, 6 xI + 3 = 0
+                                             −0, 6 − 1, 25
+       ∆ = 1,56 ⇒ ∆ = 1, 25 d ' où : xI =                  = 9, 25m
+donc :                                           −0, 2              d’où I (9, 25, −3)
+                                xI            9, 25          −0, 6 − 1, 25
+      or xI = 7t I ⇒ t I =         AN : t I =       = 1,32 s               = 9, 25m
+3-3                             7               7               −0, 2
+    dy                                           0, 6
+      () s = 0 ⇒ −0, 2 xs + 0, 6 = 0 d ' où xs =      = 3m
+3-4 dx                                           0, 2
+Donc ys = −0,1.(3) 2 + 0, 6.3 = 0,9m d’où s (3;0,9)
+Exercice 4 :
+          E 5
+1I=        = = 2,5 A
+          r 2
+
+2-Caractéristiques de F :
+
+-origine : milieu de MN
+
+-direction : verticale
+
+-sens : dirigé vers le bas
+
+-norme : F = I B = 2,5.0,1.0, 4 = 0,1N
+
+3 –Les forces responsables du mouvement de la tige agissant dans le même sens donc l’équilibre
+
+n’est pas réalisé (∑ F app ≠ 0)
+
+4-1 Dans ce cas Fet P sont opposés et P                F donc le mouvement de la tige est r.u.a dirigé vers le
+                                   P−F
+bas et d’accélération a =
+                                    m
+
+4-2
+
+∑F        app   = 0 ⇒ P + R + F = o (1) donc : (1) x ' x : − mg sin α + F = 0
+
+                F   0,1
+sin α =           =     = 0,5 ⇒ α = 300
+                mg 0, 2
+
+                  dϕ
+5-1 e = −            et ϕ = BS cos( B, n) avec ( B, n) = 0 d ' où ϕ = BS
+                  dt
+
+                dS
+e = −B             et S = S0 + x ⇒ e = − B v
+                dt
+
+                e    B v
+5-2 i =           =−     avec i ≺ 0(voir schéma)
+                r     r
+
+
+
+
+SN                                    Annales2005‐2014                                                           83
+  BAC 2012
+Session Compl.
+REPUBLIQUE ISLAMIQUE DE MAURITANIE                             Honneur Fraternité Justice
+Ministère de l’Education Nationale                             Série : Sciences de la nature
+Direction de l’Enseignement Secondaire                         Durée : 4H Coefficient : 7
+Service des Examens
+
+
+                           Sciences physiques session complémentaire 2012
+
+  Exercice l
+  Donner le nom de chacun des alcools suivants :
+
+
+
+
+  2.1Donner la formule semi-développée d'un alcool isomère de chaîne de a.
+  2.2Donner la formule semi-développée d'un alcool isomère de position de a.
+  3.L’une des molécules précédentes est chirale. Préciser la quelle et représenter ses deux
+  énantiomères.
+  4.Le Préparateur a versé les alcools a, b et c chacun dans un flacon qu’il a oublié
+  d’étiqueter (mettre des étiquettes).
+  Pour identifier l'alcool contenu dans chaque flacon il les marque par les lettres A, B et C. Puis il
+  réalise l'oxydation ménagée d'un échantillon de 1mL de chaque flacon en le mélangeant avec une
+  solution acidifiée de permanganate de potassium KM n O-4
+  Les produits des réactions réalisées donnent les résultats suivants des tests
+  avec le DNPH et le réactif de Schiff.
+
+           Test                        A                       B                     C
+         DNPH                          -                       +                     +
+    Réactif de Schiff                  -                       +                      -
+  4.1identifier (avec explication) les alcools dans chacun des flacons A,B et c.
+  4.2Ecrire la formule semi-développée du produit de l'oxydation ménagée (si elle a lieu) de chacun
+  des alcools a, b et c en donnant le nom de sa fonction.
+  Exercice 2
+  Les solutions aqueuses étudiées sont à la température 25°C.
+  On introduit 7,4g d’un acide carboxylique dans l’eau pour obtenir
+  un 1litre de solution. On place dans un bêcher 20mL de la solution
+  d’acide préparée que l’on dose par une solution d’hydroxyde de
+  sodium de concentration molaire CB=0,lmol/L. On obtient la
+  courbe PH = f (VB ) .
+  1 De la courbe, déterminer à l’équivalence le volume VE de soude versé et le pH correspondant.
+  2 Déduire:
+  2.1 Une valeur approchée de la concentration initiale CA de la solution d’acide.
+  2.2 La masse molaire, la formule chimique et le nom de l’acide.
+  2.3 Lorsque le volume de soude versé est égal à 2mL, calculer la concentration des divers espèces
+  présentes dans le bêcher
+  Données : C : 12g/mol ; H‫؛‬lg/mol ; O:16g/mol.
+
+
+
+
+ SN                           Annales2005‐2014                                                           84
+Exercice 3
+                                                                          GM1M 2
+La formule de l’attraction universelle entre deux corps s’écrit : F =             où G est une constante
+                                                                            d2
+valant 6, 67.10−11 S .I et d la distance entre les centres d’inerties de deux corps dont les masses sont
+M1 et M2.
+
+   1.1Exprimer l’accélérations de la pesanteur g 0 au niveau du sol en fonction de G du rayon R de
+   la terre et de la masse M de la terre.
+   1.2sachant que R=6400Km, calculer M si g 0 = 9,8m.s −2 .
+   2 Exprimer en fonction de g 0 , R et h , l’accélération g de la pesanteur à une altitude h quelconque.
+   3 Un satellite artificiel de la terre évolue à très haute altitude, où l’accélération g de la pesanteur
+   a pour expression celle trouvée à la question 2 en décrivant une circonférence concentrique a la
+   terre.
+   3.1Déterminer la nature du mouvement du satellite.
+   3.2 Exprimer sa vitesse en fonction de g 0 , R et h .
+   3.3Quelle est cette vitesse si h=36000Km ?Quelle est alors la durée d’une
+   révolution ?L’exprimer, en minutes et en heures. Si le satellite tourne dans le plan de l’équateur et
+   dans le même sens de rotation que la terre ; conclure ?
+   Exercice 4
+   On place un élément chimique inconnu X dans une chambre d'ionisation. Elle produit des ions
+   Xn+ qui sont introduits avec une vitesse nulle en P1(voir la figure).La masse des ions est notée m
+   et on donne e = 1, 6.10 −19 C
+   1.   Entre P1 et P2 on applique une différence de potentiel
+   U =Up1p2
+   Exprimer la vitesse VB des ions au trou B de la plaque P2 en
+   fonction de n, e, m et Up1p2.
+   2.   En B se trouve une ouverture très petite, les ions pénètrent avec
+   une vitesse horizontale dans une région où règne un champ
+   magnétique perpendiculaire au plan de la figure. Les particules sont
+   détectées au point C.
+   2.1Indiquer le sens du champ magnétique.
+   2.2Déterminer la nature du mouvement dans le champ
+   magnétique.
+   2.3 Quelle est la vitesse en C?
+   3.Exprimer la distance BC en fonction de m, n, e, Up1p2 et B (où B est la norme du champ
+   magnétique).
+   4.On sait que X est : soit l’isotope de masse atomique 59 du nickel qui conduit à l’ion Ni2+, soit
+   de l’aluminium (isotope de masse atomique 27) qui conduit à Al3+, soit de l’argent (isotope
+   demasse atomique 108) qui conduit à Àg+.
+   Calculer numériquement les distances BC correspondant à chacun des trois ions.
+   On donne : B = 1T ,Up1 p2 = 1000V et mp = 1, 67.10−27 Kg
+   5.On trouve approximativement BC=27,4mm. Quel est l’élément X ?
+
+
+
+
+  SN                            Annales2005‐2014                                                             85
+                                                     Solution
+
+Exercice 1
+1) a :3,3diméthylbutan-2-ol
+
+b :2-méthylbutan-2-ol
+
+c :3-méthylbutan-1-ol
+
+d :2-2diméthylpropan-1-ol
+
+2-1) CH 3 − CH (CH 3 ) − COH (CH 3 ) − CH 3 :2-
+3diméthylbutan-2-ol
+
+2-2) CH 3 − C (CH 3 ) 2 − CH 2 − CH 2OH :3-
+3diméthylbutan-1-ol
+
+3)La molécule a est chirale
+
+4-1)A est un alcool (III) car ne s’oxyde pas donc :
+A→b
+
+Best un alcool (I) car le produit de son oxydation donne un test positif au réactif de Schiff
+
+Donc B → c
+
+C est un alcool (II)car le produit de son oxydation ne réagit pas avec le réactif de Sciff
+
+Donc : C → a
+
+4-2) Pour B : CH 3 − CH (CH 3 ) − CH 2 − CHO (Fonction aldéhyde)
+
+Pour C : CH 3 − C (CH 3 ) 2 − CO − CH 3 (Fonction cétone)
+
+Exercice 2 :
+1) VE = 20ml
+
+                                                  CBVE 0,1.20
+2-1) à l’équivalence CaVa = CBVE ⇒ Ca =               =       = 0,1mol / l
+                                                   Va    20
+
+              ma            m    7, 4
+2-2) Ca =            ⇒ Ma = a =       = 74 g / mol or FG de l’acide est Cn H 2 n O2 donc :
+             M a .Vs       CaVs 0,1.1
+
+12n + 2n + 32 = 74 ⇒ n = 3 d’où la FB de l’acide : C3 H 6O2 : a-propanoique
+
+2-3) Vb = 2ml et pH = 4
+
+Espèces chimiques : H 3O + , OH − , Na + , C2 H 5COO − , C2 H 5COOH
+
+                                                                       C V 0,1.2
+ ⎡⎣ H 3O + ⎤⎦ = 10−4 mol / l , ⎡⎣OH − ⎤⎦ = 10−10 mol / l , ⎡⎣ Na + ⎤⎦ = B b =    = 9,1.10−3 mol / l
+                                                                        Vs    22
+
+SN                                Annales2005‐2014                                                    86
+ EEN : ⎡⎣C2 H 5COO − ⎤⎦ = ⎡⎣ Na + ⎤⎦ + ⎡⎣ H 3O + ⎤⎦ ⇒ ⎡⎣C2 H 5COO − ⎤⎦ = 9, 2.10−3 mol / l
+
+         CaVa                                                     CV
+CM :          = ⎡⎣C2 H 5COO − ⎤⎦ + [C2 H 5COOH ] ⇒ [C2 H 5COOH ] = a a − ⎡⎣C2 H 5COO − ⎤⎦
+          Vs                                                       Vs
+
+                             0,1.20
+AN : [C2 H 5COOH ] =                − 9, 2.10−3 = 8, 2.10−3 mol / l
+                               22
+
+Exercice3 :
+                GMm            GM                               GM
+1F = P⇒            2
+                     = mg ⇒ g = 2 si h = 0 : d = R d ' où : g0 = 2
+                 d              d                                R
+
+         g o R 2 9,8.(6400.103 ) 2
+1-2) M =        =            −11
+                                   = 6.1024 Kg
+           G        6, 67.10
+
+   g      R2                   R2
+2)    =           ⇒ g = g
+   g o ( R + h) 2           ( R + h) 2
+                          o
+
+
+
+
+3-1)
+∑F     app   = ma ⇒ F = ma (1) (1) / t ' t : 0 = mat ⇒ at = 0 donc v = cste ( mu )
+
+                         GMms ms v 2           GM
+ (1) / n ' n : F = man ⇒    2
+                              =      donc : r = 2 = cste( mc ) .En conclusion le mouvement est
+                          r     r               v
+circulaire uniforme.
+
+               GM                           go
+3-2) v =           or GM = g o R 2 ⇒ v = R
+               R+h                         R+h
+
+                                9,8
+3-3) v = 6400.103                           ≈ 3.103 m / s
+                         (6400 + 3600).10 3
+
+
+
+
+              2π ( R + h) 2.3,14(6400 + 3600).103
+Calcul de T =            =              3
+                                                  = 8,84.104 s = 1, 48.103 mn ≈ 24h
+                   v               3.10
+
+Le satellite est géostationnaire.
+
+Exercice4 :
+
+  1                            2neU
+1) mvB 2 = qU et q = ne ⇒ vB =
+  2                              m
+
+2-1)
+
+2-2) ∑ F app = ma ⇒ F m = ma (1) ; (1) / t ' t : 0 = mat ⇒ at = 0 : v = cste( mu )
+
+                     mvB 2          mv 2         mv
+(1) / n ' n : Fm =         ⇒ qvB B = B donc : r = B = cste(mc)
+                      r              r           qB
+
+En conclusion le mouvement est cu.
+SN                                 Annales2005‐2014                                              87
+2-3) vC = vB
+
+               2m 2qU 1 8mU
+3) BC = 2r =         =
+               qB  m   B ne
+
+                      1 8.59.1, 67.10 −27.1000
+4)Pour Ni 2+ : BC =                            = 49, 6mm
+                      1      2.1, 6.10 −19
+
+                    1 8.27.1, 67.10−27.1000
+Pour Al 3+ : BC =                           = 27, 4mm
+                    1      3.1, 6.10 −19
+
+                    1 8.108.1, 67.10 −27.1000
+Pour Ag + : BC =                              = 94,9mm
+                    1      1.1, 6.10 −19
+
+5) L’élément X est l’aluminium Al
+
+
+
+
+SN                            Annales2005‐2014             88
+   BAC 2013
+Session Normale
+REPUBLIQUE ISLAMIQUE DE MAURITANIE                                    Honneur Fraternité Justice
+Ministère de l’Enseignement Fondamental et Secondaire                Série : Sciences de la nature
+Direction des Examens et des Concours                                Durée : 4H Coefficient : 7
+Service des Examens
+
+
+                                Sciences physiques session normale 2013
+
+Exercice 1
+ On oxyde à la date t=0 un volume V1=100mL d’une solution S1 d’iodure de potassium
+(K+ +I-) de concentration C1=4,64.10-2mol/L par un volume V2=100mL d’une solution S2
+d’eau oxygénée H2O2 de concentration C2=4.10-2mol/L. On ajoute à ce mélange un volume
+négligeable d’acide sulfurique très
+concentré.
+1 Donner les couples redox mis en
+jeux et écrire l’équation de la
+réaction.
+2 Calculer à la date t=0 la
+concentration de I- et celle de H2O2
+dans le mélange. Lequel des deux
+réactifs est en excès.
+3 On détermine à différents instants la concentration du diiode formé, on obtient la courbe
+ci-contre.
+3.1 Calculer la vitesse moyenne de formation du diiode entre les instants t1=5min et
+t2=20min.
+3.2 Définir la vitesse instantanée de formation de I2 et la calculer à la date t=12,5min. En
+déduire la vitesse de disparition de I- à cette date. Comment évoluent ces vitesses en fonction
+du temps ? Quel est le facteur cinétique responsable ?
+3.3 Calculer la concentration des ions I- et de H2O2 présents dans le mélange réactionnel à
+t=30min.
+4 Déterminer le temps de la demi-réaction.
+Exercice 2
+ On possède 5 flacons contenant des produits A, B, C, D et E tous différents.
+On ne connait pas les noms de ces cinq produits mais on sait que :
+• Chaque produit est un corps pur et sa molécule ne contient que 3 atomes de carbone, des
+atomes d’hydrogène et d’oxygène.
+• La chaine carbonée ne comporte pas de liaison multiple.
+• Il y’a deux alcools parmi ces cinq produits.
+1 On réalise une oxydation ménagée par le dichromate de potassium en milieu acide des
+produits A et B et on obtient les résultats suivants :
+A conduit à C ou à D alors que B conduit uniquement à E. Cette expérience est-elle
+suffisante pour reconnaitre les produits A, B, C, D et E ? Justifier.
+2 Pour plus de précision on ajoute le réactif de Tollens (nitrate d’argent ammoniacal) aux
+composés C, D et E ; et on constate que seul le composé C réagit positivement.
+2.1 Identifier les cinq produits, donner leurs formules semi-développées et leurs noms.
+2.2 Ecrire les demi-équations électroniques et l’équation bilan de la réaction d’oxydation par
+le dichromate de potassium en milieu acide qui fait passer le produit A au produit C. Le
+couple redox mis en jeux dans le dichromate de potassium est Cr2O72− / Cr 3+
+3 Le produit B réagit avec l’acide méthanoïque pour donner un composé G et de l’eau.
+3.1 Ecrire en utilisant les formules semi-développées l’équation de cette réaction. Préciser le
+nom de G.
+3.2 Donner les caractéristiques de cette réaction. Comment peut- on augmenter le rendement
+d’une telle réaction.
+SN                         Annales2005‐2014                                                          89
+Exercice 3
+Les frottements sont supposés négligeables. On prendra g=10m/s²
+Le pendule élastique représenté par la figure est constitué de:
+• Un ressort (R) à spires non jointives, d’axe vertical, de masse négligeable
+et de raideur k=60N/m.
+• Un solide (S) de centre d’inertie G et de masse M. La position de G est, à
+chaque instant, donnée par son abscisse x dans le repère (O, i ) ; O étant la
+position de G à l’équilibre.
+Le solide (S) est écarté verticalement vers le bas de sa position d’équilibre d’une distance
+xm=2cm, puis abandonné à lui-même sans vitesse initiale à la date t=0.
+1 Après avoir étudié l’équilibre du solide S calculer sa masse M sachant que l’allongement à
+l’équilibre ∆l=4cm.
+2 Montrer que le mouvement de S est rectiligne sinusoïdal et trouver son équation horaire.
+3 On prendra le plan horizontal passant par O comme plan de référence de l’énergie
+potentielle de pesanteur du système (ressort, solide, Terre).
+3.1 Exprimer l’énergie potentielle du système à une date t quelconque, en fonction
+de k, x et ∆l.
+3.2 Donner l’expression de l’énergie mécanique du système en fonction de k, ∆l et xm.
+3.3 Déduire l’expression de l’énergie cinétique du système en fonction de k, x et xm.
+4-On retire le solide S et on le remplace par une pointe qui trempe
+légèrement à la surface d’une cuve à eau peu profonde en un point O.
+Cette pointe imprime au point O un nouveau mouvement sinusoïdal de
+fréquence N=10Hz et d’amplitude 3mm. On considère l’origine des temps
+l’instant du passage de O par la position d’élongation 1,5mm, dans le sens
+négatif.
+La célérité des ondes C=10cm/s ; on suppose qu’il n’ya ni réflexion ni
+amortissement de l’onde.
+4.1 Calculer la longueur d’onde.
+4.2 Trouver l’équation du mouvement de la source O ainsi que celle du mouvement d’un
+point M de la surface du liquide situé à la distance x de O.
+4.3 On considère que le point M est situé à 10,5cm de la source O.
+Quel est son état vibratoire par rapport à O.
+Exercice 4
+Un solénoïde S1 de 90cm de long est formé de 1000 spires; il a une résistance R=2 Ω. On le
+branche aux bornes d’une pile de force électromotrice E=4,5V et de résistance interne r=3 Ω.
+1 Après avoir choisi le sens du courant, représenter, en justifiant, le
+vecteur champ magnétique au centre O du solénoïde.
+2 Après avoir calculé l’intensité du courant débitée par la pile, calculer
+la valeur du champ magnétique au centre du solénoïde S1.
+3 Dans le solénoïde S1 est placée une petite bobine S2 de 6 cm de
+diamètre formée de 400 spires. S1 et S2 ont le même axe. Calculer le
+flux du champ magnétique à travers cette bobine.
+4 On remplace la pile par un générateur qui débite un courant dont
+l’intensité varie comme l’indique la courbe.
+4.1 Expliquer pourquoi la bobine S2 est le siège d’un phénomène
+d’induction magnétique.
+4.2 Trouver dans les différents intervalles de temps les expressions du champ magnétique
+crée au centre du solénoïde S1, du flux magnétique à travers la bobine S2 et de la f.e.m
+induite e.
+4.3 Calculer dans ces différents intervalles de temps la f.e.m induite e et la représenter.
+
+
+
+SN                        Annales2005‐2014                                                     90
+                                                                     Solution
+
+Exercice 1 :
+      H 2O2
+                H 2O   : H 2O2 + 2 H + + 2e −            2 H 2O
+1-    I2
+           I−
+                : 2I −           I 2 + 2e−
+
+L’équation bilan est : H 2O2 + 2 H + + 2 I − → 2 H 2O + I 2
+
+            c1v1 4, 64.10−2.100
+   ⎡  −
+        ⎤
+2- ⎣ I ⎦ =      =               = 2,32.10−2 mol.l −1
+          0  v         200
+                         s
+
+
+
+             c2 v2 4.10−2.100                             [ H 2O2 ]0                              ⎡⎣ I − ⎤⎦
+[ H 2O2 ]0 =      =           = 210−2 mol.l −1 et comme :                                                   0
+                                                                                                              ⇒ H 2O2 est le R.E
+              vs      200                                      1                                       2
+
+         ∆ [ I 2 ] (10, 2 − 5,5).10−3
+3-1 vm =          =                   = 3.10−4 mol / l / mn
+          ∆t             20 − 5
+
+          d [ I2 ]
+3-2 v =            :elle correspond à la valeur du coefficient directeur de la tangente à la courbe à
+            dt
+l’instant        considéré.          Soient     A(0 ;6.10-3)     et     B(20 ;11.10-3)              :
+   (11 − 6).10−3
+v=               = 2,5.10−4 mol.l −1.mn −1
+      20 − 0
+
+D’après l’équation bilan :
+
+ v( I 2 ) v( I − )
+         =         ⇒ v( I − ) = 2v( I 2 ) AN : v( I − ) = 2.2, 25.10−4 = 5.10−4 mol.l −1.mn −1
+   1        2
+
+-Les vitesses diminuent au cours du temps.
+
+-Le facteur cinétique responsable est la concentration.
+
+
+3-3 ⎡⎣ I ⎤⎦ = ⎡⎣ I ⎤⎦ − ⎡⎣ I ⎤⎦
+            −                −          −
+                                                 or
+                                                    ⎡⎣ I − ⎤⎦
+                                                              d  [I ]
+                                                                = 2 donc : ⎡⎣ I − ⎤⎦ = ⎡⎣ I − ⎤⎦ − 2 [ I 2 ]
+                 r               0           d           2        1                 r           0
+
+
+
+A t=30mn : [ I 2 ] = 11.10 −3 mol.l −1 d’où : ⎡⎣ I − ⎤⎦ = 2,32.10−2 − 11.10−3 = 1, 2.10−2 mol.l −1
+                                                                      r
+
+
+
+ [ H 2O2 ]r = [ H 2O2 ]0 − [ H 2O2 ]d et [ H 2O2 ]d = [ I 2 ] d ’où : [ H 2O2 ]r = [ H 2O2 ]0 − [ I 2 ]
+A t=30mn : [ I 2 ] = 11.10 −3 mol.l −1 donc : [ H 2O2 ]r = 2.10 −2 − 11.10 −3 = 9.10 −3 mol .l −1
+
+
+4- Le temps de demi-réaction t1/ 2 est l’ordonnée du point P ( t1/ 2 ;
+                                                                                                         [ I 2 ] ∞ ) , graphiquement :
+                                                                                                               2
+t1/ 2 = 7 mn
+
+
+
+SN                                               Annales2005‐2014                                                                        91
+Exercice2 :
+1- L’expérience n’est pas suffisante car Cet D ne sont pas identifiés.
+
+2-1 A : alcool(I) CH 3CH 2CH 2OH propan-1-ol
+
+C :aldehyde CH 3CH 2CHO propanal
+
+D :a-carboxylique CH 3CH 2COOH a-propanoique
+
+B : alcool (II) CH 3CHOHCH 3 propan-2-ol
+
+E : cétone CH 3COCH 3 propanone
+
+          2−
+2-2 Cr2o7 Cr 3+ :(Cr2O7 2− + 14 H + + 6e −            2Cr 3+ + 7 H 2O).1
+
+CH 3CH 2 CHO
+               CH 3CH 2 CH 2 OH   : (CH 3CH 2CH 2OH      CH 3CH 2CHO + 2 H + + 2e − ).3
+
+L’équation bilan est : Cr2O7 2 − + 8 H + + 3CH 3CH 2CH 2OH → 2Cr 3+ + 7 H 2O + 3CH 3CH 2CHO
+
+3-1 HCOOH + CH 3CHOHCH 3                        HCOOCH (CH 3 ) + H 2O
+
+G : HCOOCH (CH 3 ) méthanoate de méthyléthyle
+
+3-2 Caractéristiques :lente, athermique et limitée. On peut augmenter le rendement de la réaction
+en remplaçant l’acide par l’un de ses dérivés.
+
+Exercice 3 :
+
+1 -A l’équilibre : ∑ F app = 0 ⇒ P + T = 0 (1) donc (1) x ' x : Mg − T0 = o ⇒ Mg = k ∆
+
+       k∆          60.4.10−2
+ M=       AN : M =           = 0, 24 Kg
+        g             10
+
+2-En mouvement : ∑ F app = M a ⇒ P + T = M a (1) or , (1) x ' x : Mg − k (∆ + x) = Ma
+
+                                                          kx
+ Mg − k ∆ − kx = Ma ⇒ −kx = Ma donc : a +                    = 0(mrs) d’où l’équation horaire :
+                                                          M
+
+                                                               k    60
+ x = xm cos(ω t + ϕ ) avec : xm = 2.10−2 m et ω =                =       = 15,8rd .s −1 or :
+                                                               M   0, 24
+
+ à t = 0 s : x = xm ⇔ xm = xm cos ϕ ⇒ cos ϕ = 1 donc ϕ = 0 d’où : x = 2.10−2 cos15,8t
+
+                                         1                              1       1
+3-1 E p = E pe + E pp ⇒ E p =              k (∆ + x)2 − Mgx donc : E p = k ∆ 2 + kx 2 + x(k ∆ − Mg )
+                                         2                              2       2
+
+            1      1
+D’où : E p = kx 2 + k ∆ 2
+            2      2
+
+
+SN                                        Annales2005‐2014                                             92
+                     1       1
+3-2 E pm = E donc E = kxm 2 + k ∆ 2
+                     2       2
+
+                       1       1       1      1                   1      1
+3-3 Ec = E − E p ⇒ Ec = kxm 2 + k ∆ 2 − kx 2 − k ∆ 2 donc : Ec = − kx 2 + kxm 2
+                       2       2       2      2                   2      2
+
+           c 10
+4-1 λ =     =    = 0, 01m
+           N 0,1
+
+4-2 y0 = a cos(ω t + ϕ ) avec a = 3.10 −3 m et ω = 2π N = 20π rd .s −1 et à t=0s
+
+             a a                        1       π                     π
+ y0 = 1.5mm = ⇒ = a cos ϕ d ' où cos ϕ = ⇒ ϕ = ± et comme v0 ≺ 0 ⇒ ϕ = rd
+             2 2                        2       3                     3
+
+                                         π
+D’où y0 = 3.10−3 cos(20π t + )
+                            3
+
+                               ⎡            π⎤
+ yM = y0 (t − θ ) ⇒ yM = a cos ⎢ω (t − θ ) + ⎥ compte tenu de :
+                               ⎣            3⎦
+
+                                          2π x π                                2π .1, 05 π ⎤
+                                              + ) ⇒ yM = 3.10 −3 cos ⎡⎢ 20π t −
+     x             c
+θ = et λ =           on a yM = a cos(ωt −                                                + ⎥
+     c             N                       λ   3                      ⎣             1     3⎦
+
+                   ⎡            π⎤
+⇒ yM = 3.10 −3 cos ⎢ 20π t − π + ⎥ : yM et y0 sont en opposition de phase .
+                   ⎣            3⎦
+
+Exercice 4 :
+            E    4,5
+1‐2- I =       =     = 0,9 A
+           R+r    5
+
+               N                   1000.0,9
+Or B = µ0          I = 4π .10−7.            = 1, 25.10−3 T
+                                     0,9
+
+                               πd2
+ 3 − ϕ = N 2 BS 2 = N 2 2 B                  avec N 2 = 400 spires ; d = 6Cm
+                                    4
+                         36.10−4
+ AN : ϕ = 400.3,14.              1, 25.10−3 = 1, 42.10−3Wb
+                            4
+
+4-1 La bobine S2 est le siège d’un phénomène d’induction car le flux varie(I varie donc B varie)
+
+                                        −15 − 0
+4-2 t ∈[ 0; 4 ]: I = at avec a =                = −3, 75 A.s −1 donc I = −3, 75t
+                                         4−0
+
+           N                       −7   1000.(−3, 75t )
+ B = µ0        I ⇒ B = 4π .10                           = −5, 2.10−3 t
+                                             0,9
+
+           d2              36.10−4 (−5, 2.10−3 t )
+ϕ = N 2π      B ⇒ ϕ = 400π                         = −5,9.10−3 t
+           4                         4
+
+
+
+SN                                       Annales2005‐2014                                          93
+      dϕ
+e=−      ⇒ e = 5,9.10−3 v
+      dt
+
+                                                    N                          1000.(−15.10−3 )
+t ∈[ 4 ; 6 ]: I = −1, 5.10 −3 A donc : B = µ 0
+                                                                          −7
+                                                        I ⇒ B = 4π .10                          = −2, 09.10−5 T
+                                                                                     0,9
+
+           d2              36.10−4 (−2, 09.10−5 )
+ϕ = N 2π      B ⇒ ϕ = 400π                        = −2, 4.10−5Wb
+           4                         4
+
+      dϕ
+e=−      ⇒e=0
+      dt
+
+                                      5 − (−15)
+t ∈[ 6;10 ]: I = at + b avec a =                = 5 A.s −1
+                                       10 − 6
+
+or à t = 9.10−3 s : I = 0 ⇒ b = − at = −5.9.10−3 = −45.10−3 A donc : I = 5t − 45.10−3
+
+          N                    −7   1000.(5t − 45.10−3 )
+ B = µ0       I ⇒ B = 4π .10                             = 6,9.10−3 t − 6,3.10−5
+                                           0,9
+
+           d2              36.10−4 (6,9.10−3 t − 6,3.10−5 )
+ϕ = N 2π      B ⇒ ϕ = 400π                                  = 7,8.10−3 t − 7.10−5
+           4                             4
+
+      dϕ
+e=−      ⇒ e = −7,8.10−3V
+      dt
+
+                                                N                         1000.(5.10−3 )
+t ∈[10 ;12 ]: I = 5.10 −3 A donc B = µ 0
+                                                                     −7
+                                                    I ⇒ B = 4π .10                       = 6,9.10−6 T
+                                                                              0,9
+
+           d2              36.10−4 (6,9.10−6 )
+ϕ = N 2π      B ⇒ ϕ = 400π                     = 7,8.10−6Wb
+           4                        4
+
+      dϕ
+e=−      ⇒e=0
+      dt
+
+
+
+
+SN                                   Annales2005‐2014                                                             94
+  BAC 2013
+Session Compl.
+REPUBLIQUE ISLAMIQUE DE MAURITANIE                                          Honneur Fraternité Justice
+Ministère d’Etat à l’Education nationale à l’Enseignement
+Supérieur et à la Recherche Scientifique                              Série : Sciences de la nature
+Direction des Examens et de l’Evaluation                              Durée : 4H Coefficient : 7
+Service des examens
+
+
+                          Sciences physiques session complémentaire 2013
+Exercice 1
+1 Dans un laboratoire, l'étiquette d'une bouteille porte les indications suivantes :
+•          Acide chlorhydrique
+•          35 % en masse
+•          masse volumique ρ =1,19 g/cm3
+•          M = 36,5 g/mol.
+On extrait de cette bouteille 9 cm3 d'acide, que l'on complète à 1 litre avec l'eau distillée.
+Déterminer la concentration Ca de cette solution d'acide obtenu.
+2 Afin de vérifier la valeur de cette concentration molaire, on réalise le dosage d’une solution
+d'ammoniac de concentration Cb =8.10-2 mol/L par la solution d'acide chlorhydrique.
+Dans 10 cm3 de la solution d'ammoniac, on verse progressivement la solution d'acide
+chlorhydrique précédemment préparée. La courbe pH = f(Va) est donnée par la fig
+2.1 Définir la base forte et la base faible.
+2.2 Déterminer les concentrations des espèces
+chimiques présentes dans la solution d’ammoniac
+avant le dosage.
+3 Écrire l'équation chimique qui a lieu au moment du
+dosage.
+4 À partir de la courbe, déterminer le volume d'acide
+versé au point d'équivalence
+et la valeur du pKa du couple NH 4+ / NH 3 .
+En déduire la concentration de la solution d'acide utilisée. Cette concentration est-elle
+effectivement égale à celle déterminée en 1.
+5 Pour préparer un volume V = 70 mL d’une solution tampon S de pH = 9,2,                       on
+mélange un volume Va de la solution acide et un volume Vb de la solution basique.
+5.1Calculer les volumes Va et Vb.
+5.2 Calculer les concentrations de toutes les espèces présentes dans cette solution S.
+En déduire le pKa du couple.
+Exercice 2
+ Soit un monoacide carboxylique A saturé à chaine linéaire de masse molaire 88g/mol.
+1 Quelle est la formule brute de l’acide A ?
+2 Donner les formules semi développées et les noms de tous les acides carboxyliques répondant à
+la même formule brute.
+3 L’acide A réagit avec un alcool B saturé et non cyclique, l’ester obtenu E a pour masse molaire
+moléculaire 130g/mol.
+Déterminer la formule brute de l’alcool B. Donner la formule semi développée, le nom et la classe
+de chacun des alcools correspondant à cette formule brute.
+4 On prépare un amide monosubstituée de formule brute C7H15ON en faisant réagir le composé A
+avec une amine D.
+4.1 Déduire la formule brute et la classe de l’amine D.
+4.2 Ecrire à l’aide des formules semi-développées l’équation de la réaction entre D et A sachant
+que tous les composés sont à chaines linéaires. Nommer l’amide.
+4.3 Donner les formules semi-développées, les noms et les classes des amines ayant la même
+formule brute que D.
+Exercice 3
+Les frottements sont négligeables.
+SN                           Annales2005‐2014                                                            95
+  On étudie le mouvement d’un solide S de masse m initialement au repos en A. On le lance sur la
+  piste ABE représentée par la figure, en faisant agir sur lui, le long de la partie AB de la trajectoire
+  une force F horizontale d’intensité constante.
+  La portion AC de la trajectoire est horizontale et la portion CE est        fig
+  un demi cercle de centre O et de rayon r.
+  Ces deux portions sont dans un plan vertical.
+  1 Déterminer en fonction de F, l et m l’expression de la vitesse
+  VB en B sachant que AB=l.
+  2 On considère le point M défini par l’angle θ = (OC;OM) ,
+  déterminer en fonction de F, l, m, r, g et θ l’expression de :
+  2.1 La vitesse V de S en M.
+  2.2 La réaction R de la piste en M.
+  3 Exprimer en fonction de m, g, r et l la valeur minimale F0 de F qui permet à S de rester en
+  contact avec la piste jusqu’au point E. Calculer F0 sachant que m=500g ; r=1m ; l=1,5m et
+  g=9,8m/s².
+  4 Calculer la variation de l’énergie potentielle du système (solide+terre) quand le solide passe du
+  point C au point G milieu de l’arc .
+  Exercice 4
+   Un réacteur de centrale nucléaire fonctionne à l’uranium enrichi (3% d’uranium 235 fissile et
+  97% d’uranium 238 non fissile).
+  1 On considère le noyau d’uranium 235
+                                                235
+  Donner la composition du noyau d’uranium 92       U.
+                                         235
+  2 Les produits de fission de l’uranium 92  U sont radioactifs et se transmutent en d’autres produits,
+                                                                                      –
+  eux-mêmes radioactifs. Parmi ces déchets, on trouve le césium 137, radioactif ß
+  2.1 Écrire l’équation de la désintégration d’un noyau de césium 137, le noyau fils étant formé dans
+  un état excité.
+  2.2 Calculer l’énergie libérée au cours de cette désintégration en joule et en MeV.
+  2.3 Quelle est la nature du rayonnement émis lors de la désexcitation du noyau fils ?            3
+  La demi-vie du césium 137 est T = 30 ans.
+  3.1 Définir la demi-vie d’un noyau radioactif.
+  3.2 À un instant choisi comme origine des dates, on dispose d’un échantillon de césium 137 de
+  masse m0. Donner l’expression littérale de la masse m de césium 137 restant à l’instant de date t
+  en fonction de m0 et de T.
+                                                                       1
+  3. 3 Montrer qu’à la date t = nT, la masse restante vaut : m = m0 x n .
+                                                                       2
+  En déduire la durée approximative au bout de laquelle la masse restante de césium 137 est égale à
+  0,1% de sa masse initiale.
+  Eléments           iode      xénon Xe        césium        baryum Ba         lanthane La     Uranium
+                       I                         Cs                                               U
+N0atomique Z          53          54             55              56                 57            92
+  masse m(Cs)= 136,90709u; masse m(U)=236,75378u ; masse m(Ba)= 136,87511u ; m(β -) =
+  0,00055 u 1eV=1,6.10-19J ; 1MeV=106eV ;1u=1,67.10-27kg et C=3 .108m/s.
+
+
+
+
+ SN                             Annales2005‐2014                                                            96
+                                                      Solution
+Exercice 1 :
+                           c0 v0         ρ .% P            1,19.35
+1- c0 v0 = ca vs ⇒ ca =          or c0 =        AN : c0 =          = 11, 4mol.l −1
+                            vs            Ma              100.36,5
+               11, 4.9.10−3
+ donc ca =                    = 1, 02.10−1 mol.l −1
+                     1
+2-1 Une base forte est toute espèce chimique qui réagit totalement avec l’eau en donnant OH − .
+Une base faible est toute espèce chimique qui ne réagit pas totalement avec l’eau en donnant
+OH −
+2-2Espèces chimiques :
+H 3O + , OH − , NH 4 + , NH 3
+Calcul des concentrations :
+ ⎡⎣ H 3O + ⎤⎦ = 10−1 mol.l −1; ⎡⎣OH − ⎤⎦ = 10−3 mol.l −1; EEN : ⎡⎣ NH 4+ ⎤⎦ ≈ ⎡⎣OH − ⎤⎦ ⇒ ⎡⎣ NH 4+ ⎤⎦ = 10−3 mol.l −1
+
+
+CM :[ NH 3 ] = cb − ⎡⎣ NH 4 + ⎤⎦ AN : [ NH 3 ] = 8.10 −2 − 10 −3 = 7, 9.10 −2 mol.l −1
+3- H 3O + + NH 3 → NH 4 + + H 2O
+4- vaeq = 8cm 3 ; Le pka est égale au pH de la demi-équivalence soit pka = 9, 2
+                                         cb vb 8.10−2.10
+A l’équivalence : ca vaeq = cb vb ⇒ ca =       =          = 0,1mol.l −1 ; La concentration est la même
+                                          vaeq     8
+que celle calculée en (1).
+                          n            cv
+Solution tampon : na = b ⇒ ca va = b b or v = va + vb ⇒ va = v − vb
+                          2              2
+              cv                      c              cv                      0,1
+ca (v − vb ) = b b donc : ca v = (ca + b )vb ⇒ vb = a        AN : vb =             −2
+                                                                                      = 50ml et
+               2                       2           ca +
+                                                        cb              0,1 + 4.10
+                                                         2
+va = 20ml .
+5-2 Espèces chimiques : H 3O + , OH − , NH 4 + , Cl − , NH 3
+ ⎡⎣ H 3O + ⎤⎦ = 10−9,2 = 6,3.10−10 mol.l −1; ⎡⎣OH − ⎤⎦ = 10(9,2−14) = 1,58.10−5 mol.l −1
+              cv      0,1.20
+  ⎡⎣Cl − ⎤⎦ = a a =          = 2,8.10 −2 mol.l −1
+               vs       70
+EEN : ⎡⎣ NH 4 + ⎤⎦ ≈ ⎡⎣Cl − ⎤⎦ = 2,8.10−2 mol.l −1
+                                                                     −2
+                                                          8.10 .50
+CM : [ NH 3 ] = b b − ⎡⎣ NH 4 + ⎤⎦ donc : AN : [ NH 3 ] =
+               cv
+                                                                   − 2,8.10−2 = 2,9.10−2 mol.l −1
+                vs                                           70
+
+ pka = pH − log
+                     [ NH 3 ]      AN : pka = pH = 9, 2
+                    ⎡⎣ NH 4 + ⎤⎦
+Exercice2 :
+                                                                                                    88 − 32
+1-FG d’un acide carboxylique est Cn H 2 n O2 donc M = 12n + 2n + 32 = 88 ⇒ n =                              =4
+                                                                                                      14
+D’où la FB brute de l’acide est : C4 H 8O2
+2- CH 3CH 2CH 2COOH : a − bu tan oique et CH 3 (CH 3 )CH 2COOH : a − 2 − méthylpropanoique
+                                                                    130 − 32
+3-FG d’un ester : Cn H 2 n O2 donc : M = 12n + 2n + 32 = 130 ⇒ n =             =7
+                                                                        14
+D’où la FB de l’ester : C7 H14O2 et la formule brute de l’alcool B est : C3 H 8O FSD correspondantes
+à B : CH 3CH 2CH 2OH : propan − 1 − ol ( I ) et CH 3CHOHCH 3 : propan − 2 − ol ( II )
+
+SN                                   Annales2005‐2014                                                                   97
+4-1 FB de l’amine D est C3 H 7 N . L’amide est monosubstituée donc l’amine D est (I)
+4-2 CH 3CH 2CH 2COOH + CH 3CH 2CH 2 NH 2            (CH 3CH 2CH 2COO − , CH 3CH 2CH 2 NH 3+ )
+Suivi de :
+(CH 3CH 2CH 2COO − , CH 3CH 2CH 2 NH 3 + ) ⎯⎯⎯⎯
+                                            chauffage
+                                                      → CH 3CH 2CH 2CONHCH 2CH 2CH 3 + H 2O
+4-3
+CH 3CH 2CH 2CONHCH 2CH 2CH 3 : N − propylbu tan amide
+CH 3CH 2CH 2 NH 2 : propan − 1 − a min e
+CH 3CH (CH 3 ) NH 2 : propan − 2 − a min e
+CH 3 NHCH 2CH 3 : N − methyléthana min e
+Exercice3 :
+1                        2F .
+  mvB 2 = F . ⇒ vB =
+2                          m
+1          1
+  mvM 2 − mvB 2 = −mgh ⇒ vM 2 − vB 2 = −2 gh donc : vM = vB 2 − 2 gh et h = r (1 − cosθ )
+2          2
+           2F .
+⇒ vM =          − 2 gr (1 − cos θ )
+             m
+ ∑ F app = ma ⇒ P + RM = ma (1)
+                      mv 2
+ (1)
+       n'n
+           : −mg cos θ + RM =
+                       r
+                     2F.
+ ⇒ RM = m(3g cos θ +       − 2g )
+                      mr
+                                           2F .
+ RE ≥ 0 au po int E : θ = π ⇒ RE = m(−5 g +     )≥0
+                                            mr
+       2F .            5mgr               5mgr             5.0,5.9,8.1
+donc :      ≥ 5g ⇒ F ≥      d ' où : F0 =        AN : F0 =             = 8, 2 N
+        mr              2                   2                 2.1,5
+                                                                                π                         2
+ ∆Ep = E pG − E pC ⇒ ∆Ep = E pG = mgh ' avec h ' = r (1 − cos θ ') et θ ' =         ⇒ ∆Ep = mgr (1 −        )
+                                                                                4                        2
+                                 2
+AN : ∆Ep = 0, 5.9,8.1(1 −          ) = 1, 4 J
+                                2
+Exercice 4 :
+            ⎧92 protons
+1- 235 92 U ⎨
+            ⎩143 neutrons
+2-1 55 Cs → β − + 137
+     137
+                    56 Ba
+
+2-2 Le défaut de masse de la réaction nucléaire est égal à :
+∆m = m( β − ) + m( Xe) − m( Cs )
+ AN : ∆m = 0,00055 + 136,87511 − 136,90709 = −0,03143µ
+Ce défaut de masse correspond à une énergie :
+E = ∆mc 2 = −0, 03143.1, 67.10 −27.(3.108) 2 ⇒ E = −4, 7.10−12 J = −29, 4 MeV
+2-3 C’est le rayonnement électromagnétique γ
+3-1 C’est le temps T au bout duquel la moitié des noyaux initiaux N 0 s’est désintégrée.
+                        Ln2              Ln2                         −
+                                                                       Ln 2
+3-2 m = m0e−λt et T =          ⇒λ =
+                                                                            t
+                                                    d’où : m = m0 e T
+                         λ                T
+                                                                   m                        1
+3-3 t = nT ⇒ m = m0 e − ( Ln 2.n ) = m0 e − ( Ln 2 ) d ' où : m = ( Ln02n ) donc : m = m0 . 2n
+                                                  n
+
+
+                                                                 e
+ 0,1           1                                                     Ln1000
+     m0 = m0 . 2n ⇒ 2n = 1000 nLn2 = Ln1000 ⇒ n =                              donc n ≈ 10 ⇒ t = 10.30 = 300ans
+100                                                                     Ln2
+SN                                Annales2005‐2014                                                                98
+   BAC 2014
+Session Normale
+ REPUBLIQUE ISLAMIQUE DE MAURITANIE                                       Honneur Fraternité Justice
+Ministère de l’Enseignement Fondamental et Secondaire                   Série : Sciences de la nature
+Direction des Examens et des Concours                                  Durée : 4H Coefficient : 6
+Service des Examens
+
+
+                                   Sciences physiques session normale 2014
+
+Exercice 1
+ Une amine a pour formule brute CnH2n+3N.
+1 On considère une amine dont la composition centésimale en masse montre qu’elle contient
+31,11% d’azote.
+1.1 Calculer la masse molaire moléculaire et déterminer la formule brute de cette amine.
+1.2 Donner les différents isomères correspondant à cette formule brute. Préciser leurs
+classes et leurs noms.
+2 A 25°C, on considère une solution S de concentration C d’un isomère de cette
+amine correspondant à une amine primaire de formule R-NH2. Cette solution S
+est préparée par dilution d’un volume Vo =10 mL d’une solution S0 de
+concentration C0 en lui ajoutant un volume
+Ve = 90mL d’eau pure.
+2.1 Etablir la relation entre C, C0, V0 et Ve.
+2.2 Quelle est l’équation-bilan de la réaction de cette amine avec l’eau ?
+                      H H      C H                       C
+                  [       ]
+                                                         g
+                                 O
+                                                         o
+                                                         l
+                      N N            -
+                                                         -
+                                                         4
+                                                         1
+                                                         -
+                        2 +3
+                                                         H
+                                                         p
+                                                         2
+                                                         =
+                                                         a
+                                                         K
+                                                         p
+2.3 Sachant que       R R       =      montrer que
+                   ⎡⎣     ⎤⎦ ⎡⎣     ⎤⎦
+2.4 En présence du Vert de Bromocrésol, on verse progressivement une solution d’acide
+chlorhydrique de concentration molaire Ca = 2.10-2 mol.L-1 sur un volume Vb = 5 mL de
+la solution S. On suit l’évolution du pH du mélange au cours de l’addition de l’acide.
+Une brutale chute du pH et un changement de la couleur correspondant à l’équivalence
+sont observés lorsqu’on verse un volume Va = 20 mL.
+2.4.1 Quel est le pH de la solution acide.
+2.4.2 Ecrire l’équation-bilan de la réaction du dosage. Calculer la concentration molaire C
+de la solution S et en déduire la valeur de C0.
+2.4.3 Qu’est ce qu’un indicateur coloré convenable ? Sachant que le domaine de virage du
+Vert de Bromocrésol est [3,8 ; 5,4] , que peut-on dire du pH à l’équivalence?
+3 On recommence l’expérience avec un volume de l’amine double du premier volume Vb,
+sur lequel on verse le même volume Va d’acide. On obtient ainsi un mélange S’ dont la
+mesure du pH donne 10,8.
+3.1 Calculer les quantités initiales na d’acide et nb d’amine dans le mélange S’? Les
+comparer.
+3.2 Quelle solution particulière constitue alors S’?
+3.3 En déduire la valeur du pKa du couple correspondant à l’amine R-NH2.
+On donne: M(N)=14g /mol ; M(C)= 12g/mol ; M(H)=1g/mol
+Exercice 2 (4pt)
+Dans un ballon de verre on introduit 9,2g d’acide méthanoïque et 12g de propan-2-ol.
+On ferme le ballon et on le porte à une température de 373° C.
+1 Calculer les quantités de matière initiales de l’acide et de l’alcool.
+2 La réaction entre l’acide méthanoïque et le propan-2-ol conduit à un équilibre chimique.
+2.1 Ecrire l’équation bilan de la réaction qui se produit et nommer le produit organique
+obtenu.
+2.2 L’augmentation de température favorise-t-elle l’estérification ? Justifier.
+SN                             Annales2005‐2014                                                         99
+3 A l’équilibre, la masse d’acide présent dans le mélange est de 3,68g. Déterminer :
+3.1 La composition molaire du mélange à l’équilibre.
+3.2 La constante d’équilibre K.
+4 On ajoute au mélange précédent, en état d’équilibre, 4,6g d’acide méthanoïque et 6g de
+propan-2-ol.
+4.1 Dans quel sens se déplace l’équilibre?
+4.2 Déterminer la nouvelle composition du mélange à
+l’équilibre.
+4.3 Quel est l’intérêt de remplacer l’acide
+méthanoïque par l’anhydride de méthanoyle pour
+réaliser cette réaction ?
+5 On donne la courbe d’estérification ci-contre
+représentant en moles la quantité d’ester formé en
+fonction du temps.
+5.1 Définir la vitesse instantanée de formation de l’ester et déterminer sa valeur à t=20
+min.
+5.2 Définir la vitesse moyenne de formation de l’ester et déterminer sa valeur entre les
+instants t1 =10 min et t2 =40min.       On donne: M(O)=16g /mol ; M(C)= 12g/mol ;
+M(H)=1g/mol
+Exercice 3
+ On néglige les forces de frottement et le champ magnétique terrestre. L’induction
+électromagnétique est également négligée sauf dans la question 3.3.
+Deux rails conducteurs sont disposés parallèlement suivant la ligne de
+plus grande pente d'un plan incliné d'un angle θ sur l'horizontale. Ils
+sont distants de l; leurs extrémités supérieures sont reliées entre elles par
+un générateur G, un rhéostat Rh et un interrupteur K. Une barre MN
+conductrice est posée perpendiculairement sur les deux rails
+précédents. Le contact électrique se fait en M et N. On crée dans la
+région où se trouvent les rails et la barre MN un champ magnétique
+           B
+uniforme qui reste toujours perpendiculaire au plan des rails (fig1).
+On ferme l’interrupteur K, un courant d’intensité I circule alors dans le montage.
+1 Représenter les forces exercées sur la barre MN pour qu’elle soit en
+                                                               B
+équilibre (On utilisera la vue de droite). Déduire le sens de .
+2 La barre MN a une masse m =20 g et pour qu’elle soit en équilibre il
+faut que l’intensité du courant soit égale à I1=10 A. Exprimer la norme
+     B
+de en fonction de I1, l, m, g et θ pour que la barre reste en équilibre.
+Calculer B. On donne : θ= 30 ° g=10 N/kg et l=0,05 m.
+2 Les deux rails sont maintenant dans un plan horizontal. La barre
+est reliée à un ressort (R) de constante de raideur K (voir figure2). Pour
+la même intensité B précédente, on fait varier l’intensité I du courant
+en utilisant le rhéostat et on mesure l’allongement x du ressort à
+l’équilibre. On trace alors la courbe x=f(I). (Voir la courbe).
+3.1 Déterminer l’équation de la droite x=f(I).
+3.2 Etablir l’expression de x en fonction de K, l, I et B. Déduire la valeur de la constante de
+raideur K.
+3.3. On remplace dans la figure 2 le générateur par un conducteur ohmique et on supprime
+le ressort et le rhéostat. Le dispositif est totalement plongé dans le champ magnétique dont
+le vecteur reste perpendiculaire aux rails. On déplace la tige de la gauche vers la droite sur
+les rails avec une vitesse constante V=5m/s tout en restant perpendiculaire aux rails.
+3.3.1 Indiquer sur un schéma, en le justifiant, le sens du courant induit qui traverse la tige et
+calculer sa valeur si la résistance totale du circuit est R = 0,2 Ω .
+3.3.2 Déterminer les caractéristiques de la force électromagnétique qui s’exerce sur la tige.
+
+
+
+SN                          Annales2005‐2014                                                        100
+Exercice 4
+ Une lame d’acier est au repos en position verticale. Ses vibrations sont
+entretenues par un électroaimant alimenté en courant alternatif sinusoïdal de
+pulsation ω = 200π rd / s Son extrémité libre A décrit pratiquement un segment
+de droite horizontal de longueur 2a = 4cm.
+1 Déterminer l’équation horaire du mouvement de A, sachant qu’à t=0, A passe
+par sa position maximale (yA=a).
+ 2 Une corde élastique simple et fine est placée verticalement et son
+extrémité S est reliée en A à la lame. L’extrémité inférieure de la corde
+supporte une masse que l’on plonge dans un liquide. (Voir fig).
+2.1 Quel est le rôle du liquide?
+2.2 La corde éclairée par un stroboscope de même fréquence que la lame
+N= 100Hz a l’aspect d’une sinusoïde de période spatiale λ =10cm.
+En déduire la célérité des ondes qui se propagent le long de la corde.
+3 On considère le point M de la corde situé à 12,5cm de la source S.
+3.1 Calculer le temps mis par l’onde pour atteindre le point M.
+3.2 Déterminer l’équation du mouvement du point M.
+3.3 Représenter dans le même repère les diagrammes de temps respectifs des points S et M.
+En déduire comment ils vibrent l’un par rapport à l’autre.
+
+
+                                              Solution
+
+Exercice :1
+       14   M       1400
+1-1)      =    ⇒M =       = 45 g.mol −1 ; Formule générale de l’amine :
+       % N 100      31,11
+Cn H 2 n + 3 N ,Donc :12n+2n+3+14=45 ⇒ n=2
+
+D’où la formule brute de l’amine : C2 H 7 N
+
+1-2) CH 3 − CH 2 − NH 2 : éthana min e( I )
+
+CH 3 − NH − CH 3 : N − méthylméthana min e( II )
+
+2-1) n0 = n ⇒ C0V0 = C (V0 + Ve )
+
+2-2) RNH 2 + H 2O      RNH 3 + + OH −
+
+
+2-3) pH = pKa + log
+                        [ RNH 2 ]     ⇒ pH = pKa + log
+                                                            C
+                        ⎡⎣ RNH 3 ⎤⎦
+                                +
+                                                         ⎡⎣OH − ⎤⎦
+
+                                                                    10−14
+ pH = pKa + log C − log ⎡⎣OH − ⎤⎦ ⇒ pH = pKa + log C − log
+                                                                 ⎡⎣ H 3O + ⎤⎦
+
+ pH = pKa + log C + 14 + log ⎡⎣ H 3O + ⎤⎦ ⇒ pH = pKa + log C + 14 − pH
+
+D’où : pKa = 2 pH − 14 − log C
+
+2-4-1) pH = − log Ca = − log 2.10 −2 ≈ 1, 7
+
+
+SN                            Annales2005‐2014                                              101
+2-4-2) H 3O + + RNH 2          RNH 3 + + H 2O     A l’équivalence :
+                 CaVa 2.10−2.20
+CaVa = CVb ⇒ C =     =          = 8.10−2 mol.l −1
+                  Vb      5
+
+          C (Vo + Ve ) 8.10−2.(10 + 90)
+Or : Co =             =                 = 810−1 mol.l −1
+              Vo              10
+
+2-4-3) Un indicateur est convenable si sa zone de virage renferme le pH e .
+
+On peut dire que : 3,8 ≤ pH e ≤ 5, 4
+
+3-1) na = CaVa = 2.10 −2.20.10 −3 = 4.10 −4 mol et nb = CV 'b = 8.10 −2.10.10 −3 = 8.10 −4 mol
+
+                nb
+Donc : na =
+                2
+
+3-2)La solution S’est tampon.
+
+3-3) pH = pKa = 10,8
+
+Exercice 2
+              mac 9, 2                    m     12
+1-1) nac0 =       =    = 0, 2mol et nal0 = al =    = 0, 2mol
+              M ac 46                     M al 60
+
+2-1) HCOOH + CH 3CHOHCH 3                 HCOOCH (CH 3 )CH 3 + H 2O
+
+ HCOOCH (CH 3 )CH 3 :méthanoate de méthyléthyle
+
+2-2) L’augmentation de la température ne favorise pas l’estérification car la réaction est
+athermique.
+
+3-1) Composition du mélange à l’équilibre :
+
+ ⎧ eq mac'         3, 68
+ ⎪nac =          =       = 0, 08mol
+ ⎪         M  ac    46
+ ⎪ eq
+ ⎨nest = 0,12mol
+ ⎪neq = 0,12mol
+ ⎪ eau
+ ⎪⎩naleq = 0, 08mol
+
+         eq
+        nest .neau
+               eq
+                   (0,12) 2
+3-2) K = eq eq =             = 2, 25
+        nac .nal   (0, 08) 2
+
+                                          (1)
+4-1) HCOOH + CH 3CHOHCH 3                 (2)
+                                                HCOOCH (CH 3 )CH 3 + H 2O : L’équilibre se déplace
+dans le sens(1).
+
+
+
+
+SN                                Annales2005‐2014                                                   102
+   4-2)
+
+                 ac       +     al              est      +       eau
+
+   t=o          0,18mol         0,18 mol              0,12 mol         0,12mol
+
+   t(éq )        0,18-x              0,18- x           0,12+ x          0,12+ x
+
+
+
+       (0,12 + x) 2
+   K=               avec K = 2, 25 : Ce qui conduit à l’équation : 1, 25 x 2 − 1, 05 x + 0, 0585 = 0 qui
+       (0,18 − x) 2
+   admet comme solution :
+
+        1, 05 + 0,9
+   x1 =             = 0, 78mol (à rejeter )
+         2.(1, 25)
+        1, 05 − 0,9
+   x2 =             = 0, 06mol
+          2.(1, 25)
+
+   D’où la composition finale du mélange :
+
+   ⎧ naceq = 0,12mol
+   ⎪ eq
+   ⎪ nest = 0,18mol
+   ⎨ eq
+   ⎪ neau = 0,18mol
+   ⎪ neq = 0,12mol
+   ⎩ al
+
+   4-3)L’intérêt est de rendre la réaction totale et plus rapide.
+
+              dnE
+   5-1) v =       :elle correspond à la valeur du coefficient directeur de la tangente à la courbe à
+               dt
+                                                                   1, 04 − 0, 05
+   l’instant considéré. Soient A(0 ; 0,05) et B(40 ; 1,04) ⇒ v =                 = 2,5.10−2 mol.mn−1
+                                                                       40 − 0
+             ∆n
+   5-2) v = E : elle correspond à la valeur du coefficient directeur de la sécante à la courbe aux
+              ∆t
+                             n − n 1, 02 − 0, 05
+   instants considérés. v = 2 1 =                 = 3, 2.10 −2 mol.mn −1
+                              t2 − t1   40 − 10
+   Exercice 3
+   1-
+
+2-à l’équilibre ∑ F app = 0 ⇒ P + R + F = 0 (1)
+
+   (1) x ' x : mg sin θ − F = 0 ⇒ mg sin θ = I1 B Donc :
+          mg sin θ            20.10−3.10.sin 30
+   B=              ; AN : B =                   = 0, 2T
+            I1                    10.0, 05
+
+   3-1
+
+
+
+
+  SN                                 Annales2005‐2014                                                      103
+                        (5 − 0).10−3
+ x = aI avec a =                     = 2.10−3 m. A−1 ⇒ x = 2.10−3 I
+                         (2,5 − 0)
+
+
+3-2) à l’équilibre : ∑ F app = 0 ⇒ P + F + T + R = 0 (1)
+
+                                                B
+ (1)
+       x'x
+             : −T + F = 0 ⇒ − Kx + I B = 0 Donc : x =
+                                                  I Or x = 2 I
+                                                K
+                      B               B            0, 05.0, 2
+Par identification :     =a⇒K =          AN : K =             = 5N / m :
+                     K               a              2.10−3
+3-3-1) ϕ ⇒ B i et B sont de méme sens d’où le sens de i en
+appliquant la règle de la main droite (voir schéma)
+    B v 0, 2.0, 05.5
+i=      =             = 0, 25 A
+     R         0, 2
+3-3-2) Caractéristiques de F i
+
+-origine : milieu de MN
+
+-direction : horizontale                 -sens : opposé à v
+
+-norme : Fi = i B = 0, 25.0, 05.0, 2 = 2, 5.10 −3 N
+
+Exercice 4
+1- y A = a cos(ω t + ϕ ) avec a = 2.10 −2 m et a cos ϕ = a ⇒ cos ϕ = 1 donc ϕ = 0
+
+ y A = 2.10 −2 cos(200π t )
+
+2-1)Le liquide empêche la réflexion des ondes
+
+                 C
+2-2) λ =           ⇒ C = λ N = 0,1.100 = 10ms −1
+                 N
+
+                 x 1, 25.10−2              5T
+3-1) θ =           =          = 0, 0125s =
+                 C     10                   4
+
+                             2π x                                       2π .1, 25
+3-2) yM = a cos(ωt −                 ) ⇒ yM = 2.10−2 cos(200π t −                 )
+                                 λ                                        10
+
+                                     π
+ yM = 2.10−2 cos(200π t − )
+                         2
+
+3-3) y A = 2.10 −2 cos(200π t )
+
+t                       0                   T/4               T/2                     3T/4   T
+
+YA                      2.10-2              0                 -2.10-2                 0      2.10-2
+
+
+
+
+SN                                       Annales2005‐2014                                             104
+                        π
+ yM = 2.10−2 cos(200π t − )
+                         2
+
+t              5T/4              3T/2            7T/4      2T   9T/4
+
+YM             2.10-2            0               -2.10-2   0    2.10-2
+
+
+
+
+SN                            Annales2005‐2014                           105
+  BAC 2014
+Session Compl.
+REPUBLIQUE ISLAMIQUE DE MAURITANIE                                      Honneur Fraternité Justice
+Ministère de l’Enseignement Fondamental et Secondaire                  Série : Sciences de la nature
+Direction des Examens et des Concours                                  Durée : 4H Coefficient : 7
+Service des Examens
+
+                               Sciences physiques session complémentaire 2014
+
+ Exercice 1
+1 Les ions peroxodisulfate S2O82- oxydent lentement les ions iodures I- . Etablir l’équation de cette
+réaction.
+On donne EI /I- = 0,54V et ES O2- /SO2- = 2V
+            2                 2 8   4
+
+2 A la date t=0 et à une température constante, on mélange, un volume V1=50mL d’une solution
+S1 de peroxodisulfate d’ammonium (NH4 )2 S2O8 de concentration molaire C1=5.10-2mol/L et un
+volume V2=50mL d’une solution S2 d’iodure de potassium KI de concentration molaire C2=16.10-
+2
+  mol/L.
+A une date t, on prélève du mélange réactionnel un volume V=10mL qu’on lui ajoute de l’eau
+glacée et on dose la quantité de diiode I2 formée par une solution de thiosulfate de sodium
+Na2S2O3 selon la réaction rapide d’équation : 2S 2O 32- + I2 → S 4 O 62- + 2I-
+2.1 Calculer les concentrations molaires initiales ⎡⎣S2O82- ⎤⎦0 des ions peroxodisulfate et ⎡⎣I- ⎤⎦0 des ions
+iodures dans le mélange réactionnel.
+2.2 Préciser en le justifiant le réactif limitant.
+3 Les résultats du dosage ont permis de tracer la
+courbe régissant les variations de la concentration
+des ions iodures au cours du temps.
+3.1 Déterminer la concentration restante ⎡⎣I- ⎤⎦r des
+ions iodures.
+3.2 Définir la vitesse instantanée de disparition des
+ions iodures. Déterminer graphiquement sa valeur
+à la date t=15min. En déduire la vitesse de
+formation du diiode à cette date.
+4 On refait l’expérience précédente avec une solution d’iodure de potassium de même volume
+V2=50mL mais de concentration molaire C’2=18.10-2mol/L. Représenter sur le même graphe
+l’allure des courbes donnant les variations des concentrations des ions iodures au cours du temps
+dans les deux expériences. Indiquer clairement les valeurs respectives ⎡⎣I- ⎤⎦01 et ⎡⎣I- ⎤⎦02 des
+concentrations initiales et les valeurs ⎡⎣I- ⎤⎦r 1 et ⎡⎣I- ⎤⎦r 2 des concentrations restantes pour les deux
+expériences 1 et 2.
+Exercice 2
+1 On considère les composés suivants :
+A: éthanol; B: butan-2-ol;        C: acide éthanoïque ;    D: propanal;      E: éthylamine ;
+ F: N-éthylpropanamide;       G : éthanoate d’éthyle
+1.1 Donner les formules semi-développées de ces composés.
+1.2 Préciser les deux composés dont la réaction permet d’obtenir G. Ecrire l’équation de cette
+réaction.
+1.3 Quel composé H faut-il faire réagir avec le composé E pour obtenir F et de l’eau ? préciser la
+fonction de H et de F.
+2 Etude du composé B:
+2.1 On considère un alcène dont l’hydratation donne uniquement le composé B. donner la formule
+semi-développée de cet alcène ainsi que son nom.
+
+
+
+SN                             Annales2005‐2014                                                                 106
+2.2 Cet alcène possède deux configurations différentes. Représenter et nommer ces deux
+stéréoisomères.
+2.3 L’oxydation ménagée avec du dichromate de potassium (Cr2O 72- + 2K + ) du composé B conduit
+à un composé organique unique X, qui donne un précipité jaune avec la 2,4-
+dinitrophénylhydrazine (DNPH) mais ne réagit pas avec le réactif de Schiff.
+2.3.1 Identifier le composé X en donnant sa formule semi-développée et son nom.
+2.3.2 Ecrire les équations électroniques correspondantes en déduire l’équation bilan.
+Exercice 3
+1 Un solide S, supposé ponctuel de masse m=200g glisse le long de la
+ligne de plus grande pente d’un plan incliné d’un angle α par rapport à la
+verticale. On donne : cos =0,4 ; sin α =0,91 ; g=10m/s2
+On abandonne le solide S sans vitesse initiale à t= 0 au point A( voir fig ).
+1.1 En supposant les frottements négligeables, calculer :
+1.1.1        L’accélération a du solide S.
+1.1.2        La vitesse VB du solide S au point B sachant que la distance AB=2m.
+1.1.3        Le temps mis par le solide S pour parcourir la distance AB.
+1.2 On considère que les frottements ne sont pas négligeables et équivalent à une force constante
+ f parallèle à la ligne de plus grande pente et de sens contraire au déplacement. La vitesse du
+solide atteint au point B la valeur VB=3m /s.
+1.2.1 Calculer le travail de f
+1.2.2 Déduire l’intensité de f
+1.2.3 Calculer l’intensité de la réaction du plan incliné sur S.
+2 Le solide S aborde la piste BCO avec une vitesse VB=3m/s. (voir fig ).La portion BC est
+curviligne et CO est horizontale.
+La différence de niveau séparant les plans horizontaux passant par B et O est h= 0,35m.
+Au point O, le solide S quitte la piste pour arriver au sol au point P situé à une hauteur h’=OE=1m
+en dessous du plan passant par O.
+2.1 Calculer la vitesse de S au point O sachant que les frottements sont négligeables sur la piste
+BCO.
+2.2 Déterminer l’équation de la trajectoire du mouvement de chute de S dans le repère (O; i; j)
+2.3 Calculer la vitesse de S à son arrivée en P.
+ Exercice 4
+ On réalise l’expérience d’Young à l’aide d’une fente éclairée F équidistante
+de deux autres fentes F1 et F2 parallèles à F, percées dans un écran P. La
+distance entre F1 et F2 est a=1,5mm. Un écran E parallèle à P est placé à la
+distance D=2,4m de P(voir fig) .
+1 La fente F est d’abord éclairée par une lumière monochromatique de
+longueur d’onde λ=0,5µm.
+1.1 Qu’observe-t-on sur l’écran dans la région commune aux deux faisceaux ?
+1.2 Rappeler l’expression de la différence de marche δ au point M d’abscisse x=OM sur l’écran E.
+Calculer sa valeur pour x=6mm.
+1.2 Déterminer la valeur de l’interfrange i et préciser la nature des franges dont les milieux sont
+situés aux points d’abscisses respectives x1=3,2mm et x2=4,4mm.
+2 La fente F est maintenant éclairée en lumière blanche.
+2.1 Qu’observe-t-on sur l’écran E dans la région commune aux deux faisceaux ?
+2.2 Quelles sont les longueurs d’onde des radiations appartenant au spectre visible pour lesquelles
+une frange obscure se forme sur l’écran E à la distance x=6mm de la frange centrale brillante ?
+On donne pour le spectre visible 0,4 m≤λ ≤0,8 m
+
+
+
+
+SN                          Annales2005‐2014                                                          107
+                                                                       Solution
+
+Exercice :1
+            2−
+1- S2O8 SO42− : S2O8 2− + 2e−              2SO4 2−
+
+ I2
+      I−
+           : 2I −        I 2 + 2e −
+
+L’équation bilan est : S 2O8 2 − + 2 I −                        2 SO4 2 − + I 2
+
+                    c v 5.10−2.50
+2-1) ⎡⎣ S 2O82− ⎤⎦ = 1 1 =        = 2,5.10−2 mol.l −1
+                  0  vs    100
+
+            c v 16.10−2.50
+ ⎡⎣ I − ⎤⎦ = 2 2 =         = 8.10−2 mol.l −1
+          0  v     100
+                    s
+
+
+
+                              ⎡⎣ I − ⎤⎦
+2-2) ⎡⎣ S 2O8       2−
+                         ⎤⎦ ≺           0
+                                          ⇒ S 2O8 2− est le réactif limitant.
+                           0      2
+
+3-1) ⎡⎣ I − ⎤⎦ = ⎡⎣ I − ⎤⎦ − ⎡⎣ I − ⎤⎦ or ⎡⎣ I − ⎤⎦ = 2 ⎡⎣ S 2O8 2− ⎤⎦ = 5.10−2 mol.l −1
+              r           0           d            d                  0
+
+
+
+Donc ⎡⎣ I − ⎤⎦ = 3.10−2 mol.l −1
+              r
+
+
+
+           dI −
+3-2) v = −      : elle correspond à l’opposé de la valeur du coefficient directeur de la tangente à la
+            dt
+courbe à l’instant considéré. Soient A (0 ; 5,9.10-2) et B (40 ; 1.10-2) donc :
+     1.10−2 − 5,9.10−2
+ v=−                   = 1, 22.10−3 mol.mn −1
+          40 − 0
+
+                                          vI −        vI 2
+D’après l’équation bilan :                       =           ⇒ vI 2 = 6,1.10−4 mol.mn −1
+                                           2           1
+
+   ⎧ ⎡ I − ⎤ = 8.10−2 mol.l −1
+   ⎪ ⎣ ⎦ 01                                                            c '2 v2 18.10−2.50
+4) ⎨                             ¨               et          ⎡⎣ I ⎤⎦ =
+                                                               −
+                                                                              =           = 9.10−2 mol.l −1
+   ⎪⎩ ⎡⎣ I ⎤⎦ r1 = 3.10 mol.l
+          −            −2     −1                                    02   vs       100
+
+ ⎡⎣ I − ⎤⎦ = ⎡⎣ I − ⎤⎦ − 2 ⎡⎣ S 2O8 2 − ⎤⎦ = 9.10 −2 − 5.10 −2 = 4.10 −2 mol.l −1
+          r2          02                  0
+
+
+
+
+SN                                         Annales2005‐2014                                                   108
+Exercice2 :
+1-1) A : CH 3CH 2OH B : CH 3CHOHCH 2CH 3             C : CH 3COOH D : CH 3CHO E : CH 3CH 2 NH 2
+
+ F : CH 3CH 2CH 2 NHCH 2CH 3 G : CH 3COOCH 2CH 3
+
+1-2)Les deux composés sont A et C
+
+ CH 3COOH + CH 3CH 2OH               CH 3COOCH 2CH 3 + H 2O
+
+1-2) H : CH 3CH 2COOH (a − propanoique) : fonction a-carboxylique
+
+F :fonction amide
+
+2-1) FSD : CH 3CH = CHCH 3 :but-2-ène
+
+2-2)
+
+
+
+
+2-3-1) FSD de X : CH 3COCHCH 3 : butanone
+
+2-3-2) ( Cr2O7 2 − + 14 H + + 6e −    2Cr 3+ + 7 H 2O ).1
+
+( CH 3CHOHCH 2CH 3            CH 3COCH 2CH 3 + 2 H + + 2e − ).3
+
+L’équation bilan est : Cr2O7 2 − + 8 H + + 3CH 3CHOHCH 2CH → 2Cr 3+ + 7 H 2O + 3CH 3COCH 2CH 3
+
+
+
+
+SN                               Annales2005‐2014                                                 109
+Exercice 3 :
+1‐1)
+
+∑F          app   = ma (1) Donc :
+ (1)
+       AB
+            : mg cos α = ma ⇒ a = g cos α = 10.0, 4 = 4m.s −2
+
+1-2) vB 2 = 2 a. AB ⇒ vB = 2 a. AB = 2.4.2 = 4 m.s −1
+
+                                vB 4
+1-3) vB = atB ⇒ tB =              = = 1s
+                                a 4
+
+    1                             1                                 1
+2-1)  mvB 2 = wP + wR + w f ⇒ mvB 2 = mg AB cos α + w f Donc : w f = mvB 2 − mg AB cos α
+    2                  n
+                                  2                                 2
+AN : w f = 0, 2(0,5.32 − 2.10.0, 4) = −0, 75 J
+
+                                      wf       0, 7
+2-2) w f = − f . AB ⇒ f = −                =        = 0,35 N
+                                      AB        2
+
+2-3) R = Rn 2 + f 2 avec Rn = mg sin α = 0, 2.10.0,91 = 1,82 N Donc :
+
+ R = (1,82)2 + (0,35) 2 = 1,85 N
+
+3-1) v0 = vC ( absence de frottement ) On a :
+
+ 1        1
+   mv0 2 − mvB 2 = mgh ⇒ v0 = vB 2 + 2 gh = (3)2 + 2.10.0,35 = 4ms −1
+ 2        2
+
+3-2) ∑ F app = ma ⇒ P = ma (1) (1) ox : 0 = ma x ⇒ ax = 0 (mru ) d’équation :
+ x = vox t + xo ⇒ x = 4t (2) et (1) oy : mg = ma y ⇒ a y = g ( mruv ) d’équation :
+            1 2
+ y=           gt + voy t + yo ⇒ y = 5t 2 (3) ; de(2) :
+            2
+
+            1         1
+3-3)          mv p 2 − mv0 2 = mgh ' ⇒ v p = v0 2 + 2 gh ' = (4)2 + 2.10.1 = 6ms −1
+            2         2
+
+Exercice 4 :
+-On observe des franges alternativement brillantes et sombres ; Les franges sont équidistantes et
+délocalisées. La frange centrale est brillante.
+
+     ax          1,5.6.10−3
+-δ =    AN : δ =            = 3, 75.10−3 mm
+     D              2, 4
+
+            λ.D               0,5.10−3.2, 4
+-i =               AN : i =                 = 0,8mm
+             a                  1,5.10−3
+
+
+SN                                     Annales2005‐2014                                             110
+                        x1            2x
+Nature des franges :       = 4 ⇒ FB et 2 = 11 ⇒ FO
+                        4              i
+
+-La lumière blanche est poly chromatique : chaque lumière possède son système de franges. Les
+systèmes de franges sont décalés et on observe des franges irisées. De part et d’autre de la frange
+centrale qui est brillante et blanche. Loin de la frange centrale, on observe un blanc sale appelé
+blanc d’ordre supérieur.
+
+                                                  λ .D            2ax       2.1,5.6.10−6    7,5
+-Position des franges brillantes : x = (2k + 1)          ⇒λ =            =                =       µm
+                                                  2a            D(2k + 1) 2, 4.10 (2k + 1) 2k + 1
+                                                                                 6
+
+
+
+                                      7,5                 1    2k + 1 1
+Or : 0, 4µ m ≤ λ ≤ 0,8µ m ⇒ 0, 4 ≤          ≤ 0,8 Donc :     ≤       ≤      ⇒ 4,18 ≤ k ≤ 8,87
+                                     2k + 1              0,8    7,5    0, 4
+
+D’où : 5 ≤ k ≤ 8
+
+k                   5                   6                       7                8
+
+λ en µ m            0,68                0,58                    0,47             0,41
+
+
+
+
+SN                           Annales2005‐2014                                                          111
+   BAC 2015
+Session Normale
+Scanned with CamScanner
+Scanned with CamScanner
+  BAC 2015
+Session Compl.
+Scanned with CamScanner
+Scanned with CamScanner
+   BAC 2016
+Session Normale
+Scanned with CamScanner
+Scanned with CamScanner
+Scanned with CamScanner
+Scanned with CamScanner
+  BAC 2016
+Session Compl.
+Scanned with CamScanner
+Scanned with CamScanner
+   BAC 2017
+Session Normale
+Scanned with CamScanner
+Scanned with CamScanner
+  BAC 2017
+Session Compl.
+Scanned with CamScanner
+Scanned with CamScanner
+   BAC 2018
+Session Normale
+Scanned with CamScanner
+Scanned with CamScanner
+   BAC 2019
+Session Normale
+  BAC 2019
+Session Compl.
+   BAC 2020
+Session Normale
+                                                    Correction
+Exercice 1 :
+1.1. Pour provoque un blocage cinétique de la décomposition de l’iodure d’hydrogène              .
+1.2. Les demi-équations :                     ;
+L’équation bilan de la réaction :
+
+                          ( )     (        )
+1.3. À l’équivalence :                          ⇒   ( )
+2.1. Définition de la vitesse de formation de C’est la dérivée de la concentration de par rapport au
+temps ce qui correspond la valeur du coefficient directeur de la tangente à la courbe au instant considéré.
+2.2 On choisit deux points de la tangente :
+Pour              ⇒ ( )                      ⁄
+Pour              ⇒ ( )                      ⁄
+2.3 Le facteur cinétique responsable à ces deux expériences est la température.
+
+
+Exercice 2 :
+1.1. Définition : L’acide faible est une espèce chimique qui réagit partiellement dans l’eau en
+donnant l’ion         .
+Définition : L’acide fort est une espèce chimique qui réagit totalement dans l’eau en donnant l’ion      .
+                   ⇒            est un acide faible
+1.2. L’équation de la réaction de            avec l’eau :
+1.3. Le tableau d’avancement :
+
+                       Avancement     𝐇𝐂𝐎𝐎𝐇                 𝐇𝟐 𝐎             𝐇𝐂𝐎𝐎         𝐇𝟑 𝐎
+        𝒕 𝟎               𝟎            𝒏𝑨 𝟔 𝟏𝟎 𝟑            Excès                𝟎        𝟏𝟎 𝟖
+        𝒕>𝟎               𝑿            𝟔 𝟏𝟎 𝟑 𝑿             Excès                𝑿         𝑿
+         𝒕𝒇               𝑿𝒇           𝟔 𝟏𝟎 𝟑 𝑿𝒇            Excès                𝑿𝒇        𝑿𝒇
+
+               (   )       [      ]    [        ]
+
+Conclusion : la réaction de l'acide méthanoïque et l'eau n'est pas totale, elle est limitée.
+2.1. L’équation de la réaction du dosage :
+2.2. À l’équivalence :            ⇔                   ⇒                                 ⁄
+2.3. L’indicateur coloré approprié de ce dosage est le Bleu de thymol car               [        ]
+2.4.                     et                     ⇒               ⇒ La solution est tampon Donc le
+
+
+
+Exercice 3 :
+1.1. L’équation horaire du mouvement : ∑ ⃗                  ⃗ ⇒ ⃗⃗      ⃗⃗            ⃗
+Projection suivant (⃗⃗⃗⃗⃗⃗ ) :             ⇒                         donc :
+                           Avec            et           ⇒
+
+1.2.               ⇒
+                   Avec               ⁄ ⇒           √       ⇒                ⁄
+
+Préparé par : Abderrahmane Mohamed Ahmed                                                              Page 3
+                ∑       ⃗       ⇒         ( )        ( )           ⃗⃗           ⃗   Avec       ⃗⃗       et     ⃗
+
+⇒      ( )       ( ) ⇒ Donc :                                    ⁄
+2.1. Les conditions initiales :
+
+    (    ) ⃗⃗       {
+
+∑⃗              ⃗ ⇒         ⃗       ⃗⃗
+Projection suivant l’axe (⃗⃗⃗⃗⃗ ) :                        ⇒                    ⇒          ⇒
+                                               ①
+
+Projection suivant l’axe (⃗⃗⃗⃗⃗ ) :
+                                ⇒                            ⇒
+
+                                                                              ②
+De ①                        on remplace dans ② on trouve :                                                                Avec
+
+
+2.2. L’expression de la portée                  :    (     ) ⇒                  ⇒                                           ⇒
+
+(                                   )                ⇒                                              ⇒
+
+Donc :                                               Avec                                           ⇒
+
+L’expression de la portée                en fonction de et              :                               Avec         √
+
+√                   ⇒                                      A.N :
+2.3. L’expression de la flèche             :
+
+Au sommet                   ⇒                                               ⇒
+
+                                               On remplace              par                         On trouve
+
+Autre méthode : Le mouvement est                           suivant (          ):                                   Avec
+
+⇒                       Avec                    et                              ⇒                   Avec
+
+Donc :
+
+La flèche est maximale si                            ⇒
+
+Exercice 4 :
+1.1. Les électrons sont chargés négativement, ils se déplacent de vers sous l’action de la force
+électrique ⃗ . Les électrons sont donc attirés par qui est chargée positivement ; est alors chargée
+Négativement c'est-à-dire que      >     ⇒             >     ⇒      >
+
+1.2. Appliquons le théorème de l’énergie cinétique entre                            et :
+
+           ⃗    ⇒                         ⇒                             ⇒           √                     𝑽𝟎       𝟖 𝟏𝟎𝟔 𝒎⁄𝒔
+
+
+Préparé par : Abderrahmane Mohamed Ahmed                                                                                         Page 4
+2.1. Les conditions initiales              (                         ) ⃗ {
+
+∑⃗           ⃗ ⇒ ⃗                     ⃗
+Projection suivant l’axe (            ):                ⇒                  ⇒
+                 Avec                                         ⇒                      ①
+                                                                           | |
+Projection suivant l’axe (            ):                     ⇒
+⇒                                                      Avec
+         | |
+⇒                    Avec | |              ⇒                     ②
+
+De ①               on remplace dans ② on trouve
+L’expression de l’équation de la trajectoire en fonction de                              ,   et d :
+                   Avec               et           √             ⇒
+La trajectoire est parabolique.
+2.2. Soit les électrons sortent de ce champ par le point                            (voir fig1) :
+                         )
+                                  )                     Avec
+                         )
+
+⇒                       ⇒                                            ⇒              𝐔    𝟏𝟎𝟖𝐕
+
+Autre méthode :                                                                  Avec
+
+⇒                    ⇒
+3.1 La nature du mouvement :
+  ⃗    ∑⃗        ⃗  ⇒    ⃗                     ⃗   ⃗⃗ ⇒ ⃗              ⃗       ⃗⃗
+À tout instant on ‘a ⃗            ⃗ ⇒ l’accélération tangentielle est nulle
+⇒                       ⇒                          ⇒ Le mouvement est uniforme
+                                                                     | |
+Projection suivant l’axe normale :                                                   ⇒          | |
+⇒ Le mouvement est circulaire
+Donc : Le mouvement est circulaire uniforme.
+L’expression de R en fonction de                        et       :
+                                                                           | |
+
+Avec           √         et | |            ⇒           √
+3.2. Voir fig2
+                 Avec                 ⇒                  ⇒
+3.3. La valeur de        pour que l’électron effectue un quart de cercle (voir fig3) :
+
+        √           ⇒             √
+Avec               Comme l’électron effectue un quart de cercle.
+A.N :
+
+
+
+
+Préparé par : Abderrahmane Mohamed Ahmed                                                              Page 5
+

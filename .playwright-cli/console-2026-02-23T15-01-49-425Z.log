@@ -1,0 +1,44 @@
+[    6928ms] [WARNING] jQuery.Deferred exception: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[    6966ms] TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330)
+[   14297ms] [ERROR] Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR @ https://www.free-css.com/assets/files/free-css-templates/preview/page295/applight/assets/images/applight-wave.svg:0
+[   26035ms] [WARNING] jQuery.Deferred exception: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[   26072ms] TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330)
+[   26490ms] [ERROR] Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR @ https://www.free-css.com/assets/files/free-css-templates/preview/page295/applight/assets/images/applight-wave.svg:0
+[   32379ms] [WARNING] jQuery.Deferred exception: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[   32412ms] TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330)
+[   33189ms] [ERROR] Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR @ https://www.free-css.com/assets/files/free-css-templates/preview/page295/applight/assets/images/applight-wave.svg:0
+[   37575ms] [WARNING] jQuery.Deferred exception: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[   37615ms] TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330)
+[   37835ms] [ERROR] Failed to load resource: net::ERR_SSL_PROTOCOL_ERROR @ https://www.free-css.com/assets/files/free-css-templates/preview/page295/applight/assets/images/applight-wave.svg:0

@@ -1,0 +1,761 @@
+                   Sujets corrigés du Bac                                    Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+
+République Islamique de Mauritanie                                                                           Honneur – Fraternité – Justice
+Ministère de l’Education Nationale
+                                                                       Baccalauréat
+                                                                                                                       Séries : C & TMGM
+Direction des Examens et de l’Evaluation
+    SERVICE DES EXAMENS
+                                                                          2018                                    Epreuve: MATHEMATIQUES
+                                                                                                                        Durée: 4 heures
+                                                                   Session Complémentaire                              Coefficients : 9 & 6
+Exercice 1 (5 points)
+Le plan complexe est muni d’un repère orthonormé ( O; i , j ) . Pour tout nombre complexe z on
+                                                                                 
+
+pose : P ( z ) = z 3 − ( 7 + 3i ) z 2 + ( 12 + 15i ) z − 4 − 18i .
+1.a) Calculer P(2) et déterminer les nombres a et b tels que ∀z ∈ ℂ : P ( z ) = ( z − 2 ) ( z 2 + az + b )                               0.75 pt
+b) En déduire l’ensemble des solutions de l’équation P(z) = 0 .                                                                          0.5 pt
+c) On considère les points A, B et D images des solutions de l’équation P(z) = 0 tels que
+Im ( z A ) ≤ Im ( zB ) ≤ Im ( z D ) . Placer les points A, B et D et déterminer la nature du triangle ABD.
+                                                                                                                                         0.75 pt
+
+2° a) Déterminer le barycentre du système {( A;9 ) , ( B; −6 ) , ( C;2 )} , où C est le symétrique de A par
+                                                                                                                                         0.5 pt
+rapport à ( BD) .
+b) Déterminer et construire l’ensemble Γ 1 des points M du plan tels que
+                                                                                                                                         0.5 pt
+9MA 2 − 6MB 2 + 2MC2 = −10 .
+c) Déterminer et construire l’ensemble Γ 2 des points M du plan tels que 4MA 2 − 6MB 2 + 2MC2 = −10                                      0.5 pt
+d) Déterminer et construire l’ensemble Γ 3 des points M du plan tels que
+                                                                                                               0.5 pt
+( 9MA − 6MB + 2MC ) ( MA − MB + MC ) = 10 .
+3° Soit S 0 = id et ∀n ∈ ℕ , Sn + 1 = S  Sn où S est la similitude directe qui transforme A en B et B en D.
+a) Déterminer la nature et les éléments caractéristiques de S 2018                                                                       0.5 pt
+                       20202020                                                                                                          0.5 pt
+b) Justifier que S                est une homothétie de rapport positif.
+Exercice 2 (5 points)
+                                                                                         −1
+                                                                  
+                                                                   f ( x ) = ( x + 1 ) e x ; ∀x > 0
+I- On considère la fonction numérique f définie sur [ 0, +∞[ par                                    .
+                                                                  f ( 0 ) = 0
+On note ( C ) sa courbe représentative dans un repère orthonormé d’unité graphique 4 cm.
+1° a) Etudier la continuité et la dérivabilité de f à droite de 0                                                                        0.5 pt
+b) Dresser le tableau de variations de f sur [ 0, +∞[                                                                                    0.5 pt
+                                                               2
+                                                               t
+2° a) Montrer que ∀t ≥ 0 , 0 ≤ e− t + t − 1 ≤                                                                                            0.5 pt
+                                                               2
+                            −1                     1      1
+b) En déduire que ∀x > 0 ,       ≤ f ( x) − x ≤ 2 −                                                                                      0.25 pt
+                              x                  2x      2x
+c) En déduire que la courbe ( C ) admet une asymptote oblique ∆ dont on donnera l’équation.                                              0.25 pt
+3° Construire la courbe ( C ) et la droite ∆ .                                                                                           0.5 pt
+4° a) Montrer que f réalise une bijection de [ 0, +∞[ sur un intervalle J que l’on précisera.                                            0.25 pt
+b) Construire la courbe ( C ′ ) de f −1 , où f −1 est la réciproque de f.                                                                0.25 pt
+
+                                                                                            1  −1
+                                                                          f n ( x ) =  x +  e x ; ∀x > 0
+II- ∀n ∈ ℕ , on définit sur [ 0, +∞[ la fonction numérique f n par 
+            ∗
+                                                                                             n            .
+                                                                         
+                                                                          fn ( 0 ) = 0
+1° a) Montrer que f n est continue et dérivable à droite de 0                                                                            0.5 pt
+                                                                                           1
+b) Etudier les variations de f n et en déduire que ∀n ∈ ℕ ∗ , l’équation fn ( x ) = admet une unique
+                                                                                           n                                             0.5 pt
+solution α n sur ]0, +∞[ .
+                                 1
+2° a) Soit g n ( x ) = fn ( x ) − . Etudier sur ]0, +∞[ le signe de de gn +1 ( x ) − gn ( x ) et en déduire que la
+                                 n                                                                                                       0.5 pt
+suite ( α n ) est strictement décroissante et qu’elle est convergente.
+
+b) Montrer que ∀n ∈ ℕ ∗ , α n =                (
+                                            1 αn
+                                                   1
+                                                           )
+                                              e − 1 . En déduire la limite de α n .                                                      0.5 pt
+                                            n
+
+
+          Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths   7C   Sujet : 2018C   Corrigé par Mahfoudh O. Mohamed Ammou   21
+                    Sujets corrigés du Bac                                         Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+Exercice 3 (5 points)
+Soit ABCD est un carré direct de centre O et de côté a > 0 . On note G le milieu du segment  AB  et
+E et F les points tels que le quadrilatère AEFG soit un carré direct.
+1°.a) Faire une figure illustrant les données qu’on complétera au fur et à mesure. On prendra (AB)
+                                                                                                                                                     0.5 pt
+horizontale.
+b) Montrer qu’il existe une unique rotation r qui transforme O en A et B en O.                                                                       0,25 pt
+c) Déterminer les éléments caractéristiques de r.                                                                                                    0,25 pt
+d) Soit g l’antidéplacement défini par g ( B ) = E et g ( O ) = G . Montrer que g est une symétrie
+                                                                                                                                                     0.5 pt
+glissante et déterminer sa forme réduite.
+2°.a) Montrer qu’il existe une unique similitude directe s qui transforme C en F et B en E,
+                                                                                                                                                     0.5 pt
+déterminer le rapport et un angle de s.
+b) Déterminer l’image du carré ABCD par s puis en déduire le centre de s                                                                             0.5 pt
+3° Soit h = s  r −1
+a) Montrer que h est une homothétie dont on précisera le rapport                                                                                     0,25 pt
+b) Soit I le centre de h. Montrer que I est le barycentre du système {(O,1);(E, 2)} . Placer I                                                       0,25 pt
+c) Pour tout point M du plan, autre que I, on pose M′ = r(M) et M′′ = s(M) .
+                                                                                                                                                     0,25 pt
+Montrer que la droite (M′M′′) passe par un point fixe que l’on précisera
+4° Soit Γ l’hyperbole, de foyers O et F, qui passe par le point Jprojeté orthogonal de Isur ( OF ) .
+                                                                         
+a) Déterminer les cordonnées des points O, E, I et J dans le repère (G, GB, GO) .                                                                    0.5 pt
+b) Ecrire l’équation de Γ dans ce repère.                                                                                                            0.5 pt
+c) Déterminer les sommets, les asymptotes et l’excentricité de Γ .                                                                                   0.5 pt
+d) Construire Γ .                                                                                                                                    0.25 pt
+Exercice 4 (5 points)
+On définit la fonction f sur ℝ par f ( x ) = − x + 2ln ( 1 + e ) et soit ( C ) sa courbe représentative dans un repère
+                                                                                        x
+
+
+                (          )
+                    
+orthonormé O; i , j .
+                                                         Partie A :
+1° a) Donner le tableau de variation de f                                                                        1 pt
+                                (   )                                     ′
+b) Démontrer que la courbe C admet deux asymptotes D et D que l’on déterminera et préciser
+                                                                                                                 0.5 pt
+leurs positions relatives par rapport à ( C ) .
+c) Construire la courbe ( C ) et leurs asymptotes dans le même repère.                                           0.25 pt
+2° Soit g la restriction de f sur l’intervalle I = [ 0, +∞[ .
+a) Montrer que g est une bijection de l’intervalle I sur un intervalle J que l’on précisera.                     0.25 pt
+b) Construire, dans le repère précédent, la courbe ( C′ ) de g       −1
+                                                                                                                 0.25 pt
+                                                         Partie B :
+On considère la suite numérique ( un ) par u0 = ln5 et ∀n ∈ ℕ ∗ un = ∫                                              ( f ′ ( t ) ) dt
+                                                                                                             ln 5                n
+
+                                                                                                             0
+1° Calculer u1                                                                                                                                       0.25 pt
+
+2° a) Montrer que ∀x ∈ [ 0,ln5] 0 ≤ f ′ ( x ) ≤
+                                                               2
+                                                                                                                                                     0.25 pt
+                                                               3
+                                                         n
+                                   2
+b) En déduire que ∀n ∈ ℕ 0 ≤ un ≤   ⋅ ln 5                                                                                                         0.25 pt
+                                   3
+c) Déterminer la limite de ( un )                                                                                                                    0.25 pt
+3° a) Montrer que ∀x ∈ [ 0, +∞[ ( f ′ ( x ) ) − 1 = −2f ′′ ( x )
+                                                         2
+                                                                                                                                                     0.25 pt
+                                                                   n +1
+                                                     −2  2 
+b) Montrer que ∀n ∈ ℕ un + 2 − u n =                                                                                                               0.25 pt
+                                                    n +1 3
+                                                                               2k − 1                                                  2k
+                                                          n
+                                                                2  2                                       9 n 1 2
+c) En déduire que ∀n ∈ ℕ ∗ u 2n = ln 5 − ∑                                                et u 2n + 1 = ln   − ∑                               0.5 pt
+                                                        k = 1 2k − 1  3                                     5  k =1 k  3 
+                                                          u + u 2n +1
+                                                p
+                          2n
+                              1 2
+4° ∀n ∈ ℕ ∗ on pose v n = ∑   . Montrer que v n = ln 3 − 2n         puis en déduire lim vn .                                                       0.5 pt
+                          p=1 p  3                          2                      n →+∞
+
+                                                 - Y|Ç–
+           Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths     7C     Sujet : 2018C          Corrigé par Mahfoudh O. Mohamed Ammou   22
+                    Sujets corrigés du Bac                                    Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+                                                                        Corrigé
+Exercice 1
+1°a) P ( 2 ) = 23 − ( 7 + 3i ) 22 + ( 12 + 15i ) 2 − 4 − 18i = 8 − 28 − 12i + 24 + 30i − 4 − 18i = 0 . Donc 2 est une racine carrée de
+P.
+Le tableau de Horner nous permet d’écrire P(z) sous la forme P ( z ) = ( z − 2 ) ( z 2 − ( 5 + 3i ) z + 2 + 9i ) .
+b) P(z) = 0 ⇔ z = 2 ou z 2 − ( 5 + 3i ) z + 2 + 9i = 0 . Pour cette dernière équation on a
+                                                                                             ( 5 + 3i ) + ( 3 − i )
+∆ = ( 5 + 3i ) − 4 ( 2 + 9i ) = 8 − 6i = ( 3 − i ) , donc ses solutions sont z 1 =
+               2                                       2
+                                                                                                                    = 4 + i et
+                                                                                                       2
+     ( 5 + 3i ) − ( 3 − i )
+z2 =                         = 1 + 2i . D’où les solutions de l’équation P(z) = 0 sont z 0 = 2; z1 = 4 + i et z 2 = 1 + 2i .
+                2
+c) Comme Im ( z 0 ) ≤ Im ( z 1 ) ≤ Im ( z 2 ) alors z A = 2; z B = 4 + i et z D = 1 + 2i .
+
+
+
+
+       z D − z A 1 + 2i − 2 −1 + 2i i ( i + 2 )
+On a            =          =       =            = i , d’où le triangle ABD est rectangle isocèle et direct en A.
+       zB − zA    4+i−2      2+i       2+i
+2° a) Le point C est donc un sommet du carré ABCD alors son affixe est z C = − z A + z B + z D = 3 + 3i , donc
+                                                                                      9z A − 6z B + 2z C 18 − 24 − 6i + 6 + 6i
+l’affixe du barycentre du système {( A;9 ) , ( B; −6 ) , ( C;2 )} est                                   =                      = 0 . D’où O
+                                                                                          9−6+ 2                  5
+est le barycentre du système {( A;9 ) , ( B; −6 ) , ( C;2 )} .
+b) Soit ϕ ( M ) = 9MA − 6MB + 2MC . Pour tout point M du plan, on a
+                             2            2            2
+
+
+ϕ ( M ) = 5MO2 + 9OA2 − 6OB2 + 2OC2 donc ϕ ( M ) = 5MO2 + 36 − 102 + 36 = 5MO2 − 30 . Alors
+M ∈Γ1 ⇔ ϕ ( M ) = −10 ⇔ 5MO2 = 20 ⇔ MO2 = 4 .
+Donc Γ 1 est le cercle de centre O et de rayon 2, il passe par A.
+c) Soit ψ ( M) = 4MA − 6MB + 2MC . On remarque que ψ ( A ) = 4AA − 6AB + 2AC = −10 , donc A ∈ Γ 2
+                             2            2            2                                             2         2         2
+                                                                                       
+Pour tout point M du plan, on a ψ ( M ) = 2MA.u + ψ ( A ) = 2MA.u − 10 avec u = 4MA − 6MB + 2MC = 6IB où
+                                                              2z + z C 7                           
+I est le barycentre du système {( A;2 ) , ( C;1)} , donc z I = A        = + i . Alors ψ ( M ) = 12MA.IB − 10
+                                                         3        3
+M ∈ Γ 2 ⇔ ψ M = −10 ⇔ MA.IB = 0 . Donc Γ 2 est la droite perpendiculaire à ( IB ) passant par A.
+              (    )
+                                        
+d) Soit σ ( M ) = ( 9MA − 6MB + 2MC ) ( MA − MB + MC ) = 5MO.MD
+
+
+           Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths   7C   Sujet : 2018C   Corrigé par Mahfoudh O. Mohamed Ammou   23
+                     Sujets corrigés du Bac                                                Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+                                                                  1        1                    1                5
+Soit J le milieu de [ OD] , L’affixe de J est donc z J =            z D = + i alors MO.MD = MJ 2 − OD2 = MJ 2 − .
+                                                                  2        2                             4                4
+                                                                    25                                25                 13
+Pour tout point M du plan on a donc σ ( M ) = 5MJ 2 −                   et alors M ∈ Γ 3 ⇔ 5MJ 2 −       = 10 ⇔ MJ 2 =
+                                                                     4                                4                   4
+                                                        1                     13
+Alors Γ 3 est le cercle de centre J et de rayon              13 . Or AJ 2 = donc le cercle Γ 3 passe par A.
+                                                        2                      4
+3°a) L’écriture complexe de S est de la forme z′ = az + b avec
+S ( A ) = B        z B = az A + b    4 + i = 2a + b               a = −1 + i
+               ⇔                   ⇔                          ⇔               . Donc l’écriture complexe de S est
+S ( B ) = D        z D = az B + b   1 + 2i = a ( 4 + i ) + b     b = 6 − i
+                                                                                                                        3π
+z ′ = ( −1 + i ) z + 6 − i . Donc le rapport de S est −1 + i = 2 , son angle est une mesure de arg ( −1 + i ) =             et
+                                                                                                                         4
+                                                   6−i          13 4
+son centre est le point Ω d’affixe ω =                        =     + i
+                                               1 − ( −1 + i ) 5 5
+                      3π                             2018 3 π                                    π
+b) S = s  Ω; 2;  donc S 2018 = s  Ω; ( 2 ) ; × 2018  ⇒ S 2018 = s  Ω;21009 ; − 
+                                                                                   
+                      4                                    4                                 2
+                                  3π
+c) On a S 4 = s  Ω; ( 2 ) ; × 4  ⇒ S 4 = s ( Ω;4; π ) c’est donc l’homothétie h de centre Ω et de rapport −4 et
+                              4       
+                                  4   
+on a S 8 = h 2 est l’homothétie de centre Ω et de rapport 16. En plus on a 2020 ≡ 4 [ 8] ce qui montre que
+20202020 ≡ 42020 [ 8] . Or 42020 = 24040 = 23×1346 + 2 = 24037 × 23 = 24037 × 8 , un multiple de 8, donc 42020 ≡ 0 [ 8] . Ce qui
+                                                                                                                             2020
+montre l’existence d’un entier k tel que 2020 2020 = 8k et par conséquent que S 2020                              = S8k qui est l’homothétie
+de centre Ω et de rapport (−4)                     = 48k . D’où S2020
+                                                                            2020
+                                              8k
+                                                                                   est une homothétie de rapport positif.
+
+Exercice 2
+                                             −1
+I- 1° a) lim+ f ( x ) = lim+ ( x + 1) e x = lim+ ( x + 1) lim e − t = 1 × 0 = 0 = f ( 0 ) , d’où f est continue à droite de 0.
+          x→ 0            x→ 0                      x→ 0            t →+∞
+
+     f ( x) − f ( 0)            1          −1
+                                                    t 
+lim+                 = lim+  1 +  e = lim  e− t + t  = 0 + 0 = 0 = f ( 0 ) , donc f est dérivable à droite de 0 et sa
+                                             x
+x→ 0      x−0          x→0      x     t →+∞      e 
+courbe admet une tangente horizontale à l’origine.
+b) f étant le produit de deux fonctions dérivables sur ]0, +∞[ , elle est alors dérivable sur cet intervalle et
+                               −1
+                                                   1 −x1       1 1  −x1
+∀ x > 0 on a f ′ ( x ) = e x + ( x + 1) ×             e =  1 +  +  e donc f ′ ( x ) > 0 sur ]0, +∞[ .
+                                                   x2          x x2 
+                                        −1
+lim f ( x ) = lim ( x + 1) e x = +∞ × 1 = +∞
+x →+∞            x →+∞
+Tableau de variation de f :
+
+
+
+
+                                                                                                                    u               u
+2° a) Pour tout x ≥ 0 on a 0 ≤ e − x ≤ 1 ce qui entraine que ∀ u ≥ 0 on a 0 ≤ ∫ e− xdx ≤ ∫ 1dx ⇒ 0 ≤ 1 − e − u ≤ u .
+                                                                                                                   0                0
+                                                                                                            t
+                                                                          1 
+D’où ∀ t ≥ 0 , on a 0 ≤ ∫ ( 1 − e − u ) du ≤ ∫ udu ⇒ 0 ≤ [ u + e − u ]0 ≤  u 2  ⇒ 0 ≤ t + e − t − 1 ≤ t 2 .
+                                    t                      t          t                                1
+                                 0                         0           2 0                   2
+                                                                                       1
+                  1                                  1              1 1            −
+b) ∀ x > 0 , on a > 0 , d’où d’après a) on a 0 ≤ + e − 1 ≤ ⋅ 2 et en multipliant par x + 1 qui est positif
+                                                                                       x
+                  x                                  x              2 x
+                         1   −
+                                1
+                                        x +  1       1                   −
+                                                                            1
+                                                                                1   1
+on trouve : 0 ≤ ( x + 1)  + e x − 1  ≤        ⇒ 0 ≤   − x + ( x + 1 ) e   x
+                                                                              ≤   + 2 ce qui donne
+                         x           2x    2
+                                                      x                         2x 2x
+
+       1                1   1                 −1                1   1
+0≤       − x + f ( x) ≤   + 2 et par la suite    ≤ f ( x) − x ≤ 2 −    .
+       x                2x 2x                 x                2x   2x
+            Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths   7C        Sujet : 2018C         Corrigé par Mahfoudh O. Mohamed Ammou   24
+                   Sujets corrigés du Bac                                    Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+                                                                  −1          1  1 
+c) En utilisant la double inégalité précédente, et puisque lim       = lim  2 −      = 0 alors d’après le
+                                                             x →+∞ x   x →+∞  2x 2x 
+théorème des gendarmes on a lim ( f ( x ) − x ) = 0 . D’où la droite ∆ d’équation y = x est une asymptote
+                                           x → +∞
+
+oblique pour la courbe ( C ) de f.
+3° Construction de la courbe
+                              y
+                                         2
+
+
+
+
+                                                                                        y=x
+                                         1
+
+
+                                                    C'
+                                                                              C
+
+
+
+
+                                          0                                    1                               2     x
+
+
+
+
+4° a) Sur l’intervalle [ 0, +∞[ , f étant continue et strictement croissante elle réalise alors une bijection de cet
+intervalle sur son image J = [ 0, +∞[ .
+b) Les courbes ( C ) et ( C′ ) sont symétriques par rapport à la droite d’équation y = x .
+La courbe cf la figure ci-dessus.
+                                    1  −1
+II- 1° a) lim+ fn ( x ) = lim+  x +  e x = 0 = f ( 0 ) donc f est continue à droite de 0.
+          x→ 0             x→ 0     n
+        ( )
+      f x − fn 0 (  )               1  −x1        −t 1 t                       ∗
+ lim+ n                = lim+  1 +     e = xlim   e + ⋅ t  = 0 donc ∀n ∈ ℕ , fn est dérivable à droite de 0.
+ x→ 0     x−0            x → 0     nx        →+∞        n e 
+b) f n étant le produit de deux fonctions dérivables sur ]0, +∞[ alors elle est dérivable sur cet intervalle et
+                               −1
+                                       1  1 −x1      1      1  −x1
+∀x ∈ ]0, +∞ [ on a : fn x = e +  x +  2 e =  1 + + 2  e . Alors ∀x ∈ ]0, +∞ [ ; fn′ ( x ) ≥ 0 puisque
+                      ′ ( )    x
+                                       nx            x nx 
+tous ses facteurs sont positifs. Tableau de variation de f n :
+
+
+
+
+Comme f n est continue et strictement croissante sur ]0, +∞[ alors elle réalise une bijection de cet intervalle
+                                             1                                1
+sur son image qui est aussi ]0, +∞[ . Puisque > 0 alors l’équation fn ( x ) = admet une unique solution α n
+                                             n                                n
+sur ]0, +∞[ .
+                                                 1  −x1   1          1  −x1 1   1     1  −x1  1  1
+2° a) ∀ x > 0 ; gn +1 ( x ) − g n ( x ) =  x +     e −         −
+                                                                    x +    e  −   =    −   e −     − 
+                                               n +1     n + 1        n       n  n +1 n       n+1 n
+
+          Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths   7C   Sujet : 2018C     Corrigé par Mahfoudh O. Mohamed Ammou   25
+                     Sujets corrigés du Bac                                    Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+                                           −1
+                                  1−e      x
+Donc g n +1 ( x ) − g n ( x ) =             ≥ 0 . ∀n ∈ ℕ ∗ et ∀ x > 0 ; gn ( x ) ≤ gn+1 ( x ) . Alors ∀n ∈ ℕ ∗ ,
+                                 n ( n + 1)
+                                    1     1
+gn ( αn +1 ) ≤ gn +1 ( αn +1 ) =        ≤ = g n ( αn ) , d’où g n ( αn +1 ) ≤ g n ( α n ) et comme g′n ( x ) = fn′ ( x ) ≥ 0 ; donc gn est
+                                 n+1 n
+croissante et par conséquent g n ( α n +1 ) ≤ g n ( αn ) ⇒ α n +1 ≤ α n . Donc la suite ( α n ) est strictement décroissante
+et puisqu’elle est minorée (minorée par 0) alors elle est convergente, soit δ sa limite alors 0 ≤ δ ≤ α1
+                                                         −1                          1               1
+                               1         1       1
+b) ∀n ∈ ℕ ∗ , fn ( α n ) =       ⇔  α n +  e αn = ⇔ nα n + 1 = e αn ⇔ nα n = e αn − 1 . Supposons que δ ≠ 0 , donc
+                               n         n       n
+
+n →+∞
+                                                 (   1
+                                                              )    1                 1
+lim nα n = δ × ( +∞ ) = +∞ et lim e αn − 1 = e δ − 1 , donc e δ − 1 = +∞ ce qui est contradictoire . D’où δ = 0 ,
+                                         n →+∞
+donc lim αn = 0 .
+        n →+∞
+
+
+Exercice 3
+1° a) La figure
+
+
+
+
+                                                                  
+b) O , A et B étant trois points distincts tels que OB = AO et OB = AO alors il existe une unique rotation r qui
+transforme O en A et B en O.
+                                          π
+c) Son angle est de mesure ( OB, AO ) = ( OB,OA ) + π = , son centre est le point d’intersection des médiatrices
+                                                          2
+de [ OA ] et [ OB ] qui est G. Alors r est le quart de tour direct de centre G.
+   med [ BE] ⊥ ( BE )
+d)                       donc si med [ BE ] = med [ OG ] alors ( BE )  ( OG ) ce qui est contradictoire donc
+    med [ OG ] ⊥ ( OG )
+med [ BE] ≠ med [ OG ] d’où g n’est pas une réflexion alors c’est une symétrie glissante. Le milieu de [ BE ] est
+un point de la droite ( OG ) (théorème des milieux) donc la droite ( OG ) passe par les milieux des deux
+segments [ BE ] et [ OG ] alors est ( OG ) l’axe de g. Comme O est un point de l’axe de g et g ( O ) = G alors
+
+OG est le vecteur de g.                                       
+D’où g est la symétrie glissante d’axe ( OG ) et de vecteur OG , sa forme réduite est g = t OG    S
+                                                                                                          OG = S OG  t OG .
+                                                                                                                        
+
+
+
+
+            Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths   7C   Sujet : 2018C   Corrigé par Mahfoudh O. Mohamed Ammou   26
+                    Sujets corrigés du Bac                                       Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+                                                                    1
+2° a) Comme CB = a > 0 alors C ≠ B , de même EF = AG = a ≠ 0 donc E ≠ F , ce qui prouve qu’il existe une
+                                                                    2
+                                                                                           FE 1
+unique similitude directe s qui transforme C en F et B en E. Le rapport de s est              = , une mesure de son
+                                                                                           CB 2
+                               π
+angle est ( CB,FE ) = ( CB,BA ) = − .
+                                              2
+b) Soit A′ = s ( A ) et D′ = s ( D ) , comme BCDA est un carré direct alors son image EFD ′ A ′ est un carré direct ,
+construit sur le segment [ EF ] , or sur ce segment on ne peut construire qu’un seul carré direct et puisque
+EFGA est un carré direct alors on en déduit que D′ = G et A′ = A , d’où A est le centre de s.
+                               π                             π π
+3° L’angle de r −1 est − , donc l’angle de h est − − = π [ 2π ] alors h est une similitude directe d’angle π
+                                2                            2 2
+donc c’est une homothétie de rapport négatif, son rapport est donc l’opposé de celui de s, alors le rapport de h
+       1
+est − .
+       2
+                                                    1      
+b) h ( O ) = s  r −1 ( O ) = s ( B ) = E , d’où IE = − IO ⇒ 2IE + IO = 0 , donc I est le barycentre du système
+                                                       2
+{(O,1);(E,   2) }.
+c) h ( M ′ ) = s  r −1 ( M ′ ) = s ( M ) = M ′′ , d’où la droite (M ′M′′) passe par le point I.
+                                                                                x + 2x E    2          y + 2y E    1
+4° a) Dans le repère (G, GB, GO) , on a O ( 0;1) et E ( −1; −1) donc x I = O                     = − et y I = O         =−
+                                                                                           3        3             3        3
+                                                                                           1         −2 − 1       −1 
+J étant le projeté orthogonal sur l’axe des ordonnées alors x J = 0 et y J = − d’où I  ;  et J  0;  .
+                                                                                           3         3 3          3 
+b) Le centre de Γ est G, son axe focal est ( OF ) (axe des ordonnées) et comme J ∈ ( OF ) alors J est un
+                                          1                                                   1 2 2
+sommet de Γ d’où b = GJ =                   et c = GO = 1 et par conséquent a = c2 − b 2 = 1 − =    . Alors l’équation
+                                          3                                                   9  3
+               x2 y 2
+de Γ est         −    = −1 .
+               8   1
+               9   9
+                                                                                    1
+c) Les sommets de Γ sont J et son symétrique par rapport à G qui est de cordonnées  0;  .
+                                                                                    3
+                                        x 2        −x 2                               c    1
+Ses asymptotes ont pour équations y =       et y =      . Son excentricité est égale à =      =3.
+                                          4          4                                b 1
+                                                                                          
+                                                                                          3
+c) La construction cf la figure précédente.
+
+
+
+Exercice 4
+                                                                             Partie A
+
+1° a) On remarque que f ( x ) = − x + 2ln ( 1 + e x ) = − x + 2 ln  ex ( e − x + 1)  = x + 2 ln ( e − x + 1) , elle est alors paire.
+Donc lim f ( x ) = lim  − x + 2ln ( 1 + e x )  = +∞ et lim f ( x ) = lim  x + 2ln ( e − x + 1)  = +∞ .
+       x →−∞          x →−∞                                             x →+∞             x →+∞
+F est dérivable sur ℝ , car somme de fonctions dérivables, et ∀x ∈ ℝ on a
+                     ex    ex − 1
+f ′ ( x ) = −1 + 2       =        qui s’annule en 0 et son signe est négatif avant 0, positif après.
+                   1 + ex ex + 1
+Tableau de variation de f :
+
+
+
+
+           Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths   7C      Sujet : 2018C     Corrigé par Mahfoudh O. Mohamed Ammou   27
+                        Sujets corrigés du Bac                                        Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+b) L’écriture initiale de f nous donne que lim [ f ( x ) − ( − x ) ] = lim  2ln ( 1 + e x )  = 0 , d’où la droite D ′
+                                                               x →−∞                                 x →−∞
+
+d’équation y = − x est asymptote oblique à ( C ) en −∞ , en plus 1 + e > 0 ⇒ 2ln ( 1 + e ) > 0 , alors ( C ) est au-
+                                                                                                                x                       x
+
+dessus de D ′ .
+L’autre écriture initiale de f sous la forme f ( x ) = x + 2ln ( e− + 1) donne que
+                                                                          x
+
+
+ lim [ f ( x ) − x] = lim  2ln ( e − x + 1)  = 0 , d’où la droite D d’équation y = x est asymptote oblique à ( C ) au
+x →+∞                    x →+∞
+
+voisinage de +∞ , en plus 1 + e− > 0 ⇒ 2ln ( 1 + e− ) > 0 , alors ( C ) est au-dessus de. D .
+                                            −x                           −x
+
+La courbe ( C ) est donc asymptote aux deux bissectrices et elle est au-dessus des deux.
+
+                                                                                 y
+                                      (C)                                        5
+
+                                                                                 4
+
+                                                                                 3
+
+                                                                                 2                   A          (C') en pointillé
+
+                                                                                 1
+
+                                                                                                     B
+                                 -5      -4       -3        -2         -1        0            1          2          3      4        5       x
+                                                                              -1
+
+                                                  y=x                         -2
+                                                                                                                    y=-x
+                                                                              -3
+
+
+
+2° a) g est continue et strictement croissante sur I alors c’est une bijection de I sur son intervalle image qui est
+J = [ 2ln 2; +∞[ .
+b) La courbe ( C′ ) de g− se déduit de ( C ) par la réflexion d’axe la droite D. Voire la figure.
+                                  −1
+
+
+
+Partie B :
+                                                                                                                            9
+                   f ′ ( t ) dt = [ f ( t ) ]0 = f ( ln 5 ) − f ( 0 ) = − ln 5 + 2ln 6 − 2ln 2 = 2 ln 3 − ln 5 donc u1 = ln  
+            ln 5                             ln 5
+1° u1 = ∫
+           0                                                                                                                5
+                     ex − 1                                           2e x
+                                                                              > 0 alors f ′ est strictement croissante d’où ∀x ∈ [ 0,ln5] on
+                                           2
+2° a) f ′ ( x ) =              =  1  −          ⇒  f ′′ ( x ) =
+                     ex + 1              ex + 1                  ( e x + 1)
+                                                                            2
+
+
+
+a f ′ ( 0 ) ≤ f ′ ( x ) ≤ f ′ ( ln5 ) or f ′ ( 0 ) = 0 et f ′ ( ln 5 ) = d’où ∀x ∈ [ 0,ln5] ; 0 ≤ f ′ ( x ) ≤ .
+                                                                               2                                    2
+                                                                               3                                    3
+                                                                                                        n
+                                                                                                    2
+b) On a ∀t ∈ [ 0,ln5] 0 ≤ f ′ ( t ) ≤ ce qui entraine que 0 ≤ ( f ′ ( t ) ) ≤   et par conséquent on a :
+                                                 2                                             n
+
+                                                 3                                                  3
+                                             n                          n
+                                  ln 5  2                        2
+0 ≤ ∫ ( f ′ ( t ) ) dt ≤ ∫   dt ⇒ 0 ≤ u n ≤   ln 5
+         ln 5          n
+
+        0                        0  3                            3
+                                       n                       n
+                                2                       2
+c) Comme 0 ≤ u n ≤   ln 5 et lim   ln 5 = 0 alors lim un = 0 (Théorème des gendarmes).
+                                3              n →+∞    3                       n →+∞
+
+
+
+
+            Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths      7C       Sujet : 2018C           Corrigé par Mahfoudh O. Mohamed Ammou   28
+                         Sujets corrigés du Bac                                                        Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+
+
+                                                          e −1 e −e
+                                                           x
+                                                                        x
+                                                                        2
+                                                                               −x
+                                                                                2
+                                                                                                           (
+                                                                                                        1 x2  −x
+                                                                                                          e +e 2          ) (e + e ) − 1 (e − e ) (e − e )
+                                                                                                                                   x
+                                                                                                                                   2
+                                                                                                                                              −x
+                                                                                                                                               2
+                                                                                                                                                                   x
+                                                                                                                                                                   2
+                                                                                                                                                                       −x
+                                                                                                                                                                        2
+                                                                                                                                                                            x
+                                                                                                                                                                            2
+                                                                                                                                                                                    −x
+                                                                                                                                                                                     2
+
+3° a) ∀x ∈ [ 0, +∞[ , f ′ ( x ) =                                = x                     ⇒ f ′′ ( x ) = 2                              2
+                                                                                                                                 (e + e )
+                                                                        −x
+                                                          ex + 1                                                                               x         −x
+                                                                                                                                                               2
+                                                                  e2 + e 2                                                                     2          2
+
+
+
+              1 1 (e − e )
+                                                      2
+                                  x          −x
+                                  2           2
+                           = − ( f ′ ( x ) ) d’où ( f ′ ( x ) ) − 1 = −2f ′′ ( x )
+                            1 1
+⇒ f ′′ ( x ) = −
+                                                                                     2                        2
+
+
+                  (e + e ) 2 2
+                                                      2
+              2 2                 x          −x
+                                  2           2
+
+b) On a ( f ′ ( x ) ) − 1 = −2f ′′ ( x ) , si on multiplie les deux membres par ( f ′ ( x ) ) , on trouve
+                         2                                                                                                                         n
+
+
+( f ′ ( x ) ) + − ( f ′ ( x ) ) = −2f ′′ ( x ) ( f ′ ( x ) ) , en intégrant on trouve :
+             n 2               n                            n
+
+
+
+∫ (f ′ ( x))                            ( f ′ ( x ) ) dx = − ∫                     2f ′′ ( x ) ( f ′ ( x ) ) dx = −2∫              f ′′ ( x ) ( f ′ ( x ) ) dx ⇒
+  ln 5           n+ 2                 ln 5           n                      ln 5                          n                ln 5                               n
+                        dx − ∫
+ 0                                    0                        0                                                           0
+                                                                                                                                                          n +1
+
+                                                                                    (                                          )
+                                                                 ln 5
+                   1
+                          ( f ′ ( x ) ) +  = −2 ( f ′ ( ln 5 ) ) + − ( f ′ ( 0 ) ) + = −2  2 
+                                       n 1                        n 1               n 1
+un + 2 − un = −2                                                                                                                                                  . D’où ∀ n ∈ ℕ
+                  n + 1                   0 n+1                                            n +1 3
+                         n +1
+                −2  2 
+un + 2 − u n =        .
+               n +1 3
+                                                                                         2k − 1
+                                                                       n
+                                                                              2  2
+c)  Montrons par récurrence que ∀n ∈ ℕ ∗ u 2n = ln 5 − ∑                            
+                                                                      k = 1 2k − 1  3 
+                                                                                                                                               2×1 − 1                                   2k − 1
+                          9                         2                    2  2                 1
+                                                                                                           2  2
+On sait que u1 = ln   et que u 2 − u 0 = −2   ⇒ u 2×1 = ln 5 −                      = ln 5 − ∑                                                                                            donc la
+                          5                         3                 2×1− 1 3               k = 1 2k − 1  3 
+proposition est vraie pour n = 1 . Supposons qu’elle est vraie pour n c’est-à-dire que
+                                 2k − 1
+               n
+                      2  2
+u 2n = ln 5 − ∑                       et montrons qu’elle serait vraie pour n+1 c’est-à-dire que
+              k = 1 2k − 1  3 
+                    n +1                            2k − 1
+                          2  2
+u 2n + 2 = ln 5 − ∑                                          . Or
+                  k = 1 2k − 1  3 
+                                             2n + 1    2k − 1                         2( n + 1) −1                             2k − 1
+                    2  2          n
+                                            2  2                    2        2                         n+1
+                                                                                                                    2  2
+u 2n + 2 = u 2n −        =  ln 5 − ∑
+                                                          −                                 = ln 5 − ∑               
+                  2n + 1  3 
+                                   k = 1 2k − 1  3          2 ( n + 1) − 1  3                         k = 1 2k − 1  3 
+                                                                                                     2k − 1
+                                                                               n
+                                                                                       2  2
+Ce qui achève la démonstration et montre que ∀n ∈ ℕ ∗ u 2n = ln 5 − ∑                            
+                                                                              k =1 2k    −1 3
+                                                                                                                                                   2k
+                                                             9 n 1 2
+ Montrons de même par récurrence que ∀n ∈ ℕ ∗ u 2n + 1 = ln   − ∑  
+                                                              5  k =1 k  3 
+                                                                                            2                                           2×1                                  2k
+                                        2 2                 9  1 2        9 1 1 2
+On sait que u0 = ln5 et que u 3 − u1 = −   ⇒ u 2×1+ 1 = ln   −   = ln   − ∑   donc la
+                                        2 3                 5  1 3         5  k =1 k  3 
+proposition est vraie pour n = 1 . Supposons qu’elle est vraie pour n c’est-à-dire que
+                                 2k
+              9 n 1 2
+u 2n + 1 = ln   − ∑   et montrons qu’elle serait vraie pour n+1 c’est-à-dire que
+               5  k =1 k  3 
+                           n +1                2k
+                             1 2                                                             2  2
+u 2( n +1) + 2 = ln 5 − ∑   . Or u 2( n + 1) + 2 = u 2n + 3 = u ( 2n + 1) + 2 = u 2n + 1 −          donc
+                        k =1 k  3                                                          2n + 2  3 
+                                                    2( n + 1)                                    2k                   2 ( n + 1)                                       2k
+                             1  2                                   9 n 1 2         1  2                                         9  n +1 1  2 
+u 2( n +1) + 2 = u 2n +1 −                                    = ln   − ∑   −                                               = ln   − ∑   .
+                           n + 1 3                                  5  k =1 k  3  n + 1 3                                        5  k =1 k  3 
+                                                                                                                                                          2k
+                                                                    9 n 1 2
+Ce qui achève la démonstration et montre que ∀n ∈ ℕ ∗ u 2n + 1 = ln   − ∑  
+                                                                     5  k =1 k  3 
+                                                                                                         2k − 1                                                                            2k
+                                                                                     n
+                                                                                      2  2                                                                     9 n 1 2
+ Conclusion : ∀n ∈ ℕ                    ∗
+                                                                u 2n = ln 5 − ∑                                                  et              u 2n + 1 = ln   − ∑  
+                                                                              k = 1 2k − 1  3                                                                   5  k =1 k  3 
+                                                                                   2k + 1                                                     2k                                  2k
+                                     2  2                n
+                                                                                                             9 n 1 2                                9 n 2  2
+4° ∀n ∈ ℕ on a u 2n = ln 5 − ∑
+             ∗
+                                                                                          et u 2n + 1 = ln   − ∑                             = ln   − ∑                        d’où
+                             k = 1 2k − 1  3                                                                5  k =1 k  3                           5  k =1 2k  3 
+
+
+
+            Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths                          7C    Sujet : 2018C        Corrigé par Mahfoudh O. Mohamed Ammou                         29
+                     Sujets corrigés du Bac                                    Equipe de Maths – Ecoles privées Elmaarif & Erraja
+
+                                               2k − 1                             2k
+                           n
+                                 2  2              9 n 2  2
+u 2n + u 2n + 1 = ln 5 − ∑                   + ln   − ∑            
+                         k = 1 2k − 1  3           5  k =1 2k  3 
+                                                           2k − 1
+                                  9  n                                2  2 
+                                                                                 2k
+                                                2  2              n
+⇒ u 2n + u 2n +1 = l n 5 + ln   −  ∑                         +∑         
+                                  5   k =1 2k − 1  3          k =1 2k  3     
+                                                                                                             u + u 2n +1
+                                                            p
+                              9      2n
+                                           1 2
+⇒ u 2n + u 2n +1 = l n 5 + ln   − 2∑   = ln 9 − 2v n ⇒ u 2n + u 2n + 1 = 2ln 3 − 2v n , d’où v n = ln 3 − 2n         et
+                              5     p =1 p  3                                                                2
+                         u + u 2n +1 
+ lim v n = lim  ln 3 − 2n             = ln 3 car nlim  u n = 0 . Donc lim vn = ln 3 .
+n →+∞      n →+∞              2                    →+∞                n →+∞
+
+
+
+
+            Ecoles Privées Elmaarif et Erraja Sujets corrigés de Maths   7C   Sujet : 2018C   Corrigé par Mahfoudh O. Mohamed Ammou   30
+

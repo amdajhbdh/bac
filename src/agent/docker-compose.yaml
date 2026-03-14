@@ -1,0 +1,25 @@
+services:
+  agent:
+    build:
+      context: ../..
+      dockerfile: src/agent/Dockerfile
+    environment:
+      - NEON_DB_URL=${NEON_DB_URL}
+      - OLLAMA_URL=http://host.docker.internal:11434
+    volumes:
+      - ./data:/home/bacuser/data
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    stdin_open: true
+    tty: true
+
+  # Optional: Ollama service
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama-data:/root/.ollama
+    ports:
+      - "11434:11434"
+
+volumes:
+  ollama-data:

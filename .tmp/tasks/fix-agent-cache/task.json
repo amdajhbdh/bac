@@ -1,0 +1,22 @@
+{
+  "id": "fix-agent-cache",
+  "name": "Fix Agent Cache",
+  "status": "active",
+  "objective": "Fix usearch.go struct issues - undefined fields and unused imports",
+  "context_files": [".opencode/context/core/standards/code-quality.md"],
+  "reference_files": ["src/agent/internal/cache/usearch.go"],
+  "exit_criteria": [
+    "usearch.go compiles without errors",
+    "No undefined field 'db' in USearchCache",
+    "No unknown fields Size/MaxSize/Dimension in CacheStats",
+    "No unused imports",
+    "Agent builds successfully"
+  ],
+  "subtask_count": 1,
+  "completed_count": 0,
+  "created_at": "2026-03-14T10:00:00Z",
+  "completed_at": null,
+  "bounded_context": "cache",
+  "module": "@bac/agent",
+  "vertical_slice": "infrastructure"
+}

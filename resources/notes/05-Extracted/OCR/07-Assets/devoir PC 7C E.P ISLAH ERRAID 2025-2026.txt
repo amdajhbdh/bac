@@ -1,0 +1,134 @@
+       C.E.P. El Islah Raid      Matiére : sciences Physiques Terminales C
+       Année scolaire : 2025—2026 Devoir mois de décembre Durée : Sheures
+                                                             _—
+
+
+
+
+                                                   I Q.C.M (2 points) I
+      N° | Question: Réponse A                                     Réponse B Répo
+      1 Une particule de charge q et de masse m animée Son énergie Son vecteur Son vecte
+            d’un mvt de vitesse Vdans un champ magnétique | cinétique est accélération est | vitesse es
+                                         7                       conservee constant c
+            uniforme B non colinéaire a V.
+            Le travail d'une force électrique W(?)A..B :         q.Upy |¢I|- Uap                                         B)
+      3     La trajectoire d’une particule chargée dans Indépendante Dépend des
+            un champ électrique uniforme est :                   des caractéristiques | caractéristi aboliques
+                                                                 de la particule
+      -+ Une tige en mvt de vitesse V                 [          E,,,d orienté                               F orienté
+            le long de deux rails                                dans le méme                               De sens
+             paralléles placé dans un                            sens que B                                 opposé a 7
+      .     champ magnétique uniforme 3
+            (voir figure)                              A
+                                                  Exercice 1 (3,25 points)
+
+       Un composé organique liquide nommé B a pour formule brute C4HgO.
+       Avec ce composé on réalise les expériences suivantes :
+       1/ On introduit dans un tube i essai qui contient le composé B quelqu es de la 2,4-D.N.P.H.
+       On observe alors la formation d'un précipité jaune. Déduire d         test les formules semi-développées possibles
+       pour B en indiquant les noms des composés correspondants.      1
+
+       2/ On réagit B avec le réactif de schiff : le test se révéle nég éduire la fonction du composé B. 0,5
+
+e
+       3/ Le composé B étudié a été obtenu par oxydation d'un alcoo
+       a. Donner le nom, la formule semi-développée et la cl
+2SA
+                                                                   I'alecol A. 0,75
+L
+       b. L'alcool A a été oxydé par une solution aqueuse d           te de potassium acidifi¢e.
+       Ecrire les deux équations électroniques. En dédu          ion bilan de la réaction de l'oxydation de I'alcool A. 1
+A
+
+
+
+
+       En présence d’'ions H30*% on mélange dans quantité ng = 0,5 mol
+       d’acide propanoique CH3-CH,—COOH la
+       de propan-¢2-ol CH;—CH(OH) —CH3 ; pui auffe le mélange réactionnel
+       pendant une certaine durée.
+
+
+       et le propan-2-ol ? Citer deux: éristiques de cetteréaction. 0,75                        -
+       2/ Ecrire i I'aide des form X eloppées, I'équation bilan L o—
+       de la réaction et donner @ du produit organique E obtenu. 0,75 o 2                                                     t(s)
+       3/ La figure ci-contrg’donne : représentation graphique de la quantité d’ester forme en fonction du temps.
+       a. Indiquer la com ioh duymélange réactionnel a I'état d’équilibre et calculer la constante d’équilibre K. 0,75
+       b. Calculer le rendemen ette réaction. Conclure. 0,5
+       c. Donner le      et la formule semi-développée d'un autre compose organique dont la réaction totale avec
+       le propan-2<0l, denne le méme compose E? 0,5
+
+                                                       Exercice 3 (7,25 points)
+
+       Un soli de masse m=200g se déplace sur une piste ABC, constituée
+
+       d            ectiligne et horizontale AB =1,6m raccordée tangentiellement en B               -
+                tie circulaire de centre O, de rayon r=0,7m et d’angle au centre a.
+               lide quitte le point A sans vitesse initiale sous I'action }_* *                     *                         k
+
+           e force constante F qui ne s'exerce qu'entre A et B.                l~' + L *I'! s           mMEEE :
+
+                       1[                                 Le:07/12/2025
+On enregistre a des intervalles de temps réguliers T=20ms. les positions occupées par le solide et on obtient
+I'enregistrement de la figure ci-dessus :
+a. Déterminer la nature du mouvement et calculer la valeur expérimentale de son accélération. 0.5
+
+b. Sachant que la valeur de la force F est F=2N, dire est ce que le mouvement se fait sans ou avec frottenien
+Déterminer la valeur de la réaction exercée par la piste sur le solide ainsi que I'angle de frottement
+c. Calculer la valeur de la vitesse au point B. 0,5
+2/ Le solide continue son mouvement sans frottement sur la partie circulaire BC.
+Exprimer en fonction de m, g, r, @ et V la vitesse et la réaction en C. 1
+3/ On néglige la résistance de lair.
+
+
+d’atterrir au point D. Déterminer I'équation de la trajectoire dans le repére (C,x,¥), %
+Le solide quitte la piste au point C avec la vitesse V¢ et effectue un mvt aérien avant
+
+4/ L'étude expérimentale de la chute permet de tracer la courbe de la vitesse en fonv mps.
+a. En exploitant la courbe, trouver la (les) valeur(s) :
+- de la vitesse en C. - des composantes V¢y et V¢y du vecteur vitesse Vc .       que : @=60° 1
+b. Quelles sont les coordonnées du point de chute D ? Préciser les caractéristiqu la vitesse en ce point. 0,75
+c. Quelle est la durée tp de la chute ? 0.5                                                          1
+5/ Dans une deuxiéme expérience, i I'instant o le projectile
+précédent quitte la piste au point C,'un autre projectile est lancé
+a partir du point D avec une vitesse V; faisant un angle 0 avec
+I'horizontal comme l'indique la figure 2. Les deux projectiles&o
+dans le méme plan vertical.
+a. Montrer que pour qu'il y’ait une rencontre entre les deu
+
+   projectiles il faut que V= Ve+ E!—?.                                   A                                sol
+    Ou t4 I'instant de rencontre de deux projectil Ner Viet 0, sachant que ty = -22. 0,75
+                                         1
+                                                                                              t
+
+
+
+b. Quelles sont les coordonnées du point
+
+
+
+
+Deux rails paralléles ab et a’b’ distants , inclinés par rapport a I'horizontale
+d’un angle @=20°. On relie les extremit ils aux bornes d’un générateur de f. e. m
+E = 1,4V et derésistance r= 1,80 (figure 1         branche dans le circuit et en série avec
+ le générateur un dipéle ohmiqu 0,2 Q. Le circuit est fermé par l'intermédiaire
+ d’une tige MN en cuivre de rési             ligeable de masse m = 20g pouvant glisser sans frottement sur les rails.
+ L’ensemble est plongé dan             p'magnétique uniforme de vecteur B vertical.
+ 1/ Donner les caractéris            ccteur B pour que la tige soit en équilibre. 1
+ 2/ On enléve le génér n ferme le nouveau circuit (figure 2).
+ On raméne la tige a         tionaa’ puis on I'abandonne sans vitesse initiale, elle
+                            vafit de pénétrer dans la zone ol régne le champ magnétique
+uniforme de la        ion 2 avec une vitesse Vy =2,8m/s.
+a. Calculer 1               . 05
+b. Quelle estl'intensité Iy du courant qui apparait dans le circuit a I'instant t=0
+(instant 2             el la tige pénétre dans le champ magnétique), indiquer sur un schéma le sens du courant.
+Donne acteristiques de la force électromagnétique qui s’exerce sur la tige a cet instant. 1
+c. Faites entaire des forces qui s’exercent sur la tige cet instant t = 0 en précisant que @ et V
+son ontraires. 1
+     ontre qualitativement que la vitesse de la tige tend vers une valeur limite V4. La calculer. 0,75
+
+                        M B wally polxll écg--o-":l J @B 8¢i )
+
+
+                  2I                                       Le:07/12/2025
+

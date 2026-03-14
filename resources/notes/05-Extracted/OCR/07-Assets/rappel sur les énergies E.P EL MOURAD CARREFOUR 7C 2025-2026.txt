@@ -1,0 +1,60 @@
+                                ECOLES PRIVEES EL MOURAD
+
+Exercice 1 :
+
+Un solide ponctuel de masse m = 200g glisse sur un plan OA incliné d'un angle @ = 60° par
+rapport a la verticale. Il part du point O origine de 'axe orienté xx’ avec une
+vitesse initiale de valeur Vj, figl. Au cours de son mouvement, S subit une
+
+force de frottement ]? . Un dispositif approprié¢ permet de mesurer la vitesse V
+instantanée du solide pour différentes positions x. La courbe représentative
+deV? = f(x) est donné par la fig 2.                                                =
+
+                                                                                   X
+                                                                                       \
+                                                                                   ax
+    1. Déterminer graphiquement I'équation V2 = f(x).                                                           figl
+   2. En utilisant le théoréme de 1'énergie cinétique, établir 'expression de V en fonction de x.
+   3. En déduire les valeurs de la force de frottement f et de la vitesse Vp.
+   4. Au point d’abscisse x = 0.5m, l'énergie mécanique E du Viash) I8 T 1]
+       systeme {solide +terre} est égale au double de I'énergie (.                 W 4 ‘ | ! ;./iv i
+       cinétique. En déduire la position adoptée pour le plan de ’                 el IR 7 1?
+       référence de 1'énergie potentielle de pesanteur.
+   5. Donner l'expression de 1'énergie cinétique E, et de 1'énergie
+       potentielle Ep du systéme {solide-terre} en fonction de x
+       en prenant pour référence de I'énergie potentielle le plan
+       horizontal situé¢ a 0.5m en dessous du point O.
+   6. Sur un méme graphique, représenter les courbes E; = f(x)
+       et Ep = g(x) pour les valeurs de x telles quel0 <% <.1m.
+   7. En déduire l'expression de E en fonction de x puis tracer la                         e          .
+       courbe E = h(x).                                                    '               >         )              fig
+       On donne g = 10m.STM2.
+Exercice 2 :
+Un solide S de masse m = 400g, abandonné sans vitesse initiale, glisse sur un plan incliné d’un
+angle o par rapport au plan horizontal. Il part du point O sans N
+vitesse initiale et passe entre deux cellules photoélectriques’A et
+C. Un index I solidaire du solide S, déelenche un chronomeétre au
+passage en A et I’arréte en C. La durée enregistrée par le
+chronomeétre est At = 0.05s.                                           H
+On pourra considérer que la mesure de la vitesse entre A et C
+permet de connaitre avec une bonne précision la vitesse instantanée en B
+milieu de Ac. (voire figl). On donne : OB = 1m; AC = 0.1m ; MN = 2m;
+MH = 0.6m.
+    1. Calculer I’angle a.
+       Calculer la variation'de I’énergie cinétique du solide entre O et B puis
+       la somme des travaux des forces appliquées en négligeant les
+       frottements:
+   W   Que peut<on affirmer a propos de ce résultat.
+   4. Par application du théoréme de I’énergie cinétique, en déduire la valeur de la force de
+       frottement que.l’on supposera constante et parallele a la ligne de plus grande pente du
+       plan incliné.
+   5. Surla figure 2 on donne la représentation graphique de 1’énergie mécanique E du systéme
+        {solide, terre} en fonction de x.
+       a. Déterminer graphiquement I’expression de E en fonction de x ; la retrouver
+           théoriquement.                                                                                 ~
+       b. En déduire la position du plan de référence des énergies potentielles de pesanteur par .+ 7.
+           rapport au point O.                                                                      SERIYATAK.COM
+       ¢. Etablir les expressions analytiques de I’énergie potentielle Ep et de ’énergie n SERIVATAK COM
+           cinétique E en fonction de x. En déduire la position o I’on a E; = Ep.
+                                                                                             @ +222 34343520
+

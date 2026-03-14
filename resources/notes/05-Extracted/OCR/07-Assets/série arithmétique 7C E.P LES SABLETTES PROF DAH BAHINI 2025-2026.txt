@@ -1,0 +1,324 @@
+'!’-
+
+)—
+! Groupe Scolaire Privé « LES SABLETTES » CS ARITHETIQWQ                                                   "
+
+
+
+
+   Exercice 1 :Pell-Fermat : Soient a et b deux entiers relatifs qui vérifient : 2’ =2b' =1 (Eh
+   b) Montrer que a ct b sont premiers entre cux,
+   a) Montrer que a est impair et que b est pair.,
+
+
+   ¢) Montrer que(3a +4b,2a+3b) est aussi solution de(E).
+                                                                                                         (b
+   d) En partant de la solution évidente (1,0) donner une solution d'enticrs supérieu 2
+    Exercice 2 : En basc9, trouver lcs couples(x,y) pour lesqucls le nombre 7x6y4 cst'divisible par 7 ct par8.
+
+
+    Exercice 3 : Déterminer le nombre entier du systéme décimal qui §’écrit Mll ctbbacen base7.
+    Exercice 4 : a) Soit nun entier naturel. Déterminer les restes de la division cuclidienne de 7n+ 6par3n+1.
+    b) Quelles sont les valeursn, entier relatif, pour lesquelles 3n+ 1divisé7n+6 ?
+
+
+    Exercice 5 : Quclles sont les valeurs de I'enticr premier p pour lesquel P +p est premiers ?
+
+    Exercice 6 : On considére lcs trois enticrs naturels a,b,c quis;& dans la basen:
+    a=111,b=114,c=13054. Sachant qucc=ab, déterminern,
+                                                   ‘écri e de chacun des nombres a,b,c .dans
+    le systéme décimal.
+                                               PGCD(a;b) =5
+    Exercice 7 : Résoudre le systé¢me :
+                                               PPCM(a;b)=17
+
+    Exercice 8 : On considére le nombre A qui s'¢crit ¢me décimal : A = xyxyxyxyx5, xety étant des
+    chiffres de ce systéme, x étant non nul. \
+    1° A quelle condition ce nombre est-il divisibl
+    2¢ Déterminer les différentes valeurs de A gelle           A soit divisible par225.
+    3° On considére le nombre B qui s”écrit d:                    décimal : B = xyxyxy, xety étant des chiffres de ce
+    systéme, x étant non nul, Déterminer les                   aleurs de B telles que B soit divisible par 225.
+
+
+    Exercice 9 :
+    1. Déterminer I'ensemble U des entigrs relatifsf tels que n+ 2 divise2n-1.
+                                            >s nombres n+2 ¢l 2n’ + 3n - 1sont premiers entre cux.
+
+    3. Déterminer
+             .
+                  I'ensemble V dcs&
+                                 tifsn, n#-2tels que (
+                                                    :     )( J soit un entier relatif,
+                                                     2n—-1)(2n’ +3n-1
+                                                       (v -2)(n+2)
+    Exercice 10 :
+    On considére I'équation di    hafigane (E) :35x-27y=2.
+    1¢ Déterminer une soluti        culigre dc(E) , puis toutes ses solutions.
+    2° Un astronome a obsérvé au J,la cométe A, qui apparait périodiquement tous les 105 jours, Six jours plus tard,
+    il observe la cométe B'qu ¢ période d'upparition de 81 jours, L.'astronome voudrait déterminer le jourJ, , de la
+    prochaine apparitigh simultanée des deux cométes,
+    s) Soientuetvl re d¢ périodes effectuées respectivement par A et B entre Jgetd, . Montrer que le couplc( u.v)
+    est solution d atl E) :
+    b) Détermin lution correspondant 4J, .
+    c) Ce joug-la, I'astfgnome avait un empéchement et a raté 1'événement : combicn de jours devra-t-il attendre jusqu'a la
+    prochaini ion des deux astres ?
+
+    E
+    12 er que, pour tout entier relatifn, les entiers 14n+4-3 ¢t 5n+ 1 sont premiers entre eux.
+
+    Cours de soutien TC                « LES SABLETTES »Prof ;                   DAH O. BAHINI Page 1 sur 6
+2° On considére I'équation (E) : 87x~31y =20l xct y sont des enticrs relatifs,
+a) Vérifier, en utilisant par exemple la question 1° que 87 et 31sont premicrs entre cux. En dédui
+couple (u,v)d’entiers relatifs tel que 87u—31v=1puis unc solution(x,,y,) de (E). W
+c) Application : Déterminer les points de la droite d'équation 87x~31y ~2=0dont les c%%om
+b) Déterminer 1'ensemble des solutions de (E) dansZ*.
+
+des entiers naturels et dont I'abscisse est comprise entre 0¢t100.
+
+Exercice 12 :
+1° a) Déterminer le reste modulo 17de2013.
+b) Déterminer le plus petit entier p strictement positif tel que : 7" =1 [17]. %
+¢) Calculer alors le reste modulo 17 de2013TM",
+
+2° Donner les écritures de 2014 en base 5ct en base 7.
+3° a) Déterminer les enticrs naturcls a,b tels que :{:“ -bsgsz‘:ofi avecm=avbctds=anab.
+b) Donner I'ensemble des diviscurs communs de 4095 et 1989.
+¢) On divisc 2014 parn,, le reste est égal 425 .0n divise4102 parn, égal 27. Quelles sont les
+valeurs possibles de n ?
+Excrcice 13 :
+1© Soit dans0* 1'équation (E): 19x+ 13y =1000.
+a) Déterminer un couple (u,v) 0 tel que 19u+13v=1.
+b) En déduire une solution particuliére de(E).
+¢) Déterminer toutes les solutions (x,y) de(E).
+2¢ Un groupe d'hommes et de femmes a dépensé 1000 Sous pour un spectacle; les hommes ont payé 19 sous
+chacun et les femmes 13 sous.
+a) Combien y- avait- il d’hommes ct de femme N’ toutes les possibilités.
+b) Quelle est la composition du groupe sachag @ sdllc a une capacité maximale de 60 places?
+Exercice 14 :
+Soit p un nombre premier supéricur ou ¢gal        .Oftposen=p*—1.
+1° a) Montrer que l'ona : p=1[3] ou
+b) En déduire que n est divisible par
+2° a) Vérifier que p est impair, En déduir il existe un entier naturel k tel quep?—1=4k(k + l) ;
+b) En déduire que n est divisiblegpar 16.
+¢) En déduire que Sdivisen et te gue 240divisen .
+5. Existe-t-il quinze nombr CSX /D,5Py» « - + Py SUpérieurs ou égaux 4 7 tels que I'entier
+A=p}+p;+...+p], soit mbre premicr?
+Exercice 15:
+
+
+1¢ On se propose d wlous les enticrs relatifs N telRs que :           N5 [13]
+
+
+        o&
+a) Vérifier que
+             9est s tion de ce systéme.
+b) Soit Nun daticFrelatif solution de ce systéme. Démontrer que N peut s’écrire sous la forme
+N=1+417x
+     +   xet y sont deux entiers relatifs vérifiant la relation17x - 13y =4,
+
+¢) Résou uation 17x-13y =4 ol xet y sont des enticrs relatifs,
+d) En dédui "il existe un entier relatifk tel que N =18+ 221k .
+     V.
+
+       e soutien T C             « LES SABLETTES »Prof :                  DAH O. BAHINI Page 2 sur 6
+¢) Démontrer I'équivalence entre Nm 18 [221] ct{ N5  [13]
+                                                 N=i1[17]
+2° a) Existe-t-il un entier naturel k tel que10* =1 [17]?
+b) Existe-t-il un entier naturel 1 tel que 10' w18 [221]?                                   %
+
+Exercice 16 :                                                                             QD
+Dans tout I'exercice, x ety désignent des entiers naturcls non nuls vérifiantx<y. S est cmble des
+couples(x,y) tels que PGCD(x;y) =y —x                                                v
+1° a) Calculer PGCD(363; 484).
+b) Le couple (363; 484) appartient-il & §7                                      %
+3° a) Montrer que (x,y) appartient & § si et sculement si il existe un entier m:wnon nul tel que
+2° Soitn un entier naturel non nul ; le couple (njn+ 1) appartient-il 8 S ? Justifier v   ¢ponse.
+
+
+
+x=k(y=x)cty=(k+1)(y —-x)
+b) En déduire que pour tout couple(x,y) de Son a : PPCM(x;y) =k(k+1)(y =%).
+4° a) Déterminer I’ensemble des entiers naturels diviseurs de 228.
+b) En déduire I'ensemble des couples (x,y) de § tels que PPCM( 4
+
+
+1° a) Montrer que 2003 est un nombre premier. §
+Exercice 17 :
+
+
+b) Déterminer deux entiers relatifs u et v tels que : 123u+ y=
+¢) En déduire un entier relatif k, tel que : 123k, =1 [2003
+d) Montrer que, pour tout entier relatif x,
+123x =456 [2003] si et seulement si x =456k, [200:
+2° a) Déterminer I’ensemble des entiers relatifs : 123x=456 [2003]
+b) Montrer qu'il existe un unique entier n tel u&s 2002et 123n =456 [2003]
+3° Soit a un entier tel que : 1<a<2002.
+a) Déterminer PGCD(a; 2003). En déduire qilfexiste un entier m tel que :am=1 [2003].
+b) Montrer que, pour tout enticr b, il exite uff unique entier x tel que : 0<x<2002 et ax= b[2003]
+
+Exercice 18 :                         %
+Soit A I'ensemble des entiers naturels de Lisftervalle [1,46]
+1° On considére I’équation : (E)': 23x+47y =100 xety sont des entiers relatifs,
+a) Donner une solution partigu xfy,) de(E).
+b) Déterminer I'ensemble N: (x;y) solutions de (E) .
+c) En déduire qu'il exist ique entier x appartenant 4 A tel que 23x =1 [47] 3
+2° Soienta ctb deux caofier:
+a) Montrer que siab lorsa=0 [47]oub=0 [47].
+b) En déduire qu&               ,alorsa=1 [47]oua=-1[47].
+3° a) Montrer que pourteut entier pde A, il existe un entier relatif g tel quepxq=1[47].
+Pour la suite, que pour tout entier pde A, il existe un unique entier, notéinv(p), appartenant & A
+tel quepx 47].
+Par exe nv(1)=1carix1=1 [47], inv(2)=24 car2x24=1 [47],
+b) Q              enticrs p de A qui vérifientp = inv(p)?
+c)          qued6!=~1 [47].
+
+       e soutien TC               « LES SABLETTES »Prof :                DAH O. BAHINI Page 3 sur 6
+Exercice 19 :
+Les questions 1c¢t 2 sont indépendantes.
+                                                                                                         :
+Soit nun enticr naturel non nul.                                                            %
+1° On considére I'équation notée(E) : 3x+7y =10" ol xet y sont des entiers relatifs
+a) Déterminer un couple (u,v)d’entiers relatifs tels que3u+7v=1.
+En déduire une solution particuliére (x,,y,) de I'équation(E). ‘
+b) Déterminer 1'ensemble des couples d’entiers relatifs (x,y) solutions de(E).
+
+
+3x* + 7y’ =10TM ol xety sont des enti
+2° On considére 1’équation notée(G):
+                                     ers rela tifsv
+                                                   (b
+a) Montrer que100=2 [7].
+Démontrer que si(x,y) est solution de(G) , alors 3x* =2" [7].
+b) Reproduire ct compléter le tableau suivant ;
+Reste de la division cuclidienne de x par7 0                       1    2    3        4       5      6
+Reste de la division cuclidienne de 3x par7.
+
+c) Démontrer que 2"est congru a1, 2ou 4modulo7. En dédui 1’équation (G) n’admet pas de
+solution.
+Exercice 20 :                                                   &
+ 1° Un nombre naturel A vérifie :{AAs2
+                                    - [7]
+                                       [S]
+a) Quels sont les valeurs possibles des quotients respecti
+b) Déterminer les valeurs possibles de A .
+
+ 2° Soitp un entier naturel tel quep 22, mon \cstc de la division euclidienne de(p—1)" parpest : 1
+c) Déterminer les valeurs possibles de AA35.
+
+
+ si nest pair et p—1sin cst impair.
+ 3° On considére la suite(u, ) définic po& ou}, enfier naturel non nul par :u, =2"+3"+6"~1.
+ a) Calculer les six premiers termes de ¢ ui
+ b) Montrer que pour tout entier na 0        , u, est pair et que pour tout entier naturel n pair non nul,
+ u, cst divisible pard.
+ ¢) On note(E) I'ensemble des nembres fifemiers qui divisent au moins un terme de(u, ). Les entiers 2,3,5 et
+ 7 apparticnnent-ils & (E) ?
+d) Soitp un nombre premierSupérigusfou égal 45. Montrer que 6x2°~* =3 [p]et que 6x3" =2 [p]. En
+déduire que 6xu,_, =0 @                    re p appartient-il 4 (E) ?
+
+Exercice 21 :
+On se propose de negles couples (n,m)d'cnlicrs naturels non nuls vérifiant la relation :
+ 7"=-3x2"=1
+ 1° On supposgm <4 4. Mentrer qu’il y a exactement deux couples solutions.
+
+            uplc (n,m) vérifie la relation (F) alors 7* =1 [32]
+ 2° On supp intcnant quem25.
+
+
+ b) En &g @ les restes de la division par 32 des puissances de 7, montrer que si le couplc(n,m) vérifie la
+             alors n est divisible pard.
+
+ c)E que si le couple (n,m) vérific la relation (F) alors 7 =1 [5].
+       rmg 5, existe-t-il des couples (n,m)d"enticrs naturels vérifiant la relation (F) ?
+
+      de soutien TC                « LES SABLETTES »Prof :               DAH O. BAHINI Page 4 sur 6
+3° Conclure : déterminer I’ensemble des couples d’entiers naturels non nuls vérifiant la relation(F).
+
+Exercice 22 :                                                                                           Q
+a) Montrer que pour tout couple (x;y) solution de(E), xest un multiple de 23 et y un multipl W
+1° On considére dans0? I'équation (E) : 18x+ 23y =2001.
+
+
+b) Déterminer une solution de(E). %
+2° Déterminer les couples (p;q) d'enticrs relatifs tels que 18d +23m=2001, ou d déSiB’é‘b depetq,
+¢) Résoudre (E).
+
+
+ct m leur PPCM.
+
+
+Exercice 23 :                                                                            (b
+Pour coder un message on associc & chacune des 26 lettres de I’alphabet un nonbge x : ur A jusqu'd2s
+pour Z . On calcule I'image d’un tel nombre par une fonction affine f(x)=ax+b b sont deux entiers
+naturelsas 0. On prend les restes de la division euclidienne de f(x) par 26 lace les lettres initiales
+du message par celles qui correspondent aux numéros donnés par les restes trouvés. Le couple (a,b) est la clé
+secréte du codage. La clé est dite parfaite lorsque les restes sont deux aldeux distincts.
+1° Montrer que sia et 26 sont premiers entre eux alors la clé est parfai
+2° Dans les questions suivantes, on considére une clé parfaite (a,b )
+a) Montrer qu'il existe un entier u tel que au=1[26].
+b) Montrer que siy = ax+b[26] alors x=uy -ub[26]. Cette w rmet le décodage.
+3° On prend la clé(15,9).
+a) Vérifier que cette clé est parfaite ct donner sa fonction               g C.
+b) Coder le message PKVTL , décoder le message ERXT
+A[B|[C|[D|E|F|G|H|I|J|K|L |[M|N[O
+0|1[{2(3]|4|5]6 |7 |8[9[10)11[12]1 16 (17| 18|19 20|21 (2223 |24 |25
+
+Exercice 24 :
+On considére 1'équation : 7x° —23x” + 53x¢
+1° Montrer en étudiant la fonction [ défini€suc p
+qu'une seule solution réelle qui, de plusg@ppa          a I'intervalle ]1,2[.
+
+2° a) Montrer que, si I’équation (1) a une sojution rationnelle 2, obl p etqsont deux entiers premiers entre
+                                                                   q
+cux, alors p divise 45 et q divise 7. Quels sont les rationnels vérifiant cette condition ?
+b) Déterminer la solution rationagl
+¢) Ecrire f(x) sous la forme f               p)e(x) oiig(x)est un trindme du sccond degré
+d) Achever la résolution d               )
+Exercice 25 :
+1° On considére I'équati 6x+ Ty =57 ol xet y sont des cntiers relatifs,
+a) Déterminer un "entiers relatifs (u; v) tel que 6u+7v=1; en déduire une solution particuliére
+(x, 35,) de 'équafion (E).
+b) Déterminer lesteguples d’entiers relatifs solutions de 1'équation (E) .
+2° Son(o,‘           repére orthonormé de I'espace. On considére le plan(P) d’équation : 6x+7y +82=57.
+
+On consi ints du plan (P) qui appartiennent aussi au plan (O.T,'i) Montrer qu'un seul de ces points
+apo nées des entiers naturels ; déterminer les coordonnées de ce point.
+
+Cou utien TC                       « LES SABLETTES »Prof :                        DAH O. BAHINI Page 5 sur 6
+/3° On considére un point M du plan (P) dont les coordonnées x,y etz sont des enticrs namh
+ a) Montrer que I'entiery est impair.
+b) On pose y = 2p +1 ol p est un enticr naturcl. Montrer que le reste dans la division & de p+zpar
+3 estégalal,
+c) On poscp+z=3q+10Uqest un enticr naturcl. Montrer que les entiers naturel vérifient la
+relation :x+p+4q=7. En déduire que ¢ prend les valeursQoul. %
+d) En déduire les coordonnées de tous les points dc(P) dont les coordonnées v            tiers naturels.
+Exo 26 :
+ 1° On considére les nombres M, = 2" —1avec p premier.
+a) Calculer les cinq premiers termes. Sont-ils tous premier ?
+b) Un nombre M, premier est appelé un nombre de Mersenne :
+2° Rappel : 2" —1=(a- 1)(a"" +a" +..+a +1) pourne( *. Soi q deux entiers naturels non nuls.
+a) Monter que 2 —1est divisible par2” —1et par2?-1.
+b) Démontrer que si 2" —1est premier alors n est premier. ciprgque est-elle vraie ?‘
+3° Un nombre est dit parfait lorsqu'il est égal a la somme s diviscurs propres ou si la somme de scs
+diviseurs est égale a son double.
+a) Montrer que si M est premier alors g (2’ —l) est
+b) En déduire que
+4° On considére les nombres F, = 2 +1avec p                és nombres de Fermat.
+a) Calculer les cinqg premiers termes. Sont-ils t       iers ? On pourra vérifier que 641diviseF; .
+b) Vérifier que F,,, =(F,~1) +1
+c) Vérifier par récurrence que pour toutp 221 e décimale de F, se termine par7.
+
+d) Montrer que pourk €0 °, F,,, —1
+
+¢) En déduire queF,,, =2 [Fp]
+f) En déduire que deux nombres d¢ Fermat distincts sont premiers entre eux,
+g) Retrouver qu’il existe une infinitéde gombres premiers.
+
+
+                              N
+
+
+            &
+           QQ/
+  ol
+

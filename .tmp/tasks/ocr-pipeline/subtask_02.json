@@ -1,0 +1,25 @@
+{
+  "id": "ocr-pipeline-02",
+  "seq": "02",
+  "title": "Test OCR with real PDFs",
+  "status": "pending",
+  "depends_on": ["01"],
+  "parallel": false,
+  "context_files": [".opencode/context/core/standards/test-coverage.md"],
+  "reference_files": ["src/ai-ocr/main.go"],
+  "suggested_agent": "TestEngineer",
+  "agent_id": null,
+  "started_at": null,
+  "completed_at": null,
+  "completion_summary": null,
+  "acceptance_criteria": [
+    "Test with single-page PDF",
+    "Test with multi-page PDF (5+ pages)",
+    "Verify output contains extracted text",
+    "Verify page order maintained",
+    "Performance measurement recorded"
+  ],
+  "deliverables": ["Test output in 05-Extracted/", "Performance notes in comments or doc"],
+  "bounded_context": "ocr",
+  "module": "@bac/ai-ocr"
+}

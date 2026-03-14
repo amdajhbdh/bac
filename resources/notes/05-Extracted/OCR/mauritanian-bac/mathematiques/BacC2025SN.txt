@@ -1,0 +1,145 @@
+ République Islamique de Mauritanie                  BACCALAUREAT 2025                        Série : M & TMGM
+ Ministère de l’Education et de la
+ Réforme du Système d’Enseignement                     Session Normale                         Coefficient : 9 & 6
+                                                   Epreuve de MATHEMATIQUES                        Durée : 4h
+ Direction des Examens et des Concours
+
+Exercice 1 (3 points)
+ 1. On considère l’équation (E): 62x  5y  2025 où x et y sont des entiers.
+ a) Justifier que le couple (35, 29) est solution de l’équation (E) puis en déduire
+                                                                                                             1 pt
+ l’ensemble de solutions de cette équation.
+ b) Montrer que si (x; y) est une solution de (E) alors x est un multiple de 5.                              0,5 pt
+ 2. Soit (F) l’équation : 62x  5y  2025 , où x et y sont des entiers.
+                                  10         10
+
+                                                                                                             0,5 pt
+ a) Montrer que pour tout entier a, on a : a10  111 ou a10  0 11 .
+ b) Montrer que si (x; y) est une solution de (F) alors x  11  1 ou y  11  1 .                           0,5 pt
+ c) Supposons que (x; y) est une solution de (F). Déterminer le reste de la division
+                                                                                                             0,5 pt
+ euclidienne du nombre 62x10  5y10 par 11. En déduire que (F) n’a pas de solution.
+
+Exercice 2 (4 points)
+ On considère dans  le polynôme P défini pour tout
+       
+     ,  par P(z)  z 3  (6  4i sin )z 2  (8  16i sin )z  16i sin  .
+      2 2
+ 1. Résoudre dans  l’équation P(z)  0 , sachant qu’elle admet une solution réelle z 0 .                    1pt
+                                                                           
+ 2. Dans le plan complexe muni du repère orthonormé direct  O;u, v  , on considère les
+                                                                       i
+ points A, M1 et M2 d’affixes respectives de z 0 , z1  2  2e              et z 2  2 - 2e i .
+                    
+ On note G  bar (A; 12),  M1 ;21 ,  M 2 ;3  .     
+                                 i 2
+ a) Justifier que z 2  2  e            (z 1  2) puis caractériser la rotation R qui transforme M1
+                                                                                                         0,75 pt
+ en M2 pour tout    
+                       , .
+                    2 2
+ b) Déterminer  pour que le triangle AM1M2 soit équilatéral.                                                0,25 pt
+ c) Montrer que, si  varie, les points M1 et M2 restent sur un même cercle à préciser 0,5 pt
+ d) Montrer que, si  varie, la droite (M 1M 2 ) conserve une direction fixe.                0,5 pt
+ e) Vérifier que l’affixe du point G est z G  2  3cos   4i sin  . Justifier que G reste
+                                                                                             1 pt
+ sur une ellipse dont on donnera l’équation réduite et l’excentricité.
+
+Exercice 3 (4 points)
+ ABC est un triangle rectangle isocèle direct en A et soient I,J, K, L et M les milieux
+ respectifs des segments [BC] , [AI] ,  AB  ,  BI  et  AC
+ 1. Faire une figure soignée.                                                                                0,5 pt
+ 2.Montrer qu’il existe une rotation R transformant A en I et I en B. Caractériser R.                        0,75 pt
+ 3. a) Soit g l’antidéplacement qui transforme A en I et I en B.
+                                                                                                             1pt
+ Montrer que g est une symétrie glissante et donner sa forme réduite.
+ b) Déterminer la droite  telle que g  S  R .                                                            0,25 pt
+ 4. Soit S la similitude directe qui transforme A en B et I en A.
+                                                                                                             0,5 pt
+ a) Déterminer le rapport et une mesure de l’angle de S.
+ b) Prouver que le centre  de S appartient aux cercles de diamètres [AC] et [IB] .                          0,5 pt
+
+
+Baccalauréat 2025       Session Normale             Epreuve de Mathématiques           Séries M & TMGM         1/2
+ c) Justifier que    CK  et que les points C, M, L et  sont cocycliques.                           0,5 pt
+Exercice 4 (4 points)
+                                                                         1  ln(x  1)
+ On considère la fonction f définie sur 1,  par f (x)                            et soit C sa
+                                                                             x1
+ courbe représentative dans un repère orthonormé.
+ 1.a) Montrer que lim f (x)   et calculer lim f (x) , interpréter graphiquement.                    0,75 pt
+                        x 1                       x 
+
+                                                           ln(x  1)
+ b) Montrer que pour tout x de 1,  , f (x)                                                       0,5 pt
+                                                           (x  1)2
+ c) Dresser le tableau de variation de f.                                                               0,75 pt
+                                                                                                 1
+ 2. Soit g la restriction de f sur  0,  . Montrer que n   * , l’équation g(x) 
+                                                                                                 n      0,5 pt
+ admet une unique solution a n sur  0,  puis vérifier que n   , an1  an .*
+
+
+ 3.a) Construire la courbe C et ses asymptotes.                                                         0,25 pt
+ b) Déterminer l’aire de la partie du plan délimitée par la courbe C, l’axe des
+                                                                                                        0,25 pt
+ abscisses et les droites d’équations respectives x  0 et x  1 .
+                                                              1
+ 4. Pour tout entier naturel n, non nul, on pose In   t nf (t)dt .
+                                                              0                                         0,5 pt
+ a) Montrer que (In ) est décroissante et déduire qu’elle est convergente.
+                                1  ln 2    1          1
+ b) Montrer que n                          In      puis déduire la limite de (In ) .             0,5 pt
+                                   2       n1        n1
+
+Exercice 5 (5 points)
+                                                                  1
+ On considère la fonction f définie sur  par f (x)                     et soit C sa courbe
+                                                              1  ex
+ représentative dans un repère orthonormé.
+ 1.a) Calculer lim f (x) et lim f (x) puis interpréter graphiquement.                                   1 pt
+                x            x 
+
+ b) Calculer f '(x) , x   ( f  est la dérivée de f). Dresser le tableau de variation de f.          1 pt
+ c) Montrer que f réalise une bijection de  sur un intervalle J à préciser.                            0,5 pt
+ 2. Soit g la fonction réciproque de f .
+                                                                                                        0,5 pt
+ a) Dresser le tableau de variation de g.
+                                                                                      2
+ b) Déterminer l’expression de g(x) sur J puis montrer que x  J g(x)                      .         0,5 pt
+                                                                                  x 1  x2 
+                                                                  n 1
+ 3. Pour tout entier naturel non nul n, on pose Sn (t)   t 2k 1 avec t  0,1 .
+                                                                  k 0
+
+                      1
+ a) Montrer que Sn (t)  .g(t)(1  t 2n ) .                                                            0,5 pt
+                      2
+                                         1
+                 1    1  3                           1   1  3
+ b) Déduire que        2n 
+                 2 2 2  8
+                               ln     1 S n (t)dt   
+                                        3
+                                         2
+                                                             2n 
+                                                       2 2 3  8
+                                                                   ln .                                 0,5 pt
+
+                1
+                                                  n 1 1  1  1  4 2
+ c) Calculer  S n (t)dt et en déduire que lim    k  k    ln 
+               1
+                2
+                                                                        .                              0,5 pt
+               3
+                                           n 
+                                                  k 1 2k  4 9  3 3
+
+                                                   Fin.
+
+
+
+
+Baccalauréat 2025         Session Normale      Epreuve de Mathématiques               Séries M & TMGM     2/2
+

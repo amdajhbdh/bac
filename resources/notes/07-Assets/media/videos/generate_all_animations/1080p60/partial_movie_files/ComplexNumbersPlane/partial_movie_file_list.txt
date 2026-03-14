@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ComplexNumbersPlane/2257293077_2851555300_223132457.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ComplexNumbersPlane/2135761390_3871970454_3881699278.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ComplexNumbersPlane/2135761390_2525920539_1871341659.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ComplexNumbersPlane/2135761390_1832150125_1515824972.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ComplexNumbersPlane/2135761390_3496904116_3141967487.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ComplexNumbersPlane/2135761390_1192866096_3081982521.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ComplexNumbersPlane/2135761390_64114086_3594549275.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ComplexNumbersPlane/2135761390_2872842549_2532941950.mp4'

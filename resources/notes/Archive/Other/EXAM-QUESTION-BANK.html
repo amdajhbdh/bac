@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAC Exam Question Bank</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+    .container { max-width: 1000px; margin: 0 auto; }
+    h1 { color: white; text-align: center; margin-bottom: 30px; }
+    .controls { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
+    select, button { padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; font-size: 14px; }
+    select { background: #f0f0f0; }
+    button { background: #667eea; color: white; transition: 0.3s; }
+    button:hover { background: #764ba2; }
+    .question-card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .question-card h3 { color: #667eea; margin-bottom: 10px; }
+    .en { color: #333; margin: 10px 0; }
+    .fr { color: #e74c3c; font-style: italic; margin: 10px 0; }
+    .level { display: inline-block; padding: 5px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; margin-bottom: 10px; }
+    .level.basic { background: #d4edda; color: #155724; }
+    .level.intermediate { background: #fff3cd; color: #856404; }
+    .level.advanced { background: #f8d7da; color: #721c24; }
+    .stats { background: white; padding: 15px; border-radius: 8px; text-align: center; margin-bottom: 20px; }
+    .stats p { margin: 5px 0; color: #666; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 BAC Examination Question Bank</h1>
+    
+    <div class="stats">
+      <p><strong>Total Questions:</strong> <span id="totalQuestions">0</span></p>
+      <p><strong>Topics Covered:</strong> <span id="topicCount">0</span></p>
+    </div>
+    
+    <div class="controls">
+      <select id="topicFilter">
+        <option value="">All Topics</option>
+      </select>
+      <select id="levelFilter">
+        <option value="">All Levels</option>
+        <option value="basic">Basic</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+      <button onclick="toggleLanguage()">Toggle Language (EN/FR)</button>
+      <button onclick="printQuestions()">Print All</button>
+    </div>
+    
+    <div id="questionsContainer"></div>
+  </div>
+
+  <script>
+    const questionBank = {"Complex Numbers":{"basic":[{"en":"Solve z² + 4 = 0","fr":"Résoudre z² + 4 = 0"},{"en":"Find |1 + i|","fr":"Trouver |1 + i|"},{"en":"Express i⁴ in simplest form","fr":"Exprimer i⁴ sous forme simplifiée"}],"intermediate":[{"en":"Solve z² - 2z + 5 = 0 and express in polar form","fr":"Résoudre z² - 2z + 5 = 0 et exprimer sous forme polaire"},{"en":"Find all fourth roots of 16","fr":"Trouver toutes les racines quatrièmes de 16"},{"en":"Prove |z₁ + z₂| ≤ |z₁| + |z₂|","fr":"Prouver |z₁ + z₂| ≤ |z₁| + |z₂|"}],"advanced":[{"en":"Solve z⁶ + 1 = 0 and find all solutions","fr":"Résoudre z⁶ + 1 = 0 et trouver toutes les solutions"},{"en":"Find the locus of points satisfying |z - 1| + |z + 1| = 4","fr":"Trouver le lieu des points satisfaisant |z - 1| + |z + 1| = 4"},{"en":"Analyze the transformation w = 1/z geometrically","fr":"Analyser la transformation w = 1/z géométriquement"}]},"Integrals":{"basic":[{"en":"Calculate ∫ 3x² dx","fr":"Calculer ∫ 3x² dx"},{"en":"Find ∫₀¹ x dx","fr":"Trouver ∫₀¹ x dx"},{"en":"Evaluate ∫ eˣ dx","fr":"Évaluer ∫ eˣ dx"}],"intermediate":[{"en":"Calculate ∫ x·sin(x) dx using integration by parts","fr":"Calculer ∫ x·sin(x) dx par intégration par parties"},{"en":"Find ∫ 1/(x² + 1) dx","fr":"Trouver ∫ 1/(x² + 1) dx"},{"en":"Evaluate ∫₀^(π/2) cos²(x) dx","fr":"Évaluer ∫₀^(π/2) cos²(x) dx"}],"advanced":[{"en":"Calculate ∫ √(1 - x²) dx and interpret geometrically","fr":"Calculer ∫ √(1 - x²) dx et interpréter géométriquement"},{"en":"Find ∫ (x³ + 2x)/(x² + 1) dx using partial fractions","fr":"Trouver ∫ (x³ + 2x)/(x² + 1) dx en utilisant les fractions partielles"},{"en":"Evaluate ∫₀^∞ e^(-x²) dx (Gaussian integral)","fr":"Évaluer ∫₀^∞ e^(-x²) dx (intégrale gaussienne)"}]},"Matrices":{"basic":[{"en":"Find the determinant of [[2,3],[1,4]]","fr":"Trouver le déterminant de [[2,3],[1,4]]"},{"en":"Calculate [[1,2],[3,4]] + [[5,6],[7,8]]","fr":"Calculer [[1,2],[3,4]] + [[5,6],[7,8]]"},{"en":"Find the inverse of [[1,2],[3,4]]","fr":"Trouver l'inverse de [[1,2],[3,4]]"}],"intermediate":[{"en":"Solve the system using matrices: x + 2y = 5, 3x + 4y = 11","fr":"Résoudre le système en utilisant les matrices: x + 2y = 5, 3x + 4y = 11"},{"en":"Find eigenvalues and eigenvectors of [[4,1],[1,4]]","fr":"Trouver les valeurs propres et vecteurs propres de [[4,1],[1,4]]"},{"en":"Calculate the rank of [[1,2,3],[2,4,6],[3,6,9]]","fr":"Calculer le rang de [[1,2,3],[2,4,6],[3,6,9]]"}],"advanced":[{"en":"Diagonalize the matrix [[2,1],[1,2]]","fr":"Diagonaliser la matrice [[2,1],[1,2]]"},{"en":"Find the Jordan normal form of [[1,1,0],[0,1,1],[0,0,1]]","fr":"Trouver la forme normale de Jordan de [[1,1,0],[0,1,1],[0,0,1]]"},{"en":"Prove that det(AB) = det(A)·det(B) for 2×2 matrices","fr":"Prouver que det(AB) = det(A)·det(B) pour les matrices 2×2"}]},"Dynamics":{"basic":[{"en":"A 10 kg object experiences 50 N force. Find acceleration","fr":"Un objet de 10 kg subit une force de 50 N. Trouver l'accélération"},{"en":"Calculate weight of 5 kg object on Earth","fr":"Calculer le poids d'un objet de 5 kg sur Terre"},{"en":"Find velocity after 3 seconds if v₀ = 10 m/s and a = 2 m/s²","fr":"Trouver la vitesse après 3 secondes si v₀ = 10 m/s et a = 2 m/s²"}],"intermediate":[{"en":"Analyze motion of 20 kg block on 30° incline with friction (μ = 0.3)","fr":"Analyser le mouvement d'un bloc de 20 kg sur une pente de 30° avec friction (μ = 0,3)"},{"en":"Two objects collide elastically. Find final velocities","fr":"Deux objets entrent en collision élastique. Trouver les vitesses finales"},{"en":"Calculate tension in rope supporting 50 kg mass","fr":"Calculer la tension dans la corde supportant une masse de 50 kg"}],"advanced":[{"en":"Analyze projectile motion with air resistance","fr":"Analyser le mouvement de projectile avec résistance de l'air"},{"en":"Find center of mass of composite system","fr":"Trouver le centre de masse d'un système composite"},{"en":"Analyze rotational motion and angular momentum","fr":"Analyser le mouvement de rotation et le moment angulaire"}]},"Electric Fields":{"basic":[{"en":"Calculate electric field at distance 0.5 m from 2 μC charge","fr":"Calculer le champ électrique à 0,5 m d'une charge de 2 μC"},{"en":"Find force between two charges: q₁ = 1 μC, q₂ = 2 μC, r = 1 m","fr":"Trouver la force entre deux charges: q₁ = 1 μC, q₂ = 2 μC, r = 1 m"},{"en":"Calculate potential at distance r from charge q","fr":"Calculer le potentiel à distance r d'une charge q"}],"intermediate":[{"en":"Find electric field due to two point charges","fr":"Trouver le champ électrique dû à deux charges ponctuelles"},{"en":"Calculate work done moving charge in electric field","fr":"Calculer le travail effectué en déplaçant une charge dans un champ électrique"},{"en":"Analyze motion of charged particle in uniform field","fr":"Analyser le mouvement d'une particule chargée dans un champ uniforme"}],"advanced":[{"en":"Find electric field inside and outside uniformly charged sphere","fr":"Trouver le champ électrique à l'intérieur et à l'extérieur d'une sphère uniformément chargée"},{"en":"Calculate capacitance of parallel plate capacitor","fr":"Calculer la capacité d'un condensateur à plaques parallèles"},{"en":"Analyze energy stored in electric field","fr":"Analyser l'énergie stockée dans le champ électrique"}]},"Circuits":{"basic":[{"en":"Find current through 10 Ω resistor with 5 V applied","fr":"Trouver le courant à travers une résistance de 10 Ω avec 5 V appliqués"},{"en":"Calculate total resistance of 2 Ω, 3 Ω, 5 Ω in series","fr":"Calculer la résistance totale de 2 Ω, 3 Ω, 5 Ω en série"},{"en":"Find equivalent resistance of 4 Ω and 6 Ω in parallel","fr":"Trouver la résistance équivalente de 4 Ω et 6 Ω en parallèle"}],"intermediate":[{"en":"Analyze circuit with multiple loops using Kirchhoff's laws","fr":"Analyser un circuit avec plusieurs boucles en utilisant les lois de Kirchhoff"},{"en":"Calculate power dissipated in 50 Ω resistor with 2 A current","fr":"Calculer la puissance dissipée dans une résistance de 50 Ω avec 2 A de courant"},{"en":"Find voltage across each resistor in series circuit","fr":"Trouver la tension aux bornes de chaque résistance en circuit série"}],"advanced":[{"en":"Analyze RC circuit charging and discharging","fr":"Analyser le circuit RC en charge et décharge"},{"en":"Calculate impedance in AC circuit","fr":"Calculer l'impédance dans un circuit AC"},{"en":"Analyze resonance in RLC circuit","fr":"Analyser la résonance dans un circuit RLC"}]},"Organic Chemistry":{"basic":[{"en":"Name the compound CH₃-CH₂-CH₃","fr":"Nommer le composé CH₃-CH₂-CH₃"},{"en":"Write combustion equation for C₆H₁₄","fr":"Écrire l'équation de combustion pour C₆H₁₄"},{"en":"Identify functional groups in CH₃-CH₂-OH","fr":"Identifier les groupes fonctionnels dans CH₃-CH₂-OH"}],"intermediate":[{"en":"Draw all isomers of C₅H₁₂","fr":"Dessiner tous les isomères de C₅H₁₂"},{"en":"Predict products of addition reaction with alkene","fr":"Prédire les produits de la réaction d'addition avec un alcène"},{"en":"Write esterification reaction between ethanol and acetic acid","fr":"Écrire la réaction d'estérification entre l'éthanol et l'acide acétique"}],"advanced":[{"en":"Analyze substitution vs elimination mechanisms","fr":"Analyser les mécanismes de substitution vs élimination"},{"en":"Determine molecular formula from combustion data","fr":"Déterminer la formule moléculaire à partir des données de combustion"},{"en":"Predict aromatic substitution products","fr":"Prédire les produits de substitution aromatique"}]},"Genetics":{"basic":[{"en":"Solve monohybrid cross: Aa × Aa","fr":"Résoudre le croisement monohybride: Aa × Aa"},{"en":"Determine phenotypic ratio for dihybrid cross","fr":"Déterminer le rapport phénotypique pour le croisement dihybride"},{"en":"Identify genotype from phenotype","fr":"Identifier le génotype à partir du phénotype"}],"intermediate":[{"en":"Solve dihybrid cross: AaBb × AaBb","fr":"Résoudre le croisement dihybride: AaBb × AaBb"},{"en":"Analyze pedigree chart for inheritance pattern","fr":"Analyser le diagramme de pedigree pour le modèle d'hérédité"},{"en":"Calculate probability of specific genotype","fr":"Calculer la probabilité d'un génotype spécifique"}],"advanced":[{"en":"Analyze sex-linked inheritance patterns","fr":"Analyser les modèles d'hérédité liée au sexe"},{"en":"Determine linkage and recombination frequency","fr":"Déterminer la liaison et la fréquence de recombinaison"},{"en":"Analyze multiple allele inheritance","fr":"Analyser l'hérédité des allèles multiples"}]}};
+    let showEnglish = true;
+    
+    function initializeUI() {
+      const topicSelect = document.getElementById('topicFilter');
+      Object.keys(questionBank).forEach(topic => {
+        const option = document.createElement('option');
+        option.value = topic;
+        option.textContent = topic;
+        topicSelect.appendChild(option);
+      });
+      
+      document.getElementById('topicCount').textContent = Object.keys(questionBank).length;
+      let totalQ = 0;
+      Object.values(questionBank).forEach(t => {
+        totalQ += t.basic.length + t.intermediate.length + t.advanced.length;
+      });
+      document.getElementById('totalQuestions').textContent = totalQ;
+      
+      displayQuestions();
+    }
+    
+    function displayQuestions() {
+      const topic = document.getElementById('topicFilter').value;
+      const level = document.getElementById('levelFilter').value;
+      const container = document.getElementById('questionsContainer');
+      container.innerHTML = '';
+      
+      let topicsToShow = topic ? { [topic]: questionBank[topic] } : questionBank;
+      
+      for (const [topicName, questions] of Object.entries(topicsToShow)) {
+        const levels = ['basic', 'intermediate', 'advanced'];
+        levels.forEach(lvl => {
+          if (level && level !== lvl) return;
+          
+          questions[lvl].forEach((q, idx) => {
+            const card = document.createElement('div');
+            card.className = 'question-card';
+            card.innerHTML = `
+              <span class="level ${lvl}">${lvl.toUpperCase()}</span>
+              <h3>${topicName} - Question ${idx + 1}</h3>
+              <div class="en"><strong>EN:</strong> ${q.en}</div>
+              <div class="fr"><strong>FR:</strong> ${q.fr}</div>
+            `;
+            container.appendChild(card);
+          });
+        });
+      }
+    }
+    
+    function toggleLanguage() {
+      showEnglish = !showEnglish;
+      document.querySelectorAll('.en, .fr').forEach(el => {
+        el.style.display = showEnglish ? 'block' : 'none';
+      });
+    }
+    
+    function printQuestions() {
+      window.print();
+    }
+    
+    document.getElementById('topicFilter').addEventListener('change', displayQuestions);
+    document.getElementById('levelFilter').addEventListener('change', displayQuestions);
+    
+    initializeUI();
+  </script>
+</body>
+</html>

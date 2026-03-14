@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "bac-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-01-01",
+  "compatibility_flags": ["nodejs_compat_v2"],
+
+  "ai": { "binding": "AI" },
+
+  "vars": {
+    "ENVIRONMENT": "production"
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "bac-unified",
+      "database_id": "b30c3f25-c99d-470f-aa70-2d1357d843f1"
+    }
+  ],
+
+  "vectorize": [
+    { "binding": "QUESTIONS", "index_name": "bac-questions" }
+  ]
+}

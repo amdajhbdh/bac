@@ -1,0 +1,9 @@
+# Série cinétique chimique E.P GÉNÉRATION DU FUTUR 2025-2026
+
+**Source:** Série cinétique chimique E.P GÉNÉRATION DU FUTUR 2025-2026.pdf
+**Category:** Chemistry
+**Extracted:** 2026-03-08
+
+---
+
+

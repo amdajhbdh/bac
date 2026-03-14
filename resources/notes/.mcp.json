@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "vault": {
+      "command": "python3",
+      "args": ["/home/med/Documents/bac/resources/notes/vault-mcp-server.py"],
+      "env": {
+        "VAULT_PATH": "/home/med/Documents/bac/resources/notes"
+      }
+    },
+    "sympy": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with", "sympy-mcp",
+        "mcp"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/home/med/Documents/bac/resources/notes"
+      ]
+    },
+    "github": {
+      "command": "uvx",
+      "args": ["github-mcp-server"]
+    }
+  },
+  "project_disabled": false,
+  "allowedDirectories": [
+    "/home/med/Documents/bac/resources/notes"
+  ]
+}

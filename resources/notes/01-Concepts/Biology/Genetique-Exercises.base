@@ -1,0 +1,49 @@
+filters:
+  and:
+    - file.hasTag("génétique")
+    - file.ext == "md"
+formulas:
+  prob_dom: if(parent1 == "Aa" && parent2 == "Aa", "3/4", if(parent1 == "AA" && parent2 == "aa", "1", "1/2"))
+  prob_rec: if(parent1 == "Aa" && parent2 == "Aa", "1/4", if(parent1 == "AA" && parent2 == "aa", "0", "1/2"))
+  ratio: if(type == "monohybride", "3:1", if(type == "dihybride", "9:3:3:1", if(type == "codominance", "1:2:1", "variable")))
+  liaison_type: if(distance == 0, "Absolue", if(distance < 50, "Partielle", "Indépendante"))
+  categorie: function(formula, value) { if (value.includes("monohybride")) { return "Monohybride"; } else if (value.includes("dihybride")) { return "Dihybride"; } else if (value.includes("codominance")) { return "Codominance"; } else { return "Autre"; } }
+properties:
+  difficulty:
+    displayName: Difficulté
+  type:
+    displayName: Type de croisement
+  ratio:
+    displayName: Ratio attendu
+  solution:
+    displayName: Solution
+views:
+  - type: table
+    name: Exercices par Type
+    order:
+      - file.name
+      - type
+      - difficulty
+      - formula.categorie
+  - type: cards
+    name: Tous les Exercices
+    order:
+      - file.name
+      - type
+      - difficulty
+  - type: table
+    name: Exercices Faciles
+    filters:
+      and:
+        - difficulty == "facile"
+    order:
+      - file.name
+      - type
+  - type: table
+    name: Liaison Génétique
+    filters:
+      and:
+        - file.hasTag("liaison")
+    order:
+      - file.name
+      - difficulty

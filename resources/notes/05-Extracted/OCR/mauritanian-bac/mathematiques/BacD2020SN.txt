@@ -1,0 +1,132 @@
+ République Islamique de Mauritanie
+ Ministère de l’Education Nationale, de la
+                                                 BACCALAUREAT 2020                             Série : Sciences de la Nature
+                                                        Session Normale                                Coefficient : 6
+ Formation Technique et de la Reforme                                                                   Durée : 4h
+ Direction des Examens et des Concours            Epreuve : MATHEMATIQUES
+
+ Exercice 1 : (3 points)
+ On considère les deux suites  u n  et  v n  définies pour tout entier naturel non nul n par :
+                              n
+        n              1                                               1
+ un  2      et v n    . Pour tout entier naturel n  1 on donne xn     et y n  ln  vn  .
+      2n  n            3                                              un
+ Pour chacune des six questions suivantes, une seule des réponses proposées est correcte.
+ N° Question                                 Réponse A        Réponse B      Réponse C
+ 1   La valeur de x 5 est                        6               11                16            (0.5 pt)
+                                                                  1
+ 2   La limite de la suite  u n  est           0                                 1             (0.5 pt)
+                                                                  2
+ 3   La suite  v n  est une suite          Croissante      Décroissante Non monotone (0.5 pt)
+ 4    La suite  xn  est une suite               Arithmétique          Géométrique         Convergente                  (0.5 pt)
+
+      Le terme général de la suite  y n                  1
+ 5                                                  yn      ln n       y n  n ln 3         y n  n ln 3               (0.5 pt)
+      est                                                  3
+      La somme v1  v 2    v n est             1 1               1 1             1 1              
+                                                              n1               n                        n 1
+
+ 6                                                 1                1              1                      (0.5 pt)
+      égale à                                     2  3              2  3            2  3             
+
+ Recopie sur la feuille de réponse et complète le tableau ci-contre en      Question n° 1        2   3    4         5     6
+ choisissant la bonne réponse. Aucune justification n’est demandée          Réponse
+
+Exercice 2 : (6 points)
+ 1° Pour tout complexe z on pose : P  z   z 3   7  7i  z 2   2  30i  z  32  16i
+ a) Calculer P  2i                                                                                                    0.5pt
+ b) Déterminer les nombres complexes a et b tels que pour tout z , on a :                                               0.5pt
+    P  z    z  2i   z 2  az  b 
+ c) Résoudre, dans l’ensemble des nombres complexes, l’équation P  z   0                                             0.5pt
+                                                                  
+ 2° Dans le plan complexe muni d’un repère orthonormé direct  O;u, v  . On considère
+ les points A , B et C d’affixes respectives : z A  3  i , z B  2i et z C  4  4i .
+                                                      
+ a) Placer les points A, B et C dans le repère  O;u, v                                                                1pt
+ b) Déterminer la nature du triangle ABC                                                                                0.5pt
+ c) Déterminer l’affixe z D du point D tel que ABDC soit un parallélogramme. Placer D.                                  0.5pt
+                                                                          z  2i
+ 3° Pour tout nombre complexe z  3  i ; on pose : f (z)                         .
+                                                                        z  4  4i
+ a) Vérifier que f  z D    i et interpréter graphiquement.                                                          0.5pt
+ b) Déterminer et construire l’ensemble  1 des points M du plan d’affixe z tels que 0.5pt
+      f z  1
+ c) Déterminer et construire l’ensemble  2 des points M du plan d’affixe z tels que 0.5pt
+      f (z)  1  2
+ 4° On pose z 0  f  6  et pour tout entier naturel n on note z n  z n0
+                                                                                 
+                                                                             i
+ a) Ecrire z 0 sous forme algébrique, puis vérifier que z 0  2e 4 .                                                    0.5pt
+
+Baccalauréat 2020        Session Normale       Epreuve de Mathématiques              Série Sciences de la Nature              1/2
+ b) Déterminer la plus petite valeur de l’entier naturel n telle que z n  2020.                            0.25pt
+ c) Vérifier que le point d’affixe z 2020 appartient à l’axe des abscisses.                                 0.25pt
+
+Exercice 3 : (4 points)
+ Soit f la fonction définie sur  par : f (x)  x  2  e  x et soit (C) sa courbe représentative
+                                   
+ dans un repère orthonormé (O; i, j) .
+ 1° a) Justifier que lim f (x)   et lim (f (x)  (x  2))  0                                             0.5 pt
+                           x                 x 
+
+ b) En déduire que la droite    d’équation y  x  2 est asymptote à la courbe (C) puis
+                                                                                                             0.75 pt
+ étudier leur position relative.
+                              xe x  2e x  1          f (x)       2 1
+ 2° a) Montre que f (x)              x
+                                              et que           1  x                                       0.5 pt
+                                    e                     x        x xe
+                                                         f (x)
+ b) En déduire que lim f (x)   et que lim                     . Interpréter graphiquement              0.75 pt
+                        x                      x  x
+
+ 3° Justifier que f   x   1  e x et dresser le tableau de variation de f .                             0.5 pt
+ 4° a) Montrer que l’équation f (x)  0 admet deux solutions  et  avec    puis
+                                                                                                             0.5 pt
+ vérifier que 1, 8    1, 9 .
+ b) Justifier que f        1                                                                          0.25 pt
+                                                                                  
+ 5° Construire la courbe (C) et son asymptote    dans le repère (O; i, j) .                               0.25 pt
+
+Exercice 4 : (7 points)
+                                               f (x)  x  x ln x x  0
+ Soit f la fonction définie sur  0, par : 
+                                               f (0)  0                
+ et soit ( ) sa courbe représentative dans un repère orthonormé (O,i, j) .
+ 1°a) Calculer lim f (x) et en déduire que f est continue en 0  .                                          0.75pt
+                    x 0
+                     f (x)  f (0)
+ b) Calculer lim                  et interpréter graphiquement.                                             0.5pt
+               x0       x0
+                                                  f (x)
+ c) Montrer que lim f (x)   et que lim                 puis interpréter graphiquement.                 1 pt
+                   x                      x  x
+
+ 2° Calculer f  x et dresser le tableau de variation de f.                                                1 pt
+ 3° a) Déterminer les points d’intersection de la courbe  avec l’axe des abscisses.                       1pt
+ b) Donner une équation de la tangente (T) à    au point d’abscisse e .                                   0.5pt
+ 4° Soit g la restriction de f sur l’intervalle I  1,  .
+ a) Montrer que g est une bijection de I sur un intervalle J que l’on déterminera.                           0.5pt
+                            
+ b) Montrer que  g 1   0    1 où g 1 est la réciproque de g.                                         0.5pt
+                                                            
+ c) Construire (T) ,    et    dans le repère O, i , j  ,    étant la courbe représentative
+                                                                                                             0.5pt
+ de g1 .
+ d) Discuter graphiquement, suivant les valeurs du paramètre réel m, le nombre de
+                                                                                                             0.25pt
+ solutions de l’équation 2x  x ln x  m
+                                                                                      e
+ 5° a) Utiliser une intégration par parties pour calculer l’intégrale A   x ln xdx .                       0.25pt
+                                                                                      1
+ b) En déduire l’aire du domaine plan délimité par la courbe ( ) , l’axe des abscisses et
+                                                                                           0.25pt
+ les droites d’équations x  1 et x  e .
+
+                                                               Fin
+
+
+
+
+Baccalauréat 2020             Session Normale           Epreuve de Mathématiques   Série Sciences de la Nature      2/2
+

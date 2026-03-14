@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "vault": {
+      "command": "python3",
+      "args": ["/home/med/Documents/bac/resources/notes/vault-mcp-server.py"],
+      "env": {
+        "VAULT_PATH": "/home/med/Documents/bac/resources/notes/Study-Vault"
+      }
+    }
+  }
+}

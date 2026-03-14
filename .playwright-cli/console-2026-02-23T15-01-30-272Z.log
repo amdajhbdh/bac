@@ -1,0 +1,10 @@
+[   16942ms] [WARNING] jQuery.Deferred exception: Cannot read properties of undefined (reading 'length') TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[   16978ms] TypeError: Cannot read properties of undefined (reading 'length')
+    at updateCharCount (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:17:38)
+    at HTMLDocument.<anonymous> (https://rimbac.com/wp-content/plugins/error-reports/js/error-reports.js:132:5)
+    at e (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://rimbac.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330)

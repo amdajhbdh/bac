@@ -1,0 +1,6672 @@
+# Joussour SN 7D7C 2024
+
+**Source:** Joussour SN 7D7C 2024.pdf
+**Category:** Biology
+**Extracted:** 2026-03-08
+
+---
+
+                                                 SUJET 1
+I- Maitrise des connaissances
+1-QCM : Choisir la bonne réponse :
+  1- L'hypotension est corrigée par une                .
+  augmentation de la fréquence des PA au               4- Dans le cas d'une anomalie autosomale
+  niveau des nerfs :                                   récessive :
+  a- de Cyon ;                                         a- ne s'observe dans la descendance de parents
+  b- de Héring ;                                       sains que s'ils sont hétérozygotes l'un et l'autre ;
+  c- parasympathiques ;                                b- un couple normal ne donne jamais des enfants
+  d- sympathiques cardiaques.                          malades ;
+  2- Lors de la régulation de la pression              c- le garçon malade hérite la maladie de sa
+  artérielle, l'angiotensine agit en :                 mère seulement ;
+  a- diminuant la volémie ;                            d- est beaucoup plus fréquente chez les garçons.
+  b- inhibant la sécrétion d'aldostérone ;             5- Une maladie liée au sexe :
+  c- augmentant le diamètre des artérioles ;           a- correspond à l’expression d'un allèle porté par
+  d- augmentant la sécrétion d'adrénaline.             le chromosome X seulement ;
+  3-Expérimentalement, la baisse de la                 b- est plus fréquente chez les garçons que chez
+  pression artérielle peut être obtenue suite à        les filles ;
+  a- l'inhibition du nerf X ;                          c- atteint les garçons et les filles dans les mêmes
+  b- l'injection d'aldostérone.                        proportions ;
+  c- la stimulation des nerfs de Cyon et de Héring.    d- n'affecte un garçon que si son père est porteur
+  d- une lésion au niveau du centre bulbaire           de l’allèle responsable.
+  vasomoteur
+
+2-QROC
+Chez le mais, au moment de la fécondation, le tube pollinique qui entre
+dans le pistil renferme trois noyaux (A, B, C). D’autre part le sac
+embryonnaire renferme 8 noyaux (1, 2, 3. 4, 5, 6, 7, 8) (document ci-contre).
+1. Lesquelles des combinaisons suivantes : ABC, 45C, A6. 768. BC6,
+12C. B6, 123 donneront :
+a- l’œuf embryon ?
+b- l’œuf albumen ?
+2 - Comparer les deux combinaisons choisies du point de vue
+chromosomique.
+3 - De ces deux œufs, lequel donnera la plantule dans la graine mûre ? Pourquoi ?
+
+II- Compétences méthodologiques
+Exercice 1
+On se propose d'étudier certains aspects de la reproduction humaine. Deux femmes M et N ont consulté
+leur médecin pour cause d'absence de
+menstruation. Le document 1 montre les résultats
+de dosages des hormones ovariennes chez
+chacune des 2 femmes durant 30 jours.
+1- En justifiant les réponses :
+a) indiquez si ces résultats justifient l'absence des
+règles ?
+b) peut - il s'agir d'une grossesse ?
+2- Le document 2 montre les résultats de dosages de deux hormones hypophysaires : FSH et LH chez
+ces deux femmes ainsi que chez une femme normale.
+Le tableau indique les valeurs moyennes pour une durée de 28 jours en (UI/L).
+
+
+
+
+Sciences Naturelles                 Jossour pour réussir le BAC (SN et M)                              IGEN
+                      Document 2 Femme M            Femme N Femme normale
+                      FSH             92            4            32
+                      LH              60            3            30
+a) Comparez les résultats de dosages de ces 2 hormones hypophysaires chez M et chez N par rapport
+à la femme normale.
+b) Proposez pour chacune d'elles (M et
+N) deux hypothèses expliquant à la fois
+l'état de sécrétion des hormones
+ovariennes et hypophysaires.
+3- Le document 3 montre des schémas
+d'interprétation         d'échographies
+ovariennes réalisées chez une femme
+normale et chez les deux femmes M et
+N.
+a) Comparez la structure des ovaires des femmes M et N par rapport celle
+de la femme normale.
+b) Pour quelle femme le résultat de l’échographie ovarienne vient-il de
+préciser la cause de l’anomalie ? Expliquez.
+4- Afin de préciser la cause de l'anomalie chez l'autre femme, on pratique
+un test hormonal par I 'injection d'une dose unique de 100 µg de GnRH.
+Le document 4 montre les résultats obtenus.
+Analysez les résultats obtenus en vue de déduire la cause de l'anomalie
+de la femme restante.
+
+Exercice 2
+Pour comprendre les caractéristiques de la transmission neuroneuronique, on réalise des séries
+d'expériences sur des structures nerveuses isolées et
+placées dans un liquide physiologique contenant des ions
+calcium comme le présente le document 1.
+- Première série d’expériences :
+Le document 2 présente des expériences réalisées sur les
+neurones N et N. ainsi que les enregistrements obtenus au
+niveau des oscilloscopes O1, O2 et O3.
+1) A partir de l’analyse du document 2 et en faisant appel à
+vos connaissances :
+a- déduisez la nature des synapses N1-M el N2-M.
+b- dégagez une propriété commune des potentiels enregistrés.
+c- déterminez en justifiant votre réponse, le nombre minimal de stimulations efficaces mobilisant les deux
+synapses N1-M el N2-M pour obtenir un
+potentiel d'action au niveau de
+l'oscilloscope O3.
+2) A partir des informations précédentes,
+expliquez le rôle du neurone M.
+- Deuxième série d'expériences :
+Trois neurotoxines T1 T2 et T3 sont
+utilisées pour étudier le mécanisme du
+fonctionnement de la synapse N2-M.
+Pour cela on remplace le liquide physiologique du document 1 par un liquide physiologique contenant
+des ions calcium radioactifs puis on porte la stimulation St2 dans trois conditions expérimentales
+différentes. Ensuite
+
+
+
+
+Sciences Naturelles                Jossour pour réussir le BAC (SN et M)                             IGEN
+- on enregistre les phénomènes
+électriques au niveau des
+oscilloscopes O et O2.
+- on cherche la radioactivité dans
+l'élément présynaptique.
+- on dose le GABA dans la fente
+synaptique N2-M.
+Les expériences et les résultats
+obtenus sont présentés par le
+document 3.
+3) A partir de l'exploitation du
+document 3 et en faisant appel à vos
+connaissances :
+a- expliquez les résultats obtenus et
+dégagez l'effet de chacune des
+neurotoxines T1, T2 et T3
+b- expliquez le mécanisme du
+fonctionnement de la synapse N2-M.
+
+Exercice 3
+Le document ci-contre présente deux schémas d'interprétation de deux cellules immunitaires X et Y
+intervenant dans la réponse immunitaire spécifique.
+1) Identifiez, en justifiant votre réponse, les cellules X et Y.
+2) Précisez la nature de cette repense immunitaire spécifique.
+3) Précisez la relation entre X et Y.
+4) Relevez les particularités structurales de la cellule Y en rapport avec
+sa fonction.
+5) Réalisez un schéma légendé de la molécule secrétée par la cellule Y.
+
+Exercice 4
+On se propose d'étudier le mode de transmission de deux couples d'allèles chez la drosophile.
+- un couple d'allèles (vg+, vg) contrôlant la taille des ailes" avec
+* vg+ détermine le phénotype « ailes longues » ;
+* vg détermine le phénotype « ailes vestigiales ».
+- un couple d allèles (bw+, bw) contrôlant la couleur des yeux avec
+* bw+ détermina le phénotype « yeux rouges » ;
+* bw détermine le phénotype « yeux bruns ».
+1) Sachant que vg+ domine vg et bw+ domine bw, proposez un croisement qui permet de déterminer la
+relation de dominance entre les allèles de chaque couple.
+On réalise le croisement suivant : des drosophiles femelles d’une souche S aux ailes longues et aux
+yeux rouges sont croisées avec des mâles aux ailes vestigiales et aux yeux bruns.La descendance
+obtenue est composée de :
+- 32 % drosophiles aux ailes longues et aux yeux rouges ;
+- 32 % drosophiles aux ailes vestigiales et aux yeux bruns ;
+- 18 % drosophiles aux ailes longues et aux yeux bruns ;
+- 18 % drosophiles aux ailes vestigiales el aux yeux rouges.
+2) Analysez le résultat de ce croisement en vue
+a- de préciser si les deux couples d’allèles sont liés ou indépendants.
+b- d’écrire le génotype de la femelle de la souche S.
+3) Schématiser le comportement des chromosomes aboutissant à la formation des gamètes chez les
+femelles de S.
+4) Déterminez le pourcentage des phénotypes issus d’un croisement entre deux drosophiles de la
+souche S.
+
+Sciences Naturelles               Jossour pour réussir le BAC (SN et M)                       IGEN
+                                               CORRIGE 1
+I- Maitrise des connaissances
+1- QCM
+                       Item                1       2          3       4        5
+                       Réponse             d       c          c       a        b
+2- QROC
+1 -a- Œuf-embryon : B6 ;
+    b- Œuf-albumen : 45C.
+2. -Œuf -embryon (B6) 2n chromosomes (diploïde).
+- Œuf-albumen (45C) = 3n chromosomes (triploïde).
+3 - C'est l'œuf embryon (B6) qui donnera la plantule dans la graine mûre, car la diploïdie est
+caractéristique de l'espèce tandis que l'œuf albumen (triploïde) donnera un tissu de réserve (albumen).
+
+II- Compétences méthodologiques
+Exercice 1
+1-a- D’après le document 1, les taux des hormones ovariennes chez ces femmes sont nuls durant 30
+jours.
+En absence d’hormones ovariennes, l’endomètre ne subit aucun développement remarquable ; ce qui
+explique la disparition des menstruations par arrêt du cycle utérin.
+b- S’il s’agit d’une grossesse, alors le taux des hormones doit être élevé., surtout la progestérone qui est
+une hormone gestative ; ce qui n’est pas le cas d’après le document 1 : M et N ne sont pas enceintes.
+2-a- Par rapport à la femme normale ayant une sécrétion de 32UI/l de FSH et de 30UI/l de LH :
+- la femme M montre une hypersécrétion de ces hormones.
+- la femme N souffre d’une hyposécrétion de ces hormones : le 1/8 de FSH et seulement 1/10 de LH.
+b- Femme M : Hypothèse 1 : Epuisement des follicules ovariens : Etat de ménopause.
+Hypothèse 2 : Problème au niveau de l’ovaire devenu insensible aux gonadostimulines.
+Femme N : Hypothèse 1 : Dysfonctionnement de l’hypothalamus.
+                Hypothèse 2 : Dysfonctionnement de l’hypophyse.
+3-a- Comparaison :
+              Femmes               Normale                    M                          N
+       Ressemblances            Zone médullaire normale, riche en vaisseaux sanguins
+             Taille de l’ovaire Normale           Légèrement atrophié       Atrophié
+
+
+      Différences
+                                                  Présence de follicules Présence uniquement de
+             Contenu de la Folliculogenèse
+                                                  primordiaux, primaires follicules primordiaux et
+             zone corticale     normale
+                                                  et tertiaires             primaires
+b- Le résultat d’échographie précise l’anomalie de la femme M, celle-ci n’ayant aucun follicule ovarien
+est ménopausée. Ceci explique le taux nul des hormones ovariennes.
+La sécrétion massive de FSH et de LH est due à la levée du RC- exercé préalablement par l’ovaire.
+4- Analyse :
+- Avant injection de GnRH, les taux de FSH et de LH sont constants à 4 et 3 UI/l.
+- 5mn après injection de GnRH, le taux de FSH augmente progressivement 8UI/l en 70mn, celui de LH
+augmente mais plus rapidement à 9UI/l en 25 mn puis continue d’augmenter légèrement.
+Conclusion : D’après ce test à la GnRH, l’hypophyse de la femme N fonctionne correctement ; donc
+l’anomalie de cette femme se situe au niveau de l’hypophyse.
+
+Exercice 2
+1) La stimulation St1 au niveau de N1 engendre en O1 et 03 des dépolarisations. Il s’agit de PPSE
+d'amplitude 9 mv en O1 et 6 mv en O3 alors qu’elle n'a pas d'effet en O2 (PR).
+La stimulation St2 au niveau de N2 engendre en O2 et O3 des hyperpolarisations. Il s’agit de PPSI
+d'amplitude 8 mv en O2 et 4 mv en O3 alors qu’elle n'a pas d’effet en O1 (PR).
+a- La synapse N1-M est excitatrice.
+b- La synapse N2-M est inhibitrice.
+c- Le PPSE et le PPSI se propagent en diminuant d'amplitude (potentiel à décrément spatial) :
+Sciences Naturelles                 Jossour pour réussir le BAC (SN et M)                              IGEN
+St1 donne au niveau de l’oscilloscope O3 un PPSE d’amplitude 6 mv [-64 -(-70)].
+St2 donne au niveau de l’oscilloscope O3 un PPSI d'amplitude 4 mv [-74 - (-70)].
+On porte 4 stimulation rapprochées St1 simultanément avec une stimulation St2, on enregistre, par
+sommation spatiotemporelle au niveau de l’oscilloscope O3, Un PPS global d'amplitude 20 mv [(6x4] - 4]
+et par suite un PA.
+2) Le neurone postsynaptique M a la capacité d’intégrer les informations qui lui parviennent des neurones
+présynaptiques par sommation temporelle et spatiale des PPS.
+3- a- Expérience 1 : Suite à la stimulation St2,
+- On enregistre au niveau de l'oscilloscope O un PA et au niveau de l’oscilloscope O2 un PPSI.
+- La présence de la radioactivité indique l’entrée des ions Ca2+ dans l’élément présynaptique.
+- Un taux de GABA de 1,5 mmole /l indique son exocytose dans la fente synaptique.
+Expérience 2 : Suite à l’addition de T1 suivie de la stimulation St2 :
+- On enregistre au niveau de l’oscilloscope O un PA et au niveau de l’oscilloscope O2 un PR.
+ - L’absence de la radioactivité au niveau de l’élément présynaptique explique l'absence de l’entrée de
+Ca2+.
+- Un taux de G AB A nul dans la fente synaptique indique l'absence de l'exocytose du neurotransmetteur
+GABA.
+Expérience 3 : Suite à l'injection de T2 suivie de la stimulation St2 :
+- On enregistre au niveau de l’oscilloscope O un PA et au niveau de l’oscilloscope O2 un PR.
+- La présence de la radioactivité indique l’entrée des ions Ca2+ dans l’élément présynaptique.
+- Un taux de GABA nul dans la fente indique l'absence d’exocytose du neurotransmetteur GABA.
+Expérience 4 : L’injection de T3 suivie de la stimulation St2 :
+- On enregistre au niveau de l’oscilloscope O un PA et au niveau de l’oscilloscope O2 un PR.
+- La présence de la radioactivité indique l’entrée des ions Ca2+ dans l’élément présynaptique.
+- Un taux de GABA de 1,5 mmole/L indique son exocytose dans la fente synaptique.
+- Malgré la présence du GABA dans la fente synaptique, on enregistre un PR en O 2 ; donc les CCD
+restent fermés.
+Effet de chacune des neurotoxines :
+     - T1bloque l'ouverture des CVD à Ca2+.
+     - T2 bloque l'exocytose du GABA.
+     - T3 occupe des récepteurs du GABA au niveau de la membrane postsynaptique.
+b- Le mécanisme du fonctionnement de la synapse N2-M
+- Arrivé du message nerveux dans l'élément présynaptique de N2, ce qui entraine l’ouverture des canaux
+calciques voltage-dépendants et l’entrée des ions Ca2+ qui active la libération du GABA par exocytose ;
+- Fixation du GABA sur les récepteurs spécifiques de la membrane postsynaptique ;
+- Ouverture de canaux ioniques chimio-dépendants et entrée des ions Cl- dans le zone postsynaptique
+M.
+
+Exercice 3
+1- Voir tableau suivant :
+                     Cellules        Justification
+                          X          Présence d’immunoglobuline de surface.
+                          Y          Réticulum endoplasmique développé.
+2- RIMH.
+3- La cellule Y provient de la différenciation de la cellule X.
+4- Voir tableau suivant :
+
+
+
+
+Sciences Naturelles                Jossour pour réussir le BAC (SN et M)                            IGEN
+                      Particularités structurales                                    Fonction
+ Noyau volumineux
+ Réticulum endoplasmique développé                                         Synthèse         d’anticorps
+ Cytoplasme riche en mitochondries                                         (protéines).
+ Membrane présentant des figures d’exocytose
+5- Schéma d’un anticorps IgG :
+
+
+
+
+Exercice 4
+1) On croise deux drosophiles de lignées pures, l’une aux ailes longues et aux yeux rouges et l’autre aux
+ailes vestigiales et aux yeux bruns. On obtient une descendance F1 homogène aux ailes longues et aux
+yeux rouges. .
+2) – Il s’agit d’un croisement entre une souche S [vg+ ; bw+] de phénotype double dominant avec un mâle
+de phénotype double récessif [vg ; bw]. Ce croisement est un test-cross la descendance obtenue montre
+4 phénotypes dont les proportions sont différentes de 1/4, 1/41/4, ¼ : ces deux gènes qui contrôlent ces
+deux caractères sont partiellement liés.
+- les fréquences des descendants de phénotypes parentaux qui sont majoritaires correspondent aux
+descendants de phénotypes [vg+ ; bw+] et [vg ; bw]. D’où le génotype de S est : vg+bw+//vgbw.
+3)
+
+
+
+
+4) Femelle de souche S X mâle de souche S :
+• La femelle produit 4 types de gamètes par crossing-over :
+Sciences Naturelles                Jossour pour réussir le BAC (SN et M)                            IGEN
+32% [vg+ ; bw+] ;32% [vg ; bw] ; 18% [vg+ ; bw] ; 18% [vg ; bw+].
+• Le mâle produit deux types de gamètes : 50% [vg+ ; bw+] et 50% [vg ; bw].
+Le résultat :
+
+
+
+
+Les pourcentages des phénotypes :
+66% [vg+ ; bw+] ; 16% [vg ; bw]; 9% [vg+ ; bw] ; 9% [vg ; bw+].
+
+
+
+
+Sciences Naturelles               Jossour pour réussir le BAC (SN et M)       IGEN
+                                                SUJET 2
+I- Maitrise des connaissances
+1-QCM :
+Pour chacun des items suivants, indiquez la (les) réponse(s) exacte(s).
+1. Les organes sexuels d’une fleur sont :
+   a) les pétales.
+   b) les étamines.
+   c) les sépales.
+   d) le pistil.
+2. Le grain de pollen :
+   a) donne naissance à un tube pollinique.
+   b) est dans le pistil.
+   c) contient les gamètes mâles.
+   d) est contenu dans les sacs polliniques.
+3. La fécondation :
+   a) a lieu en dehors de la fleur.
+   b) conduit à la formation d’une cellule-œuf.
+   c) est assurée par un gamète mâle mobile.
+   d) permet la transmission de la totalité du patrimoine génétique.
+4. La cellule-œuf des végétaux à fleurs :
+   a) se développe dès sa formation.
+   b) est contenue dans une graine.
+   c) engendre le nouvel individu lorsque la graine peut germer.
+   d) peut résister aux mauvaises conditions climatiques.
+5. La graine :
+   a) est un organe reproducteur de la plante.
+   b) contient l’embryon du futur individu.
+   c) est un organe qui permet la dissémination de l’espèce.
+   d) peut être disséminée par le vent.
+
+II- Compétences méthodologiques
+
+Exercice 1
+On se propose d’étudier quelques aspects de la reproduction féminine.
+A. Le document 1 montre l’évolution de la sécrétion de 3 hormones H1, H2 et H3 chez une femme
+F1.
+Le document 2 montre l’évolution de la sécrétion des mêmes hormones H1 et H2 chez une autre
+femme F2.
+
+
+
+
+1. Identifiez les événements E1, E2 et E3 mentionnés par des flèches dans le document 1 chez la
+   femme F1.
+2. En justifiant la réponse, reconnaissez les hormones H1, H2 et H3.
+
+
+Sciences Naturelles                Jossour pour réussir le BAC (SN et M)                          IGEN
+3. Sachant que la femme F2 ne souffre d’aucun problème de stérilité, quelle hypothèse proposez-
+   vous pour expliquer ses profils de sécrétion de H1 et H2 ? Justifiez - vous.
+4. À partir de vos connaissances, comparez l’état de développement de l’endomètre chez les deux
+   femmes aux moments mentionnés par des flèches sur les deux documents (moment1 et
+   moment 2).
+Justifiez les différences.
+
+B. Le document 3 suivant montre deux structures A
+et B observables à deux périodes de temps
+différentes dans les voies génitales de la femme F1.
+
+1. Identifiez les structures A et B et complétez leurs
+   légendes.
+2. À quels jours approximatifs du document 1 se
+   situe chacune de ces structures ?
+Justifiez - vous en mettant en relation les deux structures.
+Afin de déterminer le rôle de certaines cellules de la structure A, on réalise l’expérience suivante :
+
+On injecte à une guenon vers la fin de son cycle, un filtrat
+purifié du broyat de plusieurs cellules n°1 et on dose le
+taux de l’hormone H2 chez cette guenon. On obtient le
+tracé du document 4 suivant :
+3. Analysez la courbe du document 4 en vue d'expliquer le
+profil de H2 après l’injection.
+4. En intégrant l’ensemble des informations, et en faisant
+appel à certaines de vos connaissances, faites un schéma fonctionnel montrant les interactions
+hormonales entre les organes suivants :
+"Complexe hypothalamo-hypophysaire" - "Structure A" - "Ovaires" - "Utérus (endomètre + myomètre)” et
+ce dans les jours qui suivent le moment 1 du document 1.
+Exercice 2
+On se propose de déterminer le rôle attribué à un neurone postsynaptique M dans la transmission du
+message nerveux. Pour se faire, un
+dispositif expérimental représenté
+dans le document 1 a été utilisé.
+On porte des stimulations de même
+intensité I1 et I2 respectivement sur
+les terminaisons nerveuses A et B
+(voir document 1). Les
+enregistrements obtenus au niveau des oscilloscopes O1, O2, O3 et O4 sont résumés dans le document
+2.
+
+
+
+
+Sciences Naturelles                 Jossour pour réussir le BAC (SN et M)                                IGEN
+                                                                          1. Dites si les stimulations I1
+                                                                          et I2 sont efficaces ou non.
+                                                                          2. Identifiez, en justifiant votre
+                                                                          réponse, les tracés a et b
+                                                                          obtenus au niveau de
+                                                                          l’oscilloscope O3.
+                                                                          3. Déduisez la nature des
+                                                                          synapses A-M et B-M.
+                                                                          4. Expliquez pourquoi on a
+                                                                          enregistré un potentiel de
+                                                                          repos au niveau de
+                                                                          l’oscilloscope O4 quelle que
+                                                                          soit la stimulation (I1 ou I2)
+                                                                          portée sur la terminaison
+nerveuse A ou B.
+5. En utilisant le même dispositif expérimental représenté par le document 1 :
+a. Proposez une première expérience permettant d’obtenir un potentiel d’action au niveau de
+l’oscilloscope O4 en appliquant un nombre minimal de stimulations efficaces sur l’une des deux
+terminaisons nerveuses A ou B. Justifiez votre choix.
+b. Proposez une deuxième expérience permettant d’obtenir le même résultat en activant les deux
+terminaisons nerveuses A et B par un nombre minimal de stimulations efficaces. Justifiez votre choix.
+c. Schématisez, dans chaque proposition, les enregistrements attendus au niveau des oscilloscopes
+O1, O2, O3 et O4.
+6. En exploitant les résultats des expériences précédentes et en faisant appel à vos connaissances,
+expliquez le rôle attribué au neurone postsynaptique M dans la transmission du message nerveux.
+
+Exercice 3
+On se propose d’étudier les modes de transmission de trois maladies héréditaires M1. M2 et M3 chez trois
+familles F1, F2 et F3. Le
+document 1a représente les
+arbres généalogiques des
+trois familles.
+Le document 1b résume les
+modes de transmission de
+trois maladies.
+1) Faites correspondre la maladie présente dans chacune des familles F1, F2 et F3 à son mode de
+transmission M1, M2 ou M3. Justifiez votre réponse.
+2) Le document 2 représente le résultat de l'électrophorèse de l'ADN du gène responsable de la maladie
+de l'un des trois fœtus appartenant respectivement aux familles F1, F2 et F3.
+En vous basant sur les données des documents 1 et 2, déterminez
+a- le (ou les) fœtus auquel (auxquels) peut correspondre ce résultat.
+b- l'état de santé et le sexe de ce(s) fœtus.
+3) Le document 3 représente le caryotype du fœtus recherché. Exploitez les
+informations des documents 1, 2 7 et 3 en vue d'identifier la famille à laquelle
+appartient ce fœtus.
+4) Précisez I ’allèle responsable de la maladie, sachant que
+- les génotypes des deux sœurs de ce fœtus présentent l'allèle A1.
+- ce fœtus et son frère sont de génotypes différents.
+5) Ecrivez les génotypes de ce fœtus de son frère et de ses sœurs.
+
+
+
+
+Sciences Naturelles               Jossour pour réussir le BAC (SN et M)                               IGEN
+                                                   Corrigé 2
+
+Exercice 1
+A-1-                                  E1              E2           E3
+                                  Ovulation       Fécondation Nidation
+
+
+2-        Hormone       Justification                                               Conclusion
+                        Sécrétion faible, sauf un pic important la veille de        LH
+          H1
+                        l’ovulation
+                        Pas de sécrétion pendant la phase folliculaire.             Progestérone
+          H2            Sécrétion croissante à partir de 14ème Jour.
+                        Présence d’un pic au 21ème Jour.
+          H3 3-         Sécrétion à partir de la nidation                           HCG
+ Analyse                                                  Conclusion
+ Chez la femme F2, on observe une menstruation            Hypothèse : La femme F2 est sous pilule
+ tous les 28 jours, donc son cycle ovarien se             combinée.
+ déroule normalement, et n'a pas un problème de           Ainsi, la sécrétion de LH très faible peut résulter
+ stérilité.                                               d’un rétrocontrôle négatif permanent et la
+ La sécrétion de LH est très faible, avec absence         sécrétion de progestérone très faible prouve
+ de pic.                                                  l'arrêt du cycle ovarien.
+ La sécrétion de progestérone est presque nulle.
+         4-
+
+                                     Femme 1                                         Femme 2
+                  Au moment 1, l’endomètre est bien                 Au moment 2, l’endomètre est développé
+   Etat de
+                  développé, montre une dentelle utérine            de façon anormale (anarchique),
+l’endomètre
+                  favorable à la nidation.                          défavorable à la nidation.
+                  L’endomètre a été développée et sensibilisée      L’endomètre subit dès le début du cycle
+                  d’abord par les œstrogènes puis la                l’action combinée des hormones de
+Justification     progestérone renforce ce développement et         synthèse ce qui conduit au
+                  assure la dentellisation.                         développement anormal. C'est l'effet anti-
+                                                                    nidatoire de la pilule combinée.
+B. 1-
+
+- Structure A = Blastocyste                      - 1= Trophoblaste
+- Structure B = Formation et                     - 2= 1er globule polaire
+rapprochement des pronucléi                      - 3= 2éme globule polaire
+                                                 - 4= Pronucléus femelle
+                                                 - 5= Pronucléus mâle
+          2-
+
+Structu    Période                            Justification
+re
+           Du jour 14 au jour 16 environ, Dans les 48 heures qui suivent l'ovulation se passe la
+     B     du cycle                       fécondation. Ainsi la structure B devient un zygote par la fusion
+                                          des deux pronuclei : mâle et femelle.
+           Vers le jour 21. La nidation   Ce zygote entame sa 1ère mitose et donne un embryon à deux
+           se passe environ 7 jours       cellules. Les mitoses se succèdent et l'embryon progresse dans
+     A
+           après la fécondation.          la trompe en direction de l'utérus, il devient morula puis
+                                          blastocyste (structure A).
+
+
+Sciences Naturelles                   Jossour pour réussir le BAC (SN et M)                               IGEN
+3.
+
+Analyse                                              Conclusion
+- Avant l'injection du filtrat du broyat des         Suite à l'injection du filtrat du broyat des
+structures A, le taux de progestérone H2 croit à     structures A au J-0, l'augmentation de
+partir de J-10 et atteint un pic de 24ng/ml au J-3   progestérone s'explique par l'existence d'un
+puis commence à chuter 15 ng/ml le J-0.              facteur hormonal dans le filtrat ; il s'agit de la
+- Suite à l'injection du filtrat du broyat des       HCG secrétée par le trophoblaste. Cette
+structures A au J-0, le taux de progestérone         hormone agit sur le corps jaune et stimule son
+augmente de nouveau et atteint un pic au J-6         activité (sécrétion de progestérone). La chute
+de 30 ng/ml, puis diminue de nouveau et atteint      de progestérone après le jour 6 s'explique par
+20 ng/ml le J-19.                                    l'épuisement de la HCG injectée.
+ 4. Schéma fonctionnel :
+
+
+
+
+Exercice 2
+
+1- I1 et I2, stimulations efficaces car il y a enregistrements de potentiels post synaptiques.
+2- Identification des tracés :
+· Le tracé a est une légère dépolarisation d’amplitude 10 mv qui rapproche le neurone postsynaptique
+de la valeur seuil (-50mv) : c’est un PPSE
+· L’enregistrement b est une hyperpolarisation d’amplitude 8 mv faisant éloigner le neurone
+postsynaptique de la valeur seuil : c’est un PPSI
+3- Nature des synapses :
+_ La synapse A-M : synapse excitatrice.
+_ La synapse B-M : synapse inhibitrice.
+4- Quelle que soit la stimulation efficace I1 ou I2 portée sur la terminaison nerveuse A ou B, on
+enregistre au niveau du cône axonique (O3) un PPS qui n’arrive pas à O4.
+5-a-
+*une seule stimulation I1 => PPSE d’amplitude 10 mv, incapable d’engendrer un PA au niveau du cône
+axonique.
+D’où l’absence de PA au niveau de O4.
+* deux stimulations I1 efficaces, successives et rapprochées au niveau de A par sommation temporelle
+=> Le PPSE global d’amplitude 20 mv atteint le seuil et déclenche la naissance d’un PA au niveau du
+cône axonique du neurone M.
+Ce PA se propage jusqu’ à O4.
+b- On stimule simultanément les neurones A et B de la manière suivante :
+- 3 stimulations efficaces et rapprochées de A ;
+- une seule stimulation efficace de B.
+Résultat : Le PPS global serait d’amplitude +30 - 8 = 22 mv => dépolarisation obtenue par sommation
+spatio-temporelle de deux PPSE et d’un PPSI permettant l’atteinte de la valeur seuil -70+22 = -48 mV
+=> naissance d’un PA au niveau de O3 qui se propage jusqu’à O4.
+c- Enregistrements :
+
+
+
+Sciences Naturelles                 Jossour pour réussir le BAC (SN et M)                                 IGEN
+6-Le neurone postsynaptique M a la capacité d’intégrer les informations qui lui parviennent des
+neurones présynaptiques par sommation temporelle et spatiale des PPS. Si la somme algébrique des
+PPS obtenue atteint le seuil au niveau du cône axonique, il y a naissance et propagation d’un message
+nerveux. Dans le cas contraire, aucun message ne prend naissance.
+
+Exercice 3
+1-
+          Familles                       F1                   F2                            F3
+ Mode de transmission de
+                                         M2                   M3                            M1
+ la maladie
+                                   Les deux           - Le fils du père       - Une fille atteinte doit avoir un
+                                   parents            atteint est atteint     père atteint.
+  Justification                    atteints ont       - Aucune fille n’est    - Le garçon atteint provient
+                                   eu un enfant       atteinte.               d'une mère vectrice
+                                   sain
+2- a- Le document 2 : Le fœtus présente les deux formes alléliques A1 et A2. Il pourrait appartenir à F1
+ou à F3 car si le fœtus appartenait à F2, il ne devrait présenter qu’une seule forme allélique car la famille
+est touchée par une maladie portée par Y (document 1).
+b- Si le fœtus appartenait à F1, il serait malade de sexe féminin ou masculin.
+- Si le fœtus appartenait à F3, il serait une fille saine.
+3- Document 2 : Le fœtus est hétérozygote.
+Document 3 : Le caryotype montre une paire de chromosomes XY : le fœtus sera un garçon. Il appartient
+à la famille F1.
+4- La sœur ll2 malade et présente l’allèle A1. Elle est donc hétérozygote.
+La sœur saine II1 et ayant I ‘allèle A1 est donc homozygote.
+Le frère malade II2 disposant de l’allèle A2 et il est génotypiquement diffèrent du fœtus. Il est donc
+homozygote. Comme il est malade donc l’allèle A2 est l’allèle responsable de la maladie. L’allèle A1 est
+l’allèle normal.
+5-
+  Sujets               Fœtus                   Frère malade            Sœur saine            Sœur malade
+  Génotypes            A2//A1                  A2//A2                  A1//A1                A2//A1
+
+
+
+
+Sciences Naturelles                  Jossour pour réussir le BAC (SN et M)                                 IGEN
+                                               Sujet 3
+
+Exercice 1
+Le document 1 montre l'évolution des concentrations plasmatiques de deux hormones H1 et H2 chez la
+femme.
+1/ A partir de l’analyse du graphe, quelles
+informations tirez-vous quant à l’évolution de la
+concentration plasmatique de ces deux hormones
+?
+
+2/ Donnez une explication aux variations du taux de
+chaque hormone.
+3/ Précisez le rôle de chacune de ces hormones.
+On étudie le mode d'action d'une substance que
+l’on nomme substance « S ».
+L'administration de la substance « S » à une femme en début de grossesse déclenche l'apparition des
+règles et l'expulsion de l'embryon dans les heures qui suivent.
+4/ Proposez des hypothèses expliquant le mode d’action de la substance « S ».
+5/ Pour comprendre l'action de la substance « S » on réalise des séries d'expériences.
+Trois lots de lapines reçoivent des injections de différentes hormones. Quelques jours après les utérus
+sont prélevés et des coupes transversales sont réalisées. L’observation de ces coupes transversales
+d'utérus au microscope a permis de réaliser les schémas du tableau (Document 2).
+
+            Document           Lot 1             Lot 2                       Lot 3
+            2
+            Expérience     Injection       Injection        Absorption de substance S
+                           d’œstrogène     d’œstrogène puis puis Injection d’œstrogène
+                                           de progestérone  et de progestérone
+             Résultat :
+             Coupe
+             transversal
+             e d’utérus
+                                                                 Document 2
+             après
+             traitement
+a) Comparez les résultats des lots 1 et 2 ; déduisez-en le rôle de la progestérone.
+b) Quel est le rôle de la substance « S » ainsi mis en évidence ?
+c)Dans quel(s) type(s) d’application(s) médicale(s) peut-on situer la substance S.
+
+Exercice 2
+On dispose de trois lignées de drosophiles :
+* Une lignée à ailes longues et yeux bruns
+* Une lignée à ailes vestigiales et yeux rouges
+*Une lignée à ailes vestigiales et yeux bruns.
+  Premier croisement               Drosophiles à ailes longues Drosophiles à ailes vestigiales
+                                   et yeux bruns              X       et yeux rouges
+  Résultats                        F1: 100% de drosophiles à ailes longues et yeux rouges.
+1) Quelles conclusions peut-on tirer de ce résultat ?
+2) En se limitant à ce résultat, écrivez les génotypes des parents et des individus de la F1.
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                       IGEN     14
+  2ème croisement                Mâles de la F1 X Femelle de la F1
+  Résultats                      800 drosophiles à ailes longues et yeux rouges
+                                 400 drosophiles à ailes longues et yeux bruns
+                                 400 drosophiles à ailes vestigiales et yeux rouges
+
+3) En exploitant les résultats du 2èmecroisement, précisez si les gènes sont indépendants ou liés.
+       3ème croisement            Femelle de la F1     X Mâle à ailes vestigiales et yeux bruns
+       Résultats                  35% drosophiles à ailes longues et yeux bruns
+
+4) Quelle autre information peut-on déduire à partir du résultat de ce croisement ?
+5) Prévoyez la composition phénotypique de la descendance issue du 3eme croisement, en travaillant
+sur un effectif total de 1000 individus.
+
+Exercice 4
+Le montage expérimental du document 1 représente des liaisons entre d’une part, les deux neurones
+N1 et N2 et d’autre part, le neurone N3.
+A) On porte des stimulations électriques d’intensité suffisante sur N1
+en E1E2 et sur N2 en E'1E'2. Des enregistrements sont obtenus, à
+partir d’électrodes réceptrices en O1, O2 et O3. Les résultats sont
+                                                              traduits
+                                                             par les
+
+
+
+
+                                                           enregistrements du document 2.
+
+
+
+
+1) a) Qu’obtient-on sur l’écran de chaque oscilloscope ?
+b) Que peut-on en déduire quant à la nature des différentes synapses ?
+2) Proposez une explication aux différents résultats obtenus sur l'écran de l'oscilloscope O3.
+Ce même dispositif expérimental est plongé
+dans de l'eau de mer sans Ca2+.On porte une
+stimulation électrique d'intensité suffisante sur
+N1 en E1E2 ; on obtient sur l'écran de
+l'oscilloscope O3, le même résultat que celui
+obtenu suite à la stimulation de N2 en E'1E'2.
+3) Expliquez ce nouveau résultat.
+B- Des expériences de stimulation sont portées sur le nerf sciatique d’une grenouille. Toutes les
+stimulations sont portées en un point B quelconque d’un nerf (Document 5).
+Les modalités des expériences sont portées dans le tableau ci-dessous.
+              Intensité de stimulation en mA Place de l’électrode réceptrice R sur le nerf
+              (l)                              sciatique
+  Courbe a                  0,1                            à 150 mm de B
+  Courbe b                    1                            à 150 mm de B
+  Courbe c                    1                             à 30 mm de B
+  Courbe d                    1                            à 150 mm de B
+ Les courbes a, b, c, d sont représentées dans le document 4.
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN   15
+1- a) Analyser la courbe b du document 4.
+ b) Quelles propriétés du nerf la courbe b met-elle en
+évidence ?
+ 2- Expliquer l’allure des courbes a et b de ce document.
+3- En utilisant les données des courbes c et d du
+document 4 et celles du tableau précédent, calculer la
+vitesse de conduction du nerf sciatique d’une grenouille.
+
+Exercice 5
+En 1936, Tournade et Chabrol ont effectué l'expérience suivante : Ils réalisent une anastomose
+sanguine (mise en communication de 2 vaisseaux)
+entre la veine surrénale d'un chien A et la veine
+jugulaire d'un chien B préalablement privé de ses
+glandes surrénales : ainsi, le sang quittant les glandes
+surrénales du chien A passe directement dans la
+circulation du chien B (document ci-contre, figure a).
+La pression artérielle des deux chiens est enregistrée
+dans différentes conditions expérimentales : la figure
+b du document ci-contre traduit la variation de la
+pression artérielle chez le chien B. La pression artérielle du chien A, en revanche, ne varie pas tout au
+long de l'expérience : elle est stable et sa valeur moyenne est de 16 cm de Hg.
+1°) Expliquez la différence initiale de pression artérielle (à t0) chez les deux chiens, sachant qu'avant
+toute intervention de l'expérimentateur, les deux chiens avaient une pression artérielle normale et
+semblable.
+2°) Sachant que la très faible quantité de sang passant de A vers B ne modifie pas de façon notable le
+volume sanguin de B, Interprétez la figure b du document ci-dessous afin d'expliquer les variations de
+la pression artérielle chez le chien B.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN       16
+                                               Corrigé 3
+
+Exercice 1
+1) Le document 1 traduit les variations du taux de la progestérone et de la HCG au cours d’un cycle
+sexuel normal et lors d’un cycle avec début de grossesse.
+- Le taux de la HCG est presque nul tout au long du cycle normal alors que celui de la progestérone,
+également nul pendant la phase folliculaire de ce cycle, augmente fortement pendant la phase lutéale
+avant de chuter à la veille des règles.
+- Lors du cycle avec début de grossesse, le taux de ces deux hormones est nul pendant la phase
+folliculaire. Environ dix jours après la fécondation, le taux de la HCG jusque-là nul, augmente
+régulièrement alors que celui de la progestérone, dont on observe une légère baisse ver le 24e jour de
+ce cycle, croit de nouveau régulièrement.
+2) - Lors du cycle normal, l’apparition de la progestérone qu’après l’ovulation s’explique par le fait que
+c’est une hormone sécrétée par le corps jaune. La chute du taux de cette hormone à la veille des règles
+résulte d’une dégénérescence de cette structure ovarienne en l’absence de grossesse.
+L’absence de la HCG durant ce cycle s’explique par le fait qu’aucun embryon ne s’est formé puisque
+c’est ce dernier notamment son placenta qui sécrète cette hormone.
+- Lors du cycle avec début de grossesse, c’est le placenta qui sécrète la HCG ; d’où une augmentation
+régulière de son taux. L’augmentation régulière du taux de la progestérone s’explique par le maintien
+du corps jaune gravidique sous l’effet de la HCG.
+3) La progestérone est une hormone qui pendant la phase lutéinique accentue le développement de la
+muqueuse utérine lui conférant alors l’aspect dentelé propice à la nidation et à la gestation. Elle inhibe
+également les contractions du myomètre. La HCG est une hormone qui maintient le corps jaune
+gravidique pendant les deux premiers mois de la gestation afin que ce dernier sécrète suffisamment
+de progestérone indispensable à ce phénomène.
+4) La substance S administrée à une femme en début de grossesse provoquant un avortement suite à
+un déclenchement des règles, cette substance agit donc de la manière suivante :
+Hypothèse 1 : La substance empêche l’action de la progestérone sur l’endomètre.
+Hypothèse 2 : La substance S bloque la sécrétion de la progestérone dont la chute provoque le
+déclenchement des règles.
+Hypothèse 3 : La substance S bloque la sécrétion de la HCG provoquant par la même la chute du taux
+de progestérone.
+5) a) Après injection d’œstrogènes puis de progestérone (lot 2) on constate une forte augmentation du
+diamètre de l’utérus due à une prolifération de la muqueuse utérine, alors qu’après injection
+d’œstrogènes seuls, ce phénomène n’est pas observé. La progestérone est donc une hormone qui
+stimule l’épaississement de l’endomètre.
+b) Après absorption de la substance S, une injection d’œstrogènes puis de progestérone n’est pas
+suivie d’une prolifération de l’endomètre ; l’utérus gardant un aspect identique à celui que l’on constate
+après injection d’œstrogènes seuls.
+La substance S empêche donc l’action de la progestérone sur l’endomètre ; confirmant ainsi
+l’hypothèse 1.
+c) Cette substance peut être utilisée comme pilule abortive puisqu’elle est capable de déclencher les
+menstruations au début de la grossesse.
+
+Exercice 2
+1/Les deux parents se différents par deux caractères, il s’agit d’un di hybridisme.
+ F1 est homogène ce qui vérifie la 1ère loi de Mendel ⇒ Les deux parents sont de lignés pures F1 est
+homogène et présente un phénotype parental pour les deux caractères.
+a) Déduction : il s’agit d’un cas de dominance absolue. Soient les deux couples d’allèles suivants :
+(L, v) un couple d’allèle contrôlant le caractère « taille des ailes » avec ;
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN       17
+L : allèle qui détermine le phénotype des ailes longues : L > v ;
+v : allèle qui détermine le phénotype des ailes vestigiales,
+(R, b) un couple d’allèle contrôlant le caractère « couleur des yeux » avec ;
+R : allèle qui détermine le phénotype des yeux rouges : R>b
+b : allèle qui détermine le phénotype des yeux bruns.
+2/ si les deux gènes sont indépendants : P1 : L//L b//b ; P2 : v//v R//R ; F1 : L//v R//b.
+Si les deux gènes sont liés : P1 : Lb//Lb ; P2 : vR//vR ; F1 : Lb//vR
+3/Hypothèse 1 : les deux gènes sont indépendants : si les deux gènes sont indépendants. F1 donnerait
+quatre phénotypes de fréquence 9/16 ; 3/16 ; 3/16 et 1/16. Ce qui n’est pas le cas donc cette hypothèse
+est à rejeter.
+Conclusion : les deux gènes sont liés avec linkage partiel car il y a apparition d’un phénotype
+recombiné.
+4/ 35% [Lb] est un phénotype parental de proportion l-p/2 ; p = 30% = 0,3. La distance entre les deux
+gènes = 30CM
+5/ Effectifs : ce croisement fournit :
+
+    %                           35% [Lb]          35% [vR]         15 % [LR]         15% [vb]
+    Sur 1000 on obtient :         350               350               150              150
+
+Exercice 3
+A- 1.a La stimulation électrique en EE provoque en O1 un PPSE et en O3 un potentiel d’action (PA).
+-la stimulation électrique en E’E’ provoque en O2 un PPSI et aucune réponse en O3.
+Les stimulations électriques en EE et E’E’ provoquent respectivement en O 1 un PPSE, en O2un PPSI
+et en O3 aucune réponse.
+b- La synapse N1/N3 est une synapse excitatrice puisque la stimulation de N1 a entraîné un PPSE en
+O1.
+-La synapse N2/N3 est par contre une synapse inhibitrice, car l’excitation de N2 (EE) a provoqué en O2
+un PPSI.
+2.- L’excitation en EE a provoqué en O1 un PPSE et en O3 un PA : c'est le PPSE qui a généré un PA
+au niveau de l’axone de N3 puisque son amplitude est supérieure au seuil.
+-L’excitation en E'E' a provoqué en O2 un PPSI et aucune réponse en O3. Le PPSI enregistré au niveau
+de la membrane postsynaptique n'a donc pas permis la genèse d'un PA postsynaptique.
+-L’excitation simultanée en EE et en E’E’ n’a pas permis non plus la genèse d’un PA postsynaptique :
+c’est donc la sommation spatiale du PPSE et du PPSI qui a engendré un PPS global qui n’a pas pu
+déclencher un PA postsynaptique au niveau de l’axone postsynaptique de N3
+B- 1. Expérience de stimulation de nerf sciatique d’une grenouille
+a) Analyse de la courbe b du document 2 : Potentiel d’action monophasique
+b) La courbe b met en évidence l’excitabilité et la
+conductibilité du nerf.
+2. Allure des courbes
+A : Intensité de stimulation infraliminaire (inférieure
+à la rhéobase).
+b : Intensité de stimulation supérieure ou égale à la
+rhéobase.
+3. Vitesse de conduction : V=60 m/s.
+
+Exercice 4
+1 - Le chien A présente une pression artérielle constante (16cm Hg).
+- Le chien B privé de ces glandes surrénales, présente une hypotension (11 cm Hg).
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN      18
+        Il y a un système régulateur de la pression artérielle et les glandes surrénales font partie de ce
+système.
+2- • L’établissement de I ’anastomose entre les 2 chiens est suivi d’une augmentation de la pression
+artérielle du chien B.
+• La suppression de I ‘anastomose entre les deux chiens est suivie d’une diminution de la pression
+artérielle du chien B.
+        Le sang qui passe du chien A au chien B, contient une substance chimique hypertensive. Cette
+substance est sécrétée par les glandes surrénales et agit par la voie humorale. C’est I ‘adrénaline.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN       19
+                                                  Sujet 4
+I- MAITRISE DES CONNAISSANCES
+1- QCM
+Pour chacun des items suivants, indiquez la (les) réponse(s) exacte(s).
+
+ 1. La fleur bisexuée contient des éléments :            2. Les étamines contiennent :
+ a- mâles seulement                                      a- les ovules
+ b- mâles et femelle seulement                           b- le sac embryonnaire
+ c- femelles seulement                                   c- les grains de pollen
+ d- aucun de deux.                                       d- l’oosphère
+ 3. La pollinisation c’est le déplacement :              4- l'immunité à médiation cellulaire :
+ a- du pollen vers le pistil de la fleur                 a- détruit ses cibles grâce à des molécules
+ b- et la rencontre du pistil                            solubles
+ c- et la rencontre des étamines                         b- détruit ses cibles grâce a des lymphocytes
+ d- et la rencontre des ovules                           cytotoxiques
+                                                         c- est responsable du rejet des greffes
+                                                         d- est responsable de l'histocompatibilité entre
+                                                         les groupes sanguins
+ 5- la réaction allergique fait intervenir:              6- Le VIH:
+ a- les mastocytes                                       a- est un virus extracellulaire
+ b- les plasmocytes                                      b- injecte son ADN dans la cellule cible
+ c- les lymphocytes T cytotoxiques(TC)                   c- est un rétrovirus
+ d- des perforines                                       d- disparait totalement sous l'action des
+                                                         anticorps
+ 7- La mémoire immunitaire :                             8- L'interleukine IL2 est secrétée par:
+ a- permet d'amplifier une réponse immunitaire           a- les macrophages
+ b- fait intervenir le système nerveux                   b- les lymphocytes LB
+ c- fait intervenir des lymphocytes B et T               c- les plasmocytes
+ d- n'est pas spécifique                                 d- les lymphocytes LT4
+
+2- QROC
+La constance de la pression artérielle résulte d'une synergie et d'une coordination de deux systèmes
+de régulation, l'un est nerveux et l'autre est hormonal.
+1-Le système neurovégétatif joue un rôle fondamental dans la régulation nerveuse de la pression
+artérielle.
+a- Nommez le nerf moteur innervant le système cardiovasculaire (coeur+les vaisseaux sanguins).
+b- Indiquez le médiateur chimique libéré par chacun de ces nerfs.
+c- Afin d'éclaircir les réflexes correcteurs de la variation de la pression artérielle, reproduisez et
+complétez le tableau.
+                                                         Reflexe correcteur de      Réflexe correcteur de
+                                                         l'hypertension             l'hypotension
+                              Nerfs stimulés
+                              (activés)
+                              Nerfs inhibés (freinés)
+                              Centre nerveux
+                              stimulé
+                              Centre nerveux inhibé
+
+2- La régulation hormonale de la pression artérielle met en jeu plusieurs hormones telle que
+l'adrénaline.
+
+
+ Sciences Naturelles                   Joussour pour réussir au BAC (SN et M)                      IGEN     20
+     a- Nommez la glande sécrétrice de cette hormone.
+b- Précisez l'action de cette hormone sur la pression artérielle.
+c- Citez deux autres hormones qui interviennent dans la régulation de la pression artérielle.
+II- Compétences méthodologiques :
+Exercice 1:
+On s'intéresse chez la drosophile, au comportement de deux gènes G1 et G2, contrôlant deux
+caractères héréditaires:
+    - G1 dont les allèles (vg+, vg).
+    - G2 dont les allèles (b+, b)
+Une drosophile femelle hétérozygote de phénotype (vg+, b+) produit un ovocyte II
+représenté par la figure 1(seul le chromosome qui porte les gènes étudiés est
+considéré)
+1- Précisez la quantité d'ADN et la garniture chromosomique de cet ovocyte.
+2- Quels sont les différents types de gamètes produits par cette femelle et dans quelles
+proportions.
+3- On réalise le croisement de cette femelle avec un mâle de même génotype. La
+descendance issue de ce croisement montre entre autres 4,5% d'individus de phénotype (vg, b+)
+a- Déduisez le génotype du mâle.
+b-Quels sont les différents types de gamètes produits par ce mâle et dans quelles proportions ?
+4- Expliquez les résultats en dressant l'échiquier de croisement.
+5- Quels sont les effectifs de différents phénotypes sur 200 drosophiles issues de ce croisement ?
+6- Précisez la localisation relative des deux des deux gènes.
+
+Exercice 2 :
+Le document suivant montre des structures observées au cours du cycle ovarien chez la femme.
+1. Nommez les structures a, b, c, d et e.
+2. En vous référant à un cycle de 28 jours, classez ces structures dans l’ordre chronologique normal
+tout en précisant la phase du cycle ovarien à laquelle correspond chaque structure.
+3. Légendez la structure (e), en écrivant sur votre copie les noms correspondant aux numéros
+indiqués.
+4. Identifiez la structure (X) et faites un schéma annoté.
+5. Précisez les devenirs possibles de la structure (a).
+Les structures précitées secrètent des hormones qui
+agissent à différents niveaux.
+6. Citez les hormones secrétées par les structures a et e
+(précisez à chaque fois les cellules sécrétrices)
+7- Dressez un tableau résumant l'effet de ses hormones sur l'hypophyse et l'utérus.
+
+Exercice 3:
+On se propose d’étudier le mécanisme de la transmission du message nerveux à travers les
+synapses. Pour cela on réalise deux
+expériences en utilisant le dispositif
+expérimental représenté dans le
+document 2.
+Expérience1:
+On porte une stimulation efficace St1 au
+niveau d'axone du neurone N1. Le tracé
+du document 3 représente l'enregistrement obtenu au niveau de l'oscilloscope.
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                    IGEN     21
+Expérience 2 :
+On porte, simultanément, une stimulation efficace St1, au niveau de la
+terminaison axonique du neurone N1et deux stimulations successives et
+très rapprochées St2, au niveau de la terminaison axonique du neurone
+N2, il en résulte une contraction du muscle M.
+1) Exploitez les résultats des expériences 1et 2 en vue de :
+a- préciser la nature des synapses N1-N3 et N2-N4.
+b- dégager deux propriétés du message nerveux.
+2) En tenant compte des informations dégagées précédemment et de vos connaissances, expliquez
+la fonction assurée par le neurone N4.
+
+
+
+
+ Sciences Naturelles             Joussour pour réussir au BAC (SN et M)                 IGEN    22
+                                                   Corrigé 4
+I- Maitrise des connaissances
+
+1- QCM
+
+                Item                     1     2      3      4       5        6      7            8
+                Bonne(s) réponse(s)      a     c      a     b, c    a, b      c     a, c          d
+
+QROC
+1-a- Noms des nerfs moteurs :
+- Nerf parasympathique (nerf X)
+- Nerf orthosympathique (sympathique)
+  b- Médiateurs chimiques:
+- Les parasympathiques libèrent l’acétylcholine ;
+- L'orthosympathique libèrent la noradrénaline
+  c- Réflexes
+
+                                                                              Réflexe correcteur de
+                              Réflexe correcteur de l'hypertension
+                                                                              l'hypotension
+                              Hering et cyon                                  Orthosympathique
+ Nerf stimulés
+                              Parasympathique (X)
+                                                                              Orthosympathique
+ Nerf inhibés                 Hering et cyon
+                                                                              Para sympathique (X)
+ Centre Neveux stimulés       Cardio - modérateur (bulbaire)                  Cardio - accélérateur
+ Centre nerveux inhibés       Cardio - accélérateur (médullaire)              Cardio - modérateur
+Origines et rôles des Hormones de régulation :
+a- l'adrénaline est secrétée par les médullo-surrénales.
+b- l'adrénaline augmente la fréquence cardiaque donc augmente la pression artérielle.
+c- Il existe d'autres hormones, exemples: l'ADH, l'aldostérone, l'angiotensine etc...
+
+II- Compétences méthodologiques :
+Exercice 1:
+1- Quantité d'ADN = Q ;   n = 3+X chromosomes fissurés
+       𝟏−𝒑                      𝒑     𝒑                     𝟏−𝒑
+2-      𝟐
+          vg+b+                 𝟐
+                                  vg+b𝟐vg b+                 𝟐
+                                                               vg b
+
+3-a vg+ b+// vg b
+
+3-b 1/2vg+b+ et𝟏/𝟐 vg b
+4-
+                            vg+ b+                 vg+b               vg b+                vg b
+
+                vg+ b+   vg+ vg+ b+ b+       vg+ vg+ b+ b          vg+ vg b+ b+      vg+ vg b+ b
+
+                 vg b     vg+ vg b+ b          vg+ vg b b          vg vg b+ b         vg vg b b
+
+
+(vg b+) = 4,5%       donc P = 18%
+(vg+ b+) = 70.5 % de 200 drosophiles soit : 141
+(vg+b)= 4.5%de 200 drosophiles soit : 9
+(vgb+) = 4.5% de 200 drosophiles soit : 9
+(vgb)= 20.5% de 200 drosophiles soit : 41
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                          IGEN   23
+Distance entre les deux gènes : (vg+ /vg) et (b+/b) = 18 cM
+
+
+
+Exercice 2 :
+
+1. (a) : corps jaune ; (b) : follicule mûr rompu ; (c) : follicule cavitaire ou tertiaire
+(d) : corps jaune dégénéré - (e) : follicule mûr
+2.       (c)  ->  (e)  ->  (b) Ovulation  ->  (a)  ->  (d)
+
+        Phase folliculaire              Phase lutéale
+
+3.Légende de la structure (e) :
+1 : thèque externe - 2 : thèque interne - 3 : granulosa - 4 : antrum - 5 : ovocyte I
+4- Identification de la structure (X) : le gamète femelle (ovocyte II),
+Schéma : Le gamète femelle : ovocyte II
+     Légende :
+
+      1- Cellules folliculaires ou corrona radiata
+      2- Zone pellucide.
+      3- Matériel nucléaire bloqué en métaphase II.
+      4- Granules corticaux.
+      5- 1erglobule polaire.
+      6- Cytoplasme.
+5-Les devenir possibles de la structure (a : le corps jaune):
+-S’il y a fécondation : le corps jaune persiste pendant les premiers mois de la grossesse.
+-S’il n’y a pas fécondation : le corps jaune régresse à la fin du cycle sexuel.
+6-Hormones et origines :
+
+
+                Structure      Hormones secrétées                          Cellules sécrétrices
+                             - œstrogènes                Thèque interne + cellules folliculaires (granulosa)
+                     a
+                             - progestérone              Cellules lutéales
+                     e       - Œstrogènes                Thèque interne
+
+
+7- Effets des hormones :
+
+                                                                                  Effet sur l'utérus
+Hormone                                Effet sur l'hypophyse
+
+                       en faible dose Rétrocontrôle négatif sur la FSH.     Développement de
+Œstrogènes                                                                  l'endomètre et contractions du
+                                     Rétrocontrôle positif sur la FSH et la
+                       en forte dose                                        myomètre.
+                                     LH
+Progestérone                                          Pas d'effet                       Pas d'effet
+                                                                              Développement de
+Œstrogènes et progestérone             Rétrocontrôle négatif sur la FSH et la l'endomètre et formation de la
+                                       LH.                                    dentelle utérine et le silence
+                                                                              utérin.
+
+
+
+
+ Sciences Naturelles                    Joussour pour réussir au BAC (SN et M)                         IGEN    24
+Exercice 3 :
+
+1)     a-
+
+ ->  Le document 3 montre un PPSI d'amplitude 5 mV obtenu suite à la stimulation St1 portée sur N2;
+cette réponse peut être obtenue suite à l'arrivée d'un PA au niveau de la terminaison nerveuse de N3
+faisant synapse avec N4.
+
+Donc la synapse N1-N3 est une synapse excitatrice.
+
+  -> La stimulation efficace St1, portée au niveau de N1 + les deux St2 successives et rapprochées,
+portées au niveau de N2 assurent la contraction du muscle ; il y a eu naissance d'un PA au niveau du
+cône axonique de N4; ce PA se propage le long de l'axone de N4; il atteint le muscle M d’où sa
+contraction. Étant donné que la synapse N3-N4 est inhibitrice, on peut déduire que la synapse N2-N4
+est une synapse excitatrice.
+
+b- Propriétés du message nerveux:
+
+•        Propageable au niveau d’un neurone.
+•        Transmissible à travers une synapse.
+2) Le neurone N4 joue un rôle intégrateur par sommation spatio-temporelle de deux PPSE provenant
+de l'afférence synaptique N3et d’un PPSI provenant de terminaison N2, la résultante est un PPS
+global qui atteint le seuil de dépolarisation de la membrane de N4, donnant naissance à un PA
+propageable le long de l'axone N4, provoquant la contraction du muscle.
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                    IGEN     25
+                                                  Sujet 5
+QROC
+Le tableau suivant montre des caryotypes des cellules germinales. Complétez ce tableau.
+
+                   Nom de la        Formule   Quantité Etape de la
+                    cellule     chromosomique d’ADN gamétogenèse
+
+
+
+
+NB : Afin de simplifier on a considéré seulement deux paires d’autosomes et les chromosomes
+sexuels.
+Exercice 1
+A-Des expériences réalisées chez la brebis permettent de mettre en évidence
+l'origine, la nature et le rôle d’une substance X. On précise que, dans cette
+espèce, le cycle ovarien est de 17 jours, le corps jaune commençant à régresser
+dès le 12ème jour en l’absence de fécondation.
+1 - Des broyats d'embryons de Mouton (document 1) d'âge variable sont injectés
+dans l'utérus de brebis au 12ème jour du cycle. Les résultats de cette expérience
+sont donnés par le tableau suivant :
+
+    Age de l'embryon de Mouton (en         8     10 12 14 16 18 20 22
+    jours)
+    Evolution du corps jaune               -       -   - + + -          -   -
+        - : régression du corps jaune.         + : maintien du corps jaune.
+Que concluez-vous ?
+2 - Si les broyats ont été chauffés avant leur injection, le corps jaune régresse quel que soit l'âge de
+l'embryon utilisé.
+Quelle information complémentaire cette expérience apporte-t-elle ?
+3- En se basant sur le document 1 :
+a- Quelles hypothèses formulez-vous concernant l'origine du facteur mis en évidence précédemment
+?
+b-Des vésicules de la couche 1 isolées à partir d'embryons de mouton âgés de 14 jours maintiennent
+le corps jaune chez des brebis non gestantes.
+Dites si le résultat confirme ou infirme vos hypothèses précédentes et en quoi il peut fournir des
+renseignements sur le nom de cette substance chez la femme.
+4-En utilisant les notions dégagées faites un bilan, sous forme d'un schéma fonctionnel simple, des
+interactions entre les organes féminins et l'embryon permettant d'assurer le maintien de celui-ci dans
+l'organisme maternel lors d'une grossesse.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN      26
+B- Les documents 2 et 3 résument les effets d’une substance A, employée par deux femmes X et Y.
+-Le document 2 présente la variation
+d’une hormone ovarienne chez une
+femme normale (Z) et chez les femmes
+(X) et (Y).
+1-Identifier l’hormone ovarienne. Justifier.
+2- Déduire l’effet de la substance A sur la
+variation de l’hormone chez les deux
+femmes X et Y.
+3- Proposer deux hypothèses qui expliquent la variation du taux
+de l’hormone ovarienne étudiée chez X.
+-Le document 3 montre la vitesse de propagation des
+spermatozoïdes dans la glaire cervicale chez la femme Z et
+chez les deux femmes X et Y.
+4-Décrire la variation de la vitesse de propagation des
+spermatozoïdes chez ces femmes.
+5-Expliquer vos constats.
+ 6-Déduire les effets de la substance A chez les femmes X et Y.
+7- Peut-on utiliser cette substance comme moyen contraceptif ? Expliquer.
+
+Exercice 2
+Pour comprendre le fonctionnement du circuit neuronique impliqué dans le réflexe myotatique on
+réalise les expériences suivantes ;
+Expérience 1: on exerce sur le fuseau neuromusculaire (document 6) des étirements d’intensités
+                                                        croissantes E1, E2, E3 et E4 puis on
+                                                        détermine l’amplitude des potentiels de
+                                                        récepteur au niveau de O1, l’amplitude
+                                                        des potentiels d’action au niveau de O2et
+                                                        la fréquence des potentiels d’action au
+                                                        niveau de O2
+                                                        Les résultats obtenus sont représentés
+                                                        par les tracés a, b et c du document 7
+                                                        1-Analysez les tracés a, b et c du
+                                                        document 7 en vue de dégager :
+
+
+
+   a- une propriété du potentiel de récepteur ;
+   b- une propriété du potentiel d’action ;
+   c- une propriété du message nerveux ;
+   d- le rôle du fuseau neuromusculaire.
+Expérience 2
+On mesure la concentration en ions Na+ et K+ dans les
+corps cellulaires des motoneurones α1 et α2 avant et après injection de 2 neurotransmetteurs X et Y
+dans chacune des fentes synaptiques F1 et F2. Le tableau résume les résultats obtenus :
+
+                       Dans        les     corps    Dans le corps cellulaire de   Dans       le    corps
+                       cellulaires de α1 et α2      α1 après injection dans F1    cellulaire de α2 après
+                       avant l’injection de X ou    de                            injection dans F2 de
+                       de Y
+                                                             X              Y        X            Y
+    Concentration
+                                  15                        30             15        15          15
+    en Na+ en UI
+    Concentration
+                                 150                       150            150       150         110
+    en K+ en UI
+
+
+
+ Sciences Naturelles                   Joussour pour réussir au BAC (SN et M)                     IGEN     27
+2-A partir de l’analyse des résultats de l’expérience 2 et en faisant appel à vos connaissances :
+a- expliquez le mécanisme à l’origine de la modification de la concentration en ions Na+ ou K+ dans les
+corps cellulaires de α1 et α2 après injection du neurotransmetteur X ou du neurotransmetteur Y.
+b-dégagez la conséquence de cette modification sur le potentiel de la membrane postsynaptique du
+corps cellulaire de α1 et α2.
+c- Précisez la nature de chacune des synapses S1 et S2.
+3-Intégrez les informations tirées précédemment et vos connaissances en vue d’expliquer la
+coordination de l’activité des muscles extenseur et fléchisseur suite à un l’étirement du fuseau
+neuromusculaire du muscle extenseur d’intensité E3.
+Exercice 3
+On se propose d’étudier la transmission de deux formes (A et B) d’une maladie héréditaire.
+A- Le document 3 représente l'arbre généalogique d’une famille où la forme A de la maladie s’est
+déclarée.
+L’individu I1 est sans antécédents pour cette forme de la maladie.
+1. En vous basant sur les données précédentes,
+ a-Indiquez si l’allèle de la maladie est récessif ou dominant.
+ Justifier
+ b-Discutez la localisation du gène responsable de la maladie.
+2- Précisez le génotype de chacun des individus II1, II2, III1 et III4
+3-Le jeune III1 désire épouser III4,
+ a-Quel est le risque pour ce couple d’avoir un garçon malade ?
+ b-Ce mariage augmente-t-il le risque de transmission de cette maladie
+
+B- Le document 4représente le résultat de l’électrophorèse de l’ADN de
+certains membres d’une famille F2 présentant la forme B de cette
+maladie.
+Sachant que la mère de cette famille est saine, exploitez les données du document 4 en vue de
+préciser si l’allèle de la maladie est :
+ 1-dominant ou récessif.
+ 2-autosomique ou gonosomique.
+La figure 1 du document 5 montre l’arbre généalogique d’une famille F3
+présentant la même maladie (forme B).
+La figure 2 du même document représente l’électrophorèse de l’ADN de
+l’individu II2.
+3-Exploitez les données du document 5 en vue de :
+a-Préciser l’allèle déterminant le phénotype malade.
+b-Écrire les génotypes et les phénotypes des individus de la famille F3.
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                     IGEN       28
+                                             Corrigé 5
+QROC
+
+                                                  Formule           Quantité     Etape de la
+                       Nom de la cellule
+                                              chromosomique          d’ADN      gamétogenèse
+
+                         Ovocyte II
+                                               n= 2 +X (n=3)            Q       Maturation (DE)
+                       Spermatocyte II
+
+                       Spermatogonie                                             Multiplication
+                          (gonie)            2n= 4 +XY (2n=6)          2Q          (mitose)
+                       Spermatocyte I                                           Maturation (DR)
+
+                        Spermatide
+                                               n= 2 +Y (n=3)           Q/2       Différenciation
+                       Spermatozoïde
+Tableau complété :
+Exercice 1
+A- 1- Les injections de broyats d’embryons de moutons le 12ème jour du cycle, ne maintiennent la
+survie du corps jaune que si les embryons sont âgés de 14 à 16 jours.
+Les embryons de moutons âgés de 14 à 16 jours contiennent une substance qui maintient le corps
+jaune.
+2- La substance active contenue dans les broyats d’embryons est une protéine.
+3- a- Le document 2 montre que l’embryon est constitué du trophoblaste et du bouton embryonnaire.
+Hypothèse 1 : La substance active est issue du trophoblaste (couche 1).
+Hypothèse 2 : La substance active est sécrétée par le bouton embryonnaire (couche 2).
+   b- Puisque des vésicules de trophoblaste (couche 1) d’embryons âgés de 14 jours maintiennent le
+corps jaune, on en déduit que ce résultat confirme la 1ère hypothèse : c’est–à–dire que la substance
+X est issue du trophoblaste.
+Chez la femme la substance X est donc la HCG.
+
+
+
+
+B- 1- L’hormone est la progestérone car elle apparait dans une seule phase du cycle.
+     2- Chez la femme X : La courbe montre que le taux de progestérone sécrétée est faible. Le
+maximum atteint juste 10 ng/ml alors qu'il dépasse 15 ng/ml dans le cas normal (Z).
+Chez la femme Y : Le taux de progestérone sécrétée est semblable à celui de la femme normale (Z).
+          ->  La substance A diminue la sécrétion de progestérone chez X seulement.
+3- Les hypothèses :
+   Hypothèse 1 : En absence d’ovulation, il y a transformation partielle du follicule mûr contenant
+encore l’ovocyte.
+La lutéinisation des cellules folliculaires, provoque une sécrétion imparfaite de progestérone.
+  Hypothèse 2 : Comme il y a sécrétion de progestérone, il y a un corps jaune et donc une ovulation.
+La quantité de progestérone libérée étant faible donc il y a formation d’un corps jaune de mauvaise
+qualité.
+4- Femme Z : la vitesse de progression des spermatozoïdes dans les voies génitales féminines est
+importante entre J-4 et J+4 du cycle, et atteint son maximum entre J-2 et J+2.
+ Femmes X et Y : la vitesse de progression est presque nulle.
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                    IGEN     29
+5- Femme Z : Le volume de glaire cervicale (au niveau du col utérin) est maximal entre J-4 et le J+4 du
+cycle, c'est-à-dire les jours entourant l’ovulation (J0). Le maillage de la glaire est lâche entre J-2 et le
+J+2, favorisant ainsi la vitesse de progression des spermatozoïdes dans les voies génitales féminines.
+ Femmes X et Y : Le volume de glaire cervicale est faible, pendant tous les jours du cycle. Le
+maillage de la glaire serré empêche tout passage des gamètes mâles (vitesse de progression des
+spermatozoïdes faible).
+6- Les effets de la substance A chez la femme X :
+La faible concentration en progestérone, témoigne d’une absence d’ovulation.
+La vitesse de progression est nulle : la glaire cervicale ayant gardé un maillage serré reste
+imperméable à toute progression des spermatozoïdes.
+On peut donc résumer les actions de la substance A chez la femme X :
+-folliculogenèse incomplète : faibles taux d’œstrogènes en permanence, pas de pic d’œstrogènes
+stimulateur des sécrétions d’hormones hypophysaires en rétroaction, absence d’ovulation car pas de
+pic de LH.
+-transformation partielle du follicule mûr contenant encore l’ovocyte en corps jaune, provoquant une
+sécrétion imparfaite de progestérone.
+On peut supposer que la substance A exerce une inhibition sur les sécrétions hypophysaires :
+insuffisamment de FSH sécrétée afin de contribuer à une folliculogenèse complète, donc
+insuffisamment d’œstrogènes sécrétés par les follicules, pas de rétroaction positive, pas de pic de
+LH, et des sécrétions hypophysaires trop faibles pour contribuer à une transformation correcte en
+corps jaune.
+- Les effets de la substance A chez la femme Y
+On constate, une conservation du fonctionnement normal du cycle ovarien : le taux de progestérone
+est normal, l’ovulation est conservée.
+En contrepartie la vitesse de progression des spermatozoïdes reste très faible, car maillage serré de
+la glaire.
+Les effets de A chez Y sont moins importants que chez X, puisque le cycle ovarien et l’ovulation n’ont
+pas été modifiés. Seul le cycle de la glaire cervicale est altéré, empêchant tout passage de
+spermatozoïdes à travers la glaire du col utérin.
+7- La substance A peut être utilisée comme contraceptif (à effets variés) :
+-Empêcher l’ovulation par RC- ;
+- Bloquer le passage des spermatozoïdes à travers le col (maillage serré de la glaire).
+
+Exercice 2
+1-a-Le premier graphe du doc 3 montre que l’amplitude du potentiel de récepteur est proportionnelle
+à l’intensité de l’étirement ; il est codé en modulation d’amplitude (graduable)
+         b-Le graphe 2 montre que l’amplitude du PA est maximale pour E2, E3 et E4, nulle pour E1 :
+c’est la loi du tout ou rien.
+         c-Le graphe 3 montre qu’à chaque intensité efficace correspond une fréquence de PA donc le
+message nerveux est codé en modulation de fréquence
+         d-Rôle du fuseau neuromusculaire (FNM): convertit l'énergie du stimulus mécanique
+(l’étirement) en énergie électrique (message nerveux) : (ou il réalise la transduction sensorielle)
+2-a-Après injection de X dans F1 la concentration intra cellulaire en Na+ a augmenté (ouverture des
+CCD à Na+) celle de K+ n’a pas changé ; l’injection de X dans F2 ne modifie pas la concentration des
+ions Na+ et K+.
+Après injection de Y dans F2 la concentration intra cellulaire en K+ a diminué (ouverture des CCD à
+K+) celle de Na+ n’a pas changé ; l’injection de Y dans F1 ne modifie pas la concentration des ions
+Na+ et K+.
+b- L’ouverture des CCD à Na+ après injection de X dans F1 entraine une dépolarisation appelée
+PPSE
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                        IGEN       30
+L’ouverture des CCD à K+ après injection de Y dans F2 entraine une hyperpolarisation appelée PPSI
+c- S1 : synapse excitatrice
+S2 : synapse inhibitrice
+3- Grace aux interneurones le message nerveux provenant du FNM est traduit de façons différentes,
+la synapse excitatrice transmet le potentiel d’action au motoneurone innervant le muscle extenseur
+qui se contracte et la synapse inhibitrice empêche l’arrivée du PA au motoneurone innervant le
+muscle fléchisseur qui, par conséquent reste relâché.
+Exercice 3
+A- 1-a-Si l’allèle normal était dominant le père I1 qui ne porte pas l’allèle de la maladie n’aurait pas
+donné la fille II4. Donc l’allèle de la maladie est dominant.
+b-Ce gène n’est pas porté par Y car il y a des femmes malades ni par X car II1 est une femme saine
+qui a un fils malade. Il est donc autosomal.
+2- II1 = s//s, II2 = M//s, III1 = M//s et III4 = M//s
+3- L’allèle de la maladie étant dominant, le mariage consanguin n’augmente pas le risque de la
+transmission de la maladie.
+B- 1- Le document 4 montre que la mère saine a transmis l’allèle A1 à sa fille (2) et a transmis A2 à
+son fils. Elle est hétérozygote. Donc la maladie est récessive.
+2-Le père n’a pas transmis l’allèle A1 à son fils, donc le gène est porté par X
+3-a- A2 est l’allèle de la maladie car II2 malade ne porte que cet allèle
+   b- Les génotypes de la famille :
+𝐼1 = 𝑋𝐴2 Y 𝐼2 = 𝑋𝐴1 𝑋𝐴2 𝐼𝐼1 = 𝑋𝐴1 𝑋𝐴2          𝐼𝐼2= 𝑋𝐴2 Y 𝐼𝐼3 = 𝑋𝐴1 𝑋𝐴2
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN      31
+                                               Sujet 6
+QCM
+Choisir la bonne réponse pour chaque item.
+ 1-Les enzymes de l’acrosome :                     2-L’ABP est :
+ a- empêchent la polyspermie.                      a- une substance stéroïde qui assure le transport
+ b- hydrolysent la zone pellucide.                 de la testostérone au tube séminifère.
+ c- détruisent les récepteurs situés dans la       b- une neurohormone.
+ zone pellucide.                                   c- sécrétée par les cellules de Sertoli.
+ d- sont libérées suite à la fixation du          d- sécrétée par les cellules de Leydig
+ spermatozoïde sur la zone pellucide.
+ 3-La prise d’un repas riche en sel (Na Cl) 4- L’angiotensinogène est :
+ provoque une :                                    a- une substance active.
+ a- sécrétion faible d’angiotensine.               b- d’origine hépatique.
+ b- diminution de la volémie.                      c- une enzyme.
+ c- hypotension artérielle.                        d- à effet vasoconstricteur puissant.
+ d-sécrétion importante de vasopressine
+ (ADH).
+ 5- Une hypovolémie entraîne une                   6- La noradrénaline :
+ stimulation :                                     a- résulte de l’activation du noyau du nerf X
+ a- des barorécepteurs de la crosse aortique, b- est une hormone cardio-modératrice
+ b- du système rénine-angiotensine.                c- est libérée par les terminaisons des nerfs
+ c- du nerf parasympathique.                       sympathiques cardiaques
+ d- du noyau moteur du X.                          d- possède une action antagoniste à l’adrénaline.
+Exercice1
+Dans le but de comprendre les causes de certains cas de stérilité humaine et les remèdes possibles,
+on vous propose d’exploiter les résultats d’analyses et d’examens médicaux réalisés chez quatre
+couples qui présentent des difficultés de concevoir des enfants.
+Examens des ovaires :
+Durant deux mois, les ovaires des quatre femmes X, Y, Z et T des couples concernés ont été examinés.
+Les résultats sont consignés dans le tableau (A)
+ Femmes        Ovaires
+               - absence de follicules cavitaires
+      X        - absence de follicules mûrs
+               - absence de corps jaune
+               - Présence de tous les types de follicules
+      Y        - Tous les follicules ont une structure et une activité normale
+               - absence de corps jaune
+               - Présence de tous les types de follicules
+      Z        - Tous les follicules ont une structure et une activité normale
+               - Présence de corps jaune dont la structure et le fonctionnement sont normaux
+               - Présence de tous les types de follicules
+               - Tous les follicules ont une structure et une activité normale
+      T
+               - Présence de corps jaune dont la structure et le fonctionnement sont normaux.
+
+                                              Tableau A
+1-Analysez les résultats obtenus en vue de :
+a-Précisez lesquelles des femmes X, Y, Z et T ont une stérilité confirmée.(1pt)
+b- Proposez des hypothèses permettant d’expliquer les causes de leur stérilité.(0.5pt)
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                  IGEN       32
+c- Représenter, l'allure de la variation du taux des hormones ovariennes chez les femmes X, Y, Z et T
+(on considère un cycle sexuel normal de 28 jours)
+Dosage du taux plasmatique des gonadostimulines :
+On a dosé le taux plasmatique des gonadostimulines chez les femmes X et Y avant et après des
+injections pulsatiles de GnRH.
+Le tableau (B) présente les concentrations moyennes de FSH et LH chez ces femmes par comparaison
+à celles d’une femme normale.
+2- Analysez les résultats en vue de préciser la cause de stérilité de chacune des femmes X et Y.
+Exploration des voies génitales
+
+                           Concentration moyenne en UL-1
+                           Avant l’injection de GnRH                   Après l’injection de GnRH
+                                 FSH                  LH                     FSH                   LH
+ Femme normale             Entre 3 et 16       Entre 1 et 35           Entre 12 et 32       Entre 10 et 54
+
+  Femme X                         0.2               0.8                0.2               21
+  Femme Y                         12                0.5                 24               0.5
+                                                Tableau B
+On a injecté au fond du vagin des femmes Z et T une substance fluorescente, quatre heures plus tard,
+on cherche la fluorescence dans leurs voies génitales. Les résultats obtenus sont présentés dans le
+tableau (C)
+(+): présence de                                       Trompes                           Autour
+fluorescence.                   Femmes Le            tiers Le          tiers Pavillons     des
+(-): absence de                           inferieur        supérieur                     ovaires
+fluorescence                        Z             +               -             -            -
+3-En exploitant les résultats       T             +               +             +            +
+des tableaux (A) et (C)                                     Tableau C
+précisez si les femmes Z et
+T sont normales ou stériles.
+Analyse du sperme
+Le tableau (D) montre les résultats d’analyse du sperme du mari de la femme T
+                            Volume           Nombre de               Pourcentage des
+                            d’éjaculat       Spermatozoïdes          spermatozoïdes normaux
+
+ Sperme fécondant           ≥1.5 ml             ≥20 millions / ml            ≥60%
+ Sperme du mari                    2.1               5 millions / ml                      75%
+ de femme T
+                                                     Tableau D
+4- A partir de l’analyse de ces résultats, déterminez-la ou les cause(s) de la stérilité chez le mari de la
+femme T.
+5-D’après vos réponses précédentes, proposez un remède possible à la stérilité de chaque couple.
+Pour l’un des couples, le médecin propose comme remède la FIVETE qui est une technique de procréation
+médicalement assistée (PMA).
+Les étapes de la FIVETE sont les suivantes :
+-Traitement du sperme : Le sperme est recueilli dans une éprouvette stérile pour subir un traitement.
+6- Dans quel but ce traitement est-il réalisé ?
+7- Y a-t-il une date précise pour recueillir le sperme ? Justifiez.
+-Induction de 1'ovulation : Les équipes médicales qui pratiquent actuellement la FIVETE préfèrent
+prendre le contrôle hormonal du cycle sexuel chez la femme. Pour cela :
+- Ils bloquent le fonctionnement hypophysaire par une administration continue d'un analogue de GnRH.
+- Ils assurent un traitement hormonal spécifique qui permet la croissance de plusieurs follicules à la fois.
+- Ils induisent la maturation de ces follicules et 1'ovulation par injection d'une dose unique de HCG au 14eme
+jour du cycle.
+8- Proposez :
+
+
+ Sciences Naturelles                    Joussour pour réussir au BAC (SN et M)                        IGEN       33
+- une hormone qui peut être utilisée pour stimuler la croissance folliculaire.
+- une durée de traitement.
+9- Pourquoi dans un cycle sexuel naturel, un pareil résultat n'est-il pas obtenu ?
+10 - Pourquoi l'administration de HCG à une date précise, provoque-t-elle la maturation des follicules et
+l'ovulation ?
+Prélèvement des ovocytes : Un jour après l'injection de HCG sur une patiente anesthésiée et sous
+contrôle échographique, le clinicien examine les ovaires et repère des follicules de 17 mm de diamètre. Il
+aspire leur contenu.
+11- De quel follicule s'agit-il ? Représentez-le par un schéma soigné et bien annoté.(1pt)
+12- A part l'échographie, un autre contrôle existe pour prévoir la date convenable de la ponction. Précisez
+lequel ?
+-Fécondation in Vitro : l'insémination des ovocytes par les spermatozoïdes est réalisée in vitro.
+Des fécondations peuvent avoir lieu.
+13-Comment l’embryon par sa présence dans l’utérus, va-t-il modifier l’activité sexuelle de la femme ?
+Exercice 2 :
+Le document 1 représente le dispositif expérimental permettant d’:
+- appliquer des stimulations efficaces S1 et S2.
+- enregistrer les différences de potentiels (ddp), grâce aux oscilloscopes O1,
+O2, O3 et O4.
+On signale que S1 et S2 sont situées à la même distance de O3.
+Le document 2 représente les valeurs des potentiels enregistrés en O1, O2,
+                                                         O3 et O4.
+  Stimulation             S1                S2
+  Oscilloscop 01         03     04   02    03    04      1-A partir des informations fournies par ces
+  ddp                                                    documents et vos connaissances, complétez le
+  es en mV -60           -62 -70 -76 -74 -70
+Document 2                                               tableau suivant.
+
+                                                                   Enregistrement en :
+2-Déduire la nature des                                 O1 suite à O2 suite à    O4 suite à S1 ou
+neurones A et B.                                        S1          S2           S2
+3-Citer les étapes de la
+transmission du message       Nom de l’enregistrement
+nerveux au niveau d’une       Canaux ioniques
+synapse A-M.(0.5pt)           impliqués
+4- Analyser les résultats     Mouvements ioniques
+obtenus suite à la
+stimulation S1. Que déduisez-vous ?
+5-En ne considérant que le neurone A, donner une condition permettant de détecter un potentiel
+d’action sur O4.
+6- On applique deux stimulations S1 accompagnées d’une stimulation S2.
+  En se référant au schéma du document 1, représenter la réponse attendue en O3 et O4. Justifier.
+
+Exercice 3
+On se propose d'étudier la transmission de deux couples d'allèles chez la drosophile (b+,b) et (n+, n).
+Le croisement d’un mâle [b+n+] avec une femelle [bn] donne une génération F1 formée de drosophiles
+[b+n+].
+1- Que peut-on déduire ?
+2- Le croisement d'un mâle de la F1 avec une femelle [bn] donne les résultats suivants : - 101 [b+n+]
+                                                                                            - 99 [b n]
+    a- Nommez ce type de croisement et précisez son intérêt.
+    b- Que déduisez-vous des résultats de ce croisement ?
+    c- Donnez les génotypes des parents et ceux de la F1
+3- Le croisement de deux drosophiles de la F1 donne une génération F2 dont 22 % de phénotype [bn].
+    a- Expliquez les résultats de ce croisement en justifiant votre réponse par un échiquier .
+    b- Calculez le % d’un gamète parental produit par la femelle de F1. Que déduisez-vous ?
+    c- Donnez la répartition phénotypique de cette descendance sur un total de 2000 drosophiles.
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN       34
+                                              Corrigé 6
+
+QCM :
+                        Numéro de l’item       1      2     3     4     5     6
+                        Réponse correcte       d      c     a     b     b     c
+Exercice 1
+1- a- Les femmes Z, T ont des cycles normaux alors que les femmes X, Y présentent des anomalies
+du cycle sexuel. (pour X il n’y a pas de cycle sexuel et pour Y il n’y a pas d’ovulation).
+Donc les femmes X, Y ont une stérilité confirmée.
+1-b-Femme X : défaut ovarien, défaut hypophysaire ou déficit hypothalamique
+Femme Y : défaut des cellules sécrétrices de LH, LH muté ou absence de récepteurs à LH
+1-c
+
+
+
+
+2-Pour la femme X :
+-Avant l’injection de la GnRH le taux de FSH et LH est inférieur à la normale.
+-Après injection pulsatile de GnRH, le taux de FSH n’a pas changé alors que la LH a beaucoup
+augmenté et est devenu dans les normes (10 – 54).
+Pour la femme Y
+-Avant l’injection de la GnRH le taux de LH est inférieur à la normale.
+-Après injection pulsatile de GnRH, le taux de LH n’a pas changé alors que le taux de FSH a
+beaucoup augmenté et est devenu dans les normes (12 – 32).
+Donc la stérilité de la femme X est liée à l’insensibilité des cellules hypophysaires sécrétrices de FSH
+à la GnRH. La femme Y est liée à l’insensibilité des cellules hypophysaires sécrétrices de LH à la
+GnRH.
+3- les femmes Z et T ont un cycle ovarien normal (Le tableau (A)). Le tableau C montre une
+obstruction des voies génitales de la femme Z seulement. Donc la femme Z est stérile et la femme T
+est fertile
+4- Le tableau D montre une oligospermie chez le mari de la femme T qui peut être la cause de sa
+stérilité.
+5- Couple X : traitement de la femme par injection de la FSH.
+        Couple Y : traitement de la femme par injection de la LH.
+        Couple Z : intervention chirurgicale chez la femme ou recours à la FIVETE.
+Couple T : insémination artificielle.
+6- On traite les spermatozoïdes pour les capaciter et éliminer les formes atypiques.
+7-Pas de date précise pour recueillir le sperme car la spermatogénèse est continue.
+8-Une hormone qui peut être utilisée pour stimuler la croissance folliculaire : FSH
+ Une durée de traitement :11 à 14 jours
+9-On ne maitrise pas l’évolution des follicules et des hormones.
+10-HCG est une gonadotrophine semblable à la LH.
+11-Le follicule mûr qu’on peut schématiser ainsi :
+                          1- thèque externe
+                          2- Thèque interne
+                          3- granulosa
+                          4- liquide folliculaire (antrum)
+                          5- corona radiata
+                          6- zone pellucide
+                          7- ovocyte I
+                          8- cumulus oophorus
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN      35
+12- Le dosage quotidien des œstrogènes.
+13- L’embryon en sécrétant HCG stimule le maintien du corps jaune gestatif qui continue à sécréter la
+progestérone et les œstrogènes nécessaires au maintien de la grossesse et exerçant un rétrocontrôle
+négatif sur le CHH arrêtant le cycle sexuel.
+
+Exercice 2
+1- Tableau
+                                                        Enregistrement en :
+                                 O1 suite à
+                                                    O2 suite à S2            O4 suite à S1 ou S2
+                                     S1
+     Nom de l’enregistrement      PPSE                 PPSI                         PR
+     Canaux ioniques
+                                 CCDNa+            CCDCl- ou K+             Pompe Na+ (Na+/K+)
+     impliqués
+     Mouvements ioniques                        Entrée Cl- ou sortie
+                                Entrée Na+                             Sortie Na+ et entrée de K+
+                                                        K+
+
+2- Nature des neurones :
+                       Expérience              Résultats          Conclusion
+                  Stimulation S1 en A         PPSE en O1      Neurone A excitateur
+                  Stimulation S2 en B         PPSI en O2      Neurone B inhibiteur
+
+3-Les étapes de la transmission de l’influx du neurone présynaptique (A) au neurone postsynaptique
+(M).
+- L’arrivée du PA au niveau de la terminaison axonale (A) ouvre les canaux calcium et provoque
+l’entrée d’ions Ca2+ dans le bouton synaptique.
+- Cette entrée des ions Ca2+ déclenche l’exocytose des vésicules présynaptiques qui libèrent de
+l’ACH (neurotransmetteur) dans la fente synaptique (entre A et M).
+- L’ACH libéré se fixe sur les récepteurs de la membrane postsynaptique.
+- La fixation déclenche l’ouverture des canaux chimio-dépendants et les ions Na+ pénètrent.
+- La pénétration de ces ions génère l’apparition de PPSE au niveau du neurone postsynaptique (M).
+- Le PPSE se déplace jusqu’au cône d’émergence de l’axone entrainant l’apparition des PA si le seuil
+de dépolarisation est atteint.
+- Le neurotransmetteur se libère de son récepteur et retourne dans le neurone présynaptique (A).
+4- La stimulation S1 provoque un PPSE de 10mv en O1, de 8mV en O3 et un PR en O4 : le PPS est un
+phénomène amorti ou à décrémentions spatiale (non propageable).
+5- Le potentiel d’action n’apparait en O4 que si on pratique 3 stimulations successives
+(rapprochées) en A (résultats de la sommation de trois PPSE de 8mv chacun).
+6- Le schéma du document 1 montre que les neurones A et B ont deux diamètres différents :
+Le diamètre du neurone B est supérieur à celui de A.
+On conclut que la vitesse de l’influx nerveux au niveau de B (VB) est plus grande que celle au niveau
+de A (VA). D’où les enregistrements :
+
+
+
+En O3     Un PPSI de -4mv suivi d’un PPSE de 16mv
+
+
+En O4     Un PR car ces phénomènes sont amortis (non propageables).
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                          IGEN   36
+Exercice 3
+1- On constate que :
+       - ces drosophiles diffèrent par deux caractères,
+       - la F1 est homogène, identique à l’un des parents.
+       On déduit qu(e) :
+        -les drosophiles croisées sont de races pures.
+        - il s’agit d’une double dominance tel que b+ domine b et n+ domine n.
+        -les gènes sont autosomiques.
+  2-
+    a-Type de croisement : Ce croisement est un Back-cross ( croisement de retour)
+ ou Test – cross dont l’intérêt est de préciser si ces gènes sont liés ou indépendants c’est-à-dire
+préciser les types de gamètes formés par l’individu de F1 et dans quelles proportions ?
+     b –Les résultats de ce croisement sont repartis en deux phénotypes équiprobables, ce qui
+caractérise une liaison absolue (Linkage strict)
+     c- Génotypes :
+
+
+
+
+3- a- Explication
+        F1 * F1 donne entre autres 22% [bn]caractéristiques de liaison partielle c’est-à-dire linkage +
+       crossing-over chez la femelle, d’où le croisement :
+
+
+
+
+                        b+n+(1/2 –P/2)       b+n (P/2)          bn+(P/2)        bn(1/2 –P/2)
+           + +
+          b n (1/2)
+          bn (1/2)
+
+b- Calcul du % d’un gamète recombiné :
+       [bn] = 22% correspond à (1/4 – P/4) ainsi (1/2 – P/2) = 44% correspond à un gamète
+       parental d’où
+        P = 12%.
+Conclusion :
+On déduit la carte factorielle suivante :
+   c- Répartition phénotypique sur 2000 drosophiles :
+
+        Phénotype                [b+n+]              [b+n]              [bn+]               [bn]
+        %                         72%                 3%                 3%                 22%
+        Nombre                    1440                60                 60                 440
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN      37
+                                               Sujet 7
+I- Maitrise des connaissances
+QCM
+Sur votre copie, reportez le numéro de chaque item et indiquez dans chaque cas la (ou les) lettre(s)
+correspondant à la (ou aux) réponse(s) exacte(s).
+
+ 1- La plante produit                                  2- Le pistil se transforme en fruit qui
+ a) Des graines qui renferment les fruits              renferme
+ b) Des fruits qui renferment les graines              a) les ovules
+ c) Des graines puis des fruits                        b) les graines
+ d) Des fruits puis des graines.                       c) les grains de pollen
+                                                       d) l’étamine.
+ 3-Chez les angiospermes, le gamétophyte               4- La fécondation chez les spermaphytes
+ femelle est :                                         se réalise :
+ a) l'ovule                                            a) entre le grain de pollen et l’ovule.
+ b) le sac embryonnaire                                b) à l’air libre.
+ c) l'endosperme                                       c) au sein de l’ovaire.
+ d) l'albumen.                                         d) dans le fruit.
+
+QROC
+Les figures A et B du document 2 peuvent être observées au niveau
+de l’appareil génital d’une femme F1.
+1-Légendez le document 2 et donnez un titre à chaque figure.
+2-Donnez la quantité d’ADN que contient la cellule C, en considérant
+que la cellule 2 en renferme une quantité X.
+3-Quel est le rôle de chacun des éléments 5 et 6 ?
+La figure B donne une structure qui finit par s’implanter dans la
+muqueuse utérine bien développée de Mme F1.
+4-Précisez comment va être modifiée l'activité sexuelle de Mme F1 ?
+
+II-Compétences méthodologiques:
+Exercice 1
+Chez une drosophile (D1), de phénotype [G1N2], on étudie la transmission de deux caractères
+héréditaires, contrôlés par deux couples d’allèles distants de 8centimorgans.
+Le 1er caractère est contrôlé par le couple d’allèles (G1, G2) ;
+Le 2ème caractère est contrôlé par le couple d’allèles (N1, N2).
+La figure ci-contre est une représentation simplifiée d’une cellule (C) issue de la
+division réductionnelle chez la drosophile (D1) hybride pour les deux couples
+d’allèles.
+1-Nommez la cellule C.
+2-En se limitant aux allèles seulement représentez les types de gamètes fournis
+par la femelle D1et précisez la proportion de chaque type.
+3-Le croisement de la drosophile (D1) avec un mâle (D2) de même phénotype donne une
+descendance où toutes les femelles sont[G1N2], alors que les mâles sont repartis en quatre
+phénotypes.
+    a- Que concluez-vous ?
+    b- Ecrire le génotype de chacune des drosophiles D1 et D2
+    c- Donnez la répartition phénotypique selon le sexe, sur un total de 1000 drosophiles, en
+        complétant le tableau suivant :
+                     [G1N2] [G1N1] [G2N2] [G2N1]
+          Femelles      ?       ?        ?         ?
+          Mâles         ?       ?        ?         ?
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN   38
+Exercice 3
+On se propose d’étudier quelques aspects de la communication
+nerveuse au niveau d’un circuit neuronique (document 1).
+On porte une stimulation I1 au point E et on enregistre la réponse
+sur l’oscilloscope O1(document 2).
+1-Nommez l’enregistrement obtenu.
+2- Quelle réponse obtenez-vous en O2 ?
+Pourquoi ?
+3- Quelle(s) propriété (s) de la fibre nerveuse
+peut-on déduire ?
+On porte une deuxième stimulation I2 au même point E et on obtient
+en O1 et O2 les enregistrements du document 3.
+4-Nommez ces enregistrements et comparez-les.
+5- Quelle propriété de la fibre est ainsi mise en évidence ?
+6- Calculez la vitesse du message nerveux au niveau du neurone A, sachant
+que O1 et O2 sont distants de 22mm.
+7- On injecte, à la même quantité et de façon séparée, trois substances : X, Y
+et Z dans les zones d’injection indiquées sur le document 1.
+Le tableau ci-dessous montre les ddp (en mV) obtenues.
+ Expérience       O1     O2      O3       O4
+ Injection de X   -70    -75     -70      -70    A partir de l’exploitation de ces données, déduisez l’effet
+ Injection d’ Y   -70    -70     -60      -70    et le lieu d’action de chacune des substances utilisées.
+ Injection de Z   -70    -75     -70      +30
+
+Exercice 4
+On se propose d'étudier quelques aspects de la réponse immunitaire spécifique. On dispose de toxine
+tétanique et d'une substance appelée anatoxine tétanique préparée à partir de la toxine tétanique. Le
+tableau suivant résume les résultats des trois expériences réalisées :
+
+
+
+
+Expérience 1      Une souris A reçoit de la toxine tétanique.                           Elle meurt.
+                  Une souris B reçoit une injection d'anatoxine tétanique puis 15 jours
+ Expérience 2                                                                           Elle survit.
+                  après, on lui injecte de la toxine tétanique.
+                  Une souris C reçoit simultanément une injection du sérum de la souris
+ Expérience 3                                                                           Elle survit.
+                  Bet de la toxine tétanique.
+1- Quelle(s) conclusion (s) pouvez-vous dégager de ces expériences ?
+2- Quelles sont les propriétés de l’anatoxine ?
+3-Le document ci-contre montre une cellule intervenant dans la réponse immunitaire.
+   a- Nommez cette cellule et précisez son origine.
+   b- Citez le(s) rôle(s) des éléments X.
+
+Exercice 5
+On se propose d’étudier certains mécanismes de la régulation nerveuse de la pression artérielle chez
+un chien.
+Les enregistrements des potentiels d’action sur l’une des fibres du nerf de Hering et des variations
+normales de la pression artérielle au niveau du sinus carotidien, sont représentés par les tracés du
+document 1.
+1- A partir de l’exploitation des résultats présentés dans ce
+document, déduire la correspondance entre la variation de la
+pression artérielle et la fréquence des potentiels d’action au niveau
+de la fibre du nerf de Hering.
+
+
+
+
+ Sciences Naturelles                   Joussour pour réussir au BAC (SN et M)                       IGEN       39
+- Sur le même chien, le nerf de Hering gauche est intact, on sectionne le nerf de Hering droit et les
+nerfs de Cyon.
+Le document 2 représente les enregistrements de la variation de
+la pression artérielle générale, de l’activité électrique d’une fibre du
+nerf de Hering et d’une fibre du nerf sympathique suite au
+pincement de la carotide gauche au-dessous du sinus carotidien.
+2-En utilisant ce document et vos connaissances, expliquez le
+mécanisme qui a permis le changement de la pression artérielle
+suite au pincement de la carotide au-dessous du sinus carotidien.
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                    IGEN       40
+                                                Corrigé 7
+I- Maitrise des connaissances
+                                              Item    1           2        3        4
+QCM
+                                              BR     b,c          b        b        c
+QROC :
+1-Document 2 :
+           Figure A = pénétration du spermatozoïde
+           Figure B = rapprochement des pronuclei.
+    Légende : 1 = Cellule folliculaire (ou de la corona radiata)
+                 2 = GPII
+                 3 = Pronucléus femelle
+                 4 = Pronucléus mâle
+                 5 = Granules corticaux (ou granulations corticales)
+                 6 = Zone pellucide
+                 7 = Chromosomes en métaphase II
+                 8 = GPI
+    2- Sachant que le GPII est à X ADN
+      La quantité d’ADN de la cellule C (qui se présente sous deux états) est :
+    C1 = 4 X
+                 C2 = 3X
+    3-Rôle des éléments :
+    -Elément 5 : libère les enzymes qui détruisent les récepteurs des spermatozoïdes (empêcher
+    la polyspermie).
+-Elément 6 : renferme les récepteurs ZP3 qui fixent les spermatozoïdes (phase de reconnaissance
+entre les gamètes).
+4- La figure B donne une structure qui s’implante dans la muqueuse : c’est la nidation.
+    Après la nidation, la sécrétion de HCG maintient le corps jaune gestatif développé donc un taux
+    élevé des œstrogènes et progestérone d’où RC- sur le CHH et blocage des cycles.
+II-Compétences méthodologiques :
+
+Exercice 1
+1-Nom de la cellule : ovocyte II = (ovocyte II ou GPI).
+2-Types de gamètes : Liaison partielle chez la femelle.
+Cette femelle donne 4typesde gamètes
+
+
+
+                  1−𝑃                𝑃               𝑃            1−𝑃
+                        = 46%          = 4%            = 4%            = 46%
+                    2                2               2              2
+3- a-Dans la descendance les femelles sont de phénotype dominant (G1> G2 et N2>N1) alors que les
+mâles sont répartis en quatre phénotypes.
+ Conclusion : Ces deux gènes sont portés par X.
+
+                                         D1                  D2
+b- Génotypes des parents :
+                                          𝐆                   𝐆
+                                        𝐗 𝐍𝟏𝟐               𝐗 𝐍𝟏𝟐
+                                          𝐆                  𝐘
+                                        𝐗 𝐍𝟐𝟏
+c- Proportion et nombre :
+
+                                                     [𝐺1 , 𝑁2 ] [𝐺1 , 𝑁1 ] [𝐺2 , 𝑁2 ]   [𝐺2 , 𝑁1 ]
+                                     ♀(femelles)       500             0       0           0
+                                     ♂(mâles)          230            20       20         230
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                           IGEN   41
+NB : La justification suivante n’est pas obligatoire.
+                                                            𝐺     *              𝐺
+                                                           𝑋𝑁21             𝑋𝑁21
+                                                            𝐺                    𝑌
+                                                           𝑋𝑁12
+                                                        ↓                   ↓
+                                                4 types de                  2 types de
+                                                  gamètes                   gamètes
+                         𝐺   1−𝑃            𝐺 𝑃                       𝐺 𝑃                 𝐺 1−𝑃
+                       𝑋𝑁21 ( 2 )         𝑋𝑁11 ( 2 )              𝑋𝑁22 ( 2 )             𝑋𝑁12 ( 2 )
+           𝐺 1
+                               𝐺                       𝐺                         𝐺                  𝐺
+          𝑋𝑁21 ( )            𝑋𝑁21                 𝑋𝑁21                      𝑋𝑁21                  𝑋𝑁21
+                2              𝐺                       𝐺                         𝐺                  𝐺
+                              𝑋𝑁21                 𝑋𝑁11                      𝑋𝑁22                  𝑋𝑁12
+               1        𝐺
+                       𝑋𝑁1
+                                           𝐺
+                                          𝑋𝑁1                     𝑋𝑁2
+                                                                      𝐺                   𝐺
+                                                                                         𝑋𝑁2
+           Y( )          2    1−𝑃           1    𝑃                     2    𝑃              1   1−𝑃
+               2             ( )                ( )                        ( )                 (   )
+                        𝑌      4           𝑌     4                    𝑌     4             𝑌     4
+
+
+Exercice 3 :
+1-Nom de l’enregistrement obtenu : Potentiel excitateur ou local
+2- l’enregistrement obtenu en O2 est un potentiel de repos car le potentiel obtenu en O1 est non
+propageable (ou à décrément spatial ou amorti).
+3- Propriétés : La fibre est polarisée et excitable.
+4- Nom des courbes et comparaison :
+ - Nom : potentiels d’action monophasiques.
+ -Comparaison
+        ➢ Potentiels de même amplitude
+        ➢ Le potentiel obtenu en O1 est précédé par un potentiel excitateur et de temps de
+            latence très court ou nul ;
+        ➢ Le potentiel obtenu en O2 a un temps de latence plus long et n’est pas précédé par un
+            potentiel local.
+5- la nouvelle propriété de la fibre ainsi mise en évidence est la conductibilité (La fibre est
+conductible).
+6- Calcul de la vitesse : V = d /t en m/s
+
+V = 22.10-3/ 2.10-3 = 11m/s
+
+7- Effet des substances et lieu d’action :
+-Expérience 1 :
+Injection de de la substance X provoque un PPSI au niveau de O2 :
+X est un médiateur inhibiteur qui agit au niveau de la synapse C-A
+-Expérience2 :
+Injection de de la substance Y provoque un PPSE au niveau de O3 :
+Y est un médiateur excitateur qui agit au niveau de la synapse A-B.
+-Expérience 3 :
+Injection de de la substance Z provoque un PPSI au niveau de O2mais un PA en O4 :
+Z est un médiateur excitateur qui agit au niveau de la synapse B-C.
+
+Exercice 4 :
+1-Conclusions des expériences :
+- Expérience 1 : l’injection de la toxine tétanique (TT) à la souris A provoque sa mort :
+       TT est un antigène mortel pour la souris.
+       La souris A n’est pas immunisée contre la toxine tétanique.
+- Expérience 2 : L’injection de l’anatoxine tétanique protège la souris B contre la toxine tétanique :
+L’immunité est acquise car la souris B a acquis une immunité contre la toxine tétanique.
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                              IGEN   42
+- Expérience 3 : le sérum de la souris B protège la souris C contre la toxine tétanique :
+          Il s’agit d’une RIMH car cette immunité est transférable par le sérum.
+2-Propriétés d’une anatoxine :
+         Toxine ayant perdu son pouvoir pathogène et conservé son pouvoir immunogène.
+3-a : Nom de la cellule : Plasmocyte, Origine : LB
+ b- Anticorps qui joue trois rôles :
+            - neutralisation de l’antigène (formation du complexe immun) ;
+            -facilite la phagocytose ;
+             -active le complément.
+Exercice 5 :
+1-Ce document montre que :
+-L’augmentation de la pression artérielle provoque une augmentation de la fréquence des
+potentiels d’action au niveau de Herring (forte stimulation de Herring), ce qui provoque une
+diminution de la pression artérielle.
+-La diminution de la pression artérielle provoque une diminution de la fréquence des potentiels
+d’action au niveau de Herring (inhibition = faible stimulation) ce qui provoque une augmentation de
+la pression artérielle.
+ 2- la ligature au-dessous du sinus carotidien provoque une augmentation de la pression générale
+selon le mécanisme suivant :
+ Ligature au- dessous du sinus carotidien provoque une chute de la pression au niveau du sinus d’où
+l’inhibition des barorécepteurs (faible stimulation) à l’origine d’une diminution de la fréquence des
+potentiels d’action au niveau de Herring, ce qui lève l’inhibition du centre cardio-accélérateur et
+inhibe le centre cardio-modérateur provoquant la stimulation de l’orthosympathique
+(sympathique) et l’inhibition du parasympathique provoquant l’augmentation de la fréquence
+cardiaque d’où retour à la pression artérielle normale (correction).
+
+NB : l’élève a le choix entre le texte et le croquis.
+                                                           Diminution de la         (-)barorécepteurs
+                                 Ligature                    pression au
+                              au- dessous du               niveau du sinus
+                                   sinus                      carotidien
+
+
+
+                                                                                                        (-)Nerf de
+                                                                                                         Herring
+                                                                     ( -)         (-)Centre
+                                                              Parasympathique     cardio-
+            Augmentation de           Augmentation                               modérateur
+               la pression                de la
+                Artérielle             fréquence
+                                        cardiaque
+                                                                      (+)         (+)Centre
+                                                              Orthosympathique      cardio-
+                                                                                 accélérateur
+
+
+
+
+ Sciences Naturelles                           Joussour pour réussir au BAC (SN et M)                       IGEN     43
+                                                Sujet 8
+Exercice 1
+Le croisement d’un lapin [c+p] avec un autre [cp+] donne une génération F1 où tous les lapins sont
+[c+p+].
+1-Donner deux conclusions certaines.
+2- Le croisement d’une femelle de F1 avec un mâle [cp] donne une génération "F2"
+        a-Nommer ce croisement et préciser son intérêt.
+        b-Donner le(s) résultat(s) théorique(s) de ce croisement.
+3- Parmi la descendance "F2" on constate des lapins de phénotype [cp]. Que déduire ?
+4- Les statistiques précisent que le phénotype [cp] ne représente que 6% de la descendance.
+   a- Qu’apporte cette information ?
+   b- Ecrire les génotypes des parents, celui de F1 et expliquer les résultats obtenus en "F2".
+
+Exercice2
+ Deux femmes A et B utilisent deux types de pilules (X et Y). Madame A prend la pilule X alors que madame
+B prend la pilule Y. On dose la concentration d’une hormone H chez madame A au cours de deux cycles
+(avec et sans
+                    Temps en jours                          1 4 12       16 18 20            22 24 28
+pilule).     Les
+résultats           Concentration    de H sans pilule (en
+                                                            2 1     1     5 25 28            29 8     2
+figurent dans ng/mL)
+le tableau 1.       Concentration de H avec pilule (en
+                                                            2 1     1     1    1       1     2     1  1
+1-                  ng/mL)
+Représenter                                               Tableau 1
+dans un même repère, les variations de la concentration de l’hormone H chez Madame A.
+2-Identifier l’hormone H. Justifier.
+3-Citer les événements qui peuvent être constatés chez madame A dans chaque cycle.
+4-Nommer la structure ovarienne caractéristique du jour
+J13 chez cette femme.
+5-a-Comparer l’évolution de la concentration de l’hormone H,
+au cours de ces deux cycles.
+   b-Déduire l’effet de la pilule X.
+   c- En se basant sur vos connaissances préciser l’action
+de la pilule X sur :
+         -le CHH
+          -l’endomètre
+         - le col utérin.
+
+Afin de comprendre l’effet de la pilule Y utilisée par Madame
+B, on effectue des expériences sur trois lots de lapines
+impubères. Le tableau 2 indique les conditions
+expérimentales et les résultats obtenus.
+6- Dégager à partir de l’analyse du tableau 2, l’effet de la pilule Y.
+Expliquer son mode d’action.
+7-Nommer la méthode de maîtrise de la reproduction qui correspond à chacune des pilules (X et Y)
+utilisées. (0.5pt)
+
+Exercice3
+A- Les montages expérimentaux du document 1 permettent l’enregistrement des tracés du document 2,
+en désordre.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN       44
+En se basant sur le document 1 et vos connaissances, reproduire et compléter le tableau 1.
+                                                                          Trac Oscillosco Justification
+                                                                           é1     pe
+                                                                           2
+                                                                           3
+                                                                           4
+B- La dissection d’un nerf phrénique de chat montre des fibres                   Tableau 1
+amyélinisées et d’autres myélinisées. La répartition de ces fibres
+selon leur nombre et leur diamètre est donnée par le tableau 2.
+1-Que pouvez-vous déduire de l’analyse de                                          Diamètre Vitesse
+ce tableau. 2-On applique à ce nerf une               Fibres         Type Nombre
+                                                                                     (µm)      (m/s)
+stimulation isolée d’intensité maximale (Imax)                        a      14       13         75
+et on enregistre la réponse au niveau d’une           Myélinisées
+                                                                      b      14        9         55
+électrode réceptrice R1 éloignée des                  Amyélinisées    c      23        9         11
+électrodes excitatrices.
+Représentez schématiquement la courbe                                    Tableau 2
+obtenue. 3- Afin d'étudier l’excitabilité de ce
+nerf, on porte deux chocs (I1=I2=Imax) séparés par un délai variable (ΔT).
+On mesure pour chaque délai l’amplitude de la réponse qui résulte du deuxième choc (I2). Les
+résultats sont donnés dans le tableau 3.
+    Délai (Δt) en ms               0,5 1 1,5 2 3 4                 5  6   7    8   9 10 11 12
+         Amplitude de la            0    0    0     2 6 12 21 33 47 54 65 70 70 70
+           2èmeréponse
+                                                  Tableau 3
+a-Tracez la courbe représentant l’amplitude de la réponse au deuxième choc en fonction du délai.
+b-Expliquez les différentes parties de cette courbe.
+C- Le document 3 représente d'une façon schématique, des structures impliquées dans le réflexe
+myotatique.
+1-Légendez ce document (de 1à 5).
+2- Proposez une expérience qui met en évidence :
+    a- la continuité entre les éléments 3 et 4.
+    b- le codage du message nerveux.
+3- L'étirement efficace de l'élément 1 aboutit à la libération de la
+substance X.
+  a- Nommez cette substance X et préciser son mode d'action.
+  b- En vous basant sur vos connaissances, citez la succession des événements depuis l'étirement de
+l'élément 1 jusqu’à sa contraction.
+
+Exercice4
+On se propose d'étudier un aspect de la régulation de la pression artérielle suite à une hémorragie.
+Le tableau 1 montre la relation entre la concentration sanguine d'une hormone X et la volémie.
+1-A partir de l’analyse du tableau, proposer deux hypothèses
+concernant le nom de cette hormone en précisant à chaque fois son            Taux de      Effet sur la
+origine.                                                                         X
+                                                                              Elevé        volémie
+                                                                                         Augmentation
+2- Le tableau 2 représente l'enregistrement de l'activité électrique d'une    Faible      Diminution
+cellule sécrétrice de l’hormone X et le taux de cette hormone, avant,                 Tableau 1
+pendant et après une hémorragie.
+a- En se basant sur ces résultats et vos
+connaissances, confirmer l’une des hypothèses
+précédentes?
+
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                        IGEN   45
+b- Expliquer la relation entre l'évolution du taux de X et la variation de la volémie constatée dans le
+tableau 1.
+ 3- Deux autres substances, Y et Z,
+ Le document ci-contre montre, en fonction du temps,
+ l'évolution du taux d'aldostérone, suite aux injections
+ d’autres substances Y et Z intervenant dans cette
+ régulation, chez un animal normal.
+A partir d'une analyse comparative de ces courbes et vos
+connaissances :
+a- identifier ces deux substances et préciser leur origine.
+b- expliquer les différences observées suite à l’injection de ces substances.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN    46
+                                                Corrigé8
+
+Exercice 1
+1- Deux conclusions certaines :
+- pureté des parents ;
+- La dominance : c+ domine c et p+ domine p.
+2- a- Ce croisement est un test-cross dont l’intérêt est de préciser si les gènes sont liés ou
+indépendants.
+b- Résultat théorique de ce croisement :
+      - cas de gènes indépendants : 1/4[C+P] ; 1/4 [CP+]; 1/4[C+P+] ; 1/4[CP].
+      - cas de gènes liés :
+           ➢ liaison absolue : 1/2[C+P] ; 1/2[CP+] .
+           ➢ liaison partielle : [C+P] 1-p/2 ; [CP+]1-p/2 ; [C+P+] p/2 ; [CP] p/2.
+3- L’apparition du phénotype double récessif [cp] en F2, permet d’exclure la liaison absolue (ou de
+retenir le cas de gènes indépendants et de liaison partielle).
+4-a- L’apparition du phénotype double récessif [cp] en F2 dans la proportion 6% (différente de 25%)
+montre qu’il y a liaison partielle (ou gènes liés partiellement) et que les 2 gènes sont distants de 12
+cM.
+b- Les génotypes des parents :
+
+ F1 :
+
+
+Test-cross:
+
+
+Il y a eu un crossing-over chez l’individu hybride au cours de la méiose (gamétogenèse) donnant 4
+types de gamètes dans les proportions suivantes : 44% c+p ; 6% c+p+ ; 6% cp et 44% cp+.
+Echiquier de croisement :
+
+
+
+
+Exercice 2:
+1- Représentation
+Variations de la concentration de l’hormone H en fonction du temps chez une femme avant et après la
+prise de la pilule.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN    47
+2- Identification : L’hormone H : la progestérone.
+   Justification : Secrétée pendant une seule phase du cycle
+3- Les évènements qui peuvent être constatés chez madame A :
+ -au cours d’un cycle sans pilule : - menstruations –ovulation.
+ -au cours d’un cycle avec pilule : - menstruation.
+4- Structure caractéristique du J13 chez madame A :
+-au cours d’un cycle sans pilule : Follicule mûr.
+-au cours d’un cycle avec pilule : Follicule tertiaire.
+5-a-
+Comparaison :
+                               Cycle sans pilule X                             Cycle avec pilule X
+              - Cette concentration commence à augmenter               - la concentration en progestérone
+  Madame      après le 12e jour et arrive à 29 ng/mL au 22e jour ;     est presque constante à 1ng/mL
+    A         -Cette concentration commence à diminuer après           sauf au J-1 et J-22 qui est de
+              le 22e jour pour devenir 2ng/mL au 28e jour.             2ng/mL
+
+b- L’effet de la pilule X : est d’empêcher l’augmentation de la progestérone donc bloque l’ovulation.
+c- L’action de la pilule X :
+
+          CHH          L’endomètre                                 Le col utérin
+          RC -   Développement anormal         Glaire cervicale imperméable aux spermatozoïdes
+
+6 – Analyse du tableau :
+Lot 1 : L’œstradiol seul a induit un développement limité de l’endomètre avec apparition de glandes en
+tubes.
+Lot 2 : En présence d’œstradiol et de progestérone, l’endomètre augmente de développement avec
+formation de glandes sinueuses.
+Lot 3 : En présence de la pilule Y, l’endomètre présente un aspect semblable à celui du lot 1 malgré la
+présence d’œstradiol et de la progestérone.
+- L’effet de cette pilule est d’empêcher l’action de la progestérone sur l’endomètre (occupe les
+récepteurs…)
+
+7 - La pilule X correspond à une méthode contraceptive ;
+  - la pilule Y correspond à une méthode contragestive.
+
+Exercice 3
+A-
+ Tracé Oscilloscope                                       Justification
+                       Car le PA enregistré est très proche de l’électrode stimulatrice et il est précédé
+   1        O3
+                       par un Potentiel seuil.
+                        ddp enregistré = 0 mv. Les deux électrodes sont situées à l’extérieur de l’axone
+   2        O1          et sans excitation.
+                         (MEC
+                       ddp      est isopotentiel)
+                            enregistré = ̶ 70 mV, une électrode à l’extérieur et l’autre à l’intérieur et
+   3        O2
+                       sans stimulation potentiel de repos.
+                       PA enregistré monophasique simple sans potentiel seuil et précédé par un PR et
+   4        O4         avec un grand temps de latence, le potentiel seuil est non propageable.
+
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                      IGEN      48
+B-
+1- Le tableau montre que le nerf est formé de fibres :
+- myélinisées (a) et (b) de même nombre et de diamètres différents (fibres (a) de gros diamètre et
+fibres (b) de petit diamètre).
+- amyélinisées (c) plus nombreuses que (a) et (b) mais de diamètre égal à celui des fibres (b).
+La vitesse de l’influx nerveux en (a) est plus importante qu’en (b) qui est aussi plus importante qu’en
+©.
+Conclusion : la vitesse de l’influx nerveux augmente avec :
+- l’augmentation du diamètre (Va >Vb)
+- la présence de la myéline (Vb>Vc).
+2- Courbe : PA monophasique complexe qui présente trois ondes a, b et c (a et b de même amplitude
+et c plus ample).
+
+
+
+
+3-a- Courbe :
+
+                                    Amplitude de la 2ème réponse
+                             80
+                             60
+                             40
+                             20
+                              0
+                                  0.5 1 1.5 2    3     4   5   6   7   8   9 10 11 12
+
+                                                     Delai en ms
+                                                Amplitude de la 2ème réponse
+
+
+b- Cette courbe montre trois parties :
+          ➢ Lorsque le ∆𝑡 ≤ 1,5ms Ce nerf ne répond pas à I2. C’est la période réfractaire absolue ;
+              c’est-à-dire que toutes les fibres sont inexcitables.
+          ➢ Lorsque 1,5 ˂ ∆𝑡 < 10ms Cette période est caractérisée par une augmentation de
+              l’amplitude. C’est la période réfractaire relative ; c’est-à-dire que certaines fibres
+              redeviennent excitables.
+          ➢ Lorsque ∆𝑡 ≥ 10𝑚𝑠. Amplitude constante à sa valeur maximale, malgré l’augmentation
+              du delai. C’est le retour à l’excitabilité normale (toutes les fibres sont redevenues
+              excitables).
+C–
+1- Légende :
+     1 : muscle      2 : Fuseau neuromusculaire 3 : corps cellulaire           4: axone      5 : arborisation
+terminale.
+2- Expériences :
+a-Expérience qui met en évidence les continuités entre 3 et 4.
+La section de l’axone ‘entre (3 et 4) entraîne la dégénérescence du bout central (BC). La culture in vitro
+des cellules embryonnaires (3) montre que cette cellule émet le prolongement manquant (4).
+b-Expérience qui met en évidence le codage du message nerveux.
+On place un oscilloscope au niveau du 1er nœud de Ranvier (site générateur) et on applique des
+étirements d’intensité croissante sur le fuseau neuromusculaire.
+
+
+
+ Sciences Naturelles                   Joussour pour réussir au BAC (SN et M)                        IGEN       49
+On constate qu’à partir du seuil, le nombre de PA augmente par augmentation de l’intensité.
+Le message nerveux est codé en modulation de fréquence.
+3- a- Substance X est un neurotransmetteur excitateur.
+Mode d’action : elle se fixe sur la membrane postsynaptique au niveau des récepteurs spécifiques
+permettant l’ouverture des CCD Na+ et la naissance d’un PPSE.
+b- Suite à l’étirement du fuseau neuromusculaire, on assiste à la succession des événements suivant:
+- Naissance d’un potentiel de réception au niveau du site transducteur.
+- Le potentiel de récepteur atteint le seuil au niveau du site générateur et déclenche la naissance d’un
+train de PA (message nerveux).
+- Propagation du message nerveux jusqu’à atteindre les arborisations terminales.
+- Ouverture des CVD Ca2+ et exocytose du neurotransmetteur X dans la fente synaptique.
+- Fixation des molécules du neurotransmetteur sur leurs récepteurs postsynaptiques de la fibre
+motrice
+- Naissance d’un message nerveux moteur et sa propagation vers la plaque motrice
+- Ouverture des CVD Ca2+ et exocytose de l’acétylcholine dans la fente synaptique.
+- Fixation de l’acétylcholine sur leurs récepteurs du muscle
+- ouverture des CCD à Na+ et la naissance d’un potentiel de plaque (potentiel musculaire).
+- Contraction du muscle étiré.
+Exercice 4
+1- L’élévation du taux de l’hormone X, entraîne une augmentation de la volémie, tandis que la baisse
+de cette hormone entraîne une diminution de la volémie.
+L’hormone X, exerce un effet hyper volumique.
+L’hormone X, peut-être :
+    - ADH
+    - Aldostérone
+ - ADH  ->  hypothalamus / hypophyse postérieure.
+ - Aldostérone  ->  corticosurrénale.
+2- L’augmentation de l’activité électrique (fréquence des PA) de la cellule sécrétrice est suivie d’une
+augmentation du taux de l’hormone X. (1 à 12 UA).
+     -> La cellule sécrétrice est de nature nerveuse.
+a- Hormone X correspond à l’ADH (sécrétée par les neurones hypothalamiques).
+b- L’hémorragie  ->  hypovolémie  -> hypotension  ->  augmentation du nombre de PA des neurones
+hypothalamiques  ->  augmentation du taux de l’ADH  ->  augmentation de la réabsorption d’eau  -> 
+augmentation de la volémie.
+3-a-
+                                Injection de Y                                Injection de Z
+ Analyse        Le taux passe de 2 à 15 UA après un            Le taux passe de 2 à 15 UA après un
+                important temps de latence puis se             court temps de latence puis chute
+                stabilise.                                     rapidement
+ Identification -Y correspond à la rénine qui permet la        -Z correspond à l’angiotensine qui
+                formation de l’angiotensine qui stimule la     stimule directement la sécrétion de
+                sécrétion de l’aldostérone.                    l’aldostérone,
+                - effet tardif                                 -effet immédiat
+ Origine                             Rein                               Foie (angiotensinogène)
+b-Explication des différences :
+  - L’angiotensine est une hormone qui agit directement sur la corticosurrénale et stimule la sécrétion
+  d’aldostérone, son effet s’observe après une courte durée.
+  - La rénine est une enzyme, elle catalyse la transformation de l’angiotensinogène en angiotensine
+  d’où le temps de latence.
+ - au fur et à mesure que l’angiotensine se forme, elle stimule la sécrétion d’aldostérone ; d’où le
+ maintien de cette sécrétion.
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN       50
+                                               SUJET 9
+
+I- Maitrise des connaissances (Série M)
+
+QCM : Choisir la bonne réponse :
+ 1- La trisomie 21 :                                     c- hypothalamiques ;
+ a- est une maladie héréditaire récessive ;              d- sécrétrices de FSH.
+ b- est due à la présence de 3 paires du                 5- Comment se déplace l’eau des nappes ?
+ chromosome N°21 ;                                        a- Sous la forme de rivières souterraines ;
+ c- est due à une anomalie de la méiose lors de la        b- Sous la forme de rivières superficielles ;
+ formation des gamètes ;                                 c- A une vitesse variable dans les interstices de
+ d- est due à la présence de 3n chromosomes N°21.        la roche ;
+ 2- Une maladie autosomale dominante :                   d- Ne se déplace pas ;
+ a- ne s'exprime que chez les sujets portant l’allèle    6- L'eau sur terre est stockée :
+ responsable à l'état homozygote ;                       a- principalement dans les glaciers.
+ b- se manifeste chez le père ou la mère d'un sujet      b- principalement dans les océans ;
+ atteint.                                                c principalement dans l'atmosphère.
+ c- affecte l’enfant d’un père malade marié à une        d- à parts égales entre les réservoirs d'eau douce
+ femme saine avec une proportion de 75% ;                et d'eau salée.
+ d- est toujours liée au sexe.                           7-- La stratigraphie :
+ 3- Les enzymes de l’acrosome :                           a- étudie la succession des strates dans l’ordre
+ a- empêchent la monospermie ;                           chronologique ;
+ b- hydrolysent la zone pellucide ;                      b- est l'étude des fossiles ;
+ c- détruisent les récepteurs situés au niveau de la     c- minéraux des roches
+ zone pellucide.                                         d- étudie les la géodynamique interne.
+ d- sont libérées suite à la fixation du spermatozoïde   8- Un aquifère :
+ sur la zone pellucide.                                  a- est la réserve d'eau souterraine ;
+ 4- Les récepteurs de la testostérone sont               b- est la roche réservoir d'eau souterraine ;
+ localisés au niveau des cellules :                      c- est un terrain compact imperméable ;
+ a- de Sertoli ;                                         d- parfois prisonnier entre deux couches
+ b- de Leydig ;                                          perméables.
+
+
+II- Compétences méthodologiques
+QROC
+On se propose d’étudier le mode d’action de la pilule contraceptive combinée sur le fonctionnement
+de l'appareil génital de la femme. Pour cela, on dose les gonadostimulines et les hormones
+ovariennes naturelles chez une femme :
+-au cours d’un cycle sexuel normal r
+-au cours d’un cycle où cette même femme est sous pilule combinée.
+Les documents 1 et 2 traduisent les résultats de ces dosages.
+
+
+
+
+1) Analysez les documents 1 et 2 en vue de déduire le mécanisme d’action de la pilule combinée.
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                     IGEN      51
+2) Après l'arrêt de la prise de la pilule combinée (au 21èmejour), la menstruation aura-t-elle lieu ?
+Justifiez votre réponse.
+Exercice 1
+Afin d'étudier le fonctionnement des fibres et des nerfs,
+on effectue les expériences ci-dessous :
+Expérience 1:
+ Le montage expérimental figurant dans le document 1, a
+été réalisé sur l'axone géant de calmar. Au temps t0
+l'électrode R1 est à la surface de l'axone et au temps t1
+l'électrode R1 pénètre dans l'axone (enregistrement A du
+document 2); puis, à l'aide des électrodes E1 et E2,
+l'axone est stimulé.
+Les enregistrements B, C, D obtenus figurent dans le document 2.
+1- Expliquer les résultats obtenus.
+Expérience 2:
+Un morceau de nerf rachidien de grenouille est prélevé et placé dans une cuve à électrodes. On
+applique sur ce nerf 3 stimulations efficaces d'intensités croissantes.
+Le document 3représente les enregistrements obtenus au niveau de 3 électrodes réceptrices R1, R2
+                                             et R3, qui sont espacées l'une de l'autre d'un centimètre.
+                                             2- Comparer d'une part les tracés 1 et 2 et d'autre part les
+                                             tracés 2 et 3 du document 3.
+                                             3- Expliquer les résultats obtenus dans le document 3.
+
+
+
+
+Exercice 2
+On considère chez la drosophile, les couples d’allèles suivants :
+- couple d’allèle (A, a) tel que A domine a.
+- couple d’allèle (B, b) tel que B domine b.
+- couple d’allèle (E, e) tel que E domine e.
+La représentation de la carte factorielle correspondante à ces 3 gènes
+obtenue par réalisation de test-cross du document 1.
+1- Précisez, pour les couples d’allèles (A,a) et (B,b), les génotypes des individus croisés et les
+proportions phénotypiques des descendants attendus sachant que le pourcentage d’individus [a b]
+est de l’ordre de 3% .
+2- Précisez, pour les couples d’allèles (B,b) et (E,e), les génotypes des individus croisés et les
+proportions phénotypiques des descendants attendus sachant que le pourcentage d’individus [b e]
+est de l’ordre de 25%.
+
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                       IGEN     52
+                                               CORRIGE 9
+
+I- Maitrise des connaissances
+
+QCM :
+                  Items          1      2       3        4        5        6       7       8
+                  Réponses       c      b       d        c        c        b       a       b
+
+II- Compétences méthodologiques
+
+Exercice 1
+1- Analyse :
+- Cycle normal :
+ 1er jour – 9ème jour
+Doc. 1: - taux d'œstradiol faible ;
+- taux de progestérone presque nul.
+Doc 2 : Diminution du taux de FSH.
+ Vers le 13ème jour:
+Doc 1 et 2 : Pic d'œstradiol pic de FSH et surtout d'un pic de LH.
+ Vers le 21ème jour :
+Doc 1 et 2 : - Taux élevés d'œstradiol et surtout de progestérone ;
+               - Taux de gonadostimulines faible et constant.
+Cycle sous pilule :
+ Taux faible et constant des hormones ovariennes ;
+ Sécrétion maintenue faible et constante de LH (absence de pic).
+Déduction : Mode d'action de la pilule combinée : La pilule combinée inhibe par rétrocontrôle négatif
+la sécrétion de gonadostimulines, surtout de LH.
+2- La menstruation aura lieu
+- L'arrêt de la prise de pilule  ->  chute des taux sanguins des œstrogènes et de progestérone  -> 
+destruction de l'endomètre préalablement développé (menstruation).
+
+Exercice 2
+1- Le tracé A entre t0 et t1 montre qu'il n'y a pas une différence de potentiel entre les deux points à la
+surface de la membrane car l'extérieur de la membrane présente la même charge positive.
+Au temps t1 après l'introduction de l'électrode R1 dans l'axone, une différence de potentiel de l'ordre
+de -60 mV est enregistrée car l'intérieur de la membrane présente une charge négative par rapport à
+l'extérieur.
+Apres la stimulation faible en B, pas de message nerveux car cette stimulation est infraliminaire.
+Apres une stimulation plus forte en C (d'après l'artefact de la stimulation), il y a apparition d'un
+potentiel d'action dont l'amplitude reste constante à 80 mV même après une stimulation plus forte en
+D. Dans ces deux cas les deux stimulations sont efficaces ou supraliminaire, et comme les
+enregistrements sont au niveau d'une fibre alors qui obéit à la loi du tout ou rien ; c.à.d. à partir de
+l'intensité seuil, il y a apparition d'un potentiel d'action d'amplitude maximale et constante malgré
+l'augmentation de l'intensité de la stimulation.
+2- Dans le tracé (1) après la première stimulation, le potentiel global obtenu a une amplitude plus
+petite que celle du potentiel global dans le tracé 2 obtenu suite à une stimulation d'intensité plus
+grande.
+L'amplitude du potentiel global obtenu dans le tracé 2 est identique à celle du potentiel global du tracé
+3 obtenus suite à une stimulation de plus en plus forte.
+3-Un nerf est un ensemble des fibres nerveuses. Le potentiel global enregistré au niveau du nerf
+dépend de l'activité des fibres recrutées dans ce nerf ; à partir de l'intensité seuil et quand l'intensité
+de la stimulation augmente le nombre de fibres recrutées augmente par suite l'amplitude de potentiel
+global augmente. Cela explique l'amplitude supérieure dans le tracé 2 par rapport au tracé 1. Et
+quand toutes les fibres qui constituent le nerf sont recrutées, l'amplitude du potentiel global devient
+maximale et constante (tracés 2 et 3).
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN       53
+Exercice 3
+1-On a les deux couples d’allèles liés partiellement : (A, a) avec A>a et (B, b) avec B>b. Le
+croisement est un test cross dans le cas de dihybridisme avec linkage partiel qui donne normalement
+:
+  - deux phénotypes majoritaires « les parentaux » ;
+- deux phénotypes minoritaires « les recombinés ». Donc l’individu testé doit fournir 4 types de
+gamètes (obligatoirement de phénotype dominant et hétérozygote pour les 2 gènes).
+Dans ce croisement, les pourcentages des gamètes sont égaux à ceux des descendants.
+Parmi les phénotypes recombinés on a [a b]               3%.
+Donc le croisement est :
+Génotypes:        Ab//aB * ab//ab
+
+
+
+
+l-p=94%           P=6 %
+Gamètes recombinés obtenus par brassages intrachromosomiques.
+Dont les proportions dépendent de la distance (A, a) - (B, b).
+b).Echiquier de croisement :
+      Gamètes de [AB]            Ab 47%             aB 47%          Ab 3%          AB 3 %
+      Gamètes
+      du testeur
+      Ab                            [Ab]              [aB]            [ab]           [AB]
+      100%                         47%               47%              3%              3%
+2) On a les deux couples d'allèles indépendants :
+- (B, b) avec B>b
+- (E, e) avec E>e
+Le croisement est un test-cross dans le cas de dihybridisme avec indépendance (les 2 gènes sont
+portés par deux paires de chromosomes différents) qui donne normalement :
+- deux phénotypes parentaux.
+- deux phénotypes recombinés.
+Equiprobables : 1/4 ; 1/4 ; 1/4 ; 1/4.
+Donc l’individu testé doit fournir 4 types de gamètes.
+- dans ce croisement les pourcentages des gamètes sont égaux à ceux des phénotypes des
+descendants.
+Parmi les phénotypes des descendants on a [b e]------------► 25%.
+Donc le croisement est :                 [BE] X [b e]
+Génotypes :                              B//b E //e        X   e//e b//b
+Gamètes :                             BE ; Be ; bE ; ebeb 100%
+1/4 ; 1/4; 1/4; 1/4
+Les proportions phénotypiques des descendants est : 25% [B E] ; 25% (b e] ; 25% [B e] 25% [b E].
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                   IGEN      54
+                                             SUJET 10
+Exercice 1
+Afin de comprendre les interactions hormonales impliquées dans la fonction reproductrice féminine,
+on propose les expériences et les observations suivantes :
+1- Le document 1 représente les variations de trois hormones sexuelles H1, H2 et H3 chez deux
+guenons pubères G1 et G2 dont l'une est normale et l'autre est ovariectomisée (le cycle sexuel de la
+guenon est comparable à celui de la femme).
+
+
+
+
+Comparez la variation des hormones H1, H2 et H3 chez les deux guenons G1 et G2 en vue :
+- de déduire laquelle des deux guenons est ovariectomisée.
+- d'identifier les hormones H1, H2 et H3.
+2- Afin de préciser la nature de la relation entre les hormones H1 et H2 d'une part et le rôle de H1 et H3
+d'autre part, on réalise la série d'expériences suivantes :
+Première série d'expériences :
+Expérience 1 : L'injection d'une faible dose de l'hormone Hi à la guenon G2 entraîne une chute de la
+sécrétion de l'hormone H2.
+Expérience 2 : L'injection au début du cycle (10ème jour) et pendant une courte durée d'une forte dose
+de l'hormone H2 à la guenon G entraîne une sécrétion brutale de l'hormone H2.
+Deuxième série d'expériences :
+Expérience 3 : L'injection de l'hormone H3 à la guenon G2 ne montre pas de modification au niveau
+de l'utérus.
+Expérience 4 : Chez la guenon G2, on réalise les injections suivantes :
+• Injections de l'hormone Hi pendant les 30 premiers jours.
+• Injections de l'hormone H3 du 16eme au 30eme jour.
+Ces injections montrent un développement de la muqueuse utérine et l’apparition d'une dentelle
+utérine.
+Exploitez les informations apportées par ces deux séries d'expériences afin :
+a) de préciser la nature de la relation entre les hormones H2 et H2.
+b) d'expliquer le rôle des hormones H2 et H3 dans le développement de l'endomètre utérin au cours
+d’un cycle sexuel normal.
+Exercice 2
+Le nerf sciatique de grenouille est formé de deux types de fibres (A et B). Sur une grenouille dont
+les centres nerveux ont été détruits, on étudie l'excitabilité du nerf sciatique.
+A. On détermine pour chaque intensité de stimulation la durée minimale d'excitation nécessaire
+pour obtenir une réponse seuil des fibres. Les résultats sont consignés dans le document 1 ci-
+dessous.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN       55
+Fibre A Intensité de stimulation           800 350 250 200 125 110                110 110
+        (milliampère)
+        Durée minimale (milliseconde)      3,75 5  7,5 10 15 20                   30 40
+Fibre B Intensité de stimulation           800 500 375 300 275 260                250 250
+        (milliampère)
+        Durée minimale (milliseconde)       7,5 10 12,5 15 20 30               35 40
+                                            Document 1
+1. Représentez dans un même repère les courbes de la variation de l'intensité de stimulation en
+   fonction de la durée minimale de l'excitation.
+On donne : 2 cm pour 100 milliampères et 2 cm pour 5 millisecondes.
+2. Déterminez graphiquement pour chaque fibre : la chronaxie, la rhéobase et le temps utile.
+3. a) Des deux types de fibres étudiées, identifiez la fibre la moins excitable.
+  b) Justifiez votre réponse.
+B. Dans un deuxième temps, pour l'une des fibres, on fixe une durée de stimulation suffisante. On
+porte alors sur la fibre des excitations successives à des moments (t). Les réponses de la fibre sont
+consignées dans le document 2.
+
+
+
+
+(+) : apparition du potentiel d'action (PA)  (—) : absence du PA.
+1. Analysez les résultats le document 2.
+2. Formulez une hypothèse pouvant aider à expliquer l'absence de réponses aux temps t1, t2, t4,
+   t5, t6 et t7.
+3. En réalité, il manquait au tableau précédent quelques données mesurées que l'on a pris soin
+   de noter cette fois dans le document 3.
+
+
+                                             Document 3
+a) Identifiez le type de fibre étudiée (A ou B).
+b) Justifiez votre réponse.
+4. Sur la réponse de cette fibre, tirez la conclusion qui tient compte de l'hypothèse émise.
+Exercice 3
+On cherche à déterminer le mode de transmission d'une maladie héréditaire. Pour cela, une
+électrophorèse de l’ADN du gène responsable
+de la maladie chez certains sujets de deux
+familles F et F’ a été réalisée. Les résultats
+obtenus chez les deux familles F et F’ sont
+représentés dans le document.
+1) Exploitez les données du document ci-contre
+pour préciser :
+a- l'allèle responsable de la maladie et l’allèle normal.
+b- la relation de dominance entre les deux allèles A1 et A2.
+c- la localisation chromosomique du gène en question (autosomique ou porté par le chromosome
+sexuel X).
+2) Ecrivez les génotypes et déduisez les phénotypes des enfants : E1, E2, E’1 et E'2.
+3) Déterminez, en justifiant votre réponse, les génotypes du père de la famille F ‘ et de la mère de la
+famille F.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN     56
+                                              Corrigé 10
+Exercice 1
+1-
+
+ Hormone                        Comparaison                               Nom de           Déduction
+                         G1                      G2                     l’hormone
+             - Présence de 2 pics
+     H1      par cycle sexuel             - Taux nul (sans
+                                                                       Œstrogènes
+             - Taux variable et          variation cyclique)
+             cyclique                                                                    La Guenon G2
+             - Présence d’un seul pic                                                    est
+                                           - Taux élevé et
+     H2      par cycle sexuel.                                                           ovariectomisée
+                                      constant (sans variation                LH
+             - Taux variable et                                                          (G1 est
+                                              cyclique)
+             cyclique                                                                    normale)
+             - Absente pendant la
+     H3      1ère moitié du cycle
+             - Présence d’un Pic la       - Taux nul (sans
+                                                                      Progestérone
+             2e moitié                   variation cyclique)
+             - Taux variable et
+             cyclique
+
+2)-a- Information apportée par l’expérience 1 : L’injection d’une faible dose d’œstradiol à une
+guenon castrée entraîne la chute de la sécrétion de la LH.
+Nature de la relation : A faible dose, l’œstradiol agit par rétrocontrôle négatif sur la sécrétion de LH.
+Information apportée par l’expérience 2 : L’injection d’une forte dose d’œstradiol à courte durée et
+au début du cycle, à une guenon normale, entraîne un pic de sécrétion de LH.
+Nature de la relation : A forte dose, l’œstradiol agit par rétrocontrôle positif sur la sécrétion de LH.
+b- Information apportée par l’expérience 3 :
+L’injection de progestérone seule au début du cycle n’a aucun effet sur le développement de
+l’endomètre.
+Information apportée par l’expérience 4 :
+L’injection d’œstrogènes durant tout le cycle et de progestérone pendant la deuxième moitié du cycle
+engendre le développement important de l’endomètre et la formation d’une dentelle utérine.
+Explication :
+- Au cours de la phase post menstruelle et sous l’action des œstrogènes, la muqueuse utérine
+s’épaissit,
+se vascularise et forme des glandes
+- Pendant la phase prémenstruelle et sous l’action combinée des deux hormones, le développement
+de la muqueuse s’accentue formant ainsi la dentelle utérine.
+
+ Exercice 2
+ A.
+ 1. Le graphique :
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN      57
+2.
+                 Rhéobase Temps            Chronaxie
+                               utile
+  Fibre A        110           30          15
+  Fibre B        250           35          10
+  3. a) La fibre A est moins excitable que la fibre B.
+  b) La chronaxie de la fibre A est plus longue que celle de
+  la fibre B.
+  1. L’analyse du document 2 montre que les excitations aux temps t1, t2, t4, t5, t6 et t7 n’ont
+  pas produit de réponse, contrairement aux excitations aux temps t3, t8, t9 et t10.
+2. L'absence de réponses aux temps t1, t2, t4, t5, t6 et t7 est liée au fait que les excitations en
+   ces temps sont infraliminaires.
+3. a) Il s’agit de la fibre A.
+b) Aucune des intensités utilisées n’atteint la rhéobase de la fibre B alors que certaines des
+intensités sont supérieures ou égales à la rhéobase de la fibre A.
+4. La fibre répond aux excitations supérieures ou égales à sa rhéobase et pas à celles qui sont
+inférieures à sa rhéobase.
+Exercice 3
+1) a- Famille F :
+Le père est atteint et ne possède que I' allèle A1 -> I' allèle A1 est I' allèle muté (responsable de la
+maladie) alors que I' allèle A2 est l’allèle normal.
+b- Famille F' :
+La mère est saine et hétérozygote (possédant les deux allèles A1 et A2) -> I' allèle A2 est dominant ;
+A1 est récessif (A2> A1).
+c- Si le gène en question est porté par un autosome ; dans ce cas, le père atteint, de la famille F
+aurait comme génotype A1//A1 ; dans ce cas, il transmet l' allèle A1 à tous ses enfants. Or, I' enfant 2
+ne possède que l’allèle A2-> le gène en question est porté par X.
+2) E1 : XA2//XA1 : Fille saine ; E2 : XA2//Y : Garçon sain ; E’1 : XA1//Y : Garçon malade ; E’2 : XA2//XA1 :
+Fille saine.
+3) Les génotypes :
+- du père de la famille F ‘ : XA1//Y ou XA2//Y car sa fille E’2 doit recevoir de lui A1 si la mère donne A2 et
+inversement.
+-de la mère de la famille F : XA2//XA2 ou XA2//XA1 car doit être capable de donner A2 à son fils E2.
+
+
+
+
+ Sciences Naturelles                   Joussour pour réussir au BAC (SN et M)                         IGEN       58
+                                               Sujet 11
+Exercice 1
+Afin de comprendre les relations fonctionnelles entre l'hypothalamus, l'hypophyse et les testicules, on
+réalise des expériences sur des singes dont la physiologie de la reproduction est voisine de celle de
+l'homme.
+Expérience 1 : Chez un singe normal, on a mesuré d'une part la sécrétion de Gn RH par les
+neurones hypothalamiques et, d'autre part, la sécrétion de LH par les cellules hypophysaires.
+Le document 1 présente les résultats obtenus
+Expérience 2 :
+L'ablation de l'hypophyse chez un autre singe entraîne une chute de la
+sécrétion de la testostérone.
+L'injection d'une dose de LH rétablit la sécrétion normale de la testostérone
+chez cet animal.
+Expérience 3 :
+On dose le taux plasmatique de LH chez un singe castré depuis 6 jours, on
+constate une augmentation de la sécrétion de LH par rapport à un singe
+normal.
+L'injection d'une dose de testostérone à ce singe castré, ramène la
+sécrétion de LH à sa valeur normale
+1. Analysez les tracés a et b du document 1 en vue de déduire la relation fonctionnelle entre
+l'hypothalamus et l'hypophyse.
+2. Expliquez les résultats des expériences 2 et 3. Que peut-on en déduire à propos du mécanisme
+régulateur de la sécrétion de la testostérone ?
+3. En utilisant les informations tirées des expériences précédentes, représentez par un schéma de
+synthèse le mécanisme régulateur de la sécrétion de la testostérone.
+Exercice 2
+On se propose de déterminer le rôle attribué à un neurone postsynaptique M dans la transmission du
+message nerveux. Pour se faire, un
+dispositif expérimental représenté
+dans le document 1 a été utilisé.
+On porte des stimulations de même
+intensité I1 et I2 respectivement sur
+les terminaisons nerveuses A et B
+(voir document 1). Les
+enregistrements obtenus au niveau
+des oscilloscopes O1, O2, O3 et O4 sont résumés dans le document 2.
+1. Dites si les stimulations I1
+et I2 sont efficaces ou non.
+2. Identifiez, en justifiant
+votre réponse, les tracés a
+et b obtenus au niveau de
+l’oscilloscope O3.
+3. Déduisez la nature des
+synapses A-M et B-M.
+4. Expliquez pourquoi on a
+enregistré un potentiel de
+repos au niveau de
+l’oscilloscope O4 quelle que
+soit la stimulation (I1 ou I2)
+portée sur la terminaison
+nerveuse A ou B.
+5. En utilisant le même
+dispositif expérimental
+représenté par le doc. 1 :
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN      59
+a. Proposez une première expérience permettant d’obtenir un potentiel d’action au niveau de
+l’oscilloscope O4 en appliquant un nombre minimal de stimulations efficaces sur l’une des deux
+terminaisons nerveuses A ou B. Justifiez votre choix.
+b. Proposez une deuxième expérience permettant d’obtenir le même résultat en activant les deux
+terminaisons nerveuses A et B par un nombre minimal de stimulations efficaces. Justifiez votre choix.
+c. Schématisez, dans chaque proposition, les enregistrements attendus au niveau des oscilloscopes
+O1, O2, O3 et O4.
+6. En exploitant les résultats des expériences précédentes et en faisant appel à vos connaissances,
+expliquez le rôle attribué au neurone postsynaptique M dans la transmission du message nerveux.
+Exercice 3
+On cherche à étudier le mode de transmission d’une anomalie héréditaire. Le document ci-contre
+représente l’arbre généalogique d’une famille dont certains
+membres sont atteints par cette anomalie.
+1- A partir de l'analyse du document 4, discutez les hypothèses
+suivantes :
+        H, : L’allèle muté est récessif et porté par X.
+        H2 : L’allèle muté est dominant et porté par X.
+        H3 : L’allèle muté est récessif et porté par un autosome.
+        H4 : L’allèle muté est dominant et porté par un autosome.
+2- Le tableau suivant montre le nombre d’allèles, normaux et mutés, déterminés chez certains sujets
+de cette famille :
+                                   Individus             l1       l2    ll5
+                            Nombre d’allèles             1        1      0
+                            normauxd’allèles
+                            Nombre                       1        0      1
+a- A partir de l’analyse de ces résultats, précisez laquelle des hypothèses retenues précédemment
+                            mutés
+est confirmée.
+b- Déterminez alors 1e(s) phénotype(s) de l’enfant « F » attendu par le couple (II5 et Il6).
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                     IGEN      60
+                                             Corrigé 11
+Exercice 1
+1- Analyse : La sécrétion des deux hormones est pulsatile : les pics successifs de la GnRH précèdent
+ceux de la LH.
+On en déduit que la sécrétion de la GnRH provoque celle de la LH.
+2. Explication
+Expérience 2 : la sécrétion de la testostérone par les cellules interstitielles est sous le contrôle de
+l'hypophyse par l'intermédiaire de la LH.
+Expérience 3 : la castration de l'animal entraîne la diminution de la testostérone du sang, ce qui
+provoque une augmentation de la sécrétion de LH. L'injection d'une dose de testostérone rétablit la
+sécrétion normale de LH.
+Cela s'explique par le fait que la testostérone contrôle la sécrétion de la LH.
+Déduction : la testostérone est sécrétée sous l'action de l'hormone hypophysaire LH et elle exerce
+un rétrocontrôle négatif sur la sécrétion de LH.
+3-
+
+
+
+
+Exercice 2
+1- I1 et I2, stimulations efficaces car il y a enregistrements de potentiels post synaptiques.
+2- Identification des tracés :
+· Le tracé a est une légère dépolarisation d’amplitude 10 mv qui rapproche le neurone postsynaptique
+de la valeur seuil
+(-50mv) : c’est un PPSE
+· L’enregistrement b est une hyperpolarisation d’amplitude 8 mv faisant éloigner le neurone post-
+synaptique de la valeur seuil : c’est un PPSI
+3- Nature des synapses :
+_ La synapse A-M : synapse excitatrice.
+_ La synapse B-M : synapse inhibitrice.
+4- Quelle que soit la stimulation efficace I1 ou I2 portée sur la terminaison nerveuse A ou B, on
+enregistre au niveau du cône axonique (O3) un PPS qui n’arrive pas à O4.
+5-a-
+- une seule stimulation I1 => PPSE d’amplitude 10 mv, incapable d’engendrer un PA au niveau du
+cône axonique.
+D’où l’absence de PA au niveau de O4.
+- deux stimulations I1 efficaces, successives et rapprochées au niveau de A par sommation temporelle
+=> Le PPSE global d’amplitude 20 mv atteint le seuil et déclenche la naissance d’un PA au niveau du
+cône axonique du neurone M.
+Ce PA se propage jusqu’ à O4.
+b- On stimule simultanément les neurones A et B de la manière suivante :
+- 3 stimulations efficaces et rapprochées de A ;
+- une seule stimulation efficace de B.
+Résultat : Le PPS global serait d’amplitude +30 - 8 = 22 mv => dépolarisation obtenue par
+sommation spatio-temporelle de deux PPSE et d’un PPSI permettant l’atteinte de la valeur seuil -
+70+22 = -48 mV => naissance d’un PA au niveau de O3 qui se propage jusqu’à O4.
+c- Enregistrements :
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN      61
+6-Le neurone postsynaptique M a la capacité d’intégrer les informations qui lui parviennent des
+neurones présynaptiques par sommation temporelle et spatiale des PPS. Si la somme algébrique des
+PPS obtenue atteint le seuil au niveau du cône axonique, il y a naissance et propagation d’un
+message nerveux. Dans le cas contraire, aucun message ne prend naissance.
+Exercice 3
+1- H1: L’allèle muté est récessif et porté par X.
+Soit le couple d'allèles (A,a) où A = allèle normal et a= allèle muté avec A domine a
+La mère I1, atteinte, serait de génotype XaXa transmet Xa à tous ses fils qui doivent être alors tous
+atteints
+(de génotype XaY); or le fils II3 est sain; l'hypothèse H1 est à rejeter.
+H2: L’allèle muté est dominant et porté par X.
+Soit le couple d'allèles (A,a) où a = allèle normal et A = allèle muté avec A domine a.
+La mère I1, ayant un fils normal (de génotype XaY) et un fils atteint (XAY), serait hétérozygote de
+génotype XAXa.
+La fille II4, de phénotype normal, hérite dans ce cas Xa de sa mère et Xa de son père I2 normal (de
+génotype XaY) ; l’hypothèse est possible.
+H3 : L’allèle muté est récessif et porté par un autosome.
+Soit le couple d'allèles (A,a) où A = allèle normal et a = allèle muté avec A domine a.
+Le sujet II5, atteint, serait de génotype a//a; il hérite l'allèle a de sa mère I1, (atteinte de génotype a//a)
+et l'allèle a de son père normal qui doit être hétérozygote de génotype A//a.
+Les enfants normaux (II3 et II4) héritent l'allèle normal A de leur père A//a et l'allèle muté a de leur
+mère;
+ils seraient de génotype A//a hypothèse possible.
+H4: L’allèle muté est dominant et porté par un autosome.
+Soit le couple d'allèles (A,a) où a = allèle normal et A = allèle muté avec A domine a.
+La mère I1, atteinte et ayant des enfants normaux (II3 et II4) serait de génotype A//a.
+Le fils II5, atteint, hérite l'allèle A de sa mère et l'allèle a de son père normal; il serait de génotype
+A//a ;
+L’hypothèse est possible.
+2- a –Si le gène en question est autosamal, chaque sujet doit avoir un nombre d'allèles égal à deux;
+or le tableau comprenant le nombre d'allèles montre que les sujets I2 et II5 ont un seul allèle : le gène
+n'est pas autosomal; il est lié à X Donc :H2 est confirmée.
+b- Le génotype définitif du sujet II5, atteint, serait XAY (A est l'allèle anormal et dominant); le sujet II6,
+de phénotype normal serait de génotype XaXa :
+- le fœtus F serait de génotype XAXa et atteint s'il est de sexe féminin.
+- le fœtus F serait de génotype XaY et de phénotype normal s'il est de sexe masculin.
+
+
+ Sciences Naturelles                   Joussour pour réussir au BAC (SN et M)                          IGEN       62
+                                              Sujet 12
+I- Maitrise des connaissances (Série M)
+
+Vrai ou Faux
+Répondez par vrai ou faux et corriger les affirmations inexactes
+1- Le pétrole est un hydrocarbure qui s'accumule dans une roche poreuse et imperméable dite roche
+couverture.
+2- La roche magasin se trouve au-dessus d'une roche perméable et riche en matière organique dite
+   roche réservoir.
+3- La roche magasin est recouverte d’une couche imperméable dite roche mère
+4- Dans la roche magasin, le pétrole est toujours associé à des gaz et de l’eau
+5- L’accumulation du pétrole exige toujours une structure piège
+
+
+II-Compétences méthodologiques :
+
+Exercice 1
+On connait chez la drosophile trois gènes : G1(A,a), G2(B,b) et G3(R,r).
+Pour représenter la carte factorielle correspondant à ces 3 gènes, on réalise des test-cross.
+1- Précisez, pour les couples d’allèles (A, a) et (B, b), les génotypes des individus croisés et les
+proportions phénotypiques des descendants attendus, sachant que le pourcentage des individus [ab]
+obtenus est de 3%.
+2-Précisez pour les couples d’allèles (B,b) et (R,r), les génotypes des individus croisés et les
+proportions phénotypiques des descendants attendus sachant, que le pourcentage des individus [b r]
+obtenu est de 25%.
+3- Réalisez la carte factorielle des trois gènes étudiés.
+4- Le croisement de drosophiles femelles de phénotype [B R] avec des drosophiles mâles de
+phénotypes [B r] donne une génération F formée de :
+       602 [B R]             598 [b R]                200 [B r]               202 [b r]
+
+a- Ecrivez les génotypes des individus croisés.
+b- Dressez l’échiquier correspondant à ce croisement.
+Exercice 2
+A- On se propose d'étudier quelques relations entre l'hypothalamus, l'hypophyse et le testicule. Pour
+préciser ces relations, on réalise différentes expériences.
+Expérience 1 : aucune opération ni aucun traitement.
+Expérience 2 : après hypophysectomie.
+Expérience 3 : après lésion de l'hypothalamus, hypophyse intacte.
+Expérience 4 : après hypophysectomie et greffe d'une hypophyse au contact du système porte
+hypothalamo-hypophysaire.
+Expérience 5 : après hypophysectomie et greffe d'une hypophyse dans la chambre antérieure de l'œil
+Le tableau suivant donne la quantité de LH plasmatique dosée chez des rats pubères dans chaque
+cas.
+                                                 Jours après l’opération
+                                         0         5        10       15       20
+                   Expérience 1        3,2ng     3,2ng     3,2ng   3,2ng    3,2ng
+                   Expérience 2        2,5ng     1,2ng     0,7ng   0,4ng    0,3ng
+                   Expérience 3        2,6ng     1,4ng      1ng    0,5ng    0,5ng
+                   Expérience 4        2,7ng     2,5ng     3,2ng   3,2ng    3,2ng
+                   Expérience 5        2,6ng     1,4ng      1ng    0,5ng    0,5ng
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                     IGEN      63
+1-Analyser le tableau puis conclure.
+ On dose le taux sanguin de testostérone chez deux mammifères mâles M1 et M2 suite à des
+injections répétitives d’une hormone H aux temps T1, T2 et T3.
+- M1 : animal stérile présentant une hypo-testostéronémie (taux
+très faible de testostérone)
+                                                 - M2 : animal
+  Jours                       T1     T2    T3    normal mais qui a
+  Testostéronémie 500         100 100 100 subi au préalable
+                                                 une
+                    Hypophysectomie              hypophysectomie.
+             Document 2 : Mâle M2                 Les résultats de ces dosages sont donnés dans les
+                                                 documents 1 et 2.
+2- Analyser le document 1 en vue de déduire
+        a- l’effet de l’hormone H. (2pts)
+        b- les origines possibles de l’hypo-testostéronémie chez l’animal M1. (2pts)
+3- Analyser le document 2 en vue d’identifier l’hormone H. (3pts)
+4- Construisez un schéma récapitulant les seules conclusions apportées par les documents. (3pts)
+
+
+Exercice 3
+On applique sur une terminaison nerveuse (document1) une série d’excitations croissantes puis on
+enregistre pour chaque excitation :
+Les amplitudes de dépolarisation en O1
+Les amplitudes de dépolarisation en O2
+Les fréquences des potentiels d’action en O2
+Les résultats obtenus sont regroupés dans le tableau suivant :
+     Intensités des excitations (I) en mA         I0 I1 I2 I3      I4    I5    I6   I7    I8    I9
+ 1 Amplitudes de dépolarisation en O1(mv)         0 5 10 15 20           25    30   35    40    45
+ 2 Amplitudes de dépolarisation en O2(mv)         0 5 10 15 100 100 100 100 100 100
+ 3 Fréquences des potentiels d’action en O2 0 0 0             0    10    20    30   40    50    60
+ 4 Amplitudes de dépolarisation en O3(mv)
+1-Représentez la réponse obtenue en O2 suite aux stimulations I3 et I7
+2-Identifiez le phénomène enregistré en O1 et déduire l’une de ses propriétés.
+3-Quelles propriétés du potentiel d’action et du message nerveux peut-on déduire des enregistrements
+en O2 ?
+4-Complétez la ligne 4 du tableau.
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                     IGEN     64
+                                                        Corrigé 12
+     I- Maitrise des connaissances
+     Vrai ou faux et correction des affirmations inexactes.
+     1- Le pétrole est un hydrocarbure qui s'accumule dans une roche poreuse et perméable dite roche
+     réservoir.
+     2- Vrai.
+     3- La roche magasin est recouverte d’une couche imperméable dite roche couverture.
+     4- Dans la roche magasin, le pétrole peut être associé à des gaz et de l’eau.
+     5- Vrai
+     6- Nos principales potentialités minières sont représentées, entre autres, par des substances
+     métallifères comme le fer de Tiris Zemmour, le cuivre et l’or de l’Inchiri,
+
+     II-Compétences méthodologiques
+     Exercice 1 :
+         1- 3% [ab] représentent le taux de recombinaison dans un linkage partiel en cas de liaison trans.
+
+          Ab                 ab
+        ♀ aB        *    ♂ ab           47% [Ab] ; 47% [aB] ; 3% [AB] ; 3% [ab]
+        2- 25% [br] indique une Independence des gènes.
+            BR          br
+                    *             25% [BR] ; 25% [Br] ; 25% [bR] ; 25% [br]
+            br          br
+     3- Carte factorielle : P/2 = 3% donc P= 6%
+         3- a) Génotypes
+               Ab       Ab
+        4- ♀ aB×♂ aB
+     b) Echiquier
+                                              Ab (1-p)/2         AB p/2           Ab (1-p)/2        aB p/2
+                                           Ab                 Ab               Ab               Ab
+                                  Ab1/2    aB
+                                              (1-p)/4[Ab]     aB
+                                                                 p/4[Ab]       aB
+                                                                                  (1-p)/4[Ab]   aB
+                                                                                                   p/4[Ab]
+                                  aB       Ab                 Ab               Ab               Ab
+                                           aB
+                                              (1-p)/4[Ab]     aB
+                                                                 p/4[Ab]       aB
+                                                                                  (1-p)/4[Ab]   aB
+                                                                                                   p/4[Ab]
+                                  1/2
+
+
+     Exercice 2
+     1-Expériences :
+
+Exp                                     Analyse                                          Conclusions
+        En présence de l’hypophyse le taux plasmatique de LH est
+ 1
+        maximal et constant de l’ordre de 3,2 ng.ml-1.                     La sécrétion de LH est assurée par
+        L’hypophysectomie entraine la chute du taux plasmatique            l’hypophyse.
+ 2      de LH.
+
+        La lésion de l’hypothalamus malgré que l’hypophyse reste           La sécrétion de LH par l’hypophyse est
+ 3
+        intacte entraîne la chute du taux de LH.                           sous la commande de l’hypothalamus.
+
+                                                                   La commande hypothalamique de
+        La greffe de l’hypophyse au contact du système porte
+ 4                                                                 l’hypophyse nécessite :
+        assure la reprise de la sécrétion normale de LH.
+                                                                   - une relation anatomique entre
+                                                                   l’hypothalamus et l’hypophyse.
+ 5      Malgré la greffe de l’hypophyse dans la chambre antérieure - une relation sanguine entre
+        de l’œil il n’y a pas reprise de la sécrétion de LH.       l’hypothalamus et l’hypophyse.
+
+
+
+
+      Sciences Naturelles                     Joussour pour réussir au BAC (SN et M)                    IGEN        65
+2-Analyse :
+Pour M1 le taux de testostérone est faible et constant de l'ordre de l00ng/dl.
+Mais lorsque on fait l'injection de H on a un pic de testostérone qui atteint 500 ng/dl puis le taux chute
+de nouveau et chaque injection est suivie par un pic de testostérone.
+a- H stimule la sécrétion de la testostérone.
+                 Donc H peut être LH ou GnRH.
+b- Origines possibles :
+Trouble au niveau de :
+         - l’hypothalamus
+         - l'hypophyse.
+3- Pour M2 avant l’ablation de l’hypophyse le taux de testostérone est de 500 ng/dl. Après
+l'hypophysectomie, le taux chute à 100 ng/dl, mais malgré les injections de H le taux de testostérone
+reste de l'ordre de 100 ng/dl,
+         Pas d'effet : H ne peut pas agir directement sur la testostérone, il ne peut être que la GnRH.
+
+4- Schéma
+
+
+
+
+Exercice 3 :
+
+1- Représentation
+
+
+
+
+2- Les phénomènes enregistrées en O1 sont des potentiels récepteurs dont l’amplitude augmente en
+fonction de l’intensité donc codés en modulation d’amplitude.
+3-En O2 avant I4 pas de PA, à partir de I4 l’amplitude du potentiel d’action est maximale et constante.
+ La fréquence des PA augmente par augmentation de l’intensité donc le PA :
+        - exige un seuil             - obéit à loi du tout ou rien - codé en modulation de fréquence
+
+4-
+         Intensité des excitations     I0   I1     I2    I3    I4  I5  I6  I7  I8  I9
+         Amplitude en O3 en mV         0    0      0     0    100 100 100 100 100 100
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN      66
+                                                Sujet 13
+
+I- Maitrise des connaissances (Série M)
+A- 1-Définir les notions suivantes : aquifère, nappe et nappe phréatique.
+2- Citez les quatre unités hydrogéologiques de la Mauritanie.
+B- Le document ci-contre montre les caractéristiques d’un gisement de
+pétrole.
+Annotez-le en faisant correspondre chaque chiffre au mot ou expression
+convenable de la liste suivante : Roche couverture, Gisement, Anticlinal,
+Gaz, Roche réservoir, Eau, Pétrole, Roche mère.
+
+II-Compétences méthodologiques :
+Exercice 1
+A- On pratique sur une femme (pour des raisons médicales) une intervention chirurgicale.
+On constate, après analyse, une baisse brutale de la production des hormones ovariennes.
+1- Quels sont les organes qui ont pu être enlevés au cours de l’opération ?
+2- Si on injecte à cette femme des hormones hypophysaires, la production normale d’hormones
+ovariennes reprend.
+   a- Que pouvez-vous en déduire quant à l’organe enlevé ?
+   b- Précisez son rôle dans le cycle sexuel.
+B- On suit la variation du taux plasmatique d’une hormone (H1) chez une femme normale du 16 Mars
+au 13 Avril dans le but d’étudier les transformations qui se déroulent dans l’utérus et l’ovaire au cours
+d’un cycle sexuel. Le document suivant représente la fluctuation du taux de (H1) chez cette femme.
+1-Identifiez cette hormone. Justifiez votre réponse.
+2- Précisez la date : - d’ovulation.
+                   - du début de la menstruation.
+                   - du développement maximum du corps jaune.
+3- Précisez la durée du cycle sexuel chez cette femme.
+4- Représentez la variation du taux plasmatique de la deuxième
+hormone (H2) secrétée par le même organe durant la même période.
+5- Représentez l’évolution de l’endomètre du 16 Mars au 10 Avril, sachant que la durée de la
+menstruation chez cette femme est de 4 jours.
+
+Exercice 2
+Une fibre nerveuse géante de calmar est placée dans un milieu convenable. On porte sur la fibre des
+stimulations d’intensités croissantes. Une électrode réceptrice implantée au-dessous des électrodes
+stimulatrices détecte les variations de la ddp transmembranaire.
+Le document 1 montre l’évolution de l’amplitude du phénomène électrique
+enregistré en fonction de l’intensité de stimulation.
+1-Représentez, à l’échelle, et nommez les phénomènes électriques
+correspondant aux intensités 1, 3 et 4.
+2- Analysez la courbe du document 1 en vue de déduire :
+   a- les propriétés correspondant à chaque phénomène électrique.
+   b- la propriété de la fibre mise en évidence.
+3- Représentez le tracé obtenu à une distance de 10 cm suite à une stimulation d’intensité 6mA,
+sachant que la vitesse du phénomène électrique est de 40 m/s. Justifiez.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN      67
+Exercice 3
+Les drosophiles de type sauvage sont notamment [𝑏 + , 𝑣𝑔+ , 𝑟 + ]
+A- On croise une drosophile femelle de type sauvage [b+ , vg + ]avec un mâle[b, vg]. Toutes les
+drosophiles de la F1 sont[b,+ vg + ].
+1-Quelles conclusions peut-on-tirer de ce croisement ?
+On croise ensuite des drosophiles femelles obtenues en F1 avec des mâles[b, vg]. On obtient les résultats
+suivants :
+     51 drosophiles [b+ , vg + ]
+     52 drosophiles [b, vg + ]
+     48 drosophiles [b, vg]
+     49 drosophiles [b+ , vg]
+2-Comment appelle-t-on ce type de croisement ? Quel renseignement apporte le résultat de ce croisement ?
+3-Précisez les génotypes des parents et celui de la F1 . Vérifiez par des croisements les résultats obtenus.
+B- On croise une drosophile femelle [b+ , r]avec un mâle[b, r + ], les deux drosophiles étant de race pure,
+on obtient une première génération (F 1’ ) où toutes les drosophiles sont [b+ ] mais tous les mâles sont [r]
+et toutes les femelles sont [r + ]
+1- Interprétez ces résultats et écrivez les génotypes des individus croisés et ceux de la (F 1’ )
+2-Réalisez le croisement entre les individus de (F 1’ ) puis donnez le bilan phénotypique.
+
+
+
+
+                                               Corrigé 13
+I- Maitrise des connaissances
+A-1- Un aquifère est un réservoir souterrain d'eau, suffisamment poreux et suffisamment perméable
+pour être considéré comme une réserve.
+Un aquifère est donc un terrain perméable contenant une nappe d’eau souterraine.
+- L'eau, qui s'infiltre dans le sous-sol, est contenue dans les pores et les fissures des roches dans
+lesquelles elle circule avec plus ou moins de facilité. La masse d'eau contenue dans une roche est
+appelée nappe.
+La nappe phréatique :
+ Est la première nappe sous la surface du sol (généralement situées entre 1 et 20 mètres de
+profondeur). Elle est réalimentée directement par l’infiltration des pluies. Elle est généralement « libre
+», c’est-à-dire qu’elle circule dans un sous-sol perméable.
+2- Les quatre unités hydrogéologiques de la Mauritanie
+- Zone de l’arc des Mauritanides
+- Zone de l’affolé et des hodhs
+- Bassin Côtier Sénégalo-Mauritanien
+- Bassin de Taoudéni
+B- Légende du document
+
+             1              2       3      4       5          6                   7              8
+    Roche               Anticlinal Gaz Pétrole Eau Roche                   Roche             Gisement
+    couverture                                          mère               réservoir
+II-Compétences méthodologiques
+Exercice 1
+A- 1-Organes enlevés :
+- Hypothèse 1 = Ovaires
+        -Hypothèse 2 = hypophyse
+2-a : L’injection des hormones hypophysaires corrige les troubles :
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                        IGEN       68
+Hypothèse 2 est confirmée.
+b-rôle de l’hypophyse dans le cycle :
+-secrète la FSH qui assure la maturation des follicules,
+      -sécrète de LH qui provoque l’ovulation et maintien le corps jaune.
+B-1- identification de l’hormone
+H1= Œstrogène car présente dans les deux phases
+2-dates approximatives :
+               Ovulations    Début de menstruations      Max du développement du corps jaune
+               -18Mars
+      Dates                           1èr Avril                           25Mars
+               -15Avril
+3- durée du cycle : du 16 Mars jusqu’au 13 Avril soit environ 29jours.
+4- Courbes des hormones
+
+
+
+
+5- Evolution de l’endomètre
+
+
+
+
+Exercice 2
+1-Identification des tracés
+ Intensité                1                       3                             4
+
+
+
+
+ Tracé obtenu
+
+
+
+
+                 Potentiel excitateur   Potentiel excitateur   Potentiel d’action de 100mV
+ Nom
+                 ou local de 5mV        ou local de 15mV       précédé par un potentiel excitateur
+
+2-a- Analyse et propriétés
+     Analyse                                                   Propriétés
+                                                               Le PE ou (PL) :
+    Pour 0 ˂ I ˂ 4 l’amplitude du PE augmente
+                                                                 - est graduable
+    proportionnellement avec l’augmentation de l’intensité
+                                                                 - n’exige pas un seuil.
+    Pour I ≥4 : l’amplitude du PA reste constante (100mV)      Le PA exige un seuil
+    malgré l’augmentation de I                                 Le PA est non graduable
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                     IGEN   69
+b- La fibre nerveuse obéit à la loi du tout ou rien.
+3-Representationde la courbe
+V=d/t , ainsi t=d/v =100/40 =2,5 ms d’où le tracé
+
+
+
+
+Exercice 3
+A- 1
+ -> Dihybridisme
+-les parents sont de races pures
+-double dominance 𝑏 + >b et 𝑣𝑔+ >vg,
+2- Back-cross, présence de 4phénotypes à proportions égales : les gènes sont indépendants
+                    b+ Vg+                   b Vg
+3- Génotypes                           ×
+                    b+ 𝑉𝑔+                   b Vg
+
+
+
+
+                   𝑏 + 𝑉𝑔+                     b Vg
+
+
+
+
+                                   𝑏 + 𝑉𝑔+
+                                 F1 b Vg                     100% [𝑏 + 𝑉𝑔+ ]               vérifie la 1ére Loi de Mendel.
+
+
+                                 𝑏 + 𝑉𝑔+                 𝑏 + Vg                   b𝑉𝑔+                  bVg
+                           𝑏 + 𝑉𝑔 +                      𝑏 + Vg                   b 𝑉𝑔 +                b Vg
+             bVg                       [𝑏 + 𝑉𝑔+]                  [𝑏 + Vg]                 [b Vg+]      b Vg
+                                                                                                                [b Vg]
+                            b Vg                          b Vg                    b Vg
+
+
+B- 1-les mâles de 𝐹1 se distinguent des femelles pour le gène 𝑟 + /r : le gène (𝑟 + /r) est porté par (X) les
+deux gènes sont donc indépendants
+                                 b+ Xr      b Xr+
+            Génotypes                      ×b 𝑌
+                                 b+ 𝑋𝑟
+
+
+                             𝑏 + 𝑋𝑟𝑏 𝑋r + 𝑏 𝑌
+                                 𝑏 + Xr+ 𝑏 + Xr
+                             𝐹1’ b 𝑋𝑟 b 𝑌
+            ♀[𝑏+ r + ]                         ♂[𝑏 + r]
+2-Croisement :
+
+                        𝑏 + 𝑋𝑟               b 𝑋𝑟                                       𝑏+ 𝑌                        𝑏𝑌
+             𝑏 + X𝑟 +                        𝑏 + X𝑟 +                        𝑏 + X𝑟 +                  𝑏 + X𝑟 +
+ 𝑏 + X𝑟 +               ♀ [𝑏 + 𝑟 + ]                     ♀ [𝑏 + 𝑟 + ]                   ♂ [𝑏 + 𝑟 + ]              ♂ [𝑏 + 𝑟 + ]
+             𝑏 + 𝑋𝑟                           b 𝑋𝑟                           𝑏+ 𝑌                       b 𝑌
+             𝑏 + Xr                          𝑏 + Xr                          𝑏 + Xr                    𝑏 + Xr
+ 𝑏 + Xr             ♀ [𝑏 + r]                           ♀ [𝑏 + r]                     ♂ [𝑏 + r]                 ♂ [𝑏 + r]
+             𝑏 + 𝑋𝑟                           b 𝑋𝑟                           𝑏+ 𝑌                       b 𝑌
+             𝑏 + X𝑟 +                        b X𝑟 +                          𝑏 + X𝑟 +                  b X𝑟 +
+ 𝑏 X𝑟 +                 ♀ [𝑏 + 𝑟 + ]                    ♀ [b 𝑟 + ]                      ♂ [𝑏 + 𝑟 + ]            ♂ [b 𝑟 + ]
+              b 𝑋𝑟                           b 𝑋𝑟                             b 𝑌                      b 𝑌
+             𝑏 + Xr                          b Xr                            𝑏 + Xr                    b Xr
+  𝑏 𝑋𝑟              ♀ [𝑏 + r]                       ♀ [b r]                           ♂ [𝑏 + r]               ♂ [𝑏 𝑟]
+             b 𝑋𝑟                            b 𝑋𝑟                            b 𝑌                       b 𝑌
+             𝟔               𝟔                      𝟐                   𝟐
+                 [𝒃+ 𝑟 + ] 𝟏𝟔 [𝒃+ r]                    [𝒃𝑟 + ]              [𝒃 𝒓]
+            𝟏𝟔                                    𝟏𝟔                    𝟏𝟔
+
+
+
+ Sciences Naturelles                              Joussour pour réussir au BAC (SN et M)                                         IGEN   70
+                                             SUJET 14
+
+QCM
+Pour chacun des items suivants, indiquez la (ou les) lettre(s) correspondant à la (ou aux) réponse(s)
+correcte(s)
+1-Au niveau d'une fibre nerveuse, la phase de            d- des boutons synaptiques
+dépolarisation d'un potentiel d'action est le          3-Parmi les substances jouant le rôle de
+résultat d'un flux entrant de :                        neurotransmetteur, on peut citer :
+  a- Na+                                                 a- la GnRH
+      +
+  b- K .                                                 b- la cocaïne
+  c- Ca2+                                                c- la dopamine.
+       -
+  d- Cl .                                                d- l’acétylcholine
+2-Les canaux voltage-dépendants aux ions               4-La glande surrénale sécrète :
+Ca2+ intervenant dans la transmission                    a- le cortisol
+synaptique sont localisés au niveau :                    b- la thyroxine
+  a- du corps cellulaire                                 c- l'adrénaline
+  b- du cône axonique                                    d- la corticolibèrine
+  c- des nœuds de Ranvier
+
+QROC
+Le document 1 représente deux schémas
+simplifiés de structures observables dans
+les gonades humaines
+1 - Nommez les structures a et b
+2- Légendez le document 1 en reportant
+sur votre copie les numéros de 1 à 6
+3- Les structures a et b sécrètent
+respectivement les hormones H1 et H2.
+Recopiez, sur votre copie, le tableau suivant et complétez-le
+                  Nom            Organes cibles Effets physiologiques
+  Hormone1
+  Hormone 2
+4- Indiquez le devenir de la structure b
+
+Exercice 1
+Pour étudier quelques aspects du fonctionnement des synapses neuro-neuroniques.
+on a utilisé le montage expérimental du document 2et
+on a réalisé les deux séries d'expériences suivantes
+
+1ére série d’expériences :
+- On a porté en S1, S2 et S3 trois stimulations efficaces
+simultanées suivies rapidement d'une stimulation S1 [(S1
++ S2 + S3) + S1]
+- On a porté en S2, S3 et S4 trois stimulations efficaces
+simultanées suivies rapidement d’une stimulation S4 [(S2
++ S3 + S4) + S4].
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                     IGEN     71
+Les enregistrements
+obtenus au niveau de
+l’oscilloscope sont
+représentés par le
+document 3.
+1 - Analysez les données du
+document 3 en vue
+a- d’identifier chacun des deux enregistrements 1 et 2
+b- d'expliquer les différences constatées entre les deux enregistrements
+c- de déduire la nature de la synapse N1-M
+2éme série d'expériences :
+Au temps t1 :
+ On injecte, à l'aide d'une micropipette, une dose convenable de GABA au niveau des fentes
+synaptiques F1 et F2 et on enregistre au niveau de l’oscilloscope (O) la différence de potentiel (d d p)
+de la membrane du neurone M
+Au temps t2 :
+On refait la même expérience mais en utilisant de l'acétylcholine Les résultats obtenus sont résumés
+par le document ci-dessous
+
+
+
+
+2- Exploitez les données du document 4 afin de :
+a- déduire la nature des synapses N2-M et N3-M
+b- dégager une propriété des neurotransmetteurs
+
+Exercice 2
+On se propose d’étudier le mode de transmission d’une maladie héréditaire. Le document ci-contre
+représente l'arbre généalogique d’une famille A dont certains membres sont
+atteints par cette maladie
+1- En vous basant sur ces données discutez chacune des hypothèses
+suivantes
+- Hypothèse 1: l'allèle responsable de la maladie est récessif autosomal.
+- Hypothèse 2 l'allèle responsable de la maladie est récessif lié à X
+- Hypothèse 3: l'allèle responsable de la maladie est dominant autosomal
+- Hypothèse 4. L’allèle responsable de la maladie est dominant lié a X
+On sépare par la technique de l’électrophorèse les fragments d’ADN du gène en question prélevé sur
+les sujets II2 et II3. Le document ci-contre montre les résultats obtenus
+2- Exploitez les données des documents afin de déterminer
+a- l'allèle responsable de la maladie
+b- la (ou les) hypothèse(s) à retenir
+Dans une autre famille B dont certains membres sont atteints
+par la même maladie héréditaire, on sépare par
+électrophorèse les fragments d'ADN du gène en question
+prélevé sur la mère et ses deux filles.
+Le document ci-contre représente les résultats obtenus
+3- Exploitez ces données et les informations précédentes en
+vue de préciser la localisation du gène responsable de cette maladie héréditaire
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN      72
+                                                 Corrigé 14
+QCM :
+
+ 1      2     3        4
+ a      d     c-d      a-c
+
+
+QROC :
+ Structure a : tissu interstitiel testiculaire
+Structure b : follicule cavitaire ou tertiaire
+- Légende :
+
+      1                      2                    3                       4           5         6
+      Capillaire sanguin     Cellule de Leydig    Cavités folliculaires   Granulosa   Thèque    Ov I
+
+
+
+              Nom                 Organes cibles                            Effets physiologiques
+                                  -Testicules                               -Activation de la spg
+      H1      Testostérone        -Organes en relation avec CSII            -développement des CS
+                                  -CHH                                      -RC négatif
+                                  -Utérus                                   -dev- de l’endomètre
+      H2      Œstrogènes          -Organes en relation avec CSII            -développement des CS
+                                  -CHH                                      -RC négatif ou positif
+
+la structure b évoluera en follicule mûr.
+
+
+Exercice 1
+
+     1- 1ère série d’expériences :
+
+     a-Enregistrement 1 : S2+S3+2 S1 entraîne une dépolarisation d’amplitude 10 mV= PPSE
+     Enregistrement 2 : S2+S3+2 S4 entraîne une variation du potentiel de100 mV= PA
+     b-Enregistrement 1 :
+
+Sommation spatio-temporelle à l’origine d’un PPSE global < seuil : pas de PA
+Enregistrement 2 : sommation spatio-temporelle à l’origine d’un PPSE global atteignant le seuil d’où
+le PA.
+c-La synapse N1-M est excitatrice.
+2émesérie d’expériences :
+a-L’injection de GABA n’a pas d’effet en F1 (PR) mais elle engendre un PPSI en F2
+L’injection d’Ach engendre un PPSE en F1 mais n’a pas d’effet en F2 (PR).
+Synapse N2-M : excitatrice
+Synapse N3-M : inhibitrice.
+b- il existe une spécificité entre neurotransmetteur et synapse
+
+      Exercice 2
+1-Soit le gène (A,a) qui contrôle cette maladie avec A [sain] et a [malade] A>a
+        - H1 : dans ce cas, tout enfant atteint est de génotype a//a, il est issu de deux parents
+dont l’un est atteint a//a, l’autre est sain mais hétérozygote A//a. c’est le cas des
+individus II2 et III2 ainsi H2est à retenir
+        -H2 : dans ce cas, une fille atteinte de génotype XaXa devrait avoir un père atteint
+XaY. C’est le cas de la fille II2 et de son père I1. De même, une mère XaXa
+
+
+ Sciences Naturelles                    Joussour pour réussir au BAC (SN et M)                      IGEN   73
+atteinte aurait tous ses fils atteints. C’est le cas de la mère II2 et de son fils III2.
+        H2 est à retenir
+
+Soit le gène (A,a) qui contrôle cette maladie avec A [malade] et a [sain] A>a
+       -H3 : tout enfant sain de génotype a//a issu d’un parent sain a//a et d’un parent
+atteint mais hétérozygote. C’est le cas des enfants II1 et III1.
+H3 est à retenir
+H4 : dans ce cas tout père atteint XaY devrait avoir toutes ses filles atteintes. C’est
+le cas du père I1 ; H4 est à retenir
+2-
+a- Le sujet II3 est sain et ne possède que l’allèle A2. Donc A2 est l’allèle normal et A1 est donc l’allèle
+responsable de la maladie.
+b- le sujet II2 est atteint et possède les deux formes alléliques A1 et A2. Donc
+l’allèle responsable de la maladie est dominant, seules H3 et H4 sont à retenir.
+3-
+La mère et sa première fille sont normales puisqu’elles ne possèdent que l’allèle A2.
+La deuxième fille possède l’allèle A1. Donc elle est atteinte vue que l’allèle
+de la maladie est dominant. Son père qui lui a transmis l’allèle A1 est nécessairement atteint.
+Si le gène était porté par X, toutes les filles issues de ce père devraient être
+atteintes. Ce qui n’est pas le cas. Donc seule H3 est à retenir.
+
+
+
+
+ Sciences Naturelles                    Joussour pour réussir au BAC (SN et M)                      IGEN      74
+                                              Sujet 15
+I- QCM
+Indiquez dans chaque cas la (ou les) lettre(s) correspondant à la (ou aux) réponse(s) correcte (s).
+1- Dans le cas d’une cryptorchidie la paroi des tubes séminifères révèle la présence de :
+     a- spermatides.
+     b- spermatogonies
+     c- spermatozoïdes
+     d- spermatocytes II.
+2 Les nerfs rachidiens sont :
+     a- au nombre de 13 paires.
+     b- mixtes (sensitifs et moteurs),
+     c- attachés au bulbe rachidien.
+     d- attachés à la moelle épinière.
+3) Au cours d’un cycle sexuel normal, le pic de progestérone est l’indice :
+     a- d'une ovulation.
+     b- d'une fécondation.
+     c- d'un début de ménopause.
+     d- d'un développement du corps jaune.
+4) Au cours de l’ovogénèse, la méiose est bloquée en :
+     a- prophase I.
+     b- métaphase I.
+     c- prophase II.
+     d- métaphase II.
+5) La trisomie 21 peut résulter de l’union de deux gamètes :
+     a- contenant chacun 23 autosomes.
+     b- contenant chacun 23 autosomes et un chromosome sexuel X.
+     c- dont l'un contient 23 autosomes et un chromosome sexuel X.
+     d- dont l’un contient 22 autosomes et un chromosome sexuel X.
+
+QROC
+La pilule combinée est un contraceptif chimique répandu dans le monde.
+ Le document 1 représente un calendrier de deux cycles sexuels successifs C1 et C2 chez une femme
+de 25 ans.
+- Les lettres de L à D représentent les jours de la semaine.
+- Les cellules grises du tableau représentent les jours des règles.
+
+
+
+
+1 Déterminez, à partir du calendrier C, :
+    a- la durée du cycle,
+    b- le jour de l'ovulation
+    c- les limites de la période de fécondité
+2) En vous basant sur vos connaissances, indique :
+    a- la composition chimique de la pilule combinée,
+    b- son mode d'action.
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN   75
+3) Expliquez l'apparition des règles au 30eme jour du cycle C2.
+
+Exercice 1
+On se propose d’étudier le mode de transmission d’une anomalie héréditaire
+Le document 2 représente l’arbre généalogique d’une famille
+dont certains membres sont atteints par cette anomalie.
+1) En vous basant sur les données du document 2,
+discutez chacune des hypothèses suivantes :
+- Hypothèse 1 : l’allèle r de l’anomalie est récessif autosomal
+- Hypothèse 2: l’allèle e de l’anomalie est récessif, lié au
+chromosome sexuel X.
+- Hypothèse 3: l’allèle de l’anomalie est dominant autosomal.
+- Hypothèse 4: l’allèle de l'anomalie est dominant lié au chromosome sexuel X.
+Le couple (II2, II3) inquiet quant à l’état de santé de son fœtus procède à un
+diagnostic prénatal.
+Le document ci-contre présente le résultat de l’électrophorèse de l’ADN prélevé
+sur la mère II3 et le fœtus.
+2) Exploitez les données des documents afin de préciser le mode de
+transmission de cette anomalie.
+3) Montrez que l’inquiétude des parents quant à l’état de santé de leur fœtus est
+justifiée
+
+Exercice 2
+On cherche à préciser l’effet de certaines substances chimiques sur le fonctionnement des synapses
+à dopamine et sur l’état psychique de l'individu. Pour cela, on réalise les expériences suivantes
+
+Expérience 1 : On utilise deux lots de rats
+- Lot 1 : rats témoins
+- Lot 2 : rats ayant reçu une injection d'une substance chimique X.
+                                          On mesure chez les rats des deux lots la quantité de
+                                          dopamine au niveau de la fente synaptique (dopamine
+                                          extracellulaire). Les résultats obtenus sont représentés par le
+                                          document ci-joint.
+                                          1-A partir de l’analyse comparée de ces courbes et en utilisant
+                                          vos connaissances proposez trois hypothèses quant au mode
+                                          d'action de la substance X au niveau de la synapse à
+                                          dopamine.
+                                          Expérience 2 : On injecte la substance X radioactive aux rats
+d’un troisième lot. On constate que la radioactivité est détectée au niveau de la membrane des
+neurones à dopamine
+Expérience 3 : On enregistre l'activité bioélectrique du neurone à dopamine et on mesure la quantité
+de dopamine libérée et celle simultanément recapturée par le neurone dopaminergique. Les résultats
+obtenus sont consignés dans le document suivant
+                            Fréquence des PA         Dopamine libérée       Dopamine recapturée
+   En absence de la
+                                    +++                      +++                     ++
+   substance X
+   Une heure après
+   injection de la                  +++                      +++                      +
+   substance X
+(+) : degré du paramètre mesuré
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN       76
+2) Exploitez les résultats des expériences 2 et 3 afin :
+a- de préciser l’hypothèse à retenir
+b- d’identifier la substance X
+c- de déduire l'effet de la substance X sur le fonctionnement de la synapse à dopamine.
+La consommation répétée de la substance X conduit l'individu à un état de dépendance.
+ En outre, des recherches scientifiques ont montré que la consommation répétée de la substance X
+réduit la densité des récepteurs à dopamine.
+3) Proposez une explication à l'état de dépendance de l'individu à la substance X.
+
+
+
+
+ Sciences Naturelles              Joussour pour réussir au BAC (SN et M)                   IGEN    77
+                                                Corrigé 15
+1-QCM
+
+ Numéro de l’item            1   2         3     4      5
+ Réponse(s) correcte(s)      a   b-d       d     a-d    c-d
+
+
+2-QROC
+
+1-
+
+      a- Durée du cycle              b- jour d’ovulation              c-Période de fécondité
+                 30j                               16                            (13-17)
+2-a - La pilule combinée est formée d’un mélange d’estrogènes et de progestatif
+de synthèse.
+Le mode d’action de la pilule combinée :
+-Les oestro-progestatifs de synthèse exercent un rétrocontrôle négatif sur le
+complexe hypothalamo-hypophysaire. L’inhibition de la sécrétion de FSH et LH aura comme conséquence
+l’arrêt de la croissance folliculaire d’où le blocage de l'ovulation.
+-Les oestro-progestatifs de synthèse stimulent la prolifération de l’endomètre mais empêchent la formation
+de la dentelle utérine. ….
+
+3) L’arrêt de la prise des comprimés à partir du jour 22 entraîne une baisse progressive du taux
+plasmatique des hormones de synthèse, Cette chute provoque la nécrose de la muqueuse utérine et la
+destruction de sa partie supérieure d’où une hémorragie de privation semblable à celle de la
+menstruation.
+
+Exercice 1
+1-Soit le gène (N.m) qui contrôle cette maladie avec N [sain] et m [malade] :N>m
+H1 : dans ce cas deux parents atteints I3 et I4 de génotype m//m ne donnent que des enfants atteints
+or l’enfant II4 est sain ce qui n’est pas le cas ;H1 est à rejeter.
+H2 : dans ce cas, la mère I3 est de génotype XmXm transmet Xm à ses fils qui seront tous atteints or le
+garçon II4 est sain ; H2 est à rejeter.
+Ou II4 est sain issu de parents I3 et I4 malades donc la maladie est dominante et par
+conséquent H1 et H2 sont à rejeter.
+Soit le gène (M/s) qui contrôle cette maladie avec s [sain] et M [malade] M>s
+H3 : l’enfant II4 sain est de génotype s//s ses parents I3 et I4 seraient hétérozygotes
+M//s ce qui est possible. De même la fille II1 saine de génotype s//s est issue
+d’une mère malade mais hétérozygote M//s. ce qui est possible d’après l’arbre
+généalogique ; H3 est à retenir
+H4 : le garçon II4 sain de génotype XsY aurait reçu Xs de sa mère atteinte mais
+hétérozygote XMXs ce qui est possible. De même la fille II1 saine de génotype
+XsXs aurait reçu Xs de son père sain et Xs de sa mère malade mais hétérozygote
+XMXs ce qui est possible d’après l’arbre généalogique.H4 est à retenir
+
+2)
+- La mère malade ne possède que l’allèle A1 donc :
+- A2 est l’allèle normal. A1 est l’allèle muté.
+- D’après le document 2, II2 est malade donc il possède l’allèle A1
+- le fœtus possède les deux formes alléliques A1 et A2. Donc il a hérité l’allèle A2 de son père puisque
+sa mère II3 ne possède que l’allèle A1 étant donné que le père II2 possède deux formes alléliques A1
+et A2 donc la maladie est autosomique : seule H3 est vérifiée.
+
+
+ Sciences Naturelles                   Joussour pour réussir au BAC (SN et M)                    IGEN      78
+3) Puisque la mère II3 est malade et homozygote A1//A1, tous ses enfants
+seraient malades quelque soient leurs génotypes A1//A1 ou A1//A2
+
+
+Exercice 2
+
+1- Chez les rats du lot témoins, la quantité de dopamine extracellulaire est
+normale = 100 % et constante au cours du temps de l’expérience, au contraire
+chez les rats du lot 2, cette quantité de dopamine augmente suite à l’injection
+de la substance X pour atteindre son maximum de 225% (pic) au bout de 40min puis elle diminue
+progressivement. Il est à 125% au bout de 100 min.
+Hypothèses :
+ - H1 : La substance X favorise l’exocytose de la dopamine par le neurone pré-synaptique.
+  -H2 : La substance X se fixe sur les récepteurs à dopamine au niveau de la membrane post-
+synaptique.
+  -H3 : La substance X s’oppose à la recapture de la dopamine par les transporteurs membranaires
+pré-synaptiques.
+-H4 : La substance X s’oppose à la dégradation de la dopamine par les enzymes dans l’espace
+synaptique.
+-H5 : La substance X détruit les récepteurs à dopamine sur la membrane de l’élément post-
+synaptique..
+(On exige trois hypothèses)
+
+2-a-La détection de la radioactivité est au niveau de la membrane des neurones à dopamine prouve
+que la substance X agit sur la membrane pré-synaptique.
+D’après les résultats de l’expérience 3, on constate que la substance X :
+- n’a pas d’effet sur l’activité électrique des neurones à dopamine
+- ne favorise pas la libération de la dopamine par le neurone pré-synaptique
+- diminue partiellement la recapture de la dopamine par le neurone pré-synaptique.
+Ces résultats permettent de retenir l’hypothèse 3.
+b- La substance X est une drogue (la cocaïne) car elle modifie le fonctionnement de la synapse en
+bloquant la recapture de la dopamine.
+c- La substance X (la cocaïne) prolonge le temps de fonctionnement de la synapse à dopamine.
+3- Puisque la densité des récepteurs à dopamine est réduite la dopamine reste dans l’espace
+synaptique tout en étant inefficace. Le plaisir recherché diminue d’où la tendance à augmenter les
+doses pour retrouver le même plaisir ce qui amène le toxicomane à un état d’accoutumance
+conduisant à un état de dépendance.
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                   IGEN     79
+                                             SUJET 16
+
+- QCM
+Indiquez dans chaque cas la (ou les) lettre(s) correspondant à la (ou aux) réponse(s) correcte(s).
+1) Les cellules de Sertoli et de Leydig sont toutes les deux des cellules :
+   a- sexuelles,
+   b- germinales,
+   c- sécrétrices d’hormones,
+   d- responsables de l’apparition des caractères sexuels secondaires.
+2) Chez une femme ayant des cycles sexuels de 24 jours, le 8ème jour du cycle est marqué par :
+   a- un achèvement de l’ovogenèse.
+   b- une sécrétion élevée d’œstradiol.
+   c- la mise en place de la dentelle utérine.
+   d- la présence d’une glaire cervicale filante et perméable.
+3) Une femme ménopausée présente un taux élevé :
+   a- de LH.
+   b- de GnRH.
+   c- d’œstradiol.
+   d- de progestérone.
+4) La pilule combinée agit en:
+    a- bloquant l’ovulation.
+     b- arrêtant la folliculogenèse
+     c- inhibant la prolifération de l’endomètre.
+     d- augmentant la perméabilité de la glaire cervicale aux spermatozoïdes.
+
+Exercice 1
+Le document ci- dessous représente trois structures observables à des endroits différents de
+l’appareil génital de la femme.
+
+
+
+
+1-Légendez le document 1 en reportant sur votre copie les numéros des flèches de 1 à 6.
+2-Nommez les trois cellules X, Y et Z.
+3-Expliquez le déterminisme hormonal de l’événement ayant permis l’obtention de la structure B.
+4-Indiquez la succession des événements permettant le passage de la structure B à la C
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                     IGEN   80
+Exercice 2
+Le document ci-contre représente l'arbre généalogique d’une famille dont
+Certains membres sont atteints d’une maladie héréditaire.
+1- Précisez si l’allèle responsable de la maladie est dominant ou
+récessif. Justifiez votre réponse.
+2-Déterminez si le gène de la maladie est porté par un autosome ou par
+un chromosome sexuel.
+3-L’électrophorèse de l'ADN correspondant au gène de la maladie,
+effectuée chez Il2 prouve qu'il est porteur uniquement.de l’allèle normal.
+Précisez-alors la localisation du gène responsable de cette maladie.
+4- Ecrivez les génotypes des individus I2 et III2. Justifiez votre réponse.
+
+Exercice 3
+Les toxines du venin de scorpion peuvent entraîner la mort chez certains mammifères en provoquant
+des perturbations du fonctionnement du système nerveux.
+On cherche à comprendre l’effet de ces toxines sur certains aspects de l’activité électrique de la fibre
+nerveuse. Pour cela, on réalise des expériences sur des fibres
+nerveuses identiques F1 et F2 en utilisant le dispositif expérimental
+représenté par le document ci-contre.
+
+Expérience 1 : On porte une stimulation efficace sur la fibre nerveuse
+F1 et on effectue des enregistrements dans deux situations différentes :
+   - Première situation : dans des contritions physiologiques normales.
+   - Deuxième situation : en présence d’une toxine scorpionique ajoutée au liquide physiologique.
+Le document suivant montre les enregistrements obtenus.
+
+
+
+
+1-A partir de l’analyse comparée des tracés a et b, proposez une hypothèse quant à l’action de la
+toxine scorpionique sur l’activité électrique de la fibre nerveuse.
+Expérience 2 :
+On place la fibre nerveuse F2 dans le liquide physiologique qu’on stimule de manière efficace et on
+dénombre les canaux ioniques ouverts A et B par unité de surface de la membrane de la fibre
+nerveuse. Les résultats obtenus sont les suivants.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN      81
+2-A partir de l’analyse de ces données et en vous reportant au tracé (a), identifiez chacun des deux
+types de canaux A et B.
+Expérience 3 : on ajoute de la toxine scorpionique radioactive au liquide physiologique contenant la
+fibre nerveuse F2,
+• on constate que la radioactivité est détectée uniquement au niveau des canaux de type A.
+• on porte une stimulation efficace sur cette fibre nerveuse F2 et on dénombre les canaux ioniques de
+type A ouverts. Les résultats obtenus sont présentés par le tableau suivant :
+
+ Temps                                       T1     T2      T3    T4 T5       T6     T7
+ Nombre des canaux ouverts type A            0       0      5     38 37 36           36
+3-Exploitez les résultats de l’expérience 3 afin de :
+a- dégager l’effet de la toxine scorpionique sur l’activité électrique de la fibre nerveuse
+b- conclure quant à la validité de l’hypothèse proposée précédemment.
+
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                  IGEN      82
+                                                Corrigé 16
+1-QCM
+                           Item                        1     2       3     4
+                           Réponse(s) correcte(s)      c     b-d     a-d   a-b
+Exercice 1 :
+1-Légende :
+     1= Noyau
+     2= Bivalent ou une paire de chromosomes homologues
+     3= Zone pellucide
+     4= 1ier globule polaire
+     5= Granules corticaux
+     6=Pronucléus male
+2-Noms des cellules :
+        X : Ovocyte I
+        Y : Ovocyte II ou gamète femelle
+        Z : Ovotide
+3-Juste avant l’ovulation, le follicule mur secrète un taux élevé d’œstradiol (pic) agissant par
+rétrocontrôle positif sur le CHH qui répond par une forte sécrétion de FSH et surtout de LH.
+        Ce pic de gonadostimulines déclenche l’ovulation et l’expulsion de l’ovocyte II.
+4- Les évènements ayant permis le passage de la structure B a la structure C :
+- Arrivée des spermatozoïdes autour de l’ovocyte II et leur piégeage entre les cellules de la corona
+- La rétraction des cellules de la corona amenant les spermatozoïdes au contact de l'ovocyte II.
+- Réaction acrosomique
+- Fusion des deux membranes plasmiques des deux gamètes
+- Entrée du noyau et du centriole du spermatozoïde dans le cytoplasme ovocytaire.
+- Réaction corticale
+- Achèvement de la 2eme division de méiose aboutissant a l’expulsion du GPII
+- Formation des 2 pronuclei.
+
+Exercice 2
+1-L’enfant III1 malade est issu de deux parents II2 et II3 qui sont sains : l'allèle de la maladie est donc
+récessif
+2- Soit le gène (S,m) qui contrôle ce caractère avec S l’allèle sain et m l’allèle maladie.
+- Hypothèse 1 : le gène responsable de la maladie est porte par Y.
+ Cette hypothèse est à rejeter car il y’a une fille malade.
+- Hypothèse 2 : le gène responsable de la maladie est porte par un autosome.
+Dans ce cas, les individus atteints : IIl et III1 seraient de génotypes m//m. Ils devraient hériter un allèle
+m de chacun de leurs parents qui peuvent être homozygotes atteints m//m ou hétérozygotes S//m ce
+qui est possible. Cette hypothèse est à retenir.
+- Hypothèse 3 : le gène responsable de la maladie est porte par X
+Dans ce cas, III1 malade serait de génotype XmY devrait hériter un Y de son père et Xm de sa mère
+Conductrice saine hétérozygote XsXm ; ce qui est possible.
+II1 malade serait de génotypes XmXm devrait hériter Xm de son perré atteint de génotype Xm Y et
+Xm de sa mère saine mais hétérozygote XsXm : ce qui est possible.
+ Cette hypothèse est a retenir.
+3) Si on considère que le gène est autosomique, III1atteint aurait reçu un allèle m de chacun de ses
+parents mais d’après le données son père II2 est sain et ne possède pas l’allèle de la maladie donc
+hypothèse (gène autosomique) est a rejeter et par conséquent, le gène responsable de la maladie est
+lie à X.
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                         IGEN       83
+   4)
+
+     Individu                            I2                                         III2
+     Genotype(s)                       XsXm                                    XsXm ou XsXs
+                       II1 malade est XmXm elle hérite Xm        III2 hérite un Xs de son père et peut
+     Justification
+                       de sa mère qui est donc hydride           héritér un Xs ou un Xm de sa mère
+
+Exercice 3
+   1)
+
+                                       Trace a                                     Trace b
+         Points       A t1et a t2 : la d.d.p est constante = -70 mV (PR).
+        communs       - A t3 et a t4 : on remarque une dépolarisation locale qui ramène le potentiel
+                      membranaire de -70 a - 50 mV suivie d’une dépolarisation ramenant le
+                      potentiel membranaire de -50 a + 30 mV.
+      Différences De t4 a t7 : la d.d.p du trace (a)                          De t4 a t7 : la d.d.p diminue
+                      diminue de + 30 mV a - 70 mV                            légèrement et se stabilise
+                      suivie d’une hyperpolarisation (-75 mV) puis un         aux environs de + 25 mV.
+                      retour a -70 mV ou PR.
+On peut émettre l’une des hypothèses suivantes : (une seule hypothèse est demandée)
+- La toxine scorpionique empêche la repolarisation de la membrane de la fibre nerveuse.
+- La toxine scorpionique bloque l’ouverture des CVD K+
+- La toxine scorpionique bloque la fermeture des CVD Na+
+2- Analyse :
+- Aux temps t1 (d.d.p= -70 mV) et t2 (d.d.p -60 mV) : les canaux A et B sont fermes.
+- Au temps t3 (d.d.p= - 50 mV) : le nombre de canaux actifs de type A augmente, par contre les
+canaux de type B sont encore fermes.
+- Au temps t4 (d.d.p= +30 mV) le nombre des canaux A ouverts est maximal, parallèlement 5 canaux
+de type B s’ouvrent.
+- Au temps t5 (d.d.p= - 50 mV) le nombre des canaux A ouverts diminue parallèlement le nombre de
+canaux actifs de type B est de 20.
+- Au temps t6 (d.d.p= - 80 mV) le nombre des canaux B ouverts diminue
+- Au temps t7 (d.d.p= - 75 mV) le nombre des canaux B ouverts diminue
+Donc, l’ouverture et la fermeture des canaux de type A et B est dépendante de la d.d.p; ces sont alors
+des CVD.
+Les canaux de type A sont des CVD a Na+ car leur ouverture coïncide avec la phase de
+dépolarisation et les canaux de type B sont des CVD a K+ car leur ouverture coïncide avec la phase
+de dépolarisation.
+3) Exploitation :
+- La détection de la radioactivité au niveau des canaux de type A, prouve que la toxine scorpionique
+agit sur les CVD à Na+.
+- A t3 a t4 : le nombre de canaux CVD à Na+ ouverts par unité de surface est le même que celui des
+courbes du document.
+- Au-delà de t4, le nombre de canaux CVD a Na+ ouverts par unité de surface demeure élevé.
+a- La toxine de scorpion s’oppose a la fermeture des CVD a Na+ ce qui empêche la phase de
+repolarisation de la membrane de la fibre nerveuse.
+b- L’hypothèse proposée :( La toxine scorpionique bloque la fermeture des CVD Na+ ou la toxine
+scorpionique empêche la repolarisation de la membrane de la fibre nerveuse.) est valide.
+Si vous avez proposé l’hypothèse :
+ La toxine scorpionique bloque l’ouverture des CVD K+, elle est à rejeter.
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN       84
+                                             SUJET 17
+I- QCM
+Pour chacun des items suivants indiquez dans chaque cas la (ou les) lettre(s) correspondant à la (ou
+aux) réponse(s) correcte(s).
+1-Parmi les cellules germinales de l'homme, on peut citer :
+    a- les spermatogonies.
+    b- les spermatocytes II,
+    c- les cellules de Leydig,
+    d- les cellules de Sertoli.
+2) Le deuxième globule polaire est émis :
+    a- avant l’ovulation.
+    b- lors de la fécondation
+    c- à la fin du cycle sexuel,
+    d- à la fin de l'ovogenèse
+3) L’inhibine agit sur les cellules de :
+    a- Leydig,
+    b- Sertoli,
+    c- l'hypothalamus,
+    d- l'hypophyse antérieure
+4) Dans les conditions physiologiques normales, la propagation unidirectionnelle du message nerveux
+est imposée par :
+    a- les courants locaux.
+    b- la gaine de myéline,
+    c- la période réfractaire,
+    d- les canaux chimio dépendants.
+5) Au niveau d’une synapse axo-somatique, le message nerveux est transmis :
+     a- de l'axone vers les dendrites.
+     b- de l’axone vers le corps cellulaire,
+     c- des dendrites vers le corps cellulaire,
+     d- du bouton synaptique vers le corps cellulaire
+6) L’amniocentèse est une technique qui consiste à prélever :
+     a- du sang fœtal,
+     b- du liquide amniotique,
+     c- des cellules du placenta,
+     d- des cellules de l’endomètre
+Exercice 2
+Le document 1 représente trois tracés pouvant êtres enregistrés lors d’une transmission synaptique.
+
+
+
+
+Recopiez sur votre copie le tableau suivant et complétez-le
+ Nom                                 Tracé 1       Tracé 2     Tracé 3
+ Lieux d’enregistrement
+ Canaux mis en jeu
+ Propriétés (se limiter à 2)
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                   IGEN       85
+Exercice 2
+On se propose d’étudier le mode de transmission d'une maladie héréditaire.
+Le document 2 montre le résultat de l’électrophorèse de l’ADN du gène responsable de cette maladie
+héréditaire, effectuée chez certains membres d’une famille F1.
+
+
+
+
+1-Sachant que la mère est saine, exploitez les données du document 2 en vue de préciser si l'allèle
+de la maladie est :
+      a- dominant ou récessif
+      b- autosomique ou lié au chromosome sexuel X .
+L'arbre généalogique du document 3 se rapporte à une autre famille F2 présentant la même maladie
+héréditaire. Le document 4 est une électrophorèse de l'ADN en question de l’individu II2.
+
+
+
+
+2-A partir de l'exploitation des données des documents 3 et 4 :
+a- précisez l’allèle responsable de la maladie
+b- écrivez les génotypes et les phénotypes des individus de la famille F1.
+Exercice 3
+On cherche à déterminer certaines causes de stérilité chez la femme. Pour cela on se réfère à des
+résultats de tests cliniques réalisés chez une femme stérile âgée de 25 ans.
+Test 1 : des dosages d'une hormone ovarienne H sont effectués chez la femme stérile durant une
+période de 29 jours. Les résultats obtenus sont représentés par le tracé 1 du document 5.
+Le tracé 2 correspond à l’évolution de l’hormone H chez une femme fertile (témoin).
+
+
+
+
+1) Exploitez les données du tracé 2 du document 5, afin d’identifier :
+- l’hormone H
+- l’événement X
+2) A partir de la comparaison du tracé 1 au tracé 2, proposez deux causes possibles pouvant
+être à l’origine de la stérilité de la femme.
+Test 2 : un examen échographique a été réalisé chez
+la femme stérile au 27éme jour.
+Le document ci-contre représente un schéma
+d’interprétation de la coupe d’ovaire observée.
+Test 3 : On effectue un dosage du taux moyen de LH
+chez la femme stérile avant et après traitement par injection d’une substance (S)
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                     IGEN    86
+Le tableau suivant présente les résultats obtenus chez la femme stérile et chez la femme témoin.
+
+                                  Femme                       Femme stérile
+                       Période
+                                  témoin       Avant injection de S Après injection de S
+      Taux moyen       12-16         10                 10                   10
+      de LH(Ul/L)      16-28         10                 10                   10
+                       28-30         90                 10                   84
+
+3- A partir de l’exploitation des résultats des tests 2 et 3 et de vos connaissances :
+a- justifiez l’absence de l'événement X chez la femme stérile.
+b- dégagez l’effet de la substance S.
+4- Sachant que le complexe hypothalamo-hypophysaire de la femme stérile ne présente pas
+d'anomalies, proposez une explication possible à la cause de cette stérilité.
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                    IGEN   87
+                                               Corrigé 17
+
+1-QCM
+              Items                                1         2      3     4        5       6
+              Réponses(s) correcte(s)              b- b      c- d   d     c        d- d    b
+
+Exercice 1
+                                     Tracé 1                  Tracé 2                    Tracé 3
+    Nom                               PPSE                     PPSI                         PA
+                                *Cône axonique       *Cône axonique                   Cône axonique
+    Lieu
+                                *Membrane post-      *Membrane post-synaptique
+    d’enregistrement
+                                synaptique
+                                                                                      CVD à Na+ et
+    Canaux mis enjeux              CCD à Na+              CCD à K+ ou Cl-
+                                                                                      CVD k+
+                                *Graduable           *Graduable                       *Obéit à la loi
+    Propriétés                  *Sommable            *Sommable                        Tout ou rien
+                                *Non propageable     *Non propageable                 *Propageable
+
+Exercice 2
+ 1 a- D’après les données de l’électrophorèse de l’ADN :
+- La fille 1 possède les deux allèles A1 et A2. Elle a donc hérité A1 de son père et A2 de sa mère.
+- La fille 2 ne possède que l’allèle A1. Elle a donc hérité A1 de son père et A1 de sa mère. On déduire
+alors que la mère est hétérozygote et puisqu’elle est saine l’allèle maladie ne s’exprime pas donc
+l’allèle de la maladie est récessif.
+b-
+*Hypothèse 1 : le gène est autosomal dans ce cas le fils de génotype A2//A2 doit hériter un A2 de sa
+mère et un A2 de son père ce qui est en contradiction avec les données du document 1 car le père ne
+possède que l’allèle A1 : L ’hypothèse est donc à rejeter.
+*Hypothèse 2 : le gène est porte par X :
+Dans ce cas, La fille 2 doit hériter un XA1 de chacun de ces deux parents, ce qui est possible.
+La fille 1 doit hériter un XA1 de son père et un XA2 de sa mère qui doit être hétérozygotes XA1XA2.
+Le fils doit hériter un XA2 de sa mère et un Y de son père (de génotype XA1Y), ce qui est possible.
+L’hypothèse est donc à retenir.
+2a- D’après le document, on a II2 est malade et d’après le document 4, il ne possède que l ’allèle A2.
+Donc A2 est l’allèle responsable de la maladie et par suite A1 est l’allèle normal.
+b-
+
+ Individu               Mère           Père            Fille 1           Fille 2           Fils1
+ Génotype              XA1XA2          XA1Y           XA1XA2            XA1XA1             XA1Y
+ Phénotype              Saine          Sain            Saine             Saine            Malade
+
+
+Exercice 1
+1)- Chez la femme fertile (témoin), La sécrétion de l’hormone H se fait seulement durant 14 jours sur
+29 et ne présente qu’un seul pic donc cette hormone ovarienne ne peut être que la progestérone
+(puisque l’œstrogène possède deux pics).
+- L’évènement X se fait juste avant le début de la sécrétion de la progestérone donc cet évènement
+correspond à l’ovulation.
+2) Comparaison des deux traces : La sécrétion de progestérone chez la femme stérile est très faible
+(~0,1ng/mL) et constante (absence de pic) alors qu’elle présente un pic vers le 9eme jours (~ 15
+ng/mL) puis reste constante et presque nulle du 15eme au 29emejours.
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                            IGEN   88
+La stérilité de cette femme pourrait être due à un dysfonctionnement en relation avec la sécrétion de
+la progestérone :
+• Cause 1 : Anomalie au niveau de l’ovaire
+• Cause 2 : Anomalie au niveau de l’axe hypothalamo- hypophysaire
+3) L’examen échographique réalisé chez la femme stérile, vers le 27eme jour montre la présence de
+différentes catégories des follicules sauf le follicule mur (qui devrait normalement exister dans cette
+période ovulatoire). Le résultat de test 3 montre que la sécrétion de LH est constante et de l ’ordre de
+10 UI/L en comparaison avec celle de la femme témoin qui est de l ’ordre de 90 UI/L pendant la
+période [28 , 30].
+a- L’absence du follicule mur peut expliquer l’absence du pic pré-ovulatoire d’œstradiol et donc il n’y a
+de pas de RC+ sur le complexe hypothalamo- hypophysaire. Ceci a pour conséquence l’absence du
+pic de LH qui est nécessaire à l’ovulation.
+b- Le traitement de la femme stérile par la substance S a provoqué la reprise de la croissance
+folliculaire, l’obtention du follicule mur a partir du follicule cavitaire et donc une sécrétion de LH a un
+taux comparable à celui de la femme témoin notamment le pic ovulatoire de LH (84 UI).
+4) Puisque le complexe hypothalamo-hypophysaire ne présente pas d’anomalies, on peut dire que la
+stérilité chez cette femme est probablement d’origine ovarienne et elle peut être expliquée comme
+suit :
+- La légère augmentation du taux d’œstradiol secrète par le follicule tertiaire exerce un rétrocontrôle
+négatif (RC -) permanant sur le complexe HH.
+- La faible sécrétion de gonadostimuline ne permet pas l’évolution du follicule cavitaire en follicule
+mur donc absence du pic pré-ovulatoire d’œstrogènes
+     - Absence du pic de LH-FSH donc pas d’ovulation et par conséquent la femme est stérile.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN       89
+                                              SUJET 18
+1- QCM
+Pour chacun des items suivants (de 1 à 10), il peut y avoir une ou deux réponse(s) correcte(s).
+Reportez sur votre copie le numéro de chaque item et indiquez dans chaque cas la (ou les deux)
+lettre(s) correspondant à la (ou aux deux) réponse(s) correcte(s).
+N.B : Toute réponse fausse annule la note attribuée à l’item.
+1) Parmi les cellules cibles de la testostérone, on peut citer :
+    a- les cellules de Sertoli.
+    b- les cellules du tissu interstitiel.
+    c- les cellules hypophysaires sécrétrices de LH.
+    d- les cellules germinales localisées au niveau de la paroi du tube séminifère.
+2) Entre le 14 ème et le 21ème jour du cycle sexuel normal de la femme, le rétrocontrôle exercé par les
+ovaires sur le complexe hypothalamo-hypophysaire est :
+    a- positif,
+    b- négatif.
+    c- négatif puis positif,
+    d- positif puis négatif.
+3) La pilule combinée est un contraceptif qui intervient en :
+    a- bloquant l’ovulation.
+    b- inhibant la folliculogénèse.
+    c- stimulant la sécrétion des gonadostimulines.
+    d- modifiant la muqueuse utérine qui devient impropre à la nidation.
+4) La conduction du message nerveux par les fibres contenues dans les racines et le nerf rachidiens
+peut être représentée par le schéma :
+
+
+
+
+5) Le retrait de la jambe à la suite d’une piqûre de la plante du pied est :
+a- une réaction volontaire.
+b- un réflexe de protection.
+c- un réflexe à point de départ cutané.
+d- une réaction assurée par un circuit neuronique constitué par un neurone sensitif et un
+motoneurone.
+6) L’électrophorèse est une technique utilisée pour :
+a- diagnostiquer la trisomie 21.
+b- identifier une protéine anormale,
+c- reconnaître le caryotype anormal.
+d- séparer les fragments d’ADN correspondant aux allèles d’un gène.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN     90
+2- QROC
+Chez l'Homme, les aberrations chromosomiques peuvent survenir au cours de la gamétogenèse.
+Les figures (a) et (b) du document 1 représentent les caryotypes des deux gamètes, mâle et femelle.
+
+
+
+
+1) Identifiez le gamète correspondant à chacun des deux caryotypes représentés par les figures (a) et
+(b) du document 1.
+2) L’un des deux gamètes présente un caryotype anormal.
+a- Précisez lequel. Justifiez votre réponse,
+b- Expliquez l’origine de cette anomalie.
+3) La fécondation impliquant les deux gamètes du document 1 conduit à un individu de caryotype
+anormal.
+a- Ecrivez la formule chromosomique de la cellule-œuf issue de cette fécondation.
+b- Déduisez l’anomalie chromosomique affectant cet individu.
+
+Exercice 1
+Chez la femme, le fonctionnement des
+ovaires peut varier en fonction de son
+état physiologique.
+Pour déterminer les causes de cette
+variation, on a réalisé chez trois
+femmes A, B et C des dosages
+réguliers du taux sanguin de deux
+hormones h1 et h2 pendant une
+période de 56 jours. Les résultats
+obtenus sont représentés dans le
+document 2.
+1) En vous basant sur l’exploitation des
+données du document 2 et sur vos
+connaissances :
+a- Identifiez les hormones h1 et h2.
+b- Précisez la femme dont les ovaires
+ont un fonctionnement normal.
+c- Proposez une explication du
+fonctionnement des ovaires chez
+chacune des deux autres femmes.
+2) Dans le but de déterminer l’état
+physiologique de ces deux dernières
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                   IGEN       91
+femmes, on a dosé le taux sanguin de L.H chez les trois femmes A, B et C. Les courbes du document
+3 représentent les résultats obtenus.
+
+
+
+
+Analysez ces courbes en vue :
+a- de justifier l'état physiologique de la femme à cycle sexuel normal,
+b- de préciser l’état physiologique de chacune des deux autres femmes,
+c- d’expliquer les résultats de dosages de LH chez ces deux femmes.
+
+Exercice 2
+On cherche à expliquer le mécanisme de la transmission du message nerveux à travers les
+synapses. Pour cela, on réalise des expériences de stimulation en utilisant le dispositif expérimental
+représenté par le document 4.
+
+
+
+
+On porte en SS’ une stimulation électrique efficace S1 et on détecte à l’aide des deux électrodes
+réceptrices R1 et R2 la variation du potentiel membranaire qui en résulte. Les enregistrements
+obtenus sur les écrans des oscilloscopes O1 et O2 sont représentés dans le document 5.
+
+
+
+
+1) Exploitez ces résultats en vue :
+a- d’identifier chacun des deux enregistrements obtenus en O1 et O2.
+b- de préciser la nature de la synapse reliant le neurone N1 au neurone N2.
+2) Indiquez, en justifiant votre réponse, la nature des potentiels enregistrés :
+a- en O2 suite à une stimulation S2 d’intensité double que celle de S1.
+b- en O3 suite à deux stimulations successives et rapprochées de même intensité que celle de S1.
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN     92
+                                             Corrigé 18
+1- QCM
+
+
+
+     2- QROC
+
+1)
+
+Figure (a) = gamète femelle
+
+Figure (b) = gamète mâle
+
+2) a- Le gamète femelle est de caryotype anormal.
+- Présence du chromosome 21 en deux exemplaires.
+b- Les 2 chromosomes de la paire 21 ne se séparent pas et passent ensemble dans la même cellule
+fille ; cela peut se produire lors de la division réductionnelle ; ainsi se forme ce gamète possédant 2
+chromosomes 21.
+3) a- Formule chromosomique = 45 autosomes + XY.
+b- L’individu issu de la fécondation impliquant les gamètes du document 1 est affecté par la trisomie
+21 .
+Exercice 1
+1) a-
+h1 : Chez la femme A, la courbe représentant les résultats de dosage de l’hormone ovarienne h1
+montre que la sécrétion est variable et cyclique (deux cycles de 28 jours) ; chaque cycle montre deux
+pics de sécrétion, un 1er pic d’environ 200 ng/mL vers le 13eme jour et un 2eme pic, moins important,
+d’environ 150 ng/mL vers le 21eme jour; ce profil de sécrétion correspond aux œstrogènes.
+- h2 : Chez la femme A, la courbe représentant les résultats de dosage montre que le taux de h2 est
+très faible pendant les 14 premiers jours de chaque cycle. h2 est ensuite secrétée a des doses
+variables avec un seul pic d’environ 10 pg/mL vers le 21eme jour; ce profil de sécrétion correspond à
+la progestérone .
+b- Les courbes du document 2 montrent que la sécrétion des hormones ovariennes chez la femme A
+présente le profil (variation et pics) caractéristique d’un cycle normal ** les ovaires de la femme A ont
+un fonctionnement normal.
+c- Pour chacune des deux femmes, le dysfonctionnement ovarien peut s’expliquer par :
+- un trouble de fonctionnement du CHH.
+- épuisement du stock folliculaire.
+- la prise de pilules combinées bloquant l’activité des ovaires.
+2) Analyse :
+- Chez la femme A, la courbe représentant la sécrétion de LH est caractérisée par une variation
+cyclique ; chaque cycle est caractérisé par un pic d’environ 22 ng/mL vers le 14eme jour.
+- Chez la femme B, le document 3 montre que la sécrétion de LH est élevée et constante d’environ 18
+ng/mL.
+- Chez la femme C, la sécrétion de LH est très faible et constante d’environ 2 ng/mL.
+a- Le profil de sécrétion de LH, observe chez la femme A, est caractérisé par une variation cyclique et
+un pic important le 14eme jour de chaque cycle ; ceci confirme son état physiologique normal.
+b- Puisque la concentration de la LH est élevée et constante chez la femme B, elle ne peut-être que
+ménopausée.
+La femme C, ayant une concentration de LH faible et constante peut présenter un trouble de
+fonctionnement hypothalamo hypophysaire
+c- Chez la femme B, ménopausée, l’arrêt de sécrétion des hormones ovariennes serait en rapport
+avec la levée du RC négatif exerce sur le complexe hypothalamo-hypophysaire ; d’ou la
+concentration élevée et constante de LH.
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN       93
+- Si la femme C présente un trouble de fonctionnement Hypothalamo hypophysaire, ce trouble cause
+une faible concentration de LH.
+
+- Si elle est sous pilule, les oestro-progestatifs de synthèse exercent un RC négatif sur le complexe
+hypothalamo-hypophysaire et freine ainsi la libération de LH.
+
+Exercice 2
+1)
+ a- L’enregistrement obtenu en O1 montre une variation de potentiel d’amplitude 100 mV ; il est
+détecté au niveau de la membrane d’un axone ; il s’agit d’un PA.
+- L’enregistrement obtenu en O2 montre une légère dépolarisation d’amplitude 12 mV ; cette
+dépolarisation est détectée au niveau du cône du neurone N2 ; c’est un Potentiel local.
+b- Le potentiel local (enregistrement obtenu en O2) est d’amplitude 12 mV ; il ne peut être obtenu qu’a
+partir d’un PPSE au niveau de la membrane post synaptique N2.
+La synapse reliant le neurone N au neurone N2 est donc excitatrice.
+    2)
+
+ Potentiel enregistre                                    Justification
+                        Une stimulation S2 d’intensité double de celle de S1 est a l’origine au
+                        niveau de l’oscilloscope O2 d’un Potentiel local puisque le PA obéit a
+    a-                  la loi du tout ou rien.
+ Potentiel local        Une stimulation S2 d’intensité double de celle de S1 engendre un PA
+                        d’amplitude 100mV identique a celui obtenu avec S1. Donc on
+                        enregistre au niveau de O2 le même potentiel local (PPSE)
+                        d’amplitude 12 mV
+                        Deux stimulations successives et rapprochées de même intensité que
+                        celle de S1donnent naissance au niveau du cône a un potentiel
+          b-
+                        d’amplitude 24 mV (double de celle de l’enregistrement obtenu en O2)
+ Potentiel d’action
+                        ; c’est a dire qu’il se produit une sommation temporelle qui permet au
+                        potentiel membranaire d’atteindre le seuil ; d’ou la naissance d’un PA
+                        qui se propage et atteint R3 ; il est alors détecté en O3
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN    94
+                                                 Sujet 19
+QCM :
+Relever pour chaque item la ou (les deux) affirmation(s) correcte(s) :
+
+1 / La prostate :
+    a- intervient dans la formation du sperme.
+    b- intervient dans la formation des spermatozoïdes.
+    c- est une glande endocrine.
+    d- est une glande exocrine.
+
+2/ Le follicule tertiaire se caractérise par rapport au follicule secondaire par :
+   a- la présence de quelques cavités dans la granulosa .
+   b- la formation de la zone pellucide.
+   c- l’apparition des thèques .
+   d- la différenciation des thèques.
+
+3°/ En considérant que Q (ADN) correspond à 2n chromosomes simples, alors :
+   a- l’ovocyte I possède Q (ADN).
+   b- l’ovocyte I possède 2Q (ADN).
+   c- le premier globule polaire possède Q/2 (ADN).
+   d- le deuxième globule polaire possède Q/2 (ADN).
+
+4°/ Les points communs entre la folliculogenèse et l’ovogenèse sont :
+   a- ne se termine qu’en cas de fécondation,
+   b- débutent depuis la vie fœtale.
+   c- se déroulent en partie dans l'ovaire.
+   d- présentent une période de repos.
+
+5°/ Le document ci -contre représente la variation du taux plasmatique d’une hormone ovarienne A
+pendant une période comprise entre 7 Septembre et 30 octobre :
+   a- l'hormone A est l’œstradiol.
+   b- la durée du cycle est de 26 jours.
+   c- la date de l’ovulation du mois d’octobre est le 6 octobre.
+   d- la durée du cycle est de 28 jours .
+
+6°/ La destruction des cellules de Sertoli provoque :
+   a- une hypersécrétion de la F.SH.
+   b- une hyposécrétion de la F.S.H.
+   c- une hypertrophie des tubes séminifères,
+   d- une atrophie des tubes séminifères. I
+
+7/ Le document ci-après, montre des coupes
+microscopiques d’une portion de testicules de quatre sujets
+différents. La coupe qui correspond au testicule d'un sujet
+pubère et qui a reçu une perfusion d'inhibine est :
+
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                IGEN   95
+8°/ Le document ci -contre représente des schémas simplifiés de trois cellules notées a ; b et c en
+division au cours de la gamétogenèse.
+A partir de ce document, on constate que :
+     a- La cellule (c) est une ovogonie.
+     b- La cellule (a) est un ovocyte II en anaphase II.
+     c- La cellule (b) est un spermatocyte I en anaphase I
+     d- la cellule (c) est un ovocyte I bloqué en prophase I
+
+
+Exercice 1
+1°) L’échographie endovaginale est l’examen utilisé par les médecins pour suivre l’évolution de
+l’épaisseur de l’endomètre par jour du cycle. Réalisée chez une femme normale de 25 ans pendant
+les mois d’Octobre et de Novembre, on obtient le tracé du document 1 .
+
+
+
+
+a- Délimitez sur la courbe les différentes phases d’un cycle tout en justifiant la réponse .
+b- Représentez par des schémas légendés l’aspect de l’endomètre pendant les jours 8 et 21.
+2) Le document 2 représente l’évolution des structures ovariennes au cours d’un cycle ovarien.
+
+
+a- Nommez et
+annotez les
+structures a , b , c ,
+d et e .
+b- Reproduisez le
+document 4 suivant sur votre copie sur lequel vous placer les lettres a , b ,c, d et e dans l’ordre
+chronologique durant la période située entre le 21 octobre et
+11 novembre.
+
+
+
+
+c- Citez les hormones sécrétées par les structures b, c et e .
+d- Représentez dans un système d’axes le profil de sécrétion de ces hormones dans l’intervalle du
+temps entre 21 Octobre et 11 Novembre.
+e- Mettre en relation la variation du taux plasmatique des hormones ovariennes et l’évolution de la
+muqueuse utérine afin :
+* de dégager le rôle des hormones ovariennes.
+* d’expliquer le déterminisme de la menstruation.
+3°) Faite un schéma qui représente les étapes de l’ovogenèse montrant le devenir de l’élément X
+dans un cycle fécond en utilisant 2n=4 chromosomes.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN   96
+Exercice 2
+On se propose d’étudier les relations entre les testicules et le complexe hypothalamo-hypophysaire
+Pour ce faire on réalise des études expérimentales sur deux sujets A et B dont l’un est stérile et
+souffre d’une seule anomalie.
+A/ Les dosages des quantités d’ADN contenues dans trois catégories de cellules germinales de
+testicules chez les deux sujets, ont donné les résultats dans les tableaux ci-dessous.
+
+                                                          Population       Population       Population
+      Sujet A                                             de cellules      de cellules     de cellules Z
+                                                              X                Y
+      Nombres de cellules (Unités arbitraires)                12               6                 3
+      % de la quantité d’ADN par rapport à celle             25%              50%              100%
+      d’une cellule à 2n chromosomes dupliqués
+
+
+
+ Sujet B                                              Population        Population       Population
+                                                      de cellules       de cellules      de cellules
+                                                          X                 Y                Z
+ Nombres de cellules (unités arbitraires)                 0                 6                3
+ % de la quantité d’ADN par rapport à celle
+                                                           -               50%             100%
+ d’une cellule à 2n chromosomes dupliqués
+
+1°) A partir de l’exploitation des résultats figurant dans les tableaux ci-dessus : Identifiez les cellules
+germinales constituant les populations X, Y et Z. Précisez lequel des deux sujets est stérile ?
+2°) Emettez trois hypothèses expliquant la cause de stérilité du sujet concerné.
+B/ Pour tester la validité des hypothèses émises précédemment, des dosages des gonadostimulines
+sont réalisés chez le sujet stérile.
+Le document 3 montre les concentrations plasmatiques de LH et de FSH (en Ul/L).
+        Document 3                                                                  LH       FSH
+        Concentration plasmatique des hormones chez le sujet stérile                 ≤ 0,9    ≤ 0,4
+        Concentration plasmatique des hormones chez un individu témoin.             2 à 10 1 à 2
+
+1°) Exploitez les résultats du tableau du document 3 en vue de préciser la ou les hypothèses
+restante(s) valable (s) chez ce sujet.
+2°) Certains patients présentent les mêmes symptômes que le sujet stérile. Ces patients reçoivent un
+traitement par injection de
+GnRH toutes les deux
+heures. On mesure chez
+ces patients la
+concentration de LH et de
+la testostérone avant et
+pendant le traitement.
+On fait suivre le même
+traitement pour le sujet
+stérile. Les résultats sont
+représentés dans le
+document 4 ci-dessous :
+
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                           IGEN   97
+a-Analysez les données du document 4 en vue de déduire la cause de stérilité des patients d’une part
+et le sujet stérile d’autre part.
+La fixation de la GnRH sur son récepteur provoque normalement une augmentation de la production
+d’inositol phosphate (IP) dans la cellule hypophysaire. L’IP est nécessaire à la production de LH et de
+FSH par la cellule. En mesurant la quantité d’IP dans les cellules,
+on évalue indirectement l’activité du récepteur et la production de
+LH et FSH.
+Le document 5 ci-contre représente la quantité d’IP produit par des
+cellules hypophysaires d’un témoin et des cellules.
+b-Analysez le document 5 en vue de proposer une explication à la
+cause de stérilité du sujet stérile.
+3°) Le document 6 montre des microdosages de GnRH dans la circulation sanguine de la tige
+pituitaire du sujet normal.
+Représentez dans un système d’axe identique à celui du
+document 6 le profil de sécrétion de la GnRH chez le sujet
+stérile. Justifiez.
+C / Utiliser les données présentées pour tracer un schéma
+bilan de synthèse permettant de mettre en relation
+l’hypothalamus, l’hypophyse et le testicule chez l’individu témoin.
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                     IGEN       98
+                                                   Corrigé 19
+QCM:
+
+
+
+
+Exercice 1
+1°) a-
+
+
+
+
+2°) a-
+a : corps blanc ; b : follicule mûr ; c : corps jaune ; d : follicule rompu ; e : follicule tertiaire .
+1 : corona radiata ; 2 : cellule lutéinique ; 3 : thèque interne ; 4 : granulosa
+b-
+
+
+
+
+*Les structures b et e sécrètent les œstrogènes.
+* la structure c sécrète les œstrogènes et la progestérone.
+
+
+
+
+C- Les hormones ovariennes stimulent le développement de la muqueuse au cours du cycle sexuel.
+
+
+
+
+ Sciences Naturelles                     Joussour pour réussir au BAC (SN et M)                           IGEN   99
+Pendant la phase folliculaire : l’augmentation du taux d’œstradiol stimule le développement de
+l’endomètre d’où l’augmentation progressive de son épaisseur et sensibilise les cellules de
+l’endomètre à l’action de la progestérone.
+Pendant la phase lutéale : l’action combinée des œstrogènes et de la progestérone entraine
+l’épaississement maximale de l’endomètre d’où la formation de la dentelle utérine.
+La chute des hormones ovariennes à la fin du cycle sexuel entraine la destruction de l’endomètre et
+par conséquent l’apparition des règles ou menstruation.
+3°)
+
+
+
+
+Exercice 2
+A/
+1°) - Chez le sujet A, le nombre de cellules Y est la moitié de celui des cellules X et double des
+cellules Z.
+-Le pourcentage de la quantité d’ADN par rapport à celle d’une cellule à 2n chromosomes dupliqués
+des cellules Y est le double de celui X mais la moitié de Z ; Z est donc à 2n chromosomes dupliqués
+donc Y provient de Z par D.R et X provient de Y par D.E.
+Z : spermatocyte I ;
+Y : spermatocyte II ;
+X : spermatide ou spermatozoïde
+*L’absence de spermatozoïde (spermatogenèse incomplète) chez le sujet B montre qu’il est stérile.
+2°)
+-Dysfonctionnement hypothalamique défaut de sécrétion de GnRH.
+-Dysfonctionnement hypophysaire défaut de sécrétion des gonadostimulines.
+-Dysfonctionnement testiculaire.
+B/
+ 1°) Par rapport à l’individu témoin La concentration de LH et de FSH est très faible chez le sujet B
+stérile. D’où H1 et H2 restent encore valables alors que H3 est à rejeter car ce sujet souffre d’une seule
+anomalie.
+2°) Avant l’injection de GnRH chez les patients le taux de LH est constant et nul ce pendant le taux de
+testostérone est de 63ng/dl. Alors qu’après injection pulsatile de GnRH, le taux de LH devient sous
+forme de pics périodiques de fréquence 1 puise / 2H et d’amplitude qui varie entre 10 et 40 Ul/L. donc
+La cause de stérilité chez les patients est le dysfonctionnement hypothalamique défaut de sécrétion
+de GnRH.
+Après injection pulsatile de GnRH chez le sujet B Le taux de LH et de testostérone reste très faible.
+Donc le sujet B souffre d’un dysfonctionnement hypophysaire, défaut de sécrétion de LH.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN       100
+3°) La production d’IP chez le sujet témoin croit en fonction de la concentration de la GnRH dans le
+milieu en effet elle passe de 0,4 à 1,8UA avec une cc de GnRH=10 ’9, égale à 2,4 à une cc de GnRH
+10 8 et égale à 2,8 à une cc de GnRH 10 7 alors que chez le sujet B la production d’IP est constante
+à une valeur faible 0,4UA comme la valeur de base malgré l'augmentation de la concentration de
+GnRH ce qui montre l’inactivité des récepteurs à GnRH sur les cellules hypophysaire. D’où L’absence
+de sécrétion de LH par le sujet B s’explique par une anomalie au
+niveau des récepteurs.
+4°) Sécrétion pulsatile de fréquence et d'amplitude plus élevées que
+celles du sujet normal.
+Justification: L'augmentation de la fréquence et de l'amplitude des
+pulses de GnRH s'explique par la levée de RC(-) exercé sur la GnRH
+vue que le taux de TTT est faible.
+
+C/
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                    IGEN      101
+                                               Sujet 20
+QCM:
+Relever pour chaque item, la ou (les deux) affirmation(s) correcte(s) :
+1/ Le récepteur sensorial :
+   a- peut être localisé à l’intérieur de l’organisme.
+   b- renferme une terminaison axonique.
+   c- peut être le siège d’une conversion de l’énergie électrique en énergie mécanique
+   d- informe les centres nerveux sur l’intensité du stimulus par modulation de fréquence de PA
+2/ En admettant que les électrodes réceptrices des Oscilloscopes O1 et O2 sont distantes de 6 cm
+(document ci-contre). La vitesse de propagation du message
+nerveux est égale à :
+   a- 100 m/s
+   b- 200 m/s
+   c- 300 m/s
+   d- 400 m/s
+
+
+3/ Les sections. S1, S2 et S3 (voir document ci-contre) ont été réalisées dans les racines d'un nerf
+rachidien :
+    a- Suite à S1, la région du corps innervée par ce nerf perd toute
+    sensibilité.
+    b- Suite à S2, la région du corps innervée par le nerf perd toute
+    motricité.
+    c- Suite aux S1 et S2, les fibres nerveuses situées entre S1 et la
+    moelle épinière dégénèrent.
+    d- Suite à S3, les fibres nerveuses dégénèrent dans le bout central de la racine sectionnée.
+
+4/ Un neurotransmetteur donné :
+    a- agit sur tous les neurones.
+    b- n’agit que sur certains neurones.
+    c- exerce le même effet sur tous les neurones.
+    d- agit toujours en déclenchant des potentiels d’action dans le neurone cible
+5/ Au niveau du site transducteur du fuseau neuromusculaire :
+    a- on enregistre des potentiels de récepteur graduable en amplitudes.
+    b- on enregistre des potentiels de récepteur propageables.
+    c- on enregistre des potentiels d’action.
+    d- IL y a ouverture des canaux voltages dépendants.
+Exercice 1
+Le document 3 représente schématiquement, l'aspect de la membrane d'une fibre nerveuse dans
+deux états (a) et (b).
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN   102
+1°) Nommez les structures A, B et C du document 3
+2°) Identifiez, en justifiant votre réponse, les deux états (a) et (b) de la fibre nerveuse.
+3°) Nommez l’état de la membrane de la fibre nerveuse qui précède l'état (a) du document 3 tout en
+précisant l’état des canaux C1 et C2 , le mouvement des ions Na+ et K+ et l’état électrique de la fibre
+nerveuse .
+4°) Expliquez le mécanisme ionique à l'origine de l'état b.
+5°) Prévoyez l'effet d'un inhibiteur de l'hydrolyse de l'ATP sur la ddp de la membrane de la fibre à
+l'état (b). Justifier votre réponse.
+6°) D'autres canaux ioniques interviennent dans l'activité d'un neurone. D'après vos connaissances
+complétez le tableau ci-dessous.
+  Type de canaux             Lieu d'existence      Condition                 Conséquence
+                                                   d'ouverture               d'ouverture
+              2+
+  CVD à Ca
+  CCD à Cl-
+  CCD à Na+
+Exercice 2
+On se propose d'étudier la naissance, la propagation et la transmission du message nerveux.
+A/ Le document 1 montre des chaines neuroniques en relation avec un récepteur sensoriel situé dans
+le muscle M.
+
+
+
+
+1°) Au temps to, on place l'électrode réceptrice R1 de l'oscilloscope O1 à la surface de la terminaison
+nerveuse du fuseau neuromusculaire F. L'électrode R2 est
+placée dans le milieu extracellulaire.
+‘Au temps t1, on introduit R1 à l'intérieur de cette terminaison
+nerveuse.
+*Au temps t2, on soumet le muscle M à un bref étirement E1
+L'enregistrement apparu sur l'oscilloscope O1 est représenté
+dans le document 2.
+Analysez l'enregistrement obtenu en vue de :
+- identifier les phénomènes électriques visibles dans cet enregistrement.
+- dégager le rôle du fuseau neuromusculaire suite à l'étirement E1
+
+2°) Représentez, en le justifiant, l'enregistrement donné par O2 suite à cet étirement E1
+B/
+Pour comprendre le phénomène d'intégration, on réalise les deux expériences suivantes :
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN     103
+Expérience 1 :
+On porte une stimulation électrique isolée S sur la fibre nerveuse du neurone (N) issue du fuseau
+neuromusculaire F. Les enregistrements obtenus en O2, O3, O4 et O5 sont représenté par le
+document 3a.
+Expérience 2 :
+On soumet le muscle M à un étirement E2 > E1 Les enregistrements obtenus en O2, O3, O4 et en O5
+Sont représentés par le document 3b.
+
+
+
+
+1° La stimulation électrique S est-elle efficace ? Justifiez votre réponse.
+2°
+a- Exploitez les enregistrements de l'expérience 1 obtenus en O2 et O3 suite à la stimulation S en vue
+de déduire la nature de la synapse N — i
+b- Quel tracé doit-on obtenir en O5 ? Justifiez.
+c- Comment expliquez-vous l'absence de la variation de la ddp en O4 dans l'expérience 1 ?
+3°)
+a- Exploitez les enregistrements du document 3b pour :
+- expliquer leurs origines,
+- montrer le phénomène d'intégration.
+b- Faites un schéma du tracé qu'on doit obtenir en 01 dans l'expérience 2 et justifiez-le.
+C- Afin de préciser le mécanisme d'action du neurone i sur le neurone M2, on vous propose les
+données suivantes :
+Donnée 1 :
+On injecte en Z deux doses croissantes D1 et D2 de GABA.
+L'activité enregistrée en O4 est présentée par le document 4a.
+Donnée 2 :
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                     IGEN      104
+• La concentration ionique des ions CL dans le milieu extracellulaire est quatorze fois plus grande que
+celle dans le milieu intracellulaire.
+• La perméabilité membranaire aux ions CI’ d'un neurone sensible au GABA
+(Comme le neurone M2) augmente en présence de GABA dans le milieu extracellulaire.
+Le document 4b schématise les structures observables au niveau de la membrane d'un neurone
+sensible au GABA
+
+
+
+
+À partir de l'exploitation des données 1 et 2, complétées par vos connaissances, expliquez le
+mécanisme d'action du neurone i sur le neurone M2.
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN      105
+                                               Corrigé 20
+QCM :
+                          Item                        1    2       3   4    5
+                          Bonnes réponses             b    a, d    d   d    a, c
+Exercice 1
+1°) structure A : CVD à Na+ et à K+
+Structure B : canaux ioniques de fuites à Na+ et à K+
+Structure C : pompe à Na+ et à K+
+2°) -Etat(a) : Les CVD aux Na+ sont fermés, ceux des ions K+ sont ouverts, (l’intérieur de la fibre est
+chargé négativement, l’extérieure est chargé positivement) -> la fibre est en état de repolarisation ou
+hyperpolarisation.
+-Etat(b) : Les CVD aux Na+ et K+ sont fermés, seuls les CIF et la pompe à Na+ et à K+ sont
+perméables aux ions, (l’intérieur de la fibre est chargé négativement, l’extérieure est chargé
+positivement) la fibre est repos.
+3°) Etat de dépolarisation
+Les CVD aux Na+ sont ouverts, ceux des ions K+ sont fermés.
+Entrée massive de Na+ , l’intérieur de la fibre est chargé positivement, l’extérieure est négativement
+4°) Mécanisme ionique à l’origine de l’état (b) :
+Transport passif des ions à travers la membrane selon leur gradient de concentration par les canaux
+de fuite toujours ouverts.
+Un transport actif couplé de ces ions Na+ et K+ contre leur gradient de concentration assuré par la
+pompe Na+ / K+ jouant le rôle d’enzyme (ATPase) qui hydrolyse l’ATP et utilise l'énergie libérée pour
+refouler à chaque cycle 3Na+ et réintroduire 2K+
+5°) l’inhibition de l’hydrolyse de l’ATP bloque le fonctionnement de la pompe Na+ et K+ les canaux de
+fuites restent fonctionnels d’où l’égalisation de la répartition des ions Na+ et K+ de part et d’autre de la
+membrane et l’annulation de la ddp membranaire
+6°)
+    Type de                                                                          Conséquence
+                       Lieu d'existence         Condition d'ouverture
+    canaux                                                                            d'ouverture
+                   Membrane du bouton                                          Entrée du Ca++ dans le
+                   synaptique                                                  bouton synaptique ce qui
+                                              Arrivée de PA (une ddp de
+  CVD à Ca2+       (terminaison                                                déclenche la libération du
+                                                       +30 mv)
+                   axonique)                                                   neuro transmetteur dans
+                                                                               la fente par exocytose
+                   Membrane post-            Fixation du neuro
+                   synaptique d'une          transmetteur inhibiteur sur
+                                                                               Entrée Cl- à l'origine d'un
+   CCD à cl-       synapse inhibitrice       les récepteurs spécifiques
+                                                                                         PPSI
+                                             de la membrane post
+                                             synaptique
+                   Membrane post             Fixation du
+                   synaptique d'une          neurotransmetteur
+     CCD à                                                                     Entrée du Na+ à l'origine
+                   Synapse excitable         excitateur sur les
+      Na+                                                                             d'un PPSE
+                                             récepteurs spécifiques de la
+                                             membrane post-synaptique
+                   Membrane post-            Fixation du neuro                 Sortie de K+ à l'origine
+                   synaptique d'une          transmetteur inhibiteur sur       d'un PPSI
+   CCD à K+        synapse inhibitrice       les récepteurs spécifiques
+                                             de la membrane post
+                                             synaptique
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                         IGEN      106
+Exercice 2
+A/
+1°)
+-De to à t1 non inclus, R1 est à la surface de l'axone et R2 est située au niveau du milieu extracellulaire
+d’où la ddp enregistrée est nulle —> R1 et R2 sont au même potentiel : on dit que la surface de la
+membrane est iso potentielle.
+-Au temps t1 lorsque R1 est introduite dans l'axone de la fibre nerveuse, la ddp enregistrée au
+niveau de C est de -70 mV. Cette ddp existe entre la surface et l'intérieur de l'axone et correspond au
+potentiel de repos.
+- Au temps t2, lorsqu’on fait un étirement E1, on enregistre au niveau d’O1 une légère dépolarisation
+qui n’atteint pas le seuil : il s’agit d’un potentiel de récepteur.
+-Propriété du F.N.M : Le F.N.M joue le rôle de transduction sensoriel, il transforme l’étirement E1
+(énergie mécanique) en potentiel de récepteur (énergie électrique)
+2°) Le potentiel de récepteur enregistré au niveau de 01 est non propageable et on obtient un
+potentiel de repos au niveau de 02.
+
+
+
+
+B/
+1°) Lorsqu’on porte une stimulation électrique S sur la fibre nerveuse (N), on enregistre au niveau de
+l’oscilloscope 02 un potentiel d’action donc la stimulation S est efficace.
+2°)
+a- Suite à la stimulation efficace de la fibre nerveuse N, on obtient au niveau de 03 un PPSE donc la
+synapse N-i est une synapse excitatrice.
+b- On obtient aussi un PPSE au niveau de 05 car les terminaisons axoniques du même neurone N
+font respectivement des synapses avec l’interneurone i et le neurone M1.
+c- Le PPSE enregistré au niveau de 03 est non propageable ce qui ne permet pas d’activer la
+synapse i-M2 d’où on enregistre au niveau de 04 un potentiel de repos
+a-
+   Exploitation                                     Déduction
+   Suite à l’étirement du muscle M par E2 on        -l s’agit d’un PPSE global au niveau de 03 issu de
+   enregistre au niveau de :                        la sommation temporelle de deux PPSE qui atteint
+   02 deux potentiels d’action                      le seuil au niveau du corps cellulaire de
+   03 un PPSE à 2 vagues qui atteint le seuil -     l’interneurone i sans engendrer un PA
+   50mv                                             -Le PPSI enregistré au niveau de 04montre que
+   04 un PPSI                                       l’interneurone i est inhibiteur
+   05 un PA précédé d’un pré- potentiel à 2         -Il s’agit d’un PPSE global au niveau de 05 issu de
+   vagues qui atteint le seuil -50mv                la sommation temporelle de deux PPSE qui atteint
+                                                    le seuil au niveau du cône axonique du neurone M1
+                                                    engendre un PA.
+
+b-
+On obtient au niveau de 01 (site transducteur) un potentiel de récepteur
+qui dépasse le seuil (-50mv) puisqu’on a obtenu au niveau de 02 deux PA.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN       107
+C-
+           Exploitation de la donnée 1                               Déductions
+ L’injection de la dose D1 de GABA en Z             -Le neurotransmetteur de la synapse i-M2 est
+ engendre un PPSI de faible amplitude alors         le GABA.
+ que la dose D2 (plus importante) est à l’origine   -Plus la dose du GABA injecté dans la fente
+ d’un PPSI d’amplitude plus importante.             synaptique Z augmente plus que le PPSI
+                                                    enregistré est ample.
+
+
+
+              Exploitation de la donnée 2                                Déductions
+ -La concentration des ions Cl- dans le M.E.C est          - En présence de GABA, il y a entrée
+ supérieure que celle du M.I.C                             des ions Cl- à travers des protéines
+ -En présence de GABA, la perméabilité membranaire         membranaires situées au niveau du
+ aux ions Cl- du neurone M2 augmente.                      corps cellulaire du neurone M2.
+ -IL y a présence des protéines membranaires au
+ niveau du neurone M2 sensibles au GABA
+
+-Explication du mécanisme d’action du neurone i sur le neurone M2 :
+1- arrivée du potentiel d'action au niveau de la terminaison présynaptique du neurone i.
+2- ouverture des canaux Ca++ voltage dépendants de la membrane présynaptique ;
+3- entrée des ions Ca++ dans la terminaison pré-synaptique et stimulation des vésicules contenant
+GABA.
+4- Exocytose des vésicules synaptiques et libération du GABA.
+5- fixation du GABA sur des sites spécifiques (protéines intégrées à la membrane post-synaptique)
+6- Ouverture des canaux chimio-dépendants à Cl- de la membrane post-synaptique d’où l’entrée de
+Cl- ce qui a pour conséquence son hyperpolarisation (PPSI).
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                    IGEN   108
+                                                 Sujet 21
+Exercice 1
+Une femme A se présente chez son médecin pour un problème d’aménorrhée (absence des règles).
+Pour chercher la cause de cette absence, son médecin a réalisé certains tests tout en se référant aux
+valeurs usuelles d’une femme normale.
+1-Test 1 : des dosages d’une hormone ovarienne H1 sont effectués chez la femme A et chez une
+femme normale, durant une période de 29 jours allant de 10 avril à 08 mai.
+Les résultats obtenus sont consignés dans le tableau suivant.
+       Jours        10avril 12 14 16 20 22 24 26 28 30 2mai 4                            6
+       Femme                                                                                  a- Identifier
+                      1,2       4 8 13 16 14 5 2 1,9 1,8 1,7 1,5 1,4 l'hormone H en
+       normale                                                                                              1
+       Femme A        1.1      1.2 1 1.1 1.2 1 1.1 1 1.2 1.1                1    1.2 1.2 justifiant.
+                                                                                              b- Proposer
+deux causes possibles pouvant être à l’origine de cette aménorrhée chez la femme A.
+2-Test 2 : un examen échographique a été réalisé chez la femme A le 7 mai. Le document ci-contre
+                               représente la coupe d’ovaire observée. Quelle conclusion pouvez-vous tirer
+                               ?
+                               3-Test 3 : On réalise chez cette femme un test d’ovulation.
+                               Les tests d’ovulation se font à raison d’un test par jour sur 4 jours avant la
+                               date présumée d’ovulation qui varie suivant la longueur des cycles. Il faut
+                               mettre en contact les bandelettes avec l’urine, attendre quelques minutes
+                               avant de lire le résultat.
+                               Si le test est positif, il annonce une
+                               ovulation dans les 12 à 36 h.
+    a- Décrire les résultats du test.
+    b-Quelle est l’hormone H1 recherchée par ce test d’ovulation ?
+    Pourquoi ?
+    c- Expliquez le résultat de la femme (A) testée.
+4-Test 4 : On refait le test d'ovulation chez la femme A après
+traitement par injection d’une substance (X) le 7 mai.
+Le document 4 présente le résultat obtenu chez cette femme.
+Exploitez le résultat du test 4 afin :
+    a- d’expliquer la stérilité de la femme A ?
+    b- de donner le(s) nom(s) possible(s) de la substance X et dégager son effet.
+5-A partir de ces tests, proposez une explication possible du profil de sécrétion de
+l’hormone H1 chez la femme A.
+
+Exercice 2
+Étudions quelques aspects de la reproduction d’une plante à fleurs : le Pois.
+I- le document 1 représente un fragment d’un ovule, à un certain stade de son
+évolution.
+                         1-Légendez le document 1 et Précisez la garniture
+                         chromosomique des éléments (3, 4,5 et 8).
+                         2- Quel est le phénomène important qui se produit à
+                         ce stade ?
+                         3-Quel en est le résultat ?
+                         4- Observez maintenant la coupe longitudinale de la
+                         fleur (document 2).
+                         Annotez ce schéma.
+                         5- Dans cette fleur, les constituants (1) et (2) se
+                         forment à partir de cellules particulières appelées
+cellules-mères.
+
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                         IGEN       109
+De quel phénomène important ces cellules sont-elles le
+siège ? Quel en est le résultat ?
+II-Poursuivons notre étude du pois avec celle de graine.
+Le document 3 représente divers aspects de cette graine.
+1-Légendez le document 3.
+2-En comparant les documents 1 et 3 dites quelle est
+l’origine des différents constituants de la graine.
+
+
+Exercice 3
+1-On croise deux lignées de drosophiles, l’une à corps gris et ailes longues, l’autre à corps noir et
+ailes vestigiales. Les hybrides de la F1 ont tous un phénotype corps gris, ailes longues.
+a-Définissez les mots génotype et phénotype.
+b-Analysez les résultats de ce croisement et donner les génotypes des parents.
+2-Le croisement de drosophiles femelles de la F1 avec des mâles doubles récessifs donne 16% de
+phénotypes nouveaux.
+a-Quels sont les phénotypes nouveaux obtenus ?
+b-Quelle est la proportion des gamètes parentaux formés par la femelle F1?
+c-Représentez le phénomène à l’origine de l’apparition des phénotypes nouveaux.
+d-Donner le % des cellules ayant subies ce phénomène.
+3-Quelles sont les proportions phénotypiques attendues du croisement de deux individus de F1 ?
+Justifiez.
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN    110
+                                              Corrigé 21
+Exercice 1
+1-Test 1 :
+a-Identification de l’hormone 1 :
+  Le tableau montre que cette hormone ovarienne est sécrétée chez la femme normale à partir du 11
+  ou 12 avril, elle augmente progressivement et atteint une valeur maximale vers le 20 avril avant de
+  chuter et revenir à sa valeur minimale le 26 avril : cette évolution pendant une seule phase est
+  caractéristique de la progestérone.
+b-La femme A présente la progestérone sous forme de traces d’où l’absence des règles. Cette
+absence de Pr peut être liée soit à un dysfonctionnement :
+                        • Ovarien (hypothèse 1)
+                        • Du CHH (hypothèse 2).
+2-Test 2 :
+La coupe d’ovaire présente des structures ovariennes caractéristiques d’une folliculogenèse
+incomplète ; ce qui confirme l’absence de progestérone et par conséquent une stérilité.
+3-Test 3 :
+    a- Description des résultats :
+Ce test fonctionne de telle manière que la bandelette réagit avec l’urine lorsque l’embout du test entre
+en contact avec elle :
+                        • Si le test est positif deux bandes apparaissent sur le bâtonnet-test.
+                        • Si le test est négatif, une seule ligne apparait : c’est le cas de la femme A.
+                        • Si le test est invalide aucune ligne n’apparait.
+    b- L’hormone recherchée est la LH car si le test est positif (présence de l’hormone H) il y’a
+        ovulation dans les 36 heures qui suivent.
+    c- Le test de la femme A est négatif car en absence d’un follicule mûr l’œstrogène sécrétée reste
+        en faible dose et par conséquent il n’y a pas de rétrocontrôle positif à l’origine du pic de LH.
+4-Test 4 :
+    a- L’injection de la substance X à la femme A fait apparaitre deux bandes caractéristiques d’un
+        test positif donc provoque un pic de LH : la stérilité de la femme A est donc liée à l’absence du
+        mécanisme déclencheur du pic de LH.
+    b- Nom (s) et effet(s) de la substance X :
+        Nom                                                         Effet
+                                       -Stimule la formation d’un follicule mûr.
+        FSH (hypothèse 1)              -Max des œstrogènes  -> RC positif et pic de LH.
+                                       -Ovulation.
+                                       -Analogue structural de l’œstrogène
+                                       -levée du RC négatif exercé par la faible dose
+                                       d’œstrogènes
+        Clomifène (hypothèse 2)
+                                       - Sécrétion de FSH  -> formation d’un follicule mûr
+                                       -Max des Œstrogènes ->  RC positif et pic de LH.
+                                       -Ovulation.
+
+5- Chez la femme A, l’absence de l’hormone H1 (progestérone) est liée à l’absence d’ovulation.
+
+Exercice 2
+I-1- Le document 1représente la double fécondation
+1= sac embryonnaire ; 2= tube pollinique ; 3= antipodes ; 4= Œuf accessoire ; 5= Œuf principal ;
+6= téguments ; 7= micropyle ; 8= nucelle.
+La garniture chromosomique des éléments :
+                                                  Élément     3       4       5     8
+                                                  Garniture   n      3n      2n    2n
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN       111
+2- Le phénomène important qui se produit à ce stade est la double fécondation.
+3- L’œuf principal, donne l’embryon.
+L’œuf accessoire se transforme en albumen.
+4- Légende du document 2 :
+1 = corolle (pétale) ; 2 = stigmate ; 3 = style ; 4 = ovaire et ovules ; 5 = pistil ; 6 = calice (sépale) ;
+7 = pédoncule ; 8 = réceptacle ; 9 = filet ; 10 = anthère ; 11= étamines
+5- Sac embryonnaire :
+Le nucelle d’ovule abrite quatre cellules qui résultent de la méiose de la cellule mère du sac
+embryonnaire. L’une de ces cellules est la mégaspore. Les trois autres sont appelées à disparaitre.
+La mégaspore subira trois mitoses conduisant à la formation d’un petit massif de sept cellules : le sac
+embryonnaire.
+
+Grain de pollen :
+La cellule mère diploïde subit une méiose et produit 4 microspores. Celles-ci, par une mitose incomplète
+et une série de transformations donnent naissance aux grains de pollen.
+
+II-1-Légende
+Figure 1 : 1= cicatrice ; 2= hypocotyle ; 3= gemmule ; 4= cotylédons ; 5= tégument.
+Figure 2 : 1 = radicule ; 2= gemmule ; 3= cotylédons ; 4= tégument.
+Figure 3 : 1= contour (saillie) de la radicule ; 2= micropyle ; 3= hile ; 4= cal.
+
+   2- Le tégument de la graine provient des téguments de l’ovule et l’embryon aux cotylédons gorgés
+de réserves, est né de l’œuf principal. Le nucelle a été détruit par l’albumen, et ce dernier a été détruit
+à son tour par l’embryon. Il s’agit d’une graine sans albumen.
+
+Exercice 3
+1-a- Définitions :
+Génotype : Ensemble des gènes constituant l'ADN d'un individu.
+             C’est la composition allélique de tous les gènes d’un individu (génome).
+Phénotype : C’est l’ensemble de caractères qui se manifestent visiblement chez un individu :
+expression du génotype.
+1-b- Analyse des résultats :
+    - Cas de dihybridisme (Couleur du corps et taille des ailes chez la drosophile) ;
+    - La F1 est homogène (uniforme) à corps gris et ailes longues :
+       • Les parents sont de races pures.
+       • Il y a double dominance telle que : Gris (G) domine noir (n) et long (L) domine vestigiale
+            (v).
+Génotypes des parents :
+   -   En cas de gènes indépendants :
+
+   -   Cas de gènes                       liés :
+2-a- Le back-cross (test-cross) a donné 16% de recombinaisons : Il s’agit alors d’une liaison
+partielle (cas de liaison Cis).
+Les phénotypes recombinés sont :[Gv] et [nL].
+2-b- La proportion des gamètes parentaux formés par la femelle F1 : 84%.
+2-c- Le phénomène à l’origine de l’apparition des phénotypes nouveaux : crossing-over.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN       112
+2-d- Le % des cellules ayant subi ce phénomène est de 32%.
+3- Croisement de deux individus de F1 :
+
+
+
+
+ Sciences Naturelles              Joussour pour réussir au BAC (SN et M)   IGEN   113
+                                              Sujet 22
+Exercice 1
+Le document 1 présente une observation microscopique
+testiculaire chez un individu X.
+1- a- Nommez les cellules A, B, C et D.
+b- Identifiez, en justifiant la réponse, les zones 1 et 2.
+c- Nommez le phénomène qui permet la transformation de la
+cellule A en cellule B.
+d- Expliquez comment les cellules C et D interviennent dans la
+formation de cellules B à partir de cellules A.
+2- Le document 2 montre une coupe microscopique partielle
+d’un testicule chez un individu Y.
+-Comparer les coupes des documents 1et2.Que déduisez-vous ?
+3-Pour expliquer les différences constatées, on a injecté chez le sujet Y des doses quotidiennes des
+hormones qui interviennent dans la régulation de l’activité testiculaire : H1, H2, H3 et H4.
+Les résultats des injections sont présentés dans le tableau suivant :
+                                           Résultat constaté a-Analyser             les
+                    Hormone injectée                         résultats     de      ces
+                                                             expériences           afin
+                                           Comparable au     d’expliquer    l’état   de
+ Expérience 1       H1 = Testostérone
+                                           document 1        l’individu Y.
+                         H2 = GnRH                           b-Donnez            deux
+ Expériences                               Comparable au            hypothèses
+                          H3 = FSH
+ 2,3 et 4                                  document 2        expliquant    l’état de
+                           H4 = LH
+                                                             l’individu Y.
+
+
+Exercice 2
+On se propose d'étudier quelques relations entre l’hypophyse et les ovaires à travers une série
+d’expériences.
+Expérience 1 : l’ablation de l’hypophyse chez une ratte pubère provoque l’atrophie des ovaires et de
+l’utérus.
+Expérience 2 : les injections quotidiennes d’extraits hypophysaires à :
+    -une ratte hypophysectomisée permettent le développement normal des ovaires et de l’utérus.
+    -une ratte hypophysectomisée et ovariectomisée n’ont aucun effet sur l’utérus qui demeure
+    atrophié.
+1- Tirez les conclusions correspondantes aux expériences précédentes.
+2- Le tableau ci-contre représente les résultats de dosage des hormones H1, H2, H3 et H4 chez une
+femme pendant quatre jours du cycle sexuel.
+Analysez les données du tableau afin :                             Jours 1Mai 2Mai 3Mai 4Mai
+  a- d’identifier les quatre hormones.
+  b- de déterminer le type d’interaction ayant lieu pendant cette H1 (UA)    200 250 100          80
+  période entre l’hypophyse et les ovaires.
+3- a- En se basant sur vos connaissances, situez cette période H2 (UA)        7     12     26     15
+dans un cycle de 28 jours.                                                   3.4     4      7      4
+   b- Donnez alors le phénomène physiologique ayant lieu          H3 (UA)
+pendant cette période.                                            H4 (UA)     0      0      1      4
+4- Pour mieux comprendre la relation entre l’hypophyse et les
+ovaires, on vous propose l’expérience suivante :
+Une guenon ovariectomisée reçoit, durant 4 périodes de durées différentes, des injections des
+hormones H1 et H4 selon des dosages et compositions différentes. Pour chaque période, le taux
+moyen de H2 et H3 est mesuré. Les résultats sont consignés dans le tableau ci-contre :
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                     IGEN     114
+Comparez les résultats des :
+ a- périodes 1 et 2. Que déduisez-vous ?                     Caractéristiques des      Dosage en
+b- périodes 2 et 3.Quelle conclusion                              injections             mg/ml
+                                                Période n°
+pouvez-vous dégagez ?                                                        Taux
+                                                           Composition                 H3       H2
+c-périodes 3 et 4.Dégagez une                                              sanguin
+conclusion.                                     1= Avant      H1              0
+                                                                                      >15      >50
+5- A partir des informations tirées de ces      injection     H4              0
+données faites un schéma récapitulatif          2=15jour      H1           70pg/ml
+                                                                                        6       4
+montrant les différentes interactions entre     s             H4              0
+les organes précités.                                         H1          300pg/ml
+                                                3= 3jours                              12       40
+                                                              H4              0
+                                                4=15jour      H1          300pg/ml
+                                                                                       ˂4       ˂3
+                                                s             H4            4ng/ml
+Exercice 3
+On veut étudier le mécanisme de la transmission de l’influx nerveux au niveau de la plaque motrice.
+Pour être considérée comme neurotransmetteur l’acétylcholine (ACH) doit présenter les propriétés
+suivantes :
+    • Exister au niveau des terminaisons pré synoptiques.
+    • Être libérée sous l’effet de l’influx pré synaptique.
+    • Avoir une action dépolarisante sur la membrane post synoptique.
+    • Cesser rapidement d’agir sous l’action d'une enzyme spécifique.
+Pour vérifier trois de ces propriétés on réalise les expériences suivantes :
+
+1ere série d'expériences :
+Expérience 1
+   On injecte quelques gouttes d’ACH au niveau de la fente synaptique, et simultanément, on
+enregistre le phénomène électrique de la fibre musculaire au niveau de la plaque motrice, on obtient
+l'enregistrement du document 1.
+
+Expérience 2
+  On injecte la même quantité
+d’ACH dans la fibre musculaire
+On obtient l'enregistrement du
+document 2
+
+
+1- a- Quelle(s) propriété(s) de
+l’ACH peut (vent) être dégagée(s)
+à partir de l’analyse du résultat de
+la 1ère expérience.
+b- A partir de la comparaison des résultats des deux expériences, quelle conclusion pouvez-vous
+dégager a partir des résultats de 2e expérience .
+
+
+
+
+ Sciences Naturelles                   Joussour pour réussir au BAC (SN et M)                 IGEN     115
+2e série d'expériences :
+
+                 Expérience                                          Résultat
+1- On injecte un précurseur radioactif d’ACH - Pas de radioactivité dans la fente synaptique.
+dans l'élément post synoptique puis on
+                                             - La fibre musculaire se contracte.
+excite la fibre musculaire.
+
+                                             - Présence de la radioactivité sur la membrane post
+2- On injecte un précurseur radioactif d’ACH synoptique.
+dans la terminaison nerveuse pré
+                                             - On enregistre un phénomène électrique identique à
+synaptique puis on excite cette terminaison
+                                             celui de document 1
+
+
+2- a- Expliquez la présence de lu radioactivité sur la membrane post synoptique
+b- Quelle(s) propriété(s) de l’ACH peut (peuvent) être dégagée(s) à partir de la comparaison des
+résultats obtenus ?
+3- Proposez une expérience permettant de vérifier la propriété restante. Précisez le résultat attendu.
+
+
+Exercice 4
+On étudie chez la Drosophile (2n = 8), la transmission de trois caractères
+différents :
+       Couleur des yeux : + = œil rouge ; w = œil blanc ;
+       Couleur du corps (+, b) : + = corps gris ; b = corps noir ;
+       Forme des yeux (+, ey) : + =œil normal ; ey=œil atrophié.
+Le document ci-contre représente la localisation des trois gènes étudiés
+sur les chromosomes de la drosophile.
+ 1- On croise un male sauvage pour les caractères « œil normal » et « œil
+    rouge » et une femelle hybride pour les mêmes caractères.
+1-1-Donner les résultats attendus (réaliser le(s) échiquier(s) de
+    croisement).
+1-2-Sachant que le taux de recombinaison dans la descendance mâle est de 6%,
+a-préciser la position relative des deux gènes.
+b- Prévoyez la répartition d’une descendance de 200 mouches issue d’un croisement entre un
+    mâle mutant et une femelle hybride.
+ 2-Donner le résultat attendu du croisement d’un mâle sauvage hybride avec une femelle hybride
+pour les caractères « œil normal » et « corps gris ».(Réaliser l’échiquier de croisement).
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN     116
+                                              Corrigé 22
+Exercice 1 :
+ 1-
+ a -Nom des cellules
+           Cellule A              Cellule B            Cellule C               Cellule D
+           Spermatogonie        Spermatozoïde      Cellule de Leydig      Cellule de Sertoli
+
+  b- Zones
+                Zone                       1                                2
+                Nom                Tube séminifère                 Tissu interstitiel
+                                Présence des cellules       Présence des cellules Leydig
+                Justification
+                                germinales.                 et des capillaires.
+
+ c-Phénomène : spermatogenèse
+
+ d- Les cellules C sécrètent une hormone, la testostérone alors que les cellules D synthétisent une
+ protéine de liaison ABP (responsable de la fixation de la testostérone sur les cellules germinales) ;
+ d’où maturation et achèvement de la spermatogenèse.
+
+ 2- Comparaison entre les deux coupes :
+        Coupe                      Description                                 Déduction
+                  Testicule normal montrant un tissu interstitiel
+          1
+                  et une spermatogenèse complète.
+                                                                        L’individu Y est stérile
+                  Testicule anormal montrant un tissu interstitiel
+          2
+                  et une spermatogenèse incomplète.
+
+ 3- a
+           Expérience                       Résultat                            Explication
+      L’injection de la      Les tubes séminifères de l’individu Y
+                                                                         La stérilité d’Y est liée à
+      testostérone          redeviennent normaux (doc 1)
+                                                                              un manque de
+      L’injection de        Etat des tubes séminifères de l’individu Y
+                                                                               testostérone
+      GnRH, FSH ou LH reste inchangé (doc 2)
+  b- Le manque de testostérone peut être dû à :
+  Hypothèse 1=Une insensibilité (problème de récepteurs) des cellules de Leydig à l’action de LH
+  Hypothèse 2= Une incapacité des cellules de Leydig à sécréter la testostérone.
+Exercice 2
+ 1-
+   Expérience                                         Résultats                  Conclusion
+                                                Atrophie des ovaires L’hypophyse contrôle les
+   Hypophysectomie
+                                                    et de l’utérus     ovaires et l’utérus
+                                               Développement des
+                        Hypophysectomisée                              L’hypophyse stimule par
+   Injections des                              ovaires et de l’utérus
+                                                                       voie hormonale le
+   extraits             Hypophysectomisée
+                                                                       développement de l’utérus
+   hypophysaires à      et ovariectomisée          Aucun effet sur
+                                                                       par l’intermédiaire de
+   une femelle :                                       l’utérus
+                                                                       l’ovaire.
+ 2-
+      a- Le tableau montre 4 hormones :
+         -H1 augmente du premier Mai et atteint un maximum (pic de 250UA) vers le 2Mai avant de
+         chuter à partirdu 3Mai. Le de cette hormone précède ceux de H2 et H3.
+                         -> H1 est donc l’œstradiol (œstrogènes).
+         -H2 présente un pic vers le 3Mai soit un jour après le maximum d’œstrogènes.
+                         ->  H2 = LH
+         -H3 présente un pic synchrone à celui de H2 mais plus faible.
+                         -> H3est la FSH.
+         -H4 est sécrétée un jour après le pic de LH (H2).
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN   117
+                       -> H4 est donc la Progestérone.
+    b- Interaction entre Ovaire et Hypophyse :
+        Vers le 2 Mai les ovaires sécrètent une forte dose d’œstrogènes, celle-ci exerce un RC positif
+        sur l’hypophyse à l’origine d’un pic de LH et de FSH provoquant la sécrétion de la
+        progestérone.
+  3–
+   a- Dans un cycle de 28jours :
+                                       1Mai            2 Mai         3 Mai            4Mai
+                                  1 jour avant    Max            Pic de LH et Sécrétion de
+       Taux des hormones          le max des      d’œstrogènes FSH               Progestérone
+                                  œstrogènes
+       Jour d’un cycle de 28j           11              12            13                14
+   b- Le phénomène ayant lieu pendant cette période est l’ovulation.
+  4-
+   a- Périodes 1 et 2
+     Période      Hormones                 Hormones
+                                                                              Conclusion
+                  ovariennes               hypophysaires
+                                           Taux élevé :              En absence des hormones
+          1             Taux nul           -FSH supérieur à 15       ovariennes il y’a levée du
+                                           -LH supérieur à 50        RC négatif
+                                           Diminution des taux :      Un taux faible
+                    -Œstrogènes =70
+          2                                -FSH =6                   d’œstrogènes exerce un
+                    -progestérone =0
+                                           -LH =4                    RC négatif sur l’hypophyse.
+
+   b- En comparant les périodes 2 et 3 on constate une augmentation du taux des œstrogènes
+      dans la période 3(300pg au lieu de 70pg) et une augmentation des hormones hypophysaires
+      (12 et 40 au lieu de 6 et 4) : On déduit qu’à forte dose, l’œstrogène exerce un RC positif alors
+      des pics de LH et FSH.
+   c- La différence entre les périodes 3 et 4 est la progestérone dont la présence à fait diminuer le
+      taux des hormones ovariennes (inférieur à 4) : la progestérone exerce en présence de
+      l’œstrogène un RC négatif sur l’hypophyse.
+
+5- Schéma
+
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                      IGEN      118
+Exercice 3
+1- a-
+Analyse : l’injection de l’acétylcholine dans la fente engendre une variation de potentiel de membrane
+de la libre musculaire d’amplitude 120 mv. Il s’agit d’un PAM précédé d’un PPM qui atteint le seuil de
+-50 ms.
+Propriété dégagée : Avoir une action dépolarisante sur la membrane postsynaptique.
+b- Comparaison : l’injection de l’acétylcholine dans la fente synaptique (expérience 1) entraîne un
+PAM alors que l’injection de l’acétylcholine dans la fibre musculaire permet l’enregistrement d’un PR.
+Conclusion : l’acétylcholine n’agit pas à l’intérieur de la fibre musculaire mais dans la fente synaptique
+au niveau de la face externe de la membrane postsynaptique.
+2-a- La présence de lu radioactivité sur la membrane postsynaptique montre que le précurseur
+radioactif entre dans la composition de l'acétylcholine qui se fixe sur la membrane postsynaptique
+b- L’injection du précurseur de l’acétylcholine dans la fibre musculaire suivie de son excitation
+entraîne la contraction de la fibre musculaire mais il n'y a aucune radioactivité dans la fente
+synaptique Alors que l’injection du précurseur radioactif d’ACH dans la terminaison nerveuse pré
+synaptique suivie de l’excitation de cette terminaison nerveuse entraîne la présence de l’ACH
+radioactif sur la membrane postsynaptique et la naissance d'un PAM qui est à l’origine de la
+contraction de la fibre musculaire
+Conclusion : l'ACH est synthétisée dans la structure nerveuse présynaptique donc la propriété :
+¨Exister au niveau des terminaisons présynaptiques¨.
+La radioactivité localisée sur la membrane postsynaptique suite il la stimulation de la terminaison
+nerveuse présynaptique.
+Propriété ¨Être libérée sous l'effet de l'influx nerveux pré synaptique¨.
+3) Expérience proposée : on refait l’expérience 1 avec une fibre musculaire traitée à l’ésérine(produit
+inhibant l’hydrolyse de l’ACH).
+Résultat attendu : on obtient un train de PAM suit à l'action permanente de l’ACH
+
+
+Exercice 4
+1-1-
+
+
+
+
+1er cas : Linkage absolu chez la femelle hybride :
+
+
+
+
+2éme cas : Linkage partiel chez la femelle hybride :
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN       119
+1-2- a
+𝑃
+2
+  = 6% donc P= 12% donc le gène w est distant de ey de 12cMg
+
+
+
+1-2-b
+
+
+
+
+                                       200 * 44
+                                                = 88 [+ +]
+                                         100
+                                       200 * 44
+                                                = 88 [𝑤 𝑒𝑦]
+                                         100
+                                        200 * 6
+                                                = 12 [+ 𝑒𝑦]
+                                          100
+                                        200 * 6
+                                                = 12 [𝑤 +]
+                                          100
+2-
+
+
+
+
+              + 𝑿+       + 𝑿𝒆𝒚          b 𝑿+         b 𝑿𝒆𝒚         𝟔
+                                                                     [+ +]
+                                                                  𝟏𝟔
+                                                      +b       ♀=[ 𝟐
+     + 𝑿+   ++ 𝑿+ 𝑿+    ++ 𝑿+ 𝑿𝒆𝒚     +b 𝑿+ 𝑿+                        ⌈𝒃 +⌉
+                                                     𝑿+ 𝑿𝒆𝒚       𝟏𝟔
+      +Y     ++ 𝑿+ 𝒀     ++ 𝑿𝒆𝒚 𝒀      + 𝒃 𝑿+ 𝒀     +𝒃 𝑿𝒆𝒚 𝐘
+     b 𝑿+   + 𝒃 𝑿+ 𝑿+   +b 𝑿+ 𝑿𝒆𝒚      bb𝑿+ 𝑿+     b𝒃 𝑿+ 𝑿𝒆𝒚
+                                                                       𝟑
+     bY      +b 𝑿+ Y     +b 𝑿𝒆𝒚 Y       bb𝑿+ 𝒀      bb𝑿𝒆𝒚 𝐘               [+ +]
+                                                                       𝟏𝟔
+                                                                       𝟑
+                                                               ♂=     𝟏𝟔
+                                                                          [+ 𝒆𝒚]
+                                                                        𝟏
+                                                                     [ 𝟏𝟔 [𝒃 +]
+                                                                    𝟏
+                                                                       [𝒃 𝒆𝒚]
+                                                                    𝟏𝟔
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)         IGEN   120
+                                          Exercices corrigés
+
+
+Exercice 1 :
+Afin de Comprendre les mécanismes régulateurs de la pression artérielle, on réalise les expériences
+suivantes
+
+
+
+
+1°) Première séries d'expériences :
+- Expérience 1 :
+Sur un chien dont les nerfs de Cyon ont été sectionnés (voir figure 1), on interrompt la circulation
+dans les carotides en pinçant au niveau indiqué, la pression évolue comme le montre la figure 2 . On
+envoie dans le sinus carotidien du sang à haute pression à l'aide d'une pompe, la pression artérielle
+diminue (figure 2)
+On enregistre en même temps l'activité électrique d'un des prolongements d'un des neurones du nerf
+de Héring (figure 3), on obtient les tracés suivants : "avant l’interruption de la circulation (a) "pendant
+cette interruption (b) "au cours de la perfusion du sinus avec du sang sous pression (c).
+
+
+
+
+- Expérience 2 :
+la section des 2 nerfs de Hering fait passer la pression artérielle de 20/18 cm de Hg à 28/26cm de Hg.
+la destruction des terminaisons nerveuses au niveau des sinus carotidiens aurait la même
+conséquence. Une nouvelle interruption de la circulation pratiquée au même niveau que
+précédemment, n'entraîne pas de modifications notables de la pression artérielle qui se maintient à
+28/26 cm de Hg.
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                        IGEN      121
+L’excitation du bout périphérique des 2 nerfs de Héring est également sans action sur la pression
+artérielle. Ces bouts périphériques finissent à la longue par dégénérer.
+
+Question : Analysez méthodiquement les résultats de ces expériences et dégager les rôles
+respectifs des sinus carotidiens et des nerfs de Héring au cours des variations de la pression
+artérielle.
+2°) Une deuxième série d’expériences a été effectuée chez un autre mammifère :
+
+ Expérience                                                  Résultat
+        Ablation bilatérale chez un animal A, des            Troubles des fonctions rénales et
+  1re   corticosurrénales                                    une baisse de la pression
+                                                             artérielle.
+          Injection chez un animal A, du sang veineux        Activité rénale et pression
+ 2ème sortant de la corticosurrénale d’un animal             artérielle normales.
+          normal
+          Injection chez un animal A, d’une substance    Activité rénale et pression
+ 3ème
+          isolée de la corticosurrénale, l’aldostérone.  artérielle normales.
+Question : Analysez ces résultats. Que peut-on déduire ?
+3°) Une troisième série d’expériences a été effectuée chez un autre mammifère :
+
+   Expérience                                                               Résultat
+          Injection intraveineuse d’angiotensine à un       Vasoconstriction généralisée des
+   1re    animal B.                                         artérioles et augmentation du taux
+                                                            plasmatique d’aldostérone
+            Injection intraveineuse d’angiotensine à un     Vasoconstriction généralisée et
+   2ème
+            animal B privé de ses glandes surrénales        absence d’aldostérone dans le sang.
+            On a mesuré le taux plasmatique de rénine
+   3ème     chez un animal B normal avant et après une      Avant hémorragie : 100 ng/l
+            hémorragie                                      Après hémorragie : 500 ng/l
+            Injection intraveineuse de rénine à animal B    Taux plasmatique d’angiotensine
+   4ème
+            normale.                                        augmente
+
+Question : Tirez les conclusions.
+4°) En intégrant toutes les conclusions précédentes, complétées par vos connaissances, Faites un
+schéma montrant le mécanisme de la régulation neuro-hormonale de la pression artérielle en cas
+d'hémorragie.
+
+                                             Corrigé 1
+
+1°) Première séries d'expériences :
+Expérience 1 :
+Lorsqu'on interrompt la circulation au niveau des carotides, c'est à dire lorsqu'on empêche le sang
+d'arriver jusqu'aux sinus, la pression chute à leur niveau ; en revanche, on obtient une hypertension
+générale dans l'organisme (figure 2) et une augmentation de la fréquence cardiaque.
+
+Le rétablissement de la circulation dans les carotides provoque un retour à la normale de la pression
+artérielle.
+L'hypertension et l'augmentation de la fréquence cardiaque obtenues sont dues à la levée de
+l’inhibition du centre médullaire et des nerfs sympathiques, tous les deux cardioaccélérateurs et
+vasoconstricteurs.
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                       IGEN   122
+Une augmentation de la pression sanguine (par perfusion) au niveau du sinus entraîne, au contraire,
+une baisse générale de la pression artérielle et un ralentissement cardiaque.
+
+Pendant l'interruption de la circulation dans les carotides, c'est à dire lorsque la pression sanguine
+chute au niveau des sinus carotidiens, le nerf de Héring est alors peu stimulé (la fréquence des PA à
+son niveau chute comme le montre la Figure 3-b).
+Lorsqu’on perfuse les sinus carotidiens, c'est à dire lorsqu'on augmente la pression dedans (le nerf
+est au contraire très stimulé et la fréquence des influx nerveux augmente à son niveau, comme le
+montre la figure 3-c.
+
+Expérience 2 :
+Les nerfs de Héring sont des nerfs dépresseurs et cardiomodérateurs puisque leur stimulation
+provoque une baisse de la pression artérielle et une diminution du rythme cardiaque. Ils sont stimulés
+par une augmentation de la pression sanguine au niveau des sinus, augmentation qui excite des
+récepteurs spécialisés de la paroi des sinus (barorécepteurs). En effet, la destruction des
+terminaisons nerveuses au niveau des sinus entraîne une augmentation de la pression artérielle
+(comme si les nerfs de Héring sont sectionnés).
+
+Les nerfs de Héring sont des nerfs sensitifs, afférents ; la stimulation de leur bout périphérique est
+inefficace. Ils conduisent des influx sensitifs centripètes jusqu'au centre bulbaire, dont les neurones,
+stimulés à leur tour, provoquent un ralentissement cardiaque : ils sont cardiomodérateurs
+permanents.
+
+2°) Deuxième séries d'expériences :
+1ere expérience :
+Les corticosurrénales interviennent dans la fonction rénale et la régulation de la pression artérielle.
+2eme expérience :
+La corticosurrénale agit indirectement sur la fonction rénale et la régulation de la pression artérielle
+par la voie sanguine (endocrine) par l'intermédiaire d'homme.
+3ème expérience :
+La corticosurrénale sécrète l'aldostérone qui est une hormone intervenant dans l'activité rénale et la
+régulation de la pression artérielle (augmente la pression artérielle).
+3°) Troisième séries d'expériences :
+-1ere expérience :
+L'angiotensine est une hormone qui agit par la voie endocrine qui assure la vasoconstriction et la
+stimulation de la sécrétion d'aldostérone donc c'est un puissant vasoconstricteur.
+2e expérience.
+L'angiotensine agit au niveau des glandes surrénales pour sécréter l'aldostérone.
+3e expérience :
+La sécrétion de la rénine est stimulée par l'hypovolémie (hémorragie).
+4e expérience :
+La rénine intervient dans la formation de l'angiotensine et l'augmentation de son taux plasmatique.
+4°) Schéma fonctionnel de la régulation neuro-hormonale : cas de l’hypotension
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN     123
+Exercice 2
+De la puberté à la ménopause, les organes génitaux de la femme (ovaire - utérus) présentent des
+activités cycliques.
+On se propose d’étudier les transformations qui se déroulent dans ces organes à partir du 9 mars
+jusqu’au 18 mai. Le document 1 représente la
+fluctuation du taux plasmatique de deux hormones
+ovariennes (H1 ; H2), sécrétées par une femme en
+bonne santé au cours de cette période.
+1-Identifiez les hormones (H1 ; H2) en question.
+Justifiez votre réponse.
+
+2-Précisez l’origine de ces hormones pendant les différentes phases de ce document.
+3-Etablissez la durée du premier cycle sexuel.
+4-Déterminez la (ou les) date (s) approximative(s) qui corresponde (ent) à :
+     a- l’ ovulation.
+     b- Un début de menstruation
+5-Décrivez l’évolution de l’endomètre dans les intervalles de temps suivants :
+    [16 Mars, 26 Mars], [30 Mars, 10 Avril] et [11 Mai, 18 Mai [.
+6- Expliquer l'augmentation de la sécrétion de ces hormones à partir du 4 mai.
+7-En vous basant sur vos connaissances et sur les données du document 1, complétez le tableau
+                Types de                             Conséquences sur l'activité
+     Dates                        Justifications
+              rétrocontrôles                              de l'hypophyse
+   27 Mars
+
+    6 Avril                                                                                         j
+
+   20Avril
+
+     15 Mai
+
+
+
+ Sciences Naturelles               Joussour pour réussir au BAC (SN et M)                    IGEN       124
+                                                   Corrigé 2
+      1. Identification des Hormones :
+         H1 : Progestérone : présente dans une seule phase
+
+          H2 : Œstrogène : présente dans les 2 phases
+
+      2. Origine des hormones
+         Ce document montre 2 cycles :
+
+  -   un cycle menstruel pendant lequel les hormones sont secrétées par l’ovaire (follicule et Corps
+      jaune),
+  - Un cycle gestatif pendant lequel les hormones sont secrétées par l’ovaire puis le placenta.
+   3. Durée du cycle menstruel :
+       16 mars               13 avril : c’est-a-dire 28 jours
+
+      4. Date (s) de
+
+ a)- l’ovulation :il y’a ovulation 24h après le pic des œstrogènes(ou juste avant la sécrétion de la
+progestérone) dans ce cas il y’a deux ovulations, l’une le 28 mars et l’autre le 26 avril.
+
+ b)- Menstruation : il y’a apparition des règles si les hormones ovariennes sont à leur minimum, ce
+document présente deux menstruations, l’une le 16 mars et l’autre le 13 avril.
+
+  5. L’évolution de l’endomètre
+
+               - 16 Mars                     26 Mars : C’est la phase folliculaire qui est caractérisée par un
+          endomètre peu développé.
+
+                 - 30 Mars                  10 Avril : endomètre développé et dentelé caractéristique de la
+          phase lutéale
+
+                - 11 Mai                 18 Mai : endomètre développé qui présente une dentelle bien
+          développée et très vascularisée, car cette période correspond à un début de grossesse.
+
+ 6. L’évolution des hormones à partir du 4 Mai
+
+      -Cette évolution correspond à un début de grossesse. Elle s’explique par le maintien du corps
+                     jaune (corps jaune gestatif), puis par les sécrétions placentaires.
+ 7. Type de Feed-back
+
+  Date         Type FB       Justificatif                                         Conséquences
+
+                             PIC des Œstrogènes           ou   maximum      des PIC de LH (et de FSH)
+  27 Mars        FB (+)
+                             œstrogènes
+
+   6 Avril       FB (-)      Œstrogène et Progestérone en grande quantité         Chute de FSH et de LH
+
+  20 Avril       FB (-)      Augmentation progressive des Œstrogènes              Chute de FSH
+
+   15 Mai        FB (-)      Œstrogène et Progestérone en grande quantité Chute de FSH et de LH
+
+
+
+
+ Sciences Naturelles                    Joussour pour réussir au BAC (SN et M)                        IGEN       125
+Exercice 3
+On se propose d’étudier quelques propriétés du message nerveux. Pour cela on réalise les expériences
+suivantes :
+                                                        A- On isole d’un nerf deux fibres nerveuses F1et
+                                                        F2 de même diamètre. On enregistre
+                                                        successivement les courbes C1 et C2, en
+                                                        appliquant sur chacune des fibres une stimulation
+                                                        identique en E. Les conditions de l’expérience
+                                                        sont précisées par les schémas du doc ci-
+                                                        dessous
+
+
+1-Analysez la courbe C1.
+2-Comparez les deux courbes C1 et C2
+3-Calculez la vitesse de l’influx nerveux. Donnez une
+conclusion
+B- On porte des stimulations S1, S2 et S3 sur des neurones
+A, B et C
+Les résultats obtenus en O3suite aux stimulations S1et S2et enO5suite à la stimulation S3sont
+consignés dans le tableau
+1- Identifiez les tracés obtenus en          O1    O2              O3             O4          O5
+O3 et O5
+2- Déduisez la nature des neurones
+A et B.                                 S1
+3-Représentez pour chaque
+stimulation S1, S2et S3 la réponse
+obtenue sur les oscilloscopes en
+complétant le tableau 3.                S2
+4- Représentez l’enregistrement
+qu’on peut obtenir en O4 Suite à :
+a-deux stimulations simultanées
+l’une S1 et l’autre S2.                 S3
+b-deux stimulations S1très
+rapprochées.
+5-Expliquez ces résultats et                                       Tableau 3
+déduisez la propriété du neurone C.
+6- Citez deux différences entre le fonctionnement d’une synapse neuro-neuronique et d’une plaque
+motrice
+
+                                               Corrigé 3
+Partie A
+   1. La courbe 𝐶1 : est un potentiel d’action monophasique simple qui montre :
+      - Un temps de latence (a)
+      - Une dépolarisation (b)
+      - Une repolarisation (c)
+   2. Calcul de V
+             𝑑   50×10−2                       𝑑   5.10−3
+       𝑉1 = 𝑡 = 1×10−2 = 50𝑚/𝑠           𝑉2 = 𝑡 = 2.10−2 = 25𝑚/𝑠
+             1                                 2
+
+On déduit que la vitesse de l’influx nerveux augmente avec la température du milieu.
+
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                       IGEN     126
+Partie B
+   1- 𝑆1  ->  Donne en O3 un PPSE ou faible de polarisation de 10mV
+     S2  ->  provoque en O3 un PPSI ou hyperpolirisation de 5mV.
+      𝑆3  ->  Provoque en 𝑂5 un PA précédé par un potentiel de plaque.
+   2- Types de neurones
+      A : Excitateur
+      B : Inhibiteur
+
+
+
+
+4. réponse à 2 stimulations
+a- 𝑆1 + 𝑆2 ⟶ 𝑃𝑃𝑆𝐸 𝑑𝑒 10𝑚𝑣 + 𝑃𝑃𝑆𝐼 𝑑𝑒 5𝑚𝑣 donc un PPSE de 5mv soit un PR en O4..
+b. 𝑆1 + 𝑆1 rapprocheé𝑠 ⟶ 2PPSE de 10mV soit un PPSE global de 20mv en O3. Ce PPSE atteint le
+seul et provoque en O4 un PA.
+5. Ces résultats sont liés à la sommation :
+- en a la sommation est spatiale
+- en b la sommation est temporelle.
+Ainsi le neurone C est intégrateur.
+ 6- Différences
+
+           Synapse neuro-neuronique                       Plaque motrice
+           Excitatrice ou inhibitrice                     Excitatrice
+           Plusieurs médiateurs (GABA- ach..)             Un seul médiateur (ach)
+
+
+Exercice 4
+A- On applique des excitations espacées d’intensités croissantes à un nerf sciatique.
+                                                Dix centimètres plus loin, on enregistre les variations du
+                                                potentiel d’action au niveau d’une électrode R1 placée à la
+                                                surface du nerf l’autre étant neutre. On obtient les
+                                                enregistrements du document 1
+                                                1-Expliquez la courbe obtenue en I4
+                                                2- Quelle explication donnez-vous aux différences
+                                                constatées entre les potentiels d’action obtenues en I2, I3
+et I4 ?.
+3-Que pouvez-vous en déduire concernant la structure de ce nerf ?
+4-Calculez la ou les vitesses de l’influx nerveux.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN       127
+                                       B - On provoque une réponse d’un muscle par une stimulation
+                                       électrique de forte intensité, portée en A, ou en B (A et B sont à la
+                                       même distance de R1), ou en C, (doc 2) et on enregistre sur un
+                                       oscillographe les trois courbes respectives a, b et c . La racine
+                                       ventrale étant sectionnée en S.
+                                      1. Cette expérience permet-elle de préciser si les branches stimulées
+                                      en A et B sont motrices ou sensitives ?
+   2-Comparez les enregistrements a et b.
+   3- Proposez deux hypothèses pour interpréter la ou les différence(s)constatée(s)?
+   4- Décrivez l’enregistrement c
+   5- Compte tenu du dispositif expérimental illustré par le document 3, interprétez
+   l’enregistrement c.
+   6- Cet enregistrement permet-il d’éliminer l’une des hypothèses formulées en 3?
+   7-Représentez par un schéma l’arc reflexe relatif aux réponses des excitations A et B.
+   NB : On se limite au muscle qui se contracte seulement.
+
+
+
+
+                                                   Corrigé 4
+L’enregistrement en I4 est un potentiel d’action monophasique complexe composé de trois pics indiquant la
+présence de 3 types de fibres nerveuses différentes par leurs vitesses de conduction.
+L’amplitude de chaque sommet désigne le nombre de fibres recrutées appartenant à ce type : Telle que
+la vitesse de a > à celle de b > à celle de c, le nombre de b >à celui de a >à celui de c
+Le recrutement explique les différences entre les enregistrements I2, I3 et I4 :
+  une différence d’excitabilité soit des fibres à rhéobases différentes.
+
+Ce nerf est composé de 3 groupes de fibres nerveuses qui diffèrent par : La vitesse ;
+L’excitabilité (rhéobase différente) et le nombre.
+Vitesses :
+             100 𝑚𝑚                 100 𝑚𝑚                  100 𝑚𝑚
+       Va= 1 𝑚𝑠 = 100m/s;       Vb= 2 𝑚𝑠 = 50m/s;        Vc= 4 𝑚𝑠 = 25m/s
+
+On constate une réponse en R1 malgré la section de la racine ventrale : les branches A et B sont
+sensitives.
+Les enregistrements(a)et(b) diffèrent uniquement par le temps de latence qui est plus court en(a).
+La différence de temps de latence peut être expliquée par :
+-La différence des vitesses les fibres stimulées en A sont plus rapides que celles stimulées en B
+-Différence de trajet en A l’influx nerveux passe par une synapse et passe par 2 synapses en B
+L’enregistrement (c) est un potentiel d’action complexe. On constate que : L’enregistrement C = A+B.
+La stimulation C au niveau de la racine dorsale recrute les deux types de fibres provenant des branches
+A et B
+En stimulant en C la différence de temps de latence persiste, la différence de trajet est donc
+confirmée.
+Arc reflexe
+Deux schémas : L’un est monosynaptique (myotatique), l’autre est di-synaptique (cutané).
+
+
+
+
+     Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                         IGEN   128
+                                              Exercice 6
+Chez un sujet sain, la transpiration intense entraîne une perte d’eau.
+Etablissez la relation entre cette variation hydrique et la pression osmotique du milieu
+intérieur puis expliquez comment l’organisme humain corrige une telle variation de la pression
+osmotique.
+ Illustrez votre exposé par un schéma fonctionnel.
+
+                                              Corrigé 6
+
+-Les cellules de notre organisme baignent dans des liquides qui correspondent au milieu intérieur. La
+pression osmotique (PO) est plus ou moins constante, à l’image des autres paramètres physico-
+chimiques, malgré différents paramètres qui l’influencent dans un sens ou l’autre. Cette constance du
+milieu intérieur ou homéostasie est entretenue grâce à des mécanismes de «correction» ou de
+régulation, impliquant des organes et des voies de communication.
+Il s’agit dans notre exposé, d’expliquer la régulation d’une forte pression osmotique consécutive à une
+perte d’eau.
+-Une forte déshydratation provoque une diminution de la volémie. Il en résulte
+une augmentation de la pression osmotique, régulée selon le mécanisme ci-dessous :
+
+
+
+
+ -Une baisse de la volémie réduit l’activité électrique des volorécepteurs situés au niveau de la paroi
+de L’oreillette gauche du cœur. L’activité électrique des fibres sensitives du nerf X diminue alors ; ce
+qui entraîne une levée d’inhibition au niveau des neurones hypothalamiques sécréteurs d’ADH. En
+effet ces fibres sensitives établissent des synapses inhibitrices avec ces neurones hypothalamiques.
+Il en résulte une forte sécrétion d’ADH ; neurohormone libérée, par la posthypophyse et qui par voie
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                       IGEN      129
+sanguine, stimule la réabsorption de l’eau au niveau des reins et par conséquent évite une
+accentuation de l’hypovolémie.
+-L’augmentation de la PO, consécutive à la perte d’eau, stimule également les
+osmorécepteurs situés au niveau de l’artère carotide et de l’hypothalamus. Il s’en suit une
+augmentation de l’activité électrique des fibres sensitives de HERING qui stimulent alors la sécrétion
+d’ADH par les neurones hypothalamiques. Cette neurohormone stimule la rétention de l’eau au
+niveau des reins et donc une augmentation de la volémie qui provoque une baisse de la PO.
+La régulation de la PO dans un sens ou l’autre, est donc assurée essentiellement par
+une neurohormone hypothalamique : l’ADH. Sa sécrétion impliquant le système nerveux, on
+parle alors de régulation neurohormonale.
+
+Exercice 7
+
+Chez 2 femmes présentant une aménorrhée (absence des règles), on effectue pour une
+période d’un mois, le dosage des hormones ovariennes. On constate alors que dans les 2 cas, les
+œstrogènes et la progestérone apparaissent sous forme de traces impondérables
+(difficiles à doser).
+1- Indiquer si ces résultats justifient l’absence des règles ou une grossesse.
+On dose alors les gonadostimulines hypophysaires chez ces deux femmes. Les résultats
+sont les suivants :
+• Chez la femme A : FSH et LH existent a des taux très élevés et constants
+• Chez la femme B : FSH et LH existent sous forme de traces impondérables.
+2- Interpréter ces résultats.
+3- Expliquer comment pourrait-on procéder pour rétablir le cycle de la femme B.
+
+                                              Corrigé 7
+
+1- Ces résultats justifient l’absence de règles, puisqu’en absence des hormones ovariennes l’utérus
+ne subit pas de transformations et la menstruation n’a pas lieu.
+- Il ne s’agit pas d’un cas de grossesse car dans ce cas les hormones ovariennes se maintiennent a
+des taux élevés et constants.
+2- Pour la femme A : les taux élevés de FSH et de LH s’expliquent par la levée de l’inhibition ou
+négatif du taux très faible des hormones ovariennes. Chez cette femme les ovaires ne réagissent pas
+aux gonadostimulines (FSH et LH).
+- Pour la femme B : elle a un problème au niveau de l’axe hypothalamo-hypophysaire:
+chez cette femme l’hypophyse ne produit pas de gonadostimulines suite au rétrocontrôle négatif des
+hormones ovariennes sur l’axe hypothalamo-hypophysaires, ce qui peut s’expliquer par une anomalie
+au niveau de l’hypothalamus (qui ne secrète pas la GnRH) ou au niveau de l’hypophyse.
+3- injection de GnRH ou de gonadostimulines hypophysaires.
+
+Exercice 8
+
+A-Recopiez le tableau suivant sur votre copie et complétez – le.
+
+                        LT4                                   LB                   LT8
+ Intervention (type de réponse immunitaire) :
+ Mécanisme de reconnaissance du non soi
+ Différenciation en :
+ Substance produite après différenciation et son
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN     130
+B- Le document ci-contre montre la 1ère
+étape de la réaction allergique.
+1-Annotez ce document et donnez – lui un
+titre.
+2- Faites un schéma commenté de la 2ème étape
+de cette réaction allergique.
+
+
+
+                                                Corrigé 8
+A-
+
+
+
+
+B-
+1) Titre : sensibilisation du mastocyte
+
+     1.            2      3.              4.    5.           6.
+     Allergène     LB     Plasmocyte      IgE   Mastocyte    Granule contenant l'histamine
+
+
+2-
+
+Lors du 2ème contact avec l'allergène, ce dernier
+établit un contact entre deux IgE voisins portés par
+un mastocyte. La fixation de plusieurs molécules
+d'allergènes crée une modification de la
+perméabilité cellulaire qui est à l'origine de la
+dégranulation. La libération du contenu des
+granules par exocytose sous l'action de l'allergène,
+est à l'origine des troubles de
+l'allergie : vasodilatation, sécrétion de mucus.
+
+
+
+Exercice 9
+
+Le document suivant présente l’arbre généalogique d’une famille dont certains membres sont atteints
+d’une maladie héréditaire contrôlée par un couple d’allèles (A1, A2).
+
+T) Exploitez les données du pédigrée pour discuter chacune des hypothèses suivantes :
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                  IGEN     131
+-Hypothèse 1 : l’allèle responsable de la maladie est
+récessif et porté par le chromosome sexuel X.
+-Hypothèse 2 : l'allèle responsable de la maladie est
+dominant et porté par le chromosome sexuel X
+-Hypothèse 3 : l’allèle responsable de la maladie est
+récessif et porté par un autosome
+-Hypothèse 4 : l’allèle responsable de la maladie est
+dominant et porté par un autosome.
+2°) Des expériences d’électrophorèse, de réalisation de caryotypes et de mesures de la quantité
+d'ADN ont été réalisés chez les deux fœtus. Les résultats sont présentés par le document ci-dessous:
+
+
+
+
+Exploitez les données des documents en vue de :
+a- Déterminer la taille des allèles A1 et A2.
+b- Préciser le mode de transmission de cette maladie héréditaire.
+c- Déduire les génotypes et les phénotypes des fœtus F1 et F2.
+
+
+
+                                                 Corrigé 9
+1°)
+-Hypothèse 1 : gène récessif porté par X :
+Soit le couple d’allèle (S/m) S : allèle sain ; m : allèle muté
+III4 malade de génotype XmY hérite Xm de sa mère qui doit être hétérozygote XsXm.
+II2 saine, hérite Xm de sa mère malade de génotype XmXm, elle est donc hétérozygote de génotype
+XsXm ce qui est possible. Aucune contradiction. Donc l’hypothèse 1 est à retenir.
+-Hypothèse 2 : gène dominant porté par X. : soit le couple d’allèle (M/s) s : allèle sain ; M : allèle
+muté
+III4 malade de génotype XMY hérite XM de sa mère qui doit être malade or sa mère est saine de
+génotype XsXs. Donc H2 rejetée.
+-Hypothèse 3 : gène récessif porté par un autosome : soit le couple d’allèle (S/m) S : allèle sain ;
+m : allèle muté
+Tout individu atteint doit être homozygote de génotype mm, ce qui est le cas pour I2,II3, III3 et III4.
+Tout individu sain ayant un ascendant ou/et un descendant malade doit être hétérozygote de
+génotype
+S//m ce qui est possible pour I1, II2, II4. Aucune contradiction, hypothèse retenue.
+-Hypothèse 4 : gène dominant porté par un autosome :
+Soit le couple d’allèle (M, s) s : allèle sain ; M : allèle muté
+Tout individu sain doit être homozygote de génotype s/s, ce qui est le cas pour I1, II2, II4.
+Tout individu atteint ayant un ascendant ou/et un descendant sain doit être hétérozygote de génotype
+Ms ce qui est possible pour I2, II3, III3 et III4. Aucune contradiction, hypothèse retenue.
+2°)
+a-A1 A 1.25 Kb A2 A 1 Kb
+
+
+
+
+ Sciences Naturelles                   Joussour pour réussir au BAC (SN et M)                    IGEN     132
+b- D’après le document 7c, F2 comporte 2 chromosomes sexuels de type XY donc c’est un garçon. Si
+le gène est autosomal, F2 doit hériter 2 allèles, or le document 7b montre uniquement un allèle A2
+(1Kb) d’où le gène est lié au sexe. H1 est à retenir, H3 et H4 rejetées.
+c- F1 présente 2.5 Kb donc il a hérité 2 allèles mutés A1 c’est une fille atteinte de génotype XA1XA1,
+A1 est l’allèle muté puisque le père II3 est atteint de génotype XA1Y et il a transmis XA1 à sa fille.
+F2 présente 1 Kb, il a un seul allèle normal A2 c’est un garçon sain de génotype XA2Y.
+
+
+Exercice 10
+
+La myopathie de Becker est une maladie musculaire d’origine génétique. Elle se manifeste par une
+faiblesse musculaire aux membres inférieurs, qui apparaît dans l’enfance ou l’adolescence, voire plus
+tard. L’étude de sa transmission dans une famille a permis de réaliser l’arbre généalogique suivant :
+
+
+
+
+1°/ Montrez si l’allèle responsable de cette maladie est dominant ou récessif. Justifiez votre réponse.
+2°/ Le gène est-il porté par un autosome ou un gonosome ? Justifiez votre réponse.
+3°/ Donnez le génotype des individus 2, 5, 7, et 10. Justifiez vos réponses.
+4°/ Les individus 14 et 15 se marient. Le couple attend un enfant. Des analyses prénatales montrent
+que l’enfant est atteint par cette maladie.
+Déterminez le sexe de l’enfant en justifiant votre réponse.
+
+                                             Corrigé 10
+1) Le couple 1, 2 est sain et a des enfants atteints. L’allèle morbide existe donc chez les deux parents
+mais est masque par l’allèle normale ; il est récessif.
+2) Le gène n’est pas porté par le gonosomme y sinon le père des garçons 6 et 7 serait atteint.
+Le fait que la maladie sévisse uniquement chez les hommes ne peut pas s’expliquer par une
+transmission autosomale.
+On peut donc considérer que le gène est porté par le gonosome X.
+3) Notons N l’allèle normal et m l’allèle morbide. On a :
+2 : XN// Xm; 5 : XN //Y; 7 : Xm// Y ; 10 : XN//Xm
+4) Le futur père 14 est sain, son génotype est XN// Y
+La future mère est saine, son génotype est XN //Xm. L’enfant ne peut porter qu’un seul allèle morbide
+; c’est donc un garçon : son génotype est Xm //Y.
+
+
+Exercice 11
+
+A- Le document 1 montre trois événements A, B et C pouvant se produire chez une femme F1.
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                      IGEN       133
+                                                1-Donnez la légende qui correspond aux numéros et
+                                                nommez les événements A, B et C
+                                                2-La structure X secrète une hormone H1 qui stimule la
+                                                structure Y à secréter deux hormones H2 et H3
+                                                indispensables à l’événement A
+                                                Identifiez l’hormone H1 et précisez son rôle.
+                                                3-L’hormone H3 est à l’origine du déclenchement de
+                                                l’événement B, Après avoir identifié l’hormone H3,
+                                                expliquez son rôle dans le déterminisme de cet
+                                                évènement.
+4-Précisez le(s) effet(s)exercé(s) par H2 et H3 pendant la période qui débute par l’événement A.
+5-Chez une autre femme F2 l’événement A, ne peut se dérouler : son médecin lui annonce sa stérilité.
+Citez deux causes probables de cette stérilité.
+6-Afin de tester l’une des deux causes précitées, le médecin injecte
+à cette femme (F2) un liquide opaque au niveau du col utérin et
+constate que ce liquide ne se répand pas au niveau de ses ovaires.
+a- Qu’apporte ce résultat?
+b-A votre avis, comment la stérilité de cette femme peut être
+remédiée?
+B- Chez deux femmes F3 et F4 stériles, le taux plasmatique
+maximal d'œstradiol ne dépasse jamais 190 pg. mL-1, alors qu’il
+est de 480 pg.mL-1, au 12ème jour du cycle chez une femme
+normale.
+1-Proposez la ou les cause(s) probable(s) du taux faible d’œstradiol chez F3 et F4
+2-Quelle conséquence aura-t-elle sur l’évènement B ? Justifiez
+Le dosage d’œstradiol chez ces deux femmes suite à un traitement par l’injection d’une substance S
+permet d’obtenir le document 2
+3-Analysez ce document ? Déduisez l’effet de la substance S.
+4-Quelle est la cause confirmée de la stérilité de chacune de deux femmes ?
+5-Proposez un remède pour la stérilité de F3 et F4.
+
+                                              Corrigé 11
+A- 1- Événements et légendes
+Evénement A : Nidation        Evénement B : Ovulation    Evénement C : Fécondation
+1= Corps jaune        2= Follicule mûr     3= Endomètre (muqueuse utérine)
+2- L’hormone H1= HCG
+Rôle : Maintien du corps jaune et son développement en corps jaune gestatif
+
+3- L’hormone H3= Œstradiol.
+Le taux élevé d’œstradiol exerce un RC+ sur le CHH qui provoque un pic de LH             Ovulation
+4- Les œstrogènes et la progestérone maintiennent l'utérus dans un état favorable à la gestation
+(développement de l’endomètre, silence utérin...) et bloquent par rétroaction, les cycles sexuels ce
+qui empêche l’apparition des règles et développent les glandes mammaires…
+5- Causes probables de stérilité : - Anatomique (Obstruction des trompes - malformation de l’utérus)
+                                    - Hormonale
+6-a - Ce résultat confirme l’obstruction des trompes.
+b- Remède: FIVETE
+
+B- 1- Taux faible d’œstradiol = Folliculogenèse incomplète.
+Causes probables :
+- Déficit hormonal (GnRH - FSH) ou
+ – Manque de récepteurs de FSH
+2- Taux faible d’œstradiol absence de RC+ sur le CHH pas de pic LH pas d’ovulation
+3- Avant injection de S, le taux était faible (200pg/ml) et après injection de S, l’œstradiol a augmenté
+chez F3 (500pg/ml) seulement.
+L’effet de S : stimule la folliculogenèse
+4- F3 : Manque d’hormone FSH               F4 : Absence de récepteurs
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                       IGEN     134
+5- Remède : F3: injections de FSH (LH)            F4 : aucun traitement si ce n’est une PMA
+
+
+Exercice 12
+
+On étudie la transmission de deux caractères chez la drosophile :
+-Aspect des yeux (rugueux ou lisses).
+-Aspect des soies (doubles ou simples)
+Le croisement entre deux souches S1 (mâle) et S2 (femelle) donne une génération F1 dont la
+                             Nbre de                   répartition est résumée par le tableau ci-contre :
+     Phénotypes                            Souches 1-Analyser ces résultats afin de :
+                             drosophiles
+               Yeux lisses       115           3       a- déduire la relation de dominance entre les
+     Soies                                             allèles de chaque gène ? Justifiez votre
+               Yeux
+     simples                     116           4       réponse.
+               rugueux
+                                                       b-préciser la localisation de ces gènes ?
+               Yeux lisses       228           5
+     Soies                                             2- Le croisement d’un mâle de race pure à yeux
+               Yeux
+     doubles                      0            6       rugueux et à soies doubles avec une femelle à
+               rugueux
+                                                       yeux lisses et soies simples donne 120
+drosophiles à soies simples et yeux lisses. Quelle précision apporte ce résultat ?
+3- Le croisement d’une femelle de la souche 3(S3) avec un mâle de la souche 5(S5) donne entre
+autres 35.25% de drosophiles à soies simples et à yeux lisses.
+Le croisement d’une femelle de la souche 4(S4) avec un mâle de la souche 5(S5) différent de celui
+utilisé dans le croisement précèdent donne 50% de drosophiles à soies simples et yeux lisses et 50%
+de drosophiles à soies doubles et yeux lisses.
+Analysez les résultats du tableau afin de déduire les génotypes des souches (S).
+Réalisez des échiquiers de croisements afin d’expliquer ces résultats.
+4-Donner la répartition phénotypique d’une génération de 400 drosophiles issue du croisement d’une
+femelle de la souche S3 avec un mâle à soies doubles et à yeux rugueux.
+               Utiliser les symboles : Aspect des yeux (Lisse : L ou l ; Rugueux : R ou r) ; Aspect des soies
+(Simple : S ou s ; Double : D ou d).
+                                                  Corrigé 12
+1-a-Ces drosophiles différent par deux caractères, il s’agit d’un dihybridisme.
+-La descendance de ce croisement montre des phénotypes répartis comme
+suit :
+Aspect des soies :
+     - Soies simples = 115+116 =231 soit ½
+              - Soies doubles = 228 soit ½
+Résultat d’un test cross, c’est-à-dire 2 hypothèses possibles :
+H1 : Simple > double.
+H2 : Double > simple.
+Aspect des yeux :
+           - Yeux lisses = 115 + 228 = 343 soit ¾
+                 - Yeux rugueux = 116 soit ¼
+Résultat de croisement de deux hybrides.
+Donc lisses > rugueux (L > r).
+
+b- Le croisement ♂ S1 * ♀ S2 est entre une drosophile hybride (pour deux caractères) et une autre
+hybride pour un caractère récessif pour l’autre.
+-Ces résultats différent de ceux caractéristiques de gènes indépendants (3-3-1-1)        gènes liés.
+-Les gènes sont autosomiques car le sexe n’est pas spécifié dans la descendance.
+
+
+
+
+ Sciences Naturelles                    Joussour pour réussir au BAC (SN et M)                            IGEN   135
+2-
+              ♂ de race pure à yeux     *                          ♀ de race pure à yeux
+              rugueux et soies                                     lisses et soies simples
+              doubles
+
+                                          120 drosophiles à
+                                          yeux lisses et soies
+                                          simples
+La descendance de ce croisement est homogène (100% yeux lisses et soies simples) :
+Soies simples > soies doubles.
+Donc l’hypothèse 1 est confirmée.
+D’où la notation S > d.
+3- a- Les résultats de ces croisements et les données du tableau confirment que les gènes sont liés
+et que la position est trans car il y a absence de phénotype double récessif.
+Les génotypes des souches (S) :
+
+
+
+
+b- Explication des croisements
+Le résultat obtenu est différent de celui d’une liaison absolue.
+Donc il y a eu liaison partielle chez la femelle.
+Le mâle S5 utilisé ne peut être qu’hybride pour le gène (L.r)
+
+
+
+
+[SL] = 1-p/4 + p/4 + p/4 = 1+p/4 = 35.25%
+[Sr] = 1-p/4
+[dL] = 1-p/4 + p/4 + 1-p/4 = 2-p/4
+[dr] = p/4
+p/4 = 10.25%            p = 41%.
+
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                   IGEN    136
+Le croisement entre femelle S4 et l’autre mâle S5
+
+
+
+
+4- ♀ S3 * ♂ [dr]
+
+
+
+
+Exercice 13
+
+Les néréis sont des vers marins au corps annelé et à sexe séparés. Ils n’atteignent la maturité
+sexuelle qu’à deux ou trois ans ; à ce moment, leur morphologie subit de profondes transformations,
+ce qui permet de reconnaître de l’extérieur les formes matures des formes immatures, sans avoir à
+regarder s’il y a ou non des gamètes différenciés (les formes immatures ne contiennent que des
+gonies). Pour faciliter l’interprétation de toutes les expériences suivantes, on rappelle que les néréis
+possèdent un milieu intérieur et un système nerveux dont l’organisation permet une activité réflexe
+semblable à celle des mammifères.
+Expérience 1
+Un chercheur fait une ligature serrée sur le corps d’un animal très jeune ; quelle que soit la position
+de la ligature, il observe que les parties antérieures et postérieures survivent malgré l’absence totale
+de communication de liquide entre elles
+et qu'elles évoluent différemment               Observations      Partie antérieure Partie postérieure
+1-Quelle est l’hypothèse testée ?               Aspect du corps Aspect immature Aspect mature
+2- Quelle conclusion peut-on tirer de
+cette expérience ?                              Etat des cellules                   Déclenchement de la
+                                                                  Gonies
+                                                germinales                          gamétogenèse
+Expérience 2
+Sur des animaux très jeunes, on                           Ablation des palpes       Ablation des ganglions
+retire certains organes (sur des         Observations sensoriels (organes de
+                                                                                    nerveux de la tête
+animaux différents pour chaque                            sens)
+expérience).                             Aspect du                                  Acquisition de l’aspect
+                                                          Aspect immature
+3-Quel est l’objectif de cette           corps                                      mature
+expérience ?                             Etat des                                   Reprise de la
+4-Quelle conclusion peut-on en           cellules         Gonies
+                                                                                    gamétogenèse
+tirer ?                                  germinales
+
+Expérience 3
+La chaîne nerveuse est sectionnée juste en arrière de la région céphalique ; on constate que l’animal
+garde un aspect immature,
+5-Cette expérience a pour but de lever une ambiguïté. Laquelle ?
+6-Résumer à partir de ces trois expériences ce que l’on peut en conclure en ce qui concerne le
+déterminisme de la maturité sexuelle.
+
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                        IGEN       137
+                                                Corrigé 13
+1-
+ Expérience                 Résultat                  Conclusion
+ Ligature serrée sur le     Les parties               Ces deux parties sont indépendantes
+ corps d’un animal très     antérieures et            du point de vie sanguin.
+ jeune ; quelle que soit    postérieures              L’Hypothèse testée : est donc une
+ sa position                survivent et évoluent     communication sanguine entre les
+                            différemment              différentes parties de l’animal.
+
+2-
+                  Résultats                                      Conclusion
+     Expérience
+                  Partie antérieure    Partie postérieure
+                                                                 La partie antérieure sécrète une
+                  Aspect du corps :    Aspect du corps :
+                                                                 substance véhiculée par le sang
+                  immature             mature
+                                                                 qui inhibe la maturation de la partie
+     Ligature     Cellules             Déclenchement de la
+                                                                 postérieure et le déclenchement de
+                  germinales :         gamétogenèse
+                                                                 la gamétogenèse.
+                  Gonies
+
+3- L’ablation des organes a pour objectif la localisation de l’origine de l’inhibition.
+4-
+                        Résultats                                       Conclusion
+   Expérience           Aspect du
+                                             Cellules germinales :
+                        corps :
+                                                                        Les ganglions nerveux de la
+   Ablation des
+                        Immature             Gonies                     région céphalique sécrètent la
+   palpes sensoriels
+                                                                        substance qui inhibe la
+   Ablation des
+                                             Déclenchement de la        maturation.
+   ganglions nerveux    Mature
+                                             gamétogenèse
+   de la tête
+
+5- Les palpes sensoriels n’interviennent pas dans la maturation sexuelle alors que les ganglions
+nerveux de la tête y interviennent.
+
+6- La stimulation du centre réflexe situé dans les ganglions nerveux de la tête inhibe le centre
+inhibiteur situé dans la partie post-céphalique. L’inhibition levée, il y a déclenchement de la
+maturation sexuelle et inversement.
+
+Exercice 14
+
+A- On réalise l’expérience suivante : on prélève une fine tranche de pistil à différents niveaux que l’on
+dépose sur un milieu gélosé imprégné de liquide nutritif. Du pollen prélevé sur une autre fleur de la
+même espèce est déposé de façon régulière autour de la tranche. On compte les tubes polliniques
+croissant en direction de la tranche    Tranche prélevée dans   Stigmate      Style     Ovaire    Ovule
+et on obtient les résultats suivants :
+                                         % de tubes germant        88           48        65       26
+1-Que peut-on déduire de cette
+expérience ?                                    Expériences                                  Résultats
+                                                                      Dépôt de pollen sur
+- Chez une autre plante, on réalise des           1                  des stigmates
+expériences de pollinisation directe et après                        normaux
+deux heures on obtient les résultats                         Introduire artificiellement
+consignés dans le tableau ci-contre :                        des grains de pollen dans
+2-Analyser le tableau et donner une               2
+                                                             la partie supérieure des
+conclusion.                                         stigmates
+3-Quel renseignement vous apportent ces
+                                                             Stigmate traité par la
+expériences concernant le mode naturel de
+                                                             cutinase, enzyme
+pollinisation chez cette plante ?                 3
+                                                             hydrolysant l’épiderme du
+                                                    stigmate
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                       IGEN     138
+B- Le document 1 reproduit la coupe longitudinale d’une graine de Nénuphar. Le nucelle est colorable
+en bleu-noir avec l’eau iodée.
+1-Légender le document 1.
+2-Quel rôle peut-on attribuer à chacune des parties de cette graine ?
+3-Déduire la nature des réserves de cette graine.
+4-Préciser le type de graine du Nénuphar
+5-Citer deux autres types de graines.
+6-Expliquer la différence entre les trois types de graines.
+
+                                              Corrigé 14
+A- 1- Le tableau montre que le % des tubes germant varie selon l’organe femelle : C’est au contact du
+stigmate que le maximum (88%) de grains de pollen germe.
+2-
+ Expériences                      Résultats                       Conclusion
+ Dépôt de pollen sur des          Absence de germination des Placés au contact des
+ stigmates normaux                grains de pollen                stigmates, les grains de
+ Introduire artificiellement des  Germination des grains de       pollen n’émettent pas de
+ grains de pollen dans la partie pollen, caractérisée par         tube pollinique : il existe au
+ supérieure des stigmates         l’émission du tube pollinique   niveau de l’épiderme du
+ Stigmate traité par la cutinase, Germination des grains de       stigmate un obstacle qui
+ enzyme hydrolysant l’épiderme pollen, caractérisée par           empêche la germination du
+ du stigmate                      l’émission du tube pollinique   pollen de la même fleur.
+
+3- L’ensemble des résultats laisse supposer que le mode naturel de pollinisation de cette plante est la
+pollinisation croisée.
+
+B- 1- Légende :
+            1 = Embryon ; 2 = Albumen ; 3 = Nucelle ; 4 =Tégument
+2- La graine de Nénuphar renferme un petit embryon qui donnera la plantule, accompagné de deux
+tissus de réserve : le nucelle et l’albumen.
+3- Nature des réserves : Si le nucelle se colore en bleu-noir par l’eau iodée, c’est qu’il renferme de
+l’amidon.
+4- La graine de Nénuphar présente un nucelle dominant : c’est une graine à périsperme
+5 – Autres types de graines :
+                 - Graine à albumen
+                 - Graine sans albumen
+6-
+- Graine à périsperme (Nénuphar) :
+La graine renferme deux tissus de réserves l’albumen et surtout le nucelle.
+- Graine à albumen (Ricin) :
+Le nucelle a disparu, l’albumen est l’unique tissu de réserve.
+- Graine sans albumen (Haricot) :
+Les réserves sont contenues dans les cotylédons.
+
+
+Exercice 15
+
+Pour comprendre le mode de transmission de deux caractères (la couleur des ailes et celle des yeux)
+chez une race d’insectes dont la détermination du sexe est du type ZZ et ZW, on vous propose
+l’étude des résultats des croisements suivants :
+-Un mâle à ailes uniformes est croisé avec une femelle à ailes tachetées. La F1 issue de ce
+croisement est composée de :
+   25% femelles de couleur uniforme.              25% femelles tachetées.
+   25% mâles tachetés.                              25% mâles uniformes.
+1- Proposez une hypothèse pour expliquer ces résultats. Justifiez par un échiquier de croisement.
+- Le croisement d’une femelle de F1 de couleur uniforme avec un mâle tacheté à donner entre autres
+des femelles uniformes.
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                      IGEN     139
+2-Qu’apporte ce résultat ? Justifier.
+3- Quels sont les résultats théoriques attendus en F2 suite au croisement de deux individus de F1 de
+couleur uniforme ? Justifiez par un échiquier de croisement.
+4- En réalité les résultats expérimentaux du croisement de deux insectes de F1 de couleur uniforme
+sont repartis comme suit :
+         -2 mâles uniformes.          - 2 femelles uniformes
+        -1 mâle tacheté.              - 1 femelle tachetée.
+Expliquez ces résultats.
+
+-Le croisement d’un mâle à yeux rouges avec une femelle à yeux blancs donne une génération F1
+composée de :
+ 1/4 mâles à yeux rouges et 1/4 femelles à yeux blancs 1/4 mâles à yeux blancs et 1/4 femelles à
+yeux rouges.
+5- Expliquer ces résultats.
+6-Le croisement de deux insectes à ailes uniformes et yeux rouges donne entre autres des insectes à
+ailes tachetées et à yeux blancs.
+a-Préciser le nombre de ces insectes sur un total de 240.
+b-Pouvez-vous déterminer le sexe des individus de F1 à partir de leur phénotype ? Justifiez.
+c-Dressez la carte génétique de ces gènes.
+
+                                                 Corrigé 14
+1-
+Ces deux animaux différent par un seul caractère = monohybridisme.
+-La F1 issue de ce croisement montre une diversité des femelles et des mâles.
+-L’hypothèse la plus probable est celle d’un gène gonosomique porté par Z.
+-La diversité des femelles  ->  le mâle uniforme est hybride
+    Uniforme > tacheté  ->  U > t.
+Vérification :
+                                            ♂ [U] * ♀[t]
+                                              ZUZt    ZtW
+
+                                                   ZU                     Zt
+                                       Zt   ZUZt [U] ♂ 1/4        ZtZt   ♂ [t] 1/4
+                                      W     ZUW [U] ♀ 1/4         ZtW    ♀ [t] 1/4
+                                    Ces résultats vérifient l’hypothèse proposée.
+
+   2- Parmi la descendance de ce croisement, il y a des mâles tachetés ce qui est contradictoire
+(incompatible) avec l’hypothèse proposée en 1.
+L’hypothèse est donc rejetée (infirmée) ; il s’agit donc d’un gène autosomal (avec précision du sexe).
+                                𝑈 𝑍                𝑡 𝑧
+Le croisement :                 𝑡 𝑧
+                                            *      𝑡 𝑤
+
+                             UZ                     TZ
+                       tZ    Ut ZZ [U] ♂ 1/4        tt ZZ    ♂ [t] 1/4
+                       TW    Ut ZW [U] ♀ 1/4        tt ZW    ♀ [t] 1/4
+                              Conforme aux résultats expérimentaux.
+
+3- Résultats attendus du croisement des individus uniformes de F1 :
+                            ♂ [U]    *        [U] ♀
+                            Ut ZZ              Ut ZW
+
+                             UZ                   tZ               UW                  tW
+             UZ             UU ZZ               Ut ZZ             UU ZW              Ut ZW
+             tZ             Ut ZZ               tt ZZ             Ut ZW              tt ZW
+
+
+ Sciences Naturelles                    Joussour pour réussir au BAC (SN et M)                 IGEN      140
+            3♂ [𝑈]
+            3 ♀ [𝑈]
+       F2 {
+             1♂[𝑡]
+            {
+              1♀[𝑡]
+
+4- Les résultats obtenus différent des résultats théoriques attendus, ce qui s’explique par la présence
+d’un gène létal = UU.
+Le croisement :
+                                    UZ                  tZ              UW                  tW
+                      UZ          UU ZZ               Ut ZZ            UU ZW             Ut ZW
+                       tZ          Ut ZZ              tt ZZ            Ut ZW              tt ZW
+5- Les parents se différent par un caractère (monohybridisme)
+F1 présente une diversité des mâles et des femelles  ->  gène porté par un gonosome Z
+Le mâle hybride est à yeux rouge  ->  rouge > blanc (R > b).
+Le croisement :
+                       ZRZb * ZbW
+
+                        ZR                    Zb
+       Zb              ZR Zb                 Zb Zb
+       W               ZRW                   ZbW
+
+Résultats conformes aux résultats expérimentales.
+6-a- Le croisement entre deux insectes à caractères dominants donne entre autres des insectes à
+phénotype double récessif donc les individus croisées sont hybrides.
+                                         𝑈   𝑍𝑅             𝑈   𝑍𝑅
+                                         𝑡   𝑍𝑏
+                                                        *   𝑡   𝑊
+
+
+                               UZR                tZR                UW            tW
+       UZR               UU ZRZR             Ut ZRZR             UU ZRW       Ut ZRW
+       UZb                UU ZRZb            Ut ZRZb             UUZbW         Ut ZbW
+       tZR                Ut ZRZR            tt ZRZR             UtZRW         tt ZRW
+       tZb                Ut ZRZb            tt ZRZb             Ut ZbW        tt ZbW
+
+       Les individus [tb] = 1/12 donc ils sont au nombre de 20.
+b- Tous individu de F1 présente le phénotype [b] est femelle ; ainsi [Ub] et [tb] sont des femelles.
+c- Carte factorielle
+
+
+Exercice 16
+
+On se propose d’étudier le mode de transmission d’une maladie héréditaire contrôlée par un couple
+d’allèles (A, B), chez une famille composée de deux couples cousins.
+ Le tableau 1 montre les phénotypes des deux couples :
+
+                   1er couple                                    2éme couple
+                   Père P1 (Malade) * Mère P2 (Saine)            Père P3 (Malade) * Mère P4 (Saine)
+ Descendances           E1          E2          E3                 E4         E5             E6
+ Phénotypes              ?           ?          ?                   ?          ?             ?
+
+  Le tableau 2 représente les résultats de l’électrophorèse de                E1   E2 E3 E4 E5 E6
+l’ADN du gène responsable de cette maladie chez les enfants               A    +   + + + + +
+(E) dont trois sont malades.                                              B   -    + -   + -   +
+
+
+ Sciences Naturelles                 Joussour pour réussir au BAC (SN et M)                           IGEN   141
+1-Exploiter ces données afin de déterminer la relation de dominance entre A et B.
+Après quelques années, les deux cousins E3 et E4 se sont mariés et ont eu
+trois enfants :
+     - deux filles F1 et F2 de phénotypes différents.
+     - un garçon G1 sain, comme sa grande sœur F1 (document ci-contre)
+  NB : les types ADN des filles sont omis volontairement.
+2-Préciser parmi les allèles A et B, l’allèle normal et l’allèle muté.
+3-Précisez les phénotypes des descendants E.
+4-Reprendre et compléter les zymogrammes des filles F.
+5-Discutez la localisation du gène étudié.                              Allèle Nombre d’allèles
+6-On fait le dénombrement des allèles du gène en question chez tous             chez les individus
+les individus de la famille, les résultats obtenus sont figurés dans le         cités
+tableau suivant :                                                         A              14
+Qu’apportent ces résultats ? Donnez des justifications précises.          B               6
+ 7-Reconstruisez l'arbre généalogique complet de cette famille.
+
+
+                                                Corrigé 16
+1- Relation de dominance :
+Les enfants E de phénotypes différents (3sains et 3 malades), ont en commun l’allèle A donc A est
+récessif.
+(B > A)
+
+2- G1 ne présente que l’ADN (l’allèle) A, alors qu’il sain :
+A = Normal (sain) = n
+B= muté (malade) = M
+
+3- Phénotypes des descendants E :
+E1, E3 et E5 sont sains
+E2, E4 et E6 sont malades
+
+4- Zymogrammes
+
+
+
+
+5- Localisation
+
+
+                                H1 : Autosomique               H2 : Gonosomique (porté par X)
+
+
+
+
+                                Hypothése à retenir            Hypothése à retenir
+
+
+
+
+ Sciences Naturelles                  Joussour pour réussir au BAC (SN et M)                    IGEN   142
+6- les membres de cette famille sont au nbre de 13.
+Si la transmission est autosomique, le nbre des allèles doit être de 26 (soit double des membres de la
+famille) ce qui n’est pas le cas : le gène est gonosomique porté par X.
+
+7- Arbre généalogique
+
+
+
+
+ Sciences Naturelles                Joussour pour réussir au BAC (SN et M)                    IGEN       143
+

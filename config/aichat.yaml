@@ -1,0 +1,13 @@
+# aichat configuration for BAC Unified
+# Usage: aichat --config config/aichat.yaml
+
+model: gemini:gemini-2.5-flash
+clients:
+  - type: gemini
+    api_key: ${GEMINI_API_KEY}
+server:
+  address: 127.0.0.1:8082
+
+rag:
+  chunk_size: 512
+  chunk_overlap: 50

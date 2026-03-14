@@ -1,0 +1,130 @@
+|§X1 7C NOMBRES COMPLEXES ROUWADES +KIFFAI
+ Le plan complexe est muni d’un repére orthonormé (O;fi,\").
+ 1) a- Soit a un nombre réel, résoudre dans ’ensemble de nombres complexes 1’équation d’inconnue z :
+         (1+i)2* -2(a+1)z-(-1+i)@* +1)=0
+ b- Soient f et g les transformations données par leurs expressions complexes f:z—z'=1-iz et
+  g:z—>z"=z—i.Déterminer la nature et les éléments caractéristiques de chacune des transformations f
+ etg.
+ Dans le reste de I’exercice on considére les points I, M, et M, d’affixes respectives z,=1-i, z,=1-ia
+
+ et z,=a—i ol a=€", ae:p,Zfl[
+ 2) a- Montrer que le triangle IM, M, est rectangle en I, isocele et direct.
+
+ b- Préciser les lieux géométriques de chacun des points M, et M, lors que o décrit 'intervalle ]),n[
+
+ c- Ecrire z, et z, sous forme exponentielle pour o, appartenant a 'intervalle ]0,5[.
+
+        Soit m un nombre complexe. b\ N
+1) On pose : P(m) = —4m? — 4m(1 — 4i) + 15 + 8i.                                               N
+Vérifier que : P(m) = (2im + i + 4)°.
+2) On considére ’équation (E,,;) : z> — 2m + 5i)z + 2m? + (B+ )m — 2(5+ i) = 0.
+a) Déterminer les deux solutions de I’équation (E "\/
+b) Calculer m pour que m soit lui-méme solution de (E3,).
+3) Soit M le point d’affixe m et S la similitude direete qui au point M associe le point Q
+d’affixe Zy = (1 + i)m + 2 + 3i, et S’ la similitude din‘cte qui au point M associe le point Q’
+d’affixeZy = (1 - i)m — 2 + 2i.                                                IS
+a)      Déterminer les éléments caractéristiques de S,et S°.
+b) Montrer que S’0S est une homothétie dont omrle rapport et le centre J.
+c)      Soit f la transformation qui envoie Q sur Q’, montrer que f est une rotation dont on
+précisera le centre Q et ’angle.                                          N
+4) Soit I le milieu de [QQ, on pose I = g(M).
+a) Montrer que g est une translation dont on précisera le vecteur.
+Montrer que : (QI) 1 (QQ’)                                            Y
+
+
+
+Soit 0 € |0, ,Soit équation (Ef) 322 Zie'®z—4(1 - i)e?® =0
+                 2                                    N
+1.a) Résoudre (Eg) , on note 2' e;fi" les solutions telles que [z| > [z'| .
+b) Mettre sous forme expoq&fle le nombre z'.
+2) Le plan complexe est rabpér!é a un repére orthonormé (o;u ; V). On considére
+les ponts A,B,C d’affixe§ respectives 2e®, —2(1—1i)el® , 2iel®
+a) Déterminer le lieu géqhé,trique I'du point A lorsque 0 décrit ]0 g[
+                                              &
+
+b) Montrer que OACB-estyun parallélogramme.
+
+3) On considére I’équation Ey' : (V22 — 1)3 = (=2 + 2i)el®z3
+a) Déterminer leS\racines cubiques du nombre complexe V= (-2 + 2i)ei®.
+
+b) Soit x € ]O; g[ On pose \/72—1 = +/2e'* Montrer que z = g(l + icot%)
+c) En déduire les solutions de I’équation ( Eg)'
+Le planscomplexe est rapporté au repére ortho normal direct (0,u,7) .
+1)On considerel’équation ( E) : iz3 —(1+i)z2-(2+2i)z+8i=0
+a) Vérifier que I’équation ( E) admet une solution réelle a déterminer
+b) Déterminer les deux autres solutions de I’équation ( E)
+c) Placer les points 4 ; B et C d’affixes respectives :—2 ; 2 — 2i et 1 + i .Déterminer la
+nature du triangle ABC.
+2)Soit S I’application du plan dans lui-méme qui a tout point M(x ;y) associé-le
+point M’(x’;y’) telque x’=x+yety’=—x+y—2
+a) Donner I’expression complexe de S
+b) Déduire la nature et les éléments caractéristiques de S. Déterminer's(G€)/
+1) On désigne par G le centre de gravité du triangle ABC ; et pour tout'fiombre
+complexe z
+On pose :f(z) = |z+ 2> +|z—2 +2il>+ |z—1-i|?
+
+a) Justifier que Z;= ;—i et que f(z):3|z—§+§i| +“3_°_
+                                                                           2
+                                1    1
+
+
+
+Déterminer ; suivant les valeurs du réel k ;I’ensemblel;, des points M d’affixes z
+tels que : f(z) = k . Déterminer I’ensemble I, .
+
+SoitB €|-m;nl.
+ 1)On considére dans I’ensemble des nombres complexes I’équation
+(E):z2 —2(1 +i)(sin@ — i)z + 4sinf = 0.
+ a) Développer ((2 — 2i)cosf)?puis résoudre (E) en précisa&'t\!e cas des racines
+doubles .
+ b) Exprimer les solutions de (E ) en fonction de et e =i0
+2) Le plan complexe est muni d’un repére orthonorw,fi,fi).et on considére les
+points A ;B ;M; M etM, ; d’affixes respectives :                      .
+zy=1—i;zp=-2i;z=v2e" ;z;, = (1 —i)(1 + €') et'zp.= (1 - i)(1—e )
+a) Exprimer z,a I’aide de z. en déduire que Ml‘st I’image de M par une rotation
+dont on précisera le centre et I’angle. 2
+b) Déterminer alors I’ensemble des points M; lorsque 0 varie sur|-m; x| .
+c) Donner une mesure de ’angle (fi ; A—M{) ‘placer alors le point
+Mjcorrespondant 4 6 = .
+                                                          X
+3) On désigne par I le milieu de [M; M. 4
+a) Déterminer I’ensemble des points,/ lotsque 0 varie sur|—x; r[.
+b) Montrer que lorsque 0 varie sur]—n';n'[’{
+                                        __l g} alors (M;M,)garde une direction
+                                                              b4
+
+
+
+
+fixe.
+c) En déduire que M, est le symétrique de M, par rapport 4 une droite A que I’on
+précisera v N
+4) Déterminer et construire semble I' = {M (2)eP tel que arg (Zle,) = —% [1'[]}.
+                                              p
+
+                                     od
+
+5) Mettrez1+2i
+          —— sous forme é&pqentielle.
+                           )
+                                      retrouver ainsi  I’ensemble   des points
+M.                            y          L«
+@_l)a) a un réel résoudred’égquation: E,q: z2 —2zcosa+1=0
+a) en déduire la forme ffig&nométrique des solutions de I’équation
+                                     Egp: 22" —2z%osa+1=0;n> 1.
+1) On pose P,(z) =z?" —2z"cosa + 1; on admet que
+                                            Tl @ 2kn
+                                    P,(2) = 1—[[ - ZZCOS(;-I-T) +1
+                                                  k=0
+
+                             B                     1               in(3)
+a) Calculer/P (1) et en déduire que : []?Z3 Slnz(% + an) = SZ:HZ
+b) Pour a.élément de]0; [ et n > 2 ;on pose: H,(a) = [[Fz1sin (% + ’;—")
+              A1         _ sin(%)
+Montrer queTM2” 'H, (a) = proves
+
+©) Quelle’est la limite de H,, (a)lorsque « tend vers 0
+
+
+d) En déduire que pour tout n > 2: sing. sin%’r . SIN ("_nl)" = 211
+

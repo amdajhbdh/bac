@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/834906505_4052626324_1081497579.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_4079250704_3295140797.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_2838194084_741029384.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_4079250704_4065655215.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_4095530675_3855383072.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_4079250704_174433956.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_556414833_3904263804.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_4079250704_2245766679.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_3655416326_2264928698.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_4079250704_2411900619.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/EpistasisTypes/2844486279_4277570474_1084502372.mp4'

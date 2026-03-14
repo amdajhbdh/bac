@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/CrossingOver/834906505_627897283_2592570764.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/CrossingOver/2844486279_2688965532_251494812.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/CrossingOver/2844486279_3612601092_3784590438.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/CrossingOver/2844486279_523984547_2300837432.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/CrossingOver/2844486279_3097154950_1316283021.mp4'
+file 'file:/manim/media/videos/genetics_crosses/1080p60/partial_movie_files/CrossingOver/2844486279_4277570474_3347531126.mp4'

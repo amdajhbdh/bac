@@ -1,0 +1,68 @@
+République Islamique de Mauritanie                BACCALAUREAT 2019                                Série : Lettres Modernes
+Ministère de l’Education Nationale
+  et de la Formation Professionnelle                     Session Normale                                  Coefficient : 2
+Direction des Examens et des Concours            Epreuve de MATHEMATIQUES                                   Durée : 2 h
+
+
+Exercice 1 : (5 points)
+ 1° Résoudre dans       l’équation x 2  3x  10  0                                                              (2 pt)
+ 2° En déduire les solutions des équations
+  a)  ln x   3ln x  10  0
+             2
+                                                                                                                  (1 pt)
+  b) e  3e  10  0
+        2x     x
+                                                                                                                  (1pt)
+  c) lnx  ln  x  3  ln10                                                                                     (1 pt)
+Exercice 2 : (5 points)
+On considère les suites numériques  un  et  vn  telles que pour tout entier naturel n :
+u0  1
+                   et vn  3un  3
+ u n  1  2un  1
+Parmi les réponses proposées pour chaque question ci-après, une seule est exacte.
+                 Question                        Réponse A         Réponse B                  Réponse C
+ 1    La valeur de u1 est                          u1  1            u1  3                       u1  5               (1 pt)
+ 2    La suite  vn  est                     géométrique         arithmétique
+                                                                                          ni arithmétique, ni
+                                                                                                                       (1 pt)
+                                                                                             géométrique
+ 3    Le terme général de  vn  est             vn  2n  6        v n  6  3n               v n  6  2n            (1 pt)
+ 4    La suite  vn  est                     décroissante          croissante                non monotone             (1 pt)
+ 5    La limite de  vn  est                                            0                                         (1 pt)
+
+ Recopier sur la feuille de réponse et compléter le tableau ci-contre en       Question n°     1     2    3   4   5
+ choisissant la bonne réponse. Aucune justification n’est demandée.            Réponse
+
+Exercice 3 : (10 points)
+                                                  x 2  6x  10
+ Soit f la fonction numérique définie par : f  x             et  C sa courbe
+                                                       x3
+ représentative dans un repère orthonormé O; i , j        
+ 1° Déterminer le domaine de définition Df de la fonction f et l’écrire sous forme de réunion
+                                                                                                                       (1pt)
+ d’intervalles
+ 2° a) Calculer les limites suivantes lim f  x  , lim f  x  , lim f  x  et lim f  x                          (1pt)
+                                         x           x        x 3               x 3
+ b) En déduire que  C admet une asymptote verticale    à déterminer.                                              (1pt)
+                                                                                        c
+ 3° a) Déterminer les réels a, b et c tels que pour tout x de Df , on a: f  x   ax  b 
+                                                                                          .                            (1pt)
+                                                                                     x3
+ b) Vérifier que la droite  D  d’équation y  x  3 est une asymptote oblique à  C .                               (1pt)
+ 4° a) Calculer f   x  , où f  est la fonction dérivée de f .Vérifier que le signe de f   x  est
+                                                                                                                       (1pt)
+ celui du produit  x  2 x  4 .
+ b) Dresser le tableau de variation de f.                                                                              (1pt)
+ 5° a) Déterminer le point d’intersection de  C avec l’axe des ordonnées.                                            (1pt)
+ b) Montrer que la tangente T à la courbe  C au point A d’abscisse 5 a pour équation
+     3    5                                                                                                            (1pt)
+ y    x .
+     4    4
+                                                                       
+ c) Construire la courbe  C et ses asymptotes dans le repère O; i , j .                                             (1pt)
+
+                                                         Fin
+
+
+Baccalauréat 2019      Session Normale        Epreuve de Mathématiques                Série : Lettres Modernes        1/1
+

@@ -1,0 +1,132 @@
+République Islamique de Mauritanie                                                  Série : Sciences Naturelles
+                                             BACCALAUREAT 2022
+Ministère de l’Education Nationale                                                  (Classes Expérimentales)
+et de la Réforme du Système Educatif         Session Complémentaire                      Coefficients : 6
+                                           Epreuve de MATHEMATIQUES
+Direction des Examens et des Concours                                                        Durée : 4h
+
+Exercice 1 (3 points)
+Durant la période des examens, une association de parents d’élèves met à la disposition de ses
+adhérents, deux lignes téléphoniques. On considère les évènements suivants :
+L 1 : « la première ligne est occupée» ; L 2 : « la deuxième ligne est occupée» .
+Des statistiques ont montré que p(L1 )  0,4 , p(L 2 )  0, 2 et p L2 (L1 )  0,8 .
+Pour chacune des questions de cet exercice, une seule des trois réponses proposées est correcte.
+N°   Question                                  Réponse A             Réponse B        Réponse C
+1    La probabilité p L1  est                      0,2                  0,6               0,8       0.5 pt
+
+2    La probabilité p(L1  L 2 ) est                 0,12               0,16              0,24        0.5 pt
+3    La probabilité p L1 (L 2 ) est                  0,4                  0,6               08        0.5 pt
+Lorsque les lignes sont occupées, on a la possibilité de laisser un message vocal. On suppose que la
+durée T de ces messages, exprimée en secondes, est une variable aléatoire qui suit une loi uniforme
+sur l’intervalle 0;60
+
+     La probabilité p(T  25) est
+                                                      7                   15                25
+4                                                                                                    0.5 pt
+                                                     12                   12                12
+     La probabilité p(T  10) est
+                                                      1                    1                 5
+5                                                                                                    0.5 pt
+                                                     12                    6                 6
+                                                      1                    3                 7
+6    La probabilité pT10 (T  25) est                                                               0.5 pt
+                                                     10                   10                10
+Recopier sur la feuille de réponse et compléter le          Question n°         1   2 3 4 5 6
+tableau ci-contre en choisissant la bonne réponse.
+                                                            Réponse
+Aucune justification n’est demandée.
+Exercice 2 (5 points)
+On considère le polynôme P défini pour tout nombre complexe z par :
+                             P(z)  z 3  (5  4i)z 2  (1  16i)z  3  12i .
+1.a) Vérifier que (4  2i)2  12  16i                                                                  0,5pt
+b) Calculer P(1) et déterminer les nombres complexes a et b tels que z  ,
+                                                                                                        0,5pt
+   P(z)  (z  1)(z 2  az  b)
+c) Résoudre, dans , l’équation P(z)  0 .                                                               0,75pt
+
+2° Le plan complexe est rapporté à un repère orthonormé O;u, v .          
+a) Placer les points A, B et C d’affixes respectives : z A  1 , z B  3i et z C  4  i 0,75pt
+b) Déterminer l’affixe du point D tel que ABDC soit un parallélogramme.                  0,5pt
+                                                             z  3i
+3° Pour tout nombre complexe z  4  i , on pose f (z)              .
+                                                            z4i
+a) Calculer f (1) , puis en déduire la nature du triangle ABC.                           0,5pt
+b) Déterminer et construire l’ensemble  1 de points M du plan d’affixe z tel que
+                                                                                                        0,5pt
+f (z)  1
+c) Déterminer et construire l’ensemble  2 de points M du plan d’affixe z tel que f (z)
+                                                                                                        0,5pt
+soit imaginaire pur.
+d) Montrer que le point A appartient aux ensembles  1 et  2 .                                         0,5pt
+
+
+
+Baccalauréat 2022  Session Complémentaire Epreuve de Mathématiques              Série SNE             p1/2
+ƒNSxQÞ:#ì”¥Dî­#sktÏ!§nÌþ›M+’¹öBíÅZ‚ª`•7°bæ«Ÿæ~ã
+Exercice 3 (6 points)
+On considère la fonction f définie sur            par f (x)  (x  1)e x  x . On note  sa courbe
+représentative dans un repère orthonormé O; i , j .      
+1° Soit h la fonction définie sur par h(x)  xex  1 .
+a) Montrer que lim h(x)  1 et que lim h(x)   .                                                      1 pt
+                    x                  x 
+
+b) Calculer h(x) puis dresser le tableau de variation de h.                                            1 pt
+c) Montrer que h(x) est positive pour tout réel x.                                                      0,5pt
+                                             f (x)
+2.a) Calculer lim f (x) et vérifier que lim          . Interpréter graphiquement.                    0,75pt
+              x                      x  x
+
+
+b) Montrer que lim f (x)   et que la droite (  ) d’équation y  x est une asymptote
+                    x                                                                                0,75pt
+oblique à  .
+c) Etudier la position relative entre (  ) et                                                         0,5pt
+3.a) Montrer que f   x   h(x), x                                                                  0,5pt
+b) Dresser le tableau de variation de f.                                                                0,5pt
+c) Construire (  ) et  dans le repère  O, i , j  .                                                  0,5pt
+
+Exercice 4 (6 points)
+                                                              x  1  ln x
+Soit f la fonction définie sur 0; par f  x                          , et soit (C) sa courbe
+                                                                   x
+représentative dans un repère orthonormé (O;i,j) .
+1.a) Montrer que lim f (x)   puis interpréter graphiquement le résultat.                           1 pt
+                        x0
+
+b) Montrer que lim f (x)  1 et déduire que la courbe (C) admet une asymptote (D) à
+                    x                                                                               1 pt
+préciser.
+                            ln x
+2.a) Montrer que f   x      .                                                      0,5 pt
+                             x2
+b) Dresser le tableau de variation de f.                                                0,5pt
+c) Montrer que l’équation f (x)  0 admet, dans 0; , une unique solution x 0 et que
+                                                                                                       0,5pt
+0, 27  x 0  0, 28 .
+3° Soit g la restriction de f sur l’intervalle I  0;1 .
+                                                                                                       0,25pt
+a) Montrer que g est une bijection de I sur un intervalle J que l’on déterminera.
+b) Dresser le tableau de variation de g 1 .                                          0,5pt
+4.a) Construire (D) ,  C  et  C  , où  C  est la courbe représentative de g .
+                                                                                   1
+                                                                                      0,5pt
+b) Discuter graphiquement, suivant les valeurs du paramètre réel m, le nombre de
+                                                                                      0,25pt
+solutions de l’équation Em : (m  1)x  1  ln x .
+                      ln x     1
+5.a) Montrer que 
+                         e
+                           dx  .                                                         0,5pt
+                        x1     2
+b) En déduire l’aire A du domaine plan délimité par la courbe  C  , l’axe des abscisses
+                                                                                          0, 5pt
+et les droites d’équations respectives x  1 et x  e .
+
+                                                           Fin.
+
+
+
+
+Baccalauréat 2022  Session Complémentaire Epreuve de Mathématiques            Série SNE              p2/2
+ƒNSxQÞ:#ì”¥Dî­#sktÏ!§nÌþ›M+’¹öBíÅZ‚ª`•7°bæ«Ÿæ~ã
+

@@ -1,0 +1,25 @@
+{
+  "id": "add-tests-02",
+  "seq": "02",
+  "title": "Expand Agent test coverage",
+  "status": "pending",
+  "depends_on": [],
+  "parallel": true,
+  "context_files": [".opencode/context/core/standards/test-coverage.md"],
+  "reference_files": ["src/agent/", "src/agent/internal/cache/usearch.go"],
+  "suggested_agent": "TestEngineer",
+  "agent_id": null,
+  "started_at": null,
+  "completed_at": null,
+  "completion_summary": null,
+  "acceptance_criteria": [
+    "Add tests for cache module (usearch.go)",
+    "Add tests for gateway module",
+    "Total test count exceeds current 5 tests",
+    "Tests cover core functionality",
+    "All tests pass"
+  ],
+  "deliverables": ["src/agent/internal/cache/usearch_test.go (new)", "src/agent/internal/cache/cache_test.go (new or expanded)"],
+  "bounded_context": "testing",
+  "module": "@bac/agent"
+}

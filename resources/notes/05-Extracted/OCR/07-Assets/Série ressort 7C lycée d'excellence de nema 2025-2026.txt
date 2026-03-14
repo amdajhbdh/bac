@@ -1,0 +1,268 @@
+T   E "                                o       ats
+
+
+
+
+               «‘Efi DJJJ@)D%E L‘E ) - PROE. A H M ED
+     On donne g=10m/s* EXERCICE1
+    On suspend A PPextrémité infericure d’un ressort de masse négligeable A spires non
+    juintives et de coefficient de raideur K un solide S de masse m=100g (voir figl).
+    A I'équilibre le ressort st allongé de 10em.
+
+
+    2. Le ressort st maintenant placé sur un plan horizontal et la masse peut sc%
+    1. Calculer la raideur K du ressort.                                                              gl
+
+
+    sans frollemenl de Yong de Yaxe horizonta) XX {51g2).                                     -
+    A la date =0, lc solide S étant en position d’équilibre, on lui
+    rommunique une vitesse Vo de valeur Vo=0,4avs dirigéc suivant J'a fig2 LA
+    du ressort comme l'indique la figure.
+    2.1. Etablir I'équation différentielle du mouvement du centre d’inertie G du solide S.
+    2.2 Déterminer Uéquation haraire du mauvement de G.
+    3.1. On prendra I'énergie potenticlle de pesanteur du sys llesur le plan horizontal passant
+    par G.
+    Exprimer, a la date t, I’éncrgic mécaniquc totalc E d      steme (ressort - solide - terre) en fonction
+    de K, m, x ¢t V puis en fonction de K ct de I'élongation      ximale Xm.
+    3.2, Retrouver I'équation différeunticlle établie en a partir de ’expression de Pénergie
+    mécanique E.                                EX            E2
+
+    Les frg_ttements sont négligeables )                                                                      -~
+    On considére un ressort 3 spires non de masse néaligeabla et-de raidcur ":'
+    K=S50M/fm, Lo ressort est piacé suru able horizontale.                                                    e
+    On fixe I'une des extrémités du re               e    accroche a son autre extrémité un sclide
+    ponctuel S de masse m=500g.
+    A l'instant t=0, on déplace le          ide'de sa position d’équilibre d’'une distance x5 =2cm et
+    cn fui communique une vites
+
+    1.1. Etablir I'équation différenti ui régit Ic‘
+    mcuve-nant du centu= d’incrtie du solide. (1pd
+      2. Détarminer {’équ n ho e du mouvement. Y o——
+    Quelle est la v:tes:e sage par |z position                                                    so(
+    d'équilibre dans le os             f?
+    1:2. Exprimer I'éner
+    Retrouver la valgl
+    conservation dé
+                          ale de ia vitesse du mobile en utilisant fe principe de la
+                                    anique de cet oscillateur et montrer qu'elle est constante.
+
+
+                          yergie mécanique.
+    2. Le solide         ‘che du{essurt au passage par la position d’équilibre O dans le sens
+
+
+
+
+                      I'’équation cartésienne de la trajectoire de S dans le repére(()' x.\}.
+               er Jes coordonnées du point A.
+
+
+
+
+                                                                                        L&
+
+
+                                                                                    " CcamScanner 2 Ligd d>guuadll
+    4 DA (SOOVINIAY, PROF: AHMED DID
+                                                      EXERCICE:3
+     Un systéme oscillant est constitué d’un solide (8), de centré d'inertie G et de masse m, et d'un
+   tessort honzontal, A spires non jointives, de masse négligeable ct de raideur K = 20N m !
+
+   Le sohde (S) st accroché i I'une des deux extrémités du ressort, I'autre extrémité est fixée d un
+   support immobile
+
+   On ¢carte le solide (S) de sa position d’équilibre d’une distance Xy puis on le liche sans vite§se
+
+   Inittale Le solide (S) oscille sans {rottements sur un plan horizontal, (Fij
+   On ewdie le mouvement du centre d’inertie G dans un .. repére
+   (0., 7) lié & v référentiel terrestre considéré comme galiléen
+
+   L’origine O de I'axe coincide avec la position de G lorsque le
+   solide (S) est & I'équilibre
+
+   On repere, dans le repére (0, T)a position de G 4 un instant t par
+   I'abscisse x            '
+
+   ct I'état ot G est A la position d’équilibre (x=0) comme référence
+    élastique
+
+
+    L’équation horaire du mouvement de G s’écnit sous for x(t) =
+
+
+    T - courbe de la figure 2 représente le diagramme des
+_ céterminet les valeurs de N_ ./, etde o \
+   2 Dérerminer la valeur de 'énergie mécaniqu
+    de Voscillateur étudie ‘
+   3Trouver la valeur de Menergie cinctique
+
+     l'oscillateur mécanique a Uinstant t, -
+
+
+
+                                                            \ .            X
+                                                           d'abscisse x; = —_)—
+
+
+                                                        EXERCICE:4
+
+    On fixe le solide (S)
+    jointives, de masse
+    A Téquilibre. le cé
+    (0., liéd lat                                                                                            bl |
+     On écarte lg Soli                                                                            Figure 2
+     vitesse initialesd linstant t,=0.
+
+
+
+
+                                                                                                   CamScanner = Ligs d>guaall
+’() .
+
+
+
+
+A 70/1 D J T 5
+                                                                                                              ]
+                                                 } Rty
+                                                        f
+
+
+
+
+ Donnges;                                                             ’      -          ——
+ - Tous les frottements sont néglipcables;
+ - On choisit Fétat ou le ressort n'est pas délotné comme 1éfrence de
+ Iénergie potenticlle élustique E. et le plan hotizontal comeniant G
+
+ comme état de référence de I'énergic potenticlle de pesantens B
+ La courbe de la figure (3) repiésente les variations de L. en fonetion
+
+ de x°. carré de l'abscisse % du centre d'inertie G
+                                                      dans le tepere((),,, 7           4 w.g.I...n.,iuM.v 4
+                                                                                             i
+ 1. Enexploitant fa combf: de Ia figure (3). trouver les valenrs de
+                                                                             .         ;..“...Jz ;            -
+      a. Ja constante de raideur K.,
+                                                                                   1
+
+                                                                               o) 4                5          )
+      b. I'énergic potenticlle élastique mazimale L
+                                                      et
+
+
+      c. lamplitude X, des oscillation
+         o
+                                -
+
+
+
+
+                                                                           s.          d
+                                                                                           i'lum   5
+
+
+
+
+ 2, Déduire, en justifiant votre réponse. fa valeur de Véncrgic ndcaniqug E,, du systere
+                                                                                            oxellan.
+ 3 Le unm, dincrtic G passe par la position d ‘equilibre dnm seny sl
+                                                                                           aves 14 uilesse
+  v=0,25ms’
+                       :
+ Montset que Fexpression de la période propre des oscillationsRigerit T2 2w =5
+                                                                            /
+                                                                                       Coloulsr 1,
+
+                                          EXERCIGETMS ’
+ Etude du mouvement d’un pendule élastique
+ Un oscillateur mécanique vertical est constitué d*un
+ cotps solide S de masse m=200g ¢t d'un re3r0fha df/ L4
+                                                                                                   Zfid
+ spires non jointives de masse négligeablees delraideur B
+                                                                                                         i
+ K .L'unc des extrémités du ressort dstfixéed un support =                      ==                     g_,
+ fixe ¢t I'autre extrémité st lice au sghdeS lf'Lurc2) 7=                       |                      ==
+ On se propose d*étudier le mouvementdu cofiire o=                              é:                     =
+ d’inertie G du solide S dans urlrepireyR(O,n s lié 2 un <‘]T” f‘:                                     =
+ référentiel terrestre supposé galiléen,                                        &                      EE
+ On repere Ta position de Gt un instant t par la cote ) PR                              5              =
+ zsur I'axe (O,ny. A Iéquilibfe. G cst confondu avec A                                                 ‘:1
+ Porigine O du reptre R(@u, Oh prendra =° =10. i R                                     PP e E}
+                     ¢                                                      Figure 2
+Frottements négligcables
+On écarte vertigalementle solide S de sa position d*équilibre ¢t on 'envoie 4 instant de date 120,
+avee unc vitgsse ifitialé Vi, =V,,,E .
+La courbedeMa figure 3 représente 1'évolution de la cote z(1) du centre & inentie G .
+1-Détecshiner, a ["équilibre,
+I'allor{gemént 4% o du ressort en fonction
+
+
+
+
+                                                                                       CamScanner 2 gd > guaall
+ 2 faabiit | équation différentielle vérifiée
+ par ba céte 2 chi centre d'mertie GG
+ 3 oL olutiow de cette équation
+     .                           25 \                    2
+ dufférentielle s'éenit 722 cos| =it
+                                      AN
+ avec T, la période propre de I'oscillateur.
+ Déeimuner la valeur de Ketcellede V.                    2
+
+
+ EXERCICE:6
+On dispose d un ressort, de masss negligeable et d= constants d2 radeur K =
+Jintensure d'un tubs vertical.
+San emeennts infencure, 25t fizss au sol Surl'autre sxtremute, on fixz u solide pouvant glisser sans ’
+ fottement al'intensurs du tube Le sohde dz dimensions nzghgeabl                sem Lz ressortse —
+raccourest alors de b,                                                                               T
+
+
+                                                                                                     —
+
+1- Dateniainer |"expression de la compression b du ressort lorsqu       t en equilibre
+2 On ezarts le solide de saposition d'equilibre de sz, cton e 13      <positif approprié permet
+d’ensegsstrer 25 vanations del"elongation x du solide en fo
+a Deternuner, a pastir du graphe. I equation horars du
+mouvement du solide.
+b Calculer la masse m du solide ¢t en déduire la
+compression b du ressort.
+¢ Montrer que la valeur V de fa                        . ' .   AN
+vitesse est donnée par I'equation V2 = m2(x2, - X2 100- o048 o0& 07 i
+en dédure fa valeurde Vs x =05 em \ . : l                            te- A Tee
+ EXERCICE:7 =
+ Un penduls elastique, est consutus SdeTmassem, accroche al'sxtremute d'un .r‘@, 72
+ sessortverucal derdeur ¥ Lah etes vanations d= I'energie mecamque E,, ct                                         z
+ potenticllc Ep du systeme (solide, r# erre) en fonction de |'abscisse x du centre %
+ d'inastie G du sohide                                                                                      .
+ dans e repere (O 1). L4 pos squilibre du solide cemnade avec
+ I"'sngne O, 2t 12 plan honzont ssantpar O est pris comme plan de reference de
+ V" energie potenulle ds pesapteur du systeme                                              2= =] o
+ 1- Trouver | equation di           =l du mouvement
+ 2. Etablir " sxpression potentiellz du systeme en fonztion de K, % 2t X 0@t xo e\t \
+ ["iongsment al'2q
+ 3. LUenergpzemec s                 conscryee au cours du
+ mouvement 7
+ 4- Trouverl'e ‘ensrgre mecaniqus du systeme
+                             uol xg est 1 amplitude des
+
+                         courbe. Determiner I amplitude % la
+                         ct son allongement initial Xo
+
+
+         cr que 1’ énergre cinetique E¢ du solide peut ére
+         § fonction de K, xp, ¢l x.
+
+
+      razer dans [e méme repere d'axes I'allure de la courbe
+    =f(x)                                                                                   R
+
+     Sachant que la période est T = 0.2n s : détermuner les vitesses du pendule en x = | ¢cm al dam [k
+                                                                                              Tiereees atvsrets
+
+
+
+
+                                                                                CamScanner = Liss d>gwaall
+

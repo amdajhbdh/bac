@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ChemicalReactionMechanism/2257293077_391682516_223132457.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ChemicalReactionMechanism/2135761390_1847364356_2660149264.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ChemicalReactionMechanism/2135761390_2688965532_975272392.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ChemicalReactionMechanism/2135761390_2496762819_1564450250.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ChemicalReactionMechanism/2135761390_2688965532_3102992760.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ChemicalReactionMechanism/2135761390_2870560042_433827673.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ChemicalReactionMechanism/2135761390_1163739343_2350110441.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/ChemicalReactionMechanism/2135761390_2872842549_2406835314.mp4'

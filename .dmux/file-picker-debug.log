@@ -1,0 +1,150 @@
+[2026-03-05T00:07:32.788Z] [@Detection] Running with: {
+  "prompt": "",
+  "currentCursor": 0,
+  "promptLength": 0
+}
+[2026-03-05T00:07:32.788Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:38.213Z] [@Detection] Running with: {
+  "prompt": "o",
+  "currentCursor": 0,
+  "promptLength": 1
+}
+[2026-03-05T00:07:38.213Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:38.215Z] [@Detection] Running with: {
+  "prompt": "o",
+  "currentCursor": 1,
+  "promptLength": 1
+}
+[2026-03-05T00:07:38.215Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:38.342Z] [@Detection] Running with: {
+  "prompt": "op",
+  "currentCursor": 1,
+  "promptLength": 2
+}
+[2026-03-05T00:07:38.342Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:38.344Z] [@Detection] Running with: {
+  "prompt": "op",
+  "currentCursor": 2,
+  "promptLength": 2
+}
+[2026-03-05T00:07:38.344Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:38.602Z] [@Detection] Running with: {
+  "prompt": "ope",
+  "currentCursor": 2,
+  "promptLength": 3
+}
+[2026-03-05T00:07:38.602Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:38.604Z] [@Detection] Running with: {
+  "prompt": "ope",
+  "currentCursor": 3,
+  "promptLength": 3
+}
+[2026-03-05T00:07:38.604Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:38.951Z] [@Detection] Running with: {
+  "prompt": "open",
+  "currentCursor": 3,
+  "promptLength": 4
+}
+[2026-03-05T00:07:38.952Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:38.954Z] [@Detection] Running with: {
+  "prompt": "open",
+  "currentCursor": 4,
+  "promptLength": 4
+}
+[2026-03-05T00:07:38.954Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:39.749Z] [@Detection] Running with: {
+  "prompt": "openc",
+  "currentCursor": 4,
+  "promptLength": 5
+}
+[2026-03-05T00:07:39.749Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:39.750Z] [@Detection] Running with: {
+  "prompt": "openc",
+  "currentCursor": 5,
+  "promptLength": 5
+}
+[2026-03-05T00:07:39.750Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:39.925Z] [@Detection] Running with: {
+  "prompt": "opencl",
+  "currentCursor": 5,
+  "promptLength": 6
+}
+[2026-03-05T00:07:39.926Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:39.927Z] [@Detection] Running with: {
+  "prompt": "opencl",
+  "currentCursor": 6,
+  "promptLength": 6
+}
+[2026-03-05T00:07:39.927Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:40.345Z] [@Detection] Running with: {
+  "prompt": "opencla",
+  "currentCursor": 6,
+  "promptLength": 7
+}
+[2026-03-05T00:07:40.345Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:40.346Z] [@Detection] Running with: {
+  "prompt": "opencla",
+  "currentCursor": 7,
+  "promptLength": 7
+}
+[2026-03-05T00:07:40.346Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:41.357Z] [@Detection] Running with: {
+  "prompt": "opencl",
+  "currentCursor": 7,
+  "promptLength": 6
+}
+[2026-03-05T00:07:41.357Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:41.358Z] [@Detection] Running with: {
+  "prompt": "opencl",
+  "currentCursor": 6,
+  "promptLength": 6
+}
+[2026-03-05T00:07:41.358Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:41.545Z] [@Detection] Running with: {
+  "prompt": "openc",
+  "currentCursor": 6,
+  "promptLength": 5
+}
+[2026-03-05T00:07:41.545Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:41.547Z] [@Detection] Running with: {
+  "prompt": "openc",
+  "currentCursor": 5,
+  "promptLength": 5
+}
+[2026-03-05T00:07:41.547Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:42.651Z] [@Detection] Running with: {
+  "prompt": "openco",
+  "currentCursor": 5,
+  "promptLength": 6
+}
+[2026-03-05T00:07:42.651Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:42.652Z] [@Detection] Running with: {
+  "prompt": "openco",
+  "currentCursor": 6,
+  "promptLength": 6
+}
+[2026-03-05T00:07:42.652Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:42.863Z] [@Detection] Running with: {
+  "prompt": "opencod",
+  "currentCursor": 6,
+  "promptLength": 7
+}
+[2026-03-05T00:07:42.864Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:42.865Z] [@Detection] Running with: {
+  "prompt": "opencod",
+  "currentCursor": 7,
+  "promptLength": 7
+}
+[2026-03-05T00:07:42.865Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:43.058Z] [@Detection] Running with: {
+  "prompt": "opencode",
+  "currentCursor": 7,
+  "promptLength": 8
+}
+[2026-03-05T00:07:43.058Z] [@Detection] No @ found before cursor 
+[2026-03-05T00:07:43.059Z] [@Detection] Running with: {
+  "prompt": "opencode",
+  "currentCursor": 8,
+  "promptLength": 8
+}
+[2026-03-05T00:07:43.059Z] [@Detection] No @ found before cursor 

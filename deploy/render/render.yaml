@@ -1,0 +1,50 @@
+# Render Blueprint for BAC Study Vault
+# Uses Cloudflare R2 for S3 storage (free, no egress fees)
+# Deploy at: https://dashboard.render.com/blueprints
+
+services:
+  # Go Agent API
+  - type: web
+    name: bac-agent
+    plan: free
+    runtime: go
+    buildCommand: cd src/agent && go build -o /app/agent ./cmd/main.go
+    startCommand: /app/agent -server -port $PORT
+    envVars:
+      - key: PORT
+        value: "10000"
+      - key: S3_ENDPOINT
+        sync: false
+      - key: S3_REGION
+        value: auto
+      - key: S3_BUCKET
+        value: bac-vault
+      - key: S3_ACCESS_KEY_ID
+        sync: false
+      - key: S3_SECRET_ACCESS_KEY
+        sync: false
+
+  # Vault MCP API (Node.js)
+  - type: web
+    name: vault-api
+    plan: free
+    runtime: node
+    buildCommand: cd deploy/vault-api && npm install
+    startCommand: node src/index.js
+    envVars:
+      - key: PORT
+        value: "10001"
+      - key: S3_ENDPOINT
+        sync: false
+      - key: S3_REGION
+        value: auto
+      - key: S3_BUCKET
+        value: study-vault
+      - key: S3_ACCESS_KEY_ID
+        sync: false
+      - key: S3_SECRET_ACCESS_KEY
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_REPO
+        sync: false

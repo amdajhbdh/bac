@@ -1,0 +1,121 @@
+                            _\YCEE DE_ZOUERATE
+                              oy,                                   P   D       T         P
+
+
+
+
+                                                                                                                      e
+
+
+
+
+                                                                                           7C                 |
+                                                                                                                      Y
+
+
+
+
+                                                                                                                      SRS
+                                          xercice 1                                                       l
+Un solide (5), de masse m descend le long d’une pente
+inclinée d’un angle a par rapport au plan horizontal.
+A t=0,lesolide ($) part de A avec une vitesse initiale
+
+nulle pour atteindre le point B, puis aborde le trongor
+BC avec la vitesse v BsOn donne : AB = {=2m;
+a=25°; m=200g et g =10m/s?,
+
+@ On suppose les frottements négligeables sur AB.                                              -~
+@ .1) Nomme les différentesforces qui agissent sur le solide et indique-les sur, hém@clair.
+01 .2) Calcule I'accélération‘a, du solide puis détermine la nature de son m   ‘ive}:
+(1)) Etclbll; les équations horaires de son mouvement.
+@ .4) Calcule la durée At, de la descente.
+© En réalité, sur AB existent desforcés de frottements équivalentes aingiforce unique £, colinéaire               S C—
+
+
+
+
+   aV etde valeur f constante.
+  Afin de déterminer la valeur de f, on reléve a intervalle             réguliers, les positions G, de (5).       SR
+
+
+
+
+  On obtient le tableau
+  suivant :                                      \ oy Q \
+
+
+
+                                                                                                                  R
+
+
+
+
+                                               T -
+@.I) Calcule v; au passage en G, a ladate’t; puis complétele tableau.
+©-2) Construis la courbe v =4(t).
+©-3) Détermine I'accélér du solide en utilisant la courbe précédente.
+©.4) Calculer: o
+©-4.1) La valeur dexf.                                                                                            i
+©.4.2) La vite              en B.                                                                                 ;
+© () aborde le plan'borizontal BC avec la méme I'accélération qu’en2:3°).
+@.1) alcule la distance d parcourue sachant que V¢ =10m /s.
+         kermin@la durée At, du parcours.
+
+
+                                      _exercice 2
+Un skieur parcourt une céte inclinée d’un angle o = 40° sur I’horizontale.
+
+Au sommet O de cette cote, sa vitesse a pour valeur v, = 12m/s.
+Aprés le point O se présente une descente inclinée d’un angle
+B = 45° sur I'horizontale. Le skieur accomplit un saut et reprend
+contact avec la piste au point C.
+
+© Etablir 'équation de la trajectoire du shieur.
+© Déterminer les coordonnées du point C. (g =10m/s2).
+© Calculer la durée du saut et la longueur OC.
+                                                              00987 00 00080 9 00 Ai
+                                                                                     D
+                               500                    A I
+
+
+
+
+ Partie 6
+Au point P situé a une hauteur h =2,7 m au dessus
+du sol,une balle de tennis, assimilée & un point
+ matériel, est frappée avec une raquette, elle part de
+ ce point &instant pris comme origine des dates (t=0)
+ avec une vitesse Vi de valeur 25 m.sTM (figure 3).
+ Le filet a une hauteur ho = Im est placé & une distance
+ €=12mdeO.
+
+
+ 0 Déterminer I'équation de la trajectoire de la balle dans le repére (O, 7, k Y
+ © La balle franchira t=elle le filet ? $i oui, a quelle distance derriére le filet re}o pbeérg
+    balle sur le sol.
+
+                                           exercice 3
+Un caqcadeur ,quittant un pointA sur un plan horizontal veut sate
+ terrasse horizontale EF d’un immeuble . Il utilise un trempin BOC forgnant TMTM
+ sol horizontal ABCD. Et placé a la distance CD de I'immeuble (OC et sont les parois
+verticales ). La masse du systéme (automobile ~ pilote ) é unétonne .
+On etudiera le mouvement du centred’inertie G de I'ens
+Pour simplifier le probleme on considerera les frottements existants dans la phase
+
+ vitesse VJ et qu'il est confondu avec le poit E ;"w%n donne g =10 m.s2
+aérienne et on admettra qu’a la date initiale le centpend'in: quitte le point O avec une
+
+
+
+
+[3 %) ler la valeur de I'angle a et la vitesse Vo en m.sTM et en km.h-1 pouf’que le
+      sy§teme arrive au point E avec un vecteur vitesse V; horizontale.
+       Ondonne CD=15m DE=10metOC=8m.
+ ©.2) Calculer la valeur de la vitesse V_E' de I'arrivée de I'automobileen E .
+ @ En considérant qu’une fois I'automobile sur la terrasse les frottements sont équivalents a
+     une force constante f paralléle au déplacement et de valeur f = 500 N.
+    Calculer la valeur de la force de freinage qui permettra au véhicule de s’arréter apré
+                                                                                           s      un
+    trajet EF =L = 100m.
+

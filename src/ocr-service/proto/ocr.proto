@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package bac.ocr;
+
+option go_package = "github.com/bac-unified/agent/pkg/ocr;ocr";
+
+service OCRService {
+    rpc ProcessImage(ImageRequest) returns (OCRResult);
+    rpc ProcessPDF(PDFRequest) returns (PDFResult);
+    rpc ProcessBatch(BatchRequest) returns (BatchResult);
+    rpc GetMetrics(Empty) returns (Metrics);
+}
+
+message Empty {}
+
+message ImageRequest {
+    bytes image_data = 1;
+    string language = 2;  // "fra+eng" default
+}
+
+message OCRResult {
+    string text = 1;
+    double confidence = 2;
+    string source = 3;     // "tesseract-lstm", "tesseract-legacy"
+    int64 processing_time_ms = 4;
+}
+
+message PDFRequest {
+    bytes pdf_data = 1;
+    bool extract_pages_parallel = 2;  // default true
+}
+
+message PDFResult {
+    repeated OCRResult pages = 1;
+    int32 total_pages = 2;
+}
+
+message BatchRequest {
+    repeated ImageRequest images = 1;
+}
+
+message BatchResult {
+    repeated OCRResult results = 1;
+    int64 total_time_ms = 2;
+}
+
+message Metrics {
+    int64 requests_total = 1;
+    double processing_duration_avg_ms = 2;
+    int64 batch_size_avg = 3;
+    int64 errors_total = 4;
+}

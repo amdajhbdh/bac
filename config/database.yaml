@@ -1,0 +1,25 @@
+database:
+  url: "postgresql://neondb_owner:npg_ubkCLmerS03Z@ep-fragrant-violet-ai2ew4vx-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require"
+  max_connections: 10
+  idle_timeout: 30000
+  pooler_mode: "transaction"
+
+ai:
+  ollama_endpoint: "http://localhost:11434"
+  model: "minimax-m2.5:cloud"
+  temperature: 0.3
+  max_tokens: 1024
+
+storage:
+  endpoint: "http://localhost:3900"
+  region: "garage"
+  access_key: "garage_test_key"
+  secret_key: "garage_test_secret"
+  bucket: "bac-unified"
+  local_dir: "./data/storage"
+
+features:
+  predictions: true
+  animations: true
+  gamification: true
+  leaderboard: true

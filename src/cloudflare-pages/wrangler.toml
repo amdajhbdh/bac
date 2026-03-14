@@ -1,0 +1,9 @@
+name = "bac-unified"
+compatibility_date = "2025-02-04"
+
+[site]
+bucket = "."
+
+[env.production]
+branch = "main"
+vars = { ENVIRONMENT = "production" }

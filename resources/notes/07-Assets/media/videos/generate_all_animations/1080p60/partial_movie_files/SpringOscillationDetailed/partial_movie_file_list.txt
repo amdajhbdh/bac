@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2257293077_281616563_223132457.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_4018079896_1893880087.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_1621517571_3764506545.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_4096001305_1851508194.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_1569901674_4230007163.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_322533159_2092323827.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_2489251905_2993510034.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_1864860802_3980468043.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_1006749967_2092323827.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_2831378712_2993510034.mp4'
+file 'file:/manim/media/videos/generate_all_animations/1080p60/partial_movie_files/SpringOscillationDetailed/2135761390_2872842549_477968555.mp4'

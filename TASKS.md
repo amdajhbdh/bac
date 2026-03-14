@@ -1,0 +1,1 @@
+- i want that system to teach me what i need of french use all the previous bacs to give me words those i must translate to arabic and i should now there meaning and the bacs words stats

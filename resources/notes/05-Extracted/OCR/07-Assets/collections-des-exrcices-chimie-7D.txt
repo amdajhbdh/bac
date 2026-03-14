@@ -1,0 +1,2612 @@
+Collections des éxercices   1   Chimie
+Collections des éxercices                        2                            Chimie
+
+
+
+
+                                          Préambule
+Chers élèves
+J’ai l’honneur de mettre à votre disposition cet ouvrage dans le but d’apporter ma contribution pour
+faciliter l’accession à l’information permettant d’atteindre les objectifs définis en Classes
+Terminale. compte- tenu de l’excès d’informations lacunaires en circulation provenant de sources
+Qui ignorent le niveau réel des apprenants, Cette collection sera un outil d’appui approprie pour
+une meilleure acquisition des connaissances ciblées.
+
+
+ Dans cet ouvrage
+ Je précède chaque chapitre par un résumé essentiel du cours permettant à l’élève à traiter
+l’exercice de façon claire.
+ Je propose des exercices et des épreuves du baccalauréat de difficulté progressive
+Je corrige en détail les exercices avec des schémas clairs.
+J’organise la solution de chaque exercice selon les questions posées.
+
+
+
+Chers élèves :
+Pour résoudre les exercices Je vous conseille de :
+   • Revoir les résultats essentiels du cours.
+   • Bien lire l’exercice car la compréhension constitue la moitié de la solution.
+   • Mettre en évidence la réponse demandée
+   • Raisonner en utilisant le calcul littéral
+   • Lire la solution avec parcimonie si l’on ((sèche)) devant une question.
+   • Vérifier la solution trouvée avec la correction
+   • Comparer sa solution avec celle du livre peut-être votre solution est –elle plus simple.
+    Collections des éxercices                            3                             Chimie
+
+
+    Chapitre 1 :                          cinétique chimique
+    L’essentiel
+
+    Considérons une réaction         aA + bB                                      cC + dD
+
+
+•
+•   n0 = nrestant + nformée      réaction de formation
+•   n0 = nrestant + ndisparue réaction de disparition
+•              la quantité en matière solide
+
+•   n = CV la quantité en solution
+
+•            la quantité en matière gazeux               =24L/mol
+
+•           concentration molaire
+
+•             concentration massique
+                      . .ʃ
+•   C commerçiale =             d : densité   ∫e : masse volumique = 1000g/L.
+
+•   Vitesse d’une réaction :
+                                                ∆
+    *vitesse moyenne de formation                            =             s’exprime en mol/s ou mol L-1s-1
+                                                ∆
+
+    * vitesse instantanée de formation                           =
+
+
+
+
+                                                    ∆
+    * vitesse moyenne de disparition           =-                    =
+                                                    ∆
+
+    * vitesse instantanée de disparition            =-               = -
+    Collections des éxercices                         4                                 Chimie
+
+
+•   La vitesse d’une réaction diminue avec le temps
+•   Si le constituants du système chimique forment un seul phase et si la transformation se produit
+
+    a volume constant :
+
+•   Les facteurs cinétiques sont : le catalyseur ; la concentration et la température.
+•   Un catalyseur c’est une espèce chimique capable d’accéléré la réaction sans modifies les
+    résultats de la réaction.
+•   Tableau descriptif :
+
+                                               +                                                 +
+                                                                               ------                ------
+                   à ∀
+
+
+
+•   réactif limitant : est 1ère réactif qui disparu totalement. Si   <         A est le réactif limitant.
+•   Temps de demi - réaction : le temps nécessaire pour que le composé formé atteint la moitie de
+    sa valeur final.
+    Pour la réaction de disparition temps de demi - réaction est le temps nécessaire pour que le
+    composé disparu (réactif limitant) perd la moitie de sa valeur initiale.
+
+
+    Exercice 1
+    On veut étudier la cinétique de la décomposition de l’eau oxygénée en eau et dioxygène.
+    Dans tout l’exercice le volume molaire gazeux est        = 24L/mol.
+    A la date t=0 début de l’expérience la solution contient 0,06mol d’eau oxygénée et son volume
+    est ! =1L considéré comme constant durant l’expérience. Pour étudier l’avancement de la
+    réaction on mesure à pression et température constantes le volume de dioxygène " dégagé au
+    cours du temps.
+    1°) Exprimer en mol la quantité de dioxygène noté no2 formée à une date t en fonction de "
+    et Vm. Exprimer à la même date la quantité en mol d’eau oxygénée disparu puis la
+    concentration d’eau oxygénée restant noté C. C(exprimé en mol/l ).
+     t( min)       0    5       10      15       20         25        30      40         60
+      "   (L)      0  0 ,16    0,27    0,36     0,44        0,5      0, 54    0,6       0,68
+    C (mol/l)
+    2°) Compléter le tableau et tracer sur un papier quadrillé le graphe C = f(t)
+    3°) Définir la vitesse v(t) de disparition de l’eau oxygénée a la date t.
+    4°) Calculer V(t) en mol à la date t1=30min
+    5°) Calculer la vitesse moyenne de disparition de l’eau oxygénée entre les dates t1 =40min
+      et t2 = 60min.
+Collections des éxercices                        5                         Chimie
+
+
+Exercice 2
+On traite une masse m=2g de carbonate de calcium solide (         "# ) par un volume V=100mL
+d’une solution aqueuse d’acide chlorhydrique de concentration molaire C=0,2 mol.L-1. On
+observe la réaction lente modélisée par l’équation :
+      "# + 2$# "%→         %
+                             + " (g) + 3$ "
+Le dioxyde de carbone gazeux est récupéré par un dispositif approprié. On obtient la courbe de
+la figure1
+Données: dans les conditions de l’expérience : Le volume molaire des gaz :       =22,4L.mol-1
+M(      "# )=100 g.mol -1
+
+1)Vérifier que les quantités de matière initiales dans le mélange réactionnel à t=0s de    "# et
+d’ions $# "% sont & (       "# )=2.10-2 mol et     & ($# " )=2.10 mol.
+                                                          %      -2
+
+2) Montrer que l’ion $# "% est le réactif limitant.
+3) a) Définir la vitesse instantanée d’une réaction chimique
+    b) Déterminer la vitesse de cette réaction à la date t=20min.
+4) a) Définir le temps de demi-réaction.
+     b) Déterminer graphiquement sa valeur ' .
+c) En déduire la quantité des différentes espèces chimiques
+du mélange à cet instant.
+    d) Calculer le volume de " récupéré à cet instant.
+
+
+
+Exercice 3
+ On mélange une solution d’iodure de potassium KI de concentration C1 avec une solution
+d’eau Oxygénée H2O2 de concentration C2 en milieu acide. Cette réaction est lente et totale,
+son équation bilan est:                $ " + 2( +2$# "%→ 4$ " + I2
+On réalise 4 expériences suivant les conditions expérimentales précisées dans le tableau suivant
+:
+
+  Numéro de        C1* 10-2    C2 *10-2 mol.L-       Température du        Catalyseur
+ l’expérience      mol.L-1            1
+                                                      mélange (°c)
+
+
+       1               1             0,5                   40                  Fe2+
+       2              0,5           0,25                   20
+       3               1             0,5                   20                  Fe2+
+       4               1             0,5                   20
+
+1) On se propose d’étudier les vitesses V1,V2 , V3 et V4 de la réaction à la date t=0s
+respectivement pour les expériences 1, 2, 3 et 4.
+a- Définir un catalyseur..
+b-Définir la vitesse moyenne et instantanée de la réaction.
+c- Comparer, en le justifiant, les vitesses V1, V2 , V3 et V4.
+2) Représenter, sur le même graphique, les allures des courbes de l’évolution de la réaction au
+cours du temps en précisant pour chaque courbe l’expérience correspondante.
+3) Proposer une méthode expérimentale permettant d’augmenter la vitesse de la réaction dans
+l’expérience 2 en conservant les mêmes conditions du tableau..
+Collections des éxercices                        6                            Chimie
+
+
+Exercice 4
+On mélange à t=0s, V1= 30ml d’une solution de peroxodisulfate de potassium K2S2O8 de
+concentration C1= 0.1 mol.L-1Et V2 = 20ml d’une solution d’iodure de potassium KI de
+concentration C2= 0.2 mol.L-1
+1) Préciser les couples impliqués et écrire l’équation de la réaction redox.
+2) Le dosage du diiode formé au cours du temps a permis de tracer la courbe de figure 1.
+a) Calculer les quantités de matière des réactifs initialement introduits.
+b) Dresser le tableau descriptif de l’évolution du système chimique.
+3) a) définir la vitesse instantanée est calculer sa valeur à l’instant t=4min.
+b) Déterminer la vitesse moyenne entre les dates t1 = 4min et 7min.
+4) Déterminer le temps de demi réaction (t1/2) pour cette transformation.
+5) Donner la composition du mélange réactionnel à la date t = t1/2 (en mol.L-1) ?
+
+
+
+Exercice 5
+     La réaction entre l’eau oxygénée et les ions iodures en milieu acide est totale et lente dont
+                     l’équation s’écrit :      $ " + 2( + 2$# "% → 4$ " + I2
+  Trois expériences sont réalisées suivant les différentes conditions expérimentales précisées
+ dans le tableau.
+        Expériences                        A                    B                         C
+                                          25                   25                        40
+ Température (°C)
+                                          0,2                  0,2                       0,2
+ [$ " ] initial (mol.L-1)
+                                          0,2                  0,1                       0,2
+ [I-] initial (mol.L-1)
+                                           1                    1                         1
+[$# "% ] initial (mol.L-1)
+ A l’aide de moyens appropriés, on suit la variation de [I2] en fonction du temps au cours de
+ chacune des 3 expériences réalisées. Les résultats obtenus sont représentés par le graphe de la
+ figure ci-dessous
+ 1) Préciser les couples redox mis en jeu dans cette réaction
+ 2) Dire, en le justifiant si $# "% joue le rôle d’un catalyseur ou d’un réactif
+ 3) Attribuer, avec justification, chacune des courbes 1, 2et 3 à l’expérience correspondante.
+ 4) On considère l’expérience correspondante à la courbe1.
+ a) A quel instant la vitesse de la réaction est maximale ?
+ b) Exploiter cette courbe pour expliquer qualitativement (sans calcul) l’évolution de la vitesse
+ de cette réaction au cours du temps ?
+Collections des éxercices                       7                           Chimie
+
+
+Exercice n°6
+
+Deux groupes d’élèves veulent étudier l’évolution dans le temps de l a réaction d’oxydation des
+ions iodure ( par les ions peroxodisulfate ! ") dans deux conditions expérimentales
+différentes. L’équation de cette réaction est :
+
+                              (   +    ! ")     →    (    +    !"+
+
+Ils ont partie à t = 0 de la même mélange : 50ml d’une solution aqueuse de KI et de
+concentration
+         , - ./. 0 et 50ml d’une solution aqueuse de 1 ! ") et de concentration .
+Le groupe A suit l’évolution de la réaction à la température ambiante,
+par contre le groupe B suit l’évolution de la réaction dans
+ un bain marie dont la température est maintenue à T = 80°C. A l’aide d’un
+protocole bien approprié n’est pas décrit ici les deux groupes
+ont tracé les deux courbes qui traduisent l’évolution de
+l’avancement x au cours du temps sur le même
+graphique ci- dessous.
+1°) a- identifier la courbe tracée par groupe B. Justifier la réponse.
+     b- Préciser l’effet de la température sur le
+déroulement de la réaction chimique étudiée.
+2- a- Dresser le tableau d’avancement.
+Puis déterminer la valeur de 2
+   b – montre que ! ") est le réactif limitant. Et déduire la
+valeur de la concentration .
+3°) Déterminer la composition de chaque système chimique après un quart d’heure du départ de
+la réaction.
+4°) Déterminer la vitesse de la réaction dans chaque condition à la même date t = 15min.
+
+Exercice 7
+On oxyde à date t=0 un volume V1=100mL d’une solution S1 d’iodure de potassium (K+, I-) de
+concentration C1=4,64.10-2mol/L par un volume V2= 100mL d’une solution S2 d’eau oxygénée
+H2O2 de concentration C2=4.10-2mol/L. On ajout à ce mélange un volume négligeable d’acide
+sulfurique très concentré.
+1) Donner les couples redox mis en jeux et écrire l’équation de la réaction.
+2) Calculer à la date t=0 la concentration de I- et celle de $ " dans le mélange. Lequel de
+deux réactifs en excès.
+3) On détermine à différents instants la concentration de diiode formé, on obtient la courbe ci-
+contre.
+3.1 Calculer la vitesse moyenne de formation du diiode entre les instants t1=5min et t2=20min.
+3.2 Définir la vitesse instantanée de formation de I2 et la calculer à la date t=12,5min.
+En déduire la vitesse de disparition de I- à cette date. Comment évoluant ces vitesses en
+fonction du temps ? Quel est le facteur cinétique responsable?
+3.3Calculer la concentration des ions I- et de
+ H2O2 présents dans le mélange réactionnel à t=30min
+4) Détermine le temps de la demi-réaction.
+Collections des éxercices                         8                             Chimie
+
+
+Exercice 8
+On mélange 100 cm3 d’une solution S1 de peroxodisulfate de potassium K2S2O8 de
+concentration
+
+C1= 10-2 mol/l et 100cm3 d’une solution S2 d’iodure de potassium KI de concentration molaire
+
+C2= 2.10-2mol/l. Pour déterminer la quantité de diode I2 formé à différents instants, on prélève
+des échantillons de volume V0=10cm3 que l’on dose avec une solution S3 de thiosulfate de
+sodium de concentration C3=10-2mol/l.
+
+
+
+1) Ecrire les demi-équations relatives à l’oxydation de I- et à la réduction de S2O82- sachant que
+les couples redox mis en jeu sont I2/I- et S2O82- / SO4 2-
+
+2).Calculer les concentrations initiales [I-]0 et [S2O82-]0 dans le mélange initial.
+
+3) Calculer les nombres de mole de I- et de S2O82- initialement présents dans l’échantillon de
+volume V0
+
+4) Sachant que l’équation bilan de dosage est : I 2 +       2S 2O 3 2 − → 2I − + S 4O 6 2 −
+
+Montrer qu’à un instant t le nombre de mole de I- restant vérifie la relation :
+
+ n(I-)t =10-4 – 10-2.V      ou V est le volume de thiosulfate de sodium versé pour atteindre
+l’équivalence.
+
+5) La courbe ci-contre donne la représentation du nombre de mole de I- restant en fonction du
+temps.
+
+5-1) Définir puis déterminer la vitesse moyenne de disparition de ( entre t=0 et t=10min
+
+5-2) Définir puis déterminer la vitesse instantanée de disparition de ( à la date t=8min.
+Comment évolue cette vitesse au cours du temps ? Pourquoi
+Collections des éxercices                                              9                                  Chimie
+
+
+                                                          Les Solutions :
+
+Exercice1 :
+1°) Expression la quantité de dioxygène
+          "
+  "
+
+
+L’équation de disparition est : $ "                                               2$ " + O2
+
+
+                  ⟺
+ $ "          "                                                "
+                            $ "                    "
+
+
+ 4
+                                                  , 5
+                              "
+                                                                   comme le volume est constant et est égale 1L
+
+                                  "
+ 4
+                                                  , 5
+
+2°) compléte le tableau :
+
+t(min)             0        5                     10           15          20            25        30         40    60
+  " 607            0        0,16                  0,27         0,36        0,44          0,5       0,54       0,6   0,68
+C(mol/l)*10-2      6        4,6                   3,7          3           2,3           1,8       1,5        1     0,3
+3°) la courbe
+
+
+
+
+4°) La vitesse instantanée d’une réaction de disparition : est le coefficient directeur de la
+tangente à la courbe à l’instant considéré.                                          .
+
+à t=30min A (0 ; 3,5.10-2) B (30 ; 1,5.10-2).
+
+          6 ,- #,-7.   8
+                            5, 55.                 +
+                                                         .//0.     &       ,   .     -
+                                                                                         mol/L.S
+              #
+
+5°) la vitesse moyenne de disparition
+         ∆                    ,       #       ,
+                                                       #, -.       +
+                                                                       .//0.   &     -, )#.        5
+                                                                                                       .//0. !
+         ∆                        5       +
+Collections des éxercices                                                     10                                              Chimie
+
+
+Exercice 2
+1°)Verification :
+
+       "#                                .             ./ ;            $ # ";           .           , .         .         #
+                                                                                                                                .       ./
+
+2°) Le réactif limitant
+
+       "# + 2$# "%                                                        %
+                                                                              + " (g) + 3$ "
+
+       "#                                    $# ";       .         #
+                                                                                                              $# ";             "#
+                .            #
+                                 ;                                              #
+                                                                                        ;       .                     <
+
+  /.4= $# "% = / 4é                            &2 /& &             .
+
+ 3°)a°)la vitesse instantanée :
+
+                = /                  4&?é            / @A           & é             /           &è4 C 4 4 CC.4                      A   C=
+
+3°)b°)Calcul la vitesse
+
+deux points de la tangente : à t = 20min , n = 0,74.10-2 ; à t = 0min , n = 0,40.10-2
+
+       6 , D+            , +7
+                                                 , D.          +
+                                                                   .// &                    , )#.       5
+                                                                                                              .//!
+
+4°) a°) le temps de demi-réaction : est le temps necessaire pour que le composé formé atteint la
+moitié de sa valeur finale.
+
+4°) b°) valeur           '
+
+
+d’après la courbe                                       ./ ;              ,- ∗                 ⟹          '               & .
+
+4°) c°) la quantité des différentes espèces chimiques du mélange à cet instant
+
+                    "#           +           2$# "%                                            %
+                                                                                                    +          " (g) + 3$ "
+                    -2
+ t=0         2.10                            2.10-2                                     ------                 ------   ------
+ t∀          2.10-2-x                        2.10-2 – 2x                                    x                    x        3x
+t1/2        1,5.10-2                          10-2                                      0,5.10-2               0,5.10-2   1,5.10-2
+
+
+4°)d°) le volume de " récupéré à cet instant
+
+                    ⟹                            " .               , -.         .           , + = 0,112L.
+               "
+   "                                 "
+
+
+Exercice 3
+1°)a°) un catalyseur : c’est une espéce chimique capable d’accélérer la réaction sans modifier
+les résultats.
+Collections des éxercices                                      11                           Chimie
+
+
+1°)b°) la vitesse moyenne et instantanée de la réaction
+        ∆     ∆
+?                 est la variation de la quantitée de la matière( au la variation de la concentration)
+        ∆     ∆
+entre deux instants t1 et t2.
+
+1°)c°) Comparaison
+
+A) exp1 : T1>T2,T3 et T4 plus le cataluseur.                 B) exp3 : T2=T3=T4 mais C1>C2 plus le catalyseur
+
+C) exp4 : T2=T3=T4 mais C2>C1sans le catalyseur                     Alors V1>V3>V4>V2
+
+2°) La répresentation :
+
+
+
+
+Les allures des courbes de l’évolution au cours du temps
+
+
+
+
+3°)Proposition : Pour augmenter la vitesse de laréaction dans l’éxperience2 on ajoute un
+cataluseur comme Fe2+.
+
+Exercice 4
+1°) Les couples
+
+Les couples sont ! ") /!"+              et      I2/G
+
+ ! ") +                                 2 !"+
+
+ 2G                                     I2 +
+
+! ") + 2G                       2 !"+            +     I2
+
+2°) a°) n1=C1.V1 = 0, 1.30.         #
+                                         = 3.          #
+                                                           mol. ; n2 = C2V2 = 0,2.20.   #
+                                                                                            = +.     #
+                                                                                                         mol.
+
+2°) b°) Tableau descriptif.
+
+            ! ")        +     2G                 2 !"+      +     I2
+ à t =0     3. 10  K
+                             4.10 K
+                                                  -------         ---
+àt∀       3. 10 K - x      4. 10 K - 2x           2x            x
+3°) a°) La vitesse instantanée : est le coefficient directeur de la tangente à la courbe à l’instant
+considéré.
+Collections des éxercices                                    12                                      Chimie
+
+
+à t=4min soient A (2 ; 1,2.      ) et B (4 ; 2,2.     ) Deux points de la tangente.
+                  6 ,       , 7.
+   M+                                    -.      #
+                                                   .//0. &    ), ##.      -
+                                                                             .//0. =
+                          +
+
+3°) b°) La vitesse moyenne
+ C (4 ; 2,2.      ) et D (7 ; 3.      )
+                    6#     , .7
+                                                   , 5.       #
+                                                                       .//0.        &       +, ++.   -
+                                                                                                         .//0. =
+                          D +
+                                                                                (
+4°) Le temps de demi-réaction t1/2 : (                 ≈ #, ).           ⟹              ≈ , O.        ⟹ t1/2 ≈3,8min.
+5°) Les constituants du mélange:
+
+              ! ")       +      (                            2 !"+          +      I2
+à t =0          ,              0,2                            -------               ---
+à t1/2     8,1.              0,162                           3,8.               1,9.
+
+
+Exercice 5
+1°) Les couples
+ Les couples sont : $ " /H2O                ;    I2/P
+
+2°)4ô/ $# "% : $# "% joue le rôle d’un réactif car il est consommé par les réactifs.
+
+                      S >S        S    U ⟹
+3°)Attrubution : R                              >    >
+                    (      (    > (
+                                                               donc la courbe1 corresponde
+l’éxpérience C , la courbe2 corresponde l’éxperience A et la courbe3 corresponde l’éxperience
+B.
+
+4°) a°) La vitesse est maximale à l’instant t=0s.
+
+4°) b°)évolution de la vitesse : La vitesse dune réaction diminue avec le temps.
+
+Exercice 6
+    1) a) La courbe tracée par le groube B est la courbe 1 car la température est plus élevée en
+       expérience de groube B
+       b) La température augmente la vitesse de réaction.
+    2) a) le tableau d’avancement :
+
+                              (         +              ! ")             →               (      +              !"+
+         t=0                                                                        --------             ------
+         t∀                                                                           x                    x
+               2                    2                         2                         2                         2
+
+
+         D’après la courbe : 2              .           ./
+         b) le réactif limitant :
+          (8      ?      , -. - .       #
+                                                , -.              ./
+Collections des éxercices                                                      13                                                  Chimie
+
+                           2
+             (8            (          .              ./ ⟹        4
+                                                                 (8               (8       (8        , -.                     .                 , -.            ./
+
+           ⟹( =              é alors ! ") est le réactif limitant
+           D’après le tableau         2    ⟹             2     .                                                    ./
+                                                             .
+                          ? ⟹                                                     ,        ./
+                                ?    - .    #
+
+        3) la composition du mélange à t = 15min
+           pour la courbe 1 à t = 15min       , D.                                              ./
+
+                                             (       +                    ! ")              →                   (        +                      !"+
+           t=0                        , O.                            , #.                                  , D.                              , +.
+
+           pour la courbe 2 à t = 15min                                    , +.                 ./
+
+                                             (       +                    ! ")              →                   (        +                      !"+
+           t=0                        , D.                            , 5.                                  , +.                              , ).
+
+        4) la vitesse de la réaction
+           pour la courbe 1
+             à            - &                    , D.            ./                                                                       U
+           R
+            à              & 6C.&                &
+                                                 V
+                                                      4=         &.                    ?        "W          ≈ , +-.                  ./
+
+
+                  6 ,D              , +-7.
+?                                                    ≈ , D.               +
+                                                                               .// &
+                               -
+                               à             - &                  , +.                 ./                                                                   U
+pour la courbe 1 R
+                               à              & 6C.&              &
+                                                                  V
+                                                                       4=              &.                   ?       "W            ≈ , -.               ./
+
+                  6 ,+              , -7.
+?                                                    ≈ .              +
+                                                                           .// &
+                               -
+
+Exercice 7
+   1) Les couples
+Les couples sont $ " /$ "                                ;       I2/(
+
+$ " + 2H+ + 2                                      2$ "
+              2(                                    I2 + 2
+---------------------------------------------------------------------
+$ " + 2H + + 2I −                             2$ " + I2
+
+2-Calcul les concentrations initials
+                          +,5+.      8 .
+    (                                                ,# .                     .//0
+                  =
+
+
+                               +.    8 .                                                             $ "                 (8
+ $ "                                                 .                .//0 Et comme                             >             ⟹ $ " est le R.E.
+                      =
+Collections des éxercices                                                                                    14                                                                  Chimie
+
+
+                                                                                           ∆(               6       ,    -,-7        8#
+3-1 Calcul la vitesse moyenne                                             ?                 ∆                                -
+                                                                                                                                               #,            .               +
+                                                                                                                                                                                  .//0.      & .
+                                                                                                             (
+3-2 Calcul la vitesse instantanée                                                          ?                            : elle correspond à la valeur du coefficient
+directeur de la tangente à la courbe à l’instant considéré.
+Soient : A (0 ; 6.10-3) et B (20 ; 11.10-3).
+          6        57.       8#
+ (                    , -.    +
+                                 .//0. & .
+Déduire la vitesse de disparition d’iodure
+                                                             (                (8
+D’après l’équation bilan :                                                             ⟹               (8                (               . , -.                  +
+                                                                                                                                                                         -.           +
+                                                                                                                                                                                            .//0.       & .
+-Les vitesses diminuent au cours du temps.
+-Le facteur cinétique responsable est la concentration.
+
+3-3 Calcul la concentration des ions I- et de H2O2
+
+ (      r= (        0    - (             d       or (            d    =2 (                 donc (                   r= (         0    -2 (
+
+ à t=30mn ( =11.                                     #
+                                                         mol/L.               D’où (                     r = 2,32.                                  .                #
+                                                                                                                                                                             1,2.10-3mol/L.
+
+$ "           r=    $ "              0       - $ "                   d et     $ "                  d =          (       d’où $ "                    r=       $ "                 0-   ( .
+
+A t=30mn ( =11.10-3mol/l. Donc $ " r = 2.10-2 -11.10-3= 9.10-3mol/L.
+                                                (
+4- Le temps de demi-réaction t1/2 : Im≈ , ). #
+                                               ⟹ ≈ -, O.       #
+                                                                 ⟹ t1/2≈7min.
+
+Exercice 8
+1°) Les demi-équations électroniques et l’équation bilan.
+
+ ! ") +                                                               2 !"+
+
+ 2G                                                                    I2 +
+
+! ") + 2G                                                    2 !"+                 + I2
+
+2°) Calcul les concentrations initials
+                                                 8 .
+X! ") Y                                                              -.                #
+                                                                                               .//0
+                                 =
+                                         .       8 .
+      (                                                                                    .//0
+                             =
+3°) Calcul les quantities initials
+  (8    ( .               . .                                             #                        +
+                                                                                                            ./.
+
+        ! ")8
+                         X! ") Y .                               -.            #
+                                                                                   .           .            #
+                                                                                                                        -.           5
+                                                                                                                                              ./.
+4°) La quantitée restante d’iodure
+                                                                                                                                                        (8               (
+                             4+                  ⟹           4 6(     7                                                 (8           (8       .4                                 ⟹     (8           (
+
+
+                                                                                               (                 ! "# 8                                 ! "#8
+ 4 6(     7                                               A 4 C 4                                                            ⟹
+                                                     V
+                        (8                   (                                                                                            (
+
+                                                                 ! "# 8
+  /.4=         4 6(      7               (8              .                                 (8                ! "#8                   (8             #.
+Collections des éxercices                                     15                               Chimie
+
+
+
+                                              4 6(   7                        .
+                                                                   +
+
+
+                                                                                   ∆       ∆
+5.1°) La vitesse moyenne d’une réaction de disparition : ?                                     est la variation de la
+                                                                                   ∆       ∆
+quantitée de la matière ( au la variation de la concentration) entre deux instants t1 et t2.
+A(0 ;10.10-5) ; B(10 ;2,6.10-5)
+
+         ∆        6 ,5   7   8-
+?                                     D, +.     5
+                                                     .// & .
+         ∆
+
+5.2°) déterminer la vitesse instantanée de disparition de ( : La vitesse instantanée d’une
+réaction de disparition est le coefficient directeur de la tangente à la courbe à l’instant
+considéré.                        .
+
+                                                                   6#,) )7.   8-
+à t=8min A (0 ; 8.10-5) B (8 ; 3,8.10-5).
+                                                                        )
+                                                                                   -. -.       5
+                                                                                                   .// & .
+
+La vitesse diminue avec le temps car la concentration d’I- diminue.
+
+
+
+
+Chapitre 2 :                                  chimie de solutions
+L’essentiel
+    I)       Définitions :
+
+Acide : selon Brönshted c’est une espèce chimique capable de céder proton H+ dans la
+solution.
+
+Base : selon Brönshted c’est une espèce chimique capable de capter proton H+ au cours de sa
+réaction.
+
+* Acide fort : dissout totalement dans l’eau.                      * Base forte : dissout totalement dans l’eau.
+
+*Acide faible : dissout partiellement dans l’eau.                  * Base faible : dissout partiellement dans
+l’eau.
+
+*pH d’une solution d’acide fort : C$                     /.    $# " %
+
+*pH d’une solution de base forte : C$                + + /.        "$
+
+* la dilution : est l’action d’ajouter de l’eau. L’objectif de la dilution est la diminution de la
+concentration.
+
+Mode opératoire :
+    Collections des éxercices                               16                          Chimie
+
+
+    Solutions : l’acide ou la base ; eau.
+
+    Matériels : pipette ; fiole jougé
+
+    On prélève un volume d’acide ou de base par la pipette on l’introduit dans la fiole on lui ajoute
+    de l’eau jusqu’à le trait de fiole.
+
+     On à n0 = n1 ⟺ C0V0 = C1V1
+     Si on dilue une solution d’acide fort 10 fois le pH augment par une unité.
+•
+    Le couple acide/base $ /
+          $       + $ "                         + $# " %     ;      $ / et $# "% /$ "
+    Les espèces chimiques dispersées dans la solution sont : $; ;"$ - ; $# "%
+     $# "%         C$
+                      ;       "$            C$ +
+
+
+    D’après la loi d’électro neutralité : $# "%                    + "$        or "$    ≪ $# " % ⟹
+
+               $# " %
+
+    D’après la loi de conservation de la matière                     ⟹     $
+                                                 8 . $ ";
+    •    . =            V
+                            é@A&/& 4 [              $
+                                                      #
+                                                            ; C[         /. [
+                                         8
+    •   Coefficient d’ionisation α=          .
+    II Dosage :
+    1-Dosage acide fort par une base forte ou base forte par un acide fort: dans les deux cas on a :
+    Equation du dosage :
+     $# "% + "$                       $ ". La solution Obtenu à l’équivalence est neutre C$ D.
+    A l’équivalence               ⟺                   é@
+•   Manipulation : * solutions utilisées : acide ; base et indicateur convenable.
+                    * matériels utilisées : bécher ; burette ; pH – mètre et agitateur magnétique.
+
+
+
+
+    2-Dosage acide faible par une base forte.
+
+    Equation du dosage          $ + "$                           + $ " la solution Obtenu à l’équivalence est
+    basique.
+    Collections des éxercices                                 17                           Chimie
+
+
+
+
+    A l’équivalence                ⟺                          é@
+
+                                                          8
+    Relation Henderson : C$         C[ + /. 6                 ).
+                                                          $
+
+
+                                                                      $
+                                        é@
+        A demi-équivalence Vb =              ; nB =           et                 et pH = pKa.
+
+
+
+
+     3-Dosage base faible par un acide fort.
+
+
+    Equation du dosage          + $# "%                            $ + $ " la solution Obtenu à l’équivalence
+    est un acide.
+
+    A l’équivalence                ⟺                          é@ ;
+                                                          8
+    Relation Henderson : C$        C[ + /. 6                  ).
+                                                          $
+     A demi-équivalence Va =
+                                   é@
+                                        ; nA =        ;        $           et pH = pKa.
+
+•   Les indicateurs colorés : sont des réactifs dont la couleur depent du pH (couleur forme acide
+    différent du couleur de forme basique).
+
+                  Indicateur                      Teinte                  Zone de virage            Teinte
+                 Hélianthine                      Rouge                    3,1 - 4,4                Jaune
+                     BBT                          Jaune                      6 - 7,6                 Bleu
+             Phénolphtaléine                     Incolore                   8,1 - 1O                Rouge
+
+
+    Exercice 1
+     Rappeler la définition d’une base forte. Donner des exemples.
+    2. On prépare une solution aqueuse S1 en dissolvant 16.10-2 g d’hydroxyde de sodium dans un
+    litre d’eau pure.
+    2-1 Ecrire l’équation de la dissolution dans l’eau.
+    2-2 Calculer la concentration C1 de cette solution.
+    On donne: Na=23 g/mol; O=16g/mol; H=1g/mol.
+Collections des éxercices                        18                                Chimie
+
+
+2-3. En déduire la valeur du pH1 de cette solution.
+3. On prend un volume V1= 20 ml de la solution précédente et on lui ajoute un volume Ve d’eau
+pure pour obtenir une nouvelle solution S2 de pH = 11
+3.1 Donner le nom de cette opération.
+3.2 Calculer le volume Ve.
+
+
+Exercice 2
+I) Une solution S0 d’acide chlorhydrique a un pH = 2,3. A l’aide de cette solution, on souhaite
+préparer V1= 1000ml de solution S1 ayant un pH = 3.
+
+   Calculer les concentrations de S0 et S1.
+
+   Décrire les diverses étapes de cette préparation ; citer le matériel utilisé.
+
+II) On dispose d’une solution S0’ d’hydroxyde de sodium de concentration C0 = 5 .10-2 mol/l. On
+prépare par dilution, 100ml d’une solution S1’ en diluant vingt fois S0’.
+
+   Calculer le volume V0 utilisé de S0’ ; et décrire les diverses étapes de la préparation de S1’.
+
+   Déterminer, à 25° C, les pH de S0’ et S1’
+
+Exercice n°3
+L’acide nitrique HNO3 est un acide fort ;
+
+1.1 Ecrire l’équation bilan de la réaction de dissolution de l’acide nitrique dans l’eau.
+
+1.2 Un flacon commercial de 1L d’acide nitrique de densité 1,2 contient en masse 76% de
+HNO3. Quelle est la concentration C de l’acide nitrique ?
+
+1.3 On veut préparer 2L de solutions de HNO3 de pH=1,5 Quel volume de solution commerciale
+faut-il utiliser pour cela ?
+
+2. On dissout 2,46g de cristaux d’éthanoate de sodium $# ""Na dans 0,3L d’eau distillée.
+
+2.1Calculer la concentration de la solution ainsi obtenue.
+
+2.2 Le pH de cette solution vaut 8,9 à 25°C, l’éthanoate de sodium est-il une base faible ou
+forte ? Justifier.
+
+2.3 Ecrire l’équation de la réaction entre l’éthanoate de sodium et l’eau. Préciser le couple
+acide mis en jeu dans la réaction
+
+Données : H : 1g/mol ; O : 16g/mol ; N : 14g/mol Na : 23g/mol          ʃ (eau)=1g/cm3
+
+Exercice 4
+Une solution d’ammoniac dans l’eau a un pH égal à 11,2 à 25°C.
+
+1/ Faire le bilan qualitatif et quantitatif des espèces chimiques dans la solution.
+Collections des éxercices                        19                           Chimie
+
+
+2/ Calculer la concentration initiale en ammoniac.
+
+Le pKa du couple ion ammonium-ammoniac sera égal à 9,2.
+
+Exercice 5
+Une solution aqueuse de chlorure d’ammonium de molarité 0,1mol/l a un pH égal à 5,1 à 25°C.
+
+1) Faire le bilan qualitatif et quantitatif des espèces chimiques dans la solution.
+
+2) Calculer le pKa du couple ion ammonium-ammoniac.
+
+Exercice 6
+On mesure le pH d’une solution S1 d’acide formique HCOOH à 1.10-2 mol/l, on trouve
+
+pH1 = 2,9. On dilue dix fois la solution S1, le pH de la solution S2 obtenue est pH2= 3,4.
+
+1. L’acide formique est-il un acide fort ? Justifier.
+
+2. Ecrire l’équation-bilan de la réaction de l’acide formique avec l’eau.
+
+3. Identifier le couple acide/base mis en jeu.
+
+4. Déterminer la concentration des espèces chimiques présentes dans la solution S1.
+
+En déduire le coefficient α1.
+
+p5. Déterminer la concentration des espèces chimiques présentes dans la solution S2.
+
+ En déduire le coefficient α2.
+
+6. Comparer α1 et α2. Conclure.
+
+Exercice 7
+Dans un bécher (A), on verse un volume V1=10 cm3 d’une solution (S1) d’un acide A1H de
+concentration molaire C1 et de pH1=2,7. Dans un autre bécher (B) on verse un volume V2
+=10cm3, d’une solution (S2) d’un acide A2H de concentration molaire C2 et de pH2= 1,5. On
+ajoute dans chaque bécher un volume V= 90 cm3 d’eau pure et on mesure le pH des nouvelles
+solutions (S’1) et (S’2), on trouve C$V #, - et C$V   ,-
+
+1. Montrer que A1H est faible et A2H est fort ?
+
+2. Sachant que C1 =2,5 10-2 mol/l
+
+a. Calculer la molarité des espèces chimiques présentes dans la solution (S1)
+
+b. En déduire le pKa du couple A1H/A1-
+
+3. Définir le coefficient d’ionisation α d’un acide. Calculer α pour chacune des solutions
+(S1), (S’1), (S2) et (S’2)
+Collections des éxercices                         20                             Chimie
+
+
+4. Etablir la relation : pour un acide faible
+
+
+
+Exercice 8
+A la température de 25°C et par dissolution de deux acides A1H et A2H séparément dans l’eau,
+on prépare deux solutions (S1) et (S2) de même concentration C1 = C2 de pH respectivement
+pH1 = 2,9 et pH2 = 2. On prélève 50 ml de chacune des deux solutions (S1) et (S2) et on lui
+ajoute 450 ml d’eau distillée. Les pH des nouvelles solutions sont respectivement pH1’ = 3,4 et
+pH2’ = 3.
+1°) a) Etablir l’expression du pH d’une solution aqueuse d’un monoacide fort en fonction de la
+concentration C de la solution.
+b) En déduire la variation du pH qui accompagne la dilution 10 fois d’une solution de
+monoacide fort.
+2°) a) Comparer les forces relatives des acides A1H et A2H et déduire que l’un est fort l’autre est
+faible.
+b) Calculer la valeur commune à C1 et C2.
+3°) On considère la solution de l’acide faible.
+a-Montrer que l’on peur écrire, avec une approximation (C= [AH]) : pH= (pKa - logC).
+
+b-Calculer le pKa de l’acide.
+c-A 20 ml de la solution de cet acide on ajoute un volume d’eau Ve, on remarque que le pH varie de 0,2.
+c-1- Dire si cette variation est une augmentation ou une diminution. Justifier.
+c-2- Calculer Ve.
+
+Exercice 9
+1. Le pH d'une solution S1 d'hydroxyde de sodium est 12. Combien de moles de soude a-t-on
+dissout dans un litre d'eau pour préparer cette solution ?
+2. L'acide éthanoïque est un acide faible de constante d'acidité ka = 1,6.10-5. La mesure du pH
+d'une solution S2 de cet acide donne 3,4.
+2.1 Ecrire l'équation de la réaction de cet acide avec l'eau.
+2.2 Calculer les concentrations des différentes espèces chimiques présentes dans la solution et
+en déduire la concentration initiale de la solution S2.
+2.3 Calculer le coefficient d'ionisation de cet acide.
+3. On mélange le volume v1 = 20cm3 de la solution S1 avec un volume v2 = 40cm3 de la solution
+S2.
+3.1 Quel est le pH de ce mélange? Comment appelle-t-on ce genre de solution? Quelle propriété
+remarquable possède ce mélange ?
+ 3.2 On ajoute une masse m de soude au mélange précédent le pH dévient 4,9
+ Déterminer la valeur de cette masse si on néglige la variation du volume.
+ On Donne: Na = 23g/mol; O = 16g/mol; H = 1g/mol.
+
+Exercice 10
+Collections des éxercices                     21                          Chimie
+
+
+On dissout 3,45g d'un acide carboxylique dans de l'eau pour obtenir 0,75L de solution Sa. On
+dispose dans un bêcher 30cm3 de cette solution que l'on neutralise progressivement par une
+solution Sb d'hydroxyde de sodium de concentration molaire volumique Cb = 0,1mol/L. Un pH-
+mètre permet de suivre l'évolution du pH en fonction du volume Vb de base versé. On obtient les
+résultats suivants :
+
+Vb (cm3) 0   5   10 15 20 24 28 30 32         34   36   40
+pH       2,4 3,4 3,6 3,7 3,9 4,3 5,0 5,5 10,9 11,4 11,5 11,7
+
+1 Tracer la courbe pH = f(Vb) .On donne 1cm→ 2cm 3 et 1cm→1 unité de pH
+2 Déduire de la courbe :
+2.1 Les coordonnées du point d'équivalence.
+2.2 La concentration initiale de l'acide carboxylique, en déduire sa masse molaire puis sa
+formule brute.
+2.3 Le pKa du couple acide base étudié.
+3 Pour un volume versé Vb = 28cm3 calculer les molarités des diverses espèces chimiques
+présentes dans le bêcher, calculer le pKa.
+
+4 Calculer les volumes Va de la solution Sa et Vb de la solution Sb nécessaires à la préparation
+d'un, volume de 75cm3 de solution dont le pH = pKa.
+
+Exercice 11
+Par dissolution de chacun des deux acides A1H et A2H séparément dans l'eau, on prépare deux
+solutions S1 et S2 de concentrations molaires respectives C1 =10-3mol/L et
+C2 = 72,4.10-3mol/L mais de même pH=3 à la température 25°C.
+1.1 Déterminer la molarité de chacune des solutions S1 et S2 en ions hydroniums.
+1.2 L'un de ces deux acides est fort; lequel? Justifier.
+1.3 Ecrire pour chacun des acides A1H et A2H l'équation de la réaction accompagnant sa
+dissolution dans l'eau.
+
+                               Couple acide/base            pKa
+                               $ ""$ / $ ""                 3,75
+                                $# ""$ / $# ""              4,75
+                                 $- ""$ / $- ""             4,86
+
+2 Déterminer le pKa du couple acide-base auquel appartient l'acide A2H et en déduire le nom et
+la formule semi développée de cet acide (voir tableau).
+3.1 A 50cm3 de la solution S2, on ajoute une solution diluée de soude de concentration molaire
+C.
+A)- Déterminer C sachant que pour atteindre l'équivalence, il a fallu ajouter progressivement
+40cm3 de cette solution basique.
+B)-Bien que l'on soit à l'équivalence, la solution contient encore des molécules A2H.
+
+Expliquer leur présence et en déduire le caractère de la solution obtenue à l'équivalence.
+3.2 On utilise maintenant 100cm3 de la solution S2 auxquels on ajoute progressivement 40cm3
+de la solution de soude utilisée précédemment. Déterminer le pH de la solution obtenue.
+Collections des éxercices                      22                           Chimie
+
+
+Exercice 12
+                                                                              -3
+1 On prépare une solution aqueuse Sa d’un acide AH de concentration Ca=10 mol/L.
+La mesure du pH de la solution Sa donne pH=3,9.
+1.1 Montrer que l’acide AH est un acide faible et écrire l’équation de sa dissolution dans l’eau
+pure
+1.2 Faire le bilan des espèces chimiques présentes dans la solution Sa et calculer leurs
+                                                              -
+concentrations. En déduire la valeur du pKa du couple AH/A .
+1.3 En considérant le tableau, identifier l’acide AH parmi ceux du tableau et classer les acides
+selon leur force croissante.
+
+     Acide              5 $-  ""$         $# ""$             $- ""$            $ ""$
+     pKa                    4,2             4,8               4,9                3,8
+
+
+
+1.4 Montrer que le coefficient d’ionisation de l’acide AH peut s’écrire sous la forme :
+
+2 On ajoute à un volume Va=20mL de la solution Sa un volume Vb=4mL d’une solution Sb
+d’hydroxyde de sodium de concentration Cb=10-2 mol/L. Le mélange obtenu a pour pH=3,8.
+2.1 Ecrire l’équation de la réaction entre les deux solutions Sa et Sb.
+2.2 On ajoute au mélange précédent un volume V de la solution Sb d’hydroxyde de sodium et on
+obtient un nouveau mélange dont le pH=pKa. Montrer que la valeur du volume V est
+
+
+
+
+Exercice 13
+ On dispose une solution A d’acide éthanoïque de concentration CA=0,1mol/l On ajoute sur
+500ml de A une quantité d’eau distillée pour obtenir un litre d’une solution B. On ajoute sur
+100ml de A une quantité d’eau distillée pour obtenir un litre d’une solution C.
+1-Calculer la concentration de B et C
+2-Classez ces trois solutions selon les valeurs de pH prévus.
+3-On mesure le pH de la solution B, pH=3,1 Déterminer les espèces chimiques dans la
+solution puis calculer ces concentrations.
+ 4-On ajoute sur 20ml de A 10ml d’une solution d’éthanoate de sodium
+Cb =0,1mol on obtient un mélange de pH=4,5 Déterminer les espèces chimiques dans la
+solution puis calculer ces concentrations.
+5-Déduire Ka et le pKa du couple ( $# ""$ / $# "" ).
+
+
+Exercice14
+On dissout 240ml d’ammoniac gazeux dans un litre d’eau pour obtenir une solution S0 dont
+pH=10,6
+1-Calculer C0.
+2-Donner la définition de la base selon Bronsted et écrire l’équation de dissolution d’ammoniac
+dans l’eau en précisant les couples intervenants.
+3-Montre que l’ammoniac est une base faible.
+4-Déduire pKa pour le couple Acide-Base. Vm=24L/mol.
+   Collections des éxercices                       23                             Chimie
+
+
+
+   Exercice15
+    On se propose de vérifier la masse d’acide ascorbique (Vitamine C) contenue dans un
+   comprimé      d’un produit du commerce «VITAMINE C 500». L’acide ascorbique est un
+   monoacide faible de formule C6H7O6H c’est à dire de la forme AH.
+
+   On écrase soigneusement le comprimé puis, avec la poudre obtenue, on prépare 100 cm3 d’une
+   solution S d’acide ascorbique. On se propose de doser la solution obtenue par une solution
+   d’hydroxyde de sodium de concentration molaire volumique 0,02 mol/L. Pour cela on prélève
+   10 cm3 de la solution S que l’on introduit dans un bêcher B et on ajoute de l’eau distillée de
+   façon à obtenir l’immersion de l’électrode combinée du pH-mètre.
+   I .Préparation :
+
+1) faire un schéma annoté du dispositif expérimental mis en œuvre pour le dosage (matériel,
+   solutions.)
+2) La solution d’hydroxyde de sodium de concentration 0,02 mol/L a été préparée juste avant son
+   utilisation en diluant avec précision une solution de concentration 0,1 mol/L. Indiquer le mode
+   opératoire sachant que l’ont peut disposer du matériel suivant : pipette jaugées : 10 et 20 cm3 -
+   fioles jaugées : 100, 250,500 cm3.
+   II. Dosage pH-métrique :
+
+   On suit l’évolution du pH lorsqu’on verse progressivement la
+
+   Solution d’hydroxyde de sodium 0,02 mol/L dans le bêcher B.
+
+1) Ecrire l’équation bilan de la réaction ayant lieu lors du dosage.
+   Le tracé du graphe pH = f(v) ci-contre
+
+   2. Quand dit –on qu’il y a équivalence lors d’un dosage acido-basique ?
+
+   3. Déterminer graphiquement les coordonnées du point d’équivalence
+
+   4. Déterminer graphiquement la constante d’acidité du couple AH/A-
+
+   (Acide ascorbique/ ion ascorbate).
+
+   5. A partir de VE déterminer la quantité de matière et la masse d’acide ascorbique contenue
+   dans un comprimé.
+
+   III. Dosage colorimétrique :
+
+   On peut réaliser un dosage de la solution S à l’aide d’un indicateur coloré.
+
+   Quel indicateur coloré, à choisir dans la liste ci-contre, pourrait-on utiliser ?
+
+   Justifier ce choix. Données : M(C) = 12g/mol ; M(O) = 16g/mol ; M(H)= 1g/mol
+Collections des éxercices                                     24                                  Chimie
+
+
+Exercice 16
+L’acide benzoïque est additif alimentaire présent dans certains boissons .C’est un acide de
+formule C6H5COOH.
+
+1. On réalise une solution aqueuse d’acide benzoïque à 2g/L .Ecrire l’équation-bilan de la
+réaction de l’acide sur l’eau et calculer, en mol/L, la concentration C de l’acide.
+
+2. la mesure de pH donne pH=3.Montre que l’acide benzoïque est un acide faible .Calculer son
+coefficient d’ionisation. Déduire la valeur de pKa du couple acide benzoïque/ion benzoate.
+
+3. L’acide benzoïque est-il un acide plus fort ou plus faible que l’acide acétique de pKa 4,75 ?
+
+M (H) =1g /mol; M(C) =12g/mol; M (O) =16g/mol.
+
+
+
+
+                                                     Les solutions
+
+Exercice 1
+
+
+1°) Rappel la définition d’une base forte :Une base forte est une base qui dissout totalement
+dans l’eau. NaOH, KOH….
+
+2.1°) L’équation de dissolution :NaOH                                    1 % + "$
+
+                                                                   5.        8
+2.2°) Calcul la concentration C1                                                   +.    #
+                                                                                              .//0
+                                                         =    =.        .+
+
+
+2 .3°) la valeur du pH1               C$       + + /.        "$     + + /. 6+.               #7
+                                                                                                     ,5
+
+3°) 1°) Cette opération est appelée la dilution.
+
+#°7 °7        / A/ / ?./A
+
+                           ⟹                       Avec            C$        +
+                                                                                 alors
+
+         +.   8# .         8# .
+                     8 +          .        #
+                                               #    /.
+Collections des éxercices                                                    25                                  Chimie
+
+
+Exercice 2
+I-1°) Calculer les concentrations de S0 et S1 :
+               C$                   ,#
+                                              -,        .       #
+                                                                        .//0.                 C$         #            #
+                                                                                                                          .//0.
+
+2°) On prélève un volume V0 d’acide par la pipette, on l’introduit dans la fiole jaugé de 1000ml
+et on lui ajoute de l’eau jusqu’au trait de fiole.
+
+II-1°) les diverses étapes de la dilution
+
+on sait que le facteur de dilution ]                                            donc        = 20 ⟹                        - /. On
+prélève un volume V0 =5ml de la solution !V par la pipette, on l’introduit dans la fiole jaugée
+de 100ml et on lui ajoute de l’eau jusqu’à le trait de fiole.
+
+II-2°) Calcul le volume V0 utilisé de S0’ :
+
+pH (S0’) = 14 + log(C0’) = 14 + log(5.10-2) = 12.69
+
+               -.     8 .-
+C1 =                                -.             +
+                                                             .//0 . ⟹ C$6! ^ 7              14 + log (   -.       +
+                                                                                                                      7      . #O.
+
+Exercice 3
+1.1°) L’équation de dissolution : HNO3 + $ "                                                       1"# + $# "%
+
+1.2°) Calcul la concentration commerçiale :
+                             . .ʃ            D5. , .
+C commerçiale =                          =                          +, +D .//0.
+                                                       .5#
+
+                                                                    +, +D .//0 U
+                         solution mèreR
+                                                                ?
+1.3°) Calcul
+
+                                                                        C$             ,-
+                                                                                             #, . 5           .//0U
+                         Solution filleR
+                                                                    0
+
+           .          #, 5.     .
+                                                       +, # /
+                          +, +D
+
+2.1°) Calculer la concentration
+                             ,+5
+C2 =                                          ,             .//0
+       !        . !      ) . ,#
+
+2.2°) nature de la base : L’éthanoate de sodium est une base faible car
+
+pH = 14 + log(0,11) = 13,04≠ C$ .                                   é
+
+2 .3°) L’équation de la réaction de l’éthanoate de sodium avec l’eau.
+
+   $# "" + $ "                                                           $# ""$ + O$
+Collections des éxercices                                               26                                  Chimie
+
+
+Le couple mis en jeu est $# ""$ / $# ""
+
+
+
+Exercice 4
+Les espèces chimiques existantes dans la solution sont : NH3,N$%
+                                                               + , O$ , $# " et $ "
+                                                                            %
+
+
+$# "%               C$                  ,
+                                                  5, #.                 .//0
+
+ "$                C$    +                  ,)
+                                                      , -).     #
+                                                                        .//0.
+
+D’après la loi d’électro neutralité : 1$%
+                                        + + $# "
+                                                 %
+                                                                                       "$        ⟹ 1$%
+                                                                                                     +         "$            $# "%
+
+$# "% ≪ "$               ⟹ 1$%
+                             + ≈ "$                           ≈ , -).           #
+                                                                                     .//0.
+
+                                                 1$#   1$#
+.     @A C$             C[ + /.                    % ⟹
+                                                                                    C$ C[
+                                                                                             ⟹ 1$#             C$ C[
+                                                                                                                          . 1$%
+                                                 1$+   1$%
+                                                         +
+                                                                                                                              +
+
+
+ 1$#                ,    O,
+                              . , -).             #
+                                                            , -) .//0
+
+    M 1$#   + 1$%                 , -) +               , -).                ", -O- .//0 .
+                                                                    #
+                +
+
+Exercice 5
+1°) Les espèces chimiques existantes dans la solution sont : NH3, N$%
+                                                                    + , C/ , O$ , $# " et
+                                                                                      %
+
+$ "
+
+$# "%               C$            -,
+                                                  D, O+# .          5
+                                                                            .//0
+
+ "$                C$    +             ),O
+                                                      , -)O.            O
+                                                                             .//0.
+
+D’après la loi d’électro neutralité : 1$%
+                                        + + $# "
+                                                 %
+                                                                                        /       + "$    avec       /
+ ,   .//0
+
+    1$%
+      +        /        + "$                     $# "%         , +          , -)O.          O
+                                                                                                 D, O+# .      5
+                                                                                                                       0,09999mol/L
+
+D’après la loi de conservation de la matière                            M 1$#        + 1$%
+                                                                                         + ⟹
+
+1$#                 1$%
+                      +             ,             0,09999=          -
+                                                                            .//0.
+
+                          1$#                                           -
+C[        C$       /.                       -,         /.                       O,
+                          1$%
+                            +                                  , OOOO
+
+Exercice 6
+1°) nature de l’acide
+
+L’acide formique est un acide faible car la dilution d’un acide fort dix fois augmente le pH par
+une unité.
+Collections des éxercices                                                 27                                 Chimie
+
+
+2°) l’équation-bilan de la réaction de l’acide formique avec l’eau
+
+$ ""$ + $ "                                            $ "" + $# "%
+
+3°) Le couple mis en jeu $ ""$/$ ""
+
+4°) Les espèces chimiques existantes dans la solution ! sont : $ ""$; $ "" ; O$ , $# "%
+et $ "
+
+$# "%               C$               ,O
+                                                      , 5.         #
+                                                                        .//0
+
+ "$            C$        +                ,
+                                                       D, O+              .//0.
+
+D’après la loi d’électro neutralité : $# "%                               $ ""          + "$          or "$      ≪ $# " %
+
+$ ""            $# "% = , 5.                           #
+                                                               .//0
+
+D’après la loi de conservation de la matière                              M $      ""    + $ ""$ ⟹
+
+$ ""$                        $ ""             =                    , 5.        #
+                                                                                      ), D+.    #
+                                                                                                      .//0
+
+le coefficient α1
+
+       $ ""                  , 5.             #
+a                                                           , 5%
+
+5°) Les espèces chimiques existantes dans la solution ! sont : $ ""$; $ "" ; O$ , $# "%
+et $ "
+
+$# "%               C$              #,+
+                                                  +.           +
+                                                                   .//0
+
+ "$            C$        +                ,5
+                                                           ,- .               .//0.
+
+D’après la loi d’électro neutralité : $# "%                               $ ""          + "$          or "$      ≪ $# " %
+
+$ ""            $# "% = +.                        +
+                                                       .//0
+
+D’après la loi de conservation de la matière                                    $ ""       + $ ""$ ⟹
+
+$ ""$                        $ ""             =            #
+                                                                   +.     +
+                                                                                O, 5.      +
+                                                                                               .//0
+
+       $ ""              +.         +
+a                               #
+                                              + %
+
+6°) comparaison
+
+a < c /        &/A &.           A                          /V &. &=     &.
+
+
+
+Exercice 7
+Collections des éxercices                                                                               28                                                           Chimie
+
+
+1°) Nature des acides :
+    V         V
+                  ⟹ le facteur de dilution k=10, le pH d’un acide fort doit augmenter par une
+unité, alors le pH de la solution S1 augmente par 0,55 et le pH de la solution S2 augmente par 1
+par conséquence A1H est un acide faible et A2H est un acide fort.
+
+2°) a°) Les espèces chimiques existantes dans la solution ! sont :                                                                                      $;       ; O$ , $# "% et
+$ "
+
+$# "%                          C$                       ,D
+                                                                       .               #
+                                                                                                 .//0
+
+ "$                        C$        +                           ,#
+                                                                           -,              .                 .//0.
+
+D’après la loi d’électro neutralité : $# "%                                                                        + "$                          or "$           ≪ $# "%
+
+                  $ # "% = .                        #
+                                                                 .//0
+
+D’après la loi de conservation de la matière                                                            M $        ""               + $ ""$ ⟹
+
+        $                                    = , -.                                .             #
+                                                                                                        . #.                        .//0
+
+b°) Calcul C[
+
+                   . $# " %                       $# " %                     6 .                  #7
+[                                                                                                              , D#.                    +
+                                                                                                                                            ⟹
+                     $                                $                        , #.
+
+C[ + /. [ + /.                                          , D#.                   +
+                                                                                               #, )
+
+3°) le coefficient d’ionisation α d’un acide
+
+              $ # ";            .    8#
+ a                     =
+                               ,-.       8         )%
+
+                    $# ";                                    .               ,-.           8 .                                                                         8#, -
+         aV                ^         ;        V
+                                                             ^                                              , -.           #
+                                                                                                                                    .//0 ⟹ aV                                8#    , +O%
+                                                                                                                                                                     ,-.
+
+                    $ # ";                    8C$
+        a                                     8C$                      %               &          2.4 =V &. &=                          .       /            .
+
+                   $# ";                            .                      8 ,- .                                                                                          8 ,-
+        aV             ^        ;        V
+                                                    ^                                             #, 5.                #
+                                                                                                                               .//0                 ⟹ aV                      8#
+                                                                                                                                                                 #, 5.
+        , D %
+
+                                                                                                                                                                           ⟺
+                                                                                8
+4°) démonstration pH= pKa + log                                                        avec                        a           et           $                    a
+                                                                                $
+
+                                         8                                             a                                            a
+C[            C$               log             = C$                   /.                               C$          /.                               ⟹
+                                         $                                                 a                                        6       a7
+
+                                                                                                                       a
+                                                                      C[                   C$          /.
+                                                                                                              6            a7
+Collections des éxercices                                                                29                                        Chimie
+
+
+Exercice 8
+1°) a)/’      C4 ==&.                     A C$ ;
+
+C$           /.         $# "% .
+
+b°) variation de pH
+
+Lorsqu’on dilue un acide fort 10 fois son pH augmente par une unité
+
+2°) a°) comparaison Plus le pH est petit plus l’acide est fort, donc A1H est l’acide faible et A2H
+est l’acide fort.
+
+b°) Pour un acide fort $# "%                                                 C$
+                                                                                  ; C2 = C1 =          C$
+                                                                                                            =              .//0.
+
+                                                                                                                                 $ 7⟺
+                                                                8
+                                                                    . $ # ";        $# ";          $# ";
+3°) a°) demonstration [                                                                                         ?     6 ≈                       /. [
+                                                                      $                 $
+
+
+           $# " %
+  /.                                  /.           $# "% + /.                          ⟺ efg         2C$ + /.              ⟹ eh         6C[         /.   7
+
+
+C$           6C[              /.          7
+
+
+B°) Calcul C[ :                       C[                    C$ + /.                     2.2,9+log                   #, )
+
+C-1) Cette variation est une augmentation car la dilution diminue la concentration et augmente
+le pH.
+
+                                                                     V6                                .
+C-2 Calcul                   ∶on a            .                                +       7⟹              ^
+
+
+
+La nouvelle valeur de pH est 2,9+0,2=3,1
+
+$# "%                        C$                   #,
+                                                                D, O+.             +
+                                                                                        .//0
+
+ "$                     C$        +                        ,O
+                                                                        , -                 .//0.
+
+D’après la loi d’électro neutralité : $# "%                                                        + "$             or "$        ≪ $# "%
+
+              $# "% = D, O+.                               +
+                                                                    .//0
+
+C$     C[ + /.                                    ⟹                                C$ C[
+                                                                                             ⟹         $                    C[     C$
+                                                                                                                                        ⟹
+                                          $                         $
+
+       $          D, O+.              +           #,) #,
+                                                                        #O, DO.          +
+                                                                                               .//0.
+   V
+                    +          $              D, O+.                    +
+                                                                            + #O, DO.          +
+                                                                                                     +D, D#.           +
+                                                                                                                            .//0.
+            8 .     .    8#
+                        8+                .            #
+                                                                       , O /. ( C≠ $ .                 é /&         /′ CC4.. &              &. 7.
+           +D,D#.
+Collections des éxercices                                                                      30                                         Chimie
+
+
+Exercice 9
+1°) Calcul nombre de mol :
+
+              =    C$       +
+                                .                   .                    ,            ./
+
+2°) 1°) l'équation de la réaction
+
+ $# ""$ + $ "                                                                          $# "" + $# "%
+
+Les espèces chimiques existantes dans la solution sont : $# ""$ ; $# "" , O$ , $# "%
+et $ "
+
+$# "%                   C$               #,+
+                                                         +.                  +
+                                                                                     .//0
+
+ "$                    C$    +                     ,5
+                                                                 ,- .                              .//0.
+
+D’après la loi d’électro neutralité :                                        $# ""                 + "$                 $# " %
+
+     $# ""                  $# "%                 "$             avec "$                       ≪ $# "% ⟹
+
+     $# ""                  $# "% = +.                       +
+                                                                     .//0
+
+         $# ""                                                                   $# ""
+/.                                  C$        C[ ⟹                                                                   C$ C[
+                                                                                                                              ;
+         $# ""$                                                                  $# ""$
+
+C[                /. [              /.            , 5.               -
+                                                                                 +, DO
+
+     $# ""$                  $# "" .                         C[              C$
+                                                                                      +.            +
+                                                                                                        .        +,DO #,+
+                                                                                                                            = O, ).   #
+                                                                                                                                          mol/L
+
+D’après la loi de conservation de la matière                                                   M    $# ""               +         $# ""$
+
+         +.        +
+                       + O, ).           #
+                                                         ,       .                    .//0.
+
+                                                                             $# ""8                 +.          8+
+2.2°) coefficient d’ionisation : a                                                                               8     #, O %
+                                                                                                    ,       .
+
+3.1°) pH de la solution
+
+           ⟹               ⟹ C$ C[           +, DO =./A &.          C. son pH ne change pas
+lorsqu’on ajoute une petite quantité d’acide au de la base au lors de la dilution modérée.
+
+3.2°) Les espèces chimiques dans la solution:
+
+Na ; $# "% $ ", "$ ; $# ""$, $# ""
+     +
+
+
+$# "% =                C$
+                            =        +,O
+                                                         , 5.                    -
+                                                                                      .//0.
+
+"$                  C$      +                O,
+                                                             D, O.                         .//0.
+                                                                                                                                                   .
+D’après la loi de conservation de la matière                                               V
+                                                                                                            $# ""           +      $# ""$              ⟹
+                                                                                                                                                   %
+Collections des éxercices                                         31                                             Chimie
+
+                                               V
+                                                           $# "" + $# ""$                                    5, 5D. #
+                                                                                                                        U⟹
+ V
+        5, 5D.       #
+                          .//0 k
+                                       $# ""                  $# ""$ . C[ C$                                 , ) $# ""$
+
+     $# ""$              ,O .      #
+                                       mol/L et           $# ""                 , ) $# ""$ = 3,73.                                  #
+                                                                                                                                        .//L.
+
+D’après la loi d’électro neutralité :                  $# ""          + "$               $# " % + 1 %
+
+1 %               $# ""         + "$               $# "% Avec "$                 ≪ $# " %
+
+1 %               $# ""            $# "%               #, D#.     #
+                                                                           , 5.            -
+                                                                                                    #, D .            #
+                                                                                                                          mol/L.
+
+     1 ;6 .       / 7= 1 % 6        +      7       1 "$ = #, D        .         .5 .               .+        ), O.
+                                                                            #                  #                            #
+                                                                                                                                g
+
+     1 ; 6&   & & / 7=                                                            .    .                .+       ).
+                                                                                                    #                       #
+                            1 "$    1 "$                        1 "$
+
+
+     1 ;6     l.A é 7=      1 ;6 .       / 7             1 ; 6&   & & / 7        6), O         )7                     ,O            .
+                                                                                                             #
+
+
+Exercice 10
+1°) La courbe
+
+
+
+
+2.1°) Les coordonnées du E : d’après la courbe :                           é@     #        /            C$m ≈ ), + .
+
+E (31 ; 8,4)
+
+ 2.2°) Calcul la concentration : à l'équivalence                                  ⟺                 é@                ⟹                        é@
+
+
+ , .#
+ #
+              ,    mol/L.
+
+                                                            #, +-
+              .     ⟹                                                       +5 / ./
+                                                   !       , . , D-
+                                                                                                                                        +5 #
+La formule générale d’acide carboxylique est                              $ " ⟺ + +#                             +5 ⟹                     +
+
+Donc la formule brute est HCOOH acide méthanoïque
+Collections des éxercices                                         32                                     Chimie
+
+
+    2.3°) Le pKa du couple acide base étudié.
+
+                                                                                       -, - /
+                                                                                é@
+à la demi-équivalence pKa =pH                 (graphiquement
+
+    /.4= C$ ≈ #, ) ⟹ C[                #, )
+
+3°) Calcul le pKa : Pour volume 28c                 #
+                                                        / C$           -
+
+Les espèces chimiques dans la solution: Na , $# "% , $ ", "$ ; $ ""$, $ ""
+                                                          +
+
+
+$# "% =         C$
+                        =    -
+                                  .//0.
+
+"$             C$       +         O
+                                      .//0.
+
+D’après la loi d’électro neutralité : $ ""                    + "$                    $# "% + 1 %
+
+$ ""            1 %          "$       + $# "% Avec "$                           ≪ $# "%
+
+                             , . )
+1 %                                         , +)         .//0.
+               +            # + )
+
+$ ""            1 % + $ # "%                  , +) +              -
+                                                                      ≈ , +) .//0
+
+D’après la loi de conservation de la matière                  V
+                                                                       $ ""            + $ ""$
+
+                             , .#
+.4     V
+                                              , -        .//0 ⟹
+               +             )+#
+
+$ ""$                       $ ""          , -            , +)               ,        # .//0
+
+           $ "" $# "%                 , +).         -
+[                                                          , 5.            +
+                                                                                ⟹ C[            /.   , 5.      +
+                                                                                                                   #, DO
+             $ ""$                       , #
+
++°7/ = ?./A         =            / =./A &. !                               / =./A &. !
+
+             +    D-                  U⟹#                                      D-
+R                                                       D- ⟹                           - /⟹              -     /
+    !& 6C$   C[ 7                                                              #
+
+
+
+Exercice 11
+1.1°) la molarité des solutions S1 et S2 en ions hydroniums
+
+Pour la solution S1 : $# "% =                 C$              #
+                                                                  mol/L
+
+Pour la solution S2 : $# "% =                 C$              #
+                                                                  mol/L
+
+1 .2°) Nature de l’acide
+
+pH1= -logC1= -log6           #
+                                 7 =3 est égale pH donné donc                          $ = A         &       2.4
+Collections des éxercices                                                      33                                          Chimie
+
+
+pH2= -logC2= -log6D , +.                    #
+                                                7 =1,14 est ≠ pH donné                              $ est un acide faible.
+
+1.3°) Les équations des dissolutions
+
+      $ + $ "                                                             + $# " %
+
+           $ + $ "                                                                 + $# " %
+
+2°) Calcul le pKa :
+
+ $# " %             C$                  #
+                                            .//0
+
+ "$            C$    +
+                                                    .//0.
+
+D’après la loi d’électro neutralité : $# "%                                             + "$               or "$           ≪ $# "%
+
+          $ # "% =          #
+                                        .//0
+
+             +       $ ⟹                    $                                      D , +.          #               #
+                                                                                                                        D , +.    #
+                                                                                                                                      mol /L
+
+           . $# " %             $# "% ²                       6       #
+                                                                          7²
+[                                                                                       , +.       -
+                                                                                                       ⟹ efg              opqfg       4.8-
+             $                      $                     D , +.               #
+
+
+D’après le tableau c’est la valeur du pKa du couple acide propanoïque / propanoate, sa formule
+développée est $#       $       ""$.
+
+3.1°) A) Calcul la concentration
+
+                                ⟺s
+                                                                                                               #
+                                                                                                   D ,+.           .-             #
+à l'équivalence                                      é@                   ⟹s                               +
+                                                                                                                        O , -.        mol/L.
+                                                                                           é@
+
+
+B) Explication
+
+ à l'équivalence toutes les molécules de $ sont transformées en ion    mais malgré tout on
+peut observer la présence de faible quantité de $ dans la solution selon :
+
+    +$ "                                             $ + "$                    la solution obtenue est une solution basique.
+
+3.2°) Le pH de la solution obtenue.
+                                #                         #                         #
+                 D , +.             .           .                 D, +.                    ./
+
+                          O , -.                #
+                                                    .+ .          #
+                                                                           #, 5 .              #
+                                                                                                   ./
+
+                 ⟹donc la solution obtenue est une solution tampon alors pH =pKa = 4,85
+
+Exercice 12
+1.1°) Nature et l’équation de dissolution de AH
+Collections des éxercices                                            34                                        Chimie
+
+
+L’acide est faible si son pH est différent de /.                               . −/.              #
+                                                                                                       # ≠ pH donné donc l’acide
+est faible
+
+ $ + $ "                                                 + $# "%
+
+1.2°) Les espèces chimiques existants dans la solution !sont : $;                                          ; O$ , $# "% et $ "
+
+$# "%             C$            #,O
+                                                , -.         +
+                                                                  .//0
+
+ "$             C$     +                ,
+                                                D, O+.                    .//0.
+
+D’après la loi d’électro neutralité : $# "%                                    + "$              or "$         ≪ $# "%
+
+             $# "% = , -.               +
+                                                .//0
+
+D’après la loi de conservation de la matière                          M        +           $ ⟹
+
+    $                  =        #
+                                            , -.         +
+                                                                 ), D-.           +
+                                                                                       .//0
+
+                                . $# " %               $# " %             6 , -.            +7
+                [                                                                                      , D).      -
+                                                                                                                      ⟹
+                                  $                       $                ), D-.           +
+
+
+C[           /. [          /.       , D).          -
+                                                             +, D+
+
+1.3°) Identification et classement de l’acide
+
+D’après le tableau l’acide AH est : acide éthanoïque                                  $#         ""$.
+
+Ordre de croissant :
+
+
+
+
+1.4°) démonstration
+         8        8                                                            $
+a               8 %   $             $
+                                            V
+                                                A 4 C 4 .                      8
+                                                                                             C[       C$
+                                                                                                           ⟹
+                            % 8
+
+
+
+                                                                 a
+                                                                           +          C[    C$
+
+
+
+
+2.1°) L’équation de la réaction entre les deux solutions Sa et Sb.
+
+    $#       ""$ + "$                                                $#        "" + $ "
+Collections des éxercices                                                   35                                  Chimie
+
+
+2.2°) démonstration
+
+Si le pH=pKa la solution est tamponnée                                                       6 +     7          ⟹
+
+
+
+
+Exercice 13
+1°) Calcul la concentration de B et C
+
+
+                                 ,            .//0 U                                   ? U
+Solution mèreR                                       Solution filleR
+                             -                /                                         0
+
+         .             , .-          .              #
+                                                          -.               .//0
+
+                                                   ./
+                                         ,                U solution filleR           ? U
+Solution mèrek                                 0
+                                               /                                       0
+
+         .             , .           .              #
+                                                                    .//0
+
+2°) Le classement: Plus la concentration est grande plus le pH est petit donc C$ < C$ < C$
+
+3°) Les espèces chimiques existants dans la solution ! sont : $;                                          ; O$ ; , $# "% et $ "
+
+$# "%              C$                    #,
+                                                        D, O+.      +
+                                                                           .//0
+
+ "$               C$    +                          ,O
+                                                            , -.              .//0.
+
+D’après la loi d’électro neutralité : $# "%                                       + "$             or "$       ≪ $# "%
+
+             $# "% = D, O+.                        +
+                                                         .//0
+
+D’après la loi de conservation de la matière                                           +      $ ⟹
+
+  $                      = -.                           D, O+.         +
+                                                                            +, O .            .//0
+
+4°) Les espèces chimiques existants dans la solution !sont : $;                                          ; O$ ; 1% , $# "% et $ "
+ $# "%          C$       +,-
+                               #, 5.     -
+                                             .//0
+
+ "$               C$    +                     O,-
+                                                         #, 5.               .//0.
+
+                       .                       , .
+1%                                                               #, ##.           .//0
+             !         +                         +
+
+                                               .                 , .
+  $#         ""                                                               #, ##.           .//0
+                             !                 +                  +
+Collections des éxercices                                                            36                                        Chimie
+
+
+                                              .                     , .
+    $#        ""$                                                                          5, 55.               .//0
+                                 !            +                       +
+
+5°) Calcul le pKa
+
+             $#    ""8 . $# ";            #,##.       8 .#,    5.       8-
+[                                                             8                      , -).           -
+                  $#    ""$                       5,55.
+
+
+C[            /. [               /.       , -).            -
+                                                                     +, )
+
+Exercice 14
+1°) Calcul la concentration :
+
+                                                                                               + .       8#
+             ; C.A4 / =               t                   ⟹                                                            mol/L
+         =                                                                            =.            +.
+
+2°) Définition de base forte et l’équation de dissolution d’ammoniac
+
+ Base : selon Brönshted c’est une espèce chimique capable de capter proton H+ au cours de sa
+réaction exemple : NaOH et N$#
+
+                                                                                                              1$%
+                                                                                                                +u       $ "'
+N $# + $ "                                      1$%
+                                                  + + "$ les couples sont                                         1$# et     "$
+
+
+3°) Nature de base ammoniac
+
+pH = 14 + log(CB) = 14 + log (                                7                  ≠          C$ .              é donc l’ammoniac est une base
+faible.
+
+4°) Les espèces chimiques existants dans la solution !sont : N$# : ; 1$%
+                                                                       + ; O$ ; , $# " et $ "
+                                                                                      %
+
+
+$# "%                   C$                 ,5
+                                                       ,- .                          .//0
+
+ "$                    C$    +            #,+
+                                                      #, O).                 +
+                                                                                     .//0.
+
+D’après la loi d’électro neutralité : $# "% + 1$%
+                                                +                                                        "$          or $# "% ≪ "$
+
+1$%
+  +               "$             #, O).           +
+                                                          .//0
+
+D’après la loi de conservation de la matière                                                 1$%
+                                                                                               + + 1$# ⟹
+
+1$#                     1$%
+                          + =.                         #, O).                    +
+                                                                                       O, 5.             #
+                                                                                                              .//0
+
+         1$# $# "%                    O, 5.         . ,- .
+                                                      #
+[                                                                                           5, -.               .
+           1$%+                                 #, O).   +
+
+
+C[            /. [                   /. 65, -.                      7        O,
+Collections des éxercices                                      37                                             Chimie
+
+
+Exercice 15
+1°) Dispositifs du dosage : Burette graduée, bécher, agitateur magnétique
+
+pH-mètre solution d’acide ascorbique et solution de hydroxyde de sodium
+                                                                               ,
+2°) Mode opératoire : le facteur de dilution k=
+                                                                           ,
+                                                                                        -       ?       -? ⟹ pv ewéoxyx   /
+
+par la pipette de 20ml on l’introduit dans la fiole de 100ml puis on ajoute de
+
+l’eau jusqu’au trait de fiole.
+
+II-1°) L’équation du dosage est : $ + "$                                                                +$ "
+
+2°) a l’équivalence                      ⟺                      é@
+
+
+ 3°) Les coordonnées du E : d’après la courbe :                       é@                + /         C$m ≈ D, 5 .
+
+E (14 ; 7 ,6)
+
+ 4°) La valeur du pKa
+
+                                                                                        D /         /.4= C$ ≈ #, O
+                                                                                   é@
+à la demi-équivalence pKa =pH                  (graphiquement
+
+⟹ efg          3,9
+
+ 5°) Calcul la masse         :
+
+  a l’équivalence                    =        é@     ,        . +.             #
+                                                                                        , ).        +
+                                                                                                         ./
+
+                                 .            , ).       +
+                                                             . D5      +O , ).                  #
+                                                                                                        +O , )
+
+III- L’indicateur coloré convenable : On pourrait utiliser le rouge de crésol car sa zone de
+virage contient le C$m .
+
+Exercice 16
+1°) L’équation de la réaction de l’acide benzoïque avec l’eau :
+
+ 5 $-   ""$ + $ "                        ⇌                          5 $-           "" + $# "%
+
+                                                                       ./
+           ;    ∶ = /       .            4    &.         ./ &4 ~         •;
+                                                                       0
+
+   : = /        .       4        &.          ==&@A € 0 •                   = /                 ==       ./ &4 6 ./7
+
+                , 5#.       mol/L
+
+2°) Calcule coefficient d’ionisation. Et la valeur de pKa
+C$     /.          /. 6 , 5#.        7    , D) ≠ C$ . é donc l’acide benzoïque
+Collections des éxercices                                 38                                Chimie
+
+                            C$                  8#
+est un acide faible    a                             8
+                                                         5, #%
+                                         ,5#.
+
+
+
+                                     a                            5, #.    8
+on sait que C[         C$   /.                   #       /.                    8 7   +, )
+                                 6       a7                   6    5, #.
+
+3°) Comparaison : Plus la valeurdu pKa est grande plus l’acide est faible , donc l’acide
+benzoïque est plus fort que l’acide acétique.
+Collections des éxercices                    39                   Chimie
+
+
+Chapitre 3 :                     chimie organique
+L’essentiel
+Les fonctions oxygénées :
+
+                                                   Formule
+     Fonction               Forme générale         générale      Nomenclature
+
+       alcool                  R—OH               CnH2n+2O          alcan-ol
+
+     Aldéhyde                                      CnH2nO           alcan-al
+
+
+
+       cétone                                      CnH2nO          Alcan-one
+
+
+      Acide                                        CnH2nO2     Acide alcan - öique
+   carboxylique
+
+
+       Ester                                       CnH2nO2     Alcanoate d’alkyle
+
+
+
+
+       Amine                                      CnH2n+3N        Alcan-amine
+
+
+
+       amide                                      CnH2n+1ON       Alcan-amide
+
+
+
+
+Chlorure d’acyle                                  CnH2n-1OCl   Chlorure alcan-oyle
+
+
+
+
+    Anhydride                                     CnH2n-2O3        Anhydride
+                                                                   alcanöique
+Collections des éxercices                        40                          Chimie
+
+
+
+
+*Identification des aldéhydes et des cétones :
+   Réactif                           Aldéhyde                        Cétone
+   2,4 DNPH                          Précipité Jaune                 Précipité Jaune
+   Schiff                            Rose                            Incolore
+   Liqueur de Fehling                Rouge                           Incolore
+   Tollons                           Dépôt argenté                   Incolore
+
+
+Les dérivées d’acides :
+
+* Chlorure d’acyle:
+ R—COOH + SOCl2                            R—COCl + HCl + SO2
+R—COOH + PCl5                              R—COCl + POCl3 + HCl.
+
+*Anhydride d’acide:
+
+        R—COOH + R—COOH                                R—CO---O---CO—R + H2O.
+
+
+
+*Esterification et hydrolyse d’un ester
+
+        Acide carboxylique + alcool                       ester +    l’eau
+
+        R—COOH +            R—OH                         R—COO—R + H2O
+à t= 0 :       n0               n0                         -------       ------
+
+à téq
+           #                #                              #             #
+Collections des éxercices                            41                                 Chimie
+
+
+*constant d’équilibre                                   *Rendement
+
+]          = 4.        A
+                                                       ‚                          = 4
+           & .       / ../                                           /^ = 4 =& / 4é     &.   =   .   /
+
+*Hydrolyse d’ester :
+
+        ester        + l’eau.                   Acide carboxylique + alcool
+
+R—COO—R + H2O                                      R—COOH +                R—OH
+à t= 0 :        n0               n0                        -------            ------
+
+à téq
+           #                 #                             #                  #
+
+
+
+
+*Stéréo-isomère
+
+ Stéréo-isomère de conformation :
+
+                                                                          Représentation de Newman
+        La molécule                   Représentation spatial
+
+                                                                        Forme décalé         Forme éclipsé
+
+
+
+
+        Ethane C2H6
+
+
+
+
+Stéréo-isomère de configuration :
+    Collections des éxercices                      42                          Chimie
+
+
+
+
+    L’énantiomère : les énantiomères sont des molécules isomères images l’une de l’autre dans
+    un miroir mais non superposables.
+
+•   Molécule chirale : c’est une molécule contient un carbone asymétrique.
+•   Carbone asymétrique : c’est un carbone lié à quatre groupes d’atomes tous différents.
+
+
+
+
+    Exercice 1
+    Donner les fonctions puis les noms des composés suivants :
+
+a) CH3-CH2-COOCH3           b) CH3-CO-CH2-CH3                c) CH3-NH-CH2-CH3
+   d) CH3-COO-CH2-C (CH3)3 e) CH3-CONH2                      f) C2H5-COO-C3H7
+
+    g) C2H5-COH                    h) CH3-CHOH-C2H5           i) CH3-C (CH3)2-CH2-COOH
+
+    j) CH3-COHCH3-C2H5             k) C2H5-CO-C3H7
+
+    Exercice 2
+    Donner les formules semi-développées des composés suivants :
+
+    a/ Pentanal ;    b/ 3-méthylpentanal     c/ 2-méthylpropanal d/ chlorométhanal
+
+    e/ hexan-3-one f/ 3méthylbutan-2-one g/ 3-éthylpentan-2-one
+
+    h/ acide -2-méthyl butanöique i/acide 2,4 diméthylpentanôique j/ acide propanöique
+
+    k/ éthanoate de propyle l/méthanoate de 1méthyl propyle m/ N-méthylpropanamine
+
+    n/ N-éthyl-N-méthyl propanamide        O/ N-méthyle, N-propylbutanamine.
+   Collections des éxercices                      43                           Chimie
+
+
+   Exercice 3
+   Un amine primaire B contient 23,7% d’azote.
+
+1) Ecrire la formule générale des amines primaire puis la formule brute de B.
+2) Donner les formules semi- développées possibles et leurs noms pour le composé B.
+3) Pour déterminer la formule d’amine utilisée on fait la réaction entre B et iodure de méthyle on
+   obtient après une série de réaction le triméthylpropylamonium déterminer la formule et le nom
+   d’amine utilisé.
+
+   Exercice 4
+   1 On mélange 36g de propanol et 36g d'acide éthanoïque.
+   1.1 Ecrire l'équation de la réaction en précisant son nom.
+   1.2 Calculer les nombres de mole n1 d'alcool et n2 d'acide mis
+    en présence initialement.
+   2 On suit l'évolution de la composition du mélange, on détermine
+    à divers instants le nombre de moles n d'acide éthanoïque restant.
+   Les résultats sont traduits par la courbe ci-contre
+   2.1Quelle est la composition molaire du mélange à l’équilibre ?
+   2.2 En déduire la valeur K de la constante d’équilibre.
+   3 Calculer la vitesse instantanée de formation de l’ester à l’instant t=30mn.
+   4 Calculer le temps de demi-réaction.
+   5 On voudrait obtenir 0,56mol d’ester. Dans ce but on ajoute x mole de propan-1-ol au mélange
+   précédemment en équilibre.
+   5.1Calculer x
+   5.2A partir de l’équilibre précédent, on élimine tout l’eau à mesure qu’il se forme. Quelle est la
+   composition du mélange final ?
+
+   Exercice 5
+   On considère un monoalcool A primaire dont l’oxydation ménagée donne en premier lieu un
+   produit B qui colore le réactif de Schiff puis un produit C qui rougit le tournesol.
+   1.1 Déterminer la formule brute du monoalcool A sachant que sa masse molaire moléculaire est
+   M=60g/mol.
+   1.2 Ecrire sa formule semi développée et préciser son nom.
+   1.3 Ecrire la formule semi développée du produit C et donner son nom.
+   2 Le corps C réagit avec un alcool A’ pour donner de l’eau et un
+   corps D de formule brute C5H10O2.
+   2.1 préciser la nature de la réaction qui a lieu entre C et A’.
+   Quelles sont les caractéristiques de cette réaction ?
+   2.2 Déterminer la formule brute de l’alcool A’ ; écrire sa formule
+   semi développée et donner son nom ; en déduire la formule semi
+   développée de D et préciser son nom.
+   2.3 Le mélange initial entre C et A’ est formé de 0, 75 mol de C
+   et de 0,75 mol de A’. La courbe ci-contre traduit les variations
+   du nombre de mole de D formé au cours du temps.
+   2.3.1 Donner la composition finale du mélange.
+   2.3.2 Définir la vitesse de formation de D et calculer sa valeur à t=15min.
+   Données: C : 12g/mol ; H : 1g/mol ; O : 16g/mol.
+Collections des éxercices                      44                           Chimie
+
+
+Exercice 6
+1 Quels alcools obtient-t-on par hydratation du but-1-ène ? On donnera leur formule semi
+développée, leur nom et leur classe.
+2 En fait il ne se forme pratiquement qu’un seul alcool A lors de cette hydratation.
+Cet alcool A est oxydé par l’ion dichromate en milieu acide pour donner un composé B. Ce
+composé
+B réagit avec la 2,4 dinitrophénilhydrazine (DNPH) mais est sans action sur le réactif de Schiff.
+2.1 Dans quel but utilise-t-on la DNPH lors de l’étude d’un composé ?
+Qu’observe-t-on pratiquement lorsque le test est positif.
+2.2 Répondre aux mêmes questions pour le réactif de Schiff.
+Pourquoi doit-on utiliser successivement ces deux réactifs ?
+2.3 Que peut-on affirmer dans le cas du composé B? Quelle est alors la formule semi
+développée de l’alcool A ?
+3 On a écrit, en répondant à la première question, la formule d’un autre alcool A’ (qui ne se
+forme qu’à l’état de traces lors de l’hydratation du but-1-ène).
+Quels sont les fonctions et les noms des produits organiques obtenus successivement par
+oxydation ménagée de ce deuxième alcool A’ par l’ion dichromate en milieu acide ? Ecrire les
+équations bilans correspondantes. On donne : Cr2O7-2 /Cr 2+
+
+
+Exercice 7
+On possède 5 flacons contenant des produits A, B, C, D et E tous différents.
+On ne connait pas les noms de ces cinq produits mais on sait que :
+• Chaque produit est un corps pur et sa molécule ne contient que 3 atomes de carbone, des
+atomes d’hydrogène et d’oxygène.
+• La chaine carbonée ne comporte pas de liaison multiple.
+• Il y’a deux alcools parmi ces cinq produits.
+1 .On réalise une oxydation ménagée par le dichromate de potassium en milieu acide des
+produits A et B et on obtient les résultats suivants : A conduit à C ou à D alors que B conduit
+uniquement à E. Cette expérience est-elle suffisante pour reconnaitre les produits A, B, C, D et
+E ? Justifier.
+2 Pour plus de précision on ajoute le réactif de Tollens (nitrate d’argent ammoniacal) aux
+composés C, D et E ; et on constate que seul le composé C réagit positivement.
+2.1 Identifier les cinq produits, donner leurs formules semi-développées et leurs noms.
+2.2 Ecrire les demi-équations électroniques et l’équation bilan de la réaction d’oxydation par le
+dichromate de potassium en milieu acide qui fait passer le produit A au produit C. Le couple
+redox mis en jeux dans le dichromate de potassium est Cr2O7-2 /Cr 2 +
+3 Le produit B réagit avec l’acide méthanoïque pour donner un composé G et de l’eau.
+3.1 Ecrire en utilisant les formules semi-développées l’équation de cette réaction. Préciser le
+nom de G.
+3.2 Donner les caractéristiques de cette réaction. Comment peut- on augmenter le rendement
+d’une telle réaction.
+Collections des éxercices                                       45                         Chimie
+
+
+                                                     Les solutions
+Exercice 1
+ a- propanoate de méthyl,           b) butan-2-one      c) N méthyl éthanamine
+d) éthanoate de 3,3-diméthylbuthyle e) éthanamide       f) propanoate de propyle
+g) Propanal      h) butan-2-ol      i) acide 3,3-diméthyl butanöique
+j) 2-méthyl butan-2-ol              k) hexan-3-one
+
+Exercice 2
+    A) $# 6 $# 7         $"
+    B)   $-    6 $# 7$      $    $"
+    C) $#     6 $# 7$     $"
+    D) 6 /7 $"
+    E) $#     $       "     $    $     $#
+    F) $#     "     6 $# 7$    $#
+    G) $#     "      6 $- 7$    $      $#
+    H) $#     $       6 $# 7$   ""$
+    I) $#     6 $# 7$     $     6 $# 7$   ""$
+    J) $#     $       ""$
+    K) $#     ""       $     $    $#
+    L) $ ""     6 $# 7$      $    $#
+    M) $# 1$        $       $    $#
+                                   „   $-
+    N)   $#      $          "     1∖ $
+                                           #
+                                                    „ # $D
+    O)   $#      $          $          $           1∖ $
+                                                          #
+
+
+Exercice 3
+1°) La formule générale des amines                   $        %# 1
+
+                 +.         #,D                      +.              -O
+                                  ⟹                            ≈
+                                                                                                    -O       D
+                                                                           ⟹12n +2n+3+14 =59 ⟹                   #
+                            ""                        #,D             ./                                 +
+
+
+Donc l’amine est # $O 1
+2°) Les formules possible sont :
+   $#     $      $     1$ propanamine                            $#         $   1$    $# N-méthyl éthanamine
+
+
+
+
+3°) La formule et le nom d’amine utilisé.
+
+
+B + $# ( (iodure de méthyl)                    Série de réactions
+
+
+Donc la formule de B est          $#           $          $          1$ propanamine
+Collections des éxercices                      46                           Chimie
+
+
+
+Exercice 4
+
+1.1°) L’équation de la réaction
+   $#     $      $      "$ + $#          ""$    ⇌    $#     ""- $               $      $# +
+$ "
+ Nom de la réaction est l’estérification
+1.2°) Calcul nombre desmols
+                 #5                               #5
+                         , 5 ./                         , 5 ./
+         # $) "
+                 5                         $# ""$ 5
+
+2.1°) La composition molaire du mélange à l’équilibre
+d’prés la courbe la quantité d’acide restant est 0 ,2mol
+ $#      $      $     "$ + $#          ""$         ⇌     $#       ""- $         $       $# + $ "
+à t=0        0,6mol               0,6mol                    -----                    ----
+à é@        0,2mol                  0,2mol                      O, 4mol                   0,4mol
+
+2 .2°) La valeur ]é@ de la constante d’équilibre
+           = 4.    A      , +. , +
+]é@                                 +
+          &  .   / ../    , . ,
+
+3°) la vitesse à l’instant t = 30min
+
+La vitesse à l’instant t = 30min
+De la courbe on a A (0 ; 0,4 ) ; B(60 ;0,13) d’où ⟹
+                             6 , # ,+7
+                                       +, -.    #
+                                                   .// &
+                                65     7
+
+
+4°) Le temps de demi réaction : t1/2 = 17min
+
+5.1°) Calcul x
+
+
+              Alcool        +    acide                ester     +   eau
+à téq1        0,2+x                  0,2                0,4          0,4
+ à téq2       0,04+x                 0,04               0 ,56        0,56
+
+à équilibre Les quantités d’ester et celle d’eau sont augmenter par 0,16mol et les quantités
+d’acide et d’alcool sont diminuer par 0,16mol
+           = 4.    A          6 , -57²
+]é@                                             +⟹         ,O    ./
+           & .   / ../   6 , + + 76 , +7
+
+5.2°) La composition du mélange final ?
+
+Si on continue à éliminer l’eau formée, l’équilibre se déplace dans le sens 1
+Et la composition du mélange à la fin de la réaction:
+    = 4 =O, 6 mol,   A =0;    / ../ =1,92mol    & = 0.
+Collections des éxercices                              47                              Chimie
+
+
+Exercice 5
+1.1°) La formule générale des alcools est $ % "
+                                                                    +
+     $ ; "     5 / ./ ⟹ 12n+2n+2+16=60⟹14n=42⟹                           # donc la formule
+                                                                      +
+d’alcool A est # $) "
+1.2 La formule semi développée et le nom A.
+A est un alcool primaire de formule semi développée : $#           $      $     "$ propanol
+1.3 La formule semi développée et le nom C.
+Le produit C est $#        $       ""$ acide propanoïque
+2.1- la nature de la réaction qui a lieu entre C et A’
+La réaction entre C et A’ est une réaction d’estérification, ses caractéristiques sont :
+Lente - limitée – athermique – réversible
+2.2 la formule brute de l’alcool A’
+L’alcool A’ est: $#        $    "$ éthanol
+Le compose D = $# $                  ""- $         $# propanoate d’éthyle
+2.3.1 La composition finale du mélange est : 0,5mol d’ester ; 0,5mol d’eau ; 0,25mol d’alcool,
+0,25mol d’acide
+2.3.2 Définition de la vitesse de formation            m
+                                                               O#.   +
+                                                                         mol/L.
+
+
+Exercice 6
+1 Deux alcools peuvent être obtenus par hydratation du but-1-ène $# $                        $      $
+• Le butan-1-ol (alcool primaire) $# $                  $       $      "$
+• Le butan-2-ol (alcool secondaire) $# $                  $6"$7         $#
+2.1 L’utilisation de la DNPH lors de l’étude d’un composé permet de mettre en évidence la
+présence du groupement carbonyle qui se trouve dans les aldéhydes et les cétones. Lorsque le
+test est positif on observe un précipité jaune.
+2.2 Le réactif de Schiff permet de distinguer les aldéhydes des cétones
+Lorsque ce test est positif on observe une coloration rose. On utilise successivement ces deux
+réactifs. D’abord avec la DNPH on cherche à mettre en évidence le groupement carbonyle. Si
+ce test est positif, on fait ensuite le test avec le réactif de Schiff. Si le test de Schiff est positif, on
+a un aldéhyde, s’il est négatif on a une cétone.
+2.3 Le composé B donne un test positif avec la DNPH mais un test négatif avec le réactif de
+Schiff :il s’agit alors d’une cétone. L’alcool A qui a donné une cétone est un alcool secondaire,
+il s’agit du butan-2-ol de formule semi -développée : $# $                    $6"$7        $#
+3 Par oxydation ménagée du butan-1-ol on obtient successivement du butanal (aldéhyde) puis
+de
+l’acide butanöique (acide carboxylique).
+• Pour passer du butan-1-ol au butanal, on a la réaction d’oxydoréduction suivante :
+Soient les demi-équations électroniques :
+
+  $#     $        $         $    "$     ⇌         $#       $         $        $" + 2$% + 2
+
+Cr2 "D +14$% + 6                         ⇌                      2Cr3+ + 7$ "
+D’où l’équation bilan :
+Cr2 "D +8$% +3 $#           $      $          $    "$ ⇌ 2Cr3+ + 7$ " + 3 $#             $       $    $"
+
+Pour passer du butanal à l’acide butanoïque, on a une réaction d’oxydoréduction suivante :
+Soient les demi-équations électroniques :
+Collections des éxercices                     48                          Chimie
+
+
+
+  $#    $       $      $" + $ "           ⇌    $#    $     $      ""$ + 2$% + 2
+Cr2 "D +14$ + 6 %
+                                          ⇌              2Cr + 7$ "
+                                                             3+
+
+
+
+D’où l’équation bilan:
+
+Cr2 "D +8$% + # $#          $       $     $" ⇌ 2Cr3+ + 4$ " + 3 $#        $        $    ""$
+
+
+
+Exercice 7
+1- L’expérience n’est pas suffisante car C et D ne sont pas identifiés.
+2.2°) A: alcool (I) $#      $       $     "$ propan-1-ol
+C: Aldéhyde $#        $       $" propanal
+D :a-carboxylique $#        $       ""$ a-propanoïque
+B : alcool (II) $#     $6"$7        $# propan-2-ol
+E : cétone $#       "     $# propanone
+2.2°)
+ $#      $       $    "$        ⇌                $#     $       $" + 2$% + 2
+Cr2 "D +14$% + 6                ⇌             2Cr3+ + 7$ "
+
+D’où l’équation bilan:
+
+Cr2 "D +8$% +3 $#            $      $     "$ ⇌      2Cr3+ + 7$ " + 3 $#        $       $"
+
+3-1 $ ""$ + $#              $6"$7       $# ⇌ $ "" $6 $# 7 + $ "
+
+G : $ "" $6 $# 7 méthanoate de méthyléthyle
+3-2 Caractéristiques : lente, athermique et limitée. On peut augmenter le rendement de la
+réaction en remplaçant l’acide par l’un de ses dérivés.
+Collections des éxercices           49           Chimie
+
+
+
+
+                            Tableau de matière
+Cinétique chimique                                        03
+Solution des éxercices                                    09
+Chimie de solution                                        15
+Solution des éxercices                                    24
+Chimie Organique                                          39
+Solution des éxercices                                    45
+Bibliographie                                             50
+Collections des éxercices             50         Chimie
+
+
+
+
+                             Bibliographie
+
+
+Chimie          (Terminale C et D).
+Série Dima-Dima
+Exercices corrigés BORDAS Terminale D.
+4ème année secondaire BAC Chimie. (Kounouz Edition).
+Clé BAC de Chimie.
+Les Sites :
+www.chimix.fr
+www.devoirat.net
+www.ipn.mr
+Collections des éxercices           51                Chimie
+
+
+
+
+                             Curriculum vitae
+Etat civil :
+Nom et prénom : Mohamed Saleck O/ Sghally
+Date et lieu de Naissance : 07/11/1973 Nouakchott
+Nationalité : Mauritanienne
+Contact : 46466374 Adresse électronique : saleksakaly4@gmail.com
+Diplôme:
+Diplôme de maîtrise en chimie faculté des sciences et
+technologie.
+
+Les formations :
+Formations linguistiques (FLENS)
+Session informatique (média max)
+Formations gestion de labo (cellule de promotion les matières
+scientifiques).
+Formation sur les mesures de sécurités au labo (lycée adame de
+Craponne Marseille France).
+Langues Parlées et écrites :
+-Arabe : très bien ;        -Français : bien ;   -Anglais : moyen
+

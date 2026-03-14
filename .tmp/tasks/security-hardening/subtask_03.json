@@ -1,0 +1,24 @@
+{
+  "id": "security-hardening-03",
+  "seq": "03",
+  "title": "Restrict CORS to specific origins",
+  "status": "pending",
+  "depends_on": [],
+  "parallel": true,
+  "context_files": [".opencode/context/core/standards/code-quality.md"],
+  "reference_files": ["src/api/main.go"],
+  "suggested_agent": "CoderAgent",
+  "agent_id": null,
+  "started_at": null,
+  "completed_at": null,
+  "completion_summary": null,
+  "acceptance_criteria": [
+    "CORS not allow wildcard '*'",
+    "Origins configurable via ALLOWED_ORIGINS env var",
+    "Default to specific domains in production",
+    "Code compiles without errors"
+  ],
+  "deliverables": ["src/api/main.go (updated)"],
+  "bounded_context": "security",
+  "module": "@bac/api"
+}
