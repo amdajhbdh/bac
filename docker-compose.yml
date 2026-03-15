@@ -1,0 +1,95 @@
+version: '3.8'
+
+services:
+  # Database
+  postgres:
+    image: postgres:15
+    container_name: bac-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: bac
+      POSTGRES_PASSWORD: bac_password
+      POSTGRES_DB: bac_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "bac"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # BAC Agent (ZeroClaw-based)
+  agent:
+    build:
+      context: ./crates/agent
+      dockerfile: Dockerfile
+    container_name: bac-agent
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "8081:8081"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - agent_data:/app/data
+
+  # BAC API Service
+  api:
+    build:
+      context: .
+      dockerfile: crates/api/Dockerfile
+    container_name: bac-api
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      agent:
+        condition: service_started
+
+  # OCR Service
+  ocr:
+    build:
+      context: .
+      dockerfile: crates/ocr/Dockerfile
+    container_name: bac-ocr
+    restart: unless-stopped
+    ports:
+      - "8082:8082"
+    volumes:
+      - ocr_data:/app/data
+
+  # Streaming Service
+  streaming:
+    build:
+      context: .
+      dockerfile: crates/streaming/Dockerfile
+    container_name: bac-streaming
+    restart: unless-stopped
+    ports:
+      - "8083:8083"
+
+  # Web Frontend
+  web:
+    build:
+      context: ./src/web
+      dockerfile: Dockerfile
+    container_name: bac-web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+volumes:
+  postgres_data:
+  agent_data:
+  ocr_data:
