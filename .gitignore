@@ -57,3 +57,4 @@ go.work.sum
 zig-out/
 *.o .vscode/
 *.tar.gz
+resources/

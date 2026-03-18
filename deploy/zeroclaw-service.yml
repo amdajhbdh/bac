@@ -1,0 +1,89 @@
+# ZeroClaw Service Configuration for BAC Platform
+# This file defines how ZeroClaw runs as a service in the BAC ecosystem
+
+version: '3.8'
+
+services:
+  zeroclaw:
+    build:
+      context: ../src/zeroclaw
+      dockerfile: Dockerfile
+    container_name: zeroclaw
+    restart: unless-stopped
+    environment:
+      # Provider configuration
+      - ZEROCLAW_PROVIDER=${ZEROCLAW_PROVIDER:-openrouter}
+      - ZEROCLAW_API_KEY=${ZEROCLAW_API_KEY:-}
+      - ZEROCLAW_MODEL=${ZEROCLAW_MODEL:-openrouter/auto}
+      
+      # Telegram configuration
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - TELEGRAM_DEFAULT_CHAT_ID=${TELEGRAM_DEFAULT_CHAT_ID:-}
+      
+      # WhatsApp configuration
+      - WHATSAPP_ACCESS_TOKEN=${WHATSAPP_ACCESS_TOKEN:-}
+      - WHATSAPP_PHONE_NUMBER_ID=${WHATSAPP_PHONE_NUMBER_ID:-}
+      - WHATSAPP_DEFAULT_TO=${WHATSAPP_DEFAULT_TO:-}
+      
+      # Gateway configuration
+      - ZEROCLAW_GATEWAY_HOST=${ZEROCLAW_GATEWAY_HOST:-0.0.0.0}
+      - ZEROCLAW_GATEWAY_PORT=${ZEROCLAW_GATEWAY_PORT:-42617}
+      
+      # Memory configuration
+      - ZEROCLAW_MEMORY_TYPE=${ZEROCLAW_MEMORY_TYPE:-sqlite}
+      - ZEROCLAW_MEMORY_PATH=${ZEROCLAW_MEMORY_PATH:-/data/memory.db}
+      
+      # Security
+      - ZEROCLAW_REQUIRE_PAIRING=${ZEROCLAW_REQUIRE_PAIRING:-false}
+      - ZEROCLAW_PAIRING_CODE=${ZEROCLAW_PAIRING_CODE:-}
+    
+    ports:
+      - "${ZEROCLAW_GATEWAY_PORT:-42617}:42617"
+    
+    volumes:
+      # Configuration directory
+      - ~/.zeroclaw:/root/.zeroclaw:ro
+      # Data directory
+      - zeroclaw-data:/data
+      # Logs
+      - ./logs/zeroclaw:/var/log/zeroclaw
+    
+    networks:
+      - bac-network
+    
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:42617/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 64M
+
+  # ZeroClaw gateway proxy (optional, for external access)
+  zeroclaw-proxy:
+    image: nginx:alpine
+    container_name: zeroclaw-proxy
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx/zeroclaw.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - zeroclaw
+    networks:
+      - bac-network
+
+volumes:
+  zeroclaw-data:
+    driver: local
+
+networks:
+  bac-network:
+    driver: bridge

@@ -1,0 +1,30 @@
+# Fly.io Configuration for BAC API
+# Deploy with: fly launch --config deploy/fly/api.toml
+
+app = "bac-api"
+
+kill_signal = "SIGINT"
+kill_timeout = 5
+
+[build]
+  context = "."
+  dockerfile = "crates/api/Dockerfile"
+
+[env]
+  PORT = "8080"
+
+[[services]]
+  internal_port = 8080
+  protocol = "tcp"
+
+  [[services.ports]]
+    handlers = ["http"]
+    port = 80
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
+
+[machine]
+  memory = "256"
+  cpu = 1

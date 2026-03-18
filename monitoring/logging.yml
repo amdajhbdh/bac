@@ -1,0 +1,46 @@
+# Logging configuration for BAC Unified services
+version: 1
+disable_existing_loggers: false
+formatters:
+  json:
+    format: '{"time":"%{time:2006-01-02 15:04:05.000}","level":"%{level}","service":"%{service}","message":"%{message}","file":"%{file}","line":"%{line}"}'
+  text:
+    format: '%{time:2006-01-02 15:04:05} [%{level}] %{service}: %{message}'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: json
+    stream: ext://sys.stdout
+  file:
+    class: logging.FileHandler
+    formatter: json
+    filename: /var/log/bac-unified/app.log
+    maxBytes: 10485760  # 10MB
+    backupCount: 5
+
+loggers:
+  ai-agent:
+    level: INFO
+    handlers: [console, file]
+    propagate: false
+  api-gateway:
+    level: INFO
+    handlers: [console, file]
+    propagate: false
+  ocr-pipeline:
+    level: INFO
+    handlers: [console, file]
+    propagate: false
+  postgres:
+    level: WARN
+    handlers: [console, file]
+    propagate: false
+  redis:
+    level: WARN
+    handlers: [console, file]
+    propagate: false
+
+root:
+  level: INFO
+  handlers: [console]

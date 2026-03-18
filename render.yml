@@ -1,0 +1,84 @@
+# Render.com Render.yaml Configuration
+# Deploys BAC Unified platform with messaging services
+
+services:
+  # API Gateway (Go)
+  - type: web
+    name: bac-api-gateway
+    env: docker
+    dockerfilePath: src/api-gateway/Dockerfile
+    dockerContext: .
+    envVars:
+      - key: PORT
+        value: "8080"
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_DEFAULT_CHAT_ID
+        sync: false
+      - key: WHATSAPP_ACCESS_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_NUMBER_ID
+        sync: false
+      - key: OBSIDIAN_VAULT_PATH
+        value: /vault
+    repo: https://github.com/your-org/bac-unified
+    branch: master
+    healthCheckPath: /health
+    numInstances: 2
+    region: oregon
+
+  # Messaging Service (Node.js)
+  - type: web
+    name: bac-messaging-service
+    env: node
+    repo: https://github.com/your-org/bac-unified
+    branch: master
+    buildCommand: cd .opencode && npm ci && cd .. && npm install
+    startCommand: npm run start:messaging
+    envVars:
+      - key: PORT
+        value: "3001"
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_DEFAULT_CHAT_ID
+        sync: false
+      - key: WHATSAPP_ACCESS_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_NUMBER_ID
+        sync: false
+      - key: NODE_ENV
+        value: production
+    numInstances: 2
+    region: oregon
+
+  # AI Agent Service
+  - type: web
+    name: bac-ai-agent
+    env: node
+    repo: https://github.com/your-org/bac-unified
+    branch: master
+    buildCommand: cd src/kilocode && npm ci
+    startCommand: npm start:agent
+    numInstances: 1
+    region: oregon
+
+  # Obsidian Sync Service (Worker)
+  - type: worker
+    name: bac-obsidian-sync
+    env: node
+    repo: https://github.com/your-org/bac-unified
+    branch: master
+    envVars:
+      - key: OBSIDIAN_VAULT_PATH
+        value: /vault
+    buildCommand: cd scripts && npm install
+    startCommand: node sync-obsidian.js
+    numInstances: 1
+    region: oregon
+
+# Database (PostgreSQL)
+databases:
+  - name: bac-db
+    databaseName: bac_unified
+    user: bac_user
+    plan: free

@@ -2,34 +2,23 @@
 tags: [physics, circuits, electricity, ohm]
 difficulty: easy
 status: active
+created: 2026-03-10
 ---
-> [!summary] 📊 Note Summary
-> 
-> | Property | Value |
-> |----------|-------|
-> | **Difficulty** | `easy` #difficulty/easy |
-> | **Formulas** | 0 |
-> | **Concepts** | 0 |
-> | **Related Notes** | 10 |
-> | **Word Count** | 334 |
-> | **Last Enhanced** | 2026-03-10 |
 
+# Ohm's Law
 
+← Back to [[Circuits MOC]]
 
 ## 📊 Note Summary
 
 | Property | Value |
 |----------|-------|
-| Difficulty | Easy |
-| Formulas | 0 |
-| Concepts | 0 |
-| Related Notes | 10 |
-| Word Count | 259 |
-| Last Enhanced | 2026-03-10 |
-
-
-
-# Ohm's Law
+| **Difficulty** | `easy` #difficulty/easy |
+| **Formulas** | 3 |
+| **Concepts** | 2 |
+| **Related Notes** | 5 |
+| **Word Count** | 334 |
+| **Last Enhanced** | 2026-03-10 |
 
 ## The Law
 The current through a conductor is directly proportional to the voltage and inversely proportional to the resistance.
@@ -92,35 +81,15 @@ R_total = 6 + 6 = 12 Ω
 1/R_total = 1/6 + 1/6 = 2/6
 R_total = 3 Ω
 
-## Related
+## Related Notes
 - [[Circuits - Kirchhoff Laws]]
 - [[Circuits - Power]]
 - [[Circuits - Practice Easy]]
+- [[Circuits MOC]]
+- [[Physics MOC]]
 
+---
 
-## 🔗 Related Notes
+← Previous: Voltage | Next: Power → 
 
-- [[VAULT-COMPLETION-REPORT.md|VAULT-COMPLETION-REPORT]]
-- [[00-Meta/QUICK-START.md|QUICK-START]]
-- [[00-Meta/MOCs/Physics MOC.md|Physics MOC]]
-- [[Resource Links.md|Resource Links]]
-- [[VAULT-COMPLETION-REPORT.md|VAULT-COMPLETION-REPORT]]
-- [[Animations/ANIMATION_SPEC.md|ANIMATION_SPEC]]
-- [[Resource Links.md|Resource Links]]
-- [[ANIMATION-SYSTEM-COMPLETE.md|ANIMATION-SYSTEM-COMPLETE]]
-- [[Animations/Biology/README.md|README]]
-- [[Resource Links.md|Resource Links]]
-
-
-> [!related] 🔗 Related Notes
-> 
-> - [[QUICK-REFERENCE.md|QUICK-REFERENCE]]
-> - [[Resource Links.md|Resource Links]]
-> - [[ANIMATION-SYSTEM-COMPLETE.md|ANIMATION-SYSTEM-COMPLETE]]
-> - [[QUICK-REFERENCE.md|QUICK-REFERENCE]]
-> - [[ANIMATION-SYSTEM-COMPLETE.md|ANIMATION-SYSTEM-COMPLETE]]
-> - [[Animations/ALL-EXERCISES-COVERED.md|ALL-EXERCISES-COVERED]]
-> - [[00-Meta/DEEP-CONTENT-STATUS.md|DEEP-CONTENT-STATUS]]
-> - [[00-Meta/MOCs/Chemistry MOC.md|Chemistry MOC]]
-> - [[01-Concepts/Math/Complex-Numbers/Complex Numbers - Operations.md|Complex Numbers - Operations]]
-> - [[Animations/ANIMATION_SPEC.md|ANIMATION_SPEC]]
+Back to: [[Circuits MOC]] | [[Physics MOC]] | [[INDEX]]

@@ -19,9 +19,9 @@ coefficient: 8/4
 
 ### Données
 
-| Couple | Potentiel |
-|--------|-----------|
-| $I_2/I^-$ | $E° = 0,54$ V |
+| Couple        | Potentiel     |
+| ------------- | ------------- |
+| $I_2/I^-$     | $E° = 0,54$ V |
 | $H_2O_2/H_2O$ | $E° = 1,77$ V |
 
 Équation: $H_2O_2 + 2I^- + 2H_3O^+ \rightarrow I_2 + 4H_2O$

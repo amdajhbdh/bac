@@ -1,0 +1,39 @@
+# Fly.io Configuration for BAC Messaging Service
+# Deploy Node.js messaging service as a Fly.io app
+
+app = 'bac-messaging'
+primary_region = 'cdg'
+
+[build]
+  builder = "docker"
+  dockerfile = "src/messaging/Dockerfile"
+
+[[services]]
+  internal_port = 3001
+  protocol = 'tcp'
+
+  [[services.ports]]
+    port = 80
+    handlers = ['http']
+
+  [[services.ports]]
+    port = 443
+    handlers = ['tls', 'http']
+
+  [[services.http_checks]]
+    interval = '30s'
+    timeout = '5s'
+    path = '/health'
+
+[env]
+  PORT = '3001'
+  NODE_ENV = 'production'
+  TELEGRAM_BOT_TOKEN = ''
+  TELEGRAM_DEFAULT_CHAT_ID = ''
+  WHATSAPP_ACCESS_TOKEN = ''
+  WHATSAPP_PHONE_NUMBER_ID = ''
+
+[[vm]]
+  memory = '512'
+  cpu_kind = 'shared'
+  cpus = 1

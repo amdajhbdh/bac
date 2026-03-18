@@ -64,6 +64,29 @@ docker-logs:
     docker-compose logs -f
 
 # ===========================================
+# FLY.IO COMMANDS
+# ===========================================
+
+# Deploy agent to Fly.io
+fly-deploy-agent:
+    fly deploy --config deploy/fly/agent.toml
+
+# Deploy API to Fly.io
+fly-deploy-api:
+    fly deploy --config deploy/fly/api.toml
+
+# Deploy OCR to Fly.io
+fly-deploy-ocr:
+    fly deploy --config deploy/fly/ocr.toml
+
+# Deploy streaming to Fly.io
+fly-deploy-streaming:
+    fly deploy --config deploy/fly/streaming.toml
+
+# Deploy all services to Fly.io
+fly-deploy-all: fly-deploy-agent fly-deploy-api fly-deploy-ocr fly-deploy-streaming
+
+# ===========================================
 # CLEANUP COMMANDS
 # ===========================================
 
@@ -86,6 +109,17 @@ test:
 # Run agent tests
 test-agent:
     cargo test -p bac-agent
+
+# Run tests with testcontainers (requires Docker)
+test-integration:
+    cargo test -p bac-test
+
+# Run all tests including integration
+test-all: test test-integration
+
+# Run tests in parallel
+test-parallel:
+    cargo test -- --test-threads=4
 
 # ===========================================
 # PROVIDER COMMANDS

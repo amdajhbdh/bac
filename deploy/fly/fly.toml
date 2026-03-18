@@ -1,0 +1,60 @@
+# Fly.io Configuration for BAC API Gateway
+# Deploy Go API gateway as a Fly.io app
+
+app = "bac-api-gateway"
+
+# Use the built-in fly launch defaults
+kill_signal = "SIGINT"
+kill_timeout = 5
+
+[build]
+  image = "bac-api-gateway:latest"
+
+[experimental]
+  allowed_public_ports = []
+  auto_rollback = true
+
+[[services]]
+  http_checks = [
+    { path = "/health", interval = "10s", timeout = "2s" }
+  ]
+  internal_port = 8080
+  protocol = "tcp"
+  script_checks = []
+
+  [[services.conobbies]]
+    grace_period = "1s"
+    hardening = true
+    keepalive_interval = "15s"
+    tcp_keepalive = false
+
+  [[services.ports]]
+    handlers = ["http"]
+    port = 80
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
+
+  [[services.tcp_checks]]
+    connect_timeout = "1s"
+    grace_period = "1s"
+    interval = "10s"
+    timeout = "2s"
+
+[env]
+  PORT = "8080"
+  TELEGRAM_BOT_TOKEN = "telegram_bot_token"
+  TELEGRAM_DEFAULT_CHAT_ID = "telegram_chat_id"
+  WHATSAPP_ACCESS_TOKEN = "whatsapp_token"
+  WHATSAPP_PHONE_NUMBER_ID = "whatsapp_phone_id"
+  OBSIDIAN_VAULT_PATH = "/vault"
+
+# Machine configuration
+[machine]
+  memory = "512"
+  cpu = 1
+  restart = {
+    policy = "always",
+    backoff_seconds = 10
+  }

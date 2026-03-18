@@ -1,6 +1,6 @@
 # 📚 Study Vault - Main Index
 
-**Last Updated:** 2026-03-10 01:37  
+**Last Updated:** {{date:YYYY-MM-DD HH:mm}}  
 **Status:** Active Study System
 
 ---
@@ -23,10 +23,11 @@
 
 > [!tip] Start Here
 > 
+> - **[[00-Meta/Dashboard|📊 Dashboard]]** - Vault overview & stats
 > - **[[00-Meta/START-HERE|🚀 Start Here]]** - New user guide
 > - **[[00-Meta/QUICK-START|⚡ Quick Start]]** - Getting started
 > - **[[QUICK-COMMANDS|📋 Quick Commands]]** - Command reference
-> - **[[00-Meta/Projects/BAC-Prep-2026|📊 BAC Dashboard]]** - Main tracking
+> - **[[00-Meta/Projects/BAC-Prep-2026|📈 BAC Progress]]** - Study tracking
 
 ---
 
@@ -62,14 +63,19 @@
 
 ```
 Study-Vault/
-├── 00-Meta/           # System files & MOCs
+├── 00-Meta/           # System files, MOCs, configs
+│   ├── attachments/   # Attached files
+│   ├── Scripts/       # Automation scripts
+│   └── .specify/      # Agent configurations
 ├── 01-Concepts/       # Core theory notes
 ├── 02-Practice/       # Exercise solutions
 ├── 03-Resources/      # PDF textbooks
 ├── 04-Exams/          # Past BAC exams
 ├── 05-Extracted/      # OCR content
 ├── 06-Daily/          # Daily notes
-├── 07-Assets/         # Images & diagrams
+├── 07-Assets/         # Images, media, PDFs
+│   ├── media/         # Images & diagrams
+│   └── PDFs/          # Textbook PDFs
 └── 08-Templates/      # Note templates
 ```
 

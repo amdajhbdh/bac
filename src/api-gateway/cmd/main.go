@@ -1,0 +1,227 @@
+package main
+
+import (
+	"bytes"
+	"context"
+	"encoding/json"
+	"io"
+	"log"
+	"net/http"
+	"os"
+	"os/signal"
+	"syscall"
+	"time"
+
+	"github.com/gin-gonic/gin"
+
+	 messaging "bac-unified/api-gateway/internal/messaging"
+	 "bac-unified/api-gateway/internal/middleware"
+)
+
+// HealthResponse represents the health check response.
+type HealthResponse struct {
+	Status    string `json:"status"`
+	Service   string `json:"service"`
+	Timestamp string `json:"timestamp"`
+	Version   string `json:"version"`
+}
+
+// ProxyRequest represents a request to be proxied to the AI agent.
+type ProxyRequest struct {
+	Target  string                 `json:"target"` // e.g., "http://ai-agent:8080/process"
+	Method  string                 `json:"method"` // HTTP method
+	Body    map[string]interface{} `json:"body,omitempty"`
+	Headers map[string]string      `json:"headers,omitempty"`
+}
+
+// ProxyResponse represents the response from the proxied request.
+type ProxyResponse struct {
+	StatusCode int                    `json:"status_code"`
+	Body       map[string]interface{} `json:"body,omitempty"`
+	Headers    map[string]string      `json:"headers,omitempty"`
+}
+
+func main() {
+	// Set up Gin router
+	r := gin.New()
+	r.Use(gin.Logger())
+	r.Use(gin.Recovery())
+
+	// Health check endpoint
+	r.GET("/health", func(c *gin.Context) {
+		c.JSON(http.StatusOK, HealthResponse{
+			Status:    "ok",
+			Service:   "api-gateway",
+			Timestamp: time.Now().UTC().Format(time.RFC3339),
+			Version:   "0.1.0",
+		})
+	})
+
+	// Messaging service routes
+	msgHandler := messaging.NewHandler()
+	msgLimiter := middleware.RateLimit(60*time.Second, 30)
+
+	// Telegram webhook (proxied to messaging service)
+	r.POST("/webhook/telegram", msgLimiter, func(c *gin.Context) {
+		proxyToService(c, "http://localhost:3001/webhook/telegram")
+	})
+
+	// WhatsApp webhook (proxied to messaging service)
+	r.POST("/webhook/whatsapp", msgLimiter, func(c *gin.Context) {
+		proxyToService(c, "http://localhost:3001/webhook/whatsapp")
+	})
+
+	// Proxy endpoint to forward requests to other services (e.g., AI Agent)
+	r.POST("/proxy", func(c *gin.Context) {
+		var req ProxyRequest
+		if err := c.ShouldBindJSON(&req); err != nil {
+			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+			return
+		}
+
+		// Validate target
+		if req.Target == "" {
+			c.JSON(http.StatusBadRequest, gin.H{"error": "target is required"})
+			return
+		}
+
+		// Default method to GET if not specified
+		method := req.Method
+		if method == "" {
+			method = http.MethodGet
+		}
+
+		// Create HTTP client
+		client := &http.Client{Timeout: 10 * time.Second}
+
+		// Create request
+		var httpReq *http.Request
+		var err error
+		if req.Body != nil {
+			// For simplicity, we assume JSON body. In a real scenario, we might need to handle other types.
+			bodyBytes, err := json.Marshal(req.Body)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to marshal body"})
+				return
+			}
+			httpReq, err = http.NewRequestWithContext(c.Request.Context(), method, req.Target, bytes.NewReader(bodyBytes))
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to create request"})
+				return
+			}
+			httpReq.Header.Set("Content-Type", "application/json")
+		} else {
+			httpReq, err = http.NewRequestWithContext(c.Request.Context(), method, req.Target, nil)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to create request"})
+				return
+			}
+		}
+
+		// Copy headers
+		for key, value := range req.Headers {
+			httpReq.Header.Set(key, value)
+		}
+
+		// Do the request
+		resp, err := client.Do(httpReq)
+		if err != nil {
+			c.JSON(http.StatusBadGateway, gin.H{"error": "failed to contact target service: " + err.Error()})
+			return
+		}
+		defer resp.Body.Close()
+
+		// Read response body
+		respBody, err := io.ReadAll(resp.Body)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to read response body"})
+			return
+		}
+
+		// Prepare response headers
+		respHeaders := make(map[string]string)
+		for key, values := range resp.Header {
+			if len(values) > 0 {
+				respHeaders[key] = values[0]
+			}
+		}
+
+		// Try to unmarshal JSON response, otherwise return as string
+		var respBodyMap map[string]interface{}
+		if err := json.Unmarshal(respBody, &respBodyMap); err != nil {
+			respBodyMap = map[string]interface{}{"raw": string(respBody)}
+		}
+
+		// Return the proxied response
+		c.JSON(resp.StatusCode, ProxyResponse{
+			StatusCode: resp.StatusCode,
+			Body:       respBodyMap,
+			Headers:    respHeaders,
+		})
+	})
+
+	// Get port from environment or default
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+
+	// Create HTTP server
+	srv := &http.Server{
+		Addr:    ":" + port,
+		Handler: r,
+	}
+
+	// Initializing the server in a goroutine so that
+	// it won't block the graceful shutdown handling below
+	go func() {
+		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
+			log.Fatalf("listen: %s\n", err)
+		}
+	}()
+
+	// Wait for interrupt signal to gracefully shutdown the server with
+	// a timeout of 5 seconds.
+	quit := make(chan os.Signal)
+	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
+	<-quit
+	log.Println("Shutting down server...")
+
+	// The context is used to inform the server it has 5 seconds to finish
+	// the request it is currently handling
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
+	if err := srv.Shutdown(ctx); err != nil {
+		log.Fatal("Server forced to shutdown:", err)
+	}
+
+	log.Println("Server exiting")
+}
+
+// proxyToService forwards a request to the messaging service
+func proxyToService(c *gin.Context, target string) {
+	var body map[string]interface{}
+	if err := c.ShouldBindJSON(&body); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		return
+	}
+
+	client := &http.Client{Timeout: 10 * time.Second}
+	reqBody, _ := json.Marshal(body)
+	req, err := http.NewRequestWithContext(c.Request.Context(), http.MethodPost, target, bytes.NewReader(reqBody))
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to create proxy request"})
+		return
+	}
+	req.Header.Set("Content-Type", "application/json")
+
+	resp, err := client.Do(req)
+	if err != nil {
+		c.JSON(http.StatusBadGateway, gin.H{"error": "failed to reach messaging service"})
+		return
+	}
+	defer resp.Body.Close()
+
+	respBody, _ := io.ReadAll(resp.Body)
+	c.Data(resp.StatusCode, "application/json", respBody)
+}
