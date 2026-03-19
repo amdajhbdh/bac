@@ -1,0 +1,86 @@
+# ═══════════════════════════════════════════════════════════════════════
+# AICHT - BAC Knowledge System Configuration
+# ═══════════════════════════════════════════════════════════════════════
+
+# ─── LLM ──────────────────────────────────────────────────────────────
+model: gemini:gemini-3.0-flash
+temperature: 0.7
+top_p: 0.9
+
+# ─── Function Calling ────────────────────────────────────────────────
+function_calling: true
+mapping_tools:
+  gemini: 'gemini_analyze,gemini_extract,gemini_generate,gemini_embed,gemini_correct'
+  vector: 'vector_search,vector_insert,vector_batch,vector_delete'
+  vault: 'vault_read,vault_write,vault_link,vault_moc,vault_search'
+  cloud: 'cloud_ssh,cloud_upload,cloud_download,cloud_ocr'
+  graph: 'graph_generate,graph_extract,graph_export'
+  shell: 'execute_command'
+
+use_tools: null  # Default to all tools when agent starts
+
+# ─── Agent Defaults ──────────────────────────────────────────────────
+agent_prelude: bac-knowledge  # Auto-load BAC agent
+
+# ─── Session ─────────────────────────────────────────────────────────
+save_session: true
+compress_threshold: 6000
+summarize_prompt: |
+  Create a concise summary focusing on: what was requested, actions taken, results achieved.
+
+# ─── RAG ─────────────────────────────────────────────────────────────
+rag_embedding_model: gemini:gemini-embedding-2-preview
+rag_reranker_model: null  # Use reciprocal_rank_fusion
+rag_top_k: 5
+rag_chunk_size: 2048
+rag_chunk_overlap: 256
+
+# ─── Document Loaders ────────────────────────────────────────────────
+document_loaders:
+  pdf: 'pdftotext $1 -'
+  png: 'tesseract $1 stdout -l ara+eng+fra'
+  jpg: 'tesseract $1 stdout -l ara+eng+fra'
+
+# ─── Server ───────────────────────────────────────────────────────────
+serve_addr: 127.0.0.1:8080
+
+# ─── Clients ──────────────────────────────────────────────────────────
+clients:
+  - type: gemini
+    api_key: ${GEMINI_API_KEY}
+    patch:
+      chat_completions:
+        '.*':
+          body:
+            safetySettings:
+              - category: HARM_CATEGORY_HARASSMENT
+                threshold: BLOCK_NONE
+              - category: HARM_CATEGORY_HATE_SPEECH
+                threshold: BLOCK_NONE
+              - category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+                threshold: BLOCK_NONE
+              - category: HARM_CATEGORY_DANGEROUS_CONTENT
+                threshold: BLOCK_NONE
+              - category: HARM_CATEGORY_CIVIC_INTEGRITY
+                threshold: BLOCK_NONE
+
+# ─── Tool Service URLs ──────────────────────────────────────────────
+# These can be overridden via environment variables
+tool_services:
+  gemini: ${GEMINI_TOOLS_URL:-http://localhost:3001}
+  vector: ${VECTOR_TOOLS_URL:-http://localhost:3002}
+  vault: ${VAULT_TOOLS_URL:-http://localhost:3003}
+  cloud: ${CLOUD_TOOLS_URL:-http://localhost:3004}
+  graph: ${GRAPH_TOOLS_URL:-http://localhost:3005}
+
+# ─── Vault ────────────────────────────────────────────────────────────
+vault:
+  path: ${VAULT_PATH:-./resources/notes}
+  default_subject: physics
+  auto_backup: true
+
+# ─── Behavior ──────────────────────────────────────────────────────────
+stream: true
+save: true
+keybindings: emacs
+wrap: auto

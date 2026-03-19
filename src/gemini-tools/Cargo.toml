@@ -1,0 +1,33 @@
+[package]
+name = "gemini-tools"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Gemini API wrapper tool crate"
+
+[dependencies]
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+axum.workspace = true
+tower.workspace = true
+tower-http.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+reqwest.workspace = true
+async-trait.workspace = true
+parking_lot.workspace = true
+clap = { version = "4.5", features = ["derive"] }
+dotenvy = "0.15"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "gemini-tools"
+path = "src/main.rs"

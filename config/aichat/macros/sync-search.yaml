@@ -1,0 +1,24 @@
+# Sync-Search Macro
+# Syncs the vault and performs semantic search with result presentation
+
+variables:
+  - name: query
+    rest: true
+    description: Search query
+    default: ""
+
+steps:
+  # Step 1: Sync vault - pull latest changes from remote
+  - .shell cd resources/notes && git pull origin main
+
+  # Step 2: Rebuild RAG index if needed (check for changes)
+  - .shell cd resources/notes && git diff --quiet HEAD || echo "Changes detected, index may need refresh"
+
+  # Step 3: Invoke the bac-knowledge agent for semantic search
+  - .agent bac-knowledge
+
+  # Step 4: Perform semantic search with the query
+  - 'Search for: {{query}}'
+
+  # Step 5: Present results with context and suggest follow-up actions
+  - 'Summarize the findings, highlight key matches, and suggest relevant follow-up actions based on the search results'

@@ -1,0 +1,49 @@
+[package]
+name = "bac-ocr"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "bac-ocr"
+path = "src/main.rs"
+
+[[bin]]
+name = "extract-pdf"
+path = "src/bin/extract-pdf.rs"
+
+[[bin]]
+name = "batch-extract"
+path = "src/bin/batch-extract.rs"
+
+[[bin]]
+name = "extract-images"
+path = "src/bin/extract-images.rs"
+
+[[bin]]
+name = "ocr-extract"
+path = "src/bin/ocr-extract.rs"
+
+[dependencies]
+axum.workspace = true
+tower.workspace = true
+tower-http.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+anyhow.workspace = true
+reqwest.workspace = true
+unpdf.workspace = true
+rayon = "1.10"
+walkdir = "2.5"
+tesseract = "0.13"
+image = "0.25.5"
+imageproc = "0.25.0"
+
+[lib]
+name = "bac_ocr"
+path = "src/lib.rs"

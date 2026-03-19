@@ -1,0 +1,54 @@
+# Content Processing Workflow Macro
+# Processes new content from source with subject classification
+
+name: process
+description: Automated content processing workflow for knowledge base
+
+variables:
+  - name: source
+    description: Source path or URL to process
+    required: true
+  - name: subject
+    description: Subject area (physics/chemistry/math/biology/general)
+    default: general
+
+steps:
+  # Step 1: Retrieve source content
+  - .agent bac-knowledge
+  - 'Fetch content from {{source}}'
+
+  # Step 2: OCR if image/PDF detected
+  - .skill bac-ocr
+  - 'Extract text from {{source}} using OCR pipeline'
+
+  # Step 3: AI correct OCR errors
+  - .agent bac-knowledge
+  - 'Review and correct OCR text, fix typos and formatting issues'
+
+  # Step 4: Analyze content structure
+  - .agent bac-knowledge
+  - 'Analyze content structure: identify chapters, sections, key concepts for {{subject}} subject'
+
+  # Step 5: Extract entities (concepts, formulas, definitions)
+  - .agent bac-knowledge
+  - 'Extract key entities: concepts, definitions, formulas, theorems from content'
+
+  # Step 6: Generate embeddings
+  - .agent bac-knowledge
+  - 'Generate vector embeddings for semantic search'
+
+  # Step 7: Store in vector database
+  - .agent bac-knowledge
+  - 'Index content in vector database for retrieval'
+
+  # Step 8: Create/update Obsidian note
+  - .skill bac-vault
+  - 'Create or update note in vault with processed content'
+
+  # Step 9: Link to related notes
+  - .skill bac-vault
+  - 'Find and create links to related existing notes based on extracted entities'
+
+  # Step 10: Update relevant MOC (Map of Content)
+  - .skill bac-vault
+  - 'Update {{subject}} MOC with new note reference'

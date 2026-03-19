@@ -1,0 +1,32 @@
+[package]
+name = "cloud-tools"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Cloud Shell integration tool crate"
+
+[dependencies]
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+axum.workspace = true
+tower.workspace = true
+tower-http.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+anyhow.workspace = true
+reqwest.workspace = true
+async-trait.workspace = true
+parking_lot.workspace = true
+
+# Cloud Shell integration
+thiserror.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "cloud-tools"
+path = "src/main.rs"

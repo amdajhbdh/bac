@@ -1,0 +1,225 @@
+# RAG Response Template for aichat
+
+This template defines how to structure responses when using Retrieval-Augmented Generation (RAG) with the knowledge base.
+
+---
+
+## Template Structure
+
+```
+CONTEXT FROM KNOWLEDGE BASE:
+{{context}}
+
+═══════════════════════════════════════════════════════════════
+USER QUESTION: {{input}}
+═══════════════════════════════════════════════════════════════
+
+[Response with context integrated]
+```
+
+---
+
+## Response Generation Guidelines
+
+### 1. Context Integration
+
+When generating responses with RAG context:
+
+1. **Acknowledge the context** - Begin by acknowledging what you found in the knowledge base
+2. **Synthesize information** - Combine retrieved context with your knowledge
+3. **Prioritize accuracy** - Use the retrieved context as the primary source when available
+4. **Fill gaps** - Supplement with your own knowledge when context is incomplete
+
+### 2. Source Citation Format
+
+**Always cite sources using this format:**
+
+```
+[Source: {filename.md}, similarity: {0.XX}]
+```
+
+Examples:
+- `[Source: calculus-fundamentals.md, similarity: 0.87]`
+- `[Source: physics-mechanics.md, similarity: 0.92]`
+- `[Source: chemistry-organic.md, similarity: 0.78]`
+
+When citing within text:
+> According to the retrieved notes on thermodynamics, the second law states that entropy... `[Source: thermodynamics.md, similarity: 0.85]`
+
+### 3. Multi-Source Handling
+
+When multiple sources are retrieved:
+
+```
+Based on the retrieved context from {n} sources:
+
+**Source 1:** {filename.md} [similarity: 0.XX]
+- Key point from this source
+
+**Source 2:** {filename.md} [similarity: 0.XX]  
+- Key point from this source
+
+[Integrated response synthesizing all sources]
+```
+
+### 4. LaTeX and Mathematical Content
+
+**Preserve all LaTeX formatting exactly as in the source:**
+
+- Inline math: `$E = mc^2$`
+- Display math: `$$\int_a^b f(x)\,dx$$`
+- Numbered equations: `\begin{equation}...\end{equation}`
+
+**Do NOT:**
+- Convert LaTeX to plain text
+- Simplify or reformat mathematical notation
+- Replace symbols with approximations
+
+**Do:**
+- Copy LaTeX blocks verbatim from sources
+- Maintain mathematical notation consistency
+- Preserve equation numbering
+
+### 5. Insufficient Context Handling
+
+When context is insufficient or irrelevant:
+
+```
+**Context Analysis:**
+Retrieved {n} result(s) with similarity scores ranging from {min} to {max}.
+
+**Assessment:**
+The retrieved context {is/is not} directly relevant to the question.
+
+**Response Strategy:**
+- Use available context: [brief description of what's relevant]
+- Supplement with: [what additional knowledge is needed]
+- Confidence: [High/Medium/Low based on relevance]
+
+**Response:**
+[Generate response with appropriate caveats]
+```
+
+**Include a confidence disclaimer when context is weak:**
+> Note: The retrieved context has lower relevance (similarity: {score}). This response may need verification.
+
+---
+
+## Response Structure Examples
+
+### Example 1: High Relevance Response
+
+```
+CONTEXT FROM KNOWLEDGE BASE:
+Retrieved 2 results:
+- thermodynamics-laws.md (similarity: 0.91)
+- heat-engines.md (similarity: 0.88)
+
+[Full context text from sources...]
+
+USER QUESTION: Explain the relationship between entropy and the second law of thermodynamics
+
+---
+
+Based on the retrieved notes on thermodynamics, the second law of thermodynamics establishes that entropy... [Full response with citations]
+
+Key equation from the source:
+$$\Delta S \geq \frac{Q}{T}$$
+
+[Source: thermodynamics-laws.md, similarity: 0.91]
+```
+
+### Example 2: Multi-Source Response
+
+```
+CONTEXT FROM KNOWLEDGE BASE:
+Retrieved 3 results:
+- calculus-integration.md (similarity: 0.94)
+- calculus-applications.md (similarity: 0.82)
+- physics-motion.md (similarity: 0.76)
+
+---
+
+Synthesized from {3} sources in the knowledge base:
+
+**Integration Fundamentals** [Source: calculus-integration.md, similarity: 0.94]
+The fundamental theorem of calculus connects differentiation and integration...
+
+**Applications in Physics** [Source: physics-motion.md, similarity: 0.76]
+Integration is used to derive position from velocity...
+
+[Integrated response citing each source appropriately]
+```
+
+### Example 3: Low Relevance Response
+
+```
+CONTEXT FROM KNOWLEDGE BASE:
+Retrieved 1 result:
+- unrelated-topic.md (similarity: 0.32)
+
+---
+
+**Context Analysis:**
+Only one result retrieved with low similarity score (0.32).
+
+**Response:**
+The retrieved context is not directly relevant to your question about...
+[Generate response with appropriate uncertainty]
+
+[Source: unrelated-topic.md, similarity: 0.32] (indirectly related)
+```
+
+---
+
+## Formatting Standards
+
+### For Headers
+```
+## Main Section
+### Subsection
+```
+
+### For Lists
+- Use `-` for unordered lists
+- Use `1.` for ordered lists
+- Maximum 3 levels of nesting
+
+### For Code Blocks
+```language
+code here
+```
+
+### For Tables
+```
+| Column 1 | Column 2 |
+|----------|----------|
+| Data     | Data     |
+```
+
+### For Blockquotes
+> Use for important notes or definitions from sources
+
+---
+
+## Quality Checklist
+
+Before finalizing a RAG response, verify:
+
+- [ ] All retrieved sources are cited
+- [ ] Citations include filename and similarity score
+- [ ] LaTeX/mathematical content is preserved exactly
+- [ ] Response synthesizes context, not just repeats it
+- [ ] Low-relevance contexts are flagged appropriately
+- [ ] Multiple sources are properly integrated
+- [ ] Formatting follows the standards above
+
+---
+
+## Notes
+
+- Similarity scores range from 0.00 to 1.00
+- Scores above 0.80 indicate high relevance
+- Scores between 0.60-0.80 indicate moderate relevance
+- Scores below 0.60 may require additional verification
+- Always prioritize the most relevant sources in your response
