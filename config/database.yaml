@@ -1,25 +1,54 @@
+# Database Configuration
 database:
-  url: "postgresql://neondb_owner:npg_ubkCLmerS03Z@ep-fragrant-violet-ai2ew4vx-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require"
-  max_connections: 10
-  idle_timeout: 30000
-  pooler_mode: "transaction"
+  # Neon PostgreSQL connection
+  url: "${NEON_DATABASE_URL}"
+  
+  # Connection pool
+  pool:
+    max_size: 10
+    min_idle: 2
+    connection_timeout: 30
 
-ai:
-  ollama_endpoint: "http://localhost:11434"
-  model: "minimax-m2.5:cloud"
-  temperature: 0.3
-  max_tokens: 1024
+# pgvector Configuration
+pgvector:
+  extension: pgvector
+  dimension: 1536  # Gemini embedding dimension
+  metric: cosine  # or euclidean, dot_product
+  hnsw:
+    m: 16         # Connections per layer
+    ef_construction: 64  # Build quality
+    ef_search: 40        # Query quality
 
-storage:
-  endpoint: "http://localhost:3900"
-  region: "garage"
-  access_key: "garage_test_key"
-  secret_key: "garage_test_secret"
-  bucket: "bac-unified"
-  local_dir: "./data/storage"
+# Tool Service Endpoints
+services:
+  gemini:
+    url: http://localhost:3001
+  vector:
+    url: http://localhost:3002
+  vault:
+    url: http://localhost:3003
+  cloud:
+    url: http://localhost:3004
+  graph:
+    url: http://localhost:3005
 
-features:
-  predictions: true
-  animations: true
-  gamification: true
-  leaderboard: true
+# Existing Services (unchanged)
+existing_services:
+  api:
+    url: http://localhost:8080
+  ocr:
+    url: http://localhost:8082
+  streaming:
+    url: http://localhost:8083
+
+# Vault Configuration
+vault:
+  path: ./resources/notes
+  default_subject: physics
+  auto_backup: true
+
+# Gemini API
+gemini:
+  api_key: "${GEMINI_API_KEY}"
+  model: gemini-3.0-flash
+  embedding_model: gemini-embedding-2-preview

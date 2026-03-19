@@ -1,10 +1,14 @@
 [workspace]
 members = [
-    "crates/agent",
-    "crates/api",
-    "crates/ocr",
-    "crates/streaming",
+    "src/api",
+    "src/ocr",
+    "src/streaming",
     "crates/test",
+    "src/gemini-tools",
+    "src/vector-tools",
+    "src/vault-tools",
+    "src/cloud-tools",
+    "src/graph-tools",
 ]
 resolver = "2"
 
@@ -30,6 +34,9 @@ thiserror = "2.0"
 reqwest = { version = "0.12", features = ["json"] }
 async-trait = "0.1"
 parking_lot = "0.12"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+regex = "1.10"
+urlencoding = "2.1"
 unpdf = "0.2"
 
 # Testing
