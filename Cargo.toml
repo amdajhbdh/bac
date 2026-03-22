@@ -2,13 +2,14 @@
 members = [
     "src/api",
     "src/ocr",
+    "src/rag",
     "src/streaming",
     "crates/test",
-    "src/gemini-tools",
-    "src/vector-tools",
-    "src/vault-tools",
-    "src/cloud-tools",
-    "src/graph-tools",
+    "src/tools/gemini-tools",
+    "src/tools/vector-tools",
+    "src/tools/vault-tools",
+    "src/tools/cloud-tools",
+    "src/tools/graph-tools",
 ]
 resolver = "2"
 
@@ -39,6 +40,10 @@ chrono = { version = "0.4", features = ["serde"] }
 regex = "1.10"
 urlencoding = "2.1"
 unpdf = "0.2"
+tantivy = "0.22"
+bm25 = "0.2"
+clap = { version = "4.5", features = ["derive"] }
+walkdir = "2.4"
 
 # Testing
 
