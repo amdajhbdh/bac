@@ -58,3 +58,12 @@ zig-out/
 *.o .vscode/
 *.tar.gz
 resources/
+
+# RAG Pipeline
+cache/
+chroma_db/
+.venv/
+__pycache__/
+scripts/__pycache__/
+*.pyc
+.tmp/
