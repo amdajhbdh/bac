@@ -604,4 +604,85 @@ enum ErrorCategory {
 
 ---
 
+## Current Service Structure
+
+### Project Layout (2024)
+
+```
+bac/
+├── Cargo.toml           # Rust workspace config
+├── config/             # Configuration files
+├── docs/               # Documentation
+├── domain_data/        # RAG document storage
+├── scripts/            # Python & shell scripts
+│   ├── cli/          # CLI tools (bac-typer, bac-cli)
+│   ├── ocr/         # OCR processing (18 providers)
+│   ├── rag/         # RAG pipeline (hybrid BM25+vector)
+│   ├── upload/      # Data upload scripts
+│   └── utils/       # Utilities
+└── src/              # Source code
+    ├── api/          # Go API service
+    ├── cloudflare/  # Cloudflare Workers
+    ├── tools/       # AI tools (gemini, vector, vault, graph)
+    ├── services/    # Background services
+    ├── ocr/         # OCR service
+    ├── kilocode/    # Core utilities
+    └── web/         # Web frontend
+```
+
+### Service Relationships Map
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           USER INTERFACE                                    │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐              │
+│  │CLI Tools │  │  Web App │  │Telegram  │  │Mobile App│              │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘              │
+└───────┼──────────────┼──────────────┼──────────────┼────────────────────┘
+        │              │              │              │
+        └──────────────┴──────────────┴──────────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │   API Gateway      │
+                    │   (src/api)       │
+                    └─────────┬─────────┘
+                              │
+         ┌────────────────────┼────────────────────┐
+         │                    │                    │
+         ▼                    ▼                    ▼
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│   OCR Service  │  │  RAG Pipeline  │  │   Database     │
+│  (src/ocr)    │  │ (scripts/rag) │  │  (Upstash)    │
+└────────┬────────┘  └────────┬────────┘  └────────┬────────┘
+         │                      │                    │
+         ▼                      ▼                    ▼
+┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
+│ 18 OCR         │  │ Hybrid Search  │  │ Vector Store   │
+│ Providers       │  │ (BM25+Vector) │  │ (ChromaDB)     │
+└─────────────────┘  └─────────────────┘  └─────────────────┘
+```
+
+### Connected Services
+
+| From | To | Protocol |
+|------|-----|----------|
+| CLI/Web/Mobile | API Gateway | HTTP |
+| API Gateway | OCR Service | Internal |
+| API Gateway | RAG Pipeline | Internal |
+| API Gateway | Database | Redis |
+| OCR Service | External APIs | HTTP (18 providers) |
+| RAG Pipeline | ChromaDB | Local |
+
+### Independent/Standalone Services
+
+| Service | Type | Notes |
+|---------|------|-------|
+| `src/tools/*` | Utilities | Used by main services |
+| `src/cloudflare/*` | Deployment | Public API |
+| `conference_worker.ts` | Standalone | Independent |
+| `kilocode/` | Utilities | Core code |
+
+---
+
 *Architecture decisions are documented in ADRs (Architecture Decision Records) in `/docs/adr/`.*
