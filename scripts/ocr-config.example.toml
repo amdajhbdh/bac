@@ -1,0 +1,211 @@
+# ============================================================
+# BAC OCR Chain Configuration
+# ============================================================
+# Copy to ocr-config.toml and fill in your API keys
+# ============================================================
+
+[providers]
+
+[providers.workers_ai]
+# Cloudflare Workers AI (Llama Vision) — free, built-in
+enabled = true
+tier = "cloud"
+free = true
+url = "https://bac-api.amdajhbdh.workers.dev/rag/ocr"
+
+[providers.mistral]
+# Mistral OCR — ~$0.002/page, best accuracy for French/Arabic
+enabled = true
+tier = "cloud"
+free = false
+api_key = ""  # Set MISTRAL_API_KEY env var
+
+[providers.ocrspace]
+# OCR.space — 500/day free, no key needed
+enabled = true
+tier = "cloud"
+free = true
+api_key = "helloworld"  # Free tier key, no signup needed
+
+[providers.yandex]
+# Yandex Vision OCR — 1K ops/3mo free, French+Arabic
+enabled = true
+tier = "cloud"
+free = true
+# Set YANDEX_IAM_TOKEN and YANDEX_FOLDER_ID env vars
+iam_token = ""  # Set YANDEX_IAM_TOKEN env var
+folder_id = ""  # Set YANDEX_FOLDER_ID env var
+
+[providers.lfm25vl]
+# LFM2.5-VL via Ollama (Cloud Shell) — 696MB Q4_0, best French/Arabic
+enabled = true
+tier = "cloud-shell"
+free = true
+model = "liquidai/lfm2.5-vl-1.6b:q4_0"
+url = "http://localhost:11434"  # Cloud Shell web preview URL
+
+[providers.qwen25vl]
+# Qwen2.5-VL via Ollama — new multimodal model
+enabled = true
+tier = "cloud-shell"
+free = true
+model = "qwen2.5vl:latest"
+url = "http://localhost:11434"
+
+[providers.llava]
+# LLaVA via Ollama — stable vision model
+enabled = true
+tier = "cloud-shell"
+free = true
+model = "llava:latest"
+url = "http://localhost:11434"
+
+[providers.paddle]
+# PaddleOCR — best open-source accuracy, French+Arabic
+enabled = true
+tier = "local"
+free = true
+languages = "fr"  # or "ara" for Arabic, "fra+ara+eng" for all
+
+[providers.easyocr]
+# EasyOCR — deep learning, 80+ languages
+enabled = true
+tier = "local"
+free = true
+languages = ["fr", "ar", "en"]
+
+[providers.tesseract]
+# Tesseract CLI — already configured, French+Arabic+English
+enabled = true
+tier = "local"
+free = true
+languages = "fra+ara+eng"
+# Install: apt install tesseract-ocr tesseract-ocr-fra tesseract-ocr-ara
+
+[providers.glm]
+# GLM-OCR — best for math equations
+enabled = false
+tier = "cloud-shell"
+free = true
+model = "glm-ocr:latest"
+
+[providers.cloudmersive]
+# Cloudmersive — 800/mo free
+enabled = false
+tier = "cloud"
+free = true
+api_key = ""  # Sign up at cloudmersive.com
+
+[providers.abbyy]
+# ABBYY Cloud — 500 pages/mo free, highest accuracy
+enabled = false
+tier = "cloud"
+free = true
+app_id = ""   # ABBYY Cloud account
+password = "" # ABBYY Cloud password
+
+[providers.base64]
+# Base64.ai — $0.01/page, 165+ languages
+enabled = false
+tier = "cloud"
+free = false
+api_key = ""  # Sign up at base64.ai
+
+[providers.ocrapi]
+# OCRAPI.cloud — 250/mo free
+enabled = false
+tier = "cloud"
+free = true
+api_key = ""  # Sign up at ocrapi.cloud
+
+[providers.nanonets]
+# Nanonets — $200 credits
+enabled = false
+tier = "cloud"
+free = false
+api_key = ""  # Sign up at nanonets.com
+
+[providers.mathpix]
+# Mathpix — 10 pages/mo free, best for math/equations
+enabled = false
+tier = "cloud"
+free = true
+app_id = ""   # Mathpix account
+app_key = ""  # Mathpix API key
+
+# ============================================================
+# CHAIN CONFIGURATION
+# ============================================================
+
+[chain]
+# Default fallback chain (order matters)
+default = [
+    "workers",
+    "paddle",
+    "tesseract",
+    "mistral",
+    "ocrspace",
+    "yandex",
+    "easyocr",
+    "llava",
+    "qwen25vl",
+    "lfm25vl",
+]
+
+# Fast chain (fewer providers, faster)
+fast = [
+    "workers",
+    "paddle",
+    "tesseract",
+]
+
+# Best accuracy chain (paid providers included)
+accurate = [
+    "mistral",
+    "workers",
+    "paddle",
+    "yandex",
+    "tesseract",
+]
+
+# French/Arabic optimized chain
+french_arabic = [
+    "mistral",
+    "lfm25vl",
+    "paddle",
+    "tesseract",
+    "yandex",
+    "ocrspace",
+    "easyocr",
+]
+
+# Math/STEM focused chain
+math = [
+    "mistral",
+    "mathpix",
+    "glm",
+    "paddle",
+    "workers",
+]
+
+# ============================================================
+# TIMEBOOKS & LIMITS
+# ============================================================
+
+[timeouts]
+api_timeout = 30      # seconds
+local_timeout = 60     # seconds
+parallel_timeout = 30  # seconds
+
+[limits]
+min_chars = 5        # Minimum chars to consider successful
+max_cost_per_call = 0.01  # USD, skip providers above this
+
+# ============================================================
+# ENDPOINTS
+# ============================================================
+
+[endpoints]
+worker_url = "https://bac-api.amdajhbdh.workers.dev"
+cloud_shell_url = "http://localhost:11434"
+local_server_url = "http://localhost:8081"
