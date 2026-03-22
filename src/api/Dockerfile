@@ -1,33 +1,29 @@
-FROM rust:1.75-slim AS builder
+FROM golang:1.22-alpine AS builder
 
 WORKDIR /app
 
-# Install build dependencies
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    pkg-config \
-    libssl-dev \
-    && rm -rf /var/lib/apt/lists/*
+# Copy go.mod and go.sum
+COPY go.mod go.sum ./
 
-# Copy workspace
-COPY Cargo.toml Cargo.lock ./
-COPY crates/api ./crates/api
+# Download dependencies
+RUN go mod download
 
-# Build
-RUN cargo build --release -p bac-api
+# Copy source code
+COPY . .
+
+# Build the application
+RUN go build -o main ./cmd/main.go
 
 # Final stage
-FROM debian:bookworm-slim
+FROM alpine:latest
 
-RUN apt-get update && apt-get install -y \
-    ca-certificates \
-    libssl3 \
-    && rm -rf /var/lib/apt/lists/*
+WORKDIR /root/
 
-WORKDIR /app
+# Copy the binary from builder
+COPY --from=builder /app/main .
 
-COPY --from=builder /app/target/release/bac-api /app/
-
+# Expose port
 EXPOSE 8080
 
-CMD ["/app/bac-api"]
+# Command to run
+CMD ["./main"]
