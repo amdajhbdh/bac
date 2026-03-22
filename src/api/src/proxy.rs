@@ -272,6 +272,7 @@ async fn tools_status(State(state): State<ProxyState>) -> Json<ToolsStatusRespon
 /// Convert tool service response to API response
 async fn proxy_response(response: reqwest::Response) -> Result<Response, ProxyError> {
     let status = response.status();
+    let content_type = response.headers().get("content-type").cloned();
     let bytes = response
         .bytes()
         .await
@@ -288,7 +289,7 @@ async fn proxy_response(response: reqwest::Response) -> Result<Response, ProxyEr
     let mut builder = Response::builder().status(status);
     
     // Preserve content-type if present
-    if let Some(content_type) = response.headers().get("content-type") {
+    if let Some(content_type) = content_type {
         builder = builder.header("content-type", content_type);
     }
 

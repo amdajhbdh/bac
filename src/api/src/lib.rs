@@ -43,7 +43,8 @@ pub async fn run_with_client(tool_client: client::ToolClient) {
         .merge(proxy::routes(proxy_state))
         .layer(cors);
 
-    let addr = SocketAddr::from(([0, 0, 0, 0], 8080));
+    let port = std::env::var("PORT").ok().and_then(|p| p.parse().ok()).unwrap_or(8081);
+    let addr = SocketAddr::from(([0, 0, 0, 0], port));
     tracing::info!("Starting BAC API server on {}", addr);
 
     let listener = tokio::net::TcpListener::bind(addr).await.unwrap();

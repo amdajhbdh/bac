@@ -58,12 +58,7 @@ fn test_extracted_entities_serde() {
 /// Test JSON parsing for GeneratedNote
 #[test]
 fn test_generated_note_serde() {
-    let json = r#"{
-        "title": "Newton's Laws",
-        "content": "# Introduction\n\nContent here",
-        "format": "markdown"
-    }"#;
-
+    let json = "{\"title\": \"Newton's Laws\", \"content\": \"# Introduction\\n\\nContent here\", \"format\": \"markdown\"}";
     let result: GeneratedNote = serde_json::from_str(json).unwrap();
     assert_eq!(result.title, "Newton's Laws");
     assert!(result.content.contains("Introduction"));

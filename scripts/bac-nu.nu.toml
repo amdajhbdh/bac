@@ -1,0 +1,75 @@
+# BAC Study Nushell Config
+# Add to $nu.config-vars or source in nu config
+
+# Aliases for quick access
+export alias bac-query = ^/usr/bin/env nu /home/med/Documents/bac/scripts/bac-nu.nu query
+export alias bac-solve = ^/usr/bin/env nu /home/med/Documents/bac/scripts/bac-nu.nu solve
+export alias bac-status = ^/usr/bin/env nu /home/med/Documents/bac/scripts/bac-nu.nu status
+export alias bac-practice = ^/usr/bin/env nu /home/med/Documents/bac/scripts/bac-nu.nu practice
+export alias bac-track = ^/usr/bin/env nu /home/med/Documents/bac/scripts/bac-nu.nu track
+export alias bac-search = ^/usr/bin/env nu /home/med/Documents/bac/scripts/bac-nu.nu search
+
+# Direct curl helpers returning tables
+export def bac-status-table [] {
+    let r = (curl -s GET "https://bac-api.amdajhbdh.workers.dev/rag/status" | from json)
+    let s = (curl -s GET "https://bac-api.amdajhbdh.workers.dev/rag/subjects" | from json)
+    
+    let rows = [
+        [metric value]; [total_vectors $r.total_vectors] [dimension $r.dimension] 
+        [biology $s.subject_biology] [chemistry $s.subject_chemistry] 
+        [math $s.subject_math] [physics $s.subject_physics]
+    ]
+    
+    $rows | table
+}
+
+export def bac-subjects [] {
+    let s = (curl -s GET "https://bac-api.amdajhbdh.workers.dev/rag/subjects" | from json)
+    
+    let rows = [
+        [subject count]
+        [biology $s.subject_biology]
+        [chemistry $s.subject_chemistry]
+        [math $s.subject_math]
+        [physics $s.subject_physics]
+    ]
+    
+    $rows | table
+}
+
+export def bac-query-table [question: string] {
+    let r = (curl -s -X POST "https://bac-api.amdajhbdh.workers.dev/rag/query" 
+        -H "Content-Type: application/json" 
+        -d $"{{\"query\": \"($question)\"}}" | from json)
+    
+    print $"(ansi green_bold)Q:(ansi reset) ($question)"
+    print $r.answer
+    print ""
+    
+    let rows = ($r.sources | each { |s| 
+        [($s.subject) ($s.score | into string -d 3) ($s.source | path parse | get -i filename)]
+    })
+    
+    if not ($rows | is-empty) {
+        $rows | table -e
+    }
+}
+
+export def bac-practice-table [] {
+    let r = (curl -s GET "https://bac-api.amdajhbdh.workers.dev/rag/practice" | from json)
+    
+    if $r.question == null {
+        print "No questions available"
+        return
+    }
+    
+    let q = $r.question
+    print $"(ansi cyan)($q.text)(ansi reset)"
+    print $""
+    print $"(ansi dim)Topic: ($q.topic_tags) | ID: ($q.id)(ansi reset)"
+}
+
+# Module export
+export module bac {
+    export use query solve search status practice track
+}

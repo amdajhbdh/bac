@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6366f1">
+  <meta name="description" content="Study system for Moroccan BAC exam preparation">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="BAC Study">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%236366f1' width='100' height='100' rx='20'/><text x='50' y='65' font-size='50' text-anchor='middle' fill='white'>📚</text></svg>">
+  <title>BAC Study</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --surface: #1e293b;
+      --border: #334155;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --primary: #6366f1;
+      --success: #22c55e;
+      --error: #ef4444;
+      --warning: #f59e0b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 1rem; }
+    .container { max-width: 600px; margin: 0 auto; }
+    h1 { text-align: center; color: var(--primary); margin-bottom: 1.5rem; font-size: 1.8rem; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; }
+    .tabs { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .tab { background: var(--surface); border: 1px solid var(--border); color: var(--muted); padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-size: 0.9rem; transition: all 0.2s; }
+    .tab:hover { border-color: var(--primary); color: var(--text); }
+    .tab.active { background: var(--primary); color: white; border-color: var(--primary); }
+    .question-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+    .diff { color: var(--warning); font-size: 0.85rem; }
+    .question-text { font-size: 1.1rem; line-height: 1.6; margin-bottom: 1rem; }
+    textarea { width: 100%; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; color: var(--text); padding: 0.75rem; font-size: 1rem; resize: vertical; min-height: 80px; }
+    textarea:focus { outline: none; border-color: var(--primary); }
+    .btn { background: var(--primary); color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 8px; cursor: pointer; font-size: 1rem; width: 100%; transition: opacity 0.2s; }
+    .btn:hover { opacity: 0.85; }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-secondary { background: var(--surface); border: 1px solid var(--border); }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+    .stat { background: var(--bg); border-radius: 8px; padding: 1rem; text-align: center; }
+    .stat-value { font-size: 1.8rem; font-weight: bold; color: var(--primary); }
+    .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.25rem; }
+    .result { margin-top: 1rem; padding: 1rem; border-radius: 8px; }
+    .result.correct { background: rgba(34,197,94,0.15); border: 1px solid var(--success); }
+    .result.incorrect { background: rgba(239,68,68,0.15); border: 1px solid var(--error); }
+    .result-header { font-size: 1.4rem; font-weight: bold; margin-bottom: 0.5rem; }
+    .result-score { color: var(--warning); font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .result-feedback { color: var(--muted); line-height: 1.5; margin-bottom: 0.75rem; }
+    .result-solution { background: var(--bg); border-radius: 6px; padding: 0.75rem; font-size: 0.9rem; margin-bottom: 0.75rem; }
+    .result-next { color: var(--muted); font-size: 0.85rem; }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    .loading { text-align: center; color: var(--muted); padding: 2rem; }
+    .error { background: rgba(239,68,68,0.15); border: 1px solid var(--error); border-radius: 8px; padding: 1rem; color: var(--error); }
+    .empty { text-align: center; color: var(--muted); padding: 2rem; }
+    .hint { color: var(--muted); font-size: 0.85rem; margin-top: 0.5rem; }
+    .panel-btn { margin-top: 0.5rem; }
+    .filter-row { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+    .filter-row select { background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 0.5rem; border-radius: 6px; }
+    .filter-row button { background: var(--primary); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; }
+    .q-list { max-height: 400px; overflow-y: auto; }
+    .q-item { padding: 0.75rem; border-bottom: 1px solid var(--border); cursor: pointer; transition: background 0.1s; }
+    .q-item:hover { background: var(--bg); }
+    .q-item-header { display: flex; justify-content: space-between; margin-bottom: 0.25rem; }
+    .q-item-text { color: var(--text); font-size: 0.9rem; }
+    .q-item-meta { color: var(--muted); font-size: 0.75rem; }
+    .pagination { display: flex; gap: 0.5rem; justify-content: center; margin-top: 0.75rem; }
+    .pagination button { background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: 0.3rem 0.75rem; border-radius: 6px; cursor: pointer; }
+    .pagination button:disabled { opacity: 0.4; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 BAC Study</h1>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="practice">Pratique</button>
+      <button class="tab" data-tab="query">RAG</button>
+      <button class="tab" data-tab="browse">Parcourir</button>
+      <button class="tab" data-tab="track">Progression</button>
+      <button class="tab" data-tab="status">État</button>
+    </div>
+
+    <div id="practice" class="tab-content active">
+      <div class="card">
+        <div id="practice-content">
+          <div class="loading">Chargement...</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="query" class="tab-content">
+      <div class="card">
+        <div id="query-content">
+          <textarea id="query-input" placeholder="Pose ta question en français..." rows="2" style="width:100%;background:var(--bg);border:1px solid var(--border);color:var(--text);padding:0.75rem;border-radius:8px;font-size:1rem;resize:vertical;"></textarea>
+          <div class="filter-row" style="margin-top:0.5rem;">
+            <select id="query-subject"><option value="">Toutes matières</option><option value="biology">Biologie</option><option value="chemistry">Chimie</option><option value="math">Math</option><option value="physics">Physique</option></select>
+            <button onclick="doRAGQuery()" id="query-btn">Chercher</button>
+          </div>
+          <div id="query-result" style="margin-top:1rem;"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="browse" class="tab-content">
+      <div class="card">
+        <div class="filter-row">
+          <select id="filter-subject"><option value="">Toutes matières</option><option value="math">Math</option><option value="biology">Biologie</option><option value="chemistry">Chimie</option><option value="physics">Physique</option></select>
+          <select id="filter-diff"><option value="">Toutes difficultés</option><option value="1">⭐</option><option value="2">⭐⭐</option><option value="3">⭐⭐⭐</option></select>
+          <button onclick="loadBrowse(0)">Filtrer</button>
+        </div>
+        <div id="browse-content">
+          <div class="loading">Chargement...</div>
+        </div>
+        <div class="pagination" id="browse-pagination"></div>
+      </div>
+    </div>
+
+    <div id="track" class="tab-content">
+      <div class="card">
+        <div id="track-content">
+          <div class="loading">Chargement...</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="status" class="tab-content">
+      <div class="card" id="status-content">
+        <div class="loading">Chargement...</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const WORKER = 'https://bac-api.amdajhbdh.workers.dev';
+    let currentQuestion = null;
+    let browseOffset = 0;
+    const BROWSE_LIMIT = 20;
+
+    async function api(path, method = 'GET', data = null) {
+      const opts = { method, headers: { 'Content-Type': 'application/json' } };
+      if (data) opts.body = JSON.stringify(data);
+      const r = await fetch(WORKER + path, opts);
+      return r.json();
+    }
+
+    document.querySelectorAll('.tab').forEach(t => {
+      t.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(x => x.classList.remove('active'));
+        t.classList.add('active');
+        const tab = t.dataset.tab;
+        document.getElementById(tab).classList.add('active');
+        if (tab === 'track') loadTrack();
+        if (tab === 'status') loadStatus();
+        if (tab === 'browse' && !document.querySelector('#browse-content .q-item')) loadBrowse(0);
+        if (tab === 'practice' && !currentQuestion) loadPractice();
+        if (tab === 'query') document.getElementById('query-input')?.focus();
+        if (t.dataset.tab === 'track') loadTrack();
+        if (t.dataset.tab === 'status') loadStatus();
+        if (t.dataset.tab === 'browse' && !document.querySelector('#browse-content .q-item')) loadBrowse(0);
+        if (t.dataset.tab === 'practice' && !currentQuestion) loadPractice();
+      });
+    });
+
+    async function loadBrowse(offset) {
+      browseOffset = offset;
+      const subj = document.getElementById('filter-subject')?.value || '';
+      const diff = document.getElementById('filter-diff')?.value || '';
+      const el = document.getElementById('browse-content');
+      el.innerHTML = '<div class="loading">Chargement...</div>';
+      try {
+        const params = new URLSearchParams({ limit: BROWSE_LIMIT, offset });
+        if (subj) params.set('subject', subj);
+        if (diff) params.set('difficulty', diff);
+        const r = await api('/rag/questions?' + params);
+        if (!r.questions?.length) {
+          el.innerHTML = '<div class="empty">Aucune question</div>';
+          return;
+        }
+        el.innerHTML = '<div class="q-list">' + r.questions.map(q => `
+          <div class="q-item" onclick="practiceQuestion(${q.id})">
+            <div class="q-item-header">
+              <span>[#${q.id}]</span>
+              <span class="q-item-meta">${'⭐'.repeat(q.difficulty)}</span>
+            </div>
+            <div class="q-item-text">${q.question_text}</div>
+            <div class="q-item-meta">${(q.topic_tags || '').replace(/,/g, ' · ')}</div>
+          </div>
+        `).join('') + '</div>';
+
+        const total = r.total || 0;
+        const pg = document.getElementById('browse-pagination');
+        pg.innerHTML = `
+          <button ${offset === 0 ? 'disabled' : ''} onclick="loadBrowse(${Math.max(0, offset - BROWSE_LIMIT)})">← Préc</button>
+          <span style="padding:0.3rem 0.5rem;color:var(--muted)">${offset + 1}-${Math.min(offset + BROWSE_LIMIT, total)} / ${total}</span>
+          <button ${offset + BROWSE_LIMIT >= total ? 'disabled' : ''} onclick="loadBrowse(${offset + BROWSE_LIMIT})">Suiv →</button>
+        `;
+      } catch (e) {
+        el.innerHTML = `<div class="error">Erreur: ${e.message}</div>`;
+      }
+    }
+
+    function practiceQuestion(id) {
+      document.querySelector('[data-tab="practice"]').click();
+      currentQuestion = { id, text: 'Loading...', difficulty: 1 };
+      loadPracticeById(id);
+    }
+
+    async function loadPracticeById(id) {
+      const el = document.getElementById('practice-content');
+      el.innerHTML = '<div class="loading">Chargement...</div>';
+      try {
+        const pv = await api('/rag/grade', 'POST', { question_id: id, preview: true });
+        currentQuestion = { id, text: pv.question, difficulty: 1 };
+        el.innerHTML = `
+          <div class="question-header">
+            <span>#${currentQuestion.id}</span>
+          </div>
+          <div class="question-text">${currentQuestion.text}</div>
+          <textarea id="answer-input" placeholder="Ta réponse..." rows="3"></textarea>
+          <div style="display:flex;gap:0.5rem;margin-top:0.75rem;">
+            <button class="btn" onclick="submitAnswer()">Valider</button>
+            <button class="btn btn-secondary" onclick="previewAnswer()">Voir solution</button>
+          </div>
+          <div id="result-area"></div>
+        `;
+      } catch (e) {
+        el.innerHTML = `<div class="error">Erreur: ${e.message}</div>`;
+      }
+    }
+
+    async function loadPractice() {
+      const el = document.getElementById('practice-content');
+      el.innerHTML = '<div class="loading">Nouvelle question...</div>';
+      try {
+        const r = await api('/rag/practice');
+        if (!r.question) {
+          el.innerHTML = '<div class="empty">Pas de questions disponibles</div>';
+          return;
+        }
+        currentQuestion = r.question;
+        el.innerHTML = `
+          <div class="question-header">
+            <span>#${currentQuestion.id}</span>
+            <span class="diff">${'⭐'.repeat(currentQuestion.difficulty)}</span>
+          </div>
+          <div class="question-text">${currentQuestion.text}</div>
+          <textarea id="answer-input" placeholder="Ta réponse..." rows="3"></textarea>
+          <div style="display:flex;gap:0.5rem;margin-top:0.75rem;">
+            <button class="btn" onclick="submitAnswer()">Valider</button>
+            <button class="btn btn-secondary" onclick="previewAnswer()">Voir solution</button>
+          </div>
+          <div id="result-area"></div>
+        `;
+      } catch (e) {
+        el.innerHTML = `<div class="error">Erreur: ${e.message}</div>`;
+      }
+    }
+
+    async function submitAnswer() {
+      const answer = document.getElementById('answer-input').value.trim();
+      if (!answer) return;
+      const btn = document.querySelector('.card .btn');
+      btn.disabled = true;
+      btn.textContent = 'Notation...';
+
+      try {
+        const r = await api('/rag/grade', 'POST', {
+          question_id: currentQuestion.id,
+          user_answer: answer
+        });
+        showResult(r);
+      } catch (e) {
+        document.getElementById('result-area').innerHTML = `<div class="error">Erreur: ${e.message}</div>`;
+      }
+      btn.disabled = false;
+      btn.textContent = 'Valider';
+    }
+
+    async function previewAnswer() {
+      try {
+        const r = await api('/rag/grade', 'POST', {
+          question_id: currentQuestion.id,
+          preview: true
+        });
+        document.getElementById('result-area').innerHTML = `
+          <div class="result">
+            <div class="result-solution"><strong>Solution:</strong> ${r.solution || 'N/A'}</div>
+          </div>
+        `;
+      } catch (e) {
+        document.getElementById('result-area').innerHTML = `<div class="error">Erreur: ${e.message}</div>`;
+      }
+    }
+
+    function showResult(r) {
+      const cls = r.correct ? 'correct' : 'incorrect';
+      document.getElementById('result-area').innerHTML = `
+        <div class="result ${cls}">
+          <div class="result-header">${r.correct ? '✅ Correct!' : '❌ Incorrect'}</div>
+          <div class="result-score">Score: ${r.score}/5 — FSRS: ${r.rating || 'N/A'}</div>
+          ${r.feedback ? `<div class="result-feedback">${r.feedback}</div>` : ''}
+          <div class="result-solution"><strong>Solution:</strong> ${r.solution || 'N/A'}</div>
+          <div class="result-next">📅 Prochaine révision: ${(r.next_review || '').slice(0,10)} · État: ${r.state}</div>
+        </div>
+        <button class="btn btn-secondary" style="margin-top:1rem;" onclick="currentQuestion=null;loadPractice()">Question suivante →</button>
+      `;
+    }
+
+    async function loadTrack() {
+      const el = document.getElementById('track-content');
+      try {
+        const r = await api('/rag/track');
+        const s = r.stats || {};
+        el.innerHTML = `
+          <div class="stats">
+            <div class="stat"><div class="stat-value">${s.attempted || 0}/${s.total_questions || 0}</div><div class="stat-label">Tentées</div></div>
+            <div class="stat"><div class="stat-value">${s.accuracy || 0}%</div><div class="stat-label">Précision</div></div>
+            <div class="stat"><div class="stat-value">${s.due_now || 0}</div><div class="stat-label">En retard</div></div>
+            <div class="stat"><div class="stat-value">${s.total_reviews || 0}</div><div class="stat-label">Révisions</div></div>
+            <div class="stat"><div class="stat-value">${s.lapses || 0}</div><div class="stat-label">Oubliées</div></div>
+          </div>
+          ${r.due_questions?.length ? `
+            <h3 style="margin:1rem 0 0.5rem;font-size:1rem;">⏰ En retard</h3>
+            ${r.due_questions.map(q => `<div style="padding:0.5rem 0;border-bottom:1px solid var(--border);font-size:0.9rem;">[${q.id}] ${q.question_text?.slice(0,60)}</div>`).join('')}
+          ` : '<p style="margin-top:1rem;color:var(--muted);">🎉 Pas de questions en retard!</p>'}
+        `;
+      } catch (e) {
+        el.innerHTML = `<div class="error">Erreur: ${e.message}</div>`;
+      }
+    }
+
+    async function loadStatus() {
+      const el = document.getElementById('status-content');
+      try {
+        const [r1, r2] = await Promise.all([api('/rag/status'), api('/rag/track')]);
+        el.innerHTML = `
+          <div class="stats">
+            <div class="stat"><div class="stat-value">${r1.total_vectors || 0}</div><div class="stat-label">Vecteurs RAG</div></div>
+            <div class="stat"><div class="stat-value">${r1.dimension || 0}</div><div class="stat-label">Dimension</div></div>
+            <div class="stat"><div class="stat-value">${r2.stats?.total_questions || 0}</div><div class="stat-label">Questions</div></div>
+          </div>
+          <p class="hint" style="margin-top:1rem;text-align:center;">RAG: Upstash Vector · Pratique: D1 SQLite · AI: Workers AI</p>
+        `;
+      } catch (e) {
+        el.innerHTML = `<div class="error">Erreur: ${e.message}</div>`;
+      }
+    }
+
+    async function doRAGQuery() {
+      const input = document.getElementById('query-input');
+      const btn = document.getElementById('query-btn');
+      const el = document.getElementById('query-result');
+      const q = input?.value.trim();
+      if (!q) return;
+      btn.disabled = true;
+      btn.textContent = 'Recherche...';
+      el.innerHTML = '<div class="loading">Recherche en cours...</div>';
+      try {
+        const data = { query: q };
+        const subj = document.getElementById('query-subject')?.value;
+        if (subj) data.subjects = [subj];
+        const r = await api('/rag/query', 'POST', data);
+        if (r.answer) {
+          el.innerHTML = `<div class="question-text" style="white-space:pre-wrap;line-height:1.6;">${r.answer}</div>` +
+            (r.sources?.length ? `<div style="margin-top:1rem;color:var(--muted);font-size:0.8rem;">Sources: ${r.sources.map(s => s.subject).join(', ')}</div>` : '');
+        } else if (r.error) {
+          el.innerHTML = `<div class="error">${r.error.includes('4006') ? 'Workers AI épuisé — réessaie demain.' : r.error}</div>`;
+        } else {
+          el.innerHTML = '<div class="empty">Pas de réponse trouvée.</div>';
+        }
+      } catch (e) {
+        el.innerHTML = `<div class="error">Erreur: ${e.message}</div>`;
+      }
+      btn.disabled = false;
+      btn.textContent = 'Chercher';
+    }
+
+    document.getElementById('query-input')?.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); doRAGQuery(); }
+    });
+
+    loadPractice();
+
+    // Register service worker for PWA
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(() => {
+        console.log('PWA Service Worker registered');
+      }).catch(err => console.log('SW registration failed:', err));
+    }
+  </script>
+</body>
+</html>

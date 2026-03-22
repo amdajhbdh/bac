@@ -144,7 +144,7 @@ mod tests {
 
         let dot = export_dot(&canvas, "Test");
 
-        assert!(dot.contains("digraph Test"));
+        assert!(dot.contains("digraph n_Test"));
         assert!(dot.contains("A"));
         assert!(dot.contains("B"));
         assert!(dot.contains("->"));

@@ -125,6 +125,14 @@ pub enum AppError {
     Anyhow(anyhow::Error),
 }
 
+impl std::fmt::Display for AppError {
+    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+        match self {
+            AppError::Anyhow(e) => write!(f, "{}", e),
+        }
+    }
+}
+
 impl IntoResponse for AppError {
     fn into_response(self) -> axum::response::Response {
         let (status, message) = match self {

@@ -14,7 +14,7 @@ pub struct EmbedRequest {
 }
 
 /// Embedding result
-#[derive(Debug, Serialize)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct Embedding {
     pub values: Vec<f32>,
     pub model: String,

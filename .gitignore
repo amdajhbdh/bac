@@ -67,3 +67,30 @@ __pycache__/
 scripts/__pycache__/
 *.pyc
 .tmp/
+
+# Python
+.venv/
+venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+
+# Node
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cloudflare
+.wrangler/

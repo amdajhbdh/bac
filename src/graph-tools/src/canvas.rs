@@ -106,11 +106,12 @@ mod tests {
         let mut canvas = generate_canvas("Test");
         let subject_id = canvas.nodes[0].id.clone();
         let concept_id = add_concept_node(&mut canvas, "Child", 100.0, 200.0, None);
+        let concept_id_clone = concept_id.clone();
 
-        add_edge(&mut canvas, subject_id, concept_id, EdgeType::Arrow);
+        add_edge(&mut canvas, subject_id.clone(), concept_id, EdgeType::Arrow);
 
         assert_eq!(canvas.edges.len(), 1);
         assert_eq!(canvas.edges[0].from_node, subject_id);
-        assert_eq!(canvas.edges[0].to_node, concept_id);
+        assert_eq!(canvas.edges[0].to_node, concept_id_clone);
     }
 }

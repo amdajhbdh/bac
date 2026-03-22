@@ -25,9 +25,7 @@ fn test_add_concept_node() {
     let id = canvas::add_concept_node(&mut canvas, "New Concept", 100.0, 200.0, None);
 
     assert_eq!(canvas.nodes.len(), 2);
-    assert!(canvas.nodes[1]
-        .id
-        .starts_with(&id[..id - 1.min(id.len() - 1)]));
+    assert!(canvas.nodes[1].id.starts_with(&id));
 }
 
 /// Test adding edges
@@ -36,17 +34,18 @@ fn test_add_edge() {
     let mut canvas = canvas::generate_canvas("Test");
     let subject_id = canvas.nodes[0].id.clone();
     let concept_id = canvas::add_concept_node(&mut canvas, "Child", 100.0, 200.0, None);
+    let concept_id_clone = concept_id.clone();
 
     canvas::add_edge(
         &mut canvas,
-        subject_id,
+        subject_id.clone(),
         concept_id,
         graph_tools::models::EdgeType::Arrow,
     );
 
     assert_eq!(canvas.edges.len(), 1);
     assert_eq!(canvas.edges[0].from_node, subject_id);
-    assert_eq!(canvas.edges[0].to_node, concept_id);
+    assert_eq!(canvas.edges[0].to_node, concept_id_clone);
 }
 
 /// Test entity extraction from content
@@ -65,7 +64,7 @@ Force:: A push or pull on an object
 /// Test building relationships from entities
 #[test]
 fn test_build_relationships() {
-    let entities = Entities::new();
+    let mut entities = Entities::new();
     entities.add_concept(graph_tools::models::Concept::new("Concept A", "note.md"));
     entities.add_concept(graph_tools::models::Concept::new("Concept B", "note.md"));
 
@@ -112,7 +111,7 @@ fn test_export_dot() {
 
     let dot = export::export_dot(&canvas, "TestGraph");
 
-    assert!(dot.contains("digraph TestGraph"));
+    assert!(dot.contains("digraph n_TestGraph"));
     assert!(dot.contains("A"));
     assert!(dot.contains("B"));
     assert!(dot.contains("->"));

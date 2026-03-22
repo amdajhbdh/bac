@@ -129,32 +129,80 @@ impl PgVectorClient {
 
     // URL parsing helpers
     fn parse_host(url: &str) -> String {
-        Self::extract_param(url, "host=").unwrap_or_else(|| "localhost".to_string())
+        // Try to parse from standard format: postgresql://user:pass@host:port/dbname
+        let host = url
+            .split("://")
+            .nth(1)
+            .and_then(|s| s.split('@').nth(1))
+            .and_then(|s| s.split(':').next());
+        
+        // Fallback to host parameter if present or default
+        host.map(|h| h.to_string())
+            .or_else(|| Self::extract_param(url, "host="))
+            .unwrap_or_else(|| "localhost".to_string())
     }
 
     fn parse_port(url: &str) -> u16 {
-        Self::extract_param(url, "port=")
-            .and_then(|s| s.parse().ok())
+        // Try to parse from standard format: postgresql://user:pass@host:port/dbname
+        let port = url
+            .split("://")
+            .nth(1)
+            .and_then(|s| s.split('@').nth(1))
+            .and_then(|s| s.split(':').nth(1))
+            .and_then(|s| s.split('/').next())
+            .and_then(|p| p.parse().ok());
+        
+        // Fallback to port parameter if present or default
+        port.or_else(|| Self::extract_param(url, "port=").and_then(|s| s.parse().ok()))
             .unwrap_or(5432)
     }
 
     fn parse_user(url: &str) -> String {
-        Self::extract_param(url, "user=").unwrap_or_else(|| "postgres".to_string())
+        // Try to parse from standard format: postgresql://user:pass@host:port/dbname
+        let user = url
+            .split("://")
+            .nth(1)
+            .and_then(|s| s.split(':').next());
+        
+        // Fallback to user parameter if present or default
+        user.map(|u| u.to_string())
+            .or_else(|| Self::extract_param(url, "user="))
+            .unwrap_or_else(|| "postgres".to_string())
     }
 
     fn parse_password(url: &str) -> String {
-        Self::extract_param(url, "password=").unwrap_or_default()
+        // Try to parse from standard format: postgresql://user:pass@host:port/dbname
+        let pass = url
+            .split("://")
+            .nth(1)
+            .and_then(|s| s.split(':').nth(1))
+            .and_then(|s| s.split('@').next());
+        
+        // Fallback to password parameter if present or default
+        pass.map(|p| p.to_string())
+            .or_else(|| Self::extract_param(url, "password="))
+            .unwrap_or_default()
     }
 
     fn parse_dbname(url: &str) -> String {
-        Self::extract_param(url, "dbname=").unwrap_or_else(|| "postgres".to_string())
+        // Try to parse from standard format: postgresql://user:pass@host:port/dbname
+        let dbname = url
+            .split("://")
+            .nth(1)
+            .and_then(|s| s.split('@').nth(1))
+            .and_then(|s| s.split('/').nth(1))
+            .and_then(|s| s.split('?').next());
+        
+        // Fallback to dbname parameter if present or default
+        dbname.map(|d| d.to_string())
+            .or_else(|| Self::extract_param(url, "dbname="))
+            .unwrap_or_else(|| "postgres".to_string())
     }
 
     fn extract_param(url: &str, prefix: &str) -> Option<String> {
-        let after_slash = url.split('@').last()?;
-        let params = after_slash.split('?').next()?;
+        let query = url.split('?').nth(1)?;
         
-        params
+        query
             .split('&')
             .find(|p| p.starts_with(prefix))
             .map(|p| p[prefix.len()..].to_string())
