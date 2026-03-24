@@ -7,22 +7,12 @@ use std::path::PathBuf;
 use std::sync::Arc;
 
 use anyhow::Result;
-use async_trait::async_trait;
-use axum::{
-    extract::{Query, State},
-    http::StatusCode,
-    response::{IntoResponse, Response},
-    routing::{get, post},
-    Json, Router,
-};
 use parking_lot::RwLock;
 use serde::{Deserialize, Serialize};
 use tantivy::collector::TopDocs;
 use tantivy::query::QueryParser;
 use tantivy::schema::*;
 use tantivy::{doc, Index, IndexWriter, ReloadPolicy};
-use tower_http::cors::CorsLayer;
-use tracing::{error, info};
 
 // ============================================================================
 // Data Types
@@ -266,7 +256,7 @@ impl RagEngine {
     }
 
     fn bm25_search(&self, query: &str, k: usize) -> Vec<RetrievalResult> {
-        use bm25::BM25;
+        use bm25::{SearchEngineBuilder, Language};
         
         let documents = self.content_store.read();
         if documents.is_empty() {
@@ -277,24 +267,25 @@ impl RagEngine {
             .map(|d| d.content.clone())
             .collect();
         
-        let mut bm25 = BM25::new(corpus);
-        bm25.index();
+        let search_engine = SearchEngineBuilder::<u32>::with_corpus(Language::English, &corpus).build();
+        let bm25_results = search_engine.search(query, k);
         
-        let scores = bm25.search(query);
-        
-        let mut results: Vec<RetrievalResult> = documents.iter()
-            .enumerate()
-            .map(|(i, d)| RetrievalResult {
-                content: d.content.chars().take(500).collect(),
-                score: scores[i],
-                source: "bm25".to_string(),
-                doc_type: d.doc_type.clone(),
-                path: d.path.clone(),
+        let mut results: Vec<RetrievalResult> = bm25_results.into_iter()
+            .take(k)
+            .map(|r| {
+                let doc_idx = r.document.id;
+                let doc = &documents[doc_idx as usize];
+                RetrievalResult {
+                    content: doc.content.chars().take(500).collect(),
+                    score: r.score,
+                    source: "bm25".to_string(),
+                    doc_type: doc.doc_type.clone(),
+                    path: doc.path.clone(),
+                }
             })
             .collect();
         
         results.sort_by(|a, b| b.score.partial_cmp(&a.score).unwrap_or(std::cmp::Ordering::Equal));
-        results.truncate(k);
         
         results
     }
@@ -302,4 +293,11 @@ impl RagEngine {
     pub fn indexed_count(&self) -> usize {
         self.content_store.read().len()
     }
+
+    pub fn cache_len(&self) -> usize {
+        self.cache.len()
+    }
 }
+
+unsafe impl Send for RagEngine {}
+unsafe impl Sync for RagEngine {}

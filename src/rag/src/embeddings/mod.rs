@@ -1,7 +1,6 @@
 //! Sentence Embeddings using Jina AI API
 
 use anyhow::Result;
-use async_trait::async_trait;
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Clone)]

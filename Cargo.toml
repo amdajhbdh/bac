@@ -3,8 +3,6 @@ members = [
     "src/api",
     "src/ocr",
     "src/rag",
-    "src/streaming",
-    "crates/test",
     "src/tools/gemini-tools",
     "src/tools/vector-tools",
     "src/tools/vault-tools",

@@ -1,29 +1,29 @@
 //! BAC RAG Pipeline Binary
 
-use bac_rag::{
-    AppState, QueryRequest, QueryResponse,
-    routes as rag_routes, RagEngine,
-};
+use bac_rag::{QueryRequest, QueryResponse, RagEngine};
 use anyhow::Result;
 use axum::{
-    extract::{Query, State},
+    extract::State,
     http::StatusCode,
-    response::{IntoResponse, Response},
+    response::IntoResponse,
     routing::{get, post},
     Json, Router,
 };
-use parking_lot::RwLock;
 use serde::{Deserialize, Serialize};
 use std::path::PathBuf;
 use std::sync::Arc;
+use tokio::sync::RwLock;
 use tower_http::cors::CorsLayer;
 use tracing::{error, info};
 use tracing_subscriber;
 
 #[derive(Clone)]
 pub struct AppState {
-    pub engine: Arc<RwLock<Option<RagEngine>>>,
+    engine: Arc<RwLock<Option<RagEngine>>>,
 }
+
+unsafe impl Send for AppState {}
+unsafe impl Sync for AppState {}
 
 impl AppState {
     pub fn new() -> Self {
@@ -34,9 +34,76 @@ impl AppState {
 
     pub async fn init(&self, data_dir: PathBuf) -> Result<()> {
         let engine = RagEngine::new(data_dir).await?;
-        *self.engine.write() = Some(engine);
+        *self.engine.write().await = Some(engine);
         Ok(())
     }
+    
+    pub fn engine(&self) -> Arc<RwLock<Option<RagEngine>>> {
+        self.engine.clone()
+    }
+}
+
+async fn query_handler(
+    State(state): State<AppState>,
+    Json(request): Json<QueryRequest>,
+) -> impl IntoResponse {
+    let engine = state.engine.read().await;
+    let engine = match engine.as_ref() {
+        Some(e) => e,
+        None => return StatusCode::SERVICE_UNAVAILABLE.into_response(),
+    };
+    
+    match engine.query(&request).await {
+        Ok(response) => Json(response).into_response(),
+        Err(e) => {
+            error!("Query error: {}", e);
+            StatusCode::INTERNAL_SERVER_ERROR.into_response()
+        }
+    }
+}
+
+async fn index_handler(
+    State(state): State<AppState>,
+    Json(request): Json<IndexRequest>,
+) -> impl IntoResponse {
+    let engine = state.engine.read().await;
+    let engine = match engine.as_ref() {
+        Some(e) => e,
+        None => return StatusCode::SERVICE_UNAVAILABLE.into_response(),
+    };
+    
+    let content = match std::fs::read_to_string(&request.path) {
+        Ok(c) => c,
+        Err(_) => return StatusCode::NOT_FOUND.into_response(),
+    };
+    
+    let doc_type = request.doc_type.unwrap_or_else(|| "default".to_string());
+    
+    match engine.index_documents(vec![(request.path, content, doc_type)]).await {
+        Ok(count) => Json(IndexResponse {
+            indexed: count,
+            status: "indexed".to_string(),
+        }).into_response(),
+        Err(e) => {
+            error!("Index error: {}", e);
+            StatusCode::INTERNAL_SERVER_ERROR.into_response()
+        }
+    }
+}
+
+async fn health_handler(State(state): State<AppState>) -> impl IntoResponse {
+    let engine = state.engine.read().await;
+    let (status, indexed, cache_size) = if let Some(e) = engine.as_ref() {
+        ("ok".to_string(), e.indexed_count(), e.cache_len())
+    } else {
+        ("initializing".to_string(), 0, 0)
+    };
+    
+    Json(HealthResponse {
+        status,
+        indexed_docs: indexed,
+        cache_size,
+    })
 }
 
 pub fn routes(state: AppState) -> Router {
@@ -48,64 +115,6 @@ pub fn routes(state: AppState) -> Router {
         .route("/health", get(health_handler))
         .layer(cors)
         .with_state(state)
-}
-
-async fn query_handler(
-    State(state): State<AppState>,
-    Json(request): Json<QueryRequest>,
-) -> Result<Response, StatusCode> {
-    let engine = state.engine.read();
-    let engine = engine.as_ref().ok_or(StatusCode::SERVICE_UNAVAILABLE)?;
-    
-    match engine.query(&request).await {
-        Ok(response) => Ok(Json(response).into_response()),
-        Err(e) => {
-            error!("Query error: {}", e);
-            Err(StatusCode::INTERNAL_SERVER_ERROR)
-        }
-    }
-}
-
-async fn index_handler(
-    State(state): State<AppState>,
-    Json(request): Json<IndexRequest>,
-) -> Result<Response, StatusCode> {
-    let engine = state.engine.read();
-    let engine = engine.as_ref().ok_or(StatusCode::SERVICE_UNAVAILABLE)?;
-    
-    let content = std::fs::read_to_string(&request.path)
-        .map_err(|_| StatusCode::NOT_FOUND)?;
-    
-    let doc_type = request.doc_type.unwrap_or_else(|| "default".to_string());
-    
-    match engine.index_documents(vec![(request.path, content, doc_type)]).await {
-        Ok(count) => {
-            let response = IndexResponse {
-                indexed: count,
-                status: "indexed".to_string(),
-            };
-            Ok(Json(response).into_response())
-        }
-        Err(e) => {
-            error!("Index error: {}", e);
-            Err(StatusCode::INTERNAL_SERVER_ERROR)
-        }
-    }
-}
-
-async fn health_handler(State(state): State<AppState>) -> impl IntoResponse {
-    let engine = state.engine.read();
-    let (status, indexed, cache_size) = if let Some(e) = engine.as_ref() {
-        ("ok".to_string(), e.indexed_count(), e.cache.len())
-    } else {
-        ("initializing".to_string(), 0, 0)
-    };
-    
-    Json(HealthResponse {
-        status,
-        indexed_docs: indexed,
-        cache_size,
-    })
 }
 
 #[derive(Debug, Deserialize)]
@@ -166,10 +175,12 @@ async fn main() -> Result<()> {
             let state = AppState::new();
             state.init(PathBuf::from(data_dir)).await?;
             
+            let app = routes(state);
+            
             let addr = format!("0.0.0.0:{}", port);
             let listener = tokio::net::TcpListener::bind(&addr).await?;
             
-            axum::serve(listener, routes(state)).await?;
+            axum::serve(listener, app).await?;
         }
         Commands::Query { query, url } => {
             let client = reqwest::Client::new();

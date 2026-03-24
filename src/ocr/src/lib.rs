@@ -3,6 +3,7 @@
 //! OCR processing service for BAC Unified platform using unpdf and tesseract.
 //! Can delegate heavy OCR tasks to cloud-tools via CLOUD_TOOLS_URL.
 
+use anyhow::anyhow;
 use axum::{
     Router,
     extract::{Path as PathExtractor, Query, State},
@@ -13,7 +14,7 @@ use axum::{
 };
 use reqwest::Client;
 use serde::{Deserialize, Serialize};
-use std::net::SocketAddr;
+use std::{f32::consts::E, net::SocketAddr};
 use std::path::{Path, PathBuf};
 use std::sync::Arc;
 use tower_http::cors::CorsLayer;
@@ -79,10 +80,10 @@ pub enum ImageFormat {
 }
 
 /// Output format for PDF extraction
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Clone, PartialEq, Serialize)]
 pub enum OutputFormat {
     Markdown,
-    PlainText,
+    Text,
     Json,
 }
 
@@ -107,8 +108,8 @@ impl Default for ExtractionConfig {
 }
 
 /// Extraction result with metadata
-#[derive(Debug, Clone)]
-pub struct ExtractionResult {
+#[derive(Debug, Clone, Serialize)]
+pub(crate) struct ExtractionResult {
     pub content: String,
     pub format: OutputFormat,
     pub file_path: String,
@@ -229,7 +230,7 @@ pub async fn process_pdf(file_path: &str) -> Result<String, anyhow::Error> {
         extract_text_from_pdf(path)
     })
     .await?
-    .map_err(|e| anyhow::anyhow!(e))
+    .map_err(|e| anyhow!(e))
 }
 
 /// Process a PDF file and return Markdown format
@@ -239,7 +240,7 @@ pub async fn process_pdf_to_markdown(file_path: &str) -> Result<String, anyhow::
         pdf_to_markdown(path)
     })
     .await?
-    .map_err(|e| anyhow::anyhow!(e))
+    .map_err(|e| anyhow!(e))
 }
 
 /// Batch extract PDFs from directory (parallel processing)
@@ -251,7 +252,7 @@ pub async fn batch_extract(
     let dir_path = Path::new(directory);
     
     if !dir_path.is_dir() {
-        return Err(anyhow::anyhow!("Directory does not exist: {}", directory));
+        return Err(anyhow!("Directory does not exist: {}", directory));
     }
     
     // Find all PDF files
@@ -275,7 +276,7 @@ pub async fn batch_extract(
         .par_iter()
         .map(|pdf_path| {
             tracing::debug!("Processing: {}", pdf_path.file_name().unwrap().to_string_lossy());
-            extract_pdf_with_stats(pdf_path, &config).map_err(|e| anyhow::anyhow!(e))
+            extract_pdf_with_stats(pdf_path, &config).map_err(|e| anyhow!(e))
         })
         .collect();
     
@@ -425,7 +426,7 @@ pub fn process_standalone_images(
     let output_path = Path::new(output_dir);
     
     if !input_path.is_dir() {
-        return Err(anyhow::anyhow!("Input directory does not exist: {}", image_dir));
+        return Err(anyhow!("Input directory does not exist: {}", image_dir));
     }
     
     std::fs::create_dir_all(output_path)?;
@@ -527,7 +528,7 @@ pub fn perform_ocr_on_image<P: AsRef<Path>>(image_path: P) -> Result<String, any
     
     // Check if file exists
     if !image_path.exists() {
-        return Err(anyhow::anyhow!("Image file does not exist: {:?}", image_path));
+        return Err(anyhow!("Image file does not exist: {:?}", image_path));
     }
     
     // Read image file bytes
@@ -552,7 +553,7 @@ pub fn perform_ocr_on_directory<P: AsRef<Path>>(
     let dir_path = image_dir.as_ref();
     
     if !dir_path.is_dir() {
-        return Err(anyhow::anyhow!("Directory does not exist: {:?}", dir_path));
+        return Err(anyhow!("Directory does not exist: {:?}", dir_path));
     }
     
     // Find all image files
@@ -564,7 +565,7 @@ pub fn perform_ocr_on_directory<P: AsRef<Path>>(
         .map(|image_path| {
             match perform_ocr_on_image(image_path) {
                 Ok(text) => Ok((image_path.clone(), text)),
-                Err(e) => Err(anyhow::anyhow!("Failed to OCR {:?}: {}", image_path, e)),
+                Err(e) => Err(anyhow!("Failed to OCR {:?}: {}", image_path, e)),
             }
         })
         .collect();
@@ -832,19 +833,21 @@ async fn extract_pdf(
         ).into_response();
     }
 
-    let format = req.format.as_deref().unwrap_or("markdown");
+    let format = req.format.as_deref().unwrap_or("markdown").to_string();
+    let format_response = format.clone();
     
     let result = tokio::task::spawn_blocking({
         let pdf_path = req.pdf_path.clone();
-        move || {
-            match format {
+        let format = format;
+        move || -> Result<String, unpdf::Error> {
+            match format.as_str() {
                 "text" => pdf_to_text(&pdf_path),
                 "json" => {
                     let text = to_markdown(&pdf_path)?;
                     Ok(serde_json::to_string_pretty(&serde_json::json!({
-                        "content": text,
-                        "format": "markdown"
-                    }))?)
+                                            "content": text,
+                                            "format": "markdown"
+                                        })).unwrap())
                 }
                 _ => pdf_to_markdown(&pdf_path),
             }
@@ -857,7 +860,7 @@ async fn extract_pdf(
             Json(serde_json::json!({ 
                 "success": true, 
                 "content": content,
-                "format": format 
+                "format": format_response 
             })).into_response()
         }
         Ok(Err(e)) => {
